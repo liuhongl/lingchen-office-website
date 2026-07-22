@@ -1,0 +1,1171 @@
+{
+  "slug": "agent-os-three-layer-architecture",
+  "category": "行业洞察",
+  "displayTitle": "Agent OS 三层架构：企业 AI 从\"堆工具\"到\"建底座\"的分水岭",
+  "sourceTitle": "灵宸智能Agent OS 三层架构",
+  "summary": "摘要｜企业 AI 的分水岭，不在接入了多少模型，而在模型、知识、权限、流程、审计与结果数据能否沉到同一套可复用的运行底座上；本文把这套底座称为 Agent OS：底座层提供通用能力与统一治理，内核层负责结果回写与持续迭代，应用层承载获客、催收、风控等业务动作，三层是否打通，决定后续场景的复制成本，也决定 AI 能否从试点进入经营系统。",
+  "publishedAt": null,
+  "sourceDocx": "Agent_OS_三层架构_企业AI建底座.docx",
+  "sourceDocxSha256": "165c2408406550e852e28bcfdf84383dfc15164a7152d1dadbd64610a0837d64",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "灵宸智能Agent OS 三层架构",
+      "segments": [
+        {
+          "text": "灵宸智能",
+          "bold": true,
+          "color": "#1A1A1A",
+          "fontSizePt": 22.0
+        },
+        {
+          "text": "Agent OS 三层架构",
+          "bold": true,
+          "color": "#1A1A1A",
+          "fontSizePt": 22.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "alignment": "center",
+        "fontSizePt": 22.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "企业 AI 从“堆工具”走向“建底座”的分水岭",
+      "segments": [
+        {
+          "text": "企业 AI 从“堆工具”走向“建底座”的分水岭",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "abstract",
+      "text": "摘要｜企业 AI 的分水岭，不在接入了多少模型，而在模型、知识、权限、流程、审计与结果数据能否沉到同一套可复用的运行底座上；本文把这套底座称为 Agent OS：底座层提供通用能力与统一治理，内核层负责结果回写与持续迭代，应用层承载获客、催收、风控等业务动作，三层是否打通，决定后续场景的复制成本，也决定 AI 能否从试点进入经营系统。",
+      "segments": [
+        {
+          "text": "摘要｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "企业 AI 的分水岭，不在接入了多少模型，而在模型、知识、权限、流程、审计与结果数据能否沉到同一套可复用的运行底座上；本文把这套底座称为 Agent OS：底座层提供通用能力与统一治理，内核层负责结果回写与持续迭代，应用层承载获客、催收、风控等业务动作，三层是否打通，决定后续场景的复制成本，也决定 AI 能否从试点进入经营系统。",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 200,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "leftTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#F4F6FA",
+        "leftBorder": {
+          "color": "#2E5FA3",
+          "sizeEighthPoints": 20,
+          "spacePoints": 6
+        },
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "keywords",
+      "text": "关键词｜Agent OS · 企业 AI 架构 · 智能体平台 · 数据飞轮 · AI 治理 · 场景复用 · 底座化",
+      "segments": [
+        {
+          "text": "关键词｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "Agent OS · 企业 AI 架构 · 智能体平台 · 数据飞轮 · AI 治理 · 场景复用 · 底座化",
+          "color": "#595959",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "其一，单点工具在首个场景更快更省，可一旦动作跨系统、跨部门或触达客户，接口、身份、知识、审批和日志就会被反复重复建设。",
+      "segments": [
+        {
+          "text": "其一",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，单点工具在首个场景更快更省，可一旦动作跨系统、跨部门或触达客户，接口、身份、知识、审批和日志就会被反复重复建设。",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "其二，底座化前期投入更高，价值到第二、第三个场景才兑现——公共能力沉淀为资产后，新场景的边际成本逐级下降。",
+      "segments": [
+        {
+          "text": "其二",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，底座化前期投入更高，价值到第二、第三个场景才兑现——公共能力沉淀为资产后，新场景的边际成本逐级下降。",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "其三，边界同样清楚，只有一个低频、低风险、无需系统协同的封闭场景时，直接采购成熟工具仍是更合理的选择。",
+      "segments": [
+        {
+          "text": "其三",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，边界同样清楚，只有一个低频、低风险、无需系统协同的封闭场景时，直接采购成熟工具仍是更合理的选择。",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "heading",
+      "text": "变化信号：工具越买越多，协同反而越贵",
+      "segments": [
+        {
+          "text": "变化信号：工具越买越多，协同反而越贵",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "很多企业的第一个 AI 场景都不难：内容团队买写作工具，客服接问答插件，上线快，演示也漂亮；麻烦往往出现在扩张之后——销售要连 CRM，财务要连回款，客服要接工单和录音质检，每个工具都带着自己的账号、知识库、权限模型和日志格式，单个看都在提效，放到公司层面却越跑越沉。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "这不是个别企业的运气问题；麦肯锡 2025 年全球调研显示，88% 的受访组织已在至少一个职能常规使用 AI，约三分之一开始在企业层面规模化，另有 23% 已规模化部署智能体；从“会用”走到“可规模化”，卡点集中在工作流、数据和治理，而不只是模型能力；工具增长一旦快过治理能力，协同费用就会吃掉提效收益，这正是下图两条成本曲线迟早交叉的原因。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "4a0f50b2ee93e09c2793c42b6b351b6a63e01775467411ef45b07bda9b04468a",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 1｜单点采购与底座化的综合交付成本曲线（示意）：拐点位置随系统复杂度与监管要求变化"
+    },
+    {
+      "id": "p-013",
+      "type": "heading",
+      "text": "工具堆叠为什么会在组织层面失控",
+      "segments": [
+        {
+          "text": "工具堆叠为什么会在组织层面失控",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "成本只是表层，更深的麻烦是责任链条被采购边界切碎；市场、销售、客服、法务各买各的工具，每个部门都在做“局部创新”；可当客户数据、品牌事实、审批和审计记录跨部门流动起来，谁对输出负责、谁批准对外动作、谁处理投诉，往往没有统一答案，AI 在生成内容、触达客户、驱动流程，责任却停在某个工具的使用协议里，这个错位迟早要出事。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "第二个麻烦是知识口径失控；同一款产品的价格边界、合规表述和客户案例，可能同时出现在官网、销售邮件、客服答复和合同备注里；每个工具各自维护知识库，更新节奏和版本责任就会散掉，AI 越活跃，口径冲突越频繁——企业缺的从来不是更多知识副本，而是一套有来源、有版本、有生效时间、能被多场景调用的标准事实。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "第三个麻烦是运营数据没有闭环；单点工具能生成看起来不错的答案，却不知道后来有没有带来线索、回款、投诉或流失；结果不回写，模型质量与经营结果之间就没有可验证的关系，管理层也分不清“回答更像人”与“业务更有效”；责任空白、知识冲突、数据断点、审计割裂，这四类风险很少单独出现，通常沿着同一条业务链一起放大。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "1eaf65183f70aadbb5269c6bc9303b935c547082a5a1a6dfc1977835839875ef",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 2｜工具堆叠的组织风险地图：四类风险沿同一业务链同时放大"
+    },
+    {
+      "id": "p-018",
+      "type": "heading",
+      "text": "Agent OS 是什么：三层架构各自解决什么问题",
+      "segments": [
+        {
+          "text": "Agent OS 是什么：三层架构各自解决什么问题",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "先把概念说清楚：本文所说的 Agent OS，不是行业已统一定义的标准产品，而是一种面向企业智能体的架构方法——把可复用的技术与治理能力沉到下面，把带行业差异、流程差异的业务动作留在上面；这样做不是要把所有应用捏成一个“大平台”，而是让模型、知识、权限、审计与人工兜底遵循同一套规则，新增场景时不必从身份认证和日志留痕重新起步。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "拆开看三层的分工；底座层承载通用与垂直模型、记忆、语音、OCR、RPA、视觉识别、上下文工程等能力，也管身份权限、部署边界、接口规范、日志与可观测性；内核层把执行结果、人工复核、异常案例和策略调整回写进知识与规则，并保留版本与责任记录；应用层承载出海获客、批量催收、风控合规、单证审核这些具体场景；三层之间不是简单的上下调用，而是“统一能力—持续学习—业务验收”的闭环。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "判断三层是否成立，抓一句话：底座要能跨应用复用，内核要能按结果迭代，应用要能用经营指标验收；要是所谓底座只服务一个项目，所谓内核只输出报表，所谓应用只展示生成效果，那它仍然是定制系统换了个包装。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "f19840bf78e070c66d6468eb3be0339b137fc7eed536402838c3052d706a5a40",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 3｜Agent OS 三层架构：底座统一治理，内核持续迭代，应用以经营结果验收"
+    },
+    {
+      "id": "p-023",
+      "type": "heading",
+      "text": "真正的分水岭：第二个场景的边际成本",
+      "segments": [
+        {
+          "text": "真正的分水岭：第二个场景的边际成本",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "架构选型最容易被首个场景的上线速度带偏；单点工具部署快、演示亮眼，可它只证明“某个应用能工作”，证明不了企业拿到了可复用能力；以灵宸智能的应用组合为例，出海团队用 Sales in 做客户画像与线索评分，品牌团队用 Mine GEO 管理标准事实，内容团队把 Social Grow 的知识资产复用到多平台——若三条线各自建设模型接入、知识、权限和审计，企业得到的仍是三个聪明但彼此隔离的系统。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "底座化的价值到第二、第三个场景才显形：模型网关、身份权限、企业知识、任务编排、审计和回写都已就位，新应用只需新增流程、规则与指标；要提醒的是，“第三个场景出现成本拐点”只能作为示意，不是每家企业都在同一节点转折；真正该比的是三年总拥有成本——首建、复制、维护、合规整改和退出迁移全算进去，而不是只比第一张报价单。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "预算结构也要跟着变；管理层应把预算拆成两类：底座预算负责公共能力，用复用率、稳定性和治理完整度验收；场景预算负责业务价值，用线索、回款、投诉率这些结果验收；两类混在一起，底座容易被单一项目吞掉，场景也在为基础设施重复买单，两种路线的差异见下表。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜单点工具采购与 Agent OS 底座化的关键差异",
+      "rows": [
+        [
+          "维度",
+          "单点工具采购",
+          "Agent OS 底座化"
+        ],
+        [
+          "首个场景",
+          "上线快、前期投入较低",
+          "先建公共能力，启动成本较高"
+        ],
+        [
+          "第二场景",
+          "接口、身份、知识与日志重新建设",
+          "复用模型网关、权限、知识、审计与回写"
+        ],
+        [
+          "知识治理",
+          "部门各自维护，版本与生效口径分散",
+          "标准事实、规则与案例统一管理"
+        ],
+        [
+          "数据闭环",
+          "结果停留在工具或报表内",
+          "结果进入 CRM、OA、工单或财务系统"
+        ],
+        [
+          "合规审计",
+          "日志格式割裂，责任链难追溯",
+          "审批、留痕、人工接管形成统一证据链"
+        ],
+        [
+          "适用边界",
+          "低频、低风险、单一封闭场景",
+          "多场景、跨系统、高频或强合规业务"
+        ]
+      ]
+    },
+    {
+      "id": "p-028",
+      "type": "heading",
+      "text": "内核层为何决定系统会不会“越用越懂业务”",
+      "segments": [
+        {
+          "text": "内核层为何决定系统会不会“越用越懂业务”",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "企业 AI 的进步，不能只指望模型厂商的下一次升级，更要紧的是企业自己的结果数据能不能进入迭代；一次触达之后，客户有没有回复、有没有进商机、拒绝原因是什么；一次催收之后，是否回款、是否投诉、承诺有没有兑现；一次审核之后，哪些不符点被人工纠正——这些事件，才是业务系统里真正稀缺的反馈信号。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "内核层的职责，是把“动作—结果—复核—更新”串成一条可追溯的链路：执行动作写入业务系统，结果按统一字段回流，人工修改被结构化记录，异常案例进入复盘，知识和策略以版本方式发布，再交给下一轮执行去验证效果；这里的关键不是把所有数据都拿去训练模型，而是分清哪些信号用于改知识、哪些用于改规则、哪些只用于监控，别把偶然结果错当成长期规律。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "没有这条数据飞轮，智能体跑得越多，企业攒下的可能只是更多日志；飞轮转起来之后，每一次执行才会变成组织学习的材料；所以内核层既是技术模块，也是运营机制，回写口径、复盘节奏和发布权限，得由业务负责人、数据团队和合规角色坐在一起定。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "53c445de33861c56c757459c62a6d69f2ea4d3fbcfe895111d3147a5c851e061",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 4｜内核层的数据飞轮：动作、结果、复核与更新形成闭环，不同信号分别治理"
+    },
+    {
+      "id": "p-033",
+      "type": "heading",
+      "text": "哪些企业已经到了“建底座”的临界点",
+      "segments": [
+        {
+          "text": "哪些企业已经到了“建底座”的临界点",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "第一类，是已有两个以上 AI 场景、且未来一年还要继续扩的企业；它们的主要矛盾早已不是“有没有工具”，而是知识、身份、接口和审计是否在重复建设；这时继续按部门分散采购，表面缩短了单个项目周期，实际是把集成与治理成本推到后面，而且收口越晚，迁移代价越高。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "第二类，是高频、结果可验收的业务部门，出海获客、批量催收、单证审核、合同初审、客服质检都算；这些场景流程稳定、数据密度高，输入、动作、复核和结果都有清晰定义；打通回写之后，每次执行都能用来改进知识与规则，底座的复用价值最容易量化。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "第三类，是合规、审计和数据边界要求高的行业；金融、法律、医疗、跨境业务不能只问“AI 能不能完成任务”，还得答上来用了哪些数据、依据哪版规则、谁批准动作、失败谁接管；这些控制若散落在各个工具里，企业很难拼出完整证据链；反过来讲，场景低频、封闭、无敏感数据且短期不扩展的企业，用单点工具就好，可对照下表自测。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜底座化临界点自测：命中两项以上宜先做可行性评估",
+      "rows": [
+        [
+          "自测问题",
+          "若回答“是”说明",
+          "建议动作"
+        ],
+        [
+          "未来 12 个月是否计划 3 个以上 AI 场景",
+          "复制与集成成本将快速放大",
+          "先统一知识、身份、日志和接口"
+        ],
+        [
+          "结果是否需要回写 CRM、OA、工单或财务系统",
+          "单点工具难形成业务数据飞轮",
+          "把自动回写列为 POC 验收项"
+        ],
+        [
+          "是否涉及个人信息、外呼、法律、金融或跨境数据",
+          "合规控制必须前置到架构",
+          "建立审批阈值、留痕和人工接管"
+        ],
+        [
+          "是否已有多个部门分别采购 AI 工具",
+          "组织能力与知识口径正在割裂",
+          "开展能力资产盘点与重复建设清理"
+        ],
+        [
+          "是否已确定第二个场景与上线计划",
+          "首个项目必须为后续复用负责",
+          "同步定义复用率、复制周期和人天"
+        ]
+      ]
+    },
+    {
+      "id": "p-038",
+      "type": "heading",
+      "text": "底座层、内核层、应用层分别该验什么",
+      "segments": [
+        {
+          "text": "底座层、内核层、应用层分别该验什么",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "底座层的验收不看模型参数排名，看通用能力能否被不同场景稳定调用；语音、OCR、RPA、记忆、上下文工程、权限和日志要是只服务一个应用，那就不是企业底座，只是项目组件；可核查的指标包括接口复用率、统一身份覆盖率、知识版本一致性、调用成功率和故障隔离时间。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "内核层的验收，看数据飞轮是不是真的存在：结果有没有自动回写，人工修改有没有被结构化，异常案例有没有进复盘，策略调整有没有版本和审批记录，评价指标能不能连到经营结果；见过不少团队，Agent 执行了大量动作，日常仍靠人工导 Excel、手工比对、口头复盘——这说明内核层压根没进入生产状态。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "应用层则回到业务本身：出海获客看有效线索率、商机创建率和触达合规，批量催收看实际回款、投诉率和误催率，风控合规看审核准确率、复核成本和风险漏报；应用越多，越能检验底座与内核是否可复用；一个只撑得起单一场景、每次扩展都要重写接口和规则的平台，本质上还是定制项目。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "dadb96c8fb9c6921ad75cb0f77a3fc548442d69e52f3d1697446426c3cafe641",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 5｜三层验收仪表盘：每一层使用不同指标，单场景 ROI 无法代替"
+    },
+    {
+      "id": "p-043",
+      "type": "heading",
+      "text": "架构选型的五个反直觉问题",
+      "segments": [
+        {
+          "text": "架构选型的五个反直觉问题",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "第一问，别先问“哪个模型更强”，要问模型能力能否被业务流程稳定调用——企业级 AI 很少败在某一次回答不够精彩，多半败在上下文丢失、调用链不稳、权限混乱和结果无法回写；第二问，别把“支持私有化”当成安全终点，要接着追问本地部署后知识怎么更新、模型怎么评测、异常案例怎么回流，否则系统会在安全边界内快速老化。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "paragraph",
+      "text": "第三问，别只问“能不能接系统”，要问接入之后由谁维护业务语义；CRM 字段、合同状态、回款确认、单证不符点，这些都不是纯技术字段，供应商若只做接口连通，却讲不清字段如何影响决策，数据飞轮就退化成了数据搬运；第四问，别只问“首个场景能否成功”，要问提示策略、知识版本、审批流程、日志格式和复盘方法能不能搬到第二个场景。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-046",
+      "type": "paragraph",
+      "text": "第五问，别只算“替代了多少人”，还要算组织沉淀了多少新能力——知识复用、审计效率、跨部门协作和新场景复制周期，往往比岗位节省更能解释长期价值；把五个问题放到同一张成熟度雷达上，得分高的企业更需要底座化，得分低且场景单一的，继续用轻量工具就好。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "32d773d83710083d73b8570ceb7de7f050db9798505e8b74d7797e7c82b4fcd6",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 6｜架构选型五问雷达（示意）：分值用于比较底座化需求，不构成行业评分标准"
+    },
+    {
+      "id": "p-048",
+      "type": "heading",
+      "text": "供应商选型：别只看演示效果",
+      "segments": [
+        {
+          "text": "供应商选型：别只看演示效果",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "演示环境可以被精心准备，难复制的是生产条件；评估智能体平台，供应商至少要交出五类证据：跨应用能力清单、知识与规则版本记录、权限审批矩阵、含失败与人工接管的完整审计样例，以及第二场景实施估算；只有功能列表、没有这些运行证据的平台，多半没经过持续运营的检验。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-050",
+      "type": "paragraph",
+      "text": "POC 合同也应从“完成一个应用”改成“交付一组可复用资产”：验收条款写明哪些接口进公共层、哪些知识进统一资产库、哪些日志字段成为全局标准、哪些结果必须自动回写、第二个场景预计复用多少组件；同时设好退出与迁移条款，确保模型、知识、提示策略和业务数据能够导出，别让底座反过来变成新的供应商锁定。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "paragraph",
+      "text": "选型结论也不该由 IT 单独拍板；业务负责人判断结果是否可验收，法务与安全团队判断数据和动作边界，数据团队判断回写与指标口径，运营团队判断异常案例能否持续复盘——多角色一起过一遍，才能把“会演示的平台”和“能长期运营的底座”区分开，证据清单见下表。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表 3｜Agent OS 供应商选型证据清单",
+      "rows": [
+        [
+          "决策项",
+          "必须看到的证据",
+          "低成熟度信号"
+        ],
+        [
+          "底座复用",
+          "跨应用能力清单、统一接口与身份方案",
+          "每个应用单独部署一套能力"
+        ],
+        [
+          "知识治理",
+          "来源、生效时间、版本、审批与回滚记录",
+          "只有文档上传，没有版本责任"
+        ],
+        [
+          "数据飞轮",
+          "结果、人工修改、异常案例的回写样例",
+          "只提供报表，不进入策略迭代"
+        ],
+        [
+          "合规控制",
+          "权限矩阵、审批阈值、审计记录与人工接管",
+          "各工具自行留痕，难成完整证据链"
+        ],
+        [
+          "第二场景复制",
+          "复用组件清单、周期、人天与成本估算",
+          "仍需从零组建项目和重做接口"
+        ],
+        [
+          "退出与迁移",
+          "模型、知识、提示策略和业务数据导出方案",
+          "核心资产不可导出或格式不透明"
+        ]
+      ]
+    },
+    {
+      "id": "p-053",
+      "type": "heading",
+      "text": "企业 90 天落地路线：先收口，再扩展",
+      "segments": [
+        {
+          "text": "企业 90 天落地路线：先收口，再扩展",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "paragraph",
+      "text": "前 30 天做 AI 资产盘点：买了哪些工具、连了哪些系统、沉了哪些知识、哪些动作会触达客户或形成法律后果；盘点不是为了否定现有试点，而是找出重复建设和可复用资产；很多企业第一次盘点就会发现，几套知识库口径不一致，几套权限模型没有统一身份，客户画像无法互相校验——这些比再上一个新模型更值得优先处理。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-055",
+      "type": "paragraph",
+      "text": "第 31 至 60 天，挑一个高频、可量化、能回写结果的场景做底座化改造；别选最复杂的战略项目，也别只选纯文本生成；出海线索开发、批量催收、单证审核都是合适的候选，它们的输入、流程、复核和结果定义得清楚；这一阶段的目标不是做出更漂亮的应用，而是沉淀身份、知识、接口、日志和回写机制，并形成首版运营规则。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-056",
+      "type": "paragraph",
+      "text": "第 61 至 90 天，必须引入第二个场景验证复用：第一个场景做了 Sales in，第二个就验证 Mine GEO 能否复用标准事实与权限；第一个做了 Recov AI，第二个就验证催收数据治理能否复用结果字段和审计链；只有当第二个场景不再从零搭建、复制周期与实施人天和合规准备明显下降，底座的价值才算被证实。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "33ff6b2461d6a11dc4eb681873f75138a7f969688931bee66fdb69dbcbc0c83a",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 7｜90 天落地路线：盘点、试点、复用验证，第二个场景是关键节点"
+    },
+    {
+      "id": "p-058",
+      "type": "heading",
+      "text": "给管理层的落地检查：别让底座变成新孤岛",
+      "segments": [
+        {
+          "text": "给管理层的落地检查：别让底座变成新孤岛",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-059",
+      "type": "paragraph",
+      "text": "检查点一是能力复用：新增应用时，能不能直接调用已有的身份、知识、任务编排、审计链路和结果回写；如果平台只是把工具装进同一个门户，各应用仍各自维护知识、权限和日志，统一的就只是采购入口，不是运行能力；检查点二是预算结构：若预算大头都砸在单点应用上，底座层没有明确成本和交付物，扩展照样重复建设；更健康的做法是把公共能力、场景应用和持续运营分开列项，让底座既有可见投入，也有接口复用率、知识复用率、统一身份覆盖率这些可验收的收益。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-060",
+      "type": "paragraph",
+      "text": "检查点三是组织角色：业务负责人定义结果，法务与安全定义边界，数据团队定义回写，运营团队定义复盘，架构负责人协调公共能力的版本与优先级；检查点四是运营指标：除单场景 ROI 外，还要盯第二场景复制周期、人工接管率、审计完整率和知识更新时效——这些指标长期改善，企业才算真正从“采购工具”走进“建设能力”。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-08.png",
+      "sourceMedia": "/word/media/image8.png",
+      "sha256": "3728c6ffb38b1c4c5daa0698c8e39d7c1bd04dccc19d08c0d98b10279b423922",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 8｜管理层四项检查：能力、预算、角色与运营指标需要同时成立"
+    },
+    {
+      "id": "p-062",
+      "type": "heading",
+      "text": "真正要沉淀的，是企业自己的 AI 能力资产",
+      "segments": [
+        {
+          "text": "真正要沉淀的，是企业自己的 AI 能力资产",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "paragraph",
+      "text": "值得当作公司资产的，不是某个模型名称，而是可跨场景复用的业务事实、规则和运行机制；企业事实库回答“什么是真的”，规则库回答“什么条件下可以做什么”，客户画像提供统一对象，任务编排定义动作顺序与异常分支，身份权限管住谁能看、谁能批、谁能执行，日志审计留下依据，结果回写让系统能被持续纠正。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-064",
+      "type": "paragraph",
+      "text": "这些资产之间必须建立关系，孤立的知识库或日志平台不会自动产生价值；拿出海获客来说，标准事实要进内容与触达，客户反馈要回到画像和评分，合规限制要约束频次与话术，人工修改要进版本管理；拿批量催收来说，承诺还款、拒缴原因、投诉和实际回款得落在同一个对象上，下一轮策略调整才有依据。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-065",
+      "type": "paragraph",
+      "text": "在灵宸智能的 Agent OS 口径中，Sales in、Mine GEO、Social Grow、Recov AI 等应用被放在同一套底座与内核之上；对决策者来说，关键不在产品名称是否统一，而在这些应用能否共享事实、权限、审计、任务编排和结果数据——共享机制真实存在，“一次构建、全线复用”才不是宣传语，而是能被第二个场景验证的成本结构。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/agent-os-three-layer-architecture/figure-09.png",
+      "sourceMedia": "/word/media/image9.png",
+      "sha256": "1e7fec9a65b8b5bbb9d278b6261f24b72153da1773e6a863e13e075a4e1c190d",
+      "width": 1270,
+      "height": 715,
+      "caption": "图 9｜企业 AI 能力资产图谱：模型可替换，事实、规则、身份、审计与结果数据长期沉淀"
+    },
+    {
+      "id": "p-067",
+      "type": "heading",
+      "text": "行动启示：先别问买什么，先问复用什么",
+      "segments": [
+        {
+          "text": "行动启示：先别问买什么，先问复用什么",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-068",
+      "type": "paragraph",
+      "text": "CEO 和 CIO 的采购问题，应该从“哪个工具最好用”换成“哪些能力必须成为公司资产”；选一个高频、可量化、结果可回写的场景做 POC，并要求供应商交付底座复用清单，写明模型接入、知识、权限、日志和回写机制里，哪些会直接服务下一个场景；POC 结束只拿到一个孤立应用，演示再成功，也只是把下一轮返工往后推。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-069",
+      "type": "paragraph",
+      "text": "更稳妥的顺序是：先统一事实与身份，再统一日志和回写，然后用第二个场景检验复用，最后才扩大应用数量；Agent OS 的价值不在把所有项目收进一个名字，而在把企业反复需要的能力沉淀成可治理、可审计、可迭代的经营基础设施；当复制周期持续缩短、复用率持续提升、异常处理逐步标准化，企业 AI 才算真正越过从试点到规模化的分水岭。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-070",
+      "type": "closing",
+      "text": "落地建议｜如需评估现有 AI 工具是否已到“建底座”的临界点，可访问灵宸智能官网（www.lingchen-ai.com），结合场景数量、系统连接、数据回写、合规边界和第二场景计划做一次架构诊断，先收口，再扩展。",
+      "segments": [
+        {
+          "text": "落地建议｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "如需评估现有 AI 工具是否已到“建底座”的临界点，可访问灵宸智能官网（www.lingchen-ai.com），结合场景数量、系统连接、数据回写、合规边界和第二场景计划做一次架构诊断，先收口，再扩展。",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 200,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "leftTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#F4F6FA",
+        "leftBorder": {
+          "color": "#2E5FA3",
+          "sizeEighthPoints": 20,
+          "spacePoints": 6
+        },
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1207 @@
+{
+  "slug": "overseas-manufacturing-distributor-development",
+  "category": "解决方案&白皮书",
+  "displayTitle": null,
+  "sourceTitle": "出海制造业海外经销商开发解决方案",
+  "summary": "摘要：制造企业开发海外经销商，真正的难点通常不是名单不足，而是区域优先级、渠道匹配、信任材料、触达节奏与商机回流彼此割裂；当这些环节没有统一定义时，团队会把大量时间花在线索初筛和重复跟进上，却难以判断问题究竟出在市场、对象、内容还是节奏。本文以“区域筛选—渠道画像—信任背书—多触点转化”为主线，给出从业务边界、执行节点、人工兜底到验收口径的完整方法；在执行层，Sales In用于发现和评估区域与渠道，Mine GEO用于整理可检索、可核验的企业证据，AI获客Harness用于编排触达并把结果写回CRM，工具承担标准化工作，市场选择、价格、合同、法律与最终签约责任仍由人确认。",
+  "publishedAt": null,
+  "sourceDocx": "出海制造业海外经销商开发解决方案.docx",
+  "sourceDocxSha256": "8664249e0d8cb2521eeef14ae98b7e61c6cea82b65b09fb342469d8886bc9234",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "出海制造业海外经销商开发解决方案",
+      "segments": [
+        {
+          "text": "出海制造业海外经销商开发解决方案",
+          "bold": true,
+          "color": "#17365D",
+          "fontSizePt": 21.0
+        }
+      ],
+      "layout": {
+        "alignment": "center",
+        "fontSizePt": 21.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "从区域筛选、渠道画像到信任建立与多触点转化闭环",
+      "segments": [
+        {
+          "text": "从区域筛选、渠道画像到信任建立与多触点转化闭环",
+          "bold": true,
+          "color": "#2C7A7B",
+          "fontSizePt": 12.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 12.5
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "deck",
+      "text": "适用于工业设备、零部件、新能源、建材、机械及其他跨境B2B制造企业｜版本：2026年7月",
+      "segments": [
+        {
+          "text": "适用于工业设备、零部件、新能源、建材、机械及其他跨境B2B制造企业｜版本：2026年7月",
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "abstract",
+      "text": "摘要：制造企业开发海外经销商，真正的难点通常不是名单不足，而是区域优先级、渠道匹配、信任材料、触达节奏与商机回流彼此割裂；当这些环节没有统一定义时，团队会把大量时间花在线索初筛和重复跟进上，却难以判断问题究竟出在市场、对象、内容还是节奏。本文以“区域筛选—渠道画像—信任背书—多触点转化”为主线，给出从业务边界、执行节点、人工兜底到验收口径的完整方法；在执行层，Sales In用于发现和评估区域与渠道，Mine GEO用于整理可检索、可核验的企业证据，AI获客Harness用于编排触达并把结果写回CRM，工具承担标准化工作，市场选择、价格、合同、法律与最终签约责任仍由人确认。",
+      "segments": [
+        {
+          "text": "摘要：",
+          "bold": true,
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "制造企业开发海外经销商，真正的难点通常不是名单不足，而是区域优先级、渠道匹配、信任材料、触达节奏与商机回流彼此割裂；当这些环节没有统一定义时，团队会把大量时间花在线索初筛和重复跟进上，却难以判断问题究竟出在市场、对象、内容还是节奏。本文以“区域筛选—渠道画像—信任背书—多触点转化”为主线，给出从业务边界、执行节点、人工兜底到验收口径的完整方法；在执行层，Sales In用于发现和评估区域与渠道，Mine GEO用于整理可检索、可核验的企业证据，AI获客Harness用于编排触达并把结果写回CRM，工具承担标准化工作，市场选择、价格、合同、法律与最终签约责任仍由人确认。",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 120,
+        "backgroundColor": "#EEF4F8",
+        "leftBorder": {
+          "color": "#244A73",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "keywords",
+      "text": "关键词：海外经销商开发、制造业出海、海外代理商、渠道ICP、经销商画像、GEO内容治理、生成式搜索、AI获客、CRM回流",
+      "segments": [
+        {
+          "text": "关键词：",
+          "bold": true,
+          "color": "#17365D",
+          "fontSizePt": 9.5
+        },
+        {
+          "text": "海外经销商开发、制造业出海、海外代理商、渠道ICP、经销商画像、GEO内容治理、生成式搜索、AI获客、CRM回流",
+          "color": "#64748B",
+          "fontSizePt": 9.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "heading",
+      "text": "结论先行：先把经营边界写清楚，再谈自动化"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "海外经销商开发不是把全球公司名单装进系统，也不是用更高频的邮件替代销售判断；它首先要回答三个经营问题：哪些国家值得投入，什么样的渠道能够交付，企业凭什么让对方愿意继续谈；这三个问题没有被写成可验证的规则之前，自动化只会更快地放大错误。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "可持续的渠道开发应当具备四项基本条件：每一步都有明确输入与输出，每个判断都能追溯到证据，每个异常都能触发人工接管，每个结果都能回写并改变下一轮策略；因此，本文不预设所谓“行业通用倍数”，所有效率、回复和转化判断都以企业自身基线、目标区域样本和可接受的风险水平为准。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "现场问题通常集中在四个断点：区域选择慢、候选质量不稳、获客投入难与结果对应、信任与合规风险被推到流程末端；四项问题会在同一条链路上互相放大，图1给出了它们之间的关系。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "9bd083286b36a34c71d66813244c3f642a9687e851128c62fc50758784700d72",
+      "width": 1600,
+      "height": 850,
+      "caption": "图1｜海外经销商开发的四类断点",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图1｜海外经销商开发的四类断点",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "heading",
+      "text": "一、为什么传统开发方式难以规模化"
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "传统方式并非完全无效，经验丰富的区域经理依然能够凭行业关系推进重点机会；问题在于这种成功很难复制，人员变化后，市场判断、渠道标准、跟进节奏和谈判经验往往随之流失，管理者只能看到结果，无法还原结果是如何产生的。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "更常见的情况是动作很多却彼此断开：展会名片存在个人邮箱，采购名单没有渠道类型，英文资料与报价口径分散在不同版本，邮件、LinkedIn、外呼与即时通信各自推进，会议、样品、报价和丢单原因又没有进入同一套CRM字段；团队因此很难回答“为什么这批线索有效”“哪类渠道值得继续投入”。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "流程优化的重点不是替换区域经理，而是把经验转化为可以讨论、质询和复盘的规则；当区域、画像、证据、触达与回流形成闭环后，团队才能在保留人工判断的同时稳定扩大样本，图2展示了两种作业方式的核心差异；同时，个人通讯录和本地文件中的关键信息应进入团队可访问的记录，避免同一渠道被重复联系或长期无人跟进。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "8f937df2f9af0c228fdb9147b9cc80fa89e90e8c869923a53a63f7509ac23f77",
+      "width": 1600,
+      "height": 850,
+      "caption": "图2｜从零散动作到可复盘闭环",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图2｜从零散动作到可复盘闭环",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "heading",
+      "text": "二、四段式增长闭环：从市场选择到商机回流"
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "“区域筛选—渠道画像—信任背书—多触点转化”并不是四个独立项目，而是一条连续的决策链；区域筛选决定资源投向，渠道画像决定找谁，信任背书决定对方能否快速理解企业能力，多触点转化则把兴趣推进到会议、样品、报价、试单与签约。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "每一段都要设置相同的流程骨架：业务目标、所需证据、执行动作、责任人、停止条件和回写字段；缺少其中任何一项，问题就会在下一段以更高成本暴露，例如区域不适配会变成低回复，画像错误会变成无效会议，证据不足会变成反复解释，回写缺失会让下一轮继续重复旧判断。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "三个工具模块应围绕这条链路分工而不是相互替代：Sales In侧重市场与渠道发现，Mine GEO侧重企业事实和交付证据的内容治理，AI获客Harness侧重多触点编排与CRM记录；表1把四个阶段的核心问题、输入和验收产物放在同一张表中，便于项目启动时逐项确认；若任何阶段无法给出证据和停止条件，就应退回补规则，而不是用更多触达掩盖缺口。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表1｜海外经销商开发四段式闭环的输入、输出与验收重点",
+      "rows": [
+        [
+          "阶段",
+          "核心问题",
+          "关键输入",
+          "输出与验收重点"
+        ],
+        [
+          "区域筛选",
+          "哪些国家值得投入",
+          "需求与进口信号、准入门槛、交付与售后能力、商业风险",
+          "形成主攻/观察/排除清单；每个结论有证据、负责人和复核日期"
+        ],
+        [
+          "渠道画像",
+          "什么样的渠道能够交付",
+          "渠道类型、客户行业、覆盖区域、产品协同、技术服务与信用信号",
+          "形成ICP评分与硬性排除规则；抽样复核与人工尽调结论基本一致"
+        ],
+        [
+          "信任背书",
+          "为什么对方愿意继续谈",
+          "企业事实、产品与认证、案例、交付周期、安装培训与售后边界",
+          "形成可检索、可核验的证据链；内容缺口、更新时间与可见度基线可追踪"
+        ],
+        [
+          "多触点转化",
+          "如何推进到可管理的商机",
+          "联系人角色、触达节奏、消息模板、人工接管与停止条件",
+          "回复、会议、样品、报价、试单及赢/丢单状态按统一字段写回CRM"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表1｜海外经销商开发四段式闭环的输入、输出与验收重点",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "heading",
+      "text": "三、区域筛选：先决定在哪些国家投入"
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "区域筛选不应从“哪个国家看起来热门”开始，而要从企业能否进入、能否交付、能否持续服务开始；对于工业设备和零部件企业，市场需求只是第一层，认证准入、进口结构、渠道集中度、物流与备件、语言时区、售后半径、回款习惯和团队资源同样会改变真实机会。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "实际操作中，可以先设置少量硬性否决项，例如关键认证在计划周期内无法取得、售后响应无法覆盖、付款与合规风险超出企业承受范围；通过否决项后，再对市场机会、竞争强度、毛利空间、渠道可得性与战略协同进行证据评分，并把“数据不足”单独标记，避免把未知误判为低优先级。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "最终输出不只是一个国家排名，而是“主攻、观察、排除”三档清单：主攻市场进入季度开发计划，观察市场明确需要补充的证据与复核时间，排除市场保留否决理由和适用期限；这样做既防止团队重复争论，也允许市场条件变化后重新进入评估，图3概括了五道筛选门；区域清单还应记录信息来源与更新时间，避免旧数据长期固化为战略假设。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "616648b245edb91b91db9ff7ff48bcbd377909c9ea344161ee0d0dbd0c9561ff",
+      "width": 1600,
+      "height": 850,
+      "caption": "图3｜区域优先级的五道筛选门",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图3｜区域优先级的五道筛选门",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "heading",
+      "text": "四、渠道画像：把“经销商”拆成可验证的ICP"
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "海外渠道并不是一个同质化群体，经销商、代理商、系统集成商、批发商、工程承包商和服务商的盈利方式、客户关系与交付责任不同；若把这些对象放进同一名单，后续评分和话术必然失真，例如只做项目集成的公司未必愿意备货，纯贸易商也未必具备安装与售后能力。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "可执行的渠道ICP应同时包含“类型、能力、证据”三层信息：类型用于判断合作模式，能力用于判断能否覆盖目标行业和区域，证据用于说明判断来自官网、产品目录、公开项目、服务网点、团队配置、认证或可核验的商业资料；字段越具体，区域经理越容易发现评分模型遗漏了什么，而不是只接受一个不可解释的总分。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "ICP还需要硬性排除规则，例如深度绑定核心竞品且无新增品类空间、没有目标行业客户、缺少必要技术服务、商业主体或联系人无法核验；上线前应抽取一批候选渠道进行人工复核，记录分歧及原因，再调整权重与排除条件，表2提供了一套适合制造业渠道初筛的证据框架；评分模型的目标不是代替尽调，而是把有限的尽调资源优先分配给最值得核验的对象。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表2｜制造业海外渠道ICP的证据字段与硬性排除项",
+      "rows": [
+        [
+          "画像维度",
+          "可观察证据",
+          "正向信号",
+          "硬性排除项"
+        ],
+        [
+          "渠道类型",
+          "官网定位、产品组合、项目与合作模式",
+          "经销/集成角色清晰，收入逻辑与合作模式匹配",
+          "仅做零售或非B2B业务，无法承担目标合作角色"
+        ],
+        [
+          "市场覆盖",
+          "分支机构、服务区域、客户行业与项目地点",
+          "覆盖目标区域，已有相近行业客户或关系网络",
+          "无法触达目标客户，实际覆盖与宣传明显不一致"
+        ],
+        [
+          "产品协同",
+          "现有品牌、品类结构、认证与技术能力",
+          "产品互补，可交叉销售，具备基础选型能力",
+          "核心竞品独家绑定且没有新增品类空间"
+        ],
+        [
+          "服务能力",
+          "技术人员、安装调试、备件与维修安排",
+          "能够承担培训、安装、响应或本地协调",
+          "完全没有服务能力，且不愿建立外部服务机制"
+        ],
+        [
+          "商业信用",
+          "经营年限、主体信息、公开争议与可核验资料",
+          "主体透明、经营稳定、资料可验证",
+          "主体或关键联系人无法核验，重大风险无法解释"
+        ],
+        [
+          "合作意愿",
+          "回复质量、决策人参与、市场计划与投入意愿",
+          "愿意共享计划、资源与阶段目标",
+          "只询最低价，不愿讨论市场投入、服务和责任"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表2｜制造业海外渠道ICP的证据字段与硬性排除项",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "heading",
+      "text": "五、信任背书：建立可检索、可核验、可引用的证据链"
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "渠道商第一次接触制造企业时，往往会同时核验官网、搜索结果、行业资料、认证文件、案例和销售提供的附件；任何一处主体名称、参数、交期或售后口径不一致，都会增加验证成本，因此信任背书不是增加宣传语，而是把企业事实、产品能力和交付边界整理为一致的证据体系。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "这套证据体系至少应覆盖五层内容：企业主体与产能信息，产品参数、适用工况与认证，目标行业案例与交付结果，安装培训、备件和售后边界，以及可以交叉验证的外部资料；每一项内容都应标注适用区域、版本和更新时间，涉及性能或项目结果时说明测试条件与口径，避免把单一场景包装成普遍承诺。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "要提高被搜索与大模型检索、理解和引用的概率，应保持品牌、产品线和技术名词的一致写法，用清晰标题回答真实采购意图，提供具体而可追溯的事实，给图表配置描述性标题与替代文本，并定期修订过期资料；Mine GEO在这里承担内容盘点、缺口发现与可见度基线记录，而不是用关键词堆叠制造虚假相关性，图4展示了完整证据链；同一事实在官网、销售材料和第三方内容之间应保持一致，减少渠道商的重复核验成本。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "da9f471e39d2be12af0333a23af4817301dccbc8800792d321d86913890a473d",
+      "width": 1600,
+      "height": 850,
+      "caption": "图4｜经销商信任背书的证据链",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图4｜经销商信任背书的证据链",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "heading",
+      "text": "六、多触点转化：让每次触达推进一个决策问题"
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "海外经销商开发的目标不是获得更多“已发送”，而是逐步确认相关性、合作模式、决策角色、技术适配和下一步动作；因此，首封邮件不宜塞入全部资料，也不应只谈公司规模，而要用目标市场、客户行业和产品协同说明联系理由，让对方能够在较短时间内判断是否值得继续交流。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "触达节奏可以由邮件、LinkedIn、外呼和人工销售协同完成，但不同触点要承担不同任务：邮件适合呈现结构化价值与证据，社交平台适合核验角色和建立轻连接，外呼适合确认决策链与时间窗口，人工会议则用于技术、价格、区域授权和服务责任；每一步都要记录使用版本、联系人角色和对方反馈。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "paragraph",
+      "text": "自动流程必须同时配置停止条件，出现退订、投诉、身份敏感、信息冲突、低置信度或涉及价格、合同、法律承诺时立即暂停；对无回复对象应设置合理上限并转入长期培育或结束，而不是无限追加消息，图5给出一套可供试点校准的节奏示意；不同岗位可以调整切入点，但企业事实与承诺边界不能因触达渠道变化而改变。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "e26e9bbb5b7016a3f2ff78ccfdc660baf305410ac6cc44ea64001076f1bfa9ea",
+      "width": 1600,
+      "height": 850,
+      "caption": "图5｜多触点触达节奏示意",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图5｜多触点触达节奏示意",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "heading",
+      "text": "七、八个执行节点：让闭环能够被定位和复盘"
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "四段式框架落到日常运营，需要拆成八个节点：区域筛选、渠道ICP、线索发现与评分、证据补齐、多触点触达、意向分层、渠道洽谈和CRM回流；节点拆得足够清楚，团队才能判断是市场选择错误、画像规则失真、内容证据不足，还是触达与跟进出现问题。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-050",
+      "type": "paragraph",
+      "text": "每个节点都应具备五个要素：输入来自哪里，输出写到哪里，谁对结果负责，执行过程留下什么日志，哪些字段必须回写；例如线索评分不仅要存总分，还要保留评分依据与缺失字段，意向分层不仅要标记“高意向”，还要记录触发该判断的回复、会议或资料请求。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "paragraph",
+      "text": "节点之间还要设置进入条件和退回条件，证据不足的线索不能直接进入批量触达，出现关键信息冲突的机会应退回人工核验，会议后没有下一步动作的商机不能长期停留在同一阶段；图6把八个节点及其共同控制要求放在同一张流程图中；这样，复盘时才能把异常定位到具体节点，而不是笼统归因于“市场不好”。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "c17c6b06c7bec5809e5feeb8483c490b124a28bf0255096180650b65e093848e",
+      "width": 1600,
+      "height": 850,
+      "caption": "图6｜四段式闭环的八个执行节点",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图6｜四段式闭环的八个执行节点",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "heading",
+      "text": "八、人机分工与CRM回流：让经验变成组织资产"
+    },
+    {
+      "id": "p-055",
+      "type": "paragraph",
+      "text": "系统适合处理重复、标准且可验证的工作，包括公开线索整理、字段补全、规则评分、触达排程、状态提醒和日志记录；人工应把守事实核查、异常解释、关键关系判断、价格与区域政策、合同与法律条款、争议处理和最终签约，因为这些事项涉及商业责任，不能只由模型概率决定。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-056",
+      "type": "paragraph",
+      "text": "CRM回流不是把邮件状态同步进去就结束，而要围绕经销商开发结果设计字段：区域与渠道类型、评分依据、关键联系人和角色、触达版本、回复性质、会议结论、样品与报价状态、试单进度、赢单或丢单原因、人工接管原因；字段枚举应尽量稳定，备注用于补充事实而不是替代结构化记录。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "paragraph",
+      "text": "当这些数据持续积累后，团队才能用结果反推前面的判断：某类渠道会议多但试单少，可能是服务能力被高估；某个国家回复率低却报价转化高，可能需要调整触达节奏而不是降低区域优先级；图7展示了系统处理、人工闸门与CRM回流之间的数据飞轮；所有字段都应服务于决策，无法用于复盘的记录应及时简化，避免CRM沦为填表负担。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "efde14982d433b50bd74a3395b4925a3fd81291db2200f6cb299467d289c417e",
+      "width": 1600,
+      "height": 850,
+      "caption": "图7｜人机分工与CRM数据飞轮",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图7｜人机分工与CRM数据飞轮",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-060",
+      "type": "heading",
+      "text": "九、实施路线：POC、试点与规模化逐级放大"
+    },
+    {
+      "id": "p-061",
+      "type": "paragraph",
+      "text": "POC阶段不宜同时铺开多个国家、产品线和渠道类型，参考周期为第1—3周；更稳妥的做法是选择一个可解释区域和一条产品线，确认区域证据、ICP与排除规则、现有内容缺口、触达节奏、人工接管与CRM字段，并用少量样本验证规则是否可执行。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-062",
+      "type": "paragraph",
+      "text": "试点阶段可参考第4—8周，根据市场容量选择约200—500家候选渠道进行评分和分层；这一阶段的重点不是追求发送量，而是校准画像与人工尽调的一致性，比较不同内容和节奏的反馈，确认销售能否按统一规则接管高意向机会，并把分歧、投诉和无效动作完整记录下来。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "paragraph",
+      "text": "规模化从第9周起逐步展开，前提是业务指标达到企业基线要求、质量与投诉没有恶化、人工复核负担可接受、CRM数据足以反哺区域与画像策略；只有四项条件同时满足，才扩大区域、渠道池、团队权限和自动化范围，图8给出了三个阶段的目标与交付物；每个阶段都应设置书面退出标准，防止项目在证据不足时自然扩张。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-08.png",
+      "sourceMedia": "/word/media/image8.png",
+      "sha256": "635567227a7113eddd498644546ffdd6b97b71c389be204bcd91bbbaaef01d91",
+      "width": 1600,
+      "height": 850,
+      "caption": "图8｜POC—试点—规模化实施路线",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图8｜POC—试点—规模化实施路线",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-066",
+      "type": "heading",
+      "text": "十、验收指标：同时看结果、质量、风险与数据回流"
+    },
+    {
+      "id": "p-067",
+      "type": "paragraph",
+      "text": "海外经销商开发不能只看回复率或会议数，单点指标容易诱导团队追求表面增长；较完整的验收体系应同时覆盖业务结果、过程质量、风险合规和数据回流，并在项目启动前记录企业现有基线、数据来源、统计窗口和排除条件，确保治理前后使用同一口径。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-068",
+      "type": "paragraph",
+      "text": "指标阈值不宜被写成行业统一承诺，线索质量要结合目标市场容量和人工抽检，触达效率要结合渠道组合与团队投入，信任可见度要结合目标问题和内容更新，转化结果则要沿回复、会议、样品、报价、试单和签约逐层观察；若业务数字上升但投诉、误差或人工负担同步恶化，应暂停扩面。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-069",
+      "type": "paragraph",
+      "text": "管理者最终要判断的不是某个数字是否漂亮，而是这套流程能否稳定产生可解释的结果：关键数据是否完整，错误能否快速定位，高风险动作是否被挡住，下一轮策略是否因回写数据而改变；表3给出了四类指标及建议的规模化判断条件；看板还应保留分母、样本规模和统计窗口，防止小样本波动被误判为稳定趋势。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表3｜海外经销商开发的四类验收指标与规模化条件",
+      "rows": [
+        [
+          "指标类别",
+          "建议观察指标",
+          "主要数据来源",
+          "规模化判断"
+        ],
+        [
+          "业务结果",
+          "高匹配渠道数、有效回复、会议、样品、报价、试单、入池与签约",
+          "CRM商机阶段、会议纪要、样品与报价记录",
+          "沿漏斗连续改善，且改善能够解释到区域、画像、内容或节奏"
+        ],
+        [
+          "过程质量",
+          "联系人有效率、画像抽检一致性、证据完整率、跟进及时率",
+          "线索库、评分依据、内容版本与任务日志",
+          "样本扩大后质量不明显下降，人工复核工作量处于可接受范围"
+        ],
+        [
+          "风险合规",
+          "退订与投诉、误发、敏感身份、信息冲突、人工接管次数",
+          "触达日志、停止原因、审核与审批记录",
+          "风险指标不恶化，高风险动作能够及时暂停并留痕"
+        ],
+        [
+          "数据回流",
+          "字段完整率、丢单原因覆盖、版本可追溯、策略调整次数",
+          "CRM字段、项目复盘、规则与内容变更记录",
+          "结果能够反哺区域、ICP、证据与触达，下一轮不再重复旧错误"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表3｜海外经销商开发的四类验收指标与规模化条件",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-072",
+      "type": "heading",
+      "text": "十一、场景验证：新能源设备制造商开发中东渠道"
+    },
+    {
+      "id": "p-073",
+      "type": "paragraph",
+      "text": "以一家新能源设备制造商为例，项目先筛选可覆盖认证、物流与售后的中东目标国家，再把渠道画像限定为服务工业园区或大型能源客户、具备技术团队、能够承担安装协调、且未被核心竞品深度锁定的经销商或系统集成商；这一步的价值在于先减少明显不适配对象，而不是直接扩大名单。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-074",
+      "type": "paragraph",
+      "text": "随后，团队用公开证据对候选渠道评分并进行人工抽检，同时补齐英文官网、产品场景、认证、项目案例、安装培训、备件和售后边界；触达按决策角色分批进行，高匹配且出现明确业务信号的对象转交区域经理，会议后的样品、报价、试单和未推进原因统一写回CRM。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-075",
+      "type": "paragraph",
+      "text": "场景验证要回答四个问题：渠道画像是否与人工尽调基本一致，信任材料是否缩短重复解释，触达是否获得可用于推进的反馈，结果是否改变下一轮区域与渠道规则；图9中的流程与数字仅用于说明方法，实际项目必须把示意数据、企业口径与客户实测分开标注；所有中间判断都要保留来源和人工复核记录，便于解释最终结论。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-09.png",
+      "sourceMedia": "/word/media/image9.png",
+      "sha256": "cce4133415c6e220ea4522aaf3ab3df71118ccbbd0abda6f5f3de876ea5c51c2",
+      "width": 1600,
+      "height": 850,
+      "caption": "图9｜新能源设备制造商开发中东渠道的场景验证流程",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图9｜新能源设备制造商开发中东渠道的场景验证流程",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-078",
+      "type": "heading",
+      "text": "十二、适用边界、风险控制与人工兜底"
+    },
+    {
+      "id": "p-079",
+      "type": "paragraph",
+      "text": "这套方法适合产品相对成熟、交付能力清楚、愿意建立海外经销商或代理商体系，并具备基础英文资料和人工销售承接能力的制造企业；若目标市场尚未确定、认证和售后无法覆盖、业务规则频繁变化、企业无法处理海外商务沟通，或希望通过违规抓取和无差别群发快速堆名单，应先补齐基础条件。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-080",
+      "type": "paragraph",
+      "text": "合规控制需要嵌入流程而不是停留在文末：数据准入要说明来源与用途，规则配置要限制区域、角色与排除项，话术审核要核对产能、认证、交期、价格与售后边界，频次控制要执行合理间隔和退订机制，留痕审计要保留版本、日志与责任人，人工兜底要有明确接管时限。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-081",
+      "type": "paragraph",
+      "text": "处理联系人数据和商业通信时，应以目标市场当期的数据保护、电子邮件、短信及平台使用规则为准，并由法务或合规人员复核；出现投诉、退订、身份敏感、信息冲突、低置信度、跨境数据不确定性，或涉及价格、合同和法律承诺时，自动流程必须暂停，图10列出了六道闸门及触发条件；企业还应明确谁有权恢复自动流程，避免风险事件处理后未经复核直接继续发送。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-10",
+      "type": "figure",
+      "src": "/images/research/overseas-manufacturing-distributor-development/figure-10.png",
+      "sourceMedia": "/word/media/image10.png",
+      "sha256": "19e6f174b226240d0c4749dd2532298943a7d864ec3f425dfdcea2c41a5b576a",
+      "width": 1600,
+      "height": 850,
+      "caption": "图10｜六道合规闸门与人工兜底触发条件",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图10｜六道合规闸门与人工兜底触发条件",
+          "bold": true,
+          "color": "#64748B",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-084",
+      "type": "heading",
+      "text": "十三、POC启动前必须确认的五项内容"
+    },
+    {
+      "id": "p-085",
+      "type": "paragraph",
+      "text": "在进入首轮样本前，项目负责人应把以下内容写入同一份启动文档，避免团队边执行边重新定义口径；五项内容都能回答并不代表已经成熟，但任何一项无法回答，都意味着相应环节仍需要人工补规则。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-086",
+      "type": "paragraph",
+      "text": "1. 区域边界　明确优先国家、观察国家和不可服务区域，并为每个判断保留证据、负责人和复核日期；",
+      "segments": [
+        {
+          "text": "1. 区域边界　",
+          "bold": true,
+          "color": "#17365D",
+          "fontSizePt": 10.0
+        },
+        {
+          "text": "明确优先国家、观察国家和不可服务区域，并为每个判断保留证据、负责人和复核日期；",
+          "color": "#1F2937",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "firstLineTwips": 0,
+        "leftTwips": 280,
+        "backgroundColor": "#F7F9FC",
+        "leftBorder": {
+          "color": "#244A73",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-087",
+      "type": "paragraph",
+      "text": "2. 渠道ICP　明确合作类型、核心能力、证据字段和至少五条硬性排除规则，并完成候选样本的人工抽检；",
+      "segments": [
+        {
+          "text": "2. 渠道ICP　",
+          "bold": true,
+          "color": "#17365D",
+          "fontSizePt": 10.0
+        },
+        {
+          "text": "明确合作类型、核心能力、证据字段和至少五条硬性排除规则，并完成候选样本的人工抽检；",
+          "color": "#1F2937",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "firstLineTwips": 0,
+        "leftTwips": 280,
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-088",
+      "type": "paragraph",
+      "text": "3. 信任材料　确认企业主体、产品、认证、案例、交付、安装培训、备件与售后口径一致，缺口进入内容排期；",
+      "segments": [
+        {
+          "text": "3. 信任材料　",
+          "bold": true,
+          "color": "#17365D",
+          "fontSizePt": 10.0
+        },
+        {
+          "text": "确认企业主体、产品、认证、案例、交付、安装培训、备件与售后口径一致，缺口进入内容排期；",
+          "color": "#1F2937",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "firstLineTwips": 0,
+        "leftTwips": 280,
+        "backgroundColor": "#F7F9FC",
+        "leftBorder": {
+          "color": "#244A73",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-089",
+      "type": "paragraph",
+      "text": "4. 触达与接管　把邮件、社交平台、外呼和人工销售的顺序、间隔、停止条件、审批与接管时限写成统一版本；",
+      "segments": [
+        {
+          "text": "4. 触达与接管　",
+          "bold": true,
+          "color": "#17365D",
+          "fontSizePt": 10.0
+        },
+        {
+          "text": "把邮件、社交平台、外呼和人工销售的顺序、间隔、停止条件、审批与接管时限写成统一版本；",
+          "color": "#1F2937",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "firstLineTwips": 0,
+        "leftTwips": 280,
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-090",
+      "type": "paragraph",
+      "text": "5. CRM与复盘　定义回复、会议、样品、报价、试单、赢单和丢单字段，确保项目结束后能够用数据解释下一轮调整。",
+      "segments": [
+        {
+          "text": "5. CRM与复盘　",
+          "bold": true,
+          "color": "#17365D",
+          "fontSizePt": 10.0
+        },
+        {
+          "text": "定义回复、会议、样品、报价、试单、赢单和丢单字段，确保项目结束后能够用数据解释下一轮调整。",
+          "color": "#1F2937",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "firstLineTwips": 0,
+        "leftTwips": 280,
+        "backgroundColor": "#F7F9FC",
+        "leftBorder": {
+          "color": "#244A73",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-091",
+      "type": "heading",
+      "text": "十四、结语：把渠道开发做成可持续的经营系统"
+    },
+    {
+      "id": "p-092",
+      "type": "paragraph",
+      "text": "海外经销商开发的长期价值，不在于某一轮发送了多少消息，而在于企业能否持续判断“在哪里投入、找什么对象、用什么证据、按什么节奏推进、如何从结果中修正判断”；当区域、画像、证据、触达、人工边界和CRM回流被放进同一套运营机制后，团队才有机会从依赖个人经验转向依赖可复盘的方法。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-093",
+      "type": "paragraph",
+      "text": "实际落地时，建议从一个区域和一条产品线开始，用小样本验证规则与人工工作量，再根据业务结果、质量、风险和回流条件逐步扩面；任何工具都不应替代事实核查、商业谈判和最终责任，真正可靠的自动化，是让重复工作更稳定，让关键判断更清楚，也让错误能够及时停止。",
+      "layout": {
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-094",
+      "type": "paragraph",
+      "text": "业务咨询：可访问灵宸智能官网 www.lingchen-ai.com，或致电 18621786899 预约方案评估与POC验证；涉及目标市场法规、平台政策和跨境数据事项时，应以当期规则及专业意见为准。",
+      "segments": [
+        {
+          "text": "业务咨询：",
+          "bold": true,
+          "color": "#17365D",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "可访问灵宸智能官网 ",
+          "color": "#1F2937",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "www.lingchen-ai.com",
+          "underline": true,
+          "color": "#0563C1",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "，或致电 18621786899 预约方案评估与POC验证；涉及目标市场法规、平台政策和跨境数据事项时，应以当期规则及专业意见为准。",
+          "color": "#1F2937",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 80,
+        "backgroundColor": "#EEF4F8",
+        "leftBorder": {
+          "color": "#2C7A7B",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "slug": "deeplaw-legal-ai-harness",
+  "category": "产品动态",
+  "displayTitle": null,
+  "sourceTitle": "DeepLaw 法律人的 AI Harness：五大模块如何串起法律业务",
+  "summary": "摘要：DeepLaw 是灵宸智能面向法律行业推出的一套 AI Harness，而不是单点的法律写作工具，它把智能律师广场、律师 AI 获客云、法律 AI 工作流、法律人知识库和 DeepLaw 法学院串成一条业务链路，让 IP、案源、咨询、承办、知识和成长互相回流。本文说明这套系统适合谁、如何工作、与传统做法的差别，以及法律团队如何用 30 天跑通一个最小场景的 POC，供个人律师、专业团队、律所和企业法务在评估前对照使用。",
+  "publishedAt": null,
+  "sourceDocx": "DeepLaw_法律人的AI_Harness.docx",
+  "sourceDocxSha256": "c014eadec6eeff42d99ce5adfd90b43e66dcd80f1de4efb492edb26ccfd0be36",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "DeepLaw 法律人的 AI Harness：五大模块如何串起法律业务",
+      "segments": [
+        {
+          "text": "DeepLaw 法律人的 AI Harness：五大模块如何串起法律业务",
+          "bold": true,
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "alignment": "center",
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "abstract",
+      "text": "摘要：DeepLaw 是灵宸智能面向法律行业推出的一套 AI Harness，而不是单点的法律写作工具，它把智能律师广场、律师 AI 获客云、法律 AI 工作流、法律人知识库和 DeepLaw 法学院串成一条业务链路，让 IP、案源、咨询、承办、知识和成长互相回流。本文说明这套系统适合谁、如何工作、与传统做法的差别，以及法律团队如何用 30 天跑通一个最小场景的 POC，供个人律师、专业团队、律所和企业法务在评估前对照使用。",
+      "segments": [
+        {
+          "text": "摘要：DeepLaw 是灵宸智能面向法律行业推出的一套 AI Harness，而不是单点的法律写作工具，它把智能律师广场、律师 AI 获客云、法律 AI 工作流、法律人知识库和 DeepLaw 法学院串成一条业务链路，让 IP、案源、咨询、承办、知识和成长互相回流。本文说明这套系统适合谁、如何工作、与传统做法的差别，以及法律团队如何用 30 天跑通一个最小场景的 POC，供个人律师、专业团队、律所和企业法务在评估前对照使用。",
+          "bold": true,
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "heading",
+      "text": "一、先说结论：DeepLaw 适合谁，不适合谁",
+      "segments": [
+        {
+          "text": "一、先说结论：DeepLaw 适合谁，不适合谁",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "判断是否适合，先看三句话：有清晰执业领域、案例积累、内容资产和人工复核机制的法律团队，值得认真评估；有效的方法是让 IP、案源、咨询、承办、知识和成长互相回流，而不是只生成一份文书；希望系统独立出具正式法律意见、自动承诺诉讼结果或绕过利益冲突审查的诉求则不适合，完整判断标准见第五节。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "举一个典型场景：某劳动争议团队每月能收到 300 条咨询，但只有少数适合面谈，律师要看案情、判断管辖、核对证据、说明费用，还要持续产出专业内容维持可见度；DeepLaw 的价值，在于把前端可信入口、线索分层、承办底稿和知识沉淀放在同一条链路里，让律师把时间留给策略判断和客户沟通。六个环节如何回流，如图1所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/deeplaw-legal-ai-harness/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "4ee4846850b5b5f0a1ac1b88eea683c3513e0c8de35a0e9679c6ea0eecdc4cd7",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "图1　法律业务链路：从 IP 打造、智能匹配、咨询转化到智能承办、知识管理与专业成长，专业责任由律师确认",
+      "segments": [
+        {
+          "text": "图1　法律业务链路：从 IP 打造、智能匹配、咨询转化到智能承办、知识管理与专业成长，专业责任由律师确认",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "heading",
+      "text": "二、三类角色怎么用：同一张工作台里互相校验",
+      "segments": [
+        {
+          "text": "二、三类角色怎么用：同一张工作台里互相校验",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "同一套系统，在不同角色手里价值并不相同：个人执业律师最看重专业可见度，用微官网、内容、AI 匹配和私域承接把自己“被找到”的概率做上去，盯的是 IP 内容、咨询线索和面谈记录；专业团队与合伙人关心线索池和承办效率，围绕细分领域构建线索漏斗、承办模板和知识库，减少对单个人脉的依赖；现代化律所则希望把市场、运营、承办、知识和学习标准化，形成可复制的团队能力，看的是管理报表、知识资产和培训体系。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "能够长期运行的项目，通常是这三类视角在同一张工作台里互相校验，而不是某一方单独推动——律师看可见度、合伙人看效率、律所看标准化，任何一环缺位，系统都容易退化成一个只在演示时好看的工具。三类角色的协同关系与各自交付物如图2所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/deeplaw-legal-ai-harness/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "a6b92129f467a11af363c193ad1b2698af51174dc442a701c332683204f38992",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "图2　三类角色的协同关系：每个角色都对应可验收的交付物，项目不停留在演示效果",
+      "segments": [
+        {
+          "text": "图2　三类角色的协同关系：每个角色都对应可验收的交付物，项目不停留在演示效果",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "heading",
+      "text": "三、工作机制：输入、判断、执行、回写",
+      "segments": [
+        {
+          "text": "三、工作机制：输入、判断、执行、回写",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "判断一款业务系统能否进入生产环境，不能只问“功能有没有”，更关键的是三个动作：输入能不能结构化，执行过程能不能被控制，结果能不能回到下一轮策略。DeepLaw 的五个模块正是围绕这三个动作设计——智能律师广场解决当事人与真正专家双向找不到的问题，POC 阶段要看案情解析、律师画像和匹配规则，但它不能承诺案件结果；律师 AI 获客云面向获客贵、线索转化低的痛点，验证点在公域流量、GEO、线索池与私域承接，广告和内容必须经人工审核；法律 AI 工作流处理读卷、审约、文书这类占用大量时间的工作，产出的是材料结构化、证据建模和可复核的文书底稿，正式意见必须复核后才能对外。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "法律人知识库把散落在个人电脑里的案例、法规、口径和办案心得统一治理和检索，保密材料要按角色分级授权；DeepLaw 法学院承接专业成长与 IP 分发，课程、专栏和长尾内容资产反哺获客，但课程内容不能替代个案咨询。把五个模块串起来，就是“案源、转化、承办、知识、成长”的回流链——让专业能力被看见，把咨询变成漏斗，律师聚焦策略判断，经验再反哺 IP 与承办，串联框架如图3所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/deeplaw-legal-ai-harness/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "f1a065619e7590da862624746fcf4b919ffe99da55eb4cc2cb407218b061c725",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "图3　五大模块的串联与回流：六个环节的卡点全部通过，才建议进入规模化",
+      "segments": [
+        {
+          "text": "图3　五大模块的串联与回流：六个环节的卡点全部通过，才建议进入规模化",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "heading",
+      "text": "四、与传统做法的对比：量化数字要看限定语",
+      "segments": [
+        {
+          "text": "四、与传统做法的对比：量化数字要看限定语",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "与传统做法相比，差别不在单点功能，而在链路是否闭合：获客靠熟人推荐、广告投放和案源中介，转化靠律师个人经验沟通，承办靠人工读材料、写文书、查口径，案例和经验散落在个人电脑里，成长靠个人学习和偶发复盘——这套老做法的共同问题，是每个环节都在发生，却没有一条完整链路可供复用和复盘。需要提醒的是，凡涉及具体数值，都应保留“公司口径、客户项目实测或 POC 示意”等限定语，并用自己的样本复核，而不是直接照搬进内部汇报；两种方式的逐项对照见表1。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "表1　传统方式与 DeepLaw 的逐项对照（数值以自身样本复核）",
+      "segments": [
+        {
+          "text": "表1　传统方式与 DeepLaw 的逐项对照（数值以自身样本复核）",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "",
+      "rows": [
+        [
+          "环节",
+          "人工 / 传统方式",
+          "DeepLaw 能力",
+          "客户价值"
+        ],
+        [
+          "获客",
+          "熟人推荐、广告投放和案源中介",
+          "智能律师广场 + 获客云 + 内容 / GEO 协同",
+          "从偶发获客走向可运营线索池"
+        ],
+        [
+          "转化",
+          "靠律师个人经验沟通",
+          "线索分层、报价辅助、微官网和信任材料",
+          "提升咨询承接稳定性"
+        ],
+        [
+          "承办",
+          "人工读材料、写文书、查口径",
+          "生成可复核底稿，人工确认后交付",
+          "释放低价值重复劳动"
+        ],
+        [
+          "知识",
+          "案例和经验散落在个人电脑",
+          "法律人知识库统一治理和检索",
+          "沉淀团队资产"
+        ],
+        [
+          "成长",
+          "靠个人学习和偶发复盘",
+          "法学院、专栏、课程和内容 IP",
+          "学习与获客互相反哺"
+        ]
+      ]
+    },
+    {
+      "id": "p-023",
+      "type": "heading",
+      "text": "五、适用与暂不适用：边界说清楚，项目才容易成功",
+      "segments": [
+        {
+          "text": "五、适用与暂不适用：边界说清楚，项目才容易成功",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "对法律行业来说，边界诚实比过度承诺更重要。适合引入的对象包括个人律师、专业团队、律所和法律咨询公司，尤其是有清晰执业领域、案例积累、内容或知识资产，但缺少运营工具和线索转化机制的团队，企业法务希望提升读卷审约、文书初稿和知识沉淀效率的场景同样适用；暂不适用或需先补齐的情形同样明确——希望系统独立替代律师出具正式法律意见、独立承诺诉讼结果或自动接受委托的诉求应直接拒绝，没有人工复核、利益冲突审查、授权和保密机制的团队要先补齐制度，只需要简单合同模板、不需要完整链路的需求，用轻量工具即可。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "如果不确定自己属于哪一类，可以按四道关口自查：执业领域与服务边界、材料授权与脱敏、正式意见复核、利益冲突与委托流程留痕，四道全部为“是”再扩大团队使用，命中任何一个“否”，先补齐条件再谈规模化，决策路径如图4所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/deeplaw-legal-ai-harness/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "0d22782ef312c04962f1493d17b66db96c6e3330b884a9f447eddd4480afdcce",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "图4　适用 / 暂缓决策：四道关口依次自查，任一为“否”先补齐条件",
+      "segments": [
+        {
+          "text": "图4　适用 / 暂缓决策：四道关口依次自查，任一为“否”先补齐条件",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "heading",
+      "text": "六、30 天跑通最小场景：可复制的执行清单",
+      "segments": [
+        {
+          "text": "六、30 天跑通最小场景：可复制的执行清单",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "确认适用之后，POC 也不宜一开始就追求全量上线，更稳的做法是选一个边界清楚、责任人明确、结果可验收的流程，用真实但脱敏的样本运行，观察系统输出、人工修改量和业务结果。四个阶段的节奏是：场景选择阶段从劳动争议案源承接、企业合同审查、诉讼材料初稿或律师 IP 内容生产中挑一个，风险边界要先说清楚；资料接入阶段导入脱敏案情、合同、法规、模板和团队口径，材料必须可追溯、可授权；工作流配置阶段设置线索分层、承办步骤、人工确认点和留痕规则，关键动作都要可追踪；复盘扩展阶段评估转化、底稿质量、知识复用和合规问题，合伙人、承办律师、运营三方同意后再扩展。各阶段的交付物与通过标准见表2。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "表2　30 天 POC 的四个阶段、交付物与通过标准",
+      "segments": [
+        {
+          "text": "表2　30 天 POC 的四个阶段、交付物与通过标准",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "",
+      "rows": [
+        [
+          "阶段",
+          "目标",
+          "交付物",
+          "通过标准"
+        ],
+        [
+          "场景选择",
+          "选择劳动争议、合同审查、诉讼材料初稿或律师 IP 内容生产",
+          "场景边界、样本清单",
+          "风险边界清楚"
+        ],
+        [
+          "资料接入",
+          "导入脱敏案情、合同、法规、模板和团队口径",
+          "知识库、权限表、引用规则",
+          "材料可追溯、可授权"
+        ],
+        [
+          "工作流配置",
+          "设置线索分层、承办步骤、人工确认和留痕",
+          "流程图、审批点、日志口径",
+          "关键动作可追踪"
+        ],
+        [
+          "复盘扩展",
+          "评估转化、底稿质量、知识复用和合规问题",
+          "复盘报告、优化清单",
+          "合伙人、承办律师、运营同意"
+        ]
+      ]
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "复盘建议围绕合同审查准确率、有效咨询与委托转化、底稿可复用度和知识沉淀量四项核心指标验收，所有指标必须在试点前定义，不要等试点结束后倒推成功标准；转化尤其要按有效咨询、面谈率、委托率分层拆解，而不能只看线索数量，底稿质量则看人工修改量与修改原因是否随迭代收敛。条件允许时，还应保留上线前的承接与承办基线，记录案件类型结构的变化，避免把季节性案源波动误判为系统贡献——只看内容曝光容易忽略委托质量，只看委托数又难以定位是哪一个环节起了作用，过程指标与结果指标结合，才能支撑下一轮策略调整。四项指标各自对应的验收问题如图5所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/deeplaw-legal-ai-harness/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "94f71becaaea96f773b0a18eb1deb4b07f4c50d0dc652f06a840c86542ae907b",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "图5　POC 指标看板：四项指标须在试点前定义，转化按有效咨询、面谈率、委托率拆分",
+      "segments": [
+        {
+          "text": "图5　POC 指标看板：四项指标须在试点前定义，转化按有效咨询、面谈率、委托率拆分",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "heading",
+      "text": "七、安全与合规：默认把高风险动作交给人",
+      "segments": [
+        {
+          "text": "七、安全与合规：默认把高风险动作交给人",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "法律服务有其职业底线，人机分工的原则也因此更严格：高频、重复、可规则化的动作交给系统先处理——咨询初筛与线索分层、承办底稿与法规检索、普法内容与问答初稿、过程留痕；正式法律意见的出具、利益冲突审查、诉讼策略与费用决策、委托关系与收费确认，必须保留人工兜底。在这一分工之下，落地时至少守住四个治理维度：专业责任，AI 输出只作为可复核底稿，不替代律师判断，法律责任不能外包；保密与权限，案情、证据、合同和客户资料按角色分级访问；利益冲突与授权，委托关系、收费、冲突审查和证据使用需人工确认；内容分发，法律内容、课程和广告宣传必须人工审核，避免误导和违规营销。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "可参考的合规框架包括律师职业责任规则、中国《个人信息保护法》与《数据安全法》，以及 EU AI Act 等企业级 AI 治理原则；项目落地时，应由客户方法务、合规和信息安全团队结合所在法域逐一复核，本节内容用于项目治理讨论，不构成法律意见。人机边界与治理要点如图6所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/deeplaw-legal-ai-harness/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "9fba31a58b2085062fc409999a87105c54f5bb41cd73ec213766164eb5382070",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "图6　人机分工边界与四个治理维度：正式意见、冲突审查等高风险决定默认由人确认",
+      "segments": [
+        {
+          "text": "图6　人机分工边界与四个治理维度：正式意见、冲突审查等高风险决定默认由人确认",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "heading",
+      "text": "八、如何开始：体验方式与开通建议",
+      "segments": [
+        {
+          "text": "八、如何开始：体验方式与开通建议",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "建议法律团队先选一个细分场景做 POC，例如劳动争议案源承接、企业合同审查、诉讼材料初稿或律师个人 IP 内容生产；演示只能说明能力边界，POC 才能说明业务价值，先跑通一个最小场景，拿到转化、底稿质量、知识沉淀和合规留痕四组真实数据，再决定是否扩展团队、领域或城市。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "paragraph",
+      "text": "如需评估自身执业场景是否适配，可以先向灵宸智能团队索取试点方案与合规落地清单，用一批脱敏案情和合同样本完成一轮小规模验证；访问灵宸智能官网 www.lingchen-ai.com 即可预约产品演示，或致电 18621786899 获取一对一方案评估，把第一个 30 天 POC 的场景边界和验收口径先确定下来。",
+      "segments": [
+        {
+          "text": "如需评估自身执业场景是否适配，可以先向灵宸智能团队索取试点方案与合规落地清单，用一批脱敏案情和合同样本完成一轮小规模验证；访问灵宸智能官网 www.lingchen-ai.com 即可预约产品演示，或致电 18621786899 获取一对一方案评估，把第一个 30 天 POC 的场景边界和验收口径先确定下来。",
+          "bold": true,
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

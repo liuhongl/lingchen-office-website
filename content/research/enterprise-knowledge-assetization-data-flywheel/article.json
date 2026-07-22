@@ -1,0 +1,1692 @@
+{
+  "slug": "enterprise-knowledge-assetization-data-flywheel",
+  "category": "行业洞察",
+  "displayTitle": "企业知识资产化：数据飞轮如何让\"人走了，能力留下\"",
+  "sourceTitle": "企业知识资产化实战",
+  "summary": "摘要｜企业知识资产化，是把个人经验、业务判断和执行结果转换为可检索、可触发、可验证、可持续更新的组织能力；数据飞轮的作用，不是让模型记住更多资料，而是把每次获客、催收、审核、合同谈判和客户服务中的结果与原因写回系统，逐步形成规则、样本、标签和画像；只有知识能够进入工作流、接受复核并随结果迭代，企业才可能在人员流动和规模扩张中保持稳定交付。",
+  "publishedAt": null,
+  "sourceDocx": "企业知识资产化_数据飞轮.docx",
+  "sourceDocxSha256": "5011abeceb7f94a3b0db558d2fa3e636fe1bb4de5ccb8ae971c3cf7ef548244e",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "企业知识资产化实战",
+      "segments": [
+        {
+          "text": "企业知识资产化实战",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 23.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 23.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "用数据飞轮让“人走了，能力留下”",
+      "segments": [
+        {
+          "text": "用数据飞轮让“人走了，能力留下”",
+          "bold": true,
+          "color": "#4F86B5",
+          "fontSizePt": 18.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 18.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "deck",
+      "text": "从结果回写、场景标签到治理与度量的完整方法",
+      "segments": [
+        {
+          "text": "从结果回写、场景标签到治理与度量的完整方法",
+          "color": "#667986",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "abstract",
+      "text": "摘要｜企业知识资产化，是把个人经验、业务判断和执行结果转换为可检索、可触发、可验证、可持续更新的组织能力；数据飞轮的作用，不是让模型记住更多资料，而是把每次获客、催收、审核、合同谈判和客户服务中的结果与原因写回系统，逐步形成规则、样本、标签和画像；只有知识能够进入工作流、接受复核并随结果迭代，企业才可能在人员流动和规模扩张中保持稳定交付。",
+      "segments": [
+        {
+          "text": "摘要｜",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "企业知识资产化，是把个人经验、业务判断和执行结果转换为可检索、可触发、可验证、可持续更新的组织能力；数据飞轮的作用，不是让模型记住更多资料，而是把每次获客、催收、审核、合同谈判和客户服务中的结果与原因写回系统，逐步形成规则、样本、标签和画像；只有知识能够进入工作流、接受复核并随结果迭代，企业才可能在人员流动和规模扩张中保持稳定交付。",
+          "color": "#263746",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "leftTwips": 198,
+        "rightTwips": 198,
+        "backgroundColor": "#EDF4F8",
+        "leftBorder": {
+          "color": "#4F86B5",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        }
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "keywords",
+      "text": "关键词：企业知识资产化｜数据飞轮｜结果回写｜场景标签｜知识治理｜AI Agent",
+      "segments": [
+        {
+          "text": "关键词：企业知识资产化｜数据飞轮｜结果回写｜场景标签｜知识治理｜AI Agent",
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 180,
+        "leftTwips": 198,
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "heading",
+      "text": "核心结论",
+      "segments": [
+        {
+          "text": "核心结论",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 12.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 12.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "● 资产化的对象不是孤立答案，而是带有场景、条件、结果和边界的业务判断",
+      "segments": [
+        {
+          "text": "● ",
+          "bold": true,
+          "color": "#4F86B5",
+          "fontSizePt": 8.0
+        },
+        {
+          "text": "资产化的对象不是孤立答案，而是带有场景、条件、结果和边界的业务判断",
+          "color": "#263746",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 360,
+        "lineRule": "exact",
+        "leftTwips": 255,
+        "hangingTwips": 142
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "● 资产化的最小单位不是一份文件，而是能够被流程调用、被结果验证的决策单元",
+      "segments": [
+        {
+          "text": "● ",
+          "bold": true,
+          "color": "#4F86B5",
+          "fontSizePt": 8.0
+        },
+        {
+          "text": "资产化的最小单位不是一份文件，而是能够被流程调用、被结果验证的决策单元",
+          "color": "#263746",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 360,
+        "lineRule": "exact",
+        "leftTwips": 255,
+        "hangingTwips": 142
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "● 衡量知识资产不能只看文档数量，应同时看复用率、命中率、更新速度和业务贡献",
+      "segments": [
+        {
+          "text": "● ",
+          "bold": true,
+          "color": "#4F86B5",
+          "fontSizePt": 8.0
+        },
+        {
+          "text": "衡量知识资产不能只看文档数量，应同时看复用率、命中率、更新速度和业务贡献",
+          "color": "#263746",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 360,
+        "lineRule": "exact",
+        "leftTwips": 255,
+        "hangingTwips": 142
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "很多组织在关键员工离开后才意识到，真正流失的并不是几份资料，而是判断顺序、取舍逻辑和例外处理；销售负责人知道什么线索值得优先跟进，催收主管能区分付款拖延与服务争议，资深审单员会沿着单据关系寻找隐性不符点；这些能力如果只存在于个人记忆里，一旦人员调岗、离职或团队迅速扩张，组织就会重新交一遍学费；知识资产化要解决的，正是把这种“靠人记住”的能力，改造成“系统可以继承”的机制。",
+      "segments": [
+        {
+          "text": "很多组织在关键员工离开后才意识到，真正流失的并不是几份资料，而是判断顺序、取舍逻辑和例外处理；销售负责人知道什么线索值得优先跟进，催收主管能区分付款拖延与服务争议，资深审单员会沿着单据关系寻找隐性不符点；这些能力如果只存在于个人记忆里，一旦人员调岗、离职或团队迅速扩张，组织就会重新交一遍学费；知识资产化要解决的，正是把这种“靠人记住”的能力，改造成“系统可以继承”的机制。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "7db3dbc4bf2a6986e6fdb03505af0e0cd7ee5a4285a235d73c851e4ff1de73c2",
+      "width": 1717,
+      "height": 750,
+      "caption": "图1｜知识资产化的核心转变：能力从个人记忆进入可运行的系统机制",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图1｜知识资产化的核心转变：能力从个人记忆进入可运行的系统机制",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "heading",
+      "text": "一、数据飞轮的起点：先把结果写回来",
+      "segments": [
+        {
+          "text": "一、数据飞轮的起点：先把结果写回来",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "静态知识库解决的是“系统能读到什么”，数据飞轮解决的是“系统执行以后学到了什么”；两者的差别不在文件多少，而在业务结果能否回到同一条数据链上；一封开发信发出后，系统要知道对方是否送达、是否回复、回复属于拒绝、咨询还是明确需求，一次催收沟通结束后，要记录承诺付款、争议原因、转人工和实际到账，一次单证审核完成后，也要保留人工修改、不符点确认和最终放行结果。",
+      "segments": [
+        {
+          "text": "静态知识库解决的是“系统能读到什么”，数据飞轮解决的是“系统执行以后学到了什么”；两者的差别不在文件多少，而在业务结果能否回到同一条数据链上；一封开发信发出后，系统要知道对方是否送达、是否回复、回复属于拒绝、咨询还是明确需求，一次催收沟通结束后，要记录承诺付款、争议原因、转人工和实际到账，一次单证审核完成后，也要保留人工修改、不符点确认和最终放行结果。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "完整的回写至少包含三层信息；第一层是结果，回答这次动作是否达成目标；第二层是原因，解释成功或失败由客户匹配、话术版本、数据质量、规则遗漏还是流程延迟造成；第三层是边界，标记哪些动作必须人工确认、哪些结论不能直接对外、哪些数据不得进入训练或外部模型环境；结果决定知识是否有效，原因决定下一轮改什么，边界决定系统能够走多远；三层缺一，所谓飞轮都容易退化成只会累积文件的仓库。",
+      "segments": [
+        {
+          "text": "完整的回写至少包含三层信息；第一层是结果，回答这次动作是否达成目标；第二层是原因，解释成功或失败由客户匹配、话术版本、数据质量、规则遗漏还是流程延迟造成；第三层是边界，标记哪些动作必须人工确认、哪些结论不能直接对外、哪些数据不得进入训练或外部模型环境；结果决定知识是否有效，原因决定下一轮改什么，边界决定系统能够走多远；三层缺一，所谓飞轮都容易退化成只会累积文件的仓库。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "因此，数据飞轮应按“业务执行—结果回写—原因归因—知识更新—策略发布—再次执行”的顺序设计；每一轮都要留下可追溯的样本编号、版本、责任人和时间戳，让管理者能够从一个结果反查到当时调用了什么知识、为什么采用该策略，以及后续是否被修正。",
+      "segments": [
+        {
+          "text": "因此，数据飞轮应按“业务执行—结果回写—原因归因—知识更新—策略发布—再次执行”的顺序设计；每一轮都要留下可追溯的样本编号、版本、责任人和时间戳，让管理者能够从一个结果反查到当时调用了什么知识、为什么采用该策略，以及后续是否被修正。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "072a652b88a3b56de0d0a1902af6e1e2d9ddcaf7bac3506f4dc141d9cc5469fe",
+      "width": 1448,
+      "height": 1086,
+      "caption": "图2｜数据飞轮闭环：执行结果、原因与边界共同进入下一轮策略",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图2｜数据飞轮闭环：执行结果、原因与边界共同进入下一轮策略",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "heading",
+      "text": "二、沉淀什么：优先选择可验证、可复用的经验",
+      "segments": [
+        {
+          "text": "二、沉淀什么：优先选择可验证、可复用的经验",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "并非所有经验都值得进入系统；适合资产化的内容通常具备四个特征：业务频次足够高，能够持续产生样本；判断过程可以拆解，至少能说清输入、条件和输出；执行结果可以留痕，成功与失败不是只靠主观评价；经验具有一定复用半径，不会换一个人、一个城市或一个客户就完全失效；相反，低频、一次性、强依赖个人声誉或高度敏感的事务，即使整理成文档，也很难形成稳定的组织收益。",
+      "segments": [
+        {
+          "text": "并非所有经验都值得进入系统；适合资产化的内容通常具备四个特征：业务频次足够高，能够持续产生样本；判断过程可以拆解，至少能说清输入、条件和输出；执行结果可以留痕，成功与失败不是只靠主观评价；经验具有一定复用半径，不会换一个人、一个城市或一个客户就完全失效；相反，低频、一次性、强依赖个人声誉或高度敏感的事务，即使整理成文档，也很难形成稳定的组织收益。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "企业可以把知识对象分为事实、规则、样本和画像四类；事实回答“现在是什么”，例如产品能力、价格边界和合规承诺；规则回答“满足什么条件时做什么”，例如线索评分、账龄分层和审核阈值；样本保留“这一次为什么成功或失败”，包括原始输入、采用策略、人工修正和最终结果；画像则汇总长期行为，用于描述客户、债务、合同、单证、市场或内容版本的特征；真正高价值的知识，往往不是单独的一条规则，而是事实、规则、样本和画像能够相互印证。",
+      "segments": [
+        {
+          "text": "企业可以把知识对象分为事实、规则、样本和画像四类；事实回答“现在是什么”，例如产品能力、价格边界和合规承诺；规则回答“满足什么条件时做什么”，例如线索评分、账龄分层和审核阈值；样本保留“这一次为什么成功或失败”，包括原始输入、采用策略、人工修正和最终结果；画像则汇总长期行为，用于描述客户、债务、合同、单证、市场或内容版本的特征；真正高价值的知识，往往不是单独的一条规则，而是事实、规则、样本和画像能够相互印证。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "选择首批资产时，不宜从全公司的历史文件开始清点，最好从一个高频流程中挑出最影响结果的二十到五十个判断点，再把这些判断点对应的证据、触发条件和结果字段补齐；下面的对照表展示了四类典型业务中，哪些经验值得优先回写，以及它们最终应沉淀成什么组织资产。",
+      "segments": [
+        {
+          "text": "选择首批资产时，不宜从全公司的历史文件开始清点，最好从一个高频流程中挑出最影响结果的二十到五十个判断点，再把这些判断点对应的证据、触发条件和结果字段补齐；下面的对照表展示了四类典型业务中，哪些经验值得优先回写，以及它们最终应沉淀成什么组织资产。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表1｜四类典型业务中值得优先资产化的经验",
+      "rows": [
+        [
+          "业务场景",
+          "优先沉淀的经验",
+          "必须回写的信号",
+          "形成的组织资产"
+        ],
+        [
+          "出海获客",
+          "高回复客户特征、有效切入点、拒绝理由",
+          "送达、回复类型、商机阶段、CRM字段完整度",
+          "理想客户画像评分、触达策略、市场优先级"
+        ],
+        [
+          "批量催收",
+          "账龄策略、争议原因、承诺付款行为",
+          "接通、承诺、转人工、实际到账、投诉",
+          "分层催收策略、争议分流规则、合规话术库"
+        ],
+        [
+          "单证审核",
+          "常见不符点、人工修改、规则例外",
+          "不符点确认、漏报误报、最终放行",
+          "审核规则树、风险样本库、复核优先级"
+        ],
+        [
+          "合同审查",
+          "交易立场、风险条款、谈判底线",
+          "人工修改、条款接受、例外审批、最终签署",
+          "条款风险库、审查强度模型、业务偏好画像"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表1｜四类典型业务中值得优先资产化的经验",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 80,
+        "alignment": "left",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "heading",
+      "text": "三、四级成熟度：从文档留存走向策略自更新",
+      "segments": [
+        {
+          "text": "三、四级成熟度：从文档留存走向策略自更新",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "知识资产化不是一步到位的项目，而是一条清晰的成熟度路径；第一级是个人经验数字化，把分散在聊天记录、个人电脑和脑海里的方法整理成可查资料，这一层解决“人不在时还能找到”；第二级是团队模板化，把经验改写为话术、清单、标准操作流程和审核模板，并明确适用对象，这一层解决“新人可以照着做”；两级都很必要，但如果停在这里，组织仍然依赖人去判断何时调用哪份材料。",
+      "segments": [
+        {
+          "text": "知识资产化不是一步到位的项目，而是一条清晰的成熟度路径；第一级是个人经验数字化，把分散在聊天记录、个人电脑和脑海里的方法整理成可查资料，这一层解决“人不在时还能找到”；第二级是团队模板化，把经验改写为话术、清单、标准操作流程和审核模板，并明确适用对象，这一层解决“新人可以照着做”；两级都很必要，但如果停在这里，组织仍然依赖人去判断何时调用哪份材料。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "第三级是系统规则化，把模板和流程绑定起来，明确什么条件触发、谁有权审批、异常转给谁、结果写到哪里；到了这一层，知识不再只是可读，而是能够参与执行；第四级是模型画像化，系统根据持续回写的结果更新评分、优先级和策略偏好，同时保留人工纠偏与版本记录；这一层的目标不是追求“自动学习”的宣传效果，而是让高频判断在受控范围内越用越准。",
+      "segments": [
+        {
+          "text": "第三级是系统规则化，把模板和流程绑定起来，明确什么条件触发、谁有权审批、异常转给谁、结果写到哪里；到了这一层，知识不再只是可读，而是能够参与执行；第四级是模型画像化，系统根据持续回写的结果更新评分、优先级和策略偏好，同时保留人工纠偏与版本记录；这一层的目标不是追求“自动学习”的宣传效果，而是让高频判断在受控范围内越用越准。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "判断所处级别时，可以看三个硬指标：知识是否进入生产流程，结果是否能够反查到所用规则，策略是否会根据新样本被定期修订；只要其中任意一项缺失，企业多半仍停留在资料管理阶段；真正的资产化标志，是员工离开后留下的不只是文档，而是一套仍能运行、仍能接受复核、仍能继续改进的业务机制。",
+      "segments": [
+        {
+          "text": "判断所处级别时，可以看三个硬指标：知识是否进入生产流程，结果是否能够反查到所用规则，策略是否会根据新样本被定期修订；只要其中任意一项缺失，企业多半仍停留在资料管理阶段；真正的资产化标志，是员工离开后留下的不只是文档，而是一套仍能运行、仍能接受复核、仍能继续改进的业务机制。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "6221607101084acd21e38f088d4f22380f393bc8407c114800e7f6898ba8655c",
+      "width": 1448,
+      "height": 1086,
+      "caption": "图3｜知识资产化四级成熟度：从可查、可照做、可执行到可迭代",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图3｜知识资产化四级成熟度：从可查、可照做、可执行到可迭代",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "heading",
+      "text": "四、场景化标签：决定一条知识何时生效",
+      "segments": [
+        {
+          "text": "四、场景化标签：决定一条知识何时生效",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "多数知识库失效，并不是内容完全错误，而是正确内容被用在了错误场景；文件名、作者和日期只能帮助检索，不能告诉系统某条经验适用于什么客户、什么账龄、什么市场、什么合同立场或什么风险等级；缺少场景标签时，模型往往会给出看似合理、实则越界的答案，例如把首次提醒的话术用在长期争议客户，把卖方审查标准套到买方合同，或用成熟市场的触达节奏处理对隐私和退订更敏感的地区。",
+      "segments": [
+        {
+          "text": "多数知识库失效，并不是内容完全错误，而是正确内容被用在了错误场景；文件名、作者和日期只能帮助检索，不能告诉系统某条经验适用于什么客户、什么账龄、什么市场、什么合同立场或什么风险等级；缺少场景标签时，模型往往会给出看似合理、实则越界的答案，例如把首次提醒的话术用在长期争议客户，把卖方审查标准套到买方合同，或用成熟市场的触达节奏处理对隐私和退订更敏感的地区。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "可用的标签体系至少包含五类信息：业务对象说明知识服务谁，触发条件说明何时调用，适用边界说明哪些情况不能用，风险等级决定审批和复核强度，结果反馈记录调用后发生了什么；标签不要一开始追求百科全书式完整，更有效的做法是围绕高频场景建立二十到三十个主标签，再根据失败样本补充子标签；每新增一个标签，都应能解释一个真实差异，不能只是为了让分类看上去更精细。",
+      "segments": [
+        {
+          "text": "可用的标签体系至少包含五类信息：业务对象说明知识服务谁，触发条件说明何时调用，适用边界说明哪些情况不能用，风险等级决定审批和复核强度，结果反馈记录调用后发生了什么；标签不要一开始追求百科全书式完整，更有效的做法是围绕高频场景建立二十到三十个主标签，再根据失败样本补充子标签；每新增一个标签，都应能解释一个真实差异，不能只是为了让分类看上去更精细。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "标签还要与系统字段对齐；理想客户画像应关联行业、区域、岗位、规模和触达阶段，催收策略应关联账龄、金额、争议状态和联系人身份，合同规则应关联立场、条款类型和风险等级；当标签既能被人理解，又能被工作流读取，知识才具备“可检索、可触发、可追责”的基本条件。",
+      "segments": [
+        {
+          "text": "标签还要与系统字段对齐；理想客户画像应关联行业、区域、岗位、规模和触达阶段，催收策略应关联账龄、金额、争议状态和联系人身份，合同规则应关联立场、条款类型和风险等级；当标签既能被人理解，又能被工作流读取，知识才具备“可检索、可触发、可追责”的基本条件。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "ca1fba75f55a71b8c0af00334d91f2422d4c491a1d18dca979822fb2b65cd271",
+      "width": 1448,
+      "height": 1086,
+      "caption": "图4｜场景化标签体系：五类标签决定知识何时生效",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图4｜场景化标签体系：五类标签决定知识何时生效",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "heading",
+      "text": "五、治理角色：业务、产品数据与合规管理共同负责",
+      "segments": [
+        {
+          "text": "五、治理角色：业务、产品数据与合规管理共同负责",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "知识从个人经验变成组织资产，需要三类角色共同维护；业务专家负责判断经验是否真实、是否具有代表性，并把“我通常这样做”拆成可验证的条件和例外；销冠的一套话术可能只在某个行业有效，资深法务的审查偏好也可能与具体交易立场有关，业务专家的职责不是把个人权威原样写进系统，而是说明证据、适用范围和失败情形。",
+      "segments": [
+        {
+          "text": "知识从个人经验变成组织资产，需要三类角色共同维护；业务专家负责判断经验是否真实、是否具有代表性，并把“我通常这样做”拆成可验证的条件和例外；销冠的一套话术可能只在某个行业有效，资深法务的审查偏好也可能与具体交易立场有关，业务专家的职责不是把个人权威原样写进系统，而是说明证据、适用范围和失败情形。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "产品与数据团队负责把经验翻译成系统可识别的结构，包括字段、标签、规则、评分、工作流节点和复盘看板；他们还要处理版本、依赖关系和回写质量，避免同一条知识在不同系统里出现互相矛盾的副本；合规与管理层则负责划定边界和安排优先级，明确哪些数据只能脱敏使用，哪些结论必须人工确认，哪些知识允许跨部门共享，哪些高风险规则上线前必须经过审批。",
+      "segments": [
+        {
+          "text": "产品与数据团队负责把经验翻译成系统可识别的结构，包括字段、标签、规则、评分、工作流节点和复盘看板；他们还要处理版本、依赖关系和回写质量，避免同一条知识在不同系统里出现互相矛盾的副本；合规与管理层则负责划定边界和安排优先级，明确哪些数据只能脱敏使用，哪些结论必须人工确认，哪些知识允许跨部门共享，哪些高风险规则上线前必须经过审批。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "三类角色之间要有清楚的责任接口；业务专家拥有内容真实性的解释权，产品数据团队拥有结构与运行质量的维护权，合规管理层拥有发布、限制和下架的决定权；任何一方缺席，知识库都会退化，要么内容失真，要么系统无法调用，要么风险在规模化过程中被同步放大。",
+      "segments": [
+        {
+          "text": "三类角色之间要有清楚的责任接口；业务专家拥有内容真实性的解释权，产品数据团队拥有结构与运行质量的维护权，合规管理层拥有发布、限制和下架的决定权；任何一方缺席，知识库都会退化，要么内容失真，要么系统无法调用，要么风险在规模化过程中被同步放大。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "49dfcbdd0b433c21f6bd9d6d4ddbea6b2daac31cb804fb798b5b9cc9a22e03d8",
+      "width": 1717,
+      "height": 805,
+      "caption": "图5｜知识资产治理三方责任：内容、系统与边界共同受控",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图5｜知识资产治理三方责任：内容、系统与边界共同受控",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "heading",
+      "text": "六、知识生命周期：写入和下架同样重要",
+      "segments": [
+        {
+          "text": "六、知识生命周期：写入和下架同样重要",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "知识一旦进入生产系统，就不能再按普通资料管理；企业需要为每条重要知识建立完整生命周期：提交时记录来源和证据，审核时验证事实与适用边界，发布时绑定版本、权限和生效日期，调用时留下使用场景与结果，复盘时根据异常样本修正，失效后及时下架或归档；这样做看似增加了流程，实际上是在减少长期混乱，因为没有生命周期的知识会不断复制、改名和叠加补丁，最终没人知道哪一版可以信。",
+      "segments": [
+        {
+          "text": "知识一旦进入生产系统，就不能再按普通资料管理；企业需要为每条重要知识建立完整生命周期：提交时记录来源和证据，审核时验证事实与适用边界，发布时绑定版本、权限和生效日期，调用时留下使用场景与结果，复盘时根据异常样本修正，失效后及时下架或归档；这样做看似增加了流程，实际上是在减少长期混乱，因为没有生命周期的知识会不断复制、改名和叠加补丁，最终没人知道哪一版可以信。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "paragraph",
+      "text": "写入门槛要与风险相匹配；普通执行素材可以由一线提交、主管审核，高频业务规则应由业务负责人和数据团队共同确认，涉及价格、承诺、法律责任、个人信息或重大风险判断的内容，则应进入更严格的法务与合规审批；同样，下架也不能只靠管理员临时清理，过期案例、旧价格、失效规则、被投诉话术和错误样本都应设置触发条件，一旦超过复核周期或出现严重负面结果，系统自动提醒责任人暂停使用。",
+      "segments": [
+        {
+          "text": "写入门槛要与风险相匹配；普通执行素材可以由一线提交、主管审核，高频业务规则应由业务负责人和数据团队共同确认，涉及价格、承诺、法律责任、个人信息或重大风险判断的内容，则应进入更严格的法务与合规审批；同样，下架也不能只靠管理员临时清理，过期案例、旧价格、失效规则、被投诉话术和错误样本都应设置触发条件，一旦超过复核周期或出现严重负面结果，系统自动提醒责任人暂停使用。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-046",
+      "type": "paragraph",
+      "text": "每条知识至少要带有五项治理信息：所有者、版本号、生效范围、最近复核时间和下次复核日期；知识成为资产以后，也会老化、折旧和失效；只有把下架机制做得和写入机制一样严谨，组织记忆才不会反过来变成组织负担。",
+      "segments": [
+        {
+          "text": "每条知识至少要带有五项治理信息：所有者、版本号、生效范围、最近复核时间和下次复核日期；知识成为资产以后，也会老化、折旧和失效；只有把下架机制做得和写入机制一样严谨，组织记忆才不会反过来变成组织负担。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "4e66aa1f2f51629e884187865ad3b317ce9757820154c9af83c65fe323506b5f",
+      "width": 1717,
+      "height": 722,
+      "caption": "图6｜知识资产生命周期：提交、审核、发布、调用、复盘与下架",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图6｜知识资产生命周期：提交、审核、发布、调用、复盘与下架",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "heading",
+      "text": "七、分级管理：不同知识采用不同复核强度",
+      "segments": [
+        {
+          "text": "七、分级管理：不同知识采用不同复核强度",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-050",
+      "type": "paragraph",
+      "text": "统一的知识管理规则看似公平，实际往往效率很低；产品名称、品牌表述、价格边界、客户案例等标准事实，需要权威来源和较稳定的发布口径；线索评分、催收分层、审核规则等业务策略，会随着市场、样本和管理目标变化，复核频率应更高；邮件模板、沟通话术和操作提示属于执行素材，可以快速迭代，但必须保留审核与版本记录；涉及法律承诺、个人信息、高风险判断和自动决策的边界知识，则应实行最严格的上线审批与使用限制。",
+      "segments": [
+        {
+          "text": "统一的知识管理规则看似公平，实际往往效率很低；产品名称、品牌表述、价格边界、客户案例等标准事实，需要权威来源和较稳定的发布口径；线索评分、催收分层、审核规则等业务策略，会随着市场、样本和管理目标变化，复核频率应更高；邮件模板、沟通话术和操作提示属于执行素材，可以快速迭代，但必须保留审核与版本记录；涉及法律承诺、个人信息、高风险判断和自动决策的边界知识，则应实行最严格的上线审批与使用限制。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "paragraph",
+      "text": "分级的目的不是增加层级，而是让资源用在风险最高、变化最快的位置；标准事实可按季度复核，重大变化即时更新；业务策略通常需要月度回看结果，发现偏差后调整阈值或适用范围；执行素材根据投诉、人工修改和异常样本随时更新；高风险边界应在上线前必审，并设置一票暂停机制；复核频率还要结合业务实际，监管变化快、价格变化快或客户影响大的内容，不应机械套用固定周期。",
+      "segments": [
+        {
+          "text": "分级的目的不是增加层级，而是让资源用在风险最高、变化最快的位置；标准事实可按季度复核，重大变化即时更新；业务策略通常需要月度回看结果，发现偏差后调整阈值或适用范围；执行素材根据投诉、人工修改和异常样本随时更新；高风险边界应在上线前必审，并设置一票暂停机制；复核频率还要结合业务实际，监管变化快、价格变化快或客户影响大的内容，不应机械套用固定周期。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "paragraph",
+      "text": "责任人也要与分级对应；内容生产者可以提出修改，但不应自动获得发布权；系统管理员可以维护权限，却不应替代业务判断；管理层需要看到每类知识的存量、使用量、过期量和风险状态，才能决定哪些资产值得继续投入，哪些内容应当合并、降级或下架。",
+      "segments": [
+        {
+          "text": "责任人也要与分级对应；内容生产者可以提出修改，但不应自动获得发布权；系统管理员可以维护权限，却不应替代业务判断；管理层需要看到每类知识的存量、使用量、过期量和风险状态，才能决定哪些资产值得继续投入，哪些内容应当合并、降级或下架。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表2｜知识分级治理：责任人、复核节奏与下架机制",
+      "rows": [
+        [
+          "知识类型",
+          "典型内容",
+          "主要责任人",
+          "复核与下架机制"
+        ],
+        [
+          "标准事实",
+          "公司定位、产品能力、价格边界、合规承诺",
+          "产品、品牌、法务共同确认",
+          "季度复核；重大变化即时更新"
+        ],
+        [
+          "业务策略",
+          "线索评分、催收分层、审核规则、业务阈值",
+          "业务负责人、产品数据共同维护",
+          "月度复盘；按结果调整适用范围"
+        ],
+        [
+          "执行素材",
+          "邮件模板、沟通话术、操作提示",
+          "一线提交，主管审核",
+          "按异常样本随时修订；保留版本记录"
+        ],
+        [
+          "高风险边界",
+          "法律承诺、个人信息、自动决策限制",
+          "合规、法务、管理层审批",
+          "上线前必审；触发红线立即暂停"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表2｜知识分级治理：责任人、复核节奏与下架机制",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 80,
+        "alignment": "left",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-055",
+      "type": "heading",
+      "text": "八、衡量成效：看复用、命中、老化与结果贡献",
+      "segments": [
+        {
+          "text": "八、衡量成效：看复用、命中、老化与结果贡献",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-056",
+      "type": "paragraph",
+      "text": "文档数量、入库条目和阅读次数容易统计，却不能证明能力真正留在组织里；更有价值的指标首先是复用率，即一条知识是否被多个员工、多个流程或多个相近场景有效调用；其次是命中率，即系统推荐或调用的内容有多少被人工采纳，并在后续结果中证明有效；第三是修正率和老化率，分别反映知识是否持续更新，以及超过复核周期仍未确认的内容占比。",
+      "segments": [
+        {
+          "text": "文档数量、入库条目和阅读次数容易统计，却不能证明能力真正留在组织里；更有价值的指标首先是复用率，即一条知识是否被多个员工、多个流程或多个相近场景有效调用；其次是命中率，即系统推荐或调用的内容有多少被人工采纳，并在后续结果中证明有效；第三是修正率和老化率，分别反映知识是否持续更新，以及超过复核周期仍未确认的内容占比。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "paragraph",
+      "text": "真正决定项目价值的是结果贡献；出海获客要看使用某类画像和话术后，有效回复、商机创建和销售准备时间是否改善；批量催收要看净新增回款、承诺履约、争议分流和投诉是否变化；单证或合同审核要看漏报、误报、人工复核时长和高风险问题发现率；结果贡献必须与历史基线、对照组或同类样本比较，不能把自然增长和样本结构变化都归功于知识系统。",
+      "segments": [
+        {
+          "text": "真正决定项目价值的是结果贡献；出海获客要看使用某类画像和话术后，有效回复、商机创建和销售准备时间是否改善；批量催收要看净新增回款、承诺履约、争议分流和投诉是否变化；单证或合同审核要看漏报、误报、人工复核时长和高风险问题发现率；结果贡献必须与历史基线、对照组或同类样本比较，不能把自然增长和样本结构变化都归功于知识系统。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-058",
+      "type": "paragraph",
+      "text": "还应增加一个容易被忽视的组织指标——新人达标周期；若一套知识系统能让新人更快达到合格产能，让资深员工减少重复解释，让关键岗位离职后的业务波动明显缩小，它才真正产生了组织价值；管理看板应同时呈现使用、质量、更新和经营结果，避免团队只追求“多写、多收、多入库”。",
+      "segments": [
+        {
+          "text": "还应增加一个容易被忽视的组织指标——新人达标周期；若一套知识系统能让新人更快达到合格产能，让资深员工减少重复解释，让关键岗位离职后的业务波动明显缩小，它才真正产生了组织价值；管理看板应同时呈现使用、质量、更新和经营结果，避免团队只追求“多写、多收、多入库”。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "ffb7f02732803400078fbae5dac69740fe5342f884a3121b8fed8e97259facc6",
+      "width": 1717,
+      "height": 819,
+      "caption": "图7｜知识资产成效看板：复用、命中、修正、老化与结果贡献",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图7｜知识资产成效看板：复用、命中、修正、老化与结果贡献",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-061",
+      "type": "heading",
+      "text": "九、把数据飞轮写进日常运营",
+      "segments": [
+        {
+          "text": "九、把数据飞轮写进日常运营",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-062",
+      "type": "paragraph",
+      "text": "数据飞轮不会在系统上线后自动运转，它需要固定的运营节奏；日度层面处理异常，包括调用失败、数据缺失、权限越界、投诉、错误建议和高风险转人工；周度层面复盘使用与质量，查看哪些知识被高频调用、哪些推荐经常被拒绝、哪些流程出现人工接管；月度层面讨论策略，分析画像、规则、话术和阈值对业务结果的影响，并决定继续使用、修订还是暂停。",
+      "segments": [
+        {
+          "text": "数据飞轮不会在系统上线后自动运转，它需要固定的运营节奏；日度层面处理异常，包括调用失败、数据缺失、权限越界、投诉、错误建议和高风险转人工；周度层面复盘使用与质量，查看哪些知识被高频调用、哪些推荐经常被拒绝、哪些流程出现人工接管；月度层面讨论策略，分析画像、规则、话术和阈值对业务结果的影响，并决定继续使用、修订还是暂停。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "paragraph",
+      "text": "季度层面则要做治理审查，清理过期事实、重复版本和长期无人负责的内容，重新评估权限、供应商边界和跨部门共享范围；复盘会议不必冗长，但必须以可追溯数据为基础，每个结论都要形成明确动作：谁修改、改什么、何时生效、用什么指标验证；如果会议只有经验讨论，没有版本变更和结果回写，飞轮仍然没有真正闭环。",
+      "segments": [
+        {
+          "text": "季度层面则要做治理审查，清理过期事实、重复版本和长期无人负责的内容，重新评估权限、供应商边界和跨部门共享范围；复盘会议不必冗长，但必须以可追溯数据为基础，每个结论都要形成明确动作：谁修改、改什么、何时生效、用什么指标验证；如果会议只有经验讨论，没有版本变更和结果回写，飞轮仍然没有真正闭环。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-064",
+      "type": "paragraph",
+      "text": "绩效机制也要适度配合；可以把高质量案例沉淀、失败原因回写、过期知识清理和新人复用效果纳入团队目标，但不宜简单考核“提交了多少条”；数量导向会催生低质量内容，结果导向则要求知识被真实使用、被验证并带来改进。",
+      "segments": [
+        {
+          "text": "绩效机制也要适度配合；可以把高质量案例沉淀、失败原因回写、过期知识清理和新人复用效果纳入团队目标，但不宜简单考核“提交了多少条”；数量导向会催生低质量内容，结果导向则要求知识被真实使用、被验证并带来改进。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-08.png",
+      "sourceMedia": "/word/media/image8.png",
+      "sha256": "9a002d7877c8f2dcd105c1b357ed6a0986a992a4c0fef2c3577ba8f4dff3d8c8",
+      "width": 1717,
+      "height": 791,
+      "caption": "图8｜数据飞轮运营节奏：日度异常、周度质量、月度策略、季度治理",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图8｜数据飞轮运营节奏：日度异常、周度质量、月度策略、季度治理",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-067",
+      "type": "heading",
+      "text": "十、90天试点：从一个高频场景跑通闭环",
+      "segments": [
+        {
+          "text": "十、90天试点：从一个高频场景跑通闭环",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-068",
+      "type": "paragraph",
+      "text": "知识资产化最忌讳从“把全公司的资料都收上来”开始；更稳妥的做法，是选择一个频次高、结果清楚、数据可留痕、业务负责人愿意投入的场景，在九十天内跑通最小闭环；例如出海获客可以选择一个市场和一类客户，催收可以选择同账龄、同区域的债权池，单证审核可以选择一种单据组合，合同审查可以选择高频模板和固定交易立场。",
+      "segments": [
+        {
+          "text": "知识资产化最忌讳从“把全公司的资料都收上来”开始；更稳妥的做法，是选择一个频次高、结果清楚、数据可留痕、业务负责人愿意投入的场景，在九十天内跑通最小闭环；例如出海获客可以选择一个市场和一类客户，催收可以选择同账龄、同区域的债权池，单证审核可以选择一种单据组合，合同审查可以选择高频模板和固定交易立场。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-069",
+      "type": "paragraph",
+      "text": "前十五天完成场景边界、基线和责任人确认，明确什么算有效结果、哪些情况必须排除；第十六至三十天整理二十到五十个关键判断点，补齐标签、来源、版本和结果字段；第三十一至六十天把高频规则接入工作流，以小样本运行并保留人工复核；第六十一至九十天集中分析命中、修正、异常和经营结果，淘汰无效内容，确定下一阶段是否扩展。",
+      "segments": [
+        {
+          "text": "前十五天完成场景边界、基线和责任人确认，明确什么算有效结果、哪些情况必须排除；第十六至三十天整理二十到五十个关键判断点，补齐标签、来源、版本和结果字段；第三十一至六十天把高频规则接入工作流，以小样本运行并保留人工复核；第六十一至九十天集中分析命中、修正、异常和经营结果，淘汰无效内容，确定下一阶段是否扩展。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-070",
+      "type": "paragraph",
+      "text": "试点验收应关注四件事：业务结果是否改善，质量和合规红线是否守住，人工维护成本是否可接受，机制是否能够由内部团队持续运营；只有这四项同时成立，才适合扩大场景和样本；否则应先修正数据、流程或治理责任，而不是急于增加模型和工具。",
+      "segments": [
+        {
+          "text": "试点验收应关注四件事：业务结果是否改善，质量和合规红线是否守住，人工维护成本是否可接受，机制是否能够由内部团队持续运营；只有这四项同时成立，才适合扩大场景和样本；否则应先修正数据、流程或治理责任，而不是急于增加模型和工具。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-09.png",
+      "sourceMedia": "/word/media/image9.png",
+      "sha256": "0b8537170e5731de6148289b008f45f81e6486a7575fdefff0eb64db82552088",
+      "width": 1717,
+      "height": 777,
+      "caption": "图9｜90天最小闭环路线：从场景定义到复盘扩展",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图9｜90天最小闭环路线：从场景定义到复盘扩展",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-073",
+      "type": "heading",
+      "text": "十一、边界判断：哪些场景适合，哪些场景应谨慎",
+      "segments": [
+        {
+          "text": "十一、边界判断：哪些场景适合，哪些场景应谨慎",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-074",
+      "type": "paragraph",
+      "text": "知识资产化并非所有业务的通用答案；最适合优先推进的场景，通常同时具备较高频次和较强可标准化程度，例如线索筛选、批量沟通、单据审核、合同初审、客服分流和内容生产；这些流程会反复出现相似输入，可以定义结果，也能通过规则、样本和标签不断修正，并持续获得复核样本与反馈；频次高但标准化程度低的场景，可以先做辅助检索、记录和人工决策支持，不宜直接追求全自动执行。",
+      "segments": [
+        {
+          "text": "知识资产化并非所有业务的通用答案；最适合优先推进的场景，通常同时具备较高频次和较强可标准化程度，例如线索筛选、批量沟通、单据审核、合同初审、客服分流和内容生产；这些流程会反复出现相似输入，可以定义结果，也能通过规则、样本和标签不断修正，并持续获得复核样本与反馈；频次高但标准化程度低的场景，可以先做辅助检索、记录和人工决策支持，不宜直接追求全自动执行。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-075",
+      "type": "paragraph",
+      "text": "频次低但标准化程度高的场景，适合保留权威清单、模板和检查点，用于降低遗漏，而不必建设复杂飞轮；频次低且高度依赖个人关系、声誉、现场感知或独特谈判的事务，资产化收益往往慢于预期，系统更适合承担材料准备和过程留痕；无论处于哪个象限，只要结果无法留痕、样本没有基本一致性、责任人不愿复核，项目都应先回到流程数字化和数据治理。",
+      "segments": [
+        {
+          "text": "频次低但标准化程度高的场景，适合保留权威清单、模板和检查点，用于降低遗漏，而不必建设复杂飞轮；频次低且高度依赖个人关系、声誉、现场感知或独特谈判的事务，资产化收益往往慢于预期，系统更适合承担材料准备和过程留痕；无论处于哪个象限，只要结果无法留痕、样本没有基本一致性、责任人不愿复核，项目都应先回到流程数字化和数据治理。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-10",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-10.png",
+      "sourceMedia": "/word/media/image10.png",
+      "sha256": "afd6d18033644c9d5f18cfdf662566b428dbfdff80fac7396d213ef90644715b",
+      "width": 1717,
+      "height": 847,
+      "caption": "图10｜适用边界矩阵：按业务频次与可标准化程度选择投入方式",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图10｜适用边界矩阵：按业务频次与可标准化程度选择投入方式",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-078",
+      "type": "paragraph",
+      "text": "风险边界同样需要前置；涉及个人信息、商业秘密、法律责任、债务沟通和高影响决策的知识，应实行最小权限、用途限制、脱敏、留存期限和人工复核；组织需要明确哪些内容可以进入内部模型，哪些只能在受控环境调用，哪些不得交给外部供应商；规模化之前先把这些边界写进流程，比上线后依靠人工补救更可靠。",
+      "segments": [
+        {
+          "text": "风险边界同样需要前置；涉及个人信息、商业秘密、法律责任、债务沟通和高影响决策的知识，应实行最小权限、用途限制、脱敏、留存期限和人工复核；组织需要明确哪些内容可以进入内部模型，哪些只能在受控环境调用，哪些不得交给外部供应商；规模化之前先把这些边界写进流程，比上线后依靠人工补救更可靠。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-11",
+      "type": "figure",
+      "src": "/images/research/enterprise-knowledge-assetization-data-flywheel/figure-11.png",
+      "sourceMedia": "/word/media/image11.png",
+      "sha256": "3928ebe76aa336311d3b44bba643a4ea10c8e7ec87f5f93067a98a8ad06e744d",
+      "width": 1717,
+      "height": 666,
+      "caption": "图11｜落地五步：从单场景验证到多业务线复制",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 20,
+        "lineTwips": 240,
+        "lineRule": "auto",
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图11｜落地五步：从单场景验证到多业务线复制",
+          "italic": true,
+          "color": "#667986",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 140,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-081",
+      "type": "heading",
+      "text": "结语：让系统继承经验，而不是让组织反复交学费",
+      "segments": [
+        {
+          "text": "结语：让系统继承经验，而不是让组织反复交学费",
+          "bold": true,
+          "color": "#173B57",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#B8CBD9",
+          "sizeEighthPoints": 5,
+          "spacePoints": 3
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-082",
+      "type": "paragraph",
+      "text": "企业知识资产化的终点，不是让模型记住所有东西，而是让组织不再为同一种问题反复从零开始；新人能够调用经过验证的经验，系统能够继承关键判断，管理者能够看到知识何时被使用、为什么有效、何时失效，人员流动才不会直接造成能力断层；这套机制一旦建立，知识就从“可阅读的资料”变成了“可经营的资产”。",
+      "segments": [
+        {
+          "text": "企业知识资产化的终点，不是让模型记住所有东西，而是让组织不再为同一种问题反复从零开始；新人能够调用经过验证的经验，系统能够继承关键判断，管理者能够看到知识何时被使用、为什么有效、何时失效，人员流动才不会直接造成能力断层；这套机制一旦建立，知识就从“可阅读的资料”变成了“可经营的资产”。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-083",
+      "type": "paragraph",
+      "text": "落地时不必求大求全；先选一个高频场景，定义清楚结果、原因和边界，建立二十到五十个关键判断点，把写入、审核、调用、回写、复盘和下架跑通；当复用率、命中率、新人达标周期和业务结果都出现稳定改善，再复制到更多业务线；真正可靠的数据飞轮，不靠一次性整理，也不靠个人热情，而靠清晰的责任、持续的结果回写和有节奏的治理。",
+      "segments": [
+        {
+          "text": "落地时不必求大求全；先选一个高频场景，定义清楚结果、原因和边界，建立二十到五十个关键判断点，把写入、审核、调用、回写、复盘和下架跑通；当复用率、命中率、新人达标周期和业务结果都出现稳定改善，再复制到更多业务线；真正可靠的数据飞轮，不靠一次性整理，也不靠个人热情，而靠清晰的责任、持续的结果回写和有节奏的治理。",
+          "color": "#263746",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 110,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "firstLineTwips": 420,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-084",
+      "type": "closing",
+      "text": "落地原则｜先把一个场景的结果、原因和边界写清楚，再谈全公司知识中台；先让知识在流程里被验证，再谈规模化复制。",
+      "segments": [
+        {
+          "text": "落地原则｜",
+          "bold": true,
+          "color": "#6FA98A",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "先把一个场景的结果、原因和边界写清楚，再谈全公司知识中台；先让知识在流程里被验证，再谈规模化复制。",
+          "color": "#263746",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 120,
+        "lineTwips": 380,
+        "lineRule": "exact",
+        "leftTwips": 312,
+        "rightTwips": 312,
+        "backgroundColor": "#F1F6F3",
+        "leftBorder": {
+          "color": "#6FA98A",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        }
+      }
+    }
+  ]
+}

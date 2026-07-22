@@ -1,0 +1,233 @@
+{
+  "url": "http://127.0.0.1:3000/",
+  "title": "灵宸智能｜让 AI Agent 成为企业增长的新质生产力",
+  "viewport": {
+    "innerWidth": 1440,
+    "innerHeight": 900,
+    "clientWidth": 1440,
+    "scrollWidth": 1440,
+    "bodyScrollWidth": 1440,
+    "fullHeight": 3880
+  },
+  "sections": [
+    {
+      "i": 0,
+      "tag": "header",
+      "id": "",
+      "cls": "site-header",
+      "text": "首页产品矩阵解决方案客户案例灵宸研究院关于灵宸联系我们明道 · 优术 · 取势 · 合众立即体验",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 66,
+      "bg": "rgba(255, 255, 255, 0.92)"
+    },
+    {
+      "i": 1,
+      "tag": "section",
+      "id": "top",
+      "cls": "hero",
+      "text": "携手灵宸 AI · 开启 AI AGENT 生产力新时代让 AI Agent 成为企业增长的新质生产力灵宸 AI-Agent为您的商业结果服务灵宸 AI Rev",
+      "x": 0,
+      "y": 66,
+      "width": 1440,
+      "height": 656,
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "i": 2,
+      "tag": "section",
+      "id": "problems",
+      "cls": "section problems",
+      "text": "我们在解决什么问题？在企业出海获客、批量债权催缴、法律案件拓展等领域中的每一个业务流程里，都在大量消耗人力，效率低、成本高、影响增长与现金流.....出海获客靠",
+      "x": 0,
+      "y": 722,
+      "width": 1440,
+      "height": 709,
+      "bg": "rgb(234, 245, 255)"
+    },
+    {
+      "i": 3,
+      "tag": "section",
+      "id": "value",
+      "cls": "section value",
+      "text": "我们的产品理念：把最先进的AI技术转化为可交付商业结果的生产力。我们不是售卖AI软件工具，而是围绕业务增长、现金流、人效等维度为您提供可量化、可验收商业结果的A",
+      "x": 0,
+      "y": 1431,
+      "width": 1440,
+      "height": 616,
+      "bg": "rgb(244, 250, 255)"
+    },
+    {
+      "i": 4,
+      "tag": "section",
+      "id": "agent-os",
+      "cls": "section agent-os",
+      "text": "自主进化的 Agent OS智能体内核数据飞轮与认知机制深度结合，自研金融级复杂任务决策架构与数据安全架构，持续交付商业结果、持续提升ROI。LINGCHEN ",
+      "x": 0,
+      "y": 2046,
+      "width": 1440,
+      "height": 1221,
+      "bg": "rgb(234, 245, 255)"
+    },
+    {
+      "i": 5,
+      "tag": "section",
+      "id": "",
+      "cls": "closing-cta",
+      "text": "开启您的 AI Agent增长之旅立即预约产品演示，体验灵宸 AI-Agent 如何为您的企业带来可量化的商业结果。立即体验",
+      "x": 0,
+      "y": 3267,
+      "width": 1440,
+      "height": 312,
+      "bg": "rgb(16, 26, 51)"
+    },
+    {
+      "i": 6,
+      "tag": "footer",
+      "id": "contact",
+      "cls": "site-footer",
+      "text": "产品方案DeepLaw 法律 AISocial Grow 内容引擎Mine GEO 品牌优化AI 销售获客 Harness合同智能审查 Agent资源中心产品文",
+      "x": 0,
+      "y": 3579,
+      "width": 1440,
+      "height": 301,
+      "bg": "rgb(5, 15, 35)"
+    }
+  ],
+  "samples": [
+    {
+      "sel": ".site-header",
+      "x": 0,
+      "y": 2980,
+      "width": 1440,
+      "height": 66,
+      "bg": "rgba(255, 255, 255, 0.92)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    {
+      "sel": ".hero",
+      "x": 0,
+      "y": 66,
+      "width": 1440,
+      "height": 656,
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    null,
+    {
+      "sel": ".problems",
+      "x": 0,
+      "y": 722,
+      "width": 1440,
+      "height": 709,
+      "bg": "rgb(234, 245, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    {
+      "sel": ".problem-list",
+      "x": 130,
+      "y": 794,
+      "width": 570,
+      "height": 533,
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    {
+      "sel": ".solution-panel",
+      "x": 770,
+      "y": 798,
+      "width": 540,
+      "height": 524,
+      "bg": "rgba(255, 255, 255, 0.86)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    {
+      "sel": ".value",
+      "x": 0,
+      "y": 1431,
+      "width": 1440,
+      "height": 616,
+      "bg": "rgb(244, 250, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    {
+      "sel": ".value-card strong",
+      "x": 155,
+      "y": 1726,
+      "width": 233,
+      "height": 32,
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "32px",
+      "fontWeight": "900",
+      "color": "rgb(38, 120, 243)"
+    },
+    {
+      "sel": ".agent-os",
+      "x": 0,
+      "y": 2046,
+      "width": 1440,
+      "height": 1221,
+      "bg": "rgb(234, 245, 255)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    {
+      "sel": ".agent-ring",
+      "x": 160,
+      "y": 2331,
+      "width": 1120,
+      "height": 680,
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    {
+      "sel": ".agent-step--6",
+      "x": 160,
+      "y": 2412,
+      "width": 200,
+      "height": 200,
+      "bg": "rgba(0, 0, 0, 0)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(16, 26, 47)"
+    },
+    {
+      "sel": ".closing-cta",
+      "x": 0,
+      "y": 3267,
+      "width": 1440,
+      "height": 312,
+      "bg": "rgb(16, 26, 51)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(255, 255, 255)"
+    },
+    {
+      "sel": ".site-footer",
+      "x": 0,
+      "y": 3579,
+      "width": 1440,
+      "height": 301,
+      "bg": "rgb(5, 15, 35)",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "color": "rgb(179, 191, 210)"
+    }
+  ]
+}

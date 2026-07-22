@@ -1,0 +1,629 @@
+{
+  "slug": "mine-geo-ai-brand-marketing-agent",
+  "category": "产品动态",
+  "displayTitle": null,
+  "sourceTitle": "Mine GEO AI 品牌营销智能体：AI 答案入口的品牌监测与事实治理",
+  "summary": "摘要：Mine GEO AI 是灵宸智能面向品牌方推出的品牌营销智能体，它把品牌在 ChatGPT、DeepSeek、Gemini、Claude 等 AI 答案入口中的提及、推荐、排名、信源和情感倾向，变成一组可以持续监测、可以横向比较的量化指标。这套产品的核心逻辑不是发稿，而是先审计基线、再统一事实库、再产出可引用内容并做权威分发，最后进入长期复盘。本文会讲清楚它适合哪些企业、内部机制如何运转、与传统公关做法的差别在哪里，以及 30 天内跑通首轮 POC 的具体路径。",
+  "publishedAt": null,
+  "sourceDocx": "Mine_GEO_AI品牌营销智能体_AI答案入口的品牌监测_事实治理_.docx",
+  "sourceDocxSha256": "dd767eb7cd0c20d814ee6deef6a32a7f48693446443c6457c6742708fda079e3",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "Mine GEO AI 品牌营销智能体：AI 答案入口的品牌监测与事实治理",
+      "segments": [
+        {
+          "text": "Mine GEO AI 品牌营销智能体：AI 答案入口的品牌监测与事实治理",
+          "bold": true,
+          "fontSizePt": 18.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "alignment": "center",
+        "fontSizePt": 18.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "abstract",
+      "text": "摘要：Mine GEO AI 是灵宸智能面向品牌方推出的品牌营销智能体，它把品牌在 ChatGPT、DeepSeek、Gemini、Claude 等 AI 答案入口中的提及、推荐、排名、信源和情感倾向，变成一组可以持续监测、可以横向比较的量化指标。这套产品的核心逻辑不是发稿，而是先审计基线、再统一事实库、再产出可引用内容并做权威分发，最后进入长期复盘。本文会讲清楚它适合哪些企业、内部机制如何运转、与传统公关做法的差别在哪里，以及 30 天内跑通首轮 POC 的具体路径。",
+      "segments": [
+        {
+          "text": "摘要：Mine GEO AI 是灵宸智能面向品牌方推出的品牌营销智能体，它把品牌在 ChatGPT、DeepSeek、Gemini、Claude 等 AI 答案入口中的提及、推荐、排名、信源和情感倾向，变成一组可以持续监测、可以横向比较的量化指标。这套产品的核心逻辑不是发稿，而是先审计基线、再统一事实库、再产出可引用内容并做权威分发，最后进入长期复盘。本文会讲清楚它适合哪些企业、内部机制如何运转、与传统公关做法的差别在哪里，以及 30 天内跑通首轮 POC 的具体路径。",
+          "color": "#404040",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 240,
+        "lineTwips": 340,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "01｜先说结论：Mine GEO AI 适合谁，不适合谁",
+      "segments": [
+        {
+          "text": "01｜先说结论：Mine GEO AI 适合谁，不适合谁",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "先把结论放在最前面：客户会用 AI 问答做品牌比较的 B2B 企业、专业服务机构和高客单价品牌，是这套产品最典型的适用对象；真正有效的路径是先审计基线、再统一事实库、再做可引用内容和权威分发，而不是把 GEO 当成一次性的发稿动作；至于想伪造案例、制造虚假信源，或者只打算做一波投放就撤的项目，从一开始就不适合，具体的判断标准会在第 05 节展开。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "实际项目里，最常见的触发场景往往来自销售一线——客户在 AI 里问“某某供应商靠谱吗”，答案里出现了竞品却没有出现自己；换一个问法，AI 又引用了三年前的旧资料，把早已迭代的产品参数当成现状来讲。这类问题靠人工零散排查是排不干净的，Mine GEO AI 要解决的也不是“让所有模型都听话”，而是让企业清楚地掌握三件事：哪些问题根本没有进入答案，哪些事实被误读，哪些来源真正支撑了推荐。下图是这套方法从审计到监控的完整链路，每一步都有明确的输入、执行、留痕和结果回写。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/mine-geo-ai-brand-marketing-agent/figure-01.png",
+      "sourceMedia": "/word/media/6e970d05610b57bb9aa09a73a18065ad74fb57fc.png",
+      "sha256": "20fab80c7f0f6468796fbbfc0878223a7ea895a5d793dc0d140819dd63a919d1",
+      "width": 1800,
+      "height": 820,
+      "caption": "图 1｜Mine GEO AI 的业务链路：从 GEO 审计到监控迭代，前后对比须基于同一问题集、同一模型矩阵、同一采样周期",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜Mine GEO AI 的业务链路：从 GEO 审计到监控迭代，前后对比须基于同一问题集、同一模型矩阵、同一采样周期",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "heading",
+      "text": "02｜三类角色怎么用：品牌、销售与管理层共用一张工作台",
+      "segments": [
+        {
+          "text": "02｜三类角色怎么用：品牌、销售与管理层共用一张工作台",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "同一套系统，在不同角色手里承担的职责并不相同。品牌和公关团队关注的是 AI 有没有正确描述品牌，负面倾向、错误事实和弱信源要能被及时发现，他们验收的交付物是品牌基线和风险清单；销售与售前要的则是统一口径的素材，复用同一个事实库去生成售前问答、竞品对比和客户解释材料，避免每个人各讲一套；管理层看的是另一个层面——推荐率、答案排名、信源质量和错误事实的修正周期，这些指标共同回答一个问题：品牌资产到底有没有改善，下一轮资源该不该继续投。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "从落地经验看，能够长期运行下去的项目，几乎都是这三类视角在同一张工作台里互相校验，品牌盯事实、销售用素材、管理层看指标，任何一方单独推动都容易半途而废。品牌方推得动却没人用素材，项目会退化成监测报表；销售想用却没有统一事实库，口径又会重新散掉。下图展示了三类角色的协同关系，每个角色都对应可验收的交付物，这样项目才不会停留在演示效果上。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/mine-geo-ai-brand-marketing-agent/figure-02.png",
+      "sourceMedia": "/word/media/ac76a1e44f2b96abdd89950ad75bf114d3749b38.png",
+      "sha256": "3ce98728387a2df9e419fe0f3c123610b87176764dd576e578deb8ac232e32cd",
+      "width": 1800,
+      "height": 760,
+      "caption": "图 2｜三类角色的协同关系：每个角色都有明确的使用方式与可验收交付物",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜三类角色的协同关系：每个角色都有明确的使用方式与可验收交付物",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "heading",
+      "text": "03｜工作机制：输入、判断、执行、回写",
+      "segments": [
+        {
+          "text": "03｜工作机制：输入、判断、执行、回写",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "判断一款业务智能体能不能进入生产环境，不能只问“功能有没有”，更关键的是三个动作：输入能不能结构化，执行过程能不能被控制，结果能不能回到下一轮策略里去。输入结构化，意味着客户问题、事实资料和竞品名单都以标准格式进入系统，而不是散落在聊天记录和个人电脑里；执行可控，意味着每一次监测、每一篇初稿都有明确的规则边界和审核节点，出了偏差能够拦得住；结果回写，意味着本轮监测发现的问题会直接变成下一轮事实治理与内容创作的输入，形成闭环而不是各做各的。Mine GEO AI 的五个能力模块——GEO 审计、知识治理、内容创作、权威分发、监控迭代——正是围绕这三个动作设计的，每个模块解决一类明确的问题，也各自有在 POC 阶段应当验证的要点和不适用的情形，下表可以直接拿去做内部评估。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜五个能力模块解决的问题、POC 验证点与不适用情形",
+      "rows": [
+        [
+          "能力模块",
+          "解决的问题",
+          "POC 应验证的要点",
+          "不适用 / 暂缓的情形"
+        ],
+        [
+          "GEO 审计",
+          "品牌在 AI 答案中的表现不可见",
+          "可见度、推荐率、排名、信源、情感倾向是否可复现",
+          "随手问几个问题不能代表基线"
+        ],
+        [
+          "知识治理",
+          "事实口径不一致，过时信息被引用",
+          "官网、案例、FAQ、权威资料是否统一版本",
+          "未经授权的客户案例不能入库"
+        ],
+        [
+          "内容创作",
+          "内容不适合被 AI 摘取和引用",
+          "内容是否围绕客户问题和事实结构生成",
+          "堆砌关键词不等于可引用"
+        ],
+        [
+          "权威分发",
+          "好内容没有进入可信信源",
+          "官网、媒体、公域资料库是否可被抓取",
+          "虚假信源会反噬品牌"
+        ],
+        [
+          "监控迭代",
+          "一次性发稿无法复盘",
+          "采样周期、竞品对比、错误事实修正周期",
+          "偶然的一次好回答不算稳定改善"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 1｜五个能力模块解决的问题、POC 验证点与不适用情形",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "把这五个模块串起来，就是“问题集—事实—创作—分发—监控”五个卡点，每个卡点各有一条判断标准：问题集是否来自真实客户而不是团队自己拍脑袋想的，事实是否统一且拿到了授权，内容是否按 AI 的引用逻辑组织而非单纯堆词，分发页面是否真的可被抓取，监控是否用同一口径做了复测。任何一格答不清楚，都应该先补基础条件，再谈规模化，这个顺序不能颠倒——事实没治理好就大量产出内容，等于把错误口径复制了几十份，之后再纠正的成本会远高于一开始就把地基打牢。实践中最容易被跳过的恰恰是第一个卡点，很多团队急于产出，问题集却从没让销售和客服过目，结果监测的是自己想象中的问题，而不是客户真实在问的问题。下面这个决策框架可以直接用在内部评估会上，五个卡点全部通过，才建议进入规模化阶段。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/mine-geo-ai-brand-marketing-agent/figure-03.png",
+      "sourceMedia": "/word/media/f2bc69a7b9e71f2140fcc0f8405fd3b7bbeb0eae.png",
+      "sha256": "89f638221cbd3e559ed8f5a7b616a217b723b32204d84dc50f69a63b7a009c59",
+      "width": 1800,
+      "height": 820,
+      "caption": "图 3｜答案入口品牌表现决策框架：五个卡点全部通过，才建议规模化",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜答案入口品牌表现决策框架：五个卡点全部通过，才建议规模化",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "heading",
+      "text": "04｜与传统公关做法的差别：从曝光逻辑到引用逻辑",
+      "segments": [
+        {
+          "text": "04｜与传统公关做法的差别：从曝光逻辑到引用逻辑",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "与传统公关方式逐项对照，差别集中在五个环节。观测方式上，过去是人工随手在几个模型里试问，样本既不稳定也不可比，现在用统一问题集对多个模型做批量监测，才能形成可复现的基线；事实管理上，官网、产品资料和销售话术往往版本分散，各说各话，标准事实库把口径、版本和引用来源统一起来，误读自然减少；内容策略上，单次发稿很难验证是否被 AI 采纳，围绕引用逻辑生成多版本内容，可采纳性才有提升空间。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "分发路径和复盘方式的变化同样关键——传统做法只看媒体曝光数量，而 AI 答案更在意信源质量，官网、权威页面和公域资料库这些可抓取、可核验的位置，比单纯的曝光量更有分量；复盘也从凭经验判断品牌声量，变成持续跟踪可见度、推荐率和情感倾向，品牌工作由此变得可运营、可优化。需要提醒一句：凡是涉及具体数值的效果表述，都应保留“公司口径 / 客户项目实测 / POC 示例”之类的限定语，并用自己的样本复核，直接照搬到内部汇报里是不严谨的。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "heading",
+      "text": "05｜适用与暂不适用：边界说清楚，项目才容易成功",
+      "segments": [
+        {
+          "text": "05｜适用与暂不适用：边界说清楚，项目才容易成功",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "边界诚实比过度承诺更有价值。适用的一侧包括三类情形：客户会使用 AI 搜索、AI 问答或生成式摘要做品牌比较的 B2B、专业服务和高客单品牌；已经有官网、产品资料、客户案例和 FAQ，但缺少统一事实治理的企业；以及希望把品牌、公关、销售和售前资料沉淀成可复用知识资产的团队。暂不适用的一侧同样清楚——没有清晰产品事实、没有公开可信资料，却希望用虚假内容去操纵答案的项目不能接；只想做一次性发稿、不愿意长期监控和迭代的不建议启动；无法接受人工审核、授权校验和事实追溯的，也应当先缓一缓。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "如果不确定自己属于哪一类，可以按下面的决策树自查：问题集是否来自真实客户，事实库是否统一且有授权，分发页面是否可被抓取，三个问题全部为“是”，再扩大内容矩阵；命中任何一个红色分支，先补齐条件，不建议直接规模化。这组清单可以原样放进售前评估、采购问答和试点启动会，把边界写在合同之前，比事后解释要省力得多。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/mine-geo-ai-brand-marketing-agent/figure-04.png",
+      "sourceMedia": "/word/media/54c3ec3b8d18bb986beb8d2be2bc9b7f0900edf4.png",
+      "sha256": "b8a3a0ee9b4b372957a437c839b4adeaa05f9c87febd9ffd971dc3b84bcf12e9",
+      "width": 1800,
+      "height": 850,
+      "caption": "图 4｜适用 / 暂缓决策树：三问全部为“是”再扩大内容矩阵",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜适用 / 暂缓决策树：三问全部为“是”再扩大内容矩阵",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "heading",
+      "text": "06｜30 天跑通最小流程：可复制的执行清单",
+      "segments": [
+        {
+          "text": "06｜30 天跑通最小流程：可复制的执行清单",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "确认适用之后，POC 也不宜一上来就追求全量上线，更稳的做法是选一个边界清楚、责任人明确、结果可验收的流程，用真实但脱敏的样本运行，观察三件事：系统输出的质量到底如何，人工修改的工作量占比有多大，业务侧最终有没有拿到可感知的结果。样本一定要来自真实客户问题，脱敏处理之后再进系统，这样既保证了监测结论的有效性，也守住了数据安全的底线；责任人则建议一开始就落到具体的人，品牌侧谁盯基线、销售侧谁验素材、管理层谁看指标，都在启动会上写清楚。30 天的节奏可以拆成四个阶段，每个阶段都有明确的目标、交付物和通过标准，缺一项就说明该阶段没有真正完成，下表给出了完整的执行清单。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜30 天 POC 的四个阶段、交付物与通过标准",
+      "rows": [
+        [
+          "阶段",
+          "目标",
+          "交付物",
+          "通过标准"
+        ],
+        [
+          "基线审计",
+          "准备 20–50 个客户常问问题和 3–5 个竞品",
+          "问题集、平台矩阵、采样周期",
+          "可见度、推荐率、排名可复现"
+        ],
+        [
+          "事实治理",
+          "整理标准事实、案例、FAQ、权威资料",
+          "事实库、版本记录、授权状态",
+          "错误事实可定位"
+        ],
+        [
+          "内容与分发",
+          "生成并发布可引用内容",
+          "PR、FAQ、官网页面、媒体稿",
+          "信源可抓取、可追踪"
+        ],
+        [
+          "监控复盘",
+          "按同一问题集复测",
+          "对比报告、风险预警、优化清单",
+          "指标变化可解释"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 2｜30 天 POC 的四个阶段、交付物与通过标准",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "复盘阶段建议围绕四个核心指标验收：可见度与推荐率，回答“品牌有没有进入答案、有没有被推荐”；答案排名，回答“在同类推荐里排在什么位置、与主要竞品的相对位次如何”；信源质量，回答“支撑答案的引用来源是否权威、是否为己方可控页面”；错误事实修正周期，回答“一条错误信息从发现到在答案中被纠正需要多久”。四个指标合在一起，才能区分“偶然被提了一次”与“稳定进入了推荐”，任何单一指标都可能给出误导性的结论——排名靠前但信源全是第三方转述，说明品牌对答案的控制力仍然很弱。所有指标必须在试点开始前定义清楚，绝不能等试点结束后倒推成功标准，这是 POC 能否服众的分水岭，各指标的判断口径见下图。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/mine-geo-ai-brand-marketing-agent/figure-05.png",
+      "sourceMedia": "/word/media/b979ec73adc2e4db16730db99601374ce9feed18.png",
+      "sha256": "98b76106c93bfdbb20422c2abfb43ba994b85a8e56f20b60c258b747401c39ed",
+      "width": 1800,
+      "height": 820,
+      "caption": "图 5｜POC 指标看板：四个指标各自对应不同的验收问题，且须在试点前定义",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜POC 指标看板：四个指标各自对应不同的验收问题，且须在试点前定义",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "heading",
+      "text": "07｜安全与合规：默认把高风险动作交给人",
+      "segments": [
+        {
+          "text": "07｜安全与合规：默认把高风险动作交给人",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "人机分工的原则并不复杂：高频、重复、可规则化的动作交给系统先处理，比如答案入口的批量监测、提及率与排名与信源的统计、可引用内容的初稿生成，这些工作靠人力做既慢又难以保证口径一致；而事实高度争议、责任重大、需要专业签字或客户授权的动作，一律保留人工兜底，权威信源与媒体合作的敲定、负面舆情与公关风险的处置，默认由人来确认，系统只提供线索和草案，不替人做最终决定。这条边界画得越清楚，系统的产出团队越敢用，人的精力也越能集中在真正需要判断力的环节上；反过来，如果边界模糊，要么所有产出都要人工重审一遍导致效率归零，要么高风险内容未经把关直接流出，两种结局都会让项目失去内部信任。下图给出了系统职责与人工职责的具体划分。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/mine-geo-ai-brand-marketing-agent/figure-06.png",
+      "sourceMedia": "/word/media/9eafd97b13324b46d29c4fb879dac70cd9b3eb37.png",
+      "sha256": "d8b29ec8cc6791614c0e6e20d6f71139b0eb0c72de3e24f304a9d1b6ac75b55a",
+      "width": 1415,
+      "height": 605,
+      "caption": "图 6｜人机分工边界：系统负责批量监测与初稿，高风险动作默认由人确认",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜人机分工边界：系统负责批量监测与初稿，高风险动作默认由人确认",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "在这一分工之下，落地时至少要守住四个治理维度。事实真实性是底线，不伪造客户、数据、资质、媒体和第三方评价，这直接关系品牌信任；授权与脱敏针对客户案例、截图、评价和合同信息，入库前必须完成授权或脱敏处理，把隐私与商业泄露的风险压下去；内容留痕要求生成、审核、发布、修正四类动作全程可追溯，出了问题能定位到具体环节和责任人；数据处理则约束海外客户问题样本的范围、权限和保留期限，满足跨境数据治理的要求。可以参照的合规框架包括 GDPR、生成式搜索的内容质量原则、各平台内容规则，以及中国《个人信息保护法》《数据安全法》——这些只是参照而非法律意见，项目落地时应由客户方的法务、合规和信息安全团队结合所在法域复核。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "heading",
+      "text": "08｜如何开始：先做基线审计，再定治理优先级",
+      "segments": [
+        {
+          "text": "08｜如何开始：先做基线审计，再定治理优先级",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "比较务实的起步方式，是先准备 20–50 个客户常问问题和 3–5 个竞品，做一轮 Mine GEO 基线审计，看清品牌在各个 AI 答案入口的真实位置，再据此决定内容治理的优先级。演示只能说明能力边界，POC 才能说明业务价值，先跑通一个最小流程，再决定是否向更多团队、区域、渠道或产品线扩展，这个顺序在绝大多数项目里都被验证是对的。如果想评估自己品牌在 AI 答案入口的当前表现，可以访问灵宸智能官网 www.lingchen-ai.com 了解产品详情，或直接致电 18621786899 联系团队，获取基线审计方案与问题集模板，从一份可复现的基线开始，把品牌在 AI 时代的答案入口经营起来。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

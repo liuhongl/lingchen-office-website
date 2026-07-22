@@ -1,0 +1,1227 @@
+{
+  "slug": "results-as-a-service-raas",
+  "category": "解决方案&白皮书",
+  "displayTitle": "按结果付费（RaaS）：当 AI 供应商开始与你共担风险，采购逻辑变了什么",
+  "sourceTitle": "按结果付费(RaaS):当 AI 供应商开始与你共担风险,采购逻辑变了什么",
+  "summary": "摘要　RaaS(Results as a Service,按结果付费)正在把企业 AI 采购从“买功能”推向“买结果”:供应商愿意按意向线索、实际回款、节省成本收费,意味着它必须共同承担交付风险;采购方则要相应重写合同条款、验收口径和数据配合义务。本文拆解 RaaS 的成立条件、适用场景、合同要点与试点路径,供采购、业务、法务和财务负责人在决策时参考。",
+  "publishedAt": null,
+  "sourceDocx": "按结果付费RaaS_当AI供应商开始与你共担风险_采购逻辑变了什么.docx",
+  "sourceDocxSha256": "b339dc483ae89bc63151bdebd3ee9b9c32010c7c025495fb8683eb0c4b4a103e",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "按结果付费(RaaS):当 AI 供应商开始与你共担风险,采购逻辑变了什么",
+      "segments": [
+        {
+          "text": "按结果付费(RaaS):当 AI 供应商开始与你共担风险,采购逻辑变了什么",
+          "bold": true,
+          "color": "#111111",
+          "fontSizePt": 17.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 300,
+        "alignment": "both",
+        "fontSizePt": 17.0
+      }
+    },
+    {
+      "id": "frontmatter-abstract",
+      "type": "abstract",
+      "text": "摘要　RaaS(Results as a Service,按结果付费)正在把企业 AI 采购从“买功能”推向“买结果”:供应商愿意按意向线索、实际回款、节省成本收费,意味着它必须共同承担交付风险;采购方则要相应重写合同条款、验收口径和数据配合义务。本文拆解 RaaS 的成立条件、适用场景、合同要点与试点路径,供采购、业务、法务和财务负责人在决策时参考。",
+      "segments": [
+        {
+          "text": "摘要　",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "RaaS(Results as a Service,按结果付费)正在把企业 AI 采购从“买功能”推向“买结果”:供应商愿意按意向线索、实际回款、节省成本收费,意味着它必须共同承担交付风险;采购方则要相应重写合同条款、验收口径和数据配合义务。本文拆解 RaaS 的成立条件、适用场景、合同要点与试点路径,供采购、业务、法务和财务负责人在决策时参考。",
+          "color": "#262626",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "alignment": "both"
+      }
+    },
+    {
+      "id": "frontmatter-keywords",
+      "type": "keywords",
+      "text": "关键词:按结果付费 / RaaS / AI 采购 / 结果计费 / 风险共担 / 结果账本 / POC 试点",
+      "segments": [
+        {
+          "text": "关键词:按结果付费 / RaaS / AI 采购 / 结果计费 / 风险共担 / 结果账本 / POC 试点",
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 0,
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "RaaS 的本质不是便宜,而是风险的重新分配——供应商只有在场景可控、结果可计量、数据可回写的条件下,才敢把自己的收入押在客户的业务结果上,这三个条件共同构成了结果计费的物理边界",
+      "segments": [
+        {
+          "text": "RaaS 的本质不是便宜,而是风险的重新分配——供应商只有在场景可控、结果可计量、数据可回写的条件下,才敢把自己的收入押在客户的业务结果上,这三个条件共同构成了结果计费的物理边界",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "listMarker": {
+        "text": "◆",
+        "color": "#1B4B7A",
+        "leftTwips": 440,
+        "hangingTwips": 320
+      },
+      "layout": {
+        "spaceAfterTwips": 90,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.0,
+        "leftTwips": 440,
+        "hangingTwips": 320
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "采购方不能把 RaaS 理解成“不给钱先试试”,数据质量、流程配合、人工兜底这三项共同义务一项都免不了,缺了任何一项,结果就无从归因,账就没办法算清楚",
+      "segments": [
+        {
+          "text": "采购方不能把 RaaS 理解成“不给钱先试试”,数据质量、流程配合、人工兜底这三项共同义务一项都免不了,缺了任何一项,结果就无从归因,账就没办法算清楚",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "listMarker": {
+        "text": "◆",
+        "color": "#1B4B7A",
+        "leftTwips": 440,
+        "hangingTwips": 320
+      },
+      "layout": {
+        "spaceAfterTwips": 90,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.0,
+        "leftTwips": 440,
+        "hangingTwips": 320
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "一个典型的失效信号:业务结果高度受外部价格、宏观周期或客户自身品牌影响,而且无法拆分归因时,结果付费很容易演变成旷日持久的合同争议,这类场景宁可退回项目制",
+      "segments": [
+        {
+          "text": "一个典型的失效信号:业务结果高度受外部价格、宏观周期或客户自身品牌影响,而且无法拆分归因时,结果付费很容易演变成旷日持久的合同争议,这类场景宁可退回项目制",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "listMarker": {
+        "text": "◆",
+        "color": "#1B4B7A",
+        "leftTwips": 440,
+        "hangingTwips": 320
+      },
+      "layout": {
+        "spaceAfterTwips": 90,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.0,
+        "leftTwips": 440,
+        "hangingTwips": 320
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "heading",
+      "text": "一、什么是 RaaS:从“买软件”到“买可验证结果”",
+      "segments": [
+        {
+          "text": "一、什么是 RaaS:从“买软件”到“买可验证结果”",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "RaaS(Results as a Service,按结果付费)指供应商不再按账号、模块或调用量收费,而是按双方事先约定的业务结果计费:催收按实际回款金额结算,出海获客按意向线索量结算,流程自动化按节省的人工成本或完成的任务量结算,付费的基础从“软件访问权”变成了“可验证的业务产出”。这条分界线正在重塑企业 AI 采购的底层逻辑——过去软件按席位、模块、调用量收费,客户独自承担“买了但没用起来”的风险,RaaS 则把其中一部分风险推回供应商,系统跑不出结果,供应商就收不到钱——这笔账从签约那天起就摆在台面上,双方谁也躲不开。",
+      "segments": [
+        {
+          "text": "RaaS(Results as a Service,按结果付费)指供应商不再按账号、模块或调用量收费,而是按双方事先约定的业务结果计费:催收按实际回款金额结算,出海获客按意向线索量结算,流程自动化按节省的人工成本或完成的任务量结算,付费的基础从“软件访问权”变成了“可验证的业务产出”。这条分界线正在重塑企业 AI 采购的底层逻辑——过去软件按席位、模块、调用量收费,客户独自承担“买了但没用起来”的风险,RaaS 则把其中一部分风险推回供应商,系统跑不出结果,供应商就收不到钱——这笔账从签约那天起就摆在台面上,双方谁也躲不开。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "国际市场已经给出明确信号:2026 年 5 月 TechRadar Pro 报道,Zendesk 将其 AI 定价与“经验证的解决结果”(verified resolution outcome)绑定,只有 AI 成功解决一次客户交互,才产生一笔费用;国内厂商也在同一方向上探索,例如灵宸智能已在应收催收、出海获客、流程自动化等场景,提供按回款金额、意向线索量、节省成本计费的方案;对采购方而言,重点从来不是拿到一个更低的报价,而是重新定义采购对象——买的不再是一套系统,而是一段可衡量、可验收、可归因的业务产出。",
+      "segments": [
+        {
+          "text": "国际市场已经给出明确信号:2026 年 5 月 TechRadar Pro 报道,Zendesk 将其 AI 定价与“经验证的解决结果”(verified resolution outcome)绑定,只有 AI 成功解决一次客户交互,才产生一笔费用;国内厂商也在同一方向上探索,例如灵宸智能已在应收催收、出海获客、流程自动化等场景,提供按回款金额、意向线索量、节省成本计费的方案;对采购方而言,重点从来不是拿到一个更低的报价,而是重新定义采购对象——买的不再是一套系统,而是一段可衡量、可验收、可归因的业务产出。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "需要提醒的是,结果付费并非在任何场景下都成立,它依赖三个互相咬合的前提:结果可计量、供应商可控、数据可回写;三点齐备,计费才有共同的事实基础,任缺其一,按结果结算就会退化成围绕归因的反复扯皮,这一点放到下图的稳定三角里看得最直观——三个顶点互为支点,谁也替代不了谁。",
+      "segments": [
+        {
+          "text": "需要提醒的是,结果付费并非在任何场景下都成立,它依赖三个互相咬合的前提:结果可计量、供应商可控、数据可回写;三点齐备,计费才有共同的事实基础,任缺其一,按结果结算就会退化成围绕归因的反复扯皮,这一点放到下图的稳定三角里看得最直观——三个顶点互为支点,谁也替代不了谁。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/results-as-a-service-raas/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "0a264b3d27218f4594837e99acff178fd201b84501c921b87f0f6d10c3c0be29",
+      "width": 1352,
+      "height": 843,
+      "caption": "图 1|RaaS 合同稳定三角:结果可计量、供应商可控、数据可回写三点互为支撑,任缺其一,结果付费就会退化为归因扯皮",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1|RaaS 合同稳定三角:结果可计量、供应商可控、数据可回写三点互为支撑,任缺其一,结果付费就会退化为归因扯皮",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "把两种采购模式放在一起对照,差异会更清楚:传统采购谈的是功能清单、交付节点和服务 SLA,供应商的义务止步于“系统可用”,至于用没用出价值,那是客户自己的事;RaaS 谈的是结果定义、归因规则、验收口径和数据义务,供应商要对产出负责,客户要对配合负责,双方的关注点从“验收一套系统”转向“共同经营一段业务”。选型逻辑也随之改变——过去看演示、看报价、看品牌就能下单,如今还要看供应商能否运营、能否复盘、能否兜底、能否持续优化,这是两种完全不同的能力结构;此外财务口径也不一样,订阅费大多计入相对刚性的固定成本,而结果计费直接挂钩业务产出,预算审批和绩效考核的挂法都要重新排布,下表把这些关键差异做了归纳。",
+      "segments": [
+        {
+          "text": "把两种采购模式放在一起对照,差异会更清楚:传统采购谈的是功能清单、交付节点和服务 SLA,供应商的义务止步于“系统可用”,至于用没用出价值,那是客户自己的事;RaaS 谈的是结果定义、归因规则、验收口径和数据义务,供应商要对产出负责,客户要对配合负责,双方的关注点从“验收一套系统”转向“共同经营一段业务”。选型逻辑也随之改变——过去看演示、看报价、看品牌就能下单,如今还要看供应商能否运营、能否复盘、能否兜底、能否持续优化,这是两种完全不同的能力结构;此外财务口径也不一样,订阅费大多计入相对刚性的固定成本,而结果计费直接挂钩业务产出,预算审批和绩效考核的挂法都要重新排布,下表把这些关键差异做了归纳。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1|传统 AI 采购与 RaaS 采购的关键差异对照",
+      "rows": [
+        [
+          "维度",
+          "传统 AI 采购",
+          "RaaS / 按结果付费"
+        ],
+        [
+          "付费基础",
+          "账号、模块、调用量、项目实施费",
+          "有效线索、实际回款、完成任务、节省成本"
+        ],
+        [
+          "风险归属",
+          "客户独自承担“上线后价值不达标”的风险",
+          "供应商分担交付与运营风险,跑不出结果就收不到钱"
+        ],
+        [
+          "合同重点",
+          "功能清单、交付节点、服务 SLA",
+          "结果定义、归因规则、验收口径、数据义务"
+        ],
+        [
+          "供应商选择",
+          "看演示、看报价、看品牌",
+          "看运营、复盘、兜底与持续优化的能力"
+        ],
+        [
+          "财务口径",
+          "订阅费计入固定成本,预算刚性",
+          "计费挂钩业务产出,预算随结果弹性伸缩"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 1|传统 AI 采购与 RaaS 采购的关键差异对照",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "heading",
+      "text": "二、供应商会更挑场景,这对采购方是好事",
+      "segments": [
+        {
+          "text": "二、供应商会更挑场景,这对采购方是好事",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "RaaS 会倒逼供应商拒绝一些看似诱人的项目:结果无法定义、数据拿不到、流程不可控、合规边界不清的场景,供应商如果硬接,只能把亏损风险写进高报价或者模糊条款,最后双方都不痛快;成熟的供应商会在签约前先过四道问题——这个业务结果能不能被计量?影响因素能不能归因?客户是否愿意开放必要数据?关键的人工节点能否配合?四个问题里有一个答不上来,有经验的团队就会建议改用项目制,或者干脆不接这一单。",
+      "segments": [
+        {
+          "text": "RaaS 会倒逼供应商拒绝一些看似诱人的项目:结果无法定义、数据拿不到、流程不可控、合规边界不清的场景,供应商如果硬接,只能把亏损风险写进高报价或者模糊条款,最后双方都不痛快;成熟的供应商会在签约前先过四道问题——这个业务结果能不能被计量?影响因素能不能归因?客户是否愿意开放必要数据?关键的人工节点能否配合?四个问题里有一个答不上来,有经验的团队就会建议改用项目制,或者干脆不接这一单。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "这对采购方反而是一种筛选机制,敢于结果付费的供应商未必一定最好,但至少说明它对场景边界、运营能力和数据闭环有把握;反过来,只愿意卖 license、回避结果定义的供应商也未必不可靠——它卖的是工具而不是经营结果,采购方要自己补上运营这一环,这笔隐性成本得提前算进总账。按“结果可计量”和“供应商可控”两个维度划一个矩阵,各类场景的适配度一目了然:批量催收、出海获客、跨境单证审核落在右上角,输入、流程、输出和验收口径都清晰,最适合结果付费;品牌声誉、战略咨询、组织文化改造这类场景则落在左下角,结果周期长、变量多,硬套结果计费只会自找麻烦。",
+      "segments": [
+        {
+          "text": "这对采购方反而是一种筛选机制,敢于结果付费的供应商未必一定最好,但至少说明它对场景边界、运营能力和数据闭环有把握;反过来,只愿意卖 license、回避结果定义的供应商也未必不可靠——它卖的是工具而不是经营结果,采购方要自己补上运营这一环,这笔隐性成本得提前算进总账。按“结果可计量”和“供应商可控”两个维度划一个矩阵,各类场景的适配度一目了然:批量催收、出海获客、跨境单证审核落在右上角,输入、流程、输出和验收口径都清晰,最适合结果付费;品牌声誉、战略咨询、组织文化改造这类场景则落在左下角,结果周期长、变量多,硬套结果计费只会自找麻烦。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/results-as-a-service-raas/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "dd272be1348c1358ae6b10ed16d31abaa5bfed227399b80bd91545cd39ba8318",
+      "width": 1352,
+      "height": 896,
+      "caption": "图 2|RaaS 场景适配矩阵:“结果可计量 × 供应商可控”的右上角最适合结果付费,左下角建议保留项目制或顾问制",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2|RaaS 场景适配矩阵:“结果可计量 × 供应商可控”的右上角最适合结果付费,左下角建议保留项目制或顾问制",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "heading",
+      "text": "三、采购方的新义务:别把风险全甩出去",
+      "segments": [
+        {
+          "text": "三、采购方的新义务:别把风险全甩出去",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "按结果付费不等于把采购方的责任清零,客户至少要承担三项义务——数据配合、流程响应、边界确认;没有完整的账龄、历史沟通记录和回款口径,催收结果就无法归因;没有目标市场、ICP、禁触达名单和 CRM 回写,出海获客就无法验收;没有样本单据、人工复核意见和规则例外,单证审核就无法持续改进,三类场景反复验证着同一个教训:前期数据义务没写清,后期争议就没有裁判依据。",
+      "segments": [
+        {
+          "text": "按结果付费不等于把采购方的责任清零,客户至少要承担三项义务——数据配合、流程响应、边界确认;没有完整的账龄、历史沟通记录和回款口径,催收结果就无法归因;没有目标市场、ICP、禁触达名单和 CRM 回写,出海获客就无法验收;没有样本单据、人工复核意见和规则例外,单证审核就无法持续改进,三类场景反复验证着同一个教训:前期数据义务没写清,后期争议就没有裁判依据。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "这些义务应该直接写进合同正文而非附件:数据可用性标准、需要接入的系统、人工复核的响应时限、异常处理的责任归属,一项都不能含糊,条款缺位的后果非常具体——供应商说客户数据不完整,客户说供应商结果不达标,双方都能找到理由,项目就僵在那里;合同还应把结果分出层级,而不是只写一个大数:线索场景不能只写“线索量”,要区分可触达线索、有效线索、意向线索、商机创建;催收场景不能只写“回款”,要区分新催回款、历史坏账回款、已承诺未到账、争议处理后回款,下表列出了验收条款里最容易踩的坑。",
+      "segments": [
+        {
+          "text": "这些义务应该直接写进合同正文而非附件:数据可用性标准、需要接入的系统、人工复核的响应时限、异常处理的责任归属,一项都不能含糊,条款缺位的后果非常具体——供应商说客户数据不完整,客户说供应商结果不达标,双方都能找到理由,项目就僵在那里;合同还应把结果分出层级,而不是只写一个大数:线索场景不能只写“线索量”,要区分可触达线索、有效线索、意向线索、商机创建;催收场景不能只写“回款”,要区分新催回款、历史坏账回款、已承诺未到账、争议处理后回款,下表列出了验收条款里最容易踩的坑。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2|RaaS 合同验收要点与常见陷阱",
+      "rows": [
+        [
+          "合同要素",
+          "应写清的问题",
+          "常见陷阱"
+        ],
+        [
+          "结果定义",
+          "什么算有效线索、实际回款、审核通过",
+          "只写大目标,不写排除项"
+        ],
+        [
+          "归因口径",
+          "结果来自 AI 触达、人工跟进还是自然回款",
+          "要么全算给 AI,要么全不算"
+        ],
+        [
+          "数据义务",
+          "客户提供哪些数据、更新频率、质量标准",
+          "数据缺失后仍要求供应商兜底"
+        ],
+        [
+          "合规责任",
+          "话术、频次、授权、留痕、人工确认由谁负责",
+          "出了问题责任边界不清"
+        ],
+        [
+          "争议处理",
+          "异议时限、复核流程、对账与仲裁口径",
+          "没有裁判规则,争议无限拖延"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 2|RaaS 合同验收要点与常见陷阱",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "heading",
+      "text": "四、RaaS 不是低价采购,而是经营责任的重新分配",
+      "segments": [
+        {
+          "text": "四、RaaS 不是低价采购,而是经营责任的重新分配",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "很多采购方听到按结果付费,第一反应是“风险小、成本低、先试试再说”,但 RaaS 的真实含义要严肃得多:供应商开始分担一部分经营结果,客户也必须把流程、数据和决策权开放到足以让供应商影响结果的程度;如果客户只递给供应商一份残缺名单,又要求严格按回款付费,这不是风险共担,而是风险转嫁,有经验的供应商一眼就能看穿,报价里自然也会加上防御性溢价。",
+      "segments": [
+        {
+          "text": "很多采购方听到按结果付费,第一反应是“风险小、成本低、先试试再说”,但 RaaS 的真实含义要严肃得多:供应商开始分担一部分经营结果,客户也必须把流程、数据和决策权开放到足以让供应商影响结果的程度;如果客户只递给供应商一份残缺名单,又要求严格按回款付费,这不是风险共担,而是风险转嫁,有经验的供应商一眼就能看穿,报价里自然也会加上防御性溢价。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "因此 RaaS 合同必须回答三个问题:供应商能控制什么,客户必须配合什么,哪些外部因素不计入责任;以出海获客为例,供应商可以控制线索发现、评分、个性化触达和数据回写,但客户的产品竞争力、报价政策和销售接管速度同样影响商机成败;在批量催收中,供应商可以控制触达、分层、文书和回款确认,而债权合法性、历史证据和财务入账口径必须由客户负责——三类因素在合同里各归其位,归因才有依据,事后对账才不至于各说各话,下图给出了一个可以直接套用的责任分配框架。",
+      "segments": [
+        {
+          "text": "因此 RaaS 合同必须回答三个问题:供应商能控制什么,客户必须配合什么,哪些外部因素不计入责任;以出海获客为例,供应商可以控制线索发现、评分、个性化触达和数据回写,但客户的产品竞争力、报价政策和销售接管速度同样影响商机成败;在批量催收中,供应商可以控制触达、分层、文书和回款确认,而债权合法性、历史证据和财务入账口径必须由客户负责——三类因素在合同里各归其位,归因才有依据,事后对账才不至于各说各话,下图给出了一个可以直接套用的责任分配框架。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/results-as-a-service-raas/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "90b74df93990be983078fc5810ff34d9ffbc54622977fb2c9ce8fba681fafce9",
+      "width": 1352,
+      "height": 869,
+      "caption": "图 3|RaaS 责任分配框架:供应商可控、客户须配合、外部因素不计责,三类边界都要写进合同,归因才有依据",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3|RaaS 责任分配框架:供应商可控、客户须配合、外部因素不计责,三类边界都要写进合同,归因才有依据",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "heading",
+      "text": "五、哪四类场景最适合先做 RaaS",
+      "segments": [
+        {
+          "text": "五、哪四类场景最适合先做 RaaS",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "从这个角度看,结果付费不是把采购变简单,而是把采购从买卖合同推向经营合同,采购、业务、法务、财务必须坐到同一张桌子上,而落地的第一步是选对场景;第一类是输入标准、输出清晰的场景,比如批量小额逾期债权:输入是债权池、账龄、历史沟通与联系方式,输出是触达、承诺、回款、投诉和争议分类,每一步都有据可查;第二类是结果可以短周期验证的场景,出海线索开发若能在 2–4 周内看到有效线索、正向回复和商机创建,就适合小步试点、快速对账,双方都不用押上太多沉没成本。",
+      "segments": [
+        {
+          "text": "从这个角度看,结果付费不是把采购变简单,而是把采购从买卖合同推向经营合同,采购、业务、法务、财务必须坐到同一张桌子上,而落地的第一步是选对场景;第一类是输入标准、输出清晰的场景,比如批量小额逾期债权:输入是债权池、账龄、历史沟通与联系方式,输出是触达、承诺、回款、投诉和争议分类,每一步都有据可查;第二类是结果可以短周期验证的场景,出海线索开发若能在 2–4 周内看到有效线索、正向回复和商机创建,就适合小步试点、快速对账,双方都不用押上太多沉没成本。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "第三类是人工成本结构明显的场景,单证审核、合同初审、客服分流、销售外呼都有可比较的人工基线,只要 AI 能在保证质量的前提下降低单位处理成本,结果付费就有清晰的定价空间;第四类是数据能回写的场景——没有回写,供应商每一单都从零开始,有回写,结果越多系统越懂业务,双方共同受益于这个正循环。暂不适合 RaaS 的场景同样要说清楚:战略品牌建设、复杂大客户销售、重大法律谈判、非标高风险债权处置,这些场景结果周期长、归因复杂、外部变量多,更适合项目制、顾问制或混合计费,按上述四个维度给常见场景打分,试点的优先级会非常直观。",
+      "segments": [
+        {
+          "text": "第三类是人工成本结构明显的场景,单证审核、合同初审、客服分流、销售外呼都有可比较的人工基线,只要 AI 能在保证质量的前提下降低单位处理成本,结果付费就有清晰的定价空间;第四类是数据能回写的场景——没有回写,供应商每一单都从零开始,有回写,结果越多系统越懂业务,双方共同受益于这个正循环。暂不适合 RaaS 的场景同样要说清楚:战略品牌建设、复杂大客户销售、重大法律谈判、非标高风险债权处置,这些场景结果周期长、归因复杂、外部变量多,更适合项目制、顾问制或混合计费,按上述四个维度给常见场景打分,试点的优先级会非常直观。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/results-as-a-service-raas/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "515e48f16eaba57ed2f95958b60fd57decef1e2ecaaef21e791e2c18e099b160",
+      "width": 1352,
+      "height": 811,
+      "caption": "图 4|RaaS 场景优先级评分(示意):四个维度合计得分越高越适合率先做结果付费,16 分以上建议优先试点",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4|RaaS 场景优先级评分(示意):四个维度合计得分越高越适合率先做结果付费,16 分以上建议优先试点",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "heading",
+      "text": "六、合同条款:从“功能表”改成“结果账本”",
+      "segments": [
+        {
+          "text": "六、合同条款:从“功能表”改成“结果账本”",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "传统合同里的功能表仍然需要,但已经远远不够,RaaS 合同应当新增一份“结果账本”,至少覆盖六个字段:样本池范围、基线取法、结果分类、计费权重、排除项、争议处理,并配套约定数据更新频率、人工响应 SLA、合规红线和复盘周期——账本越清楚,后续争议越少,这是所有做过结果计费的团队都认的一条铁律。结果分类值得拆到足够细:“实际回款”可以拆成 AI 首触回款、AI 协商后回款、法律动作触发回款、人工接管后回款,不同类别对应不同计费权重;“有效线索”可以拆成可触达、正向回复、明确需求、商机创建四档;“审核准确率”可以拆成字段识别、规则判断、不符点发现、最终意见采纳,颗粒度拆得越细,越能避免“总量好看但质量不行”的老问题,下图是一份可以直接放进合同附件的账本模板。",
+      "segments": [
+        {
+          "text": "传统合同里的功能表仍然需要,但已经远远不够,RaaS 合同应当新增一份“结果账本”,至少覆盖六个字段:样本池范围、基线取法、结果分类、计费权重、排除项、争议处理,并配套约定数据更新频率、人工响应 SLA、合规红线和复盘周期——账本越清楚,后续争议越少,这是所有做过结果计费的团队都认的一条铁律。结果分类值得拆到足够细:“实际回款”可以拆成 AI 首触回款、AI 协商后回款、法律动作触发回款、人工接管后回款,不同类别对应不同计费权重;“有效线索”可以拆成可触达、正向回复、明确需求、商机创建四档;“审核准确率”可以拆成字段识别、规则判断、不符点发现、最终意见采纳,颗粒度拆得越细,越能避免“总量好看但质量不行”的老问题,下图是一份可以直接放进合同附件的账本模板。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/results-as-a-service-raas/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "a4d926d189c72287bc4680583d0542c3779eb20c220e90e55c3b9ef35805f1b0",
+      "width": 1352,
+      "height": 843,
+      "caption": "图 5|RaaS 结果账本模板:六个字段加四项配套约定,让每一笔计费结果可追溯、可对账、可仲裁",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5|RaaS 结果账本模板:六个字段加四项配套约定,让每一笔计费结果可追溯、可对账、可仲裁",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "账本之外,合同还应设立红线扣减机制:投诉率超阈值、误催率超阈值、退订率异常、漏报高风险问题、未经授权使用数据,任何一条触发都直接扣减当期计费,红线的作用是确保供应商不会为了冲结果而牺牲合规与品牌——结果导向的激励一旦缺少约束,动作变形几乎是必然的,这一点在催收和外呼场景表现得尤其明显;红线条款要配上留痕机制才有牙齿:话术版本、触达频次、授权记录、人工确认节点都要可回溯,出了问题先查记录再谈责任,而不是靠双方回忆各执一词。",
+      "segments": [
+        {
+          "text": "账本之外,合同还应设立红线扣减机制:投诉率超阈值、误催率超阈值、退订率异常、漏报高风险问题、未经授权使用数据,任何一条触发都直接扣减当期计费,红线的作用是确保供应商不会为了冲结果而牺牲合规与品牌——结果导向的激励一旦缺少约束,动作变形几乎是必然的,这一点在催收和外呼场景表现得尤其明显;红线条款要配上留痕机制才有牙齿:话术版本、触达频次、授权记录、人工确认节点都要可回溯,出了问题先查记录再谈责任,而不是靠双方回忆各执一词。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "heading",
+      "text": "七、RaaS 的最大风险:结果好看,但组织没学会",
+      "segments": [
+        {
+          "text": "七、RaaS 的最大风险:结果好看,但组织没学会",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "RaaS 很容易让企业只盯着供应商交出的数字,托管运营带来了线索或回款,采购方就宣布项目成功——但从长期看还要追问一个问题:企业自己有没有沉淀下能力?如果所有策略、数据、知识和复盘都留在供应商一侧,客户买到的只是短期结果,合同一到期,一切归零;好的 RaaS 合同应同时约定结果交付和能力沉淀:供应商交付有效线索,也要回写 ICP 规则和客户洞察;交付回款,也要沉淀拒缴原因和服务治理建议;交付审核结果,也要沉淀规则例外和人工复核意见,一句话概括——结果是现金流,能力是复利。",
+      "segments": [
+        {
+          "text": "RaaS 很容易让企业只盯着供应商交出的数字,托管运营带来了线索或回款,采购方就宣布项目成功——但从长期看还要追问一个问题:企业自己有没有沉淀下能力?如果所有策略、数据、知识和复盘都留在供应商一侧,客户买到的只是短期结果,合同一到期,一切归零;好的 RaaS 合同应同时约定结果交付和能力沉淀:供应商交付有效线索,也要回写 ICP 规则和客户洞察;交付回款,也要沉淀拒缴原因和服务治理建议;交付审核结果,也要沉淀规则例外和人工复核意见,一句话概括——结果是现金流,能力是复利。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/results-as-a-service-raas/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "66157e143af362a4cc6765515c79c70cdc6f077e1201e8b48c52d1841b1e2105",
+      "width": 1352,
+      "height": 761,
+      "caption": "图 6|RaaS 双结果模型:短期看业务结果,长期看能力沉淀,两条线都达标才是可持续的合作",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6|RaaS 双结果模型:短期看业务结果,长期看能力沉淀,两条线都达标才是可持续的合作",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "要让能力真正留下来,采购方应要求供应商透明运营:看得到样本池、策略版本、触达记录、异常处理、复盘结论和下一轮优化方向,如果供应商只给总结果、不给过程和学习,企业就很难判断结果是否可持续,更谈不上把经验内化成自己的东西——透明不是监工,而是双方共同学习的前提。RaaS 的高阶价值,是在供应商共担风险的同时,帮客户长出自己的业务智能体能力,这也解释了为什么本地化部署、混合托管和 API 集成会成为重要选项——不同企业对数据主权和能力沉淀的要求不同,RaaS 不应只有一种交付形态;具体到验收环节,能力沉淀不能停留在口号上,每一类结果都应当对应可检查、可移交的证据,验收会上只看报表数字远远不够,采购方可以按照下面这份清单逐项核对。",
+      "segments": [
+        {
+          "text": "要让能力真正留下来,采购方应要求供应商透明运营:看得到样本池、策略版本、触达记录、异常处理、复盘结论和下一轮优化方向,如果供应商只给总结果、不给过程和学习,企业就很难判断结果是否可持续,更谈不上把经验内化成自己的东西——透明不是监工,而是双方共同学习的前提。RaaS 的高阶价值,是在供应商共担风险的同时,帮客户长出自己的业务智能体能力,这也解释了为什么本地化部署、混合托管和 API 集成会成为重要选项——不同企业对数据主权和能力沉淀的要求不同,RaaS 不应只有一种交付形态;具体到验收环节,能力沉淀不能停留在口号上,每一类结果都应当对应可检查、可移交的证据,验收会上只看报表数字远远不够,采购方可以按照下面这份清单逐项核对。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表 3|RaaS 采购方能力沉淀清单:每一类结果都要对应可检查的验收证据",
+      "rows": [
+        [
+          "结果类型",
+          "应沉淀的能力",
+          "验收证据"
+        ],
+        [
+          "意向线索",
+          "ICP 规则、触达话术、市场洞察",
+          "线索评分规则与 CRM 回写记录"
+        ],
+        [
+          "实际回款",
+          "分层策略、拒缴原因、合规话术",
+          "回款归因与争议分类看板"
+        ],
+        [
+          "审核结果",
+          "规则例外、复核意见、风险样本",
+          "人工修正记录与规则版本库"
+        ],
+        [
+          "人效提升",
+          "流程模板、异常分流、角色分工",
+          "运营 SOP 与周期复盘报告"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 3|RaaS 采购方能力沉淀清单:每一类结果都要对应可检查的验收证据",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "heading",
+      "text": "八、给管理层的落地检查:先谈退出机制,再谈结果承诺",
+      "segments": [
+        {
+          "text": "八、给管理层的落地检查:先谈退出机制,再谈结果承诺",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-046",
+      "type": "paragraph",
+      "text": "RaaS 合同容易在结果承诺上谈得火热,却把退出机制留到签约前的最后一刻,这个顺序在实践中应当倒过来——先把丑话说在前面,合作反而走得更远。管理层应当在签约前确认四种情形的处理方式:数据质量不达标怎么办?合规红线触发怎么办?结果连续两期不达标怎么办?客户决定更换供应商时,数据、模型画像和知识资产如何移交?这四个问题在谈判桌上花的是几个小时,留到出事之后再谈,耗的就是几个月甚至一场诉讼;退出机制不是对供应商的不信任,恰恰是保障合作关系健康的前提——结果付费越是深度绑定经营,越需要清晰的边界,没有退出机制,合作一旦不顺,双方就会围绕归因僵持不下,业务也随之被卡在半空,下图列出了四类最常见的退出路径与对应处理方式。",
+      "segments": [
+        {
+          "text": "RaaS 合同容易在结果承诺上谈得火热,却把退出机制留到签约前的最后一刻,这个顺序在实践中应当倒过来——先把丑话说在前面,合作反而走得更远。管理层应当在签约前确认四种情形的处理方式:数据质量不达标怎么办?合规红线触发怎么办?结果连续两期不达标怎么办?客户决定更换供应商时,数据、模型画像和知识资产如何移交?这四个问题在谈判桌上花的是几个小时,留到出事之后再谈,耗的就是几个月甚至一场诉讼;退出机制不是对供应商的不信任,恰恰是保障合作关系健康的前提——结果付费越是深度绑定经营,越需要清晰的边界,没有退出机制,合作一旦不顺,双方就会围绕归因僵持不下,业务也随之被卡在半空,下图列出了四类最常见的退出路径与对应处理方式。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/results-as-a-service-raas/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "ca1e02932a2ce86e7e06614e4cc512b165b49459e2a5c6c8e8fcde6186d67052",
+      "width": 1352,
+      "height": 843,
+      "caption": "图 7|RaaS 合同退出机制:数据不达标、合规触线、结果不达标、主动更换供应商四类情形,处理方式都要在签约时写清",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 7|RaaS 合同退出机制:数据不达标、合规触线、结果不达标、主动更换供应商四类情形,处理方式都要在签约时写清",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "与退出机制配套的是能力资产归属:试点期间形成的客户画像、话术策略、拒缴原因库、审核规则、回款归因数据,哪些属于客户,哪些属于供应商的通用能力,哪些可以匿名化后沉淀为行业知识,都要在签约时白纸黑字写清楚,否则 RaaS 可能悄悄把企业多年的业务经验沉淀进供应商的黑箱,等到想更换供应商时才发现自己两手空空;一份成熟的 RaaS 合同,既敢谈结果,也敢谈失败、暂停、退出和资产归属——这样的合作才是真正的风险共担,而不是把风险悄悄推给另一个合同主体。",
+      "segments": [
+        {
+          "text": "与退出机制配套的是能力资产归属:试点期间形成的客户画像、话术策略、拒缴原因库、审核规则、回款归因数据,哪些属于客户,哪些属于供应商的通用能力,哪些可以匿名化后沉淀为行业知识,都要在签约时白纸黑字写清楚,否则 RaaS 可能悄悄把企业多年的业务经验沉淀进供应商的黑箱,等到想更换供应商时才发现自己两手空空;一份成熟的 RaaS 合同,既敢谈结果,也敢谈失败、暂停、退出和资产归属——这样的合作才是真正的风险共担,而不是把风险悄悄推给另一个合同主体。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-050",
+      "type": "heading",
+      "text": "九、决策建议:用小样本验证,用结果扩大",
+      "segments": [
+        {
+          "text": "九、决策建议:用小样本验证,用结果扩大",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "paragraph",
+      "text": "采购 RaaS 最好的路径不是直接签大单,而是先用 2–4 周的 POC 建立结果口径:选一个高频、边界清晰、可对照的样本池——例如一批物业欠费、一个目标国家的外贸线索、一条信用证审核流程——用真实数据定义基线,再让 AI Agent 执行并回写结果,全程留痕、按周对账;POC 结束后不要只看总数,要看四类指标:结果量说明能不能产出,单位成本说明有没有经济性,合规质量决定能不能放大规模,可持续性验证数据飞轮是否真的成立,四项都过关再谈扩大合同,缺一项就先补短板再放量。RaaS 改变的是采购逻辑,但不会取消管理逻辑,真正稳定的结果付费,一定是客户与供应商在同一个指标体系里协作——共同面对结果,共同修正策略,这才是风险共担的完整含义。",
+      "segments": [
+        {
+          "text": "采购 RaaS 最好的路径不是直接签大单,而是先用 2–4 周的 POC 建立结果口径:选一个高频、边界清晰、可对照的样本池——例如一批物业欠费、一个目标国家的外贸线索、一条信用证审核流程——用真实数据定义基线,再让 AI Agent 执行并回写结果,全程留痕、按周对账;POC 结束后不要只看总数,要看四类指标:结果量说明能不能产出,单位成本说明有没有经济性,合规质量决定能不能放大规模,可持续性验证数据飞轮是否真的成立,四项都过关再谈扩大合同,缺一项就先补短板再放量。RaaS 改变的是采购逻辑,但不会取消管理逻辑,真正稳定的结果付费,一定是客户与供应商在同一个指标体系里协作——共同面对结果,共同修正策略,这才是风险共担的完整含义。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "heading",
+      "text": "常见问题(FAQ)",
+      "segments": [
+        {
+          "text": "常见问题(FAQ)",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "table-04",
+      "type": "table",
+      "caption": "表 4|关于按结果付费(RaaS)的三个高频疑问",
+      "rows": [
+        [
+          "常见问题",
+          "简要回答"
+        ],
+        [
+          "RaaS 和传统 SaaS 订阅可以并存吗",
+          "可以,多数企业采用混合计费——基础平台按订阅收费保证服务稳定,增量结果按 RaaS 结算分担风险,关键是把两部分的边界与口径写清,避免同一结果被重复计费"
+        ],
+        [
+          "按结果付费一定比按订阅便宜吗",
+          "不一定,供应商承担了交付风险,单位结果的定价通常包含风险溢价;RaaS 的价值在于让预算与产出直接挂钩,每一分钱都对应可验证的结果,而不是名义上的低价"
+        ],
+        [
+          "中小企业适合尝试 RaaS 吗",
+          "只要场景满足结果可计量、供应商可控、数据可回写三个前提,企业规模并不是门槛;中小企业数据体量小,反而更适合用 2–4 周的小样本 POC 快速验证,再决定是否扩大"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 4|关于按结果付费(RaaS)的三个高频疑问",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "heading",
+      "text": "行动建议",
+      "segments": [
+        {
+          "text": "行动建议",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-055",
+      "type": "paragraph",
+      "text": "如果企业希望尝试按结果付费,可以先在内部圈定一个可量化场景和对照样本池,把基线取法、验收口径和数据边界想清楚,再与供应商坐下来共同设计试点;灵宸智能可围绕实际回款、意向线索、节省成本三类结果,协助设计 POC 方案与结果账本,详情可访问 www.lingchen-ai.com。",
+      "segments": [
+        {
+          "text": "如果企业希望尝试按结果付费,可以先在内部圈定一个可量化场景和对照样本池,把基线取法、验收口径和数据边界想清楚,再与供应商坐下来共同设计试点;灵宸智能可围绕实际回款、意向线索、节省成本三类结果,协助设计 POC 方案与结果账本,详情可访问 www.lingchen-ai.com。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

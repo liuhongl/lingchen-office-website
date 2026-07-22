@@ -1,0 +1,1091 @@
+{
+  "slug": "ai-debt-collection-compliance-engineering",
+  "category": "行业洞察",
+  "displayTitle": "AI 催收的合规工程",
+  "sourceTitle": "AI 催收的合规工程",
+  "summary": "摘要｜合规不是催收 AI 的约束项，而是准入门槛与竞争壁垒；话术可控、频次管控、全程留痕不能停留在承诺里，要落进策略引擎、权限审批、行为日志与人工兜底的工程实现——本文给出四层合规控制栈、三段式执行控制、供应商合规评分卡与上线后的合规运营机制，供采购方与管理层逐项对照验收。",
+  "publishedAt": null,
+  "sourceDocx": "AI催收的合规工程.docx",
+  "sourceDocxSha256": "d8d9683c99b01d869dfb98626b11563485d367431296b05f1da65b04271b417d",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "AI 催收的合规工程",
+      "segments": [
+        {
+          "text": "AI 催收的合规工程",
+          "bold": true,
+          "color": "#1A1A1A",
+          "fontSizePt": 22.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "alignment": "center",
+        "fontSizePt": 22.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "话术可控、频次管控、全程留痕如何从口号落到系统",
+      "segments": [
+        {
+          "text": "话术可控、频次管控、全程留痕如何从口号落到系统",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "abstract",
+      "text": "摘要｜合规不是催收 AI 的约束项，而是准入门槛与竞争壁垒；话术可控、频次管控、全程留痕不能停留在承诺里，要落进策略引擎、权限审批、行为日志与人工兜底的工程实现——本文给出四层合规控制栈、三段式执行控制、供应商合规评分卡与上线后的合规运营机制，供采购方与管理层逐项对照验收。",
+      "segments": [
+        {
+          "text": "摘要｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "合规不是催收 AI 的约束项，而是准入门槛与竞争壁垒；话术可控、频次管控、全程留痕不能停留在承诺里，要落进策略引擎、权限审批、行为日志与人工兜底的工程实现——本文给出四层合规控制栈、三段式执行控制、供应商合规评分卡与上线后的合规运营机制，供采购方与管理层逐项对照验收。",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 200,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "leftTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#F4F6FA",
+        "leftBorder": {
+          "color": "#2E5FA3",
+          "sizeEighthPoints": 20,
+          "spacePoints": 6
+        },
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "keywords",
+      "text": "关键词｜AI 催收合规 · 话术可控 · 频次管控 · 全程留痕 · 人工兜底 · Regulation F · 个人信息保护法 · 合规验收",
+      "segments": [
+        {
+          "text": "关键词｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "AI 催收合规 · 话术可控 · 频次管控 · 全程留痕 · 人工兜底 · Regulation F · 个人信息保护法 · 合规验收",
+          "color": "#595959",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "其一，AI 催收的竞争壁垒不在外呼并发量，而在高并发执行之下仍能稳定合规，能并发只是门票",
+      "segments": [
+        {
+          "text": "其一",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，AI 催收的竞争壁垒不在外呼并发量，而在高并发执行之下仍能稳定合规，能并发只是门票",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "其二，话术、频次、身份、数据、审批与留痕必须在系统层面连成完整链路，坐席培训式的管理方法管不住机器",
+      "segments": [
+        {
+          "text": "其二",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，话术、频次、身份、数据、审批与留痕必须在系统层面连成完整链路，坐席培训式的管理方法管不住机器",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "其三，失效信号同样明确——缺少合法债权基础、授权链与清晰数据来源的企业，任何 AI 催收系统都不应启动",
+      "segments": [
+        {
+          "text": "其三",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，失效信号同样明确——缺少合法债权基础、授权链与清晰数据来源的企业，任何 AI 催收系统都不应启动",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "heading",
+      "text": "合规为什么要先于效率",
+      "segments": [
+        {
+          "text": "合规为什么要先于效率",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "AI 催收最容易被误解成“打更多电话、发更多短信、自动发起诉讼”，而这恰恰是风险所在；催收场景牵着债务人个人信息、通讯触达、心理压力、法律文书和品牌声誉，系统能力越强，越不能只追求并发，收得住才是本事。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "国际规则给出了直观参照，美国 Regulation F 在 12 CFR §1006.14 中对催收中的骚扰行为、连续来电与通话频次设定了合规与违规的推定标准，TCPA 对自动拨号、预录音、短信退订和用户同意有严格要求，欧盟 GDPR 则要求个人数据处理合法、公平、透明、最小化且可证明合规。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "在中国语境下，《个人信息保护法》《数据安全法》同样要求催收 AI 在合法基础、授权管理、最小必要、敏感信息保护与留痕审计上做出工程化设计；说得直白一点，合规不是写在 PPT 里的“我们遵守法律”，而是让系统在默认状态下就无法越界，这件事靠制度文件做不到，得把控制能力分层压进系统。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-engineering/figure-01.png",
+      "sourceMedia": "/word/media/0c276bbb4b63c7976fdbb635aadec33e931663b7.png",
+      "sha256": "bc7ebe3dc7e753bd3a7ed2992061fe6d812048dc3d1e2b6376076d338f322e49",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 1｜四层合规控制栈：数据、策略、留痕、人工兜底自下而上构成 AI 催收的准入门槛"
+    },
+    {
+      "id": "p-014",
+      "type": "heading",
+      "text": "四层控制各管什么、各留什么证",
+      "segments": [
+        {
+          "text": "四层控制各管什么、各留什么证",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "数据合规层是地基，管债权合法性、授权链、最小必要、脱敏与删除机制，这一层出了问题，上面三层做得再精细也是白搭；策略控制层约束每一次动作，频次、时段、渠道、身份披露与禁触达名单都在这一层生效，策略要有版本，触发要有条件，阻断要有记录。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "执行留痕层记录全过程，录音、文本、送达、文书与回款确认拼成完整的案件时间线；人工兜底层处理机器不该独立决定的场景，投诉、争议、法律升级和高风险话术都要能触发接管，接管记录与复盘结论同样要留档；四层不是各自为政，上一层的每一次阻断与接管，都要能在下一层找到对应的数据与记录，链条断在哪一层，责任就悬在哪一层，各层的核心控制与必须留证的内容，见下表。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜四层合规控制栈检查表：每一层的核心控制与必须留证的内容",
+      "rows": [
+        [
+          "层级",
+          "核心控制",
+          "必须留证"
+        ],
+        [
+          "数据合规层",
+          "债权合法性、授权、最小必要、脱敏和删除机制",
+          "数据来源、用途、授权链、访问日志"
+        ],
+        [
+          "策略控制层",
+          "频次、时段、渠道、身份升级、禁触达名单",
+          "策略版本、触发条件、阻断记录"
+        ],
+        [
+          "执行留痕层",
+          "录音、文本、送达、文书、回款确认",
+          "完整案件时间线"
+        ],
+        [
+          "人工兜底层",
+          "投诉、争议、法律升级、高风险话术接管",
+          "接管记录、处理意见、复盘结论"
+        ]
+      ]
+    },
+    {
+      "id": "p-018",
+      "type": "heading",
+      "text": "话术可控：不是模板多，而是边界硬",
+      "segments": [
+        {
+          "text": "话术可控：不是模板多，而是边界硬",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "催收话术的风险通常不在一句标准开场白，而在模型根据上下文的自由发挥；债务人情绪激动、提出服务争议或要求停止联系时，系统必须清楚哪些话能说、哪些话不能说、什么时候必须停下自动执行，这条边界模糊一分，风险就大一分。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "工程上要做三道控制，生成前把身份、债权事实、禁止表达和沟通目标写进提示词与策略，生成中对威胁、侮辱、虚假法律后果、过度承诺等表达实时拦截，生成后把录音转写成文本做语义分析与人工抽检，并将问题案例回写进策略，形成闭环。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "灵宸智能的 Recov AI 在产品设计上就强调全程话术可控、行为留痕可追溯、关键节点人工确认与真人兜底；对采购方来说，验收时应要求供应商展示真实的拦截样例，而不是只看标准话术库的截图。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-engineering/figure-02.png",
+      "sourceMedia": "/word/media/f1f382c27164cdc131271edd688c9aa6776dfbe3.png",
+      "sha256": "531e5b62aba30fbd1121c41f0e48139f883da95b08ddea53eb1afac956b5c45f",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 2｜话术风控四步闭环：生成前约束、生成中拦截、生成后质检、Badcase 回写"
+    },
+    {
+      "id": "p-023",
+      "type": "heading",
+      "text": "话术风控要从词表升级到意图识别",
+      "segments": [
+        {
+          "text": "话术风控要从词表升级到意图识别",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "早期的话术风控多靠敏感词表，拦“威胁”“恐吓”“曝光”这些明显的词，可模型生成的风险不一定落在敏感词上——暗示不付款会影响家人、夸大法律后果、用模糊表达制造压力，都能绕开词表；AI 催收的话术风控必须识别意图，而不是只匹配字面。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "意图识别离不开上下文，同一句“我们将进入下一步流程”，在普通提醒阶段可能构成过度施压，放在法务审批之后则是合理告知；系统只有掌握当前案件状态、沟通身份、已授权动作和证据完整度，才能判断一句话有没有越界，缺了状态上下文，话术审核要么误杀、要么漏放。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "企业验收时不妨自备一套风险样本库——情绪激动的客户、老人或弱势群体、第三人接听、债务争议、已付款未入账、要求停止联系、对模型的诱导性提问，让系统逐条过测试，比看供应商演示标准话术有价值得多。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-engineering/figure-03.png",
+      "sourceMedia": "/word/media/2c14d9b34958f547d20d2a24b15c8ff54f91e223.png",
+      "sha256": "538c275e3e4ed68e9e7b55a87a9cafb6767857fe6c22c160a943843f4224c217",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 3｜话术意图识别风险样本库：按违规类别组织测试样本，覆盖不可预设的坏场景"
+    },
+    {
+      "id": "p-028",
+      "type": "heading",
+      "text": "频次管控：把“克制”写进系统",
+      "segments": [
+        {
+          "text": "频次管控：把“克制”写进系统",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "人工催收时代，频次靠主管培训和坐席自觉，AI 催收里频次必须由系统硬性控制；道理很简单，AI 并发能力强，策略一旦出错，可能在极短时间内造成大面积打扰，合规系统应按债务人、债权、项目、渠道、时段和历史响应状态设置频次上限与冷却期。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "频次规则还得跟案件状态联动，客户已接通并承诺付款，应进入冷却期，客户要求改用邮件沟通，电话就该停下，客户提出争议，应转入客服或人工复核，客户已付款但财务尚未确认，应暂停催收并触发回款核验；状态不同步，克制就无从谈起。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "美国 Regulation F 的“七天内不超过七次”与通话后七天冷却期，不能机械照搬到中国，但它给了明确的工程启示——合规系统必须能够按债务粒度和人群粒度，拿出记录证明自己没有构成骚扰。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-engineering/figure-04.png",
+      "sourceMedia": "/word/media/1c11e21f2e84b2bdfa5d76a4abd12cb7445bd060.png",
+      "sha256": "e810de86551da040615bd0b92b73b1115c75644e5bf735d7a5e7702303f1083a",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 4｜频次规则与案件状态联动：承诺、改渠道、争议、已付款分别触发不同的系统动作"
+    },
+    {
+      "id": "p-033",
+      "type": "heading",
+      "text": "全程留痕：从自证清白到运营改进",
+      "segments": [
+        {
+          "text": "全程留痕：从自证清白到运营改进",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "留痕的第一重价值是合规自证，谁在什么时间、以什么身份、通过什么渠道、基于哪份债权事实发出了什么内容，对方如何回应、后续是否回款，都要能连成一条链；链路不完整，企业既回应不了投诉，也定位不了责任。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "第二重价值在运营改进，拒缴原因、投诉类型、服务争议、承诺履约率，都能反过来优化催收策略与服务质量；拿物业场景来说，大量拒缴集中在电梯维修、停车和公共区域卫生上时，催收数据就不只是财务数据，也是服务治理的信号。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "heading",
+      "text": "合规工程要覆盖执行前、执行中、执行后",
+      "segments": [
+        {
+          "text": "合规工程要覆盖执行前、执行中、执行后",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "执行前，系统要确认债权基础、数据来源、授权范围、客户身份和触达策略，同时设好频次上限、禁触达名单、敏感人群规则与人工审批阈值，把风险挡在动作发生之前；这些前置校验缺了位，后面话术再温和也可能不合规。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "执行中要实时盯话术、情绪、身份披露、停止联系请求、客户争议和付款状态，外呼或短信不是发出去就结束，对方每一句反馈都可能改变下一步——客户说“我已经付了”，转入核验，客户说“不要再打电话”，调整渠道，客户提出服务争议，转入争议处理。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "执行后完成录音转写、质检、投诉归因、回款确认与 Badcase 回写，合规不只是证明自己没错，更要让系统下次少犯错；三段连起来，合规才从口号变成可运行的工程链路。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-engineering/figure-05.png",
+      "sourceMedia": "/word/media/c7afc3a224e1baa96db28875878d1da94e99ce6d.png",
+      "sha256": "4586740b343d1961b8f484ca49b6f0baa9a14b12d411e8fb3a0be29047be035f",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 5｜催收执行的三段式合规控制：执行前校验、执行中监控、执行后复盘"
+    },
+    {
+      "id": "p-041",
+      "type": "heading",
+      "text": "合规能力会成为供应商分水岭",
+      "segments": [
+        {
+          "text": "合规能力会成为供应商分水岭",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "paragraph",
+      "text": "短期看，AI 催收供应商大多能演示外呼、短信、文书生成和回款看板，真正拉开差距的，是系统能否在高并发下持续合规；没有频次引擎，并发越高越危险，没有留痕，投诉来了无法自证，没有人工兜底，复杂争议会被机器误推进，没有数据删除与权限控制，客户数据会变成长期风险。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "采购方应把合规能力列为准入项而不是加分项，至少确认四件事——能否自主配置话术和频次规则，能否导出单个案件的完整证据链，能否对高风险动作设置人工审批，能否证明业务数据不会进入公共模型训练池；供应商答不上来，别因为回款承诺好看就放松标准。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "合规工程的价值最终会回馈业务结果，客户被正确识别、被合理触达，争议被及时处理，已付款不再被误催，长期投诉率下降、品牌信任得以保留；合规不是效率的刹车，而是规模化的底盘。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-engineering/figure-06.png",
+      "sourceMedia": "/word/media/94867623e7820c0c5e01de1ac7870fa0d1949bc1.png",
+      "sha256": "c08dc682ef8e2580ad86f50feab8a954957310758739a99b3f3b5220b0f729f3",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 6｜AI 催收供应商合规评分卡（示意）：五项能力逐项现场验证，而非听口头承诺"
+    },
+    {
+      "id": "p-046",
+      "type": "heading",
+      "text": "上线后要建立合规运营例会",
+      "segments": [
+        {
+          "text": "上线后要建立合规运营例会",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "paragraph",
+      "text": "合规工程不是上线前的一次性审查，系统跑起来之后，话术表现、频次策略、客户反馈、投诉类型乃至法规环境都会变化，需要固定的运营例会持续跟进；例会不是走形式，而是把系统风险压在早期，议程可以很短，但节奏必须固定，缺一次会，异常就多藏一周。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "周度例会看异常，高风险话术拦截、超频阻断、投诉、误催、要求停止联系、第三人接听都在此列，异常清单宁可宽一点，也别漏掉早期信号；月度例会看趋势——某类争议是否上升、某个项目的投诉是否集中、某种话术是否带来更高的承诺履约率、某类客户是否需要更柔性的触达；季度例会看制度，频次规则要不要调、数据留存周期合不合适、人工兜底阈值偏宽还是偏窄、供应商 SLA 是否达标。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-engineering/figure-07.png",
+      "sourceMedia": "/word/media/504c51a220db68b6334198f7a7dd67f657b2fea8.png",
+      "sha256": "d9e870be65612436c4e3c2e4fa2f0fe2af0237a7488143745eb792f8f00bd9ca",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 7｜合规运营例会节奏：周度看异常、月度看趋势、季度改制度，红线实时处置"
+    },
+    {
+      "id": "p-050",
+      "type": "heading",
+      "text": "指标要能直接翻译成决策动作",
+      "segments": [
+        {
+          "text": "指标要能直接翻译成决策动作",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "paragraph",
+      "text": "例会要有产出，指标必须能翻译成动作——拦截率异常就修正样本和局部策略，争议趋势上升就调整频次与分层路径，制度层面的问题就更新条款与合同，重大投诉或高风险输出则实时暂停任务并人工复盘；合规运营要和业务结果放在一起看，不能只盯红线是否触发，这套机制成为惯例之后，企业才能持续掌握系统正在做什么、哪里有风险、哪些规则需要修正。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "paragraph",
+      "text": "指标口径也要提前对齐，拦截率的分母是全部外呼还是仅高风险话术，误催是否包含已付款未入账的案例，超频阻断按人头算还是按债权算——口径不统一，例会开得再勤也对不上账，指标一旦定下来就别轻易换口径，纵向可比比横向好看重要得多，不同周期关注的指标与对应决策动作，见下表。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜合规运营例会指标：不同周期关注的指标与对应决策动作",
+      "rows": [
+        [
+          "周期",
+          "关注指标",
+          "决策动作"
+        ],
+        [
+          "周度",
+          "拦截、超频、投诉、误催",
+          "修正样本和局部策略"
+        ],
+        [
+          "月度",
+          "争议趋势、话术表现、承诺履约",
+          "调整频次和分层路径"
+        ],
+        [
+          "季度",
+          "留存周期、审批阈值、SLA",
+          "更新制度与合同条款"
+        ],
+        [
+          "实时",
+          "重大投诉、高风险输出",
+          "暂停任务并人工复盘"
+        ]
+      ]
+    },
+    {
+      "id": "p-054",
+      "type": "heading",
+      "text": "给管理层的落地检查：可演示、可导出、可复盘",
+      "segments": [
+        {
+          "text": "给管理层的落地检查：可演示、可导出、可复盘",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-055",
+      "type": "paragraph",
+      "text": "管理层评估 AI 催收的合规能力，不能只听供应商说“我们合规”；合规必须可演示——现场展示频次规则如何阻断超限触达、高风险话术如何被拦截、客户要求停止联系后系统如何响应、已付款未入账时任务如何暂停，一项都不该省。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-056",
+      "type": "paragraph",
+      "text": "还必须可导出，任一案件都应能拉出完整时间线，债权事实、触达记录、录音文本、话术版本、审批记录、送达凭证、回款确认与人工处理意见一个不缺；导不出来就自证不了，自证不了就没法规模化。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "paragraph",
+      "text": "最后必须可复盘，投诉不能简单关闭，要归因到数据、话术、频次、身份、状态同步或人工处理环节，复盘结论进入策略更新，否则同类问题会反复出现，团队看似忙碌，实际只是在不停扑灭同一场火，合规水位并没有抬高。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-engineering/figure-08.png",
+      "sourceMedia": "/word/media/3ce2f85585dc11df393629b00744371f8a4b649b.png",
+      "sha256": "37d9b4fc3fbbcd2b450836631202d1e683792a1ecc7b934229f10aa172f2f3b8",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 8｜合规能力“三可”验收标准：可演示、可导出、可复盘"
+    },
+    {
+      "id": "p-059",
+      "type": "heading",
+      "text": "验收现场值得做一次“红队式”测试",
+      "segments": [
+        {
+          "text": "验收现场值得做一次“红队式”测试",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-060",
+      "type": "paragraph",
+      "text": "演示环节还要看供应商敢不敢接反向测试，题目由企业当场出、不提前透露，临时抛出一组高风险样本——第三人接听、客户称已付款、要求停止联系、情绪激动、债权金额不一致，甚至刻意输入信息错误或主张债务不存在的案例，观察系统会不会降低触达强度、转人工、暂停执行或要求补充材料；只有在不可预设的坏场景里守得住边界，才说明系统不是靠运气合规，合规能力也不是一套演示脚本。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-061",
+      "type": "paragraph",
+      "text": "测试样本最好由业务、客服与法务分别出题，避免供应商提前准备，测试过程本身也要录屏留痕，作为验收档案的一部分；落到验收标准上，每一项合规要求都应对应明确的系统实现和可量化的验收方式，管理层可对照下表逐项核对，缺一项就补一项。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表 3｜催收 AI 合规能力落点：合规要求、系统实现与验收方式对照",
+      "rows": [
+        [
+          "合规要求",
+          "系统实现",
+          "验收方式"
+        ],
+        [
+          "话术可控",
+          "敏感词、威胁性表达、身份披露模板、场景话术库",
+          "抽样质检＋高风险话术拦截率"
+        ],
+        [
+          "频次管控",
+          "按人、债务、渠道、时段设置上限和冷却期",
+          "频次日志可导出，超限自动阻断"
+        ],
+        [
+          "全程留痕",
+          "外呼录音、短信、邮件、EMS、文书、审批全记录",
+          "任一案件可回放完整链路"
+        ],
+        [
+          "人工兜底",
+          "投诉、争议、法律升级、高风险金额触发接管",
+          "接管触发准确率和处理时效"
+        ]
+      ]
+    },
+    {
+      "id": "p-063",
+      "type": "heading",
+      "text": "合规责任不能全部外包给供应商",
+      "segments": [
+        {
+          "text": "合规责任不能全部外包给供应商",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-064",
+      "type": "paragraph",
+      "text": "管理层还要明确合规责任的内部归属，供应商提供系统能力，企业仍要对债权合法性、数据授权、策略审批和投诉处理负责；把全部责任推给供应商，既不现实，也不符合企业治理的基本要求。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-065",
+      "type": "paragraph",
+      "text": "规模化之后，合规看板应与经营看板并排摆放，回款率的提升若伴随着投诉率、误催率和超频拦截率一起上升，就不是真正的好结果；合规工程的目标不是让业务慢下来，而是让高并发执行始终有刹车、有方向盘、有行车记录——真正成熟的 AI 催收系统，不是让合规部门事后追责，而是让合规规则成为系统执行的前提，可控、可审、可停、可复盘才是壁垒。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-066",
+      "type": "closing",
+      "text": "行动建议｜企业可以预约灵宸智能 Recov AI 的合规工程演示，重点查看话术拦截、频次引擎、案件留痕与人工兜底机制，并用自己的真实样本验证“三可”标准，先小流量试点，再放大并发。",
+      "segments": [
+        {
+          "text": "行动建议｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "企业可以预约灵宸智能 Recov AI 的合规工程演示，重点查看话术拦截、频次引擎、案件留痕与人工兜底机制，并用自己的真实样本验证“三可”标准，先小流量试点，再放大并发。",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 200,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "leftTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#F4F6FA",
+        "leftBorder": {
+          "color": "#2E5FA3",
+          "sizeEighthPoints": 20,
+          "spacePoints": 6
+        },
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

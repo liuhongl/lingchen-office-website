@@ -1,0 +1,713 @@
+{
+  "slug": "deepdoc-cross-border-document-review",
+  "category": "产品动态",
+  "displayTitle": null,
+  "sourceTitle": "DeepDoc 跨境单证智能审核：四维交叉复核如何拦住不符点",
+  "summary": "摘要：DeepDoc 是灵宸智能面向跨境贸易金融场景推出的单证智能审核系统，覆盖信用证、托收、汇款、报关报检等业务，用完整性审查、单内勾稽、单单一致性和 UCP 600 / ISBP 821 规则引擎组成四维交叉复核；它的定位不是替审单员拍板，而是把可规则化的差错先拦出来，让人工复核集中在真正需要业务判断的地方。本文说明这套系统适合谁、如何工作、与人工审单的差别，以及如何用 30 天跑通一个高频业务的 POC，供银行国际业务部、外贸企业单证中心和货代报关行在评估前对照使用。",
+  "publishedAt": null,
+  "sourceDocx": "DeepDoc_跨境单证智能审核.docx",
+  "sourceDocxSha256": "537ee881adb71e8fd09918045c1c95825077347e8521a98887d40cbd5d36c6b4",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "DeepDoc 跨境单证智能审核：四维交叉复核如何拦住不符点",
+      "segments": [
+        {
+          "text": "DeepDoc 跨境单证智能审核：四维交叉复核如何拦住不符点",
+          "bold": true,
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "alignment": "center",
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "abstract",
+      "text": "摘要：DeepDoc 是灵宸智能面向跨境贸易金融场景推出的单证智能审核系统，覆盖信用证、托收、汇款、报关报检等业务，用完整性审查、单内勾稽、单单一致性和 UCP 600 / ISBP 821 规则引擎组成四维交叉复核；它的定位不是替审单员拍板，而是把可规则化的差错先拦出来，让人工复核集中在真正需要业务判断的地方。本文说明这套系统适合谁、如何工作、与人工审单的差别，以及如何用 30 天跑通一个高频业务的 POC，供银行国际业务部、外贸企业单证中心和货代报关行在评估前对照使用。",
+      "segments": [
+        {
+          "text": "摘要：DeepDoc 是灵宸智能面向跨境贸易金融场景推出的单证智能审核系统，覆盖信用证、托收、汇款、报关报检等业务，用完整性审查、单内勾稽、单单一致性和 UCP 600 / ISBP 821 规则引擎组成四维交叉复核；它的定位不是替审单员拍板，而是把可规则化的差错先拦出来，让人工复核集中在真正需要业务判断的地方。本文说明这套系统适合谁、如何工作、与人工审单的差别，以及如何用 30 天跑通一个高频业务的 POC，供银行国际业务部、外贸企业单证中心和货代报关行在评估前对照使用。",
+          "bold": true,
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "一、先说结论：DeepDoc 适合谁，不适合谁",
+      "segments": [
+        {
+          "text": "一、先说结论：DeepDoc 适合谁，不适合谁",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "判断是否适合，先看三句话：单证量大、版式多、规则复杂，且需要统一审单尺度的团队，值得认真评估；有效的方法是系统先给出不符点清单，审单员再做最终判断，而不是让系统独立定案；影像质量极差、核心字段无法识别，或者希望系统替代最终责任人的项目则不适合，完整判断标准见第五节。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "举一个典型场景：一套信用证项下单据包含发票、提单、装箱单、保险单和原产地证，金额大小写、货物描述、船名、日期和签章只要有一处不一致，就可能导致拒付、延迟收汇或滞港；DeepDoc 的价值不是替审单员“拍板”，而是把可规则化的差错先拦出来，让人的精力集中在真正需要业务判断的地方。从单证上传到人工确认的完整链路如图1所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/deepdoc-cross-border-document-review/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "9256cca7a87ec42b22471a5726ce1fb60f71971e1a9982fb97037c18dbe80f27",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "图1　业务链路：从单证上传、完整性审查到规则审查与人工确认，每一步都留痕回写，最终意见由授权人员确认",
+      "segments": [
+        {
+          "text": "图1　业务链路：从单证上传、完整性审查到规则审查与人工确认，每一步都留痕回写，最终意见由授权人员确认",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "heading",
+      "text": "二、三类角色怎么用：同一张工作台里互相校验",
+      "segments": [
+        {
+          "text": "二、三类角色怎么用：同一张工作台里互相校验",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "同一套系统，在不同角色手里价值并不相同：审单员最看重不符点依据，先看系统给出的不符点、字段来源和规则出处，再做人工确认与修正，交付的是不符点清单和复核意见；国际业务主管关心审单尺度是否统一，用抽检报告和规则配置来压住不同人员经验差异带来的质量波动；外贸和货代团队希望在递交银行之前提前发现单证风险，减少返工与拒付，盯的是修改清单和最终递交版本。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "能够长期运行的项目，通常是这三类视角在同一张工作台里互相校验，而不是某一方单独推动——审单员给依据、主管定尺度、外贸团队提前排险，任何一环缺位，系统都容易退化成一个只会跑演示的识别工具。三类角色的协同关系与各自交付物如图2所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/deepdoc-cross-border-document-review/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "a8ecd8fd5573503b76bbdb248ee0f5517490c95f7a35737acd9de1a70545ae3d",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "图2　三类角色的协同关系：每个角色都对应可验收的交付物，项目不停留在演示效果",
+      "segments": [
+        {
+          "text": "图2　三类角色的协同关系：每个角色都对应可验收的交付物，项目不停留在演示效果",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "heading",
+      "text": "三、工作机制：输入、判断、执行、回写",
+      "segments": [
+        {
+          "text": "三、工作机制：输入、判断、执行、回写",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "判断一款业务系统能否进入生产环境，不能只问“功能有没有”，更关键的是三个动作：输入能不能结构化，执行过程能不能被控制，结果能不能回到下一轮策略。DeepDoc 的五个模块正是围绕这三个动作设计——智能分类与抽取解决单据类型多、版式变化大的问题，POC 阶段要看 OCR 准确率、字段抽取和低质量影像的表现，影像极差时应要求补件而不是硬审；完整性审查对照信用证条款或自定义清单，判断漏交、少交与多交，清单本身有误时需人工修正；单内勾稽检查同一单据内部的金额、日期、签章、货描等字段逻辑，它拦的是形式矛盾，不能替代业务事实判断。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "单单一致性以信用证或商业发票为锚点，交叉核验发票、提单、保险单之间的关键描述，锚点必须可配置；国际规则审查内置 UCP 600 / ISBP 821，每条不符点提示都给出命中规则和依据，行内制度与信用证条款要优先核对。把五个模块串起来，就是“完整性、单内、单单、规则、回写”的四维审核链——先拦低级高风险错误，再防多份单证互相矛盾，给出不符点依据，最后把人工确认结果沉淀下来持续优化规则，框架如图3所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/deepdoc-cross-border-document-review/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "0704142e572faf9c8af48617b792306bd809e09cab755e5ff534d372c11bb17c",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "图3　四维单证风险封堵框架：五个卡点全部通过，才建议进入规模化",
+      "segments": [
+        {
+          "text": "图3　四维单证风险封堵框架：五个卡点全部通过，才建议进入规模化",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "heading",
+      "text": "四、与人工审单的对比：量化数字要看限定语",
+      "segments": [
+        {
+          "text": "四、与人工审单的对比：量化数字要看限定语",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "与人工审单相比，差别不在单点功能，而在口径是否稳定：人工逐字段录入耗时且易错，完整性靠翻清单核对，单内核验依赖个人经验，单单比对要在多份文件之间来回翻找，UCP / ISBP 规则更是新人要学数年的硬门槛——这套老做法的共同问题，是审核质量随人员状态波动，且没有一份完整记录可供复盘。需要提醒的是，凡涉及具体数值，都应保留“公司口径、客户项目实测或 POC 示意”等限定语，并用自己的样本复核，而不是直接照搬进内部汇报；两种方式的逐项对照见表1。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "表1　人工审单方式与 DeepDoc 的逐项对照（数值以自身样本复核）",
+      "segments": [
+        {
+          "text": "表1　人工审单方式与 DeepDoc 的逐项对照（数值以自身样本复核）",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "",
+      "rows": [
+        [
+          "环节",
+          "人工 / 传统方式",
+          "DeepDoc 能力",
+          "客户价值"
+        ],
+        [
+          "识别录入",
+          "人工逐字段录入",
+          "OCR + 大模型抽取关键要素",
+          "减少手工录入时间"
+        ],
+        [
+          "完整性检查",
+          "凭清单人工核对",
+          "按信用证字段或自定义清单自动比对",
+          "降低漏单风险"
+        ],
+        [
+          "单内核验",
+          "靠经验逐项检查",
+          "规则化检查金额、日期、签章、字段逻辑",
+          "稳定审查口径"
+        ],
+        [
+          "单单比对",
+          "人工翻多份文件交叉核对",
+          "以信用证或发票为锚点自动比对",
+          "提升风险覆盖"
+        ],
+        [
+          "规则应用",
+          "新人长期学习 UCP / ISBP",
+          "规则引擎提示依据和不符点",
+          "缩短培养周期"
+        ]
+      ]
+    },
+    {
+      "id": "p-022",
+      "type": "heading",
+      "text": "五、适用与暂不适用：边界说清楚，项目才容易成功",
+      "segments": [
+        {
+          "text": "五、适用与暂不适用：边界说清楚，项目才容易成功",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "对跨境单证审核来说，边界诚实比过度承诺更重要。适合引入的对象包括银行国际业务部、外贸企业单证中心、货代报关行和供应链金融机构，典型场景是信用证、托收、汇款、报关报检等单证量大、版式多、规则复杂的业务，以及希望沉淀专家经验、统一审核尺度、提升新人效率的团队；暂不适用或需先补齐的情形同样明确——完全非标准、证据材料严重缺失、需要法律争议判断而非单证审核的个案不该硬上，影像质量极差、核心字段无法识别且无法补充原件的样本应先解决影像问题，希望系统替代银行或企业最终责任人完成审核确认的诉求，则应直接拒绝。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "如果不确定自己属于哪一类，可以按四道关口自查：影像与字段识别、条款与规则锚点、不符点依据可查、人工确认回写，四道全部为“是”再扩大单证类型，命中任何一个“否”，先补齐条件再谈规模化，决策路径如图4所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/deepdoc-cross-border-document-review/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "f22d4615e2e0cddf6617e0565196f0b1bd9b8ca6e99537ffa0d5ff193e93755f",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "图4　适用 / 暂缓决策：四道关口依次自查，任一为“否”先补齐条件",
+      "segments": [
+        {
+          "text": "图4　适用 / 暂缓决策：四道关口依次自查，任一为“否”先补齐条件",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "heading",
+      "text": "六、30 天跑通最小场景：可复制的执行清单",
+      "segments": [
+        {
+          "text": "六、30 天跑通最小场景：可复制的执行清单",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "确认适用之后，POC 也不宜一开始就追求全量上线，更稳的做法是选一个边界清楚、责任人明确、结果可验收的流程，用真实但脱敏的样本运行，观察系统输出、人工修改量和业务结果。四个阶段的节奏是：样本准备阶段选择信用证议付或进口开证等高频业务，准备覆盖常见和高风险情形的脱敏单证包；规则配置阶段固化信用证条款、行内规则和人工确认点，每项不符点都要有依据；小范围审核阶段由系统出具不符点报告、审单员逐条复核，准确率与复核效率要达标；复盘扩展阶段按单证类型、客户类型、规则项拆解结果，国结、合规、业务三方都同意后再扩展。各阶段的交付物与通过标准见表2。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "表2　30 天 POC 的四个阶段、交付物与通过标准",
+      "segments": [
+        {
+          "text": "表2　30 天 POC 的四个阶段、交付物与通过标准",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "",
+      "rows": [
+        [
+          "阶段",
+          "目标",
+          "交付物",
+          "通过标准"
+        ],
+        [
+          "样本准备",
+          "选择信用证议付或进口开证等高频业务，准备真实脱敏单证包",
+          "单证包、影像质量说明、字段清单",
+          "样本覆盖常见和高风险情形"
+        ],
+        [
+          "规则配置",
+          "配置信用证条款、行内规则和人工确认点",
+          "规则表、权限、日志口径",
+          "每项不符点有依据"
+        ],
+        [
+          "小范围审核",
+          "系统出具不符点报告，审单员复核",
+          "不符点报告、人工修改原因",
+          "准确率和复核效率达标"
+        ],
+        [
+          "复盘扩展",
+          "按单证类型、客户类型、规则项复盘",
+          "Badcase、规则优化、扩展计划",
+          "国结、合规、业务三方同意"
+        ]
+      ]
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "复盘建议围绕识别准确率、审核准确率、单证错误率下降和规则覆盖率四项核心指标验收，所有指标必须在试点前定义，不要等试点结束后倒推成功标准；每项指标都要按影像质量和单证类型拆分，并结合人工复核标准验收，系统结果不能简单替代最终审核。条件允许时，还应保留上线前的错误率基线，记录样本结构变化，避免把单证类型或客户结构的差异误判为系统贡献——只看识别率容易忽略审核质量，只看错误率下降又难以定位是哪一维起了作用，过程指标与结果指标结合，才能支撑下一轮规则调整。四项指标各自对应的验收问题如图5所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/deepdoc-cross-border-document-review/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "9ab12a91e430b37950b85a0ed0704e05f666739da7e18b13de4bb949efcf67bd",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "图5　POC 指标看板：四项指标须在试点前定义，按影像质量与单证类型拆分统计",
+      "segments": [
+        {
+          "text": "图5　POC 指标看板：四项指标须在试点前定义，按影像质量与单证类型拆分统计",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "heading",
+      "text": "七、安全与合规：默认把高风险动作交给人",
+      "segments": [
+        {
+          "text": "七、安全与合规：默认把高风险动作交给人",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "跨境单证涉及交易和客户敏感数据，人机分工的原则也因此更严格：高频、重复、可规则化的动作交给系统先处理——单据完整性审查、单内勾稽与单单一致比对、UCP 600 / ISBP 821 规则初筛、审核轨迹留痕；不符点的最终判定、拒付与交单改单决策、疑难单证与争议处理、正式审核意见的签发，必须保留人工兜底。在这一分工之下，落地时至少守住四个治理维度：交易与客户数据，客户身份、金额、贸易单证和交易信息要加密存储、分级授权、日志留存；规则责任，系统规则应与信用证条款、行内制度、人工复核共同使用，避免机械套用；人工确认，不符点报告、拒付风险和正式意见需授权人员确认，最终责任清晰；结果回写，人工修改、Badcase 和规则调整进入迭代，才能长期保持审单一致性。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "可参考的合规框架包括 ICC UCP 600、ISBP 821、中国《个人信息保护法》与《数据安全法》，以及银行或企业内部审单制度；项目落地时，应由客户方法务、合规和信息安全团队结合所在法域逐一复核，本节内容用于项目治理讨论，不构成法律意见。人机边界与治理要点如图6所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/deepdoc-cross-border-document-review/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "a18ed43c1dc67f9f76028df620038ba3de21f9d3896f1aaab74ac23fc33d58a0",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "图6　人机分工边界与四个治理维度：高风险决定默认由人确认，全程留痕",
+      "segments": [
+        {
+          "text": "图6　人机分工边界与四个治理维度：高风险决定默认由人确认，全程留痕",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "heading",
+      "text": "八、如何开始：体验方式与开通建议",
+      "segments": [
+        {
+          "text": "八、如何开始：体验方式与开通建议",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "建议先选一种高频业务导入脱敏单证包做 POC，重点看三件事：不符点依据是否可查、人工复核效率是否真实提升、规则是否可按行内制度配置；演示只能说明能力边界，POC 才能说明业务价值，先跑通一个最小场景，拿到识别、审核、错误率和规则覆盖四组真实数据，再决定是否扩展单证类型、业务线或分支机构。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "如需评估自身审单场景是否适配，可以先向灵宸智能团队索取试点方案与合规落地清单，用一批真实脱敏单证完成一轮小规模验证；访问灵宸智能官网 www.lingchen-ai.com 即可预约产品演示，或致电 18621786899 获取一对一方案评估。",
+      "segments": [
+        {
+          "text": "如需评估自身审单场景是否适配，可以先向灵宸智能团队索取试点方案与合规落地清单，用一批真实脱敏单证完成一轮小规模验证；访问灵宸智能官网 www.lingchen-ai.com 即可预约产品演示，或致电 18621786899 获取一对一方案评估",
+          "bold": true,
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "。",
+          "bold": true,
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

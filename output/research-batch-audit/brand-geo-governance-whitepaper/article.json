@@ -1,0 +1,1493 @@
+{
+  "slug": "brand-geo-governance-whitepaper",
+  "category": "解决方案&白皮书",
+  "displayTitle": null,
+  "sourceTitle": "灵宸智能｜品牌 AI 可见度治理系列",
+  "summary": "品牌 GEO（Generative Engine Optimization，生成式引擎优化）治理，是企业围绕生成式搜索与大模型答案入口，对品牌事实、产品边界、内容资产、外部信源和监测机制进行持续校准的管理工作；它关注的不只是“有没有被提到”，还包括品牌在什么问题下出现、以何种理由被推荐、引用了哪些来源、描述是否准确，以及错误信息能否在可接受的周期内被发现并修正；对品牌、公关、市场、销售和管理层而言，这项工作的直接价值，是把零散试问升级为可复测、可归因、可审计的运营体系。",
+  "publishedAt": null,
+  "sourceDocx": "大模型时代品牌GEO治理白皮书.docx",
+  "sourceDocxSha256": "096a3e000bca59697e04044de9d7d7f239a5e60c920f125a67955d4d169fa142",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "灵宸智能｜品牌 AI 可见度治理系列",
+      "segments": [
+        {
+          "text": "灵宸智能｜品牌 AI 可见度治理系列",
+          "bold": true,
+          "color": "#254D7A",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 240,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "bottomBorder": {
+          "color": "#254D7A",
+          "sizeEighthPoints": 8,
+          "spacePoints": 8
+        },
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "大模型时代品牌 GEO 治理白皮书",
+      "segments": [
+        {
+          "text": "大模型时代品牌 GEO 治理白皮书",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 24.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 40,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 24.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "deck",
+      "text": "让企业在 AI 答案入口被看见、被理解、被推荐",
+      "segments": [
+        {
+          "text": "让企业在 AI 答案入口被看见、被理解、被推荐",
+          "bold": true,
+          "color": "#254D7A",
+          "fontSizePt": 17.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 17.5
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "deck",
+      "text": "Mine GEO｜品牌、公关、市场、销售与管理层等适用",
+      "segments": [
+        {
+          "text": "Mine GEO｜品牌、公关、市场、销售与管理层",
+          "color": "#6B7785",
+          "fontSizePt": 9.0
+        },
+        {
+          "text": "等",
+          "color": "#6B7785",
+          "fontSizePt": 9.0
+        },
+        {
+          "text": "适用",
+          "color": "#6B7785",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 260,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "abstract",
+      "text": "品牌 GEO（Generative Engine Optimization，生成式引擎优化）治理，是企业围绕生成式搜索与大模型答案入口，对品牌事实、产品边界、内容资产、外部信源和监测机制进行持续校准的管理工作；它关注的不只是“有没有被提到”，还包括品牌在什么问题下出现、以何种理由被推荐、引用了哪些来源、描述是否准确，以及错误信息能否在可接受的周期内被发现并修正；对品牌、公关、市场、销售和管理层而言，这项工作的直接价值，是把零散试问升级为可复测、可归因、可审计的运营体系。",
+      "segments": [
+        {
+          "text": "品牌 GEO（Generative Engine Optimization，生成式引擎优化）治理，是企业围绕生成式搜索与大模型答案入口，对品牌事实、产品边界、内容资产、外部信源和监测机制进行持续校准的管理工作；它关注的不只是“有没有被提到”，还包括品牌在什么问题下出现、以何种理由被推荐、引用了哪些来源、描述是否准确，以及错误信息能否在可接受的周期内被发现并修正；对品牌、公关、市场、销售和管理层而言，这项工作的直接价值，是把零散试问升级为可复测、可归因、可审计的运营体系。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 200,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#EEF5FB",
+        "leftBorder": {
+          "color": "#254D7A",
+          "sizeEighthPoints": 18,
+          "spacePoints": 7
+        },
+        "fontSizePt": 10.5
+      },
+      "leadLabel": "摘要",
+      "leadLabelSegments": [
+        {
+          "text": "摘要",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 11.5
+        }
+      ],
+      "leadLabelLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "本文以“事实底座—内容表达—权威信源—答案表现—业务反馈”为主线，给出五维指标、证据链设计、八节点流程、实施路线和验收方法；文中的治理建议建立在真实资料、明确责任和人工复核之上，不以批量制造低质量内容、虚构评价或隐藏文本影响模型输出；品牌 GEO 的长期效果取决于事实是否稳定、内容是否便于理解、来源是否可信、更新是否及时，而不是一次性的技巧堆叠。",
+      "segments": [
+        {
+          "text": "本文以“事实底座—内容表达—权威信源—答案表现—业务反馈”为主线，给出五维指标、证据链设计、八节点流程、实施路线和验收方法；文中的治理建议建立在真实资料、明确责任和人工复核之上，不以批量制造低质量内容、虚构评价或隐藏文本影响模型输出；品牌 GEO 的长期效果取决于事实是否稳定、内容是否便于理解、来源是否可信、更新是否及时，而不是一次性的技巧堆叠。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "keywords",
+      "text": "关键词：品牌 GEO 治理、AI 答案入口、品牌可见度、推荐率、推荐位置、信源质量、知识资产治理、生成式搜索优化",
+      "segments": [
+        {
+          "text": "关键词：",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 9.0
+        },
+        {
+          "text": "品牌 GEO 治理、AI 答案入口、品牌可见度、推荐率、推荐位置、信源质量、知识资产治理、生成式搜索优化",
+          "color": "#536273",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "firstLineTwips": 0,
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "企业应先确定目标问题集、品牌唯一事实源和人工审核边界，再选择工具与自动化范围；所有治理动作都要能够说明输入来自哪里、由谁确认、发布到何处、何时复测，以及结果如何回写下一轮计划；只有这些环节形成闭环，品牌在 AI 答案中的“被看见、被理解、被推荐”才会从偶然现象变成可经营的能力。",
+      "segments": [
+        {
+          "text": "企业应先确定目标问题集、品牌唯一事实源和人工审核边界，再选择工具与自动化范围；所有治理动作都要能够说明输入来自哪里、由谁确认、发布到何处、何时复测，以及结果如何回写下一轮计划；只有这些环节形成闭环，品牌在 AI 答案中的“被看见、被理解、被推荐”才会从偶然现象变成可经营的能力。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 200,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#F5F7FA",
+        "leftBorder": {
+          "color": "#254D7A",
+          "sizeEighthPoints": 18,
+          "spacePoints": 7
+        },
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "484de294f88dc451c95f2e054ede170671e98aa016bc3f33737e58168e1ce426",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 1｜品牌 GEO 治理主链路：事实底座经内容表达和权威信源进入 AI 答案，再由监测结果回写业务",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜品牌 GEO 治理主链路：事实底座经内容表达和权威信源进入 AI 答案，再由监测结果回写业务",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "heading",
+      "text": "一、品牌 GEO 为什么必须从内容项目升级为治理工程",
+      "segments": [
+        {
+          "text": "一、品牌 GEO 为什么必须从内容项目升级为治理工程",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "不少企业已经开始定期询问不同的大模型，但结果通常停留在截图和感受层面：同一个问题换一种问法，答案顺序可能变化；同一品牌在不同平台上得到的描述并不一致；市场团队发现错误后临时补一篇文章，却无法判断是事实缺口、内容结构、外部信源还是模型更新造成了变化；零散试问可以发现问题，却不能支撑预算决策、组织协同和长期复盘。",
+      "segments": [
+        {
+          "text": "不少企业已经开始定期询问不同的大模型，但结果通常停留在截图和感受层面：同一个问题换一种问法，答案顺序可能变化；同一品牌在不同平台上得到的描述并不一致；市场团队发现错误后临时补一篇文章，却无法判断是事实缺口、内容结构、外部信源还是模型更新造成了变化；零散试问可以发现问题，却不能支撑预算决策、组织协同和长期复盘。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "从业务视角看，品牌在 AI 答案入口的失真通常由四类断点共同造成：第一类是“看不见”，目标问题中没有品牌或只在极少数场景出现；第二类是“说不清”，产品能力、适用边界、案例和版本口径互相冲突；第三类是“信不过”，答案缺少官网、权威媒体、行业机构或可信第三方的佐证；第四类是“改不动”，错误与过时信息没有责任人、处理时限和复测记录；四类断点会彼此放大，因此治理重点应放在证据和流程，而不是单纯增加内容数量。",
+      "segments": [
+        {
+          "text": "从业务视角看，品牌在 AI 答案入口的失真通常由四类断点共同造成：第一类是“看不见”，目标问题中没有品牌或只在极少数场景出现；第二类是“说不清”，产品能力、适用边界、案例和版本口径互相冲突；第三类是“信不过”，答案缺少官网、权威媒体、行业机构或可信第三方的佐证；第四类是“改不动”，错误与过时信息没有责任人、处理时限和复测记录；四类断点会彼此放大，因此治理重点应放在证据和流程，而不是单纯增加内容数量。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "db03f5e63e35be79e0bf3aa7987a09a3498134834a30be3480dd7a51f344a73f",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 2｜AI 答案入口的四类断点：看不见、说不清、信不过、改不动会相互放大",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜AI 答案入口的四类断点：看不见、说不清、信不过、改不动会相互放大",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "heading",
+      "text": "二、用五个维度建立可复测的品牌表现基线",
+      "segments": [
+        {
+          "text": "二、用五个维度建立可复测的品牌表现基线",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "品牌 GEO 的第一步，是把“AI 怎么说我们”拆成稳定的测量对象：可见度记录品牌是否出现在目标问题中，推荐率判断模型是否把品牌列入可选择方案，推荐位置用于观察品牌是否进入前列，信源质量识别答案依赖官网、权威媒体、行业资料还是低可信页面，叙事倾向则检查描述是正向、中性、负向，或存在明显过时与误读；五个维度共同使用，才能避免只看一次出现或某个单点排名。",
+      "segments": [
+        {
+          "text": "品牌 GEO 的第一步，是把“AI 怎么说我们”拆成稳定的测量对象：可见度记录品牌是否出现在目标问题中，推荐率判断模型是否把品牌列入可选择方案，推荐位置用于观察品牌是否进入前列，信源质量识别答案依赖官网、权威媒体、行业资料还是低可信页面，叙事倾向则检查描述是正向、中性、负向，或存在明显过时与误读；五个维度共同使用，才能避免只看一次出现或某个单点排名。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "指标口径必须在采样前固定，包括目标平台、问题版本、语言与地区、采样时间、账号与登录状态、是否允许联网、答案截取范围以及重复测试次数；同一轮审计中不随结果临时改口径，跨轮比较时保留问题版本和环境记录；对于推荐位置，应明确采用 Top 3、Top 5 还是“首屏出现”，对于信源，应提前建立官网、权威机构、主流媒体、行业社区和低可信来源的分级规则，表 1 给出一套可直接用于基线审计的定义。",
+      "segments": [
+        {
+          "text": "指标口径必须在采样前固定，包括目标平台、问题版本、语言与地区、采样时间、账号与登录状态、是否允许联网、答案截取范围以及重复测试次数；同一轮审计中不随结果临时改口径，跨轮比较时保留问题版本和环境记录；对于推荐位置，应明确采用 Top 3、Top 5 还是“首屏出现”，对于信源，应提前建立官网、权威机构、主流媒体、行业社区和低可信来源的分级规则，表 1 给出一套可直接用于基线审计的定义。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜品牌 GEO 五维指标及统一采集口径",
+      "rows": [
+        [
+          "维度",
+          "统一定义",
+          "采集口径",
+          "管理解释"
+        ],
+        [
+          "可见度",
+          "目标问题中品牌被提及的比例",
+          "按平台、问题类型、语言与市场分组；保留问题版本和时间戳",
+          "判断品牌是否进入用户候选范围"
+        ],
+        [
+          "推荐率",
+          "品牌被明确列为推荐、备选或建议方案的比例",
+          "区分仅提及与明确推荐；对相同问题进行重复采样",
+          "判断品牌是否从“被看见”走向“被选择”"
+        ],
+        [
+          "推荐位置（排名）",
+          "进入前三、前五或首屏的占比与平均位次",
+          "事先固定 Top 3、Top 5 或首屏口径，跨轮不临时变更",
+          "用于比较推荐强度，不作为单次结果保证"
+        ],
+        [
+          "信源质量",
+          "答案引用或依赖的来源结构",
+          "按官网、权威机构、主流媒体、行业来源和低可信来源分级",
+          "识别需要补齐的权威触点"
+        ],
+        [
+          "叙事倾向",
+          "正向、中性、负向及过时误读的分布",
+          "逐条记录事实错误、时间问题和语气倾向，修订后复测",
+          "用于公关、法务和内容修正"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 1｜品牌 GEO 五维指标及统一采集口径",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "heading",
+      "text": "三、传统 SEO 与声量管理为何难以直接替代 GEO 治理",
+      "segments": [
+        {
+          "text": "三、传统 SEO 与声量管理为何难以直接替代 GEO 治理",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "SEO、媒体传播和内容营销仍然重要，它们帮助企业建立可检索的公开信息，并不因大模型出现而失效；问题在于传统项目常以关键词排名、发布篇数或曝光量作为终点，而 AI 答案的形成还受到问题意图、事实一致性、来源交叉验证、内容可摘要性和时间新鲜度影响；若团队只是给旧流程换一个名称，仍然无法解释品牌为什么被推荐，也难以识别一次波动究竟来自内容变更、外部信源变化还是平台机制调整。",
+      "segments": [
+        {
+          "text": "SEO、媒体传播和内容营销仍然重要，它们帮助企业建立可检索的公开信息，并不因大模型出现而失效；问题在于传统项目常以关键词排名、发布篇数或曝光量作为终点，而 AI 答案的形成还受到问题意图、事实一致性、来源交叉验证、内容可摘要性和时间新鲜度影响；若团队只是给旧流程换一个名称，仍然无法解释品牌为什么被推荐，也难以识别一次波动究竟来自内容变更、外部信源变化还是平台机制调整。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "可复盘的 GEO 作业需要三项变化：从“随机提问”转为版本化问题集，从“多发内容”转为补齐证据缺口，从“结果截图”转为记录动作与结果之间的时间关系；每次调整都应带有可检验的假设，例如“补齐产品适用边界后，错误推荐会下降”或“增加权威行业来源后，低可信引用占比会下降”；若复测没有支持假设，就停止复制该动作，而不是继续堆量，图 3 展示了传统作业与治理作业在起点、过程和验收上的差异。",
+      "segments": [
+        {
+          "text": "可复盘的 GEO 作业需要三项变化：从“随机提问”转为版本化问题集，从“多发内容”转为补齐证据缺口，从“结果截图”转为记录动作与结果之间的时间关系；每次调整都应带有可检验的假设，例如“补齐产品适用边界后，错误推荐会下降”或“增加权威行业来源后，低可信引用占比会下降”；若复测没有支持假设，就停止复制该动作，而不是继续堆量，图 3 展示了传统作业与治理作业在起点、过程和验收上的差异。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "31a7da93b6eb8c694c4c0a9abc5350dc5c0d9b7dab27c37786c734cab0a50f3f",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 3｜传统内容作业与 GEO 治理作业的差异：从动作堆叠转向假设、记录与复测",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜传统内容作业与 GEO 治理作业的差异：从动作堆叠转向假设、记录与复测",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "heading",
+      "text": "四、证据链比内容数量更重要",
+      "segments": [
+        {
+          "text": "四、证据链比内容数量更重要",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "大模型并不会因为企业重复某个口号就自动形成稳定认知，它更容易采纳结构清楚、来源一致、能够被其他可信页面佐证的信息；品牌 GEO 因此要先建立“唯一事实源”：公司名称、产品版本、核心能力、明确不做什么、适用行业、交付方式、认证资质、价格口径、案例证据和更新时间，都应有可追溯的来源与负责人；官网、产品手册、媒体资料、销售材料和合作伙伴页面出现冲突时，以经确认的事实源为准。",
+      "segments": [
+        {
+          "text": "大模型并不会因为企业重复某个口号就自动形成稳定认知，它更容易采纳结构清楚、来源一致、能够被其他可信页面佐证的信息；品牌 GEO 因此要先建立“唯一事实源”：公司名称、产品版本、核心能力、明确不做什么、适用行业、交付方式、认证资质、价格口径、案例证据和更新时间，都应有可追溯的来源与负责人；官网、产品手册、媒体资料、销售材料和合作伙伴页面出现冲突时，以经确认的事实源为准。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "在此基础上，内容资产承担的是解释和连接，而不是重新发明事实；高质量内容应回答具体场景中的判断问题，给出适用条件、限制、证据和更新时间，并让标题、摘要、正文、图表说明与页面结构保持一致；外部信源则通过行业媒体、协会资料、合作伙伴、公开案例或专业数据库提供交叉验证；图 4 所示的证据链由内向外展开，任何一层出现断裂，都会削弱答案的准确性和可信度。",
+      "segments": [
+        {
+          "text": "在此基础上，内容资产承担的是解释和连接，而不是重新发明事实；高质量内容应回答具体场景中的判断问题，给出适用条件、限制、证据和更新时间，并让标题、摘要、正文、图表说明与页面结构保持一致；外部信源则通过行业媒体、协会资料、合作伙伴、公开案例或专业数据库提供交叉验证；图 4 所示的证据链由内向外展开，任何一层出现断裂，都会削弱答案的准确性和可信度。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "85c7e5e66894c71a84d81760f540dc75abd545c1191a4123223a0aa585f7893b",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 4｜品牌证据链结构：唯一事实源是基础，内容与外部信源负责解释和交叉验证",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜品牌证据链结构：唯一事实源是基础，内容与外部信源负责解释和交叉验证",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "证据链能否长期运转，关键不在于一次整理了多少资料，而在于每类资产都有明确的更新触发条件；产品发布新版本、认证状态变化、服务区域调整、案例获得授权、价格政策更新或法律口径变化，都应触发相关事实条目、内容页面和分发记录的同步检查；仅修改官网而不更新销售材料、媒体资料或合作伙伴页面，仍会让公开信息长期分裂，也会使后续审计难以判断哪一条内容代表企业当前立场。",
+      "segments": [
+        {
+          "text": "证据链能否长期运转，关键不在于一次整理了多少资料，而在于每类资产都有明确的更新触发条件；产品发布新版本、认证状态变化、服务区域调整、案例获得授权、价格政策更新或法律口径变化，都应触发相关事实条目、内容页面和分发记录的同步检查；仅修改官网而不更新销售材料、媒体资料或合作伙伴页面，仍会让公开信息长期分裂，也会使后续审计难以判断哪一条内容代表企业当前立场。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "治理台账需要保留四类字段：事实依据、版本与生效时间、审核责任人、对外使用范围；对高风险表述还要记录法务或公关意见、禁用场景与替代表达，对已经失效的材料则标记下线时间和替代版本；这样做并不是增加行政负担，而是避免团队在危机、投标或重大传播节点反复确认“哪一版才对”；表 2 将品牌事实、产品边界、案例证据、合规材料、外部信源和内容资产放在同一张责任表中，便于市场、公关、产品、销售与法务共同维护。",
+      "segments": [
+        {
+          "text": "治理台账需要保留四类字段：事实依据、版本与生效时间、审核责任人、对外使用范围；对高风险表述还要记录法务或公关意见、禁用场景与替代表达，对已经失效的材料则标记下线时间和替代版本；这样做并不是增加行政负担，而是避免团队在危机、投标或重大传播节点反复确认“哪一版才对”；表 2 将品牌事实、产品边界、案例证据、合规材料、外部信源和内容资产放在同一张责任表中，便于市场、公关、产品、销售与法务共同维护。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜品牌 GEO 治理资产台账与责任分工",
+      "rows": [
+        [
+          "资产类别",
+          "必须字段",
+          "更新触发",
+          "主要责任"
+        ],
+        [
+          "品牌基础事实",
+          "法定名称、品牌名、官网、地区、联系方式、更新时间",
+          "主体、官网或联系方式变化",
+          "品牌 / 公关"
+        ],
+        [
+          "产品与服务边界",
+          "版本、核心能力、适用与不适用、交付方式、限制条件",
+          "新版本、服务调整、价格政策变化",
+          "产品 / 销售 / 法务"
+        ],
+        [
+          "案例与证明",
+          "授权范围、客户背景、结果口径、证据链接、可公开程度",
+          "新增授权、授权撤回、数据修订",
+          "市场 / 客户成功"
+        ],
+        [
+          "认证与合规",
+          "证书编号、有效期、适用范围、限制与审批意见",
+          "续期、失效、监管或法律口径变化",
+          "法务 / 合规"
+        ],
+        [
+          "外部信源",
+          "来源等级、发布日期、引用状态、失效标记",
+          "新报道、链接失效、表述过时",
+          "公关 / 品牌"
+        ],
+        [
+          "内容资产",
+          "主题、目标意图、对应事实、审核记录、发布日期",
+          "事实更新、监测异常、内容失效",
+          "内容 / 市场"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 2｜品牌 GEO 治理资产台账与责任分工",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "heading",
+      "text": "五、八个节点把治理动作连成闭环",
+      "segments": [
+        {
+          "text": "五、八个节点把治理动作连成闭环",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "一套可执行的品牌 GEO 流程，应从真实客户问题出发，而不是从工具功能出发；第一步由销售、客服、搜索词和行业讨论汇总目标问题集，并按业务价值、风险和购买阶段排序；第二步在约定的平台和环境中完成多模型审计，保存完整答案、引用来源与时间戳；第三步定位问题属于事实缺失、表达不清、来源不足还是过时误读；第四步更新唯一事实源并完成必要审批，所有修改都保留版本和生效日期。",
+      "segments": [
+        {
+          "text": "一套可执行的品牌 GEO 流程，应从真实客户问题出发，而不是从工具功能出发；第一步由销售、客服、搜索词和行业讨论汇总目标问题集，并按业务价值、风险和购买阶段排序；第二步在约定的平台和环境中完成多模型审计，保存完整答案、引用来源与时间戳；第三步定位问题属于事实缺失、表达不清、来源不足还是过时误读；第四步更新唯一事实源并完成必要审批，所有修改都保留版本和生效日期。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "随后进入内容与分发阶段：第五步把确认后的事实转化为适合官网、媒体、行业页面和销售场景使用的内容资产；第六步按渠道规则发布并记录收录状态；第七步持续监测可见度、推荐位置、信源和叙事变化，对异常波动进行复核；第八步将结果与具体动作对应，保留有效方法、删除无效噪音，并更新下一轮问题集；图 5 展示八个节点的输入输出关系，任一节点缺少责任人、日志或回写字段，都不应直接进入下一阶段。",
+      "segments": [
+        {
+          "text": "随后进入内容与分发阶段：第五步把确认后的事实转化为适合官网、媒体、行业页面和销售场景使用的内容资产；第六步按渠道规则发布并记录收录状态；第七步持续监测可见度、推荐位置、信源和叙事变化，对异常波动进行复核；第八步将结果与具体动作对应，保留有效方法、删除无效噪音，并更新下一轮问题集；图 5 展示八个节点的输入输出关系，任一节点缺少责任人、日志或回写字段，都不应直接进入下一阶段。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "53c373801f21c245df5598eb2bab1ed71e3f055df2a12b7efc39c9f599ae081b",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 5｜八节点治理闭环：每个节点都要保留输入、输出、责任人和回写字段",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜八节点治理闭环：每个节点都要保留输入、输出、责任人和回写字段",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "heading",
+      "text": "六、人机分工决定治理的可靠上限",
+      "segments": [
+        {
+          "text": "六、人机分工决定治理的可靠上限",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "系统适合承担高频、标准、可重复的工作，例如批量采样、问题版本管理、来源归类、差异比对、内容格式检查和监测提醒；人工必须负责事实确认、争议判断、竞品比较、法律承诺、价格与交付边界，以及对低置信度结果的最终解释；把所有环节包装成“全自动”，往往会把最难的责任问题隐藏起来，短期看似提效，长期却增加公关、销售误导和合规风险。",
+      "segments": [
+        {
+          "text": "系统适合承担高频、标准、可重复的工作，例如批量采样、问题版本管理、来源归类、差异比对、内容格式检查和监测提醒；人工必须负责事实确认、争议判断、竞品比较、法律承诺、价格与交付边界，以及对低置信度结果的最终解释；把所有环节包装成“全自动”，往往会把最难的责任问题隐藏起来，短期看似提效，长期却增加公关、销售误导和合规风险。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "人工审核也不应只在发布前出现，而要嵌入数据准入、规则配置、表述审批、发布频次、异常处置和复盘归因六个闸门；出现投诉、敏感身份、未经授权的客户信息、无法证实的比较、法律或财务承诺、跨境数据不确定性时，自动流程应暂停并转人工；已发布内容若被发现过时，应先撤下或标注，再补齐来源和修订记录；图 6 将自动执行区、人工确认区和禁止自动化区清晰分开，使责任边界在流程开始前就能被看见。",
+      "segments": [
+        {
+          "text": "人工审核也不应只在发布前出现，而要嵌入数据准入、规则配置、表述审批、发布频次、异常处置和复盘归因六个闸门；出现投诉、敏感身份、未经授权的客户信息、无法证实的比较、法律或财务承诺、跨境数据不确定性时，自动流程应暂停并转人工；已发布内容若被发现过时，应先撤下或标注，再补齐来源和修订记录；图 6 将自动执行区、人工确认区和禁止自动化区清晰分开，使责任边界在流程开始前就能被看见。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "7b17185577e2905be00d4ee4d1de0c8e587ca799cbe75e9f55eb37cd5ee6af3f",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 6｜人机分工与六道合规闸门：高风险判断不进入自动执行区",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜人机分工与六道合规闸门：高风险判断不进入自动执行区",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "heading",
+      "text": "七、面向 AI 答案入口的内容工程",
+      "segments": [
+        {
+          "text": "七、面向 AI 答案入口的内容工程",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "能够被大模型准确理解的内容，首先要让人读得明白；标题应直接说明主题与对象，摘要概括结论和适用范围，正文围绕一个明确问题展开，并在关键判断旁提供数据、案例、来源或边界；产品能力不宜只写“领先、智能、全面”等形容词，而要说明在什么条件下解决什么问题、由哪些证据支持、哪些情况不适用；页面还应使用稳定的品牌名称、产品名称和术语，避免同一概念在不同渠道频繁换称呼。",
+      "segments": [
+        {
+          "text": "能够被大模型准确理解的内容，首先要让人读得明白；标题应直接说明主题与对象，摘要概括结论和适用范围，正文围绕一个明确问题展开，并在关键判断旁提供数据、案例、来源或边界；产品能力不宜只写“领先、智能、全面”等形容词，而要说明在什么条件下解决什么问题、由哪些证据支持、哪些情况不适用；页面还应使用稳定的品牌名称、产品名称和术语，避免同一概念在不同渠道频繁换称呼。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "内容规划可以按照“用户意图 × 证据类型”组织：认知阶段需要清晰定义和行业背景，比较阶段需要可验证的能力差异与适用条件，评估阶段需要实施流程、案例证据与风险说明，决策阶段需要交付边界、服务机制和责任承诺；每篇内容不追求覆盖所有关键词，而是完整回答一个主题，并与其他页面形成清楚的上下位关系；图 7 展示了不同意图对应的内容资产和证据重点，也说明为什么单纯堆叠关键词很难形成稳定推荐。",
+      "segments": [
+        {
+          "text": "内容规划可以按照“用户意图 × 证据类型”组织：认知阶段需要清晰定义和行业背景，比较阶段需要可验证的能力差异与适用条件，评估阶段需要实施流程、案例证据与风险说明，决策阶段需要交付边界、服务机制和责任承诺；每篇内容不追求覆盖所有关键词，而是完整回答一个主题，并与其他页面形成清楚的上下位关系；图 7 展示了不同意图对应的内容资产和证据重点，也说明为什么单纯堆叠关键词很难形成稳定推荐。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "5b7b5d8d9c84447958c6366041c2700bf1fa771f4bca1f14238805c8faef25ff",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 7｜用户意图与内容证据矩阵：不同决策阶段需要不同的表达与佐证",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 7｜用户意图与内容证据矩阵：不同决策阶段需要不同的表达与佐证",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "heading",
+      "text": "八、从 POC 到规模化：先证明闭环，再扩大覆盖",
+      "segments": [
+        {
+          "text": "八、从 POC 到规模化：先证明闭环，再扩大覆盖",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-053",
+      "type": "paragraph",
+      "text": "品牌 GEO 不适合一开始铺开所有品牌、国家、语言和平台；POC 阶段应选择一个业务价值明确、资料基础较好、负责人清晰的品牌或产品线，建立 30—80 个目标问题，在 3—5 个主要平台完成基线审计，同时梳理唯一事实源，选取少量高价值缺口进行修订和分发；这个阶段的目标不是追求漂亮结果，而是验证问题集、证据链、审批和复测能否跑通，并测算真实的人力与协作成本。",
+      "segments": [
+        {
+          "text": "品牌 GEO 不适合一开始铺开所有品牌、国家、语言和平台；POC 阶段应选择一个业务价值明确、资料基础较好、负责人清晰的品牌或产品线，建立 30—80 个目标问题，在 3—5 个主要平台完成基线审计，同时梳理唯一事实源，选取少量高价值缺口进行修订和分发；这个阶段的目标不是追求漂亮结果，而是验证问题集、证据链、审批和复测能否跑通，并测算真实的人力与协作成本。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "paragraph",
+      "text": "试点阶段再扩大问题类型和内容资产，观察不同动作对可见度、推荐位置、信源质量和错误率的影响，并评估人工复核负担；只有在指标口径稳定、异常可解释、风险不恶化、结果能够回写业务流程的情况下，才进入多品牌、多语言和多市场运营；表 3 给出了三个阶段的建议范围、交付物和进入下一阶段的门槛，企业可根据行业周期和审批复杂度调整时间，但不应跳过基线与人工边界。",
+      "segments": [
+        {
+          "text": "试点阶段再扩大问题类型和内容资产，观察不同动作对可见度、推荐位置、信源质量和错误率的影响，并评估人工复核负担；只有在指标口径稳定、异常可解释、风险不恶化、结果能够回写业务流程的情况下，才进入多品牌、多语言和多市场运营；表 3 给出了三个阶段的建议范围、交付物和进入下一阶段的门槛，企业可根据行业周期和审批复杂度调整时间，但不应跳过基线与人工边界。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表 3｜POC、试点与规模化的实施范围、交付物和进入门槛",
+      "rows": [
+        [
+          "阶段",
+          "建议范围",
+          "核心交付物",
+          "进入下一阶段的门槛"
+        ],
+        [
+          "POC",
+          "1 个品牌或产品线；30—80 个问题；3—5 个主要平台",
+          "基线报告、事实缺口清单、首批修订与分发记录",
+          "问题版本、审批、发布和复测能够完整跑通"
+        ],
+        [
+          "试点",
+          "扩大问题类型和内容资产；形成稳定的周观察与月复盘节奏",
+          "效果对比、分发台账、信源变化与风险修正报告",
+          "指标口径稳定；风险不恶化；人工复核负担可接受"
+        ],
+        [
+          "规模化",
+          "多品牌、多语言、多市场；接入 CRM 或 BI 等业务系统",
+          "运营手册、角色矩阵、监测 SLA 与季度复盘机制",
+          "结果可回写业务；异常可解释；组织能够持续维护"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 3｜POC、试点与规模化的实施范围、交付物和进入门槛",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "heading",
+      "text": "九、验收不只看“有没有出现”",
+      "segments": [
+        {
+          "text": "九、验收不只看“有没有出现”",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-058",
+      "type": "paragraph",
+      "text": "单次答案很容易受平台更新、联网状态和采样时间影响，因此验收应同时覆盖结果指标、过程指标、风险指标和业务关联；结果指标包括可见度、推荐率、推荐位置与信源结构，过程指标关注事实更新是否按时完成、内容是否通过审核、发布是否被收录、异常是否闭环，风险指标记录错误事实、过时信息、负向误读和修正周期，业务关联则观察高价值页面访问、品牌搜索、销售问询和线索质量是否出现一致变化。",
+      "segments": [
+        {
+          "text": "单次答案很容易受平台更新、联网状态和采样时间影响，因此验收应同时覆盖结果指标、过程指标、风险指标和业务关联；结果指标包括可见度、推荐率、推荐位置与信源结构，过程指标关注事实更新是否按时完成、内容是否通过审核、发布是否被收录、异常是否闭环，风险指标记录错误事实、过时信息、负向误读和修正周期，业务关联则观察高价值页面访问、品牌搜索、销售问询和线索质量是否出现一致变化。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-059",
+      "type": "paragraph",
+      "text": "归因时要尊重时间顺序和样本边界，不能把所有提升都归功于单次内容发布，也不能因一周波动就否定长期治理；更稳妥的做法，是保留基线、设置对照问题、标记每个治理动作的发布日期，并按周观察、按月复盘、按季度调整问题集；若业务指标上升而错误率或负向表述同步恶化，应暂停扩面；图 8 的监测看板将五维表现、信源分布、风险事项和处理进度放在同一视图中，方便管理者判断是否具备规模化条件。",
+      "segments": [
+        {
+          "text": "归因时要尊重时间顺序和样本边界，不能把所有提升都归功于单次内容发布，也不能因一周波动就否定长期治理；更稳妥的做法，是保留基线、设置对照问题、标记每个治理动作的发布日期，并按周观察、按月复盘、按季度调整问题集；若业务指标上升而错误率或负向表述同步恶化，应暂停扩面；图 8 的监测看板将五维表现、信源分布、风险事项和处理进度放在同一视图中，方便管理者判断是否具备规模化条件。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-08.png",
+      "sourceMedia": "/word/media/image8.png",
+      "sha256": "93db055c246cfa9bbc087ab3fa9fb954a3fe01a9b2494c4dd0a69d2ed6c101f1",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 8｜品牌 GEO 监测看板：结果、过程、风险与业务关联需要同屏观察",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 8｜品牌 GEO 监测看板：结果、过程、风险与业务关联需要同屏观察",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-062",
+      "type": "heading",
+      "text": "十、场景验证：用可解释样本检验方法",
+      "segments": [
+        {
+          "text": "十、场景验证：用可解释样本检验方法",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "paragraph",
+      "text": "以一家面向制造企业的跨境 SaaS 品牌为例，团队在“适合中型制造企业的供应链协同软件”一类问题中经常缺席，即使被提及，也常被描述为只适合大型集团；审计后发现，官网首页强调技术架构，却缺少中型客户场景、实施周期、集成边界和数据安全说明，外部媒体资料沿用旧定位，销售材料与官网对客户规模的表述也不一致；问题并非“内容不够多”，而是关键证据没有形成一致链路。",
+      "segments": [
+        {
+          "text": "以一家面向制造企业的跨境 SaaS 品牌为例，团队在“适合中型制造企业的供应链协同软件”一类问题中经常缺席，即使被提及，也常被描述为只适合大型集团；审计后发现，官网首页强调技术架构，却缺少中型客户场景、实施周期、集成边界和数据安全说明，外部媒体资料沿用旧定位，销售材料与官网对客户规模的表述也不一致；问题并非“内容不够多”，而是关键证据没有形成一致链路。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-064",
+      "type": "paragraph",
+      "text": "治理团队先确认产品适用范围和不可承诺事项，再补充中型制造企业的实施路径、接口范围、上线条件和脱敏案例，随后同步更新官网、产品资料、合作伙伴页面和行业媒体稿，并在原问题集上复测；复盘时，只保留能够解释指标变化的动作，同时记录仍未解决的来源缺口与人工判断；图 9 展示“审计—诊断—修订—分发—监测—复盘”的验证飞轮，示意场景用于说明方法，不等同于客户业绩承诺。",
+      "segments": [
+        {
+          "text": "治理团队先确认产品适用范围和不可承诺事项，再补充中型制造企业的实施路径、接口范围、上线条件和脱敏案例，随后同步更新官网、产品资料、合作伙伴页面和行业媒体稿，并在原问题集上复测；复盘时，只保留能够解释指标变化的动作，同时记录仍未解决的来源缺口与人工判断；图 9 展示“审计—诊断—修订—分发—监测—复盘”的验证飞轮，示意场景用于说明方法，不等同于客户业绩承诺。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/brand-geo-governance-whitepaper/figure-09.png",
+      "sourceMedia": "/word/media/image9.png",
+      "sha256": "7d6837c928e46caa83248f04236393eb18fde5d236a47e32604e7d50f1a4e7fd",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 9｜场景验证飞轮：审计、诊断、修订、分发、监测和复盘形成连续迭代",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 9｜场景验证飞轮：审计、诊断、修订、分发、监测和复盘形成连续迭代",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-067",
+      "type": "heading",
+      "text": "十一、适用边界、风险原则与行动建议",
+      "segments": [
+        {
+          "text": "十一、适用边界、风险原则与行动建议",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-068",
+      "type": "paragraph",
+      "text": "品牌 GEO 更适合事实基础完整、产品边界清晰、购买决策依赖信任并愿意长期维护公开资料的企业，尤其是 B2B、专业服务、SaaS、制造、出海和高客单价品牌；若企业缺少稳定产品、可验证案例或统一口径，或希望通过虚假评论、批量低质页面、隐藏文本和未授权数据影响模型答案，应先解决经营与合规问题，不宜启动规模化治理。",
+      "segments": [
+        {
+          "text": "品牌 GEO 更适合事实基础完整、产品边界清晰、购买决策依赖信任并愿意长期维护公开资料的企业，尤其是 B2B、专业服务、SaaS、制造、出海和高客单价品牌；若企业缺少稳定产品、可验证案例或统一口径，或希望通过虚假评论、批量低质页面、隐藏文本和未授权数据影响模型答案，应先解决经营与合规问题，不宜启动规模化治理。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-069",
+      "type": "paragraph",
+      "text": "项目启动前，管理层至少要确认五件事：问题集来自真实客户语言，品牌事实有唯一来源，关键表述有审核责任人，发布与监测有版本记录，错误信息有明确修正时限；随后再确定平台范围、采样频率、内容优先级和预算；治理效果应以趋势和闭环质量衡量，不以某一次回答或某个排名作为保证。",
+      "segments": [
+        {
+          "text": "项目启动前，管理层至少要确认五件事：问题集来自真实客户语言，品牌事实有唯一来源，关键表述有审核责任人，发布与监测有版本记录，错误信息有明确修正时限；随后再确定平台范围、采样频率、内容优先级和预算；治理效果应以趋势和闭环质量衡量，不以某一次回答或某个排名作为保证。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-070",
+      "type": "paragraph",
+      "text": "结语",
+      "segments": [
+        {
+          "text": "结语",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-071",
+      "type": "paragraph",
+      "text": "大模型正在改变用户发现品牌、比较方案和建立信任的路径，却没有改变商业传播的基本规律：事实可靠、表达清楚、来源可信、责任明确；品牌 GEO 的价值不是让模型记住更多广告，而是让重要事实被持续理解、交叉验证和及时更新；当证据链、流程和组织责任稳定下来，AI 答案入口才可能成为可经营的品牌资产。",
+      "segments": [
+        {
+          "text": "大模型正在改变用户发现品牌、比较方案和建立信任的路径，却没有改变商业传播的基本规律：事实可靠、表达清楚、来源可信、责任明确；品牌 GEO 的价值不是让模型记住更多广告，而是让重要事实被持续理解、交叉验证和及时更新；当证据链、流程和组织责任稳定下来，AI 答案入口才可能成为可经营的品牌资产。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-072",
+      "type": "paragraph",
+      "text": "如需开展 Mine GEO 品牌 AI 可见度基线审计，可围绕一个产品线和一组高价值问题先做小样本验证；访问灵宸智能官网 www.lingchen-ai.com，或致电 18621786899 预约演示与方案评估。",
+      "segments": [
+        {
+          "text": "如需开展 Mine GEO 品牌 AI 可见度基线审计，可围绕一个产品线和一组高价值问题先做小样本验证；访问灵宸智能官网 ",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "www.lingchen-ai.com",
+          "underline": true,
+          "color": "#254D7A",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "，或致电 18621786899 预约演示与方案评估。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 180,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 200,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#EEF5FB",
+        "leftBorder": {
+          "color": "#254D7A",
+          "sizeEighthPoints": 18,
+          "spacePoints": 7
+        },
+        "fontSizePt": 10.5
+      }
+    }
+  ]
+}

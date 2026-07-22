@@ -1,0 +1,1682 @@
+{
+  "slug": "results-oriented-ai-agent-acceptance-metrics",
+  "category": "行业洞察",
+  "displayTitle": "结果型 Agent 怎么验收：有效线索、实际回款、审核准确率与人效的指标体系",
+  "sourceTitle": "结果型 AI Agent 怎么验收",
+  "summary": "企业对 AI Agent 的验收正在从“功能是否齐全”转向“业务结果是否真实、可归因、可持续”；出海获客要看有效线索而不是名单数量，催收要看净新增回款而不是总到账，单证或合同审核要看业务结论准确率而不是单字段识别率，人效则要把复核、返工和异常接管一并计入；本文围绕定义、基线、结果、质量红线、归因与运营六个环节，给出可直接写进 POC、采购合同和经营看板的指标体系。",
+  "publishedAt": null,
+  "sourceDocx": "结果型_AI_Agent_验收指标体系.docx",
+  "sourceDocxSha256": "ca1f712507d918eb3bbc59d18ef1a55bcbe9209889f569aca814eb9753e9e926",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "结果型 AI Agent 怎么验收",
+      "segments": [
+        {
+          "text": "结果型 AI Agent 怎么验收",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 24.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "fontSizePt": 24.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "有效线索、实际回款、审核准确率与人效的指标体系",
+      "segments": [
+        {
+          "text": "有效线索、实际回款、审核准确率与人效的指标体系",
+          "bold": true,
+          "color": "#263445",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 280,
+        "bottomBorder": {
+          "color": "#3B82F6",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "abstract",
+      "text": "企业对 AI Agent 的验收正在从“功能是否齐全”转向“业务结果是否真实、可归因、可持续”；出海获客要看有效线索而不是名单数量，催收要看净新增回款而不是总到账，单证或合同审核要看业务结论准确率而不是单字段识别率，人效则要把复核、返工和异常接管一并计入；本文围绕定义、基线、结果、质量红线、归因与运营六个环节，给出可直接写进 POC、采购合同和经营看板的指标体系。",
+      "segments": [
+        {
+          "text": "企业对 AI Agent 的验收正在从“功能是否齐全”转向“业务结果是否真实、可归因、可持续”；出海获客要看有效线索而不是名单数量，催收要看净新增回款而不是总到账，单证或合同审核要看业务结论准确率而不是单字段识别率，人效则要把复核、返工和异常接管一并计入；本文围绕定义、基线、结果、质量红线、归因与运营六个环节，给出可直接写进 POC、采购合同和经营看板的指标体系。",
+          "color": "#263445",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 348,
+        "lineRule": "auto",
+        "leftTwips": 280,
+        "rightTwips": 200,
+        "alignment": "both",
+        "backgroundColor": "#EAF2FF",
+        "leftBorder": {
+          "color": "#3B82F6",
+          "sizeEighthPoints": 24,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.0
+      },
+      "leadLabel": "摘要",
+      "leadLabelSegments": [
+        {
+          "text": "摘要",
+          "bold": true,
+          "color": "#3B82F6",
+          "fontSizePt": 10.0
+        }
+      ],
+      "leadLabelLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 60,
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 40,
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "01  先锁定结果定义、观察周期和排除项，再讨论模型能力与演示效果",
+      "segments": [
+        {
+          "text": "01  先锁定结果定义、观察周期和排除项，再讨论模型能力与演示效果",
+          "bold": true,
+          "color": "#263445",
+          "fontSizePt": 9.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 20,
+        "lineTwips": 312,
+        "lineRule": "auto",
+        "leftTwips": 280,
+        "rightTwips": 200,
+        "backgroundColor": "#F4F7FA",
+        "leftBorder": {
+          "color": "#173B67",
+          "sizeEighthPoints": 10,
+          "spacePoints": 8
+        },
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "02  数量型结果必须与质量红线、人工复核和返工成本成对出现",
+      "segments": [
+        {
+          "text": "02  数量型结果必须与质量红线、人工复核和返工成本成对出现",
+          "color": "#263445",
+          "fontSizePt": 9.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 20,
+        "lineTwips": 312,
+        "lineRule": "auto",
+        "leftTwips": 280,
+        "rightTwips": 200,
+        "backgroundColor": "#F4F7FA",
+        "leftBorder": {
+          "color": "#173B67",
+          "sizeEighthPoints": 10,
+          "spacePoints": 8
+        },
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "03  无留痕、无基线、无归因的流程，不适合直接采用结果付费或全量自动执行",
+      "segments": [
+        {
+          "text": "03  无留痕、无基线、无归因的流程，不适合直接采用结果付费或全量自动执行",
+          "color": "#263445",
+          "fontSizePt": 9.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 140,
+        "lineTwips": 312,
+        "lineRule": "auto",
+        "leftTwips": 280,
+        "rightTwips": 200,
+        "backgroundColor": "#F4F7FA",
+        "leftBorder": {
+          "color": "#173B67",
+          "sizeEighthPoints": 10,
+          "spacePoints": 8
+        },
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "适用场景包括出海获客、批量催收、单证审核、合同审查、内容运营及其他具备明确输入、执行动作和结果回写的业务流程；关键词包括结果型 Agent 验收、AI POC、有效线索率、净新增回款、审核准确率、人效提升、质量红线与结果归因。",
+      "segments": [
+        {
+          "text": "适用场景包括出海获客、批量催收、单证审核、合同审查、内容运营及其他具备明确输入、执行动作和结果回写的业务流程；关键词包括结果型 Agent 验收、AI POC、有效线索率、净新增回款、审核准确率、人效提升、质量红线与结果归因。",
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 336,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "heading",
+      "text": "一、功能清单为什么会失真",
+      "segments": [
+        {
+          "text": "一、功能清单为什么会失真",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "功能清单仍然有价值，但它只能说明系统“能做什么”，无法证明系统“做成了什么”；能外呼不等于促成回款，能生成邮件不等于产生商机，能识别发票号也不等于发现跨单据不一致；当 Agent 开始替企业执行触达、协商、判断和复核动作，验收对象就必须从按钮、接口和流程节点，转向可被业务部门确认的结果。",
+      "segments": [
+        {
+          "text": "功能清单仍然有价值，但它只能说明系统“能做什么”，无法证明系统“做成了什么”；能外呼不等于促成回款，能生成邮件不等于产生商机，能识别发票号也不等于发现跨单据不一致；当 Agent 开始替企业执行触达、协商、判断和复核动作，验收对象就必须从按钮、接口和流程节点，转向可被业务部门确认的结果。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "结果验收的关键不在于把指标换成几个漂亮数字，而在于先把边界锁死：什么算结果，什么必须排除，质量下降到什么程度要暂停，结果如何追溯到具体样本、动作和版本；如果业务结果无法留痕，也没有稳定基线，项目应先补齐流程数字化与数据治理，再谈结果付费或规模化。",
+      "segments": [
+        {
+          "text": "结果验收的关键不在于把指标换成几个漂亮数字，而在于先把边界锁死：什么算结果，什么必须排除，质量下降到什么程度要暂停，结果如何追溯到具体样本、动作和版本；如果业务结果无法留痕，也没有稳定基线，项目应先补齐流程数字化与数据治理，再谈结果付费或规模化。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "6bc13881354a82c00d592a7b6ebb306ad51535ab55250bac16504f7f7f3f4f6d",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 1｜结果型 Agent 验收闭环：定义、基线、净结果、质量红线与持续运营缺一不可",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜结果型 Agent 验收闭环：定义、基线、净结果、质量红线与持续运营缺一不可",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "heading",
+      "text": "二、四类核心指标必须放进同一棵指标树",
+      "segments": [
+        {
+          "text": "二、四类核心指标必须放进同一棵指标树",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "四类核心指标看似分别对应销售、财务、风控和运营，实际应放在同一棵指标树里理解；有效线索回答“销售是否拿到了可行动对象”，实际回款回答“现金流是否因系统动作而净增加”，审核准确率回答“系统是否给出了可复核、可承担责任的业务结论”，人效提升回答“单位产出是否在全流程成本口径下真正改善”；任何一类指标脱离排除项和反向指标，都可能被数量增长掩盖。",
+      "segments": [
+        {
+          "text": "四类核心指标看似分别对应销售、财务、风控和运营，实际应放在同一棵指标树里理解；有效线索回答“销售是否拿到了可行动对象”，实际回款回答“现金流是否因系统动作而净增加”，审核准确率回答“系统是否给出了可复核、可承担责任的业务结论”，人效提升回答“单位产出是否在全流程成本口径下真正改善”；任何一类指标脱离排除项和反向指标，都可能被数量增长掩盖。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "验收定义至少要包含五个字段：统计对象、观察周期、结果公式、排除规则、质量约束；以有效线索为例，统计对象可以限定为某一市场和岗位，观察周期可以设为首次触达后的十四天，结果公式可以采用“符合 ICP 且出现明确业务信号的线索数 ÷ 可触达线索数”，排除自动回复、退订、无关咨询和重复联系人，同时用投诉率、退订率与 CRM 字段完整率约束质量。",
+      "segments": [
+        {
+          "text": "验收定义至少要包含五个字段：统计对象、观察周期、结果公式、排除规则、质量约束；以有效线索为例，统计对象可以限定为某一市场和岗位，观察周期可以设为首次触达后的十四天，结果公式可以采用“符合 ICP 且出现明确业务信号的线索数 ÷ 可触达线索数”，排除自动回复、退订、无关咨询和重复联系人，同时用投诉率、退订率与 CRM 字段完整率约束质量。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "同样的逻辑也适用于回款、审核和人效；只有把口径写到可以由两名不同人员独立复算，供应商、采购方和业务负责人才能围绕同一事实讨论；表中的公式不追求覆盖所有场景，而是提供一套可复用的起点，项目落地时还应根据行业、流程风险和数据成熟度补充阈值。",
+      "segments": [
+        {
+          "text": "同样的逻辑也适用于回款、审核和人效；只有把口径写到可以由两名不同人员独立复算，供应商、采购方和业务负责人才能围绕同一事实讨论；表中的公式不追求覆盖所有场景，而是提供一套可复用的起点，项目落地时还应根据行业、流程风险和数据成熟度补充阈值。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜四类核心验收指标的口径、排除项与质量约束",
+      "rows": [
+        [
+          "指标",
+          "验收定义与建议公式",
+          "必须排除",
+          "配套质量指标"
+        ],
+        [
+          "有效线索",
+          "符合 ICP、可触达、出现明确业务信号并有下一步动作；有效线索率 = 有效线索 ÷ 可触达线索",
+          "冷名单、无效邮箱、自动回复、退订、无关咨询、重复联系人",
+          "退订率、投诉率、负面回复、重复触达、CRM 字段完整率"
+        ],
+        [
+          "实际回款",
+          "指定债权池内由约定动作促成的净新增到账；净新增回款 = 试点回款 − 基线自然回款",
+          "自然回款、历史承诺、既有法务动作、人工独立追缴",
+          "误催率、投诉率、超频拦截、承诺履约率"
+        ],
+        [
+          "审核准确率",
+          "AI 业务结论与专家或最终结果一致；同时观察准确率、召回率、漏报率与严重度",
+          "只看字段识别、只测正常样本、忽略高风险漏报、没有仲裁样本",
+          "高风险召回、误报、漏报、人工复核时长、人工修改率"
+        ],
+        [
+          "人效提升",
+          "同等质量下人均产能或单位合格成本改善；净节省工时 = 原总工时 − 新人工工时 − 异常处理工时",
+          "只算 AI 生成量、忽略复核返工、用标准件代表全部样本",
+          "返工率、异常接管率、单位合格成本、员工与专家岗位负荷"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 1｜四类核心验收指标的口径、排除项与质量约束",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "heading",
+      "text": "三、有效线索：销售愿意接手，才算真正有效",
+      "segments": [
+        {
+          "text": "三、有效线索：销售愿意接手，才算真正有效",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "有效线索不是“找到一个公司名称”，也不是“收到一次回复”，而是销售愿意接手并能够继续推进的对象；较稳妥的定义通常包含四个条件：目标账户与 ICP 匹配，联系方式真实可用，联系人角色与业务议题相关，回复中出现可以安排下一步的信号；其中任一条件缺失，都只能算潜在线索或待培育对象，不能直接进入有效线索口径。",
+      "segments": [
+        {
+          "text": "有效线索不是“找到一个公司名称”，也不是“收到一次回复”，而是销售愿意接手并能够继续推进的对象；较稳妥的定义通常包含四个条件：目标账户与 ICP 匹配，联系方式真实可用，联系人角色与业务议题相关，回复中出现可以安排下一步的信号；其中任一条件缺失，都只能算潜在线索或待培育对象，不能直接进入有效线索口径。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "验收时应按漏斗逐层统计名单池、可触达、正向回复、明确需求和商机创建，并给每一层写清排除项；邮箱送达不代表联系人有效，礼貌性回复不等于有意向，“先发资料看看”也不能自动视为明确需求；只有对方给出预算、时间、决策角色、现有方案、具体痛点或会议意愿等可核验信息，才适合进入更高层级。",
+      "segments": [
+        {
+          "text": "验收时应按漏斗逐层统计名单池、可触达、正向回复、明确需求和商机创建，并给每一层写清排除项；邮箱送达不代表联系人有效，礼貌性回复不等于有意向，“先发资料看看”也不能自动视为明确需求；只有对方给出预算、时间、决策角色、现有方案、具体痛点或会议意愿等可核验信息，才适合进入更高层级。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "线索质量还要经得起时间检验；建议设置十四至三十天的观察窗，查看商机是否被销售接受、是否完成首次跟进、是否出现进一步沟通，同时监测重复触达、无效域名、退订、负面回复和字段缺失；以灵宸智能 Sales in 一类产品为例，ICP 建模、线索评分、客户调研、个性化触达和 CRM 回流应被视为同一条闭环，任何环节断开，前端线索数量都会失去经营意义。",
+      "segments": [
+        {
+          "text": "线索质量还要经得起时间检验；建议设置十四至三十天的观察窗，查看商机是否被销售接受、是否完成首次跟进、是否出现进一步沟通，同时监测重复触达、无效域名、退订、负面回复和字段缺失；以灵宸智能 Sales in 一类产品为例，ICP 建模、线索评分、客户调研、个性化触达和 CRM 回流应被视为同一条闭环，任何环节断开，前端线索数量都会失去经营意义。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "0efb89066fc72a82feb518e2dd44148db29a27e5f16a22975b9c2d4cc9c2d67d",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 2｜有效线索五层漏斗：从名单池到商机创建，每层都设置明确排除项",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜有效线索五层漏斗：从名单池到商机创建，每层都设置明确排除项",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "heading",
+      "text": "四、实际回款：到账是事实，贡献仍需归因",
+      "segments": [
+        {
+          "text": "四、实际回款：到账是事实，贡献仍需归因",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "实际回款最容易出现“数字正确、归因错误”的争议；财务系统确认到账只是第一步，验收还要说明这笔钱是否来自本次样本池、是否发生在约定观察期内、是否由 Agent 的触达或协商动作促成；自然到期支付、历史人工承诺、法务此前已经推进的案件，以及人工团队独立完成的追缴，都不应被直接计入系统贡献。",
+      "segments": [
+        {
+          "text": "实际回款最容易出现“数字正确、归因错误”的争议；财务系统确认到账只是第一步，验收还要说明这笔钱是否来自本次样本池、是否发生在约定观察期内、是否由 Agent 的触达或协商动作促成；自然到期支付、历史人工承诺、法务此前已经推进的案件，以及人工团队独立完成的追缴，都不应被直接计入系统贡献。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "比较清晰的做法，是把回款拆成 AI 首触回款、AI 协商承诺后回款、法律动作触发回款和人工接管后回款四类，并为不同路径设置不同权重；每笔回款应能追到债权编号、首次触达时间、承诺时间、承诺金额、实际到账时间、争议原因和人工介入记录；当同一客户经历多次动作时，还要提前约定最后触点、关键触点或加权归因规则，避免项目结束后再讨论“谁的功劳”。",
+      "segments": [
+        {
+          "text": "比较清晰的做法，是把回款拆成 AI 首触回款、AI 协商承诺后回款、法律动作触发回款和人工接管后回款四类，并为不同路径设置不同权重；每笔回款应能追到债权编号、首次触达时间、承诺时间、承诺金额、实际到账时间、争议原因和人工介入记录；当同一客户经历多次动作时，还要提前约定最后触点、关键触点或加权归因规则，避免项目结束后再讨论“谁的功劳”。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "核心指标不宜使用总回款，而应使用净新增回款，即试点样本在观察期内的实际回款，减去同账龄、同金额区间、同区域或同期对照组的自然回款；灵宸智能 Recov AI 所强调的回款监测、过程留痕和拒缴原因回写，价值就在于把财务结果还原成可复盘的运营链路；没有这些证据，到账只能证明钱进了账户，不能证明 Agent 创造了增量。",
+      "segments": [
+        {
+          "text": "核心指标不宜使用总回款，而应使用净新增回款，即试点样本在观察期内的实际回款，减去同账龄、同金额区间、同区域或同期对照组的自然回款；灵宸智能 Recov AI 所强调的回款监测、过程留痕和拒缴原因回写，价值就在于把财务结果还原成可复盘的运营链路；没有这些证据，到账只能证明钱进了账户，不能证明 Agent 创造了增量。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "bbb86b1ae7102d0bec0a5d5c729797b37ef12650fc8dfe21e52f42cd5b54c335",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 3｜实际回款归因证据链：从债权池冻结到到账确认，排除自然回款与历史动作",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜实际回款归因证据链：从债权池冻结到到账确认，排除自然回款与历史动作",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "heading",
+      "text": "五、审核准确率：从字段识别验到业务结论",
+      "segments": [
+        {
+          "text": "五、审核准确率：从字段识别验到业务结论",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "审核场景最常见的误判，是把识别准确率当成审核准确率；字段识别解决“看到了什么”，结构抽取解决“放到哪个字段”，规则判断解决“是否违反明确条件”，语义判断解决“上下文是否存在冲突”，最终业务结论才回答“这份单据、合同或材料能否通过”；前四层任何一处出错，都可能在最后一层放大成风险。",
+      "segments": [
+        {
+          "text": "审核场景最常见的误判，是把识别准确率当成审核准确率；字段识别解决“看到了什么”，结构抽取解决“放到哪个字段”，规则判断解决“是否违反明确条件”，语义判断解决“上下文是否存在冲突”，最终业务结论才回答“这份单据、合同或材料能否通过”；前四层任何一处出错，都可能在最后一层放大成风险。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "因此验收不能只报一个百分比，而要同时给出准确率、召回率、漏报率、误报率和严重度分布；对高风险不符点，漏报的代价通常远高于误报，指标权重应向召回倾斜；对低风险、重复性强的规则，则可以通过提高精确率减少人工复核；样本集还要覆盖正常件、边界件、历史错例和新增规则，避免只在容易样本上得到高分。",
+      "segments": [
+        {
+          "text": "因此验收不能只报一个百分比，而要同时给出准确率、召回率、漏报率、误报率和严重度分布；对高风险不符点，漏报的代价通常远高于误报，指标权重应向召回倾斜；对低风险、重复性强的规则，则可以通过提高精确率减少人工复核；样本集还要覆盖正常件、边界件、历史错例和新增规则，避免只在容易样本上得到高分。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "如果引用供应商披露数据，例如 DeepDoc 在公司口径或客户项目实测中给出的识别准确率 99%+、审核准确率 90%+、单笔审核分钟级，必须同时保留样本类型、规则范围、错误等级和人工复核方式；更可靠的做法是建立双人复核或仲裁机制，让 AI 结论、人工初审、专家终审和最终业务结果形成可追溯链路。",
+      "segments": [
+        {
+          "text": "如果引用供应商披露数据，例如 DeepDoc 在公司口径或客户项目实测中给出的识别准确率 99%+、审核准确率 90%+、单笔审核分钟级，必须同时保留样本类型、规则范围、错误等级和人工复核方式；更可靠的做法是建立双人复核或仲裁机制，让 AI 结论、人工初审、专家终审和最终业务结果形成可追溯链路。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "567ae7b217d3b2163fa2c60de57d72e41e60ff827b6e1942701612b9ae89e13f",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 4｜审核准确率五层结构：字段识别、结构抽取、规则判断、语义判断与业务结论",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜审核准确率五层结构：字段识别、结构抽取、规则判断、语义判断与业务结论",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "heading",
+      "text": "六、人效提升：看全流程成本，不看单纯产量",
+      "segments": [
+        {
+          "text": "六、人效提升：看全流程成本，不看单纯产量",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "人效提升也不能用“AI 生成了多少份内容”来替代；企业真正购买的是单位时间内稳定完成更多合格工作，或在同等产出下减少总成本；如果系统生成一百份报告，却需要人工逐份重写，表面产量上升，实际只是把工作从制作环节转移到了复核环节，甚至把压力转移给成本更高的专家岗位。",
+      "segments": [
+        {
+          "text": "人效提升也不能用“AI 生成了多少份内容”来替代；企业真正购买的是单位时间内稳定完成更多合格工作，或在同等产出下减少总成本；如果系统生成一百份报告，却需要人工逐份重写，表面产量上升，实际只是把工作从制作环节转移到了复核环节，甚至把压力转移给成本更高的专家岗位。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "建议同时观察人均处理量、单笔总耗时、人工复核时长、返工率、异常接管率和单位合格产出成本；净节省工时可以用“原流程总工时－新流程人工工时－新增异常处理工时”计算，单位成本则应把软件费用、接口费用、质检、合规与管理成本纳入；只有在质量不下降、风险可控的前提下，处理量上升才算有效人效。",
+      "segments": [
+        {
+          "text": "建议同时观察人均处理量、单笔总耗时、人工复核时长、返工率、异常接管率和单位合格产出成本；净节省工时可以用“原流程总工时－新流程人工工时－新增异常处理工时”计算，单位成本则应把软件费用、接口费用、质检、合规与管理成本纳入；只有在质量不下降、风险可控的前提下，处理量上升才算有效人效。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "paragraph",
+      "text": "比较时还要保证输入难度一致；新流程若只处理标准件、旧流程却承担全部复杂件，人效结论会被高估；更合理的办法是按复杂度分层，分别记录直通件、需复核件和需专家接管件的处理时间，再看整体结构是否改善；对内容营销或销售研究类 Agent，还应跟踪内容采用率、销售使用率和后续转化，否则“生成速度”仍然只是中间指标。",
+      "segments": [
+        {
+          "text": "比较时还要保证输入难度一致；新流程若只处理标准件、旧流程却承担全部复杂件，人效结论会被高估；更合理的办法是按复杂度分层，分别记录直通件、需复核件和需专家接管件的处理时间，再看整体结构是否改善；对内容营销或销售研究类 Agent，还应跟踪内容采用率、销售使用率和后续转化，否则“生成速度”仍然只是中间指标。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "c8ca51e99fa586bd00bb0561d94cca377931d72907c8565bf80c814d0eec9658",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 5｜人效提升的全流程成本口径：合格产出必须覆盖复核、返工、异常接管与合规成本",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜人效提升的全流程成本口径：合格产出必须覆盖复核、返工、异常接管与合规成本",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "heading",
+      "text": "七、基线决定提升是否可信",
+      "segments": [
+        {
+          "text": "七、基线决定提升是否可信",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-046",
+      "type": "paragraph",
+      "text": "定义完成后，基线决定所有“提升”是否可信；历史平均可以提供参考，却往往混入季节性、客户结构、策略变化和人员波动；试点样本如果本来就更容易成交或回款，系统会被高估，若全部是历史难案，又会被低估；验收设计应尽量让试点组与对照组在账龄、金额、地区、行业、客户规模、流程复杂度和时间窗口上保持可比。",
+      "segments": [
+        {
+          "text": "定义完成后，基线决定所有“提升”是否可信；历史平均可以提供参考，却往往混入季节性、客户结构、策略变化和人员波动；试点样本如果本来就更容易成交或回款，系统会被高估，若全部是历史难案，又会被低估；验收设计应尽量让试点组与对照组在账龄、金额、地区、行业、客户规模、流程复杂度和时间窗口上保持可比。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "paragraph",
+      "text": "条件允许时，优先采用同期随机对照；无法随机时，可以使用分层匹配，把样本按关键变量分组后再比较；数据量不足时，至少冻结试点范围，并选取相邻时期的同类历史样本作为基线；无论采用哪种方法，都要在项目开始前锁定样本池、观察期和排除规则，避免看到结果后再调整口径。",
+      "segments": [
+        {
+          "text": "条件允许时，优先采用同期随机对照；无法随机时，可以使用分层匹配，把样本按关键变量分组后再比较；数据量不足时，至少冻结试点范围，并选取相邻时期的同类历史样本作为基线；无论采用哪种方法，都要在项目开始前锁定样本池、观察期和排除规则，避免看到结果后再调整口径。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "样本量同样需要最低要求；数量过少时，一个大额回款或一次集中投诉就可能扭曲结论；采购方可以事先约定最低样本数、最低有效事件数和置信区间，或采用连续多周期观察来提高稳定性；基线不是统计装饰，而是结果付费、责任划分和放量决策的共同地基，没有它，所有提升都容易变成叙事。",
+      "segments": [
+        {
+          "text": "样本量同样需要最低要求；数量过少时，一个大额回款或一次集中投诉就可能扭曲结论；采购方可以事先约定最低样本数、最低有效事件数和置信区间，或采用连续多周期观察来提高稳定性；基线不是统计装饰，而是结果付费、责任划分和放量决策的共同地基，没有它，所有提升都容易变成叙事。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "7721f4fe872264d9f7948a31a54830ba72c87f27d335bcdaaea44d0414672249",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 6｜POC 基线设计四法：冻结范围、同期对照、样本分层与同类历史基线",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜POC 基线设计四法：冻结范围、同期对照、样本分层与同类历史基线",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "heading",
+      "text": "八、主指标必须配质量红线",
+      "segments": [
+        {
+          "text": "八、主指标必须配质量红线",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "paragraph",
+      "text": "每个主指标都应配一条或多条质量红线，用来防止系统通过牺牲长期价值换取短期数字；有效线索增长若伴随退订、投诉和重复触达上升，说明品牌资产正在被透支；回款提高若伴随误催、超频和争议升级，说明合规风险正在累积；审核效率提升若漏掉高风险不符点，哪怕平均准确率好看，也不应通过验收。",
+      "segments": [
+        {
+          "text": "每个主指标都应配一条或多条质量红线，用来防止系统通过牺牲长期价值换取短期数字；有效线索增长若伴随退订、投诉和重复触达上升，说明品牌资产正在被透支；回款提高若伴随误催、超频和争议升级，说明合规风险正在累积；审核效率提升若漏掉高风险不符点，哪怕平均准确率好看，也不应通过验收。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-053",
+      "type": "paragraph",
+      "text": "红线要在试点前写成可执行阈值，包括计算方式、监测频率、责任人和触发动作；一般质量波动可以进入观察期，连续超限需要策略调整，高风险事件则应立即暂停自动执行并转人工；对催收、合规审核等高风险场景，重大误催、敏感人群触达、关键风险漏报等指标可以设置一票否决，不能与主结果做简单加权抵消。",
+      "segments": [
+        {
+          "text": "红线要在试点前写成可执行阈值，包括计算方式、监测频率、责任人和触发动作；一般质量波动可以进入观察期，连续超限需要策略调整，高风险事件则应立即暂停自动执行并转人工；对催收、合规审核等高风险场景，重大误催、敏感人群触达、关键风险漏报等指标可以设置一票否决，不能与主结果做简单加权抵消。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "paragraph",
+      "text": "反向指标还要与主指标保持同一统计对象和同一时间窗；若线索率按周统计，投诉率却按月平均，红线就无法及时发现问题；若审核准确率只统计已复核样本，漏报却没有独立抽检，也会低估风险；正向结果与反向质量成对出现，才是结果型 Agent 可以进入生产环境的最低条件。",
+      "segments": [
+        {
+          "text": "反向指标还要与主指标保持同一统计对象和同一时间窗；若线索率按周统计，投诉率却按月平均，红线就无法及时发现问题；若审核准确率只统计已复核样本，漏报却没有独立抽检，也会低估风险；正向结果与反向质量成对出现，才是结果型 Agent 可以进入生产环境的最低条件。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "6e6f10a73d504b5a02c6481c9b8ca4484f9c4ba7f73c642848a89fc39b5e5ec7",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 7｜结果 × 质量红线矩阵：主结果证明价值，反向指标守住质量与合规",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 7｜结果 × 质量红线矩阵：主结果证明价值，反向指标守住质量与合规",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "heading",
+      "text": "九、把验收写进日常运营",
+      "segments": [
+        {
+          "text": "九、把验收写进日常运营",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-058",
+      "type": "paragraph",
+      "text": "POC 通过并不代表能力会长期稳定；客户名单会变化，市场反馈会变化，债权状态和规则库会更新，模型、提示词、知识库和外部接口也会迭代；只在项目结束时验一次，相当于用一张静态照片管理持续变化的数字团队，早期通过的指标很可能在三个月后失效。",
+      "segments": [
+        {
+          "text": "POC 通过并不代表能力会长期稳定；客户名单会变化，市场反馈会变化，债权状态和规则库会更新，模型、提示词、知识库和外部接口也会迭代；只在项目结束时验一次，相当于用一张静态照片管理持续变化的数字团队，早期通过的指标很可能在三个月后失效。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-059",
+      "type": "paragraph",
+      "text": "更实用的机制是建立日、周、月三层复盘；日度关注投诉、超频、系统错误、识别失败和异常接管，要求问题在明确时限内处置；周度复盘线索、回款、审核量、人均产能和复核负担，判断执行效率是否偏离；月度分析市场、话术、评分规则、内容版本和样本结构，决定加码、降级、暂停或重新训练。",
+      "segments": [
+        {
+          "text": "更实用的机制是建立日、周、月三层复盘；日度关注投诉、超频、系统错误、识别失败和异常接管，要求问题在明确时限内处置；周度复盘线索、回款、审核量、人均产能和复核负担，判断执行效率是否偏离；月度分析市场、话术、评分规则、内容版本和样本结构，决定加码、降级、暂停或重新训练。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-060",
+      "type": "paragraph",
+      "text": "每次调整都要留下版本记录，并与指标变化关联；供应商应提供看板、审计日志、策略变更说明和异常处理 SLA，业务方则负责及时回写结果、标注错例和确认归因；复盘结论若没有进入系统，验收就只会停留在报告里，无法形成持续改进的闭环。",
+      "segments": [
+        {
+          "text": "每次调整都要留下版本记录，并与指标变化关联；供应商应提供看板、审计日志、策略变更说明和异常处理 SLA，业务方则负责及时回写结果、标注错例和确认归因；复盘结论若没有进入系统，验收就只会停留在报告里，无法形成持续改进的闭环。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-08.png",
+      "sourceMedia": "/word/media/image8.png",
+      "sha256": "eab865ab540f83b431e5c3716c7763dd8ca2027fb3170203930f497449fafa1e",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 8｜日、周、月三层运营复盘：异常清点、效率复盘与策略调整形成闭环",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 8｜日、周、月三层运营复盘：异常清点、效率复盘与策略调整形成闭环",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "heading",
+      "text": "十、指标要有业务解释权",
+      "segments": [
+        {
+          "text": "十、指标要有业务解释权",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-064",
+      "type": "paragraph",
+      "text": "指标只有数字，没有业务解释权，很快就会失去管理价值；有效线索率提高，可能来自 ICP 更准、内容更合适，也可能只是市场需求阶段性上升；回款率提高，可能来自话术与协商策略，也可能只是样本账龄更短；审核准确率提高，可能来自规则库完善，也可能是本期样本更简单；管理者需要知道“为什么变好或变差”，才能判断下一步该投资哪里。",
+      "segments": [
+        {
+          "text": "指标只有数字，没有业务解释权，很快就会失去管理价值；有效线索率提高，可能来自 ICP 更准、内容更合适，也可能只是市场需求阶段性上升；回款率提高，可能来自话术与协商策略，也可能只是样本账龄更短；审核准确率提高，可能来自规则库完善，也可能是本期样本更简单；管理者需要知道“为什么变好或变差”，才能判断下一步该投资哪里。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-065",
+      "type": "paragraph",
+      "text": "因此每类指标都应配置归因字段；线索类至少记录市场、行业、岗位、渠道、内容版本和销售接手结果；回款类记录账龄、金额、争议类型、触达身份、承诺状态、法律动作和人工介入；审核类记录单证或合同类型、规则类别、风险等级、人工修改原因；人效类记录流程节点、复杂度、异常类型、复核时长和接管岗位。",
+      "segments": [
+        {
+          "text": "因此每类指标都应配置归因字段；线索类至少记录市场、行业、岗位、渠道、内容版本和销售接手结果；回款类记录账龄、金额、争议类型、触达身份、承诺状态、法律动作和人工介入；审核类记录单证或合同类型、规则类别、风险等级、人工修改原因；人效类记录流程节点、复杂度、异常类型、复核时长和接管岗位。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-066",
+      "type": "paragraph",
+      "text": "这些字段不仅用于分析，也用于组织协同；销售看到线索质量下降，可以追到 ICP 或内容版本；法务发现误催，可以追到债权事实和状态同步；审核团队发现漏报，可以追到抽取、规则或语义环节；一个指标能回到具体样本、具体动作和具体版本，才真正拥有业务解释权，而不是只有汇报价值。",
+      "segments": [
+        {
+          "text": "这些字段不仅用于分析，也用于组织协同；销售看到线索质量下降，可以追到 ICP 或内容版本；法务发现误催，可以追到债权事实和状态同步；审核团队发现漏报，可以追到抽取、规则或语义环节；一个指标能回到具体样本、具体动作和具体版本，才真正拥有业务解释权，而不是只有汇报价值。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-09.png",
+      "sourceMedia": "/word/media/image9.png",
+      "sha256": "661c4ee3899f4d032dc415f76057d786efcbf77f7937a6cef0e3c13f69914c19",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 9｜指标 × 归因字段地图：让结果下钻到样本、动作、版本与责任环节",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 9｜指标 × 归因字段地图：让结果下钻到样本、动作、版本与责任环节",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-069",
+      "type": "heading",
+      "text": "十一、验收表要能进入经营会",
+      "segments": [
+        {
+          "text": "十一、验收表要能进入经营会",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-070",
+      "type": "paragraph",
+      "text": "当验收表能进入经营会，AI 项目才从创新试点变成经营管理对象；管理层不需要讨论模型参数，却必须看懂四件事：主结果是否相对基线真实改善，质量红线是否守住，变化能否被归因，下一步是放量、观察、整改还是暂停；这四类信息应在同一页出现，避免业务、财务、法务和技术各拿一套口径。",
+      "segments": [
+        {
+          "text": "当验收表能进入经营会，AI 项目才从创新试点变成经营管理对象；管理层不需要讨论模型参数，却必须看懂四件事：主结果是否相对基线真实改善，质量红线是否守住，变化能否被归因，下一步是放量、观察、整改还是暂停；这四类信息应在同一页出现，避免业务、财务、法务和技术各拿一套口径。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-071",
+      "type": "paragraph",
+      "text": "经营会还要要求数字可追溯；一个回款提升应能下钻到债权池与触达记录，一个准确率应能下钻到抽检样本与人工修正，一个人效结论应能看到复核和返工成本；没有追溯，会议只能听汇报，有了追溯，管理层才能区分供应商能力、内部流程问题和样本结构变化。",
+      "segments": [
+        {
+          "text": "经营会还要要求数字可追溯；一个回款提升应能下钻到债权池与触达记录，一个准确率应能下钻到抽检样本与人工修正，一个人效结论应能看到复核和返工成本；没有追溯，会议只能听汇报，有了追溯，管理层才能区分供应商能力、内部流程问题和样本结构变化。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-072",
+      "type": "paragraph",
+      "text": "放量决策不宜只设“通过或不通过”两档；更成熟的做法是设置通过、观察、暂停三个状态：主指标达标且红线稳定，可以扩大样本；结果有改善但置信度不足，进入延长观察或补样本；任何重大质量红线触发，或结果无法复算、无法归因，应暂停自动执行；下表给出一套适合 POC 评审会直接使用的判定框架。",
+      "segments": [
+        {
+          "text": "放量决策不宜只设“通过或不通过”两档；更成熟的做法是设置通过、观察、暂停三个状态：主指标达标且红线稳定，可以扩大样本；结果有改善但置信度不足，进入延长观察或补样本；任何重大质量红线触发，或结果无法复算、无法归因，应暂停自动执行；下表给出一套适合 POC 评审会直接使用的判定框架。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜POC 验收与放量决策矩阵",
+      "rows": [
+        [
+          "判定环节",
+          "通过 / 放量",
+          "观察 / 补充",
+          "暂停 / 整改"
+        ],
+        [
+          "结果可信度",
+          "主指标超过基线，样本量充足，第三方可独立复算",
+          "结果有改善但波动较大，或有效事件数不足",
+          "无基线、无法复算、样本池或口径在中途变更"
+        ],
+        [
+          "质量与合规",
+          "红线稳定，高风险事件均被拦截并有人工作为兜底",
+          "轻微超限，已有明确修正动作与观察期限",
+          "重大误催、敏感对象错误触达、关键风险漏报等一票否决事件"
+        ],
+        [
+          "归因与追溯",
+          "结果可下钻到样本、动作、时间戳和版本",
+          "部分链路缺字段，但能在约定期限内补齐",
+          "总结果无法区分自然发生、历史动作与 Agent 贡献"
+        ],
+        [
+          "运营可持续性",
+          "日周月复盘、异常 SLA、错例回写与人工接管已稳定运行",
+          "看板或结果回写不完整，需要延长试点",
+          "没有持续监控、没有异常响应、版本变更不披露"
+        ],
+        [
+          "经营决策",
+          "扩大样本，或进入分阶段规模化",
+          "补样本、调整策略、延长观察周期",
+          "暂停自动执行，完成整改后重新验收"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 2｜POC 验收与放量决策矩阵",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-075",
+      "type": "heading",
+      "text": "十二、采购与合同：把定义、数据和边界写清楚",
+      "segments": [
+        {
+          "text": "十二、采购与合同：把定义、数据和边界写清楚",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-076",
+      "type": "paragraph",
+      "text": "采购与合同阶段必须把验收边界写得足够具体；至少应明确样本池如何冻结、基线如何选取、结果观察期多长、哪些事件计入或排除、数据质量由谁负责、人工复核时限是多少、异常和投诉怎样处理、供应商提供哪些审计记录，以及模型、规则和知识库版本变化如何披露；若采用结果付费，还要约定归因模型、退款或纠偏机制与争议仲裁方式。",
+      "segments": [
+        {
+          "text": "采购与合同阶段必须把验收边界写得足够具体；至少应明确样本池如何冻结、基线如何选取、结果观察期多长、哪些事件计入或排除、数据质量由谁负责、人工复核时限是多少、异常和投诉怎样处理、供应商提供哪些审计记录，以及模型、规则和知识库版本变化如何披露；若采用结果付费，还要约定归因模型、退款或纠偏机制与争议仲裁方式。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-077",
+      "type": "paragraph",
+      "text": "建议把规模化分成四道门；第一道是定义门，指标、公式和排除项已由业务与财务共同确认；第二道是数据门，关键动作与结果能在系统中留痕，样本和版本可追溯；第三道是质量门，主结果达标且红线未触发，高风险事件有人工接管；第四道是运营门，日周月复盘、错例回写和策略迭代已经跑通；四道门缺一项，都不宜直接从小样本跳到全量。",
+      "segments": [
+        {
+          "text": "建议把规模化分成四道门；第一道是定义门，指标、公式和排除项已由业务与财务共同确认；第二道是数据门，关键动作与结果能在系统中留痕，样本和版本可追溯；第三道是质量门，主结果达标且红线未触发，高风险事件有人工接管；第四道是运营门，日周月复盘、错例回写和策略迭代已经跑通；四道门缺一项，都不宜直接从小样本跳到全量。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-078",
+      "type": "paragraph",
+      "text": "以灵宸智能的业务型产品为例，Sales in 更适合用有效线索和商机推进验收，Recov AI 应以净新增回款和合规红线验收，DeepDoc 应以分层审核准确率、关键风险召回和复核耗时验收；产品能力可以不同，验收逻辑却应一致，即先验定义与数据，再验结果与质量，最后确认是否具备持续运营条件。",
+      "segments": [
+        {
+          "text": "以灵宸智能的业务型产品为例，Sales in 更适合用有效线索和商机推进验收，Recov AI 应以净新增回款和合规红线验收，DeepDoc 应以分层审核准确率、关键风险召回和复核耗时验收；产品能力可以不同，验收逻辑却应一致，即先验定义与数据，再验结果与质量，最后确认是否具备持续运营条件。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-10",
+      "type": "figure",
+      "src": "/images/research/results-oriented-ai-agent-acceptance-metrics/figure-10.png",
+      "sourceMedia": "/word/media/image10.png",
+      "sha256": "dd2e07fe6a47e23cd9697b7b0eb78d309595c39fe2a63c9aac726fcb3eb9e740",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 10｜从 POC 到规模化的四道门：定义、数据、质量与运营全部通过再放量",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 10｜从 POC 到规模化的四道门：定义、数据、质量与运营全部通过再放量",
+          "italic": true,
+          "color": "#6B7788",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-081",
+      "type": "heading",
+      "text": "结语：让 AI 从演示走向经营结果",
+      "segments": [
+        {
+          "text": "结语：让 AI 从演示走向经营结果",
+          "bold": true,
+          "color": "#173B67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "bottomBorder": {
+          "color": "#DCE5F0",
+          "sizeEighthPoints": 8,
+          "spacePoints": 5
+        },
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-082",
+      "type": "paragraph",
+      "text": "结果型 Agent 的成熟，不在于演示环节有多流畅，而在于它能否把业务结果稳定交付给销售、财务、法务和运营团队；企业可以从一个可控的小样本池开始，按“定义边界—建立基线—计算净结果—校验质量红线—完成归因—进入持续复盘”的顺序搭建验收表，让每一个数字都能被复算、被解释、被追溯。",
+      "segments": [
+        {
+          "text": "结果型 Agent 的成熟，不在于演示环节有多流畅，而在于它能否把业务结果稳定交付给销售、财务、法务和运营团队；企业可以从一个可控的小样本池开始，按“定义边界—建立基线—计算净结果—校验质量红线—完成归因—进入持续复盘”的顺序搭建验收表，让每一个数字都能被复算、被解释、被追溯。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-083",
+      "type": "paragraph",
+      "text": "当有效线索不再等同于名单数量，实际回款不再混入自然到账，审核准确率不再停留在字段识别，人效也不再忽略复核与返工，AI 才真正从功能工具变成经营资产；采购方越早把这些规则写进 POC 和合同，供应商越能把能力投入到真实结果，而不是把精力放在演示和口径博弈上。",
+      "segments": [
+        {
+          "text": "当有效线索不再等同于名单数量，实际回款不再混入自然到账，审核准确率不再停留在字段识别，人效也不再忽略复核与返工，AI 才真正从功能工具变成经营资产；采购方越早把这些规则写进 POC 和合同，供应商越能把能力投入到真实结果，而不是把精力放在演示和口径博弈上。",
+          "color": "#263445",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    }
+  ]
+}

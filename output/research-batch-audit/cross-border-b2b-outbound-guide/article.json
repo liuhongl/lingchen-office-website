@@ -1,0 +1,1795 @@
+{
+  "slug": "cross-border-b2b-outbound-guide",
+  "category": "解决方案&白皮书",
+  "displayTitle": null,
+  "sourceTitle": "跨境 B2B 主动开发落地指南",
+  "summary": "跨境 B2B 主动开发的难点，从来不是“哪里还能买到更多名单”，而是如何在销售时间有限、市场信息分散、客户决策链较长的条件下，更早判断哪些账户值得投入、为什么值得投入，以及下一步应该由系统继续处理还是由销售接管；Sales in 在本文中被视为承载这一流程的工作平台，重点不是替代销售判断，而是把 ICP 建模、线索证据、客户洞察、个性化触达和 CRM 回流连接成可复盘的作业链路。",
+  "publishedAt": null,
+  "sourceDocx": "跨境B2B主动开发落地指南.docx",
+  "sourceDocxSha256": "811c9d42a916620fde19dfcadd271a46df7eb90d2d71dedc2451993e7baedc6b",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "跨境 B2B 主动开发落地指南",
+      "segments": [
+        {
+          "text": "跨境 B2B 主动开发落地指南",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 24.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 40,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 24.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "从 ICP 建模、线索证据到 POC 五维验收",
+      "segments": [
+        {
+          "text": "从 ICP 建模、线索证据到 POC 五维验收",
+          "bold": true,
+          "color": "#2B557F",
+          "fontSizePt": 17.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 17.5
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "deck",
+      "text": "Sales in｜销售、BD、市场与管理层适用",
+      "segments": [
+        {
+          "text": "Sales in｜销售、BD、市场与管理层适用",
+          "color": "#6B7785",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 260,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "abstract",
+      "text": "跨境 B2B 主动开发的难点，从来不是“哪里还能买到更多名单”，而是如何在销售时间有限、市场信息分散、客户决策链较长的条件下，更早判断哪些账户值得投入、为什么值得投入，以及下一步应该由系统继续处理还是由销售接管；Sales in 在本文中被视为承载这一流程的工作平台，重点不是替代销售判断，而是把 ICP 建模、线索证据、客户洞察、个性化触达和 CRM 回流连接成可复盘的作业链路。",
+      "segments": [
+        {
+          "text": "跨境 B2B 主动开发的难点，从来不是“哪里还能买到更多名单”，而是如何在销售时间有限、市场信息分散、客户决策链较长的条件下，更早判断哪些账户值得投入、为什么值得投入，以及下一步应该由系统继续处理还是由销售接管；Sales in 在本文中被视为承载这一流程的工作平台，重点不是替代销售判断，而是把 ICP 建模、线索证据、客户洞察、个性化触达和 CRM 回流连接成可复盘的作业链路。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 200,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#EEF5FB",
+        "leftBorder": {
+          "color": "#2B557F",
+          "sizeEighthPoints": 18,
+          "spacePoints": 7
+        },
+        "fontSizePt": 10.5
+      },
+      "leadLabel": "摘要",
+      "leadLabelSegments": [
+        {
+          "text": "摘要",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 11.5
+        }
+      ],
+      "leadLabelLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "本指南面向外贸制造、跨境 SaaS、专业服务和其他高客单价 B2B 团队，给出从业务输入到 POC 验收的完整方法；文中的指标阈值应在项目启动前结合行业周期、销售产能和目标市场规则单独确认，任何示意数据都不应被改写为通用承诺，投诉、报价、合同、交期、法律与最终商业判断始终由人负责。",
+      "segments": [
+        {
+          "text": "本指南面向外贸制造、跨境 SaaS、专业服务和其他高客单价 B2B 团队，给出从业务输入到 POC 验收的完整方法；文中的指标阈值应在项目启动前结合行业周期、销售产能和目标市场规则单独确认，任何示意数据都不应被改写为通用承诺，投诉、报价、合同、交期、法律与最终商业判断始终由人负责。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "keywords",
+      "text": "关键词：跨境 B2B 主动开发、ICP 建模、线索证据、线索评分、客户洞察、个性化触达、CRM 回流、POC 五维验收",
+      "segments": [
+        {
+          "text": "关键词：",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 9.0
+        },
+        {
+          "text": "跨境 B2B 主动开发、ICP 建模、线索证据、线索评分、客户洞察、个性化触达、CRM 回流、POC 五维验收",
+          "color": "#536273",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "firstLineTwips": 0,
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "核心判断：主动开发应先把目标客户边界、证据来源、人工复核点和回写字段写清楚，再讨论自动化范围；一个环节如果不能说明输入来自哪里、输出由谁使用、异常如何停止、结果怎样回到下一轮规则，就还没有形成可规模化的方法。",
+      "segments": [
+        {
+          "text": "核心判断：主动开发应先把目标客户边界、证据来源、人工复核点和回写字段写清楚，再讨论自动化范围；一个环节如果不能说明输入来自哪里、输出由谁使用、异常如何停止、结果怎样回到下一轮规则，就还没有形成可规模化的方法。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 200,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#F5F7FA",
+        "leftBorder": {
+          "color": "#2B557F",
+          "sizeEighthPoints": 18,
+          "spacePoints": 7
+        },
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "9045459bf908ec814a9d665158b77fdd4dcf420eb8dcc2ab9c2785369b12625b",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 1｜跨境 B2B 主动开发主链路：ICP、线索证据、客户洞察、触达编排与 CRM 回流构成闭环",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜跨境 B2B 主动开发主链路：ICP、线索证据、客户洞察、触达编排与 CRM 回流构成闭环",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "heading",
+      "text": "一、先把目标从“发得更多”改成“判断得更早”",
+      "segments": [
+        {
+          "text": "一、先把目标从“发得更多”改成“判断得更早”",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "不少团队每天都在搜索官网、整理展会名录、查看 LinkedIn、补联系人、写开发信，动作看起来很饱和，管理者却很难回答三个基本问题：线索为什么进入销售队列，哪些信息真正影响了回复，未转化究竟是市场、画像、内容还是节奏出了问题；当这些问题只能依靠个人印象回答时，名单越大，销售越容易被低匹配账户拖住，优秀销售的方法也很难沉淀为组织能力。",
+      "segments": [
+        {
+          "text": "不少团队每天都在搜索官网、整理展会名录、查看 LinkedIn、补联系人、写开发信，动作看起来很饱和，管理者却很难回答三个基本问题：线索为什么进入销售队列，哪些信息真正影响了回复，未转化究竟是市场、画像、内容还是节奏出了问题；当这些问题只能依靠个人印象回答时，名单越大，销售越容易被低匹配账户拖住，优秀销售的方法也很难沉淀为组织能力。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "更稳妥的目标，是在触达之前完成一次有证据的资源分配：先判断账户是否符合服务边界，再确认当前是否存在值得跟进的业务信号，随后把信号转成销售可以验证的会话假设，最后用回复、会议、拒绝和丢单原因校准下一轮规则；这样一来，团队衡量的就不再是发送量，而是高质量判断的数量、判断依据的完整度，以及销售时间是否集中到了更有可能产生商机的客户。",
+      "segments": [
+        {
+          "text": "更稳妥的目标，是在触达之前完成一次有证据的资源分配：先判断账户是否符合服务边界，再确认当前是否存在值得跟进的业务信号，随后把信号转成销售可以验证的会话假设，最后用回复、会议、拒绝和丢单原因校准下一轮规则；这样一来，团队衡量的就不再是发送量，而是高质量判断的数量、判断依据的完整度，以及销售时间是否集中到了更有可能产生商机的客户。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "流程重做后，管理者需要看到的不只是最终商机，还包括每个阶段的库存与损耗：多少账户因硬门槛被排除，多少账户缺少可信证据，多少洞察被销售判定为不可用，哪些触达版本更容易开启有效会话；这些中间数据能帮助团队及时停掉错误方向，而不是等到季度末才发现大量动作没有产生业务价值。",
+      "segments": [
+        {
+          "text": "流程重做后，管理者需要看到的不只是最终商机，还包括每个阶段的库存与损耗：多少账户因硬门槛被排除，多少账户缺少可信证据，多少洞察被销售判定为不可用，哪些触达版本更容易开启有效会话；这些中间数据能帮助团队及时停掉错误方向，而不是等到季度末才发现大量动作没有产生业务价值。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "8655aceb4f34b16acf9bf28fc675779bd5a9d8f23d94dc17a540b80addaeeafc",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 2｜主动开发的四个常见断点：方向、数据、内容与管理问题会相互放大",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜主动开发的四个常见断点：方向、数据、内容与管理问题会相互放大",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "heading",
+      "text": "二、ICP 不是客户简介，而是可执行的决策规则",
+      "segments": [
+        {
+          "text": "二、ICP 不是客户简介，而是可执行的决策规则",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "ICP（Ideal Customer Profile，理想客户画像）描述的是“什么样的企业值得优先投入”，它与联系人画像并不相同；联系人画像回答应该找采购、业务负责人、技术负责人还是管理层，ICP 则要先回答国家、行业、规模、产品适配、交付条件、采购复杂度和合作模式是否成立，只有账户层面的条件通过，寻找具体联系人和设计触达内容才有意义。",
+      "segments": [
+        {
+          "text": "ICP（Ideal Customer Profile，理想客户画像）描述的是“什么样的企业值得优先投入”，它与联系人画像并不相同；联系人画像回答应该找采购、业务负责人、技术负责人还是管理层，ICP 则要先回答国家、行业、规模、产品适配、交付条件、采购复杂度和合作模式是否成立，只有账户层面的条件通过，寻找具体联系人和设计触达内容才有意义。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "一套可执行的 ICP 至少包含四类规则：硬门槛用于筛掉不在目标区域、无法满足最低交付条件或产品明显不适配的账户；评分因子用于比较行业匹配、规模、技术环境和潜在价值；动态信号用于判断现在是否值得接触；负向排除则处理竞品独家绑定、重复客户、信用风险、已有代理覆盖和合规限制，表 1 给出可以直接用于启动会的字段结构与校验方式。",
+      "segments": [
+        {
+          "text": "一套可执行的 ICP 至少包含四类规则：硬门槛用于筛掉不在目标区域、无法满足最低交付条件或产品明显不适配的账户；评分因子用于比较行业匹配、规模、技术环境和潜在价值；动态信号用于判断现在是否值得接触；负向排除则处理竞品独家绑定、重复客户、信用风险、已有代理覆盖和合规限制，表 1 给出可以直接用于启动会的字段结构与校验方式。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "ICP 还需要明确治理责任：管理层确认战略范围，销售提供成交与丢单经验，交付团队判断服务边界，市场或数据团队维护证据口径；若某个字段没有责任人，或者不同部门对同一概念使用不同定义，系统即使能够计算分数，也只是在放大组织分歧，因此启动会的重点不是把字段填满，而是形成一份各方愿意共同执行的版本。",
+      "segments": [
+        {
+          "text": "ICP 还需要明确治理责任：管理层确认战略范围，销售提供成交与丢单经验，交付团队判断服务边界，市场或数据团队维护证据口径；若某个字段没有责任人，或者不同部门对同一概念使用不同定义，系统即使能够计算分数，也只是在放大组织分歧，因此启动会的重点不是把字段填满，而是形成一份各方愿意共同执行的版本。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜可执行 ICP 的字段、证据与决策用途",
+      "rows": [
+        [
+          "维度",
+          "典型字段",
+          "证据与校验",
+          "决策用途"
+        ],
+        [
+          "市场与行业",
+          "目标国家、行业细分、客户类型、语言与时区",
+          "市场资料、企业官网、行业目录；由业务负责人确认范围",
+          "决定是否进入目标账户池"
+        ],
+        [
+          "企业适配",
+          "规模、收入或产能、技术环境、采购复杂度、交付条件",
+          "官网、年报或公开资料、技术页面、销售历史；抽样复核",
+          "判断产品与服务是否匹配"
+        ],
+        [
+          "动态信号",
+          "扩产、招聘、融资、招标、新品、渠道或管理变化",
+          "带日期的公开信息；标注事实、推断与有效期",
+          "判断现在是否值得优先接触"
+        ],
+        [
+          "可触达性",
+          "关键角色、有效邮箱、电话、LinkedIn 与其他公开渠道",
+          "岗位与在职状态校验；记录验证时间和来源",
+          "评估能否建立有效会话"
+        ],
+        [
+          "负向排除",
+          "已有客户、竞品独家绑定、售后不可达、信用或合规风险",
+          "CRM、渠道记录、人工核验与目标市场规则",
+          "避免无效投入与高风险触达"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 1｜可执行 ICP 的字段、证据与决策用途",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "heading",
+      "text": "三、先用成交与丢单样本校准，再扩充线索池",
+      "segments": [
+        {
+          "text": "三、先用成交与丢单样本校准，再扩充线索池",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "ICP 不应只由管理层凭经验写成一页描述，更有效的做法，是抽取一组真实成交客户、长期停滞客户和明确丢单客户，逐项比较它们在行业、规模、采购触发、决策结构、交付难度和竞争关系上的差异；样本数量不必一开始追求很大，但要覆盖不同国家、产品线和销售阶段，并明确哪些判断来自事实，哪些只是销售假设，避免把某个大客户的偶然特征误写成普遍规律。",
+      "segments": [
+        {
+          "text": "ICP 不应只由管理层凭经验写成一页描述，更有效的做法，是抽取一组真实成交客户、长期停滞客户和明确丢单客户，逐项比较它们在行业、规模、采购触发、决策结构、交付难度和竞争关系上的差异；样本数量不必一开始追求很大，但要覆盖不同国家、产品线和销售阶段，并明确哪些判断来自事实，哪些只是销售假设，避免把某个大客户的偶然特征误写成普遍规律。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "校准时先看硬排除是否准确，再看评分排序能否把销售公认的高价值账户推到前列；对于误判账户，不要只调高或调低一个总分，而要记录误判类型、触发字段和修订理由，例如“行业符合但售后不可达”“规模较小但近期有明确扩产信号”“联系人有效但账户已被独家绑定”，每次调整都保留版本与生效时间，后续才能判断规则改动带来了什么影响。",
+      "segments": [
+        {
+          "text": "校准时先看硬排除是否准确，再看评分排序能否把销售公认的高价值账户推到前列；对于误判账户，不要只调高或调低一个总分，而要记录误判类型、触发字段和修订理由，例如“行业符合但售后不可达”“规模较小但近期有明确扩产信号”“联系人有效但账户已被独家绑定”，每次调整都保留版本与生效时间，后续才能判断规则改动带来了什么影响。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "样本校准还要防止“只看成功客户”的幸存者偏差；已经成交的客户往往资料更完整、互动更多，若直接把这些特征当作入选条件，新市场中的潜力账户可能在早期就被排除，因此应同时保留一组未成交但被销售认为值得跟进的账户作为观察样本，并用后续互动验证哪些特征具有真正的区分度。",
+      "segments": [
+        {
+          "text": "样本校准还要防止“只看成功客户”的幸存者偏差；已经成交的客户往往资料更完整、互动更多，若直接把这些特征当作入选条件，新市场中的潜力账户可能在早期就被排除，因此应同时保留一组未成交但被销售认为值得跟进的账户作为观察样本，并用后续互动验证哪些特征具有真正的区分度。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "b7daf0f90a1603c29bc6471d93c9141f5c95963e99d78cce399edd4c16fd441b",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 3｜可执行 ICP 的四层结构：硬门槛、评分因子、动态信号与负向排除共同工作",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜可执行 ICP 的四层结构：硬门槛、评分因子、动态信号与负向排除共同工作",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "heading",
+      "text": "四、线索发现的核心不是渠道数量，而是证据链",
+      "segments": [
+        {
+          "text": "四、线索发现的核心不是渠道数量，而是证据链",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "跨境线索可以来自企业官网、行业目录、展会与协会资料、公开新闻、招聘页面、合作伙伴信息以及企业自有 CRM，但“来源多”并不等于“信息可靠”；同一家企业可能存在多个域名、旧品牌、不同语言名称和重复联系人，岗位名称也会因市场而异，因此发现阶段必须同步处理实体归一、去重、字段纠错、采集时间和来源授权，避免把过期名单包装成新的高意向客户。",
+      "segments": [
+        {
+          "text": "跨境线索可以来自企业官网、行业目录、展会与协会资料、公开新闻、招聘页面、合作伙伴信息以及企业自有 CRM，但“来源多”并不等于“信息可靠”；同一家企业可能存在多个域名、旧品牌、不同语言名称和重复联系人，岗位名称也会因市场而异，因此发现阶段必须同步处理实体归一、去重、字段纠错、采集时间和来源授权，避免把过期名单包装成新的高意向客户。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "进入销售队列的每条关键字段都应能够回看：公司规模从哪里获得，采购或扩产信号是什么时候出现，联系人身份是否仍然有效，某个结论是公开事实还是系统推断；对于无法核实的字段，可以保留为待确认项，但不应以确定语气进入开发信或销售话术，只有来源链接、时间戳、处理动作和置信度同时留痕，数据才真正具备复核和迭代价值。",
+      "segments": [
+        {
+          "text": "进入销售队列的每条关键字段都应能够回看：公司规模从哪里获得，采购或扩产信号是什么时候出现，联系人身份是否仍然有效，某个结论是公开事实还是系统推断；对于无法核实的字段，可以保留为待确认项，但不应以确定语气进入开发信或销售话术，只有来源链接、时间戳、处理动作和置信度同时留痕，数据才真正具备复核和迭代价值。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "数据新鲜度也要按字段管理，而不是给整条线索统一贴一个日期；企业所在行业和官网域名相对稳定，联系人岗位、邮箱有效性、招聘与采购信号却可能在数周内变化，系统应为不同字段设置复核周期，并在发送前优先校验会直接影响沟通的内容，过期字段可以保留历史，但不能继续作为“当前意向”的证据。",
+      "segments": [
+        {
+          "text": "数据新鲜度也要按字段管理，而不是给整条线索统一贴一个日期；企业所在行业和官网域名相对稳定，联系人岗位、邮箱有效性、招聘与采购信号却可能在数周内变化，系统应为不同字段设置复核周期，并在发送前优先校验会直接影响沟通的内容，过期字段可以保留历史，但不能继续作为“当前意向”的证据。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "8ffc08e396732c44e399c839ae208ddf1cba1bb766c8120c5f59ecea0d05ef52",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 4｜从数据来源到销售可用线索的证据链：每个字段都应保留来源、时间与处理记录",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜从数据来源到销售可用线索的证据链：每个字段都应保留来源、时间与处理记录",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "heading",
+      "text": "五、线索评分要能解释，不要制造一个神秘总分",
+      "segments": [
+        {
+          "text": "五、线索评分要能解释，不要制造一个神秘总分",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "线索评分的作用是帮助销售排序，不是给客户贴上不可质疑的标签；更实用的结构通常由基础匹配、时机信号、可触达性和风险扣分组成，基础匹配回答账户是否适合，时机信号判断是否出现采购窗口，可触达性衡量能否找到合适角色并建立联系，风险扣分则把重复、过期、竞品绑定、合规与信用问题显式放进模型，四部分共同决定优先级。",
+      "segments": [
+        {
+          "text": "线索评分的作用是帮助销售排序，不是给客户贴上不可质疑的标签；更实用的结构通常由基础匹配、时机信号、可触达性和风险扣分组成，基础匹配回答账户是否适合，时机信号判断是否出现采购窗口，可触达性衡量能否找到合适角色并建立联系，风险扣分则把重复、过期、竞品绑定、合规与信用问题显式放进模型，四部分共同决定优先级。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "权重没有行业通用答案，应根据销售承接能力和 POC 样本持续校准；每周可以抽验高、中、低三个分段的账户，比较人工判断、实际回复和商机推进情况，若高分账户频繁因同一原因被销售否决，就回到该字段的定义与证据，而不是简单把阈值调得更宽；最终输出除总分外，还应包含命中规则、触发信号、扣分原因、原始证据和建议下一步，使销售能够理解并质询模型。",
+      "segments": [
+        {
+          "text": "权重没有行业通用答案，应根据销售承接能力和 POC 样本持续校准；每周可以抽验高、中、低三个分段的账户，比较人工判断、实际回复和商机推进情况，若高分账户频繁因同一原因被销售否决，就回到该字段的定义与证据，而不是简单把阈值调得更宽；最终输出除总分外，还应包含命中规则、触发信号、扣分原因、原始证据和建议下一步，使销售能够理解并质询模型。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "评分结果最好与销售产能绑定成分层动作，而不是简单划一条及格线；最高优先级账户可以进入人工深度研究，中间分段采用半自动洞察与抽样审核，低分账户只保留监测或等待新信号，风险账户直接停止；分层后的处理成本、回复质量和人工占用应一并记录，只有排序改善且单位销售时间得到更合理使用，评分才算真正有效。",
+      "segments": [
+        {
+          "text": "评分结果最好与销售产能绑定成分层动作，而不是简单划一条及格线；最高优先级账户可以进入人工深度研究，中间分段采用半自动洞察与抽样审核，低分账户只保留监测或等待新信号，风险账户直接停止；分层后的处理成本、回复质量和人工占用应一并记录，只有排序改善且单位销售时间得到更合理使用，评分才算真正有效。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "1bb566b48ac5a98cd3414921f4aa0f26e134b7972873a30c2b248d8e562ea5eb",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 5｜可解释的线索评分：基础匹配、时机信号、可触达性与风险扣分共同决定优先级",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜可解释的线索评分：基础匹配、时机信号、可触达性与风险扣分共同决定优先级",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "heading",
+      "text": "六、客户洞察要帮助销售提出一个好问题",
+      "segments": [
+        {
+          "text": "六、客户洞察要帮助销售提出一个好问题",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "客户洞察不是把官网“关于我们”重新压缩一遍，也不是罗列越多新闻越显得专业；它应从账户当前公开动作出发，解释这些动作可能对应什么业务目标，再结合自身产品能力形成一个可验证的价值切口，例如扩产是否带来供应商协同压力、新市场进入是否需要本地服务伙伴、技术团队扩张是否意味着系统集成需求，真正有用的洞察会让销售知道为什么此刻联系，而不是只知道对方是谁。",
+      "segments": [
+        {
+          "text": "客户洞察不是把官网“关于我们”重新压缩一遍，也不是罗列越多新闻越显得专业；它应从账户当前公开动作出发，解释这些动作可能对应什么业务目标，再结合自身产品能力形成一个可验证的价值切口，例如扩产是否带来供应商协同压力、新市场进入是否需要本地服务伙伴、技术团队扩张是否意味着系统集成需求，真正有用的洞察会让销售知道为什么此刻联系，而不是只知道对方是谁。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "洞察卡中应把事实、推断和待确认项分开标注，每条关键事实附来源与日期，推断部分说明依据和不确定性，最后给出一个适合开启对话的问题；销售拿到内容后仍需结合地区文化、过往互动和产品边界做判断，若信号与客户业务无关，或价值切口必须依赖无法证明的假设，就应放弃强行个性化，回到更稳妥的行业问题或暂停触达。",
+      "segments": [
+        {
+          "text": "洞察卡中应把事实、推断和待确认项分开标注，每条关键事实附来源与日期，推断部分说明依据和不确定性，最后给出一个适合开启对话的问题；销售拿到内容后仍需结合地区文化、过往互动和产品边界做判断，若信号与客户业务无关，或价值切口必须依赖无法证明的假设，就应放弃强行个性化，回到更稳妥的行业问题或暂停触达。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "paragraph",
+      "text": "洞察深度应与账户价值和信号强度相匹配；对普通账户，确认基本事实、角色和一个相关切口即可，对高价值账户则可进一步梳理业务链、地区布局、合作伙伴、技术环境和潜在反对意见，但任何深度研究都要有停止条件，若新增信息不能改变优先级、会话问题或下一步动作，就不值得继续投入。",
+      "segments": [
+        {
+          "text": "洞察深度应与账户价值和信号强度相匹配；对普通账户，确认基本事实、角色和一个相关切口即可，对高价值账户则可进一步梳理业务链、地区布局、合作伙伴、技术环境和潜在反对意见，但任何深度研究都要有停止条件，若新增信息不能改变优先级、会话问题或下一步动作，就不值得继续投入。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "0e09ffe7944eabb2a7c52d422e21095578cfa9d434b74bb38206798d75b9bd55",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 6｜客户洞察卡：把公开信号转成业务假设、价值切口、证据链接与下一步问题",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜客户洞察卡：把公开信号转成业务假设、价值切口、证据链接与下一步问题",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "heading",
+      "text": "七、个性化触达不是把公司名填进模板",
+      "segments": [
+        {
+          "text": "七、个性化触达不是把公司名填进模板",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "有效的个性化至少包含三层：第一层是对象准确，邮件发给与议题相关的角色；第二层是语境准确，开场引用的信号与客户当前业务有关；第三层是价值准确，提出的下一步与对方决策阶段匹配，而不是一上来要求长时间演示；企业名称、岗位和国家只是变量替换，不能替代对业务背景的理解，模板越统一，越需要把“为什么是这家公司、为什么是现在”写清楚。",
+      "segments": [
+        {
+          "text": "有效的个性化至少包含三层：第一层是对象准确，邮件发给与议题相关的角色；第二层是语境准确，开场引用的信号与客户当前业务有关；第三层是价值准确，提出的下一步与对方决策阶段匹配，而不是一上来要求长时间演示；企业名称、岗位和国家只是变量替换，不能替代对业务背景的理解，模板越统一，越需要把“为什么是这家公司、为什么是现在”写清楚。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-050",
+      "type": "paragraph",
+      "text": "多触点节奏也不等于在所有渠道重复同一段话，更合理的做法是让邮件、LinkedIn、电话和人工跟进承担不同任务，并设置清楚的间隔、停止和接管条件；负面回复、退订、敏感身份、高价值意向或涉及价格与合同的问题出现时，自动节奏应立即暂停，转由销售判断，长期没有新信号的账户则进入低频培育，避免机械循环损害品牌与域名信誉。",
+      "segments": [
+        {
+          "text": "多触点节奏也不等于在所有渠道重复同一段话，更合理的做法是让邮件、LinkedIn、电话和人工跟进承担不同任务，并设置清楚的间隔、停止和接管条件；负面回复、退订、敏感身份、高价值意向或涉及价格与合同的问题出现时，自动节奏应立即暂停，转由销售判断，长期没有新信号的账户则进入低频培育，避免机械循环损害品牌与域名信誉。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "paragraph",
+      "text": "触达内容还应保持版本管理，同一批账户使用的主题、开场、证据材料和行动建议要能够追溯，销售临时修改也应留下原因；这样复盘时才能区分是客户群不同、内容版本不同还是发送环境不同，避免把某位销售的个人表达误认为系统策略，也便于在某个表述引发争议时迅速定位和停用。",
+      "segments": [
+        {
+          "text": "触达内容还应保持版本管理，同一批账户使用的主题、开场、证据材料和行动建议要能够追溯，销售临时修改也应留下原因；这样复盘时才能区分是客户群不同、内容版本不同还是发送环境不同，避免把某位销售的个人表达误认为系统策略，也便于在某个表述引发争议时迅速定位和停用。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "5608a1c4c6bbe9f0658dcd0414ae36575d8b3fd3956314cf0cfe14f507f0828e",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 7｜多触点触达节奏：不同渠道承担不同任务，高风险或高价值互动及时转人工",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 7｜多触点触达节奏：不同渠道承担不同任务，高风险或高价值互动及时转人工",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "heading",
+      "text": "八、CRM 回流决定方法能否变成组织能力",
+      "segments": [
+        {
+          "text": "八、CRM 回流决定方法能否变成组织能力",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-055",
+      "type": "paragraph",
+      "text": "主动开发是否可复制，最终取决于结果有没有回到同一套数据结构；CRM 不应只记录“已联系”或“未成交”，还要保留账户评分、主要证据、触达版本、回复类型、会议结论、商机阶段、人工修正和丢单原因，使管理者能够沿时间线看到某个机会为什么进入队列、经过哪些判断、在哪个节点发生变化，销售也不必在多个表格和聊天记录之间重新拼接上下文。",
+      "segments": [
+        {
+          "text": "主动开发是否可复制，最终取决于结果有没有回到同一套数据结构；CRM 不应只记录“已联系”或“未成交”，还要保留账户评分、主要证据、触达版本、回复类型、会议结论、商机阶段、人工修正和丢单原因，使管理者能够沿时间线看到某个机会为什么进入队列、经过哪些判断、在哪个节点发生变化，销售也不必在多个表格和聊天记录之间重新拼接上下文。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-056",
+      "type": "paragraph",
+      "text": "回流字段宜少而稳定，拒绝原因尤其要用可分析的枚举值，而不是大量自由文本；例如市场不匹配、产品不适配、时机不对、已有供应商、预算不足、联系人不对、信息错误和合规停止，应分别记录，必要时再补充备注；当同一原因持续出现，团队才能判断该修订 ICP、数据源、洞察内容还是跟进节奏，表 2 将 POC 验收所需的五个维度、抽验方式和停止条件放在同一张表中。",
+      "segments": [
+        {
+          "text": "回流字段宜少而稳定，拒绝原因尤其要用可分析的枚举值，而不是大量自由文本；例如市场不匹配、产品不适配、时机不对、已有供应商、预算不足、联系人不对、信息错误和合规停止，应分别记录，必要时再补充备注；当同一原因持续出现，团队才能判断该修订 ICP、数据源、洞察内容还是跟进节奏，表 2 将 POC 验收所需的五个维度、抽验方式和停止条件放在同一张表中。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "paragraph",
+      "text": "回流治理需要固定节奏而不是临时补录：销售每天只维护少量关键状态，项目负责人每周抽查证据、回复分类和人工修正，管理层按月查看误判与丢单结构；对于长期无人更新、字段含义反复变化或依赖自由文本的记录，应及时精简和重构，否则 CRM 会再次变成结果仓库，无法承担模型校准与团队复盘的作用。",
+      "segments": [
+        {
+          "text": "回流治理需要固定节奏而不是临时补录：销售每天只维护少量关键状态，项目负责人每周抽查证据、回复分类和人工修正，管理层按月查看误判与丢单结构；对于长期无人更新、字段含义反复变化或依赖自由文本的记录，应及时精简和重构，否则 CRM 会再次变成结果仓库，无法承担模型校准与团队复盘的作用。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜ICP 到商机的 POC 五维验收矩阵",
+      "rows": [
+        [
+          "验收维度",
+          "核心对象",
+          "抽验与判定方式",
+          "停止或整改条件"
+        ],
+        [
+          "ICP 匹配",
+          "账户是否符合硬门槛、优先级与排除规则",
+          "高、中、低分段抽样人工核验；记录误判类型与原因",
+          "硬排除频繁失效，或高分账户持续被同一原因否决"
+        ],
+        [
+          "数据证据",
+          "来源、更新时间、去重、联系人有效性与字段完整度",
+          "逐条抽查关键字段能否回到原始来源；统计过期与重复",
+          "来源无法解释、过期比例过高或存在未授权数据"
+        ],
+        [
+          "洞察质量",
+          "事实与推断分离、切口相关性、销售可用性",
+          "销售盲审并标记可直接使用、需修改或不可使用",
+          "无法核实的表述进入触达，或洞察与客户语境无关"
+        ],
+        [
+          "触达执行",
+          "内容相关性、渠道节奏、回复分类与人工接管",
+          "按模板版本和评分分段观察送达、回复、会话与负面反馈",
+          "退订、投诉或负面回复恶化；高价值互动未及时接管"
+        ],
+        [
+          "CRM 回流",
+          "字段完整、商机与丢单原因、规则修订记录",
+          "检查时间线与枚举字段；确认结果能否反哺 ICP 和话术",
+          "结果散落在个人记录中，或无法说明规则为何调整"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 2｜ICP 到商机的 POC 五维验收矩阵",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-060",
+      "type": "heading",
+      "text": "九、POC 验收要同时看质量、效率、转化与风险",
+      "segments": [
+        {
+          "text": "九、POC 验收要同时看质量、效率、转化与风险",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-061",
+      "type": "paragraph",
+      "text": "POC 的价值不是证明工具“能跑”，而是验证方法能否在真实样本中产生可解释的改进；启动前要固定国家、行业、产品线、样本量、销售承接人和观察周期，同时写清每项指标的分母与数据来源，例如 ICP 匹配率按抽验账户还是全部账户计算，正向回复是否排除自动回复，商机创建以 CRM 阶段还是会议结果为准，口径不固定，前后对比就没有意义。",
+      "segments": [
+        {
+          "text": "POC 的价值不是证明工具“能跑”，而是验证方法能否在真实样本中产生可解释的改进；启动前要固定国家、行业、产品线、样本量、销售承接人和观察周期，同时写清每项指标的分母与数据来源，例如 ICP 匹配率按抽验账户还是全部账户计算，正向回复是否排除自动回复，商机创建以 CRM 阶段还是会议结果为准，口径不固定，前后对比就没有意义。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-062",
+      "type": "paragraph",
+      "text": "验收时应把结果指标与风险信号放在一起看：线索质量提高但字段来源不完整，回复增加但负面反馈同步上升，或自动化节省了时间却把大量低质量账户交给销售，都不具备扩面条件；公司历史口径、客户项目实测、示意阈值和客户内部指标必须分开标注，任何单个项目的结果都不应被包装成行业通用承诺，是否规模化要由五个维度共同决定。",
+      "segments": [
+        {
+          "text": "验收时应把结果指标与风险信号放在一起看：线索质量提高但字段来源不完整，回复增加但负面反馈同步上升，或自动化节省了时间却把大量低质量账户交给销售，都不具备扩面条件；公司历史口径、客户项目实测、示意阈值和客户内部指标必须分开标注，任何单个项目的结果都不应被包装成行业通用承诺，是否规模化要由五个维度共同决定。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "paragraph",
+      "text": "POC 还应保留基线与对照：在规则和内容上线前记录原有名单质量、调研耗时、回复结构与 CRM 完整度，实施后按相同口径比较；样本较小时不宜过度解读单个百分比，更应关注误差是否集中、销售是否愿意采用、问题能否被定位和修正，连续几轮结果稳定后，再讨论扩大样本和预算。",
+      "segments": [
+        {
+          "text": "POC 还应保留基线与对照：在规则和内容上线前记录原有名单质量、调研耗时、回复结构与 CRM 完整度，实施后按相同口径比较；样本较小时不宜过度解读单个百分比，更应关注误差是否集中、销售是否愿意采用、问题能否被定位和修正，连续几轮结果稳定后，再讨论扩大样本和预算。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-08.png",
+      "sourceMedia": "/word/media/image8.png",
+      "sha256": "5e5b3cd1edf9f1236d4c2b7f855c40523bfb1ea863b25d874c91ca92f3f1a378",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 8｜POC 五维验收看板：ICP、证据、洞察、触达与 CRM 回流必须共同达标",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 8｜POC 五维验收看板：ICP、证据、洞察、触达与 CRM 回流必须共同达标",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-066",
+      "type": "heading",
+      "text": "十、从 POC 到规模化，先跑通一个国家和一个产品线",
+      "segments": [
+        {
+          "text": "十、从 POC 到规模化，先跑通一个国家和一个产品线",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-067",
+      "type": "paragraph",
+      "text": "主动开发项目最容易失败在范围过大：同时选择多个国家、多个行业和多条产品线，任何问题都难以归因；POC 阶段更适合选择一个销售团队能够承接、公开信息相对充分、交付边界清晰的市场，用小样本跑通 ICP、数据、洞察、触达和回写，并记录实际投入的人力、审核和异常处理成本，样本可解释，才有资格讨论扩面。",
+      "segments": [
+        {
+          "text": "主动开发项目最容易失败在范围过大：同时选择多个国家、多个行业和多条产品线，任何问题都难以归因；POC 阶段更适合选择一个销售团队能够承接、公开信息相对充分、交付边界清晰的市场，用小样本跑通 ICP、数据、洞察、触达和回写，并记录实际投入的人力、审核和异常处理成本，样本可解释，才有资格讨论扩面。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-068",
+      "type": "paragraph",
+      "text": "进入试点后，再扩大账户规模和触达节奏，观察不同评分分段、不同信号类型和不同角色的表现，同时建立周抽验与月度复盘；规模化阶段才接入更多国家、语言、邮箱和 CRM 流程，并把规则版本、权限、审计和停机机制纳入日常运营，表 3 给出三个阶段的建议范围、交付物与进入门槛，时间可根据销售周期调整，但不应跳过基线和人工边界。",
+      "segments": [
+        {
+          "text": "进入试点后，再扩大账户规模和触达节奏，观察不同评分分段、不同信号类型和不同角色的表现，同时建立周抽验与月度复盘；规模化阶段才接入更多国家、语言、邮箱和 CRM 流程，并把规则版本、权限、审计和停机机制纳入日常运营，表 3 给出三个阶段的建议范围、交付物与进入门槛，时间可根据销售周期调整，但不应跳过基线和人工边界。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-069",
+      "type": "paragraph",
+      "text": "每个阶段都要设置进入、暂停和回退条件；例如试点期间若联系人失效率突然升高，应先检查数据源与验证周期，而不是继续增加发送量，若某个国家的负面反馈明显高于其他市场，则需要重新评估触达语言、合规要求和渠道习惯；阶段门槛的意义，是允许团队在成本可控时纠错，而不是把既定排期当成必须完成的上线任务。",
+      "segments": [
+        {
+          "text": "每个阶段都要设置进入、暂停和回退条件；例如试点期间若联系人失效率突然升高，应先检查数据源与验证周期，而不是继续增加发送量，若某个国家的负面反馈明显高于其他市场，则需要重新评估触达语言、合规要求和渠道习惯；阶段门槛的意义，是允许团队在成本可控时纠错，而不是把既定排期当成必须完成的上线任务。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表 3｜POC、试点与规模化的实施范围和进入门槛",
+      "rows": [
+        [
+          "阶段",
+          "建议范围",
+          "核心交付物",
+          "进入下一阶段的门槛"
+        ],
+        [
+          "POC",
+          "1 个国家或区域、1 个行业、1 条产品线；小样本账户池",
+          "ICP 与排除规则、证据字段、首批洞察与触达、五维基线报告",
+          "链路能完整跑通；口径稳定；异常可定位；销售愿意使用"
+        ],
+        [
+          "试点",
+          "扩大账户规模与触达节奏；覆盖多个评分分段和角色",
+          "抽验报告、触达与回复分析、CRM 回流质量、规则版本记录",
+          "质量和风险不恶化；人工复核负担可接受；结果可复盘"
+        ],
+        [
+          "规模化",
+          "扩展多国家、多语言和多产品线；接入常态化销售流程",
+          "权限与审计规范、CRM 字段标准、运营节奏、季度校准机制",
+          "组织能够持续维护；停机与兜底明确；业务结果能反哺策略"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 3｜POC、试点与规模化的实施范围和进入门槛",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-072",
+      "type": "heading",
+      "text": "十一、人机分工与合规边界要写在流程里",
+      "segments": [
+        {
+          "text": "十一、人机分工与合规边界要写在流程里",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-073",
+      "type": "paragraph",
+      "text": "系统适合承担重复、标准、可验证的工作，例如规则计算、数据清洗、证据归档、内容初稿、节奏提醒和 CRM 写回；人工必须负责目标市场选择、ICP 边界、洞察判断、高价值回复、报价交期、合同法律和争议处理，把责任重大的判断包装成“全自动”，只会让错误更快地传播，并把原本可控的销售问题转化为品牌与合规风险。",
+      "segments": [
+        {
+          "text": "系统适合承担重复、标准、可验证的工作，例如规则计算、数据清洗、证据归档、内容初稿、节奏提醒和 CRM 写回；人工必须负责目标市场选择、ICP 边界、洞察判断、高价值回复、报价交期、合同法律和争议处理，把责任重大的判断包装成“全自动”，只会让错误更快地传播，并把原本可控的销售问题转化为品牌与合规风险。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-074",
+      "type": "paragraph",
+      "text": "合规也不是文末的一句免责声明，而是数据准入、规则配置、话术审核、频次控制、留痕审计和人工兜底六道闸门；未经授权的数据采集、绕过平台限制、虚构客户事实、低置信度内容直发，以及涉及敏感身份、价格、合同或法律承诺的自动回复，都应触发暂停与人工确认，具体实施还需以目标市场现行隐私、商业通信和平台条款为准。",
+      "segments": [
+        {
+          "text": "合规也不是文末的一句免责声明，而是数据准入、规则配置、话术审核、频次控制、留痕审计和人工兜底六道闸门；未经授权的数据采集、绕过平台限制、虚构客户事实、低置信度内容直发，以及涉及敏感身份、价格、合同或法律承诺的自动回复，都应触发暂停与人工确认，具体实施还需以目标市场现行隐私、商业通信和平台条款为准。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-075",
+      "type": "paragraph",
+      "text": "数据处理应遵循必要性原则，只保留与 B2B 开发目的直接相关、来源可说明且有明确使用期限的信息，并为退订、删除、争议和权限变更建立处理记录；平台规则发生变化时，应由责任人评估数据来源和触达方式是否仍可继续，系统不得用技术手段绕过限制，人工兜底也不能成为规避规则的借口。",
+      "segments": [
+        {
+          "text": "数据处理应遵循必要性原则，只保留与 B2B 开发目的直接相关、来源可说明且有明确使用期限的信息，并为退订、删除、争议和权限变更建立处理记录；平台规则发生变化时，应由责任人评估数据来源和触达方式是否仍可继续，系统不得用技术手段绕过限制，人工兜底也不能成为规避规则的借口。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-09.png",
+      "sourceMedia": "/word/media/image9.png",
+      "sha256": "7da8ba8da5b4bee71778a923f9a191cf3e91b84251a00147176a6b994acd6c9e",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 9｜人机分工与六道流程闸门：高风险判断不进入自动执行区",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 9｜人机分工与六道流程闸门：高风险判断不进入自动执行区",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-078",
+      "type": "heading",
+      "text": "十二、场景验证：工业零部件企业进入德国与波兰",
+      "segments": [
+        {
+          "text": "十二、场景验证：工业零部件企业进入德国与波兰",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-079",
+      "type": "paragraph",
+      "text": "以一家计划进入德国和波兰的工业零部件企业为示意，团队先限定一个产品线，明确目标为中型制造商及其一级、二级供应商，排除已有独家代理覆盖、最低订单量明显不匹配和售后暂不可达的地区；随后从公开与授权来源建立账户池，对行业、规模、扩产与新品信号、技术环境和联系人有效性进行抽验，再由销售确认哪些特征真正影响跟进价值。",
+      "segments": [
+        {
+          "text": "以一家计划进入德国和波兰的工业零部件企业为示意，团队先限定一个产品线，明确目标为中型制造商及其一级、二级供应商，排除已有独家代理覆盖、最低订单量明显不匹配和售后暂不可达的地区；随后从公开与授权来源建立账户池，对行业、规模、扩产与新品信号、技术环境和联系人有效性进行抽验，再由销售确认哪些特征真正影响跟进价值。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-080",
+      "type": "paragraph",
+      "text": "通过抽验后的账户进入洞察与触达环节，系统把公开信号整理为假设和问题，销售审核后按分层节奏执行；回复、会议、拒绝与丢单原因回到 CRM，团队再区分问题来自市场选择、ICP 误判、数据失真、内容不相关还是节奏不合适，图 10 所示飞轮强调事实与推断、示意与实测、自动与人工始终分开，场景用于说明方法，不等同于真实客户案例或效果承诺。",
+      "segments": [
+        {
+          "text": "通过抽验后的账户进入洞察与触达环节，系统把公开信号整理为假设和问题，销售审核后按分层节奏执行；回复、会议、拒绝与丢单原因回到 CRM，团队再区分问题来自市场选择、ICP 误判、数据失真、内容不相关还是节奏不合适，图 10 所示飞轮强调事实与推断、示意与实测、自动与人工始终分开，场景用于说明方法，不等同于真实客户案例或效果承诺。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-081",
+      "type": "paragraph",
+      "text": "这一场景的验收重点不是预设回复率，而是确认每个判断都能回到证据：入选账户为什么符合，排除账户为什么不适合，洞察中的事实是否准确，销售修改了哪些内容，拒绝原因能否推动规则更新；即使短期没有形成商机，只要团队发现了可重复的误差类型并修正了市场与画像边界，POC 仍然可能提供有价值的决策依据。",
+      "segments": [
+        {
+          "text": "这一场景的验收重点不是预设回复率，而是确认每个判断都能回到证据：入选账户为什么符合，排除账户为什么不适合，洞察中的事实是否准确，销售修改了哪些内容，拒绝原因能否推动规则更新；即使短期没有形成商机，只要团队发现了可重复的误差类型并修正了市场与画像边界，POC 仍然可能提供有价值的决策依据。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-10",
+      "type": "figure",
+      "src": "/images/research/cross-border-b2b-outbound-guide/figure-10.png",
+      "sourceMedia": "/word/media/image10.png",
+      "sha256": "ea3e08b28578bca08f4c8c529276e50ab95566787cd91eeac6fb08244c22c085",
+      "width": 1800,
+      "height": 1000,
+      "caption": "图 10｜小样本场景验证飞轮：样本边界、线索抽验、洞察触达、结果回写、误差复盘与规则更新连续迭代",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "firstLineTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 10｜小样本场景验证飞轮：样本边界、线索抽验、洞察触达、结果回写、误差复盘与规则更新连续迭代",
+          "italic": true,
+          "color": "#6A7685",
+          "fontSizePt": 8.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 200,
+        "firstLineTwips": 0,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-084",
+      "type": "heading",
+      "text": "十三、适用条件、启动建议与结语",
+      "segments": [
+        {
+          "text": "十三、适用条件、启动建议与结语",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "firstLineTwips": 0,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-085",
+      "type": "paragraph",
+      "text": "这套方法适合产品和交付边界稳定、客单价较高、销售周期较长，并愿意用真实样本验证的跨境 B2B 团队，尤其是工业制造、零部件、设备、企业软件和专业服务；若企业频繁改变定位、没有销售承接人或只追求海量群发，应先补齐经营与组织条件。",
+      "segments": [
+        {
+          "text": "这套方法适合产品和交付边界稳定、客单价较高、销售周期较长，并愿意用真实样本验证的跨境 B2B 团队，尤其是工业制造、零部件、设备、企业软件和专业服务；若企业频繁改变定位、没有销售承接人或只追求海量群发，应先补齐经营与组织条件。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-086",
+      "type": "paragraph",
+      "text": "启动前，管理层应确认目标国家、行业和排除规则已经签字；有效线索、高意向、正向回复和商机的口径写入验收表；高优先级线索能够解释来源与评分；销售按统一字段回写；数据获取、触达频次、退订和人工兜底机制明确；完成后再从一个国家和一条产品线启动 2—4 周 POC，把成交经验写成规则，把结果沉淀为下一轮改进。",
+      "segments": [
+        {
+          "text": "启动前，管理层应确认目标国家、行业和排除规则已经签字；有效线索、高意向、正向回复和商机的口径写入验收表；高优先级线索能够解释来源与评分；销售按统一字段回写；数据获取、触达频次、退订和人工兜底机制明确；完成后再从一个国家和一条产品线启动 2—4 周 POC，把成交经验写成规则，把结果沉淀为下一轮改进。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 140,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-087",
+      "type": "paragraph",
+      "text": "下一步建议",
+      "segments": [
+        {
+          "text": "下一步建议",
+          "bold": true,
+          "color": "#173A63",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 100,
+        "firstLineTwips": 0,
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-088",
+      "type": "paragraph",
+      "text": "选择一个目标国家和一条产品线，用 Sales in 启动小样本 POC，先验证 ICP、证据、洞察、触达与 CRM 回流；访问灵宸智能官网 www.lingchen-ai.com，或致电 18621786899 预约产品演示与方案评估。",
+      "segments": [
+        {
+          "text": "选择一个目标国家和一条产品线，用 Sales in 启动小样本 POC，先验证 ICP、证据、洞察、触达与 CRM 回流；访问灵宸智能官网 ",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "www.lingchen-ai.com",
+          "underline": true,
+          "color": "#2B557F",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "，或致电 18621786899 预约产品演示与方案评估。",
+          "color": "#253142",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 80,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 200,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#EEF5FB",
+        "leftBorder": {
+          "color": "#2B557F",
+          "sizeEighthPoints": 18,
+          "spacePoints": 7
+        },
+        "fontSizePt": 10.5
+      }
+    }
+  ]
+}

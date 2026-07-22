@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.DS_Store
+.env*
+!.env.example
+
+# Local browser automation sessions. Keep only the snapshot explicitly cited
+# by the checked-in Sales In content ledger.
+.playwright-cli/*
+!.playwright-cli/page-2026-07-20T12-10-46-775Z.yml

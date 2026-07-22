@@ -1,0 +1,320 @@
+.page {
+  background: linear-gradient(180deg, #f5f8fc 0%, #eef5ff 100%);
+  color: #0b1220;
+}
+
+.hero {
+  display: flex;
+  min-height: 316px;
+  padding: 128px 24px 36px;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero > i {
+  order: 2;
+  width: 56px;
+  height: 3px;
+  margin-top: 14px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent 0%, #0d6efd 24%, #36bffa 76%, transparent 100%);
+  box-shadow: 0 2px 8px rgb(13 110 253 / 18%);
+}
+
+.hero h1 {
+  order: 1;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.hero p {
+  order: 3;
+  max-width: 760px;
+  margin: 12px 0 0;
+  color: #64748b;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.content {
+  width: min(880px, calc(100% - 48px));
+  margin: 0 auto;
+  padding-bottom: 37px;
+}
+
+.formCard {
+  position: relative;
+  padding: 40px 42px 34px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 18px 48px rgb(15 54 110 / 8%);
+}
+
+.formCard h2 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.formIntro {
+  margin: 8px 0 28px;
+  color: #94a3b8;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.fieldGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.formCard input,
+.formCard textarea {
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  outline: none;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #0f172a;
+  font: inherit;
+  transition: border-color 160ms ease, box-shadow 160ms ease;
+}
+
+.formCard input {
+  height: 52px;
+  padding: 0 16px;
+  font-size: 15px;
+}
+
+.formCard textarea {
+  height: 116px;
+  padding: 16px;
+  resize: vertical;
+  font-size: 15px;
+}
+
+.formCard input::placeholder,
+.formCard textarea::placeholder {
+  color: #94a3b8;
+  opacity: 1;
+}
+
+.formCard input:focus,
+.formCard textarea:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 3px rgb(13 110 253 / 10%);
+}
+
+.fullField {
+  grid-column: 1 / -1;
+}
+
+.products {
+  min-width: 0;
+  margin: 26px 0 22px;
+  padding: 0;
+  border: 0;
+}
+
+.products legend {
+  margin-bottom: 14px;
+  padding: 0;
+  color: #111827;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.product,
+.productSelected {
+  position: relative;
+  display: inline-flex;
+  height: 42px;
+  padding: 0 14px;
+  align-items: center;
+  gap: 7px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #334155;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.product small,
+.productSelected small {
+  color: #94a3b8;
+  font-size: 12px;
+}
+
+.productSelected {
+  border-color: #0d6efd;
+  background: #0d6efd;
+  color: #fff;
+  box-shadow: 0 6px 14px rgb(13 110 253 / 18%);
+}
+
+.productSelected small {
+  color: rgb(255 255 255 / 70%);
+}
+
+.productSelected > span:not(.productCheck),
+.productSelected > small {
+  transform: translateX(4px);
+}
+
+.productCheck {
+  position: absolute;
+  top: 50%;
+  left: 3px;
+  display: flex;
+  width: 11px;
+  height: 8px;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+  visibility: hidden;
+}
+
+.productCheck[data-visible="true"] {
+  visibility: visible;
+}
+
+.productCheck img {
+  width: 11px;
+  height: 8px;
+  flex: none;
+}
+
+.submitButton {
+  display: flex;
+  width: 100%;
+  height: 52px;
+  margin-top: 28px;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  border: 0;
+  border-radius: 10px;
+  background: #0d6efd;
+  box-shadow: 0 10px 20px rgb(13 110 253 / 20%);
+  color: #fff;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.submitButton img {
+  width: 7px;
+  height: 12px;
+  flex: none;
+}
+
+.submitButton:disabled {
+  cursor: wait;
+  opacity: 0.72;
+}
+
+.formNotice {
+  position: absolute;
+  right: 42px;
+  bottom: 9px;
+  left: 42px;
+  margin: 0;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.formCard[data-validated="true"] .submitButton {
+  box-shadow: 0 0 0 3px rgb(13 110 253 / 14%), 0 10px 20px rgb(13 110 253 / 20%);
+}
+
+.contactGrid {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.contactCard {
+  min-width: 0;
+  padding: 24px 18px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 12px 32px rgb(15 54 110 / 7%);
+  text-align: center;
+}
+
+.contactCard > img {
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  flex: none;
+}
+
+.contactCard h2 {
+  margin: 14px 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.contactCard p {
+  margin: 0;
+  color: #64748b;
+  font-size: 13px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    min-height: 260px;
+    padding-top: 58px;
+  }
+
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .content {
+    width: min(100% - 28px, 520px);
+    padding-bottom: 56px;
+  }
+
+  .formCard {
+    padding: 28px 20px;
+  }
+
+  .fieldGrid,
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .contactCard p {
+    white-space: normal;
+  }
+}

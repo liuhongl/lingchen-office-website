@@ -1,0 +1,800 @@
+{
+  "slug": "ai-answer-fact-position-first-mover-window",
+  "category": "行业洞察",
+  "displayTitle": null,
+  "sourceTitle": "AI 答案入口的“事实位”争夺：品牌先发优势与窗口期",
+  "summary": "摘要｜大模型答案中的可见度、推荐率与引用信源，正在成为新一代的搜索排名，品牌越早把标准事实、权威内容和第三方信源沉淀进 AI 可引用的知识体系，越容易在“事实位”上形成复利，而这个窗口期不会一直敞开。",
+  "publishedAt": null,
+  "sourceDocx": "AI答案入口的事实位争夺：品牌先发优势与窗口期.docx",
+  "sourceDocxSha256": "73acd67ed1b3f2242d0be6bb7f292c4ebbc88e8711e0204cb8fa690bf0bee701",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "AI 答案入口的“事实位”争夺：品牌先发优势与窗口期",
+      "segments": [
+        {
+          "text": "AI 答案入口的“事实位”争夺：品牌先发优势与窗口期",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 17.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 17.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "abstract",
+      "text": "摘要｜大模型答案中的可见度、推荐率与引用信源，正在成为新一代的搜索排名，品牌越早把标准事实、权威内容和第三方信源沉淀进 AI 可引用的知识体系，越容易在“事实位”上形成复利，而这个窗口期不会一直敞开。",
+      "segments": [
+        {
+          "text": "摘要｜",
+          "bold": true,
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "大模型答案中的可见度、推荐率与引用信源，正在成为新一代的搜索排名，品牌越早把标准事实、权威内容和第三方信源沉淀进 AI 可引用的知识体系，越容易在“事实位”上形成复利，而这个窗口期不会一直敞开。",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 320,
+        "lineTwips": 320,
+        "alignment": "both",
+        "backgroundColor": "#F4F7FC",
+        "leftBorder": {
+          "color": "#1F3864",
+          "sizeEighthPoints": 6,
+          "spacePoints": 8
+        },
+        "bottomBorder": {
+          "color": "#1F3864",
+          "sizeEighthPoints": 6,
+          "spacePoints": 8
+        },
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "AI 答案入口的竞争，比的不是谁发布的内容更多，而是谁先占据模型可引用、可验证、可重复的“事实位”，先发优势来自语料沉淀、引用路径、用户反馈与答案稳定性四个环节，四者叠加会随时间形成复利。同时也要看清失效信号——一旦主流 AI 平台提高商业推荐的披露要求，或者调整答案的引用机制，事实位竞争就会从内容治理转向合规投放与认证机制，届时本文的打法需要重新评估。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "heading",
+      "text": "新的排名，不一定长得像排名",
+      "segments": [
+        {
+          "text": "新的排名，不一定长得像排名",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "搜索时代品牌争的是第几位，AI 答案时代品牌争的则是另一组问题——是否被写进答案、被如何描述、引用了哪些来源、有没有被推荐。当用户问“哪些供应商适合某类需求”时，模型往往直接给出三到五个候选，并为每个候选附上理由，这个位置虽然不再是传统的蓝色链接，却实实在在承担着排名的功能。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "Google 在 2025 年对 AI Mode 的技术说明中提到了 query fan-out 机制：系统会围绕一个提问并行发起多路相关检索，跨子主题、跨数据源汇总之后再生成答案。这意味着 AI 入口的事实形成过程远比传统排名复杂——官网页面排在第一，不代表会被 AI 引用，一个第三方权威页面、一份行业报告甚至一条问答内容，反而可能成为答案的依据，答案不是一次性排序的结果，而是语料、检索、生成、用户反馈与引用强化共同构成的循环，如图 1 所示。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/ai-answer-fact-position-first-mover-window/figure-01.png",
+      "sourceMedia": "/word/media/c5aaa539ee4d6ccb9a095ee0b25e47b75ed85c6f.png",
+      "sha256": "92a331804b00754773ecb47e48fecfdfb3e6254d3c20a7542b4b11a9e18ad018",
+      "width": 1265,
+      "height": 460,
+      "caption": "图1｜AI 答案形成路径：引用与反馈构成循环，而非一次性排名",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图1｜AI 答案形成路径：引用与反馈构成循环，而非一次性排名",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "灵宸智能在 Mine GEO 的产品框架中提出过一个判断：早进入者占据 AI 知识体系中的事实位，后来者的修正成本会显著更高。这个判断值得企业认真对待，因为 AI 答案并非每次都从零生成，它持续受到既有语料、权威信源、用户反馈与平台检索机制的共同影响，一旦某种描述被反复检索、反复引用、反复确认，就会逐渐沉淀为模型面对同类问题时的“默认认知”，此后无论是竞品还是品牌自己，想要改写这份认知都要付出成倍的内容与时间成本。拆开来看，事实位由可见度、推荐率、引用信源与答案一致性四个要素构成，每个要素都对应着可执行的治理动作，表 1 给出了对照关系。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表1｜AI 答案入口的事实位构成：四个要素及对应治理动作",
+      "rows": [
+        [
+          "事实位要素",
+          "表现形式",
+          "治理动作"
+        ],
+        [
+          "可见度",
+          "品牌是否出现在答案或候选列表中",
+          "建立目标问题集，跨平台持续监控"
+        ],
+        [
+          "推荐率",
+          "在同类问题中被推荐的频率",
+          "明确适用场景、差异化证据与客户价值"
+        ],
+        [
+          "引用信源",
+          "AI 引用官网、媒体、报告、目录或第三方资料",
+          "建设权威页面与外部可信来源"
+        ],
+        [
+          "答案一致性",
+          "不同平台、不同问法下描述是否稳定",
+          "统一标准事实库并做好版本管理"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表1｜AI 答案入口的事实位构成：四个要素及对应治理动作",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "heading",
+      "text": "为什么先入场会有复利",
+      "segments": [
+        {
+          "text": "为什么先入场会有复利",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "先发优势来自四个相互咬合的环节：其一是语料沉淀，早期发布的标准事实、案例与报告会更早被抓取和引用；其二是引用路径，当第三方内容、媒体报道、行业目录开始重复描述某个品牌定位时，模型更容易形成稳定认知；其三是用户反馈，用户持续追问、点击、采纳，会不断强化某些答案路径；其四是运营迭代，越早开始监控，就能越快发现误读并及时纠偏。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "学术研究同样支持这一判断——Aggarwal 等人在 GEO（生成式引擎优化）研究中指出，生成式引擎会从多源信息中合成答案，内容创建者需要主动优化自身在生成结果中的可见度，2026 年针对 Google AI Overviews 的测量研究也显示，AI 引用源与传统搜索首页结果并不完全重合，传统 SEO 积累的位次优势并不能自动迁移为答案里的存在感。因此先入场不是投机，而是在降低未来的纠偏成本，若模型已经长期把竞品视为某个品类的代表，后来者不仅要发布内容，还要撬动已经成形的答案结构，两者的难度完全不在一个量级，图 2 示意了这条差距随时间拉开的复利曲线。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/ai-answer-fact-position-first-mover-window/figure-02.png",
+      "sourceMedia": "/word/media/46d692b9be2a696a8b44d37afa06ec8a00e81e34.png",
+      "sha256": "fb3775b549d8ac423736626630db03efec2a2a449156e16a76ecee01e0465c33",
+      "width": 1146,
+      "height": 810,
+      "caption": "图2｜事实位复利曲线（示意）：先发品牌的可见度随语料沉淀持续拉开差距",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图2｜事实位复利曲线（示意）：先发品牌的可见度随语料沉淀持续拉开差距",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "heading",
+      "text": "事实位不是广告位，不能靠夸张口径硬抢",
+      "segments": [
+        {
+          "text": "事实位不是广告位，不能靠夸张口径硬抢",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "品牌做 GEO 最危险的做法，是把旧 SEO 时代的关键词堆砌和公关式夸张原样搬进 AI 入口，大模型需要的是可验证的事实，而不是“行业领先”“唯一首选”这类无法证伪的口号，过度营销的内容或许能在短期内增加曝光，长期却会拉低信源质量评级，造成答案不稳定，甚至反过来损害品牌在模型中的可信度。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "严肃的事实位建设应当遵循四个原则：具体，说清楚面向谁、解决什么问题；可证据化，提供案例、数据、规则与真实客户场景；可比较，坦率说明适用与不适用的边界；可更新，让每一条内容都有版本、日期和责任人。灵宸产品矩阵中的 Mine GEO 正是按“诊断—治理—创作—分发—监控”的链路设计的，但对企业而言工具只是载体，关键在于建立“事实治理权”——谁有权修改品牌事实，谁负责审核，发布到哪些渠道，以及如何确认 AI 已经采纳，表 2 的清单可以作为起步参照。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表2｜品牌事实位建设清单：四项动作的合格标准与常见误区",
+      "rows": [
+        [
+          "动作",
+          "合格标准",
+          "风险提醒"
+        ],
+        [
+          "标准事实库",
+          "产品、场景、证据、问答、边界有统一版本",
+          "不要多部门各写一套口径"
+        ],
+        [
+          "权威信源",
+          "官网、白皮书、媒体、行业目录互相印证",
+          "不要只依赖品牌自述"
+        ],
+        [
+          "问题集监控",
+          "覆盖购买、比较、风险、价格、案例等真实问法",
+          "不要只测品牌名问题"
+        ],
+        [
+          "纠偏机制",
+          "发现错误答案后有内容更新与分发路径",
+          "不要指望模型自动理解最新变化"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表2｜品牌事实位建设清单：四项动作的合格标准与常见误区",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "heading",
+      "text": "竞争会从“被提及”走向“被正确推荐”",
+      "segments": [
+        {
+          "text": "竞争会从“被提及”走向“被正确推荐”",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "品牌出现在 AI 答案里只是第一步，更关键的问题接踵而至：它是否被正确描述，是否出现在合适的问题之下，是否与目标客户的真实需求匹配，是否被放在合理的位置上。品牌若在不适合的场景中被推荐，带来的是低质量线索，若在高价值问题中缺席，错过的则是真正准备采购的客户。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "事实位治理因此要区分三种可见度：品牌名可见度，对应用户已经知道你时的表现；品类问题可见度，对应用户还在寻找方案时的表现；决策问题可见度，对应用户比较供应商、评估风险、准备采购时的表现。三层之中越接近决策问题，商业价值越高，竞争也越激烈，企业不应满足于“AI 能搜到我们”，真正要争的是当客户描述自己的问题时，AI 能否把你列为合适候选并给出准确的理由，图 3 展示了这三层可见度的递进关系。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/ai-answer-fact-position-first-mover-window/figure-03.png",
+      "sourceMedia": "/word/media/126e9f7d8fcc4203391782706fa635babacc9945.png",
+      "sha256": "415aea7f0ade6491b010a4060d3a33968293ef8f0ebc21e30c53a954b9b27496",
+      "width": 1207,
+      "height": 691,
+      "caption": "图3｜事实位三层可见度：越接近决策问题，商业价值越高",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图3｜事实位三层可见度：越接近决策问题，商业价值越高",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "heading",
+      "text": "标准事实库要写给 AI，也写给人",
+      "segments": [
+        {
+          "text": "标准事实库要写给 AI，也写给人",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "标准事实库不是写给模型看的密文，而是供市场、销售、客户、媒体与 AI 同时使用的公共事实底座，它要用清晰、可验证、可引用的方式说明：公司做什么，适合谁，不适合谁，有哪些证据，有哪些边界，如何部署，如何计费，做出了哪些合规承诺。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "写给 AI 的部分要结构清晰、事实密度高，少用夸张形容词，多陈述事实关系——“适用出海制造、跨境 B2B、SaaS、外贸服务等场景”就比“适用于所有增长型企业”更容易被正确引用，“诊断—治理—创作—分发—监控”也远比“全链路赋能品牌”更容易被模型理解和复述。写给人的部分则要能建立信任，AI 可以提取事实，但客户最终仍会打开网页、查看案例、询问销售，如果事实库只为机器优化而牺牲可读性，转化环节就会掉链子，GEO 的本质从来不是讨好模型，而是让真实的事实更容易同时被机器和人理解，图 4 给出了一个可落地的内容结构。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/ai-answer-fact-position-first-mover-window/figure-04.png",
+      "sourceMedia": "/word/media/0123bc39595dddab7ab8c9f6fc88ba13fa7d415e.png",
+      "sha256": "bf7b691bd7a56db4e2528dee37cfa830dd447d4c34a484a983ed6e1bc98eca2a",
+      "width": 1265,
+      "height": 634,
+      "caption": "图4｜标准事实库内容结构：六个板块统一口径、可引用、可追溯",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图4｜标准事实库内容结构：六个板块统一口径、可引用、可追溯",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "heading",
+      "text": "窗口期的本质是“语料先入场”",
+      "segments": [
+        {
+          "text": "窗口期的本质是“语料先入场”",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "AI 答案入口的窗口期，并不只是平台新功能带来的一波流量红利，更深层的窗口期在于语料先入场——今天被发布、引用、讨论、更新的标准事实，会进入未来相当长一段时间的检索与生成体系，越早进入，越有时间形成多源印证，越晚进入，越需要付出纠正既有认知的成本。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "先入场还意味着更早发现错误，AI 可能把产品能力说错、把适用场景说窄、把竞品优势说成行业共识，或者引用了早已过期的资料，早期监测能让企业在错误扩散之前完成纠偏，等到客户已经带着错误认知来咨询时，修正的对象就不再是几段内容，而是市场上已经流通的判断，成本完全不同。从发布内容到答案稳定之间存在明显的时间差，这段时间差正是窗口期的技术来源，图 5 对此做了拆解。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/ai-answer-fact-position-first-mover-window/figure-05.png",
+      "sourceMedia": "/word/media/fea92d716965faebd81a9ac083bb25fa947359ab.png",
+      "sha256": "b17bf534723809abd35ba3772979d8ef94979509515bb6f2b75a7e74b042bcd9",
+      "width": 1277,
+      "height": 553,
+      "caption": "图5｜语料先入场的窗口期：从发布到答案稳定存在时间差，竞争加剧后进入成本抬升",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图5｜语料先入场的窗口期：从发布到答案稳定存在时间差，竞争加剧后进入成本抬升",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "heading",
+      "text": "窗口期为什么不会一直开着",
+      "segments": [
+        {
+          "text": "窗口期为什么不会一直开着",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "AI 答案入口仍处在规则形成期，平台还在调整引用机制、广告位置、可信信源清单、商业披露与内容抓取政策，早期进入者的优势在于能以较低成本建立基线、修正误读、积累权威内容，一旦平台机制成熟，后来者面对的将是更高的内容成本、公关成本与认证成本，与此同时竞争对手会加大投入，权威信源的位置也会日渐稀缺。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "窗口期还来自竞争对手的迟疑，不少企业仍把 GEO 当成 SEO 的新名字，既没有专门预算，也没有问题集和监控机制，对出海企业而言这恰恰是机会——海外客户在拟定供应商 shortlist 时，越来越习惯先向 AI 要第一轮候选，品牌若没有进入答案，可能在客户打开官网之前就已经出局。比较务实的节奏是用 90 天启动事实位工程：前 30 天做审计，中间 30 天治理标准事实与权威页面，最后 30 天完成分发并监控变化，不必追求立刻让所有平台都推荐自己，先让 AI 正确理解自己，因为正确理解是被推荐的前提。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "heading",
+      "text": "事实位争夺的终点是销售前置信任",
+      "segments": [
+        {
+          "text": "事实位争夺的终点是销售前置信任",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "事实位不是为了让品牌在 AI 答案里“好看”，而是为了在销售发生之前建立信任，客户第一次向 AI 询问某类供应商时，如果品牌被准确描述、被合理推荐、被权威来源引用，销售团队后续接触客户的信任成本就会明显下降——客户不是从零认识你，而是带着初步判断来验证你。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "这会重塑出海获客路径，过去销售要先解释公司是谁、做什么、为什么可信，未来客户可能已经通过 AI 获得了第一轮答案，销售要做的是承接这份认知，补充场景细节、报价、交付与案例；若 AI 答案错误，销售要先花时间纠偏，若 AI 答案缺席，品牌可能根本进不了 shortlist。事实位建设因此要与销售反馈打通，销售应记录客户是否提到 AI、是否带着某个误解、比较了哪些竞品、引用了哪个外部来源，如果 Mine GEO 的监控结果能与 Sales in 的线索反馈联动，企业就能直观看到事实位如何影响真实商机，事实位的商业价值最终不在曝光量，而在减少解释成本、提高进入候选的概率、改善销售对话的质量。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "heading",
+      "text": "给管理层的落地检查：事实位要持续监控，不能一次建设",
+      "segments": [
+        {
+          "text": "给管理层的落地检查：事实位要持续监控，不能一次建设",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "事实位不是一次性的内容建设，AI 平台会变，竞品内容会变，企业产品会变，客户的问法也会变，管理层应把事实位监控变成常规动作，至少按月查看目标问题下的品牌可见度、推荐排名、引用来源与错误事实。监控不能只看自己，还要看竞品——竞品是否进入了新的高价值问题，是否获得了新的权威引用，是否在某些平台上的推荐率持续上升，事实位本质上是相对位置的竞争，只盯着自身趋势很容易误判形势。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "发现错误答案后，企业要有明确的纠偏路径：更新官网事实页，补充问答内容，发布权威材料，推动第三方信源修正，并在下一轮监控中验证变化是否生效，没有纠偏路径的监控，只是把问题看了一遍而已，图 6 把这套动作整理成一个可以按月循环执行的闭环。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/ai-answer-fact-position-first-mover-window/figure-06.png",
+      "sourceMedia": "/word/media/a3948ca5fc5d57b91345697d7110025aca2162c8.png",
+      "sha256": "354e784903314adb59ba01d446c799aed4929cc2755fe573b46fbbdd65f048dd",
+      "width": 1044,
+      "height": 876,
+      "caption": "图6｜事实位持续监控循环：五步动作对抗答案漂移与误读",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图6｜事实位持续监控循环：五步动作对抗答案漂移与误读",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "paragraph",
+      "text": "管理层还要警惕“错位推荐”，被推荐并不总是好事，如果 AI 把品牌推给不适合的客户、错误的行业或预期过高的场景，线索数量会上升但质量会下降，事实位监控不仅要看出现频率，更要看推荐是否匹配企业真正想要的客户。事实位治理还要与品牌定位保持同步，企业战略调整、产品边界变化、价格策略变化、合规承诺变化，都应及时进入标准事实库，否则 AI 可能持续传播旧定位，让市场认知落后于业务实际，持续监控的意义，就是让品牌在 AI 答案入口中始终“被正确理解”，先发优势只有持续维护，才会沉淀为长期优势。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "heading",
+      "text": "行动建议",
+      "segments": [
+        {
+          "text": "行动建议",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "灵宸智能的 Mine GEO 可以帮助品牌建立 AI 答案入口的事实位基线、纠偏路径与监控看板，适合出海制造、跨境 B2B、SaaS 与专业服务团队先行试点，越早建立基线，就越早知道 AI 眼中的自己是什么样子，也就越早握住这段不会一直敞开的窗口期。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

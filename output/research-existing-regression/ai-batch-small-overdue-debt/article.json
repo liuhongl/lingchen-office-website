@@ -1,0 +1,1064 @@
+{
+  "slug": "ai-batch-small-overdue-debt",
+  "category": "行业洞察",
+  "displayTitle": "万亿“毛细血管”债权：批量小额逾期为什么成了 AI 的主场",
+  "sourceTitle": "万亿级“毛细血管”债权",
+  "summary": "摘要｜批量小额逾期并非天然低价值，真正卡住处置的是人工模式下过高的单笔成本，当AI把数据整理、资产分层、标准触达、文书生成、回款确认与结果留痕串成可批量运行的流程，大量过去“不值得催”的债权会重新回到可运营范围。本文从单位经济、适用边界、分层策略、合规闸门、历史坏账体检、回款验收与九十天试点七个角度，说明AI催收为什么适合批量、小额、标准化、可分层且可审计的信用类逾期，以及复杂争议与高风险案件为什么必须由人工主导。",
+  "publishedAt": null,
+  "sourceDocx": "万亿级毛细血管债权_AI批量小额逾期.docx",
+  "sourceDocxSha256": "3f9f6183872bd3a7309938d1890966e987e0b23766de35e0ef8d3cc1d40842b7",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "万亿级“毛细血管”债权",
+      "segments": [
+        {
+          "text": "万亿级“毛细血管”债权",
+          "bold": true,
+          "color": "#1A1A1A",
+          "fontSizePt": 22.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "alignment": "center",
+        "fontSizePt": 22.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "批量小额逾期为什么成为AI的优势场景",
+      "segments": [
+        {
+          "text": "批量小额逾期为什么成为AI的优势场景",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "abstract",
+      "text": "摘要｜批量小额逾期并非天然低价值，真正卡住处置的是人工模式下过高的单笔成本，当AI把数据整理、资产分层、标准触达、文书生成、回款确认与结果留痕串成可批量运行的流程，大量过去“不值得催”的债权会重新回到可运营范围。本文从单位经济、适用边界、分层策略、合规闸门、历史坏账体检、回款验收与九十天试点七个角度，说明AI催收为什么适合批量、小额、标准化、可分层且可审计的信用类逾期，以及复杂争议与高风险案件为什么必须由人工主导。",
+      "segments": [
+        {
+          "text": "摘要｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "批量小额逾期并非天然低价值，真正卡住处置的是人工模式下过高的单笔成本，当AI把数据整理、资产分层、标准触达、文书生成、回款确认与结果留痕串成可批量运行的流程，大量过去“不值得催”的债权会重新回到可运营范围。本文从单位经济、适用边界、分层策略、合规闸门、历史坏账体检、回款验收与九十天试点七个角度，说明AI催收为什么适合批量、小额、标准化、可分层且可审计的信用类逾期，以及复杂争议与高风险案件为什么必须由人工主导。",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 200,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "leftTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#F4F6FA",
+        "leftBorder": {
+          "color": "#2E5FA3",
+          "sizeEighthPoints": 20,
+          "spacePoints": 6
+        },
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "keywords",
+      "text": "关键词｜批量小额逾期 · AI催收 · 单位经济 · 债权分层 · 历史坏账 · 净新增回款 · 合规触达 · 人工接管",
+      "segments": [
+        {
+          "text": "关键词｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "批量小额逾期 · AI催收 · 单位经济 · 债权分层 · 历史坏账 · 净新增回款 · 合规触达 · 人工接管",
+          "color": "#595959",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "heading",
+      "text": "核心结论",
+      "segments": [
+        {
+          "text": "核心结论",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "其一，批量小额逾期的核心矛盾不是金额低，而是人工模式的单笔处置成本压过了预期回款",
+      "segments": [
+        {
+          "text": "其一",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，批量小额逾期的核心矛盾不是金额低，而是人工模式的单笔处置成本压过了预期回款",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "其二，AI的优势边界是批量、标准化、可分层、可留痕，复杂争议与高风险案件必须保留人工决策",
+      "segments": [
+        {
+          "text": "其二",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，AI的优势边界是批量、标准化、可分层、可留痕，复杂争议与高风险案件必须保留人工决策",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 60,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "其三，验收只认净新增回款与质量红线，自然到账、历史承诺和人工单独追缴不能算作AI贡献",
+      "segments": [
+        {
+          "text": "其三",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.5
+        },
+        {
+          "text": "，验收只认净新增回款与质量红线，自然到账、历史承诺和人工单独追缴不能算作AI贡献",
+          "fontSizePt": 11.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 330,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.5
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "heading",
+      "text": "小额债权，为什么像企业现金流的“毛细血管”",
+      "segments": [
+        {
+          "text": "小额债权，为什么像企业现金流的“毛细血管”",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "所谓“毛细血管债权”，指的是单笔金额不高、笔数庞大、散落在日常服务与消费场景里的逾期应收，物业费、水电燃气费、通信欠费、消费分期、租金以及供应链末端的小额货款都属于这一类，它们并不缺账面价值，麻烦在于资产太散——人工处理要反复整理名单、核对账单、沟通解释、制作文书、确认回款，这套固定动作摊到单笔几百元到几千元的债权上，成本很容易压过预期收益。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "本文说的AI催收，不是“自动多打几轮电话”的代名词，而是一套把数据清洗、债权分层、渠道编排、内容生成、人工接管、回款确认和审计留痕串在一起的运营系统，各环节能够批量运转，每一次触达、争议、承诺与到账都能回写，企业才谈得上把“不值得催”的小额资产重新纳入经营视野，把高争议、高风险的案件留给专业人员处理。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "至于“万亿级”，强调的不是哪家机构握着巨额单笔债权，而是这些小额应收跨行业、跨城市、跨项目常年累积，形成了体量惊人的资产池，它们像毛细血管一样决定现金流是否通畅，却因为金额小、责任散、系统割裂，长期排在经营议程末位，AI的机会恰恰藏在这种高频、重复、可结构化的管理空白里。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-01.png",
+      "sourceMedia": "/word/media/0b7998a7e48684b9cb24683050e38cbf87abbaf0.png",
+      "sha256": "0e6f9a8246f7bc88354f5fd93342317533d81ead4a7567b6b93f8d3c2778a349",
+      "width": 1600,
+      "height": 900,
+      "caption": "图1｜批量小额逾期的业务结构：规模大、单笔薄、场景散"
+    },
+    {
+      "id": "p-014",
+      "type": "heading",
+      "text": "一、单位经济：小额逾期不是不值钱，而是成本错配",
+      "segments": [
+        {
+          "text": "一、单位经济：小额逾期不是不值钱，而是成本错配",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "小额逾期难处置，第一位的原因是单位经济失配，不是债务人太多，也不是金额太低——人工模式下，名单整理、首次联系、身份核验、争议解释、函件制作、法务升级、财务对账，每个动作都有最低工时，单笔看着只花十几分钟，叠加坐席管理、系统切换和层层复核之后成本抬得很快，见过不少团队一开始把问题归咎于“人手不够”，加了人之后回款没涨多少，管理损耗倒先上去了。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "还有一笔账经常被漏掉：坐席培训、跨系统复制粘贴、重复联系、主管抽检、投诉处理、法务返工，这些隐性成本未必写进单笔催收预算，却会随着资产规模同步放大，所以评估AI价值的时候，要比的是完整处置链的总成本，而不是一通电话或一条短信的单价，各环节的成本结构变化见下表。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表1｜小额逾期完整处置链的成本结构变化",
+      "rows": [
+        [
+          "环节",
+          "传统人工模式的主要成本",
+          "AI可压低的边际成本",
+          "仍需人工把关的事项"
+        ],
+        [
+          "数据准备",
+          "来源分散、格式不一，重复与状态错误要逐笔清理",
+          "字段解析、去重、账龄归类、异常初筛",
+          "债权事实、金额、主体与权利状态确认"
+        ],
+        [
+          "首次触达",
+          "坐席逐笔拨打或发送，排期与记录依赖人工",
+          "批量编排渠道、时间、频次与内容版本",
+          "身份核验、禁触达与敏感对象保护"
+        ],
+        [
+          "争议处理",
+          "客服、业务、财务之间反复转述，信息易丢失",
+          "争议自动分类、证据汇总、生成处理建议",
+          "服务修复、事实判断与复杂协商"
+        ],
+        [
+          "文书与升级",
+          "函件、清单、节点提醒与审批周期较长",
+          "模板生成、材料清单、流程提醒与版本留痕",
+          "法律意见、重大风险与最终发布审批"
+        ],
+        [
+          "回款确认",
+          "到账、撤案、承诺与再触达状态不同步",
+          "回款监测、自动对账、结果回写与看板更新",
+          "异常款项、退款冲销与归因复核"
+        ]
+      ]
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "AI真正改变的是重复环节的边际成本，同一套规则可以在大批量资产上完成字段校验、账龄归类、联系方式去重、触达排期和结果记录，人工不再平均摊到每一笔，而是集中到争议、异常和需要谈判的少数案件上，角色从“逐笔执行”转向“设规则、管例外、看复盘”，这不是人工退出，而是重新划定哪些债权具有经济处置价值。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "判断一笔债权值不值得催，不能只看本金，得把预期回款概率、触达成本、人工接管成本、投诉与争议成本、法律动作成本和回款周期放进同一张账里算；自动化把初筛和标准动作的成本压下来之后，盈亏平衡点会向更小的金额区间移动，过去直接搁置的资产可以先接受低成本、低干扰的合规触达，再根据回应、争议和还款意愿决定要不要升级。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "也因此，“值得催”的金额下限不是行业常数，同样是五百元欠款，证据完整、联系方式有效、没有争议的案件可能有正收益，证据缺失、服务争议缠绕的案件金额更高也未必值得继续投入，新增价值不来自“所有欠款都能收回”，而来自企业能用更低的成本分辨出哪些资产值得继续投入、哪些应当及时止损。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-02.png",
+      "sourceMedia": "/word/media/efe96dc22b7bc7def86cb928f0a291ae9d6552ee.png",
+      "sha256": "c65fc373101e78034d4673ee363a900ba83dbb17845384026f8fff197df881a9",
+      "width": 1600,
+      "height": 900,
+      "caption": "图2｜可处置边界外移：AI把盈亏平衡点推向更小的金额区间"
+    },
+    {
+      "id": "p-022",
+      "type": "heading",
+      "text": "二、适用边界：批量、标准化、可分层、可留痕",
+      "segments": [
+        {
+          "text": "二、适用边界：批量、标准化、可分层、可留痕",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "AI的优势场景有四个共同条件：资产数量足够大，流程能拆成稳定步骤，案件可以按账龄、金额、争议和可触达性分层，执行结果能够留痕并回到系统；物业费、公共事业欠费、通信账单、消费分期这类标准化小额应收通常都满足，个案情况虽然千差万别，信息字段、触达路径和升级规则的共性却很强。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "反过来，高额复杂债权、担保与抵押争议、破产重整、重大合同纠纷，以及高度依赖谈判关系的案件，都不适合交给AI主导决策，系统可以协助整理材料、比对事实、提示时效、生成初稿，关键判断仍然要由法务、业务负责人或律师来承担——真正的边界从来不是“金额越小越适合”，而是批量程度、标准化程度、证据质量和可审计性能否同时成立。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "挑试点场景时可以先问四个问题：每月是否持续产生足够样本，债权事实能否被结构化，处置路径有没有清晰分支，结果能否在财务与业务系统里核对确认；四项都答得上来，AI才容易形成稳定策略，只能答上一两项的，先补数据、补流程，别急着大规模上线触达。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-03.png",
+      "sourceMedia": "/word/media/3d62fffa6cd8c46bf37a9e95379411ca75950975.png",
+      "sha256": "e8427093784d09ca1217e4087939c4ba623aa5a9c01ff792217e1b95f3d39857",
+      "width": 1600,
+      "height": 900,
+      "caption": "图3｜AI催收适用性四象限：右上区域才是自动化的优势场景"
+    },
+    {
+      "id": "p-027",
+      "type": "heading",
+      "text": "三、策略核心：先识别逾期原因，再决定触达强度",
+      "segments": [
+        {
+          "text": "三、策略核心：先识别逾期原因，再决定触达强度",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "批量处置的关键不在触达频次，而在先弄清楚“为什么逾期”——短期忘缴、账单看不懂、服务有争议、资金周转紧张、联系方式失效、责任主体搞错、恶意拖欠，对应的沟通内容、渠道、频次和升级路径完全不同，如果所有人收到同一套话术，系统只是在放大人工模式的粗放，回款也许短期上去了，投诉和品牌损耗会跟着一起涨。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "更稳妥的做法，是先把债权事实、可触达性、争议强度、账龄金额和历史行为组合成分层标签，再决定用提醒、自助还款、客服协商、信息修复、人工谈判还是法律评估，渠道不求多，关键是每一步都有触发条件、停止条件和回写字段，让下一次决策基于真实结果，而不是重复轰炸。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "分层还必须允许案件随结果迁移，首次提醒后提出服务争议的A类案件，应当立刻转入争议处理而不是继续自动触达，承诺付款却多次失约的B类案件，则要调整频次和升级条件——分层给出的是当前处置路径的临时状态，不是给债务人贴上的永久标签。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-04.png",
+      "sourceMedia": "/word/media/cf800d87231d1f9337f1d4014da07ef46c8e37bd.png",
+      "sha256": "dcafcc924c19f2606a24e3031af5ddf59fbf96433019156b671ed6470e132ead",
+      "width": 1600,
+      "height": 900,
+      "caption": "图4｜A—D四类债权的分层路径：案件状态随处置结果动态迁移"
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "实践中通常把资产划成A、B、C、D四类：A类证据完整、账龄短、联系方式有效、争议少，走低成本高效率的批量路径；B类先修复信息或澄清争议；C类重点评估成本收益与时效风险；D类由人工法务主导，AI只负责材料整理、节点提醒和记录留痕。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "分层标准必须与系统字段一一对应，至少能追溯到账龄、金额、债权依据、联系人身份、历史触达、争议类型、承诺记录和禁触达状态，字段完整，自动化才有解释依据，管理层也才能在回款不理想时分清楚是策略问题、资产质量问题还是数据同步问题，而不是把所有偏差都归给“模型效果”。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "值得多说一句的是，A、B、C、D的占比本身就是资产质量的镜子，一个资产池长期以C、D类为主，问题多半不在催收策略，而在合同、账单、客户信息和服务流程，这时候继续加码自动化只会放大缺陷，应当先推动证据补齐、主数据治理和争议闭环，再回头谈扩大处置边界，四类资产的路径与人工闸门见下表。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表2｜A—D四类资产的处置路径与人工闸门",
+      "rows": [
+        [
+          "分层",
+          "典型特征",
+          "建议主路径",
+          "必须保留的人工闸门"
+        ],
+        [
+          "A类",
+          "账龄短、证据完整、联系方式有效、争议少",
+          "低干扰批量提醒、自助还款、客服协商",
+          "身份与频次校验，回应异常或提出争议即转人工"
+        ],
+        [
+          "B类",
+          "账龄中等、信息待修复、存在可分类争议",
+          "先修复信息与争议，再按意愿和风险分层触达",
+          "争议事实确认，承诺方案与服务补救由人工复核"
+        ],
+        [
+          "C类",
+          "账龄较长、金额较低、证据或联系方式缺口大",
+          "低频合规触达、成本收益评估、必要时核销",
+          "时效与权利状态审核，不得以高频触达替代证据补齐"
+        ],
+        [
+          "D类",
+          "复杂法律争议、高投诉风险或高影响客户",
+          "人工法务主导，AI仅整理材料与提醒节点",
+          "禁止自动决策，关键内容与动作全程留痕审计"
+        ]
+      ]
+    },
+    {
+      "id": "p-036",
+      "type": "heading",
+      "text": "四、合规底座：把限制条件做成系统闸门",
+      "segments": [
+        {
+          "text": "四、合规底座：把限制条件做成系统闸门",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "并发能力越强，合规控制越要前置，身份披露、联系时段、触达频次、渠道偏好、退订与禁触达名单、敏感群体保护、争议转人工、全过程留痕，这些应当是系统的默认能力，而不是投诉发生之后再补的规则，凡是债权事实无法确认、联系对象无法核验或者存在明确争议的案件，都不应该继续自动推进。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "合规也不是一组静态话术，真正有效的设计是把限制条件做成工作流闸门：数据不完整就暂停，身份不匹配就停止，频次触顶就延后，客户提出争议就转人工，高风险表达直接禁发，回款与撤案状态不同步就不得继续触达；不同地区、行业和债权类型的要求并不一样，上线前应由法务与合规团队确认适用规则，并保留版本和审批记录。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "系统还要支持可审计的人工接管——谁在哪个节点暂停了自动化，凭什么证据修改了话术、频次或分层，什么时候恢复执行，都要留下记录，这既保护客户，也保护企业和一线员工，真出了争议，能够还原债权事实、触达过程和决策依据，责任不会被含糊地推给“模型自己做的决定”。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-05.png",
+      "sourceMedia": "/word/media/a82ba2b599ddef422ef0f28174a5ed1865cc208c.png",
+      "sha256": "73a334c2b2fbd54ee330b824e06d4e0692ce515d7fc0c0cf1cc656e514fd2b2e",
+      "width": 1600,
+      "height": 900,
+      "caption": "图5｜合规触达六道闸门：事实、身份、频次、渠道、争议与审计"
+    },
+    {
+      "id": "p-041",
+      "type": "heading",
+      "text": "五、历史坏账：先做资产体检，再谈重新激活",
+      "segments": [
+        {
+          "text": "五、历史坏账：先做资产体检，再谈重新激活",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "paragraph",
+      "text": "成本结构变了，历史坏账确实可能重新出现处置空间，但“过去没收回来”本身往往意味着问题更复杂——账龄一长，联系方式失效、证据出现缺口、历史沟通断档、责任主体变更、争议记忆模糊、时效风险临近，AI能很快盘出这些缺口在哪，却修复不了债权事实，更不能拿规模化触达去盖住法律和服务层面的问题。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "历史资产池进系统之前，先过五项体检：债权依据是否完整，时效与权利状态是否清楚，联系方式是否有效，历史沟通与回款记录能否追溯，争议能否分类并且还有经济处置价值；评分高的进小样本试点，中等的先补数据、补证据或修复联系方式，低分且高风险的交给人工评估、暂缓处置或者进入核销流程。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "体检也不是上线前做一次就完事，联系方式会变，争议会新增，一部分债权会到账、撤销或转让，权利状态和可处置性都在动态变化，系统应按批次设置复核日期和失效规则，对长期无回应、证据评分下降或投诉风险上升的资产自动降级，别让旧结论长期驱动新动作。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-06.png",
+      "sourceMedia": "/word/media/9b03d2c7a017cd1d659cca072ba78726c2854c65.png",
+      "sha256": "10c452468ff14ef0bba62bcae6948a04ee2c9e78ee97238ab0cf7a671a6034f0",
+      "width": 1600,
+      "height": 900,
+      "caption": "图6｜历史坏账资产体检：五项评分决定进入试点、先修复还是退出"
+    },
+    {
+      "id": "p-046",
+      "type": "heading",
+      "text": "六、结果验收：看净新增回款，不看表面到账",
+      "segments": [
+        {
+          "text": "六、结果验收：看净新增回款，不看表面到账",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "paragraph",
+      "text": "AI催收的验收指标不能只写“回款金额”，因为到账可能来自自然缴费、历史承诺、线下人工跟进或其他法律动作，更站得住的口径是净新增回款——在冻结的试点资产池内，用实际到账扣掉同类资产的自然回款基线、退款冲销和新增处置成本，再结合触达记录、承诺时间、渠道版本与人工接管节点完成归因。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "主指标之外还要配质量红线，回款提升不能拿投诉、误催、超频或高风险表达去换，自动化率上升也不能靠人工返工和异常工单的转移来撑，承诺履约率、回款归因率、人工接管率、争议关闭率、单笔触达成本和资产覆盖率建议同步观察，让管理层既看到现金结果，也看清楚这个结果是用什么代价换来的。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "基线设计决定验收可不可信，最好用同账龄、同金额区间、同地区、同资产类型的同期对照组，实在做不到严格对照，至少要冻结资产池、记录上线前的自然回款曲线，并把人工单独跟进的案件剔除出去，免得把季节性缴费、政策调整或集中对账带来的到账，误算成AI的贡献。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-07.png",
+      "sourceMedia": "/word/media/6238ea19a42213dd1414a0b351e8d0599cdb91b0.png",
+      "sha256": "ff5f39cf69125d05f95bd1917b7107d51def96ed1dd12644a261e1dbc4b751fc",
+      "width": 1600,
+      "height": 900,
+      "caption": "图7｜净新增回款验收口径：实际到账扣除自然回款、冲销与增量成本"
+    },
+    {
+      "id": "p-051",
+      "type": "heading",
+      "text": "七、经营价值：回款之外的数据、人效与组织纪律",
+      "segments": [
+        {
+          "text": "七、经营价值：回款之外的数据、人效与组织纪律",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "paragraph",
+      "text": "批量小额债权AI化的第一层收益是现金流效率，更多原本被搁置的资产进入可运营范围，账龄管理更及时，财务确认到账和撤案也更快；第二层是人效与服务，一线人员从重复提醒、制函、对账里腾出手来，转向争议解释、服务修复和复杂谈判，客服、财务与法务之间的信息传递，也不再依赖手工转述。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-053",
+      "type": "paragraph",
+      "text": "第三层收益显现得最慢，却最值钱——数据与组织纪律，系统持续沉淀拒缴原因、有效渠道、承诺行为、服务问题和人工修正，企业可以据此改进收费制度、账单展示、客户服务和风险策略，欠费长期没人管会形成跟风效应，粗放催收又会攒下投诉，把提醒、留痕、升级、回款确认写成标准流程，本质上是在同时重建现金流纪律和客户服务纪律。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "paragraph",
+      "text": "三层收益的兑现节奏并不一样，现金流改善最先被看见，人效与服务质量要等一到几个运营周期，数据资产和组织纪律则要靠持续回写与复盘慢慢养出来，所以验收既要设短期回款目标，也要保留中长期指标，别让团队为了赶数字，牺牲掉争议处理、数据质量和客户关系。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-08.png",
+      "sourceMedia": "/word/media/70bdcce9a9dfc9e98c47841b2b7e11d19728b076.png",
+      "sha256": "6ea4bb1b337b1ddad09844d9616641aabe4c956c0d6023e21b01f9ccf85857ed",
+      "width": 1600,
+      "height": 900,
+      "caption": "图8｜批量小额债权AI化的三层收益：从现金流效率走向长期经营韧性"
+    },
+    {
+      "id": "p-056",
+      "type": "heading",
+      "text": "八、90天试点：从标准资产池跑通最小闭环",
+      "segments": [
+        {
+          "text": "八、90天试点：从标准资产池跑通最小闭环",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "paragraph",
+      "text": "试点最忌讳的开场是把多年坏账一次性倒进系统，更合理的起点是选一个可证明、可触达、可回款的标准资产池，比如同一城市、同一项目、同一账龄段的物业费，或者同一产品线、证据结构相近的消费分期，样本越一致，自然回款基线越好建，策略变化带来的净增量越好算，数据、流程和合规配置里的真实问题也暴露得越快。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-058",
+      "type": "paragraph",
+      "text": "九十天足够跑通一个最小闭环：第1—15天定义资产边界、结果口径和红线，第16—30天完成数据清洗、分层与审计字段，第31—60天小样本上线并保留人工复核，第61—90天比较回款、投诉、接管率和单位成本，再决定扩大、修正还是暂停，每个阶段都要有明确的负责人和退出条件，一个只能加码、不能止损的项目，迟早是要出问题的。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-059",
+      "type": "paragraph",
+      "text": "抽样也别专挑最容易或者最难的案件，前者会高估效果，后者会让项目在数据底子没打牢时就被过早否定，比较稳妥的做法是按账龄、金额和争议程度分层抽样，再保留少量高风险案例去测人工闸门，既验证规模化的效率，也验证系统在不确定场景下能不能及时停下来、交出去。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/ai-batch-small-overdue-debt/figure-09.png",
+      "sourceMedia": "/word/media/cb12829538e287bf26c17c01ce87cacc58bc9489.png",
+      "sha256": "3f51f52cdcf541091bfc84aea773694042e6f2433e4258f0d7fddbf0f9ae0250",
+      "width": 1600,
+      "height": 900,
+      "caption": "图9｜90天试点路线：定义、清洗、上线、验收四个阶段"
+    },
+    {
+      "id": "p-061",
+      "type": "heading",
+      "text": "九、给管理层的建议：先算清单位经济，再扩大自动化边界",
+      "segments": [
+        {
+          "text": "九、给管理层的建议：先算清单位经济，再扩大自动化边界",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 160,
+        "lineTwips": 320,
+        "lineRule": "auto",
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-062",
+      "type": "paragraph",
+      "text": "管理层最终要回答的不是“AI能不能催收”，而是“在哪一类资产、什么合规边界、什么单位经济之下，AI值得被使用”，立项之前把平均金额、账龄结构、证据完整率、可触达率、自然回款率、人工成本和投诉成本算清楚，试点中用净新增回款与质量红线验证，结果稳定、责任清楚、人工维护成本可接受，再谈扩大资产池。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "paragraph",
+      "text": "一套靠得住的批量小额逾期处置体系，应当同时具备六项能力：债权事实可核验、资产能够分层、触达频次可控、争议可以转人工、回款能够归因、过程可以审计，缺了任何一项，自动化都可能变成对低质量资产的规模化放大，短期看是触达量上去了，长期攒下的却是投诉、返工和组织摩擦。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-064",
+      "type": "paragraph",
+      "text": "说到底，这件事的价值不只是多收回几笔钱，而是让散落各处的小额应收，从“没人愿意管的历史包袱”变成可监测、可运营、可复盘的现金流资产，企业可以从一个标准场景起步，用九十天跑通“体检—分层—触达—回款—复盘”的闭环，再把验证过的规则复制到更多业务线，边界每往外扩一步，都由数据、合规和人工判断共同确认。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-065",
+      "type": "paragraph",
+      "text": "引入外部平台时同样如此，别只看并发量、模型参数和演示效果，采购文件里要写清楚资产池如何冻结、自然回款如何扣除、投诉和争议由谁处理、数据能否导出、策略能否审计、项目如何退出，供应商能同时交付结果、质量和可追溯性，这套系统才有资格进入长期经营流程。",
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 360,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 12.0
+      }
+    },
+    {
+      "id": "p-066",
+      "type": "closing",
+      "text": "落地原则｜先让一个标准资产池做到可证明、可触达、可回款、可审计，再把验证过的规则复制到更多业务线，任何一次边界扩展，都应当同时通过结果指标与质量红线的双重检验，这既是对AI系统的约束，也是对经营者自身的保护。",
+      "segments": [
+        {
+          "text": "落地原则｜",
+          "bold": true,
+          "color": "#1F4E79",
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "先让一个标准资产池做到可证明、可触达、可回款、可审计，再把验证过的规则复制到更多业务线，任何一次边界扩展，都应当同时通过结果指标与质量红线的双重检验，这既是对AI系统的约束，也是对经营者自身的保护。",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 200,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "leftTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#F4F6FA",
+        "leftBorder": {
+          "color": "#2E5FA3",
+          "sizeEighthPoints": 20,
+          "spacePoints": 6
+        },
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

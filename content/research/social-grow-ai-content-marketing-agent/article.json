@@ -1,0 +1,629 @@
+{
+  "slug": "social-grow-ai-content-marketing-agent",
+  "category": "产品动态",
+  "displayTitle": null,
+  "sourceTitle": "Social Grow AI 内容营销智能体：适用场景与工作机制",
+  "summary": "摘要：Social Grow AI 是灵宸智能面向知识密集型团队推出的内容营销智能体，它不是一款单点文案工具，而是把热点雷达、RAG 知识库、创作工坊、数字人视频工坊、发布矩阵和数据面板串成一条完整的内容生产线，核心方法可以概括为十六个字——知识先入库、事实设边界、内容再分发、数据再回写。本文会讲清楚它适合哪些团队、内部机制如何运转、与传统内容生产方式的差别在哪里，以及 30 天内跑通首轮 POC 的具体路径。",
+  "publishedAt": null,
+  "sourceDocx": "Social_Grow_AI内容营销智能体.docx",
+  "sourceDocxSha256": "6c4365b83d49836e7315a3b4427b939a232b83e6c42524461443410db27adee5",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "Social Grow AI 内容营销智能体：适用场景与工作机制",
+      "segments": [
+        {
+          "text": "Social Grow AI 内容营销智能体：适用场景与工作机制",
+          "bold": true,
+          "fontSizePt": 18.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "alignment": "center",
+        "fontSizePt": 18.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "abstract",
+      "text": "摘要：Social Grow AI 是灵宸智能面向知识密集型团队推出的内容营销智能体，它不是一款单点文案工具，而是把热点雷达、RAG 知识库、创作工坊、数字人视频工坊、发布矩阵和数据面板串成一条完整的内容生产线，核心方法可以概括为十六个字——知识先入库、事实设边界、内容再分发、数据再回写。本文会讲清楚它适合哪些团队、内部机制如何运转、与传统内容生产方式的差别在哪里，以及 30 天内跑通首轮 POC 的具体路径。",
+      "segments": [
+        {
+          "text": "摘要：Social Grow AI 是灵宸智能面向知识密集型团队推出的内容营销智能体，它不是一款单点文案工具，而是把热点雷达、RAG 知识库、创作工坊、数字人视频工坊、发布矩阵和数据面板串成一条完整的内容生产线，核心方法可以概括为十六个字——知识先入库、事实设边界、内容再分发、数据再回写。本文会讲清楚它适合哪些团队、内部机制如何运转、与传统内容生产方式的差别在哪里，以及 30 天内跑通首轮 POC 的具体路径。",
+          "color": "#404040",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 240,
+        "lineTwips": 340,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "01｜先说结论：Social Grow AI 适合谁，不适合谁",
+      "segments": [
+        {
+          "text": "01｜先说结论：Social Grow AI 适合谁，不适合谁",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "先把结论放在最前面：已经沉淀了案例、白皮书、课程、录音和服务方法论的专业团队，是这套产品最典型的适用对象；真正有效的用法是知识先入库、事实设边界、内容再分发、数据再回写，而不是指望系统凭空写作；至于手里没有资料、没有清晰定位、只想低质铺量，或者不打算配置人工审核的团队，从一开始就不适合，完整的判断标准会在第 05 节展开。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "举一个典型场景——某律师团队手里攒了 80 篇文章、20 个案例复盘和多场直播录音，专业积累不可谓不厚，但公众号、小红书和短视频账号却常年断更，资料躺在硬盘里发挥不了任何获客价值。Social Grow AI 对这类团队的意义，不在于每天多生成几段文字，而在于把这些沉睡的资料整理成可审核、可复用的内容资产：哪些能引用，哪些要脱敏，哪些适合做图文，哪些可以转成数字人口播，每一份资料都有明确的去向和边界。下图展示了这条生产线从热点雷达到数据面板的完整链路，每一步都有清晰的输入、执行、留痕和结果回写。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/social-grow-ai-content-marketing-agent/figure-01.png",
+      "sourceMedia": "/word/media/0e4b9d38c72068ee715ad5bdc688c48bf06720b6.png",
+      "sha256": "ce157bd90e10756f1366450e3c0877106b5f5f7368274326c012409d8a5eca4e",
+      "width": 1800,
+      "height": 820,
+      "caption": "图 1｜Social Grow AI 的业务链路：从热点雷达到数据面板，每一步都有输入、执行、留痕和结果回写",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜Social Grow AI 的业务链路：从热点雷达到数据面板，每一步都有输入、执行、留痕和结果回写",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "heading",
+      "text": "02｜三类角色怎么用：业务、运营与合规共用一张工作台",
+      "segments": [
+        {
+          "text": "02｜三类角色怎么用：业务、运营与合规共用一张工作台",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "同一套系统，在不同角色手里承担的职责并不相同。专业人士负责供给和把关，上传案例、文章、录音和个人观点，确认专业结论、案例脱敏和引用边界，他们验收的交付物是一个可引用的知识库和一份份审核意见；内容运营负责流程，维护选题池、内容日历、多平台版本和发布节奏，同时观察哪些内容真正带来了咨询线索，交付物是内容日历、平台版本和线索记录；管理者看的则是效率账——用产出量、审核通过率、线索成本和素材复用率评估内容团队的投入产出，据此做月度复盘和资源决策。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "从落地经验看，能够长期运行下去的项目，几乎都是这三类视角在同一张工作台里互相校验，专业人士守事实、运营跑流程、管理者看指标，任何一方单独推动都容易半途而废。只有运营在推，内容缺少专业背书，很快会流于平庸；只有专业人士在写，又回到了断更的老路；管理者若只看播放量，团队就会被数据牵着做标题党。下图展示了三类角色的协同关系，每个角色都对应可验收的交付物，项目才不会停留在演示效果上。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/social-grow-ai-content-marketing-agent/figure-02.png",
+      "sourceMedia": "/word/media/558fabeb4b3d9283a5039b880e3908c806792e4c.png",
+      "sha256": "5a3a5e99a1011632a9b08679693c01bf3ec2746f25c140228ad434080dd663ac",
+      "width": 1800,
+      "height": 760,
+      "caption": "图 2｜三类角色的协同关系：每个角色都有明确的使用方式与可验收交付物",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜三类角色的协同关系：每个角色都有明确的使用方式与可验收交付物",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "heading",
+      "text": "03｜工作机制：输入、判断、执行、回写",
+      "segments": [
+        {
+          "text": "03｜工作机制：输入、判断、执行、回写",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "判断一款业务智能体能不能进入生产环境，不能只问“功能有没有”，更关键的是三个动作：输入能不能结构化，执行过程能不能被控制，结果能不能回到下一轮策略里去。输入结构化，意味着案例、文章、录音这些原始资料以标准格式进入知识库，而不是散落在各人电脑和聊天记录里；执行可控，意味着每一篇初稿、每一条视频都有明确的引用边界和审核节点，跑偏的内容出不了门；结果回写，意味着曝光、互动、线索这些数据会流回系统，成为下一轮选题和创作的依据。Social Grow AI 的五个能力模块正是围绕这三个动作设计的，每个模块解决一类明确的问题，下表同时给出了 POC 阶段应当验证的要点和不适用的情形，可以直接拿去做内部评估。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜五个能力模块解决的问题、POC 验证点与不适用情形",
+      "rows": [
+        [
+          "能力模块",
+          "解决的问题",
+          "POC 应验证的要点",
+          "不适用 / 暂缓的情形"
+        ],
+        [
+          "热点雷达",
+          "选题靠人工刷平台",
+          "选题是否与业务相关、是否有转化场景",
+          "蹭错热点会损害专业信任"
+        ],
+        [
+          "RAG 知识库",
+          "通用模型跑偏和事实硬伤",
+          "内容是否来自指定资料、是否可追溯",
+          "没有资料时不要包装成权威观点"
+        ],
+        [
+          "创作工坊",
+          "专业内容不会平台化表达",
+          "同一知识能否生成多平台版本",
+          "标题党不适合专业服务"
+        ],
+        [
+          "视频工坊",
+          "出镜难、拍摄剪辑成本高",
+          "数字人、声音克隆是否有授权",
+          "敏感内容必须人工审片"
+        ],
+        [
+          "发布矩阵与数据面板",
+          "多账号分发和复盘靠人海",
+          "曝光、互动、线索、素材调用是否回写",
+          "只看播放量不能证明业务价值"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 1｜五个能力模块解决的问题、POC 验证点与不适用情形",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "五个模块之中，最容易被低估的一步是知识从入库到出库之间的判断环节。很多团队把注意力放在“生成得快不快”上，真正决定内容质量与安全的却是生成之前的两个问题：这份资料能不能引用，引用前要不要脱敏。资料先过这道关，再决定做成什么形态——事实清楚、已获授权的案例可以做成图文和口播，涉及客户隐私的先脱敏再进素材池，专业结论类内容则必须经过专业人士签发才能出库，形态的选择永远排在边界的确认之后。这个顺序一旦颠倒，生产得越快，风险积累得越快。下面这个“知识入库—内容出库”决策框架可以直接用在内部评估会上。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/social-grow-ai-content-marketing-agent/figure-03.png",
+      "sourceMedia": "/word/media/49770bb63e02b864138677bfbe7344f5e04407e6.png",
+      "sha256": "cf3fd9df47a25eeaed7d84c42687cb6393ddc56b9f1890664fef5c1a09a70c10",
+      "width": 1800,
+      "height": 820,
+      "caption": "图 3｜“知识入库—内容出库”决策框架：先确认引用与脱敏边界，再选择图文、口播或数字人视频等形态",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜“知识入库—内容出库”决策框架：先确认引用与脱敏边界，再选择图文、口播或数字人视频等形态",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "heading",
+      "text": "04｜与传统做法的差别：从人海战术到生产线",
+      "segments": [
+        {
+          "text": "04｜与传统做法的差别：从人海战术到生产线",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "与人工方式逐项对照，差别集中在五个环节。选题上，过去靠人工刷平台、凭个人经验判断热点值不值得跟，现在热点雷达按赛道聚合并直接生成草稿方向，选题时间被明显压缩；知识引用上，内容团队过去靠搜索和记忆写稿，事实硬伤在所难免，RAG 知识库把检索范围限定在指定资料内，写出来的每一个结论都可以追溯到出处；图文生产上，过去一稿一写，各平台调性难以统一，创作工坊能把同一份知识一键重构成公众号、小红书、短视频脚本等多个版本，素材复用率随之提升。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "视频生产和分发复盘的变化更为直观——真人出镜、拍摄、剪辑是一条漫长的链条，专业人士往往抽不出时间，数字人加声音克隆把成片周期压到了分钟级，出镜和制作成本大幅下降；分发复盘上，过去多账号人工发布、凭感觉判断效果，现在矩阵分发配合数据面板回流，投入产出变得可衡量。需要提醒一句：凡是涉及具体数值的效果表述，都应保留“公司口径 / 客户项目实测 / POC 示例”之类的限定语，并用自己的样本复核，直接照搬到内部汇报里是不严谨的。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "heading",
+      "text": "05｜适用与暂不适用：边界说清楚，项目才容易成功",
+      "segments": [
+        {
+          "text": "05｜适用与暂不适用：边界说清楚，项目才容易成功",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "边界诚实比过度承诺更有价值。适用的一侧包括三类团队：律师、咨询顾问、财税顾问等知识密集型专业服务机构，他们的获客高度依赖专业内容；需要把产品资料、案例和白皮书规模化转成内容的企业市场与品牌团队；以及希望提升人均交付账号数和内容质量稳定性的 MCN 与代运营服务商。暂不适用的一侧同样清楚——没有专业资料、没有服务定位、没有案例资产，却希望系统凭空生产权威内容的不能接；内容合规要求高却不配人工审核的不建议启动；只追求低质铺量、刷屏式矩阵、不在意品牌长期信任的，也应当先想清楚再来。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "如果不确定自己属于哪一类，可以按下面的决策树自查三个问题：手里有没有可用的资料资产，团队里有没有能承担审核职责的人，做内容是为了长期信任还是短期流量。三个问题全部为“是”，再启动 POC；命中任何一个红色分支，先补齐条件，不建议直接规模化。这组清单可以原样放进售前评估、采购问答和试点启动会，把边界写在合同之前，比事后解释要省力得多。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/social-grow-ai-content-marketing-agent/figure-04.png",
+      "sourceMedia": "/word/media/bf0b0b2d84722ca1c125587d49b22a9906a1e04b.png",
+      "sha256": "f8bac399bb7ed21aed42eafea33b9bc441e3bcb543e299a52e33f6b777ee97bb",
+      "width": 1800,
+      "height": 850,
+      "caption": "图 4｜适用 / 暂缓决策树：依次自查资料资产、人工审核能力和长期信任目标",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜适用 / 暂缓决策树：依次自查资料资产、人工审核能力和长期信任目标",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "heading",
+      "text": "06｜30 天跑通最小流程：可复制的执行清单",
+      "segments": [
+        {
+          "text": "06｜30 天跑通最小流程：可复制的执行清单",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "确认适用之后，POC 也不宜一上来就追求全量上线，更稳的做法是选一个边界清楚、责任人明确、结果可验收的流程，用真实但脱敏的样本运行，观察三件事：系统输出的质量到底如何，人工修改的工作量占比有多大，业务侧最终有没有拿到可感知的结果。赛道建议只选一个，资料五到十份即可，宁可窄而深，不要宽而浅——样本太杂会让复盘失去参照系，谁也说不清效果好坏究竟是产品原因还是选题原因。30 天的节奏可以拆成四个阶段，每个阶段都有明确的目标、交付物和通过标准，缺一项就说明该阶段没有真正完成，下表给出了完整的执行清单。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜30 天 POC 的四个阶段、交付物与通过标准",
+      "rows": [
+        [
+          "阶段",
+          "目标",
+          "交付物",
+          "通过标准"
+        ],
+        [
+          "资料准备",
+          "选择 1 个专业赛道和 5–10 份资料，含案例、文章、白皮书或录音",
+          "脱敏资料包、引用边界",
+          "资料可引用、可追溯"
+        ],
+        [
+          "内容生产",
+          "生成图文、短文、标题和口播脚本，完成多平台改写",
+          "内容初稿、多平台版本",
+          "专业人士可快速审核"
+        ],
+        [
+          "视频验证",
+          "用 1–3 条脚本生成数字人视频",
+          "视频样片、声音 / 肖像授权记录",
+          "画面、语气、事实均可接受"
+        ],
+        [
+          "发布复盘",
+          "小范围发布并观察曝光、互动、咨询和素材调用",
+          "数据面板、复盘清单",
+          "决定保留或调整栏目"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 2｜30 天 POC 的四个阶段、交付物与通过标准",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "复盘阶段建议把指标拆成效率、质量、经营、风险四类分别验收，避免只盯着播放量下结论。效率类看单篇产出时间和人均维护账号数，回答“生产是不是真的快了”；质量类看审核通过率和事实错误率，回答“快是不是以牺牲专业性为代价”；经营类看咨询线索数量、线索成本和素材复用率，回答“内容有没有转化成业务价值”；风险类看脱敏执行情况、授权完备度和平台违规记录，回答“规模化之后会不会埋雷”。四类指标合在一起，才能区分“数据好看”与“业务真的受益”，任何单一维度都可能给出误导性的结论，四类指标的具体构成见下图。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/social-grow-ai-content-marketing-agent/figure-05.png",
+      "sourceMedia": "/word/media/43b943a328b622047f2f3123dd2ababb0737dfc4.png",
+      "sha256": "4821d77690117dc37ef167b4cf97749032915c489eb6ba1ac8d194b714ff0267",
+      "width": 1800,
+      "height": 820,
+      "caption": "图 5｜POC 指标看板：效率、质量、经营、风险四类指标分别对应不同的验收问题",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜POC 指标看板：效率、质量、经营、风险四类指标分别对应不同的验收问题",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "heading",
+      "text": "07｜安全与合规：默认把高风险动作交给人",
+      "segments": [
+        {
+          "text": "07｜安全与合规：默认把高风险动作交给人",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "人机分工的原则并不复杂：高频、重复、可规则化的动作交给系统先处理，比如热点聚合、多平台改写、初稿生成和数据统计，这些工作靠人力做既慢又难以保证口径一致；而事实高度争议、责任重大、需要专业签字或客户授权的动作，一律保留人工兜底——专业结论的签发、案例脱敏的确认、肖像与声音授权的审批、敏感内容的审片，默认由人来完成，系统只提供草案和线索，不替人做最终决定。这条边界画得越清楚，系统的产出团队越敢用，人的精力也越能集中在真正需要判断力的环节上；反过来，如果边界模糊，要么所有产出都要人工重审一遍导致效率归零，要么高风险内容未经把关直接发布，两种结局都会让项目失去内部信任。下图给出了系统职责与人工职责的具体划分。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/social-grow-ai-content-marketing-agent/figure-06.png",
+      "sourceMedia": "/word/media/e8366280797ae926b25bf7c6cb1bd813adc6dc14.png",
+      "sha256": "ea0aa494fad825e80188a719457574e74abe09b777a0a2ac6151a7a2e94e8e40",
+      "width": 1415,
+      "height": 605,
+      "caption": "图 6｜人机分工边界：系统负责热点聚合与多平台改写等高频环节，专业签发、脱敏、授权与审片默认由人确认",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜人机分工边界：系统负责热点聚合与多平台改写等高频环节，专业签发、脱敏、授权与审片默认由人确认",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "在这一分工之下，落地时至少要守住四个治理维度。专业内容审核是第一道关，法律、金融、医疗、财税类内容不得未经专业人士确认就以专业结论的名义发布，这直接关系客户是否被误导；案例与隐私方面，客户案例必须脱敏，敏感信息不进入公开素材池，保护的既是客户也是机构自身的声誉；数字人授权方面，肖像、声音克隆和脚本的使用范围都要有明确授权记录，人格权和版权风险才压得住；平台发布方面，广告法、引流规则、版权要求、事实表述规范和各平台内容规则都要遵守，账号是内容资产的载体，经不起违规折腾。可以参照的合规框架包括 GDPR、各内容平台规则、生成式内容可靠性要求，以及中国《个人信息保护法》《数据安全法》——这些只是参照而非法律意见，项目落地时应由客户方的法务、合规和信息安全团队结合所在法域复核。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "heading",
+      "text": "08｜如何开始：用一个最小组合跑首轮 POC",
+      "segments": [
+        {
+          "text": "08｜如何开始：用一个最小组合跑首轮 POC",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "比较务实的起步方式，是用“一个赛道 + 5–10 份资料 + 3 个平台版本 + 1 条数字人视频”这个最小组合跑首轮 POC，把资料入库、内容生成、视频验证和发布复盘完整走一遍，亲眼看到自己的知识资产变成可发布的内容，再据此判断值不值得扩展。演示只能说明能力边界，POC 才能说明业务价值，先跑通一个最小流程，再决定是否向更多团队、区域、渠道或产品线延伸，这个顺序在绝大多数项目里都被验证是对的。如果想评估 Social Grow AI 是否匹配自身业务，可以访问灵宸智能官网 www.lingchen-ai.com 了解产品详情，或直接致电 18621786899 联系团队，获取试点方案与脱敏样本模板，从一份可验收的最小流程开始，把沉睡的专业资料真正经营成内容资产。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

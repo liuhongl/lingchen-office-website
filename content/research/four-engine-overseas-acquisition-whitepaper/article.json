@@ -1,0 +1,1278 @@
+{
+  "slug": "four-engine-overseas-acquisition-whitepaper",
+  "category": "解决方案&白皮书",
+  "displayTitle": null,
+  "sourceTitle": "四引擎出海获客体系白皮书",
+  "summary": "摘要：四引擎出海获客体系是一套围绕跨境 B2B 增长链路设计的协同方法，它以统一的理想客户画像（ICP）、品牌证据库和 CRM 数据口径为底座，由 Sales in 负责识别高匹配账户并形成可解释的优先级，Mine GEO 负责品牌 GEO（生成式引擎优化），治理品牌在 AI 答案入口中的可见度、推荐表现与引用信源，Social Grow 负责把专业知识转化为可复用的多平台内容，AI 获客 Harness 负责按客户阶段编排邮件、LinkedIn、外呼与短信，并将互动结果回写销售流程；四个引擎并非四套彼此独立的工具，而是一条从“找到客户”到“建立信任”、再到“持续触达和商机复盘”的业务链路。",
+  "publishedAt": null,
+  "sourceDocx": "四引擎出海获客体系白皮书.docx",
+  "sourceDocxSha256": "8c130097470dd37115c6c8a6ea1e9095675f054cd568c0bed25e80e9ea3e6983",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "四引擎出海获客体系白皮书",
+      "segments": [
+        {
+          "text": "四引擎出海获客体系白皮书",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 25.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 560,
+        "spaceAfterTwips": 120,
+        "alignment": "center",
+        "fontSizePt": 25.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "——从客户识别、品牌 GEO、内容传播到多触点转化",
+      "segments": [
+        {
+          "text": "——从客户识别、品牌 GEO、内容传播到多触点转化",
+          "color": "#3F5366",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 360,
+        "alignment": "center",
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "abstract",
+      "text": "摘要：四引擎出海获客体系是一套围绕跨境 B2B 增长链路设计的协同方法，它以统一的理想客户画像（ICP）、品牌证据库和 CRM 数据口径为底座，由 Sales in 负责识别高匹配账户并形成可解释的优先级，Mine GEO 负责品牌 GEO（生成式引擎优化），治理品牌在 AI 答案入口中的可见度、推荐表现与引用信源，Social Grow 负责把专业知识转化为可复用的多平台内容，AI 获客 Harness 负责按客户阶段编排邮件、LinkedIn、外呼与短信，并将互动结果回写销售流程；四个引擎并非四套彼此独立的工具，而是一条从“找到客户”到“建立信任”、再到“持续触达和商机复盘”的业务链路。",
+      "segments": [
+        {
+          "text": "摘要：",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "四引擎出海获客体系是一套围绕跨境 B2B 增长链路设计的协同方法，它以统一的理想客户画像（ICP）、品牌证据库和 CRM 数据口径为底座，由 Sales in 负责识别高匹配账户并形成可解释的优先级，Mine GEO 负责品牌 GEO（生成式引擎优化），治理品牌在 AI 答案入口中的可见度、推荐表现与引用信源，Social Grow 负责把专业知识转化为可复用的多平台内容，AI 获客 Harness 负责按客户阶段编排邮件、LinkedIn、外呼与短信，并将互动结果回写销售流程；四个引擎并非四套彼此独立的工具，而是一条从“找到客户”到“建立信任”、再到“持续触达和商机复盘”的业务链路。",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 120,
+        "lineTwips": 336,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 160,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#EEF5FB",
+        "leftBorder": {
+          "color": "#9FB5C8",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "keywords",
+      "text": "关键词：四引擎出海获客体系、出海获客、跨境 B2B 主动开发、品牌 GEO、AI 答案入口、内容矩阵、多触点触达、CRM 回流。",
+      "segments": [
+        {
+          "text": "关键词：",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "四引擎出海获客体系、出海获客、跨境 B2B 主动开发、品牌 GEO、AI 答案入口、内容矩阵、多触点触达、CRM 回流。",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 100,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "leftTwips": 160,
+        "rightTwips": 160,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "核心观点：出海企业真正缺少的通常不是更多名单、更多文章或更多自动化动作，而是让客户识别、品牌证据、内容传播和销售承接使用同一套事实、同一套优先级和同一套验收口径；只有当每个环节都能说明输入来自哪里、输出交给谁、结果如何回写，增长才具备复制和扩大的条件，本文将这套协同结构命名为“出海增长四引擎作战图”。",
+      "segments": [
+        {
+          "text": "核心观点：",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "出海企业真正缺少的通常不是更多名单、更多文章或更多自动化动作，而是让客户识别、品牌证据、内容传播和销售承接使用同一套事实、同一套优先级和同一套验收口径；只有当每个环节都能说明输入来自哪里、输出交给谁、结果如何回写，增长才具备复制和扩大的条件，本文将这套协同结构命名为“出海增长四引擎作战图”。",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 120,
+        "lineTwips": 336,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 160,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#EEF5FB",
+        "leftBorder": {
+          "color": "#9FB5C8",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "heading",
+      "text": "一、出海获客需要重构的不是渠道数量，而是客户决策链路",
+      "segments": [
+        {
+          "text": "一、出海获客需要重构的不是渠道数量，而是客户决策链路",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "许多团队同时做展会、搜索广告、社交媒体、邮件开发和渠道合作，表面上动作充足，实际却常在四处漏损：销售不知道哪些账户最值得投入，潜在客户在 AI 问答中看不到品牌或看到过时信息，市场内容难以持续支撑客户判断，多渠道触达又没有统一节奏与记录；这些问题会相互放大，名单越多，低质量跟进越多，内容越多，口径冲突越难控制，自动化越快，错误也传播得越快，四引擎体系的出发点，是先把这四类断点放在一张图上看清楚，再决定哪些动作由系统标准化，哪些判断必须由人承担。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "e3be15a7c91130e44f6b3780907de717e4c6f190ddfdae919b43114b0751b4fa",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 1｜出海获客的四类增长断点：目标客户、AI 信任、内容供给与触达承接的问题往往同时存在",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜出海获客的四类增长断点：目标客户、AI 信任、内容供给与触达承接的问题往往同时存在",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-011",
+      "type": "heading",
+      "text": "二、四个引擎各负其责，但必须共享同一套业务底座",
+      "segments": [
+        {
+          "text": "二、四个引擎各负其责，但必须共享同一套业务底座",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "Sales in、Mine GEO、Social Grow 与 AI 获客 Harness 的边界需要在项目启动前写清楚：Sales in 对“找谁”负责，输出可解释的账户优先级与客户洞察；Mine GEO 对“客户在 AI 答案里如何认识品牌”负责，输出问题集基线、事实偏差、推荐表现和信源清单；Social Grow 对“把哪些证据转成什么内容”负责，输出可追溯的图文、长文、视频脚本与渠道版本；Harness 对“何时通过什么触点继续对话”负责，输出分阶段触达节奏、互动记录和销售接管信号，四个引擎之间不以文件转发为协同方式，而以统一账户 ID、知识条目 ID、内容版本号和 CRM 字段为连接方式；这样才能判断某次回复究竟来自客户选择更准、品牌信任更强、内容更贴近需求，还是跟进时点更合适。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "下表将四个引擎的任务、标准输出与人工确认点放在同一口径下，便于管理层在立项、验收和复盘时直接对照。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜四个引擎的职责、标准输出与人工确认点",
+      "rows": [
+        [
+          "引擎",
+          "主要任务",
+          "标准输出",
+          "人工确认点"
+        ],
+        [
+          "Sales in",
+          "定义 ICP，发现、评分账户并生成洞察",
+          "优先级账户池、评分依据、信号来源、切入建议",
+          "市场与交付边界、战略账户、敏感关系"
+        ],
+        [
+          "Mine GEO",
+          "建立 AI 问题集，治理事实与信源，监测推荐表现",
+          "可见度基线、事实偏差、信源清单、复测记录",
+          "争议表述、竞品比较、案例与数据"
+        ],
+        [
+          "Social Grow",
+          "把审核证据转为多平台内容并管理版本",
+          "长文、案例、图文、视频脚本、销售素材",
+          "品牌语气、专业准确性、发布时机"
+        ],
+        [
+          "AI 获客 Harness",
+          "按客户阶段编排触达并回写 CRM",
+          "触达节奏、互动时间轴、接管信号",
+          "频次、报价合同、投诉与例外"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 1｜四个引擎的职责、标准输出与人工确认点",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "heading",
+      "text": "三、先统一 ICP 与品牌证据库，再启动自动化",
+      "segments": [
+        {
+          "text": "三、先统一 ICP 与品牌证据库，再启动自动化",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "四引擎协同的第一项工作，不是接入更多平台，而是建立两份共同底稿，第一份是 ICP，它不仅包含行业、区域、规模和岗位，还要写明采购触发信号、不可服务条件、竞品绑定、合规限制与优先级权重；第二份是品牌证据库，它集中管理公司事实、产品边界、案例、资质、交付能力、售后范围、公开数据和可引用来源，并为每条信息设置责任人、更新时间与适用市场，ICP 决定系统去哪里找、先找谁，证据库决定品牌能够说什么、由什么材料证明；两者一旦分散，销售会追错客户，内容会出现口径冲突，AI 答案入口也更容易引用旧信息。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "统一底座还需要一套稳定的数据标识：账户、联系人、问题、知识条目、内容、触达和商机各有唯一 ID，新增或修改都留版本记录；市场、销售、产品和法务在同一字段上协作，而不是各自维护一份表格，这样做看似比“直接上线”慢了一步，却能显著减少后续返工，并为模型监测、内容归因和销售复盘提供可信基础。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "907aac307d3a3f284cd4c671939f643bd9be459ce73a82f489878561643c44e6",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 2｜统一增长底座：ICP、品牌证据库、账户标识与数据权限共同连接四个引擎",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜统一增长底座：ICP、品牌证据库、账户标识与数据权限共同连接四个引擎",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "heading",
+      "text": "四、从市场问题到商机复盘，链路要能逐节点检查",
+      "segments": [
+        {
+          "text": "四、从市场问题到商机复盘，链路要能逐节点检查",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "完整的运行链路可以拆成八个节点：先从销售、客服、展会和搜索记录中提取真实客户问题，形成按购买阶段排序的问题集；再依据 ICP 发现并评分目标账户，同时审计这些问题下的品牌与竞品表现；随后把事实缺口补进证据库，由 Social Grow 生成匹配不同场景的内容资产，Harness 按客户阶段安排首触、培育和唤醒；当账户出现明确互动、业务需求或会议意愿时，由销售接管并记录结果，最终把回复、商机、丢单原因和错误事实回写前端规则。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "这条链路的管理原则是“节点可质询”：每一步都应能回答数据从哪里来、谁负责审核、输出交给哪个角色、失败后回到哪一层修改；若某一步只有动作数量，没有输入依据和结果记录，就不应急于扩大自动化，经过这种拆解，管理层看到的不再是一张笼统的营销漏斗，而是可以定位责任、比较版本并持续优化的作业流程。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "74a03097f9cc6f5d7f8d0894cc14725ce6064857ee0255b554bbd5c921b7f993",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 3｜从真实问题集到结果回写的八个节点：每一步都需要输入、输出、责任人与版本记录",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜从真实问题集到结果回写的八个节点：每一步都需要输入、输出、责任人与版本记录",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "heading",
+      "text": "五、Sales in：把“找更多名单”改成“识别更值得投入的账户”",
+      "segments": [
+        {
+          "text": "五、Sales in：把“找更多名单”改成“识别更值得投入的账户”",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "Sales in 的价值不在于扩大名单规模，而在于把成交经验转化为可解释的筛选规则，项目开始时，销售、市场与交付团队需要共同复盘已成交客户、长期停滞客户和明确丢单客户，从中提取行业适配度、区域可服务性、企业规模、采购信号、技术条件、渠道角色和负向排除项；系统据此完成多源发现、去重富化与评分排序，并为每个高优先级账户保留评分依据、信号来源和更新时间，销售拿到的不是一串公司名称，而是一份“为什么值得跟进、应该从哪里切入、哪些表述仍需核实”的账户卡片。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "人工判断仍然不可省略：战略客户、复杂集团关系、竞品独家绑定、敏感身份和交付边界必须由负责人确认；模型评分也不能只以打开率或回复率自我强化，而要持续吸收商机质量、成交周期和丢单原因，只有当优先级与真实销售结果形成稳定对应，Sales in 才具备跨国家、跨行业复制的价值。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "ee0946f99517a66c37c92a675ecb0391423b5b8f9c51cf2378e5b6b231804841",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 4｜Sales in 账户评分漏斗：从候选账户池逐层筛选到可解释的高优先级账户",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜Sales in 账户评分漏斗：从候选账户池逐层筛选到可解释的高优先级账户",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "heading",
+      "text": "六、Mine GEO：让品牌在 AI 答案入口中被正确理解并进入推荐候选",
+      "segments": [
+        {
+          "text": "六、Mine GEO：让品牌在 AI 答案入口中被正确理解并进入推荐候选",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "在越来越多的采购与选型场景中，客户会先向生成式 AI 询问供应商、产品差异、实施风险和选型建议，因此 GEO 不宜被当作传统搜索优化的附属动作，而应纳入品牌信任建设的常态流程，Mine GEO 先用一组来自真实客户语境的问题，在多个 AI 平台建立可见度、推荐率、排序、引用来源和表述倾向基线；随后把错误事实、缺失证据、过时资料和低可信信源逐项登记，回到品牌证据库补齐产品边界、案例、资质、适用场景与第三方证明，再通过官网、行业媒体、专业目录和公开内容形成相互印证的信源网络。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "GEO 的目标不是诱导模型重复广告语，而是让可验证事实更容易被发现、理解和引用；因此每次治理都要记录问题、平台、答案时间、引用页面、修订动作和复测结果，并对竞品比较、法律承诺、性能数据和客户案例设置人工审核，企业越早建立这套机制，越能减少 AI 入口中的信息缺席和口径漂移，也越容易把品牌预认知接入后续销售对话。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "30da8acffa97a2537b33629d636b38a6f516de28fec62cdda1eb31440a1c9d0f",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 5｜Mine GEO 证据链：从真实客户问题建立基线，通过事实治理与权威分发持续复测",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜Mine GEO 证据链：从真实客户问题建立基线，通过事实治理与权威分发持续复测",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "heading",
+      "text": "七、Social Grow：把专业证据变成可持续复用的内容资产",
+      "segments": [
+        {
+          "text": "七、Social Grow：把专业证据变成可持续复用的内容资产",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "出海内容的难点往往不是缺少选题，而是知识分散、生产节奏不稳、不同平台重复从零开始，Social Grow 应以品牌证据库和客户问题集为源头，将一项经过审核的专业事实拆解为多层内容：长文负责说明背景、方法和边界，案例页负责提供过程与证据，图文负责呈现关键结论，短视频脚本负责降低理解门槛，销售素材负责支持一对一沟通；各版本共享同一知识条目和版本号，更新产品参数或交付口径时，可以同步追踪受影响的内容，而不是逐篇人工寻找。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "内容评价也不应只看发布数量和曝光量，更要看它是否覆盖高价值问题、是否被销售复用、是否进入权威信源、是否改善 AI 答案表述，以及是否推动目标账户进入下一阶段；通过这种“一个证据、多种表达、统一回写”的方式，内容团队从临时赶稿转为经营长期资产，市场与销售也能围绕同一组事实展开沟通。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "041dc8e3b4546d017a9105eaebfd51cf99cb4975eb268c80bee3642f7af7148e",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 6｜Social Grow 内容资产地图：一项经审核的专业证据可转化为多种渠道表达",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜Social Grow 内容资产地图：一项经审核的专业证据可转化为多种渠道表达",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "heading",
+      "text": "八、AI 获客 Harness：按客户阶段编排多触点节奏",
+      "segments": [
+        {
+          "text": "八、AI 获客 Harness：按客户阶段编排多触点节奏",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "paragraph",
+      "text": "邮件、LinkedIn、外呼和短信各有适用场景，真正需要统一的不是发送工具，而是客户阶段、触发条件和停止规则，Harness 以账户优先级、互动信号和内容主题为输入，为冷启动、初步兴趣、资料阅读、会议意向、沉默唤醒等阶段配置不同节奏；每次触达都关联具体内容与业务目的，客户回复、退订、拒绝、转介绍或会议结果按账户 ID 汇总到时间轴，销售能够看见前序沟通，而不是在接管后重新询问一遍。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "系统可以执行重复、标准和可审计的动作，却不能替代报价、合同、争议处理和关键承诺；当出现负面回复、敏感身份、低置信度洞察、频次上限或跨境数据疑问时，流程应自动暂停并转人工确认，多触点编排的成效也不能只看发送量，应结合正向回复、会议质量、销售接管时长、重复触达率和退出机制执行情况综合判断。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "8547aa1456a72a4ed857c1dd40d08d68f7c860222bc1f57e6fd868c09ccb74e0",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 7｜AI 获客 Harness 多触点节奏：邮件、LinkedIn、外呼与短信按客户阶段协同",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 7｜AI 获客 Harness 多触点节奏：邮件、LinkedIn、外呼与短信按客户阶段协同",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-046",
+      "type": "heading",
+      "text": "九、数据飞轮：让每一次结果都能修正下一轮市场选择",
+      "segments": [
+        {
+          "text": "九、数据飞轮：让每一次结果都能修正下一轮市场选择",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "paragraph",
+      "text": "四引擎真正形成体系，取决于结果是否回到前端，Sales in 产生的账户评分需要接受销售结果校验，Mine GEO 发现的事实缺口要进入证据库更新，Social Grow 的内容表现要反哺问题优先级，Harness 的回复与拒绝原因要调整触达节奏；与此同时，商机创建、成交、丢单、投诉和人工纠错都应进入统一复盘库，管理层据此可以区分市场选择错误、客户画像偏差、品牌证据不足、内容表达不清和触达时机不当，而不是把所有问题归结为“线索质量不好”。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "为了避免数据飞轮变成新的报表负担，字段设计应坚持少而关键：每个字段都要对应一个决策，明确填写角色、取值范围和使用频率；无法影响筛选、内容、触达或销售接管的字段，应谨慎增加，周度复盘关注异常与动作，月度复盘比较版本和市场，季度复盘决定扩张、收缩或重新定义 ICP；这样数据才会推动经营，而不是停留在看板展示。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-08.png",
+      "sourceMedia": "/word/media/image8.png",
+      "sha256": "160ac704bcdf6d54545911b98d6b07ab03996242b023cdd7cfd35836328ccdfe",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 8｜四引擎数据飞轮：账户、AI 审计、内容、触达与商机结果持续回到 ICP 和问题集",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 8｜四引擎数据飞轮：账户、AI 审计、内容、触达与商机结果持续回到 ICP 和问题集",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "heading",
+      "text": "十、实施顺序：先用小样本跑通，再按证据扩展",
+      "segments": [
+        {
+          "text": "十、实施顺序：先用小样本跑通，再按证据扩展",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "paragraph",
+      "text": "四引擎项目不适合一开始同时覆盖多个国家、行业、语言和产品线，否则任何指标变化都难以归因，更稳妥的路径是分为 POC、试点和规模化三个阶段：POC 选择一个目标市场与一条产品线，完成 ICP、问题集、证据库和基础触达节奏，先证明数据与流程能够跑通；试点阶段扩大账户样本，联动 GEO 治理、内容生产和多触点培育，验证回复、推荐表现与商机质量是否同步改善；规模化阶段再接入更多市场、团队和渠道，把权限、版本、SLA 与 CRM 字段固化为组织标准。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-053",
+      "type": "paragraph",
+      "text": "每个阶段都要设进入条件和退出条件，不能因为某个单点指标好看就直接扩面；例如 AI 可见度提升但销售对话没有改善，说明仍需检查问题集或转化路径，回复率上升但负面反馈同步增加，则应先调整筛选与频次，下表给出一套可用于立项讨论的阶段安排，具体周期和样本量应按企业销售周期、市场复杂度与数据准备度校准。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜POC、试点与规模化的实施范围、交付物与通过条件",
+      "rows": [
+        [
+          "阶段",
+          "范围与参考周期",
+          "核心动作及交付物",
+          "通过条件"
+        ],
+        [
+          "POC",
+          "1—4 周；1 个市场、1 条产品线、30—80 个问题及可解释账户样本",
+          "ICP、问题集与证据库盘点；账户与 AI 基线；基础触达节奏",
+          "数据与关键流程可运行；输出可复核、可回写"
+        ],
+        [
+          "试点",
+          "第 5—8 周；扩大样本并联动四个引擎",
+          "账户质量、GEO、内容、触达与商机联动报告",
+          "结果改善、风险不恶化；接管与复核负担可接受"
+        ],
+        [
+          "规模化",
+          "第 9 周起；扩展市场、语言、产品线与团队",
+          "权限、版本、SLA、CRM 字段及跨市场运营手册",
+          "指标稳定、流程可复制、异常可定位、结果持续反哺"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 2｜POC、试点与规模化的实施范围、交付物与通过条件",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-056",
+      "type": "heading",
+      "text": "十一、POC 的关键不是展示功能，而是建立可复现的判断门槛",
+      "segments": [
+        {
+          "text": "十一、POC 的关键不是展示功能，而是建立可复现的判断门槛",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "paragraph",
+      "text": "一个合格的 POC 至少要通过三道门，第一道是数据准备门：目标市场、产品边界、排除规则、品牌事实和数据权限是否清楚，缺少这些条件时，系统输出越多，后续清理成本越高；第二道是流程运行门：账户发现、GEO 审计、内容生成、触达记录和销售接管能否沿统一 ID 贯通，任何节点断裂都意味着无法归因；第三道是业务结果门：高匹配账户比例、AI 答案改善、内容复用、正向回复和商机质量是否达到双方事先约定的区间，同时风险指标保持可控。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-058",
+      "type": "paragraph",
+      "text": "POC 评审应同时保留正向样本和 Badcase，尤其关注“为什么没有效果”：是问题集不代表真实需求，还是证据不足、内容位置不对、触达节奏过快，抑或销售接管延迟；只有能对失败样本提出可验证的修正方案，项目才具备继续投入的价值，门槛一旦通过，再扩大国家、语言和样本量，能够明显降低预算浪费与组织摩擦。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-09.png",
+      "sourceMedia": "/word/media/image9.png",
+      "sha256": "e375eec9dcd911b7b08dc12ae140a0a5095618da58458cbf5a2e5b37c9406b49",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 9｜POC 三道判断门：数据准备、流程贯通与业务结果全部通过后再进入试点",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 9｜POC 三道判断门：数据准备、流程贯通与业务结果全部通过后再进入试点",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-061",
+      "type": "heading",
+      "text": "十二、验收指标：同时观察结果、过程、质量与风险",
+      "segments": [
+        {
+          "text": "十二、验收指标：同时观察结果、过程、质量与风险",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-062",
+      "type": "paragraph",
+      "text": "四引擎项目不能用单一曝光量、发送量或回复率验收，结果层要看高匹配账户、正向回复、有效会议、商机创建和成交贡献；过程层要看数据完整率、内容按期交付、销售接管时长与 CRM 回写率；质量层要看账户评分可解释性、品牌事实一致性、AI 引用信源质量、内容复用率和会议有效性；风险层则关注重复触达、退出机制、负面回复、错误事实、权限审计和人工兜底记录，四层指标同时观察，才能避免“业务数字上涨，品牌与合规成本也同步上升”的假增长。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "paragraph",
+      "text": "所有阈值都应在项目开始前定义，并注明属于企业内部基线、项目实测还是示意目标，不能把单个客户或单一市场的表现改写成普遍承诺；当结果指标改善而风险指标恶化时，应先回到规则与人工边界，不应直接扩大样本，下表提供一组可落地的指标口径，企业可以结合销售周期和既有数据成熟度做取舍。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表 3｜四引擎项目的结果、过程、质量与风险指标口径",
+      "rows": [
+        [
+          "指标层",
+          "建议指标",
+          "主要数据来源",
+          "解释重点"
+        ],
+        [
+          "结果",
+          "高匹配账户、正向回复、有效会议、商机创建、成交贡献",
+          "CRM、销售记录、项目台账",
+          "判断是否形成真实业务价值，不以单次波动下结论"
+        ],
+        [
+          "过程",
+          "数据完整率、内容按期交付率、销售接管时长、CRM 回写率",
+          "系统日志、内容台账、CRM",
+          "判断流程是否能够持续运行与管理"
+        ],
+        [
+          "质量",
+          "评分可解释性、品牌事实一致性、AI 信源质量、内容复用率、会议有效性",
+          "抽样复核、GEO 看板、内容库、会议纪要",
+          "判断输出是否准确、可信且能够被业务采用"
+        ],
+        [
+          "风险",
+          "重复触达率、退订与负面回复、错误事实、权限审计、人工兜底记录",
+          "触达日志、审计记录、投诉与纠错台账",
+          "结果改善但风险恶化时，应暂停扩面并修正规则"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 3｜四引擎项目的结果、过程、质量与风险指标口径",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-066",
+      "type": "heading",
+      "text": "十三、风险边界：自动化越深入，人工责任越要明确",
+      "segments": [
+        {
+          "text": "十三、风险边界：自动化越深入，人工责任越要明确",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-067",
+      "type": "paragraph",
+      "text": "出海获客涉及联系人数据、跨境通信、品牌表述、竞品比较、价格交付和合同承诺，合规不能只写在文章结尾，而要嵌入流程，建议设置六道闸门：数据准入核查来源与使用目的，规则配置明确目标市场与排除条件，内容审核确认事实、案例和比较口径，频次控制限制重复触达与渠道冲突，留痕审计记录版本、审批和操作，人工兜底处理投诉、争议、低置信度以及法律或商业承诺；任何高风险信号出现时，自动流程都应暂停，而不是继续追求发送速度。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-068",
+      "type": "paragraph",
+      "text": "人工兜底也要有明确责任人和响应时限：产品团队确认能力边界，市场与公关确认公开表述，销售确认客户关系与商务承诺，法务或合规人员处理数据、合同和争议事项；系统提供提醒、证据和日志，但最终判断由具备授权的人完成，只有把责任边界写进流程，四引擎体系才能在提高效率的同时守住品牌信誉与长期客户关系。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-10",
+      "type": "figure",
+      "src": "/images/research/four-engine-overseas-acquisition-whitepaper/figure-10.png",
+      "sourceMedia": "/word/media/image10.png",
+      "sha256": "976b83e64c6ad2be9047d39da099dbd2f0f6762a372afafbb60d646c8aed804c",
+      "width": 1419,
+      "height": 794,
+      "caption": "图 10｜六道合规闸门：数据、规则、内容、频次、留痕和人工兜底共同约束自动流程",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 20,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 10｜六道合规闸门：数据、规则、内容、频次、留痕和人工兜底共同约束自动流程",
+          "color": "#586674",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 100,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-071",
+      "type": "heading",
+      "text": "十四、适用范围与启动建议",
+      "segments": [
+        {
+          "text": "十四、适用范围与启动建议",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-072",
+      "type": "paragraph",
+      "text": "四引擎体系更适合产品与交付能力相对清晰、目标市场已有初步假设、销售愿意使用统一 CRM 口径，并希望把零散获客升级为体系化增长的出海制造、跨境 B2B、SaaS 与专业服务企业；若产品定位频繁变化、缺少基础英文资料、没有销售承接能力，或希望依赖违规采集和骚扰式群发快速拿结果，应先补齐经营基础，而不是急于扩大自动化。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-073",
+      "type": "paragraph",
+      "text": "实际启动可以从一个市场、一条产品线和一组高价值问题开始：第一周完成 ICP、排除规则、问题集与证据库盘点；第二周建立账户与 AI 可见度基线，确认优先修正项；第三至第四周生成首批内容并运行分阶段触达，让销售在统一时间轴接管高意向账户；随后依据高匹配账户、品牌推荐表现、内容复用、正向回复、商机质量和风险记录决定是否进入试点，这个顺序既能尽快看到真实反馈，也能避免在口径未统一时把错误成倍放大。",
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-074",
+      "type": "paragraph",
+      "text": "结语：出海增长不缺渠道，缺少的是把客户、事实、内容和销售动作放进同一套经营系统；Sales in 识别值得投入的账户，Mine GEO 让品牌在 AI 答案入口被准确理解并获得更稳定的推荐机会，Social Grow 把专业证据转化为传播资产，AI 获客 Harness 把不同触点编排为可追踪旅程，四个引擎共享底座并持续回写结果，企业才能获得可解释、可复盘、可扩展的海外增长。",
+      "segments": [
+        {
+          "text": "结语：",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "出海增长不缺渠道，缺少的是把客户、事实、内容和销售动作放进同一套经营系统；Sales in 识别值得投入的账户，Mine GEO 让品牌在 AI 答案入口被准确理解并获得更稳定的推荐机会，Social Grow 把专业证据转化为传播资产，AI 获客 Harness 把不同触点编排为可追踪旅程，四个引擎共享底座并持续回写结果，企业才能获得可解释、可复盘、可扩展的海外增长。",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 120,
+        "lineTwips": 336,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 160,
+        "rightTwips": 160,
+        "alignment": "both",
+        "backgroundColor": "#EEF5FB",
+        "leftBorder": {
+          "color": "#9FB5C8",
+          "sizeEighthPoints": 18,
+          "spacePoints": 8
+        },
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-075",
+      "type": "paragraph",
+      "text": "下一步建议：先用一个市场、一条产品线完成联合诊断与 POC，再依据账户质量、AI 推荐表现、内容复用、商机和风险记录决定是否规模化；灵宸智能官网 www.lingchen-ai.com，电话 18621786899。",
+      "segments": [
+        {
+          "text": "下一步建议：",
+          "bold": true,
+          "color": "#173F67",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "先用一个市场、一条产品线完成联合诊断与 POC，再依据账户质量、AI 推荐表现、内容复用、商机和风险记录决定",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "是否规模化",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "；",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "灵宸智能",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "官网 www.lingchen-ai.com，电话 18621786899。",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "lineTwips": 355,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    }
+  ]
+}

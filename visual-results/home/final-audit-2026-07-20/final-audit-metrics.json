@@ -1,0 +1,499 @@
+[
+  {
+    "name": "desktop-1440",
+    "width": 1440,
+    "height": 900,
+    "full": "/Users/liuhongli/Desktop/lingchen/lingchen-office-website/visual-results/home/final-audit-2026-07-20/desktop-1440-fullpage.png",
+    "top": "/Users/liuhongli/Desktop/lingchen/lingchen-office-website/visual-results/home/final-audit-2026-07-20/desktop-1440-top.png",
+    "metrics": {
+      "url": "http://127.0.0.1:3000/",
+      "title": "灵宸智能｜让 AI Agent 成为企业增长的新质生产力",
+      "viewport": {
+        "innerWidth": 1440,
+        "innerHeight": 900,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "fullHeight": 3844
+      },
+      "key": {
+        "header": {
+          "sel": ".site-header",
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 66,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(255, 255, 255, 0.92)"
+        },
+        "nav": {
+          "sel": ".site-nav",
+          "x": 513,
+          "y": 14,
+          "width": 509,
+          "height": 38,
+          "display": "flex",
+          "fontSize": "13px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "menuToggle": {
+          "sel": ".menu-toggle",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "none",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "hero": {
+          "sel": ".hero",
+          "x": 0,
+          "y": 66,
+          "width": 1440,
+          "height": 620,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "heroCard": {
+          "sel": ".hero__statement-card",
+          "x": 365,
+          "y": 357,
+          "width": 710,
+          "height": 108,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(255, 255, 255, 0.78)"
+        },
+        "problems": {
+          "sel": ".problems",
+          "x": 0,
+          "y": 686,
+          "width": 1440,
+          "height": 709,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgb(234, 245, 255)"
+        },
+        "problemsLayout": {
+          "sel": ".problems-layout",
+          "x": 110,
+          "y": 758,
+          "width": 1220,
+          "height": 533,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "valueGrid": {
+          "sel": ".value-grid",
+          "x": 130,
+          "y": 1663,
+          "width": 1180,
+          "height": 214,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "agentRing": {
+          "sel": ".agent-ring",
+          "x": 160,
+          "y": 2295,
+          "width": 1120,
+          "height": 680,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "footer": {
+          "sel": ".site-footer",
+          "x": 0,
+          "y": 3543,
+          "width": 1440,
+          "height": 301,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgb(5, 15, 35)"
+        }
+      },
+      "wide": []
+    }
+  },
+  {
+    "name": "tablet-980",
+    "width": 980,
+    "height": 900,
+    "full": "/Users/liuhongli/Desktop/lingchen/lingchen-office-website/visual-results/home/final-audit-2026-07-20/tablet-980-fullpage.png",
+    "top": "/Users/liuhongli/Desktop/lingchen/lingchen-office-website/visual-results/home/final-audit-2026-07-20/tablet-980-top.png",
+    "metrics": {
+      "url": "http://127.0.0.1:3000/",
+      "title": "灵宸智能｜让 AI Agent 成为企业增长的新质生产力",
+      "viewport": {
+        "innerWidth": 980,
+        "innerHeight": 900,
+        "clientWidth": 980,
+        "scrollWidth": 980,
+        "bodyScrollWidth": 980,
+        "fullHeight": 4495
+      },
+      "key": {
+        "header": {
+          "sel": ".site-header",
+          "x": 0,
+          "y": 0,
+          "width": 980,
+          "height": 66,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(255, 255, 255, 0.92)"
+        },
+        "nav": {
+          "sel": ".site-nav",
+          "x": 370,
+          "y": 15,
+          "width": 458,
+          "height": 36,
+          "display": "flex",
+          "fontSize": "12px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "menuToggle": {
+          "sel": ".menu-toggle",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "none",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "hero": {
+          "sel": ".hero",
+          "x": 0,
+          "y": 66,
+          "width": 980,
+          "height": 620,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "heroCard": {
+          "sel": ".hero__statement-card",
+          "x": 135,
+          "y": 325,
+          "width": 710,
+          "height": 108,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(255, 255, 255, 0.78)"
+        },
+        "problems": {
+          "sel": ".problems",
+          "x": 0,
+          "y": 686,
+          "width": 980,
+          "height": 1138,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgb(234, 245, 255)"
+        },
+        "problemsLayout": {
+          "sel": ".problems-layout",
+          "x": 40,
+          "y": 758,
+          "width": 900,
+          "height": 962,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "valueGrid": {
+          "sel": ".value-grid",
+          "x": 40,
+          "y": 2122,
+          "width": 900,
+          "height": 416,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "agentRing": {
+          "sel": ".agent-ring",
+          "x": 40,
+          "y": 2946,
+          "width": 900,
+          "height": 680,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "footer": {
+          "sel": ".site-footer",
+          "x": 0,
+          "y": 4194,
+          "width": 980,
+          "height": 301,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgb(5, 15, 35)"
+        }
+      },
+      "wide": []
+    }
+  },
+  {
+    "name": "tablet-760",
+    "width": 760,
+    "height": 900,
+    "full": "/Users/liuhongli/Desktop/lingchen/lingchen-office-website/visual-results/home/final-audit-2026-07-20/tablet-760-fullpage.png",
+    "top": "/Users/liuhongli/Desktop/lingchen/lingchen-office-website/visual-results/home/final-audit-2026-07-20/tablet-760-top.png",
+    "metrics": {
+      "url": "http://127.0.0.1:3000/",
+      "title": "灵宸智能｜让 AI Agent 成为企业增长的新质生产力",
+      "viewport": {
+        "innerWidth": 760,
+        "innerHeight": 900,
+        "clientWidth": 760,
+        "scrollWidth": 760,
+        "bodyScrollWidth": 760,
+        "fullHeight": 5972
+      },
+      "key": {
+        "header": {
+          "sel": ".site-header",
+          "x": 0,
+          "y": 0,
+          "width": 760,
+          "height": 64,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(255, 255, 255, 0.92)"
+        },
+        "nav": {
+          "sel": ".site-nav",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "none",
+          "fontSize": "12px",
+          "bg": "rgb(255, 255, 255)"
+        },
+        "menuToggle": {
+          "sel": ".menu-toggle",
+          "x": 654,
+          "y": 14,
+          "width": 36,
+          "height": 36,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "hero": {
+          "sel": ".hero",
+          "x": 0,
+          "y": 64,
+          "width": 760,
+          "height": 656,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "heroCard": {
+          "sel": ".hero__statement-card",
+          "x": 70,
+          "y": 310,
+          "width": 620,
+          "height": 190,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(255, 255, 255, 0.78)"
+        },
+        "problems": {
+          "sel": ".problems",
+          "x": 0,
+          "y": 720,
+          "width": 760,
+          "height": 1327,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgb(234, 245, 255)"
+        },
+        "problemsLayout": {
+          "sel": ".problems-layout",
+          "x": 40,
+          "y": 796,
+          "width": 680,
+          "height": 1046,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "valueGrid": {
+          "sel": ".value-grid",
+          "x": 70,
+          "y": 2347,
+          "width": 620,
+          "height": 848,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "agentRing": {
+          "sel": ".agent-ring",
+          "x": 70,
+          "y": 3734,
+          "width": 620,
+          "height": 964,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "footer": {
+          "sel": ".site-footer",
+          "x": 0,
+          "y": 5559,
+          "width": 760,
+          "height": 414,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgb(5, 15, 35)"
+        }
+      },
+      "wide": []
+    }
+  },
+  {
+    "name": "mobile-390",
+    "width": 390,
+    "height": 844,
+    "full": "/Users/liuhongli/Desktop/lingchen/lingchen-office-website/visual-results/home/final-audit-2026-07-20/mobile-390-fullpage.png",
+    "top": "/Users/liuhongli/Desktop/lingchen/lingchen-office-website/visual-results/home/final-audit-2026-07-20/mobile-390-top.png",
+    "metrics": {
+      "url": "http://127.0.0.1:3000/",
+      "title": "灵宸智能｜让 AI Agent 成为企业增长的新质生产力",
+      "viewport": {
+        "innerWidth": 390,
+        "innerHeight": 844,
+        "clientWidth": 390,
+        "scrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "fullHeight": 6608
+      },
+      "key": {
+        "header": {
+          "sel": ".site-header",
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 64,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(255, 255, 255, 0.92)"
+        },
+        "nav": {
+          "sel": ".site-nav",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "display": "none",
+          "fontSize": "12px",
+          "bg": "rgb(255, 255, 255)"
+        },
+        "menuToggle": {
+          "sel": ".menu-toggle",
+          "x": 338,
+          "y": 14,
+          "width": 36,
+          "height": 36,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "hero": {
+          "sel": ".hero",
+          "x": 0,
+          "y": 64,
+          "width": 390,
+          "height": 656,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "heroCard": {
+          "sel": ".hero__statement-card",
+          "x": 16,
+          "y": 310,
+          "width": 358,
+          "height": 190,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(255, 255, 255, 0.78)"
+        },
+        "problems": {
+          "sel": ".problems",
+          "x": 0,
+          "y": 720,
+          "width": 390,
+          "height": 1629,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgb(234, 245, 255)"
+        },
+        "problemsLayout": {
+          "sel": ".problems-layout",
+          "x": 40,
+          "y": 796,
+          "width": 310,
+          "height": 1323,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "valueGrid": {
+          "sel": ".value-grid",
+          "x": 16,
+          "y": 2774,
+          "width": 358,
+          "height": 848,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "agentRing": {
+          "sel": ".agent-ring",
+          "x": 16,
+          "y": 4229,
+          "width": 358,
+          "height": 964,
+          "display": "grid",
+          "fontSize": "16px",
+          "bg": "rgba(0, 0, 0, 0)"
+        },
+        "footer": {
+          "sel": ".site-footer",
+          "x": 0,
+          "y": 6194,
+          "width": 390,
+          "height": 414,
+          "display": "block",
+          "fontSize": "16px",
+          "bg": "rgb(5, 15, 35)"
+        }
+      },
+      "wide": [
+        {
+          "tag": "div",
+          "cls": "closing-cta__glow",
+          "text": "",
+          "left": -125,
+          "right": 515,
+          "width": 640
+        }
+      ]
+    }
+  }
+]

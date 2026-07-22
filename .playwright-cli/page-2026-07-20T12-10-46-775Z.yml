@@ -1,0 +1,315 @@
+- generic [active] [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - generic [ref=f18e3]:
+      - link [ref=f18e4] [cursor=pointer]:
+        - /url: /#top
+        - img "灵宸智能 LINGCHEN AI" [ref=f18e6]
+      - navigation "主导航" [ref=f18e7]:
+        - link "首页" [ref=f18e8] [cursor=pointer]:
+          - /url: /#top
+        - link "产品矩阵" [ref=f18e9] [cursor=pointer]:
+          - /url: /#value
+        - link "解决方案" [ref=f18e10] [cursor=pointer]:
+          - /url: /solutions/ai-overseas/
+        - link "客户案例" [ref=f18e11] [cursor=pointer]:
+          - /url: /#value
+        - link "灵宸研究院" [ref=f18e12] [cursor=pointer]:
+          - /url: /#agent-os
+        - link "关于灵宸" [ref=f18e13] [cursor=pointer]:
+          - /url: /about/
+        - link "联系我们" [ref=f18e14] [cursor=pointer]:
+          - /url: /#contact
+      - generic [ref=f18e15]: 明道 · 优术 · 取势 · 合众
+      - button "立即体验" [ref=f18e16] [cursor=pointer]
+  - main [ref=f18e17]:
+    - navigation "面包屑" [ref=f18e18]:
+      - generic [ref=f18e19]:
+        - generic [ref=f18e20]:
+          - link "← 返回产品矩阵" [ref=f18e21] [cursor=pointer]:
+            - /url: /#value
+          - generic [ref=f18e22]: /
+          - strong [ref=f18e23]: Sales in
+          - generic [ref=f18e24]: /
+          - generic [ref=f18e25]: AI 出海获客 Agent—客户线索数据挖掘与筛选，交付高意向客户线索。
+        - button "立即预约体验产品" [ref=f18e26] [cursor=pointer]
+    - generic [ref=f18e28]:
+      - generic [ref=f18e29]:
+        - generic [ref=f18e30]: 产品定位
+        - generic [ref=f18e31]: AI 出海风控 Agent—跨境单证智能审核，跨境业务效率提升，跨境单证风险损失降低
+      - heading "出海企业的AI销售Harness 让获客到成交的每一步都可衡量、可 复制" [level=1] [ref=f18e32]:
+        - generic [ref=f18e33]: 出海企业的AI销售Harness
+        - emphasis [ref=f18e34]: 让获客到成交的每一步都可衡量、可复制
+      - paragraph [ref=f18e35]: 客户得到的不只是工具，而是一套出海销售增长工作流。从获客到成交推进，让团队减少重复劳动，把精力投向高价值客户沟通与转化。通过高质量线索、客户洞察、个性化触达、销售转化，让出海销售全闭环运作。
+      - generic [ref=f18e36]:
+        - article [ref=f18e37]:
+          - generic [ref=f18e38]: 过去
+          - heading "低效人工方式" [level=2] [ref=f18e40]
+          - paragraph [ref=f18e41]: 依赖人工在海外搜寻线索、名单、挨个排查官网资料、草拟冷邮件或者社媒信息，效率低下、获客质量随人员状态发生波动，拓客过程、数据无法沉淀和复盘。
+        - article [ref=f18e42]:
+          - generic [ref=f18e43]: 现在
+          - heading "Agent全网多维自动挖掘" [level=2] [ref=f18e45]
+          - paragraph [ref=f18e46]: AI 按理想客户画像（ICP）自动全网挖掘信息、自动筛选、多维验证、多维评分、深度搜集采购情报并生成千人千面个性化触达，更清楚该优先跟进谁、怎么去谈，获客效率极度跃迁。
+    - generic [ref=f18e48]:
+      - generic [ref=f18e49]: 一图读懂产品定位
+      - generic [ref=f18e50]:
+        - article [ref=f18e51]:
+          - generic [ref=f18e52]: "01"
+          - heading "过去：人工驱动" [level=2] [ref=f18e53]
+          - paragraph [ref=f18e54]: 依赖人工在海外搜寻线索、名单、草拟邮件，质量不稳定且过程难复盘。
+        - article [ref=f18e55]:
+          - generic [ref=f18e56]: "02"
+          - heading "现在：AI驱动" [level=2] [ref=f18e57]
+          - paragraph [ref=f18e58]: AI 智能体按理想客户画像（ICP）自动发现、精准评分、深度调研并生成个性化触达建议。
+        - article [ref=f18e59]:
+          - generic [ref=f18e60]: "03"
+          - heading "客户收益：增长资产" [level=2] [ref=f18e61]
+          - paragraph [ref=f18e62]: 更快速、成体系地建立目标线索池，更清楚优先跟进谁、凭什么去沟通。
+    - generic [ref=f18e64]:
+      - heading "垂向关键业务流" [level=2] [ref=f18e65]
+      - generic [ref=f18e66]:
+        - article [ref=f18e67]:
+          - heading "画像驱动" [level=3] [ref=f18e68]
+          - paragraph [ref=f18e69]: 个性化精准定义目标客户画像
+        - article [ref=f18e70]:
+          - heading "全网扫描" [level=3] [ref=f18e71]
+          - paragraph [ref=f18e72]: 24h不间断全网扫描与行为分析
+        - article [ref=f18e73]:
+          - heading "持续响应" [level=3] [ref=f18e74]
+          - paragraph [ref=f18e75]: 全天候响应跨时区业务不中断
+        - article [ref=f18e76]:
+          - heading "闭环运营" [level=3] [ref=f18e77]
+          - paragraph [ref=f18e78]: 获客到成交效果可追踪可复盘
+    - generic [ref=f18e80]:
+      - heading "核心产品能力" [level=2] [ref=f18e81]
+      - generic [ref=f18e82]:
+        - article [ref=f18e83]:
+          - generic [ref=f18e84]: 核心能力 01
+          - heading "ICP建模：客户画像数据模型化" [level=3] [ref=f18e85]
+          - paragraph [ref=f18e86]: 根据目标客户经验、AI智能体将行业、国家/地区、产品场景、采购信号与负向因子、排期规则等拆解为可执行的数据模型，统一团队客户标准。
+        - article [ref=f18e87]:
+          - generic [ref=f18e88]: 核心能力 02
+          - heading "线索发现与评分：从“更多名单”到“更值得跟进”" [level=3] [ref=f18e89]
+          - paragraph [ref=f18e90]: 通过多维挖掘（行业协会/展会/官网等）、数据清洗富化、NLP语义意图识别，及多维度数据驱动的自适应评分排序（画像匹配、可触达数据、采购信号等），输出优先级客户线索池。
+        - article [ref=f18e91]:
+          - generic [ref=f18e92]: 核心能力 03
+          - heading "客户洞察：公开信号转为高价值情报" [level=3] [ref=f18e93]
+          - paragraph [ref=f18e94]: 整合官网动态、行业新闻、招聘、社媒、招投标等多源信息，分钟级自动生成战略背景（扩产/融资/供应链等）、采购信号、决策人线索与定制切入建议的尽调报告。
+        - article [ref=f18e95]:
+          - generic [ref=f18e96]: 核心能力 04
+          - heading "个性化触达：保持客户温度，杜绝群发噪音" [level=3] [ref=f18e97]
+          - paragraph [ref=f18e98]: 基于客户洞察、业务规则 and 本地化语境，一键生成符合业务语境的邮件/LinkedIn等高度个性化内容，支持多变量、语气微调和多轮多触点跟进，状态可追踪。
+        - article [ref=f18e99]:
+          - generic [ref=f18e100]: 核心能力 05
+          - heading "转化与集成：销售能力沉淀与全链路闭环" [level=3] [ref=f18e101]
+          - paragraph [ref=f18e102]: 将AI获客Harness深度接入企业知识、业务系统（CRM、邮箱、LinkedIn）以及提供数据可见性分析，实现过程留痕、ROI评估与销售流程的可管理、可复制、可复用。
+        - article [ref=f18e103]:
+          - generic [ref=f18e104]: 核心能力 06
+          - heading "数据安全与合规" [level=3] [ref=f18e105]
+          - paragraph [ref=f18e106]: 企业级数据安全保障，符合GDPR等国际数据合规要求，确保出海业务数据安全可控。
+      - article [ref=f18e107]:
+        - heading "差异化竞争力：五大可运营、可治理、可进化的闭环能力" [level=2] [ref=f18e108]
+        - generic [ref=f18e109]:
+          - list [ref=f18e110]:
+            - listitem [ref=f18e111]: ICP规则可配置：用业务语言描述目标客户，沉淀为可复用筛选规则
+            - listitem [ref=f18e112]: 评分模型可进化：按行业、区域、意向、角色等维度持续优化权重
+            - listitem [ref=f18e113]: 系统边界可治理：权限、审计、人工确认与本地化接入适配企业要求
+          - list [ref=f18e114]:
+            - listitem [ref=f18e115]: 客户洞察可复核：基于公开信号和客户资料生成可追溯调研初稿
+            - listitem [ref=f18e116]: 触达动作可追踪：邮件、LinkedIn、CRM 状态统一记录，避免资产流失
+      - article [ref=f18e117]:
+        - heading "与普遍AI聊天工具相比" [level=2] [ref=f18e118]
+        - paragraph [ref=f18e119]: 不是一次性使用，而是能持续沉淀客户画像、过程数据和获客方法 ——把出海获客流程做成可管理、可复制、可复用、可进化的运营体系。
+    - generic [ref=f18e121]:
+      - paragraph [ref=f18e122]: 产品价值
+      - heading "产品价值与实效指标归因" [level=2] [ref=f18e123]
+      - paragraph [ref=f18e124]: 价值指标：把出海获客从「碰运气」变成「可经营的增长资产」。四大引擎可共享客户画像、知识库与数据回流，越用越懂您的业务，沉淀为企业可持续、可进化的获客能力。
+      - generic [ref=f18e125]:
+        - article [ref=f18e126]:
+          - strong [ref=f18e127]: 7×24
+          - generic [ref=f18e128]: 全天候跨时区获客，商机 24 小时不漏接
+        - article [ref=f18e129]:
+          - strong [ref=f18e130]: 500%+
+          - generic [ref=f18e131]: 触达效率较人工提升，通联成本降至 30%~60%
+        - article [ref=f18e132]:
+          - strong [ref=f18e133]: "-70%~-90%"
+          - generic [ref=f18e134]: 内容与调研生产周期大幅压缩，分钟级成稿
+        - article [ref=f18e135]:
+          - strong [ref=f18e136]: 1⇒N
+          - generic [ref=f18e137]: 一份知识资产循环产出线索、内容与品牌曝光
+      - generic [ref=f18e138]:
+        - article [ref=f18e139]:
+          - heading "获客价值·线索更准、更可解释" [level=3] [ref=f18e140]
+          - paragraph [ref=f18e141]: 以ICP模型＋多维评分替代冷名单，输出可解释、可筛选、可复盘的优先级线索池；正向回复率、商机创建率全程可量化。
+        - article [ref=f18e142]:
+          - heading "经营价值·销售能力沉淀与复制" [level=3] [ref=f18e143]
+          - paragraph [ref=f18e144]: 画像、话术、模板、评分规则与过程数据持续沉淀，复制销冠经验；人员流动不再带走客户资产，新人快速上手。
+        - article [ref=f18e145]:
+          - heading "增长价值·ROI可衡量、可优化" [level=3] [ref=f18e146]
+          - paragraph [ref=f18e147]: 线索量、回复率、转化率统一看板复盘，按POC指标验证效果；支持按意向线索量/回款结果付费，利益深度对齐。
+    - generic [ref=f18e149]:
+      - heading "价值验证：用客户可验收的指标证明产品效果（POC指标体系）" [level=2] [ref=f18e150]
+      - generic [ref=f18e151]:
+        - generic [ref=f18e152]:
+          - generic [ref=f18e153]: 验证维度
+          - generic [ref=f18e154]: 建议考核指标
+        - generic [ref=f18e155]:
+          - strong [ref=f18e156]: 效率价值
+          - generic [ref=f18e157]: 调研耗时、第一声响应时间、日均处理线索数
+        - generic [ref=f18e158]:
+          - strong [ref=f18e159]: 获客价值
+          - generic [ref=f18e160]: 有效线索量、线索单价、正向回复率、商机创建率
+        - generic [ref=f18e161]:
+          - strong [ref=f18e162]: 管理价值
+          - generic [ref=f18e163]: CRM字段完整率、跟进动作留痕率、规则覆盖率
+        - generic [ref=f18e164]:
+          - strong [ref=f18e165]: 知识价值
+          - generic [ref=f18e166]: 新人培训与复用耗时、话术复用率、方案一致性
+        - generic [ref=f18e167]:
+          - strong [ref=f18e168]: 风险价值
+          - generic [ref=f18e169]: 重复触达率、负面回复率、操作权限审计完整性
+        - generic [ref=f18e170]:
+          - strong [ref=f18e171]: 技术价值
+          - generic [ref=f18e172]: 业务稳定性、同步时延、系统整体可用度
+    - generic [ref=f18e174]:
+      - paragraph [ref=f18e175]: 商业实效
+      - heading "行业痛点对碰与AI改变" [level=2] [ref=f18e176]
+      - paragraph [ref=f18e177]: 我们深知您最需要的不是“更多数据”，而是更准的意向客户、更快的价值判断和更科学的销售动作。
+      - generic [ref=f18e178]:
+        - article [ref=f18e179]:
+          - heading "行业当前痛点" [level=3] [ref=f18e180]
+          - list [ref=f18e181]:
+            - listitem [ref=f18e182]: 名单多但有效性低，销售时间被无效客户消耗
+            - listitem [ref=f18e183]: 客户背景分散在官网、新闻、招聘和社媒，调研慢
+            - listitem [ref=f18e184]: 触达内容缺少个性化、针对性，海外客户回复率不稳定
+            - listitem [ref=f18e185]: 优秀销售经验只在个人手里，新人复制难
+        - article [ref=f18e186]:
+          - heading "Sales in 带来的改变" [level=3] [ref=f18e187]
+          - list [ref=f18e188]:
+            - listitem [ref=f18e189]: 以ICP规则自动筛选和评分，优先输出高匹配客户
+            - listitem [ref=f18e190]: 生成客户洞察与采购信号，帮助销售快速判断切入点
+            - listitem [ref=f18e191]: 基于客户情境生成针对性邮件/LinkedIn 内容，支持多轮跟进
+            - listitem [ref=f18e192]: 沉淀画像、话术、模板、评分规则和 CRM 过程数据
+    - generic [ref=f18e194]:
+      - paragraph [ref=f18e195]: 落地场景
+      - heading "优先落地场景：从解放业务中的脏活、累活场景开始" [level=2] [ref=f18e196]
+      - paragraph [ref=f18e197]: 先选择高频、重复、可衡量、数据可接入、人工复核明确的销售场景（筛选标准：高频｜重复｜可接入｜可量化）。
+      - generic [ref=f18e198]:
+        - generic [ref=f18e199]:
+          - generic [ref=f18e200]: 落地场景
+          - generic [ref=f18e201]: 适用角色
+          - generic [ref=f18e202]: 可衡量指标/解决的问题
+        - generic [ref=f18e203]:
+          - strong [ref=f18e204]: 出海目标客户发现
+          - generic [ref=f18e205]: 适合 销售/市场/BD 阶段
+          - generic [ref=f18e206]: 有效线索量与占比、商机创建率
+        - generic [ref=f18e207]:
+          - strong [ref=f18e208]: 目标客户调研报告
+          - generic [ref=f18e209]: 适合 售前/解决方案阶段
+          - generic [ref=f18e210]: 调研与报告撰写时长、复用率
+        - generic [ref=f18e211]:
+          - strong [ref=f18e212]: 客户咨询自动应答
+          - generic [ref=f18e213]: 适合 官网/邮件/社媒互动
+          - generic [ref=f18e214]: 首响时间、问题解决率
+        - generic [ref=f18e215]:
+          - strong [ref=f18e216]: 销售线索跟进辅助
+          - generic [ref=f18e217]: 适合 销售代表/主管日常
+          - generic [ref=f18e218]: 跟进及时率、意图识别准确率、内容针对性
+        - generic [ref=f18e219]:
+          - strong [ref=f18e220]: 企业知识智能检索
+          - generic [ref=f18e221]: 适合 新人销售/渠道培训
+          - generic [ref=f18e222]: 查询耗时、培训周期
+        - generic [ref=f18e223]:
+          - strong [ref=f18e224]: 经营数据分析
+          - generic [ref=f18e225]: 适合 销售管理层决策
+          - generic [ref=f18e226]: 数据整理与生成时长、决策周期
+      - heading "典型落地场景示例" [level=3] [ref=f18e227]
+      - generic [ref=f18e228]:
+        - article [ref=f18e229]:
+          - text: 场景一
+          - heading "出海目标客户发现，从名单采购转向意向识别" [level=3] [ref=f18e230]
+          - paragraph [ref=f18e231]: 适合需要快速拓展海外客户的外贸、跨境B2B、制造业等。通过1.创建ICP模型 2.扫描 3.评分 4.交付 5.跟进。收益包括减少无效名单和加速匹配高意向客户时间成本，建立多维度市场情报反馈体系。
+        - article [ref=f18e232]:
+          - text: 场景二
+          - heading "客户互动与跟进，让专业响应不再只依赖少数专家" [level=3] [ref=f18e233]
+          - paragraph [ref=f18e234]: 适合产品复杂、售前资源紧张、跨时区咨询频繁的销售团队。AI协同响应，业务关键节点人工接管。支持调用企业知识库、客户调研报告、历史成功话术，生成问答建议、方案初稿、跟进邮件等，实现首响更快、知识更准、方案更稳、培训更省。
+    - generic [ref=f18e236]:
+      - paragraph [ref=f18e237]: 合作模式
+      - heading "灵活多元的合作模式" [level=2] [ref=f18e238]
+      - paragraph [ref=f18e239]: 按实际意向线索量付费，利益深度对齐。先用真实样本验证，再扩大场景；用数据说话，而不是用概念承诺。
+      - generic [ref=f18e240]:
+        - generic [ref=f18e241]:
+          - generic [ref=f18e242]: 合作服务模式
+          - generic [ref=f18e243]: 付费结算方式
+          - generic [ref=f18e244]: 最契合对应客户画像
+        - generic [ref=f18e245]:
+          - strong [ref=f18e246]: 轻量 POC 验证
+          - generic [ref=f18e247]: 按POC指标采集验收，真实样本数据说话，低门槛启动
+          - generic [ref=f18e248]: 适合想要先以小成本快速验证出海获客效果或售前支持的成长型企业
+        - generic [ref=f18e249]:
+          - strong [ref=f18e250]: 系统化规模推广
+          - generic [ref=f18e251]: 按意向线索量/回款结果付费，支持利益深度对齐
+          - generic [ref=f18e252]: 适合已有CRM、系统邮箱、知识库和社媒 LinkedIn 基础的成熟型出海团队
+        - generic [ref=f18e253]:
+          - strong [ref=f18e254]: 私有化与本地化部署
+          - generic [ref=f18e255]: 提供一次性买断、本地部署运维、或者按阶段里程碑交付
+          - generic [ref=f18e256]: 适合对数据主权、隔离安全和定制边界有极高合规审计要求的大型出海集团
+      - heading "落地路径：先验证一个流程，再扩展成销售智能体能力" [level=3] [ref=f18e257]
+      - generic [ref=f18e258]:
+        - article [ref=f18e259]:
+          - text: 路径一·第一步
+          - heading "业务场景梳理" [level=3] [ref=f18e260]
+          - paragraph [ref=f18e261]: 用2-4周 POC 快速证明价值。通过真实样本定义验收指标，梳理现有获客难点。
+        - article [ref=f18e262]:
+          - text: 路径一·第二步
+          - heading "构建ICP模型并试点" [level=3] [ref=f18e263]
+          - paragraph [ref=f18e264]: 基于现有成功客群数据，提炼并配置结构化 ICP 建模与过滤规则，进行小范围高敏开发。
+        - article [ref=f18e265]:
+          - text: 路径二·第一步
+          - heading "系统集成与配置" [level=3] [ref=f18e266]
+          - paragraph [ref=f18e267]: 通过验证后，将获客 Harness 接入 CRM 系统、企业邮箱及 LinkedIn，配置人工确认与安全审核边界。
+        - article [ref=f18e268]:
+          - text: 路径二·第二步
+          - heading "规模化运营与进化" [level=3] [ref=f18e269]
+          - paragraph [ref=f18e270]: 正式上线测试并进入常态化运作，持续积累用户行为反馈并回写评分模型、开发话术。
+      - article [ref=f18e271]:
+        - heading "落地建议与指引：为什么选择灵宸 Sales in？" [level=3] [ref=f18e272]
+        - paragraph [ref=f18e273]: 1. 结果导向：聚焦可衡量的销售结果，交付高质量线索池与商机增量，而非又一个数据工具。
+        - paragraph [ref=f18e274]: 2. 合规安全：尊重各地数据与触达合规，全程可追溯、可复核，守护出海品牌长期声誉。
+        - paragraph [ref=f18e275]: 3. 全链路闭环：ICP、线索、洞察、触达、CRM 回写一体，从找客户到成交持续沉淀客户资产。让每一次出海客户连接，都高效、合规地转化为可持续增长。
+  - contentinfo [ref=f18e276]:
+    - generic [ref=f18e277]:
+      - img "灵宸智能 LINGCHEN AI" [ref=f18e280]
+      - generic [ref=f18e281]:
+        - navigation "产品方案" [ref=f18e282]:
+          - strong [ref=f18e283]: 产品方案
+          - link "DeepLaw 法律 AI" [ref=f18e284] [cursor=pointer]:
+            - /url: "#value"
+          - link "Social Grow 内容引擎" [ref=f18e285] [cursor=pointer]:
+            - /url: "#value"
+          - link "Mine GEO 品牌优化" [ref=f18e286] [cursor=pointer]:
+            - /url: "#value"
+          - link "AI 销售获客 Harness" [ref=f18e287] [cursor=pointer]:
+            - /url: "#value"
+          - link "合同智能审查 Agent" [ref=f18e288] [cursor=pointer]:
+            - /url: "#value"
+        - navigation "资源中心" [ref=f18e289]:
+          - strong [ref=f18e290]: 资源中心
+          - link "产品文档" [ref=f18e291] [cursor=pointer]:
+            - /url: "#value"
+          - link "客户案例" [ref=f18e292] [cursor=pointer]:
+            - /url: "#value"
+          - link "灵宸研究院" [ref=f18e293] [cursor=pointer]:
+            - /url: "#agent-os"
+          - link "法律 AI 白皮书" [ref=f18e294] [cursor=pointer]:
+            - /url: "#about"
+          - link "帮助中心" [ref=f18e295] [cursor=pointer]:
+            - /url: "#contact"
+        - navigation "联系我们" [ref=f18e296]:
+          - strong [ref=f18e297]: 联系我们
+          - generic [ref=f18e298]: shenhuabo@lingchenai.cn
+          - generic [ref=f18e299]: "18621786899"
+          - generic [ref=f18e300]: 上海市普陀区金沙江路185号3幢一层
+    - generic [ref=f18e301]:
+      - generic [ref=f18e302]: © Copyright @上海灵宸智能科技有限公司.All rights reserved.
+      - link "沪ICP备2025132132号" [ref=f18e303] [cursor=pointer]:
+        - /url: https://beian.miit.gov.cn/

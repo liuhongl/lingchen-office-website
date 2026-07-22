@@ -1,0 +1,52 @@
+.ahs-page .ahs-hero {
+  height: 730px;
+}
+
+.ahs-page .ahs-hero__lead,
+.ahs-page .ahs-hero__detail {
+  width: 1080px;
+}
+
+.ahs-page .ahs-hero__detail {
+  top: 492px;
+  width: 1120px;
+}
+
+.ahs-page .ahs-hero__cta {
+  top: 600px;
+}
+
+.ahs-page .ahs-hero__accent {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+.ahs-page .ahs-applications__head {
+  margin-top: 40px;
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.ahs-page .ahs-applications__list {
+  margin-top: 16px;
+}
+
+.ahs-page .ahs-advantages__comparisons p {
+  grid-template-columns: 132px minmax(0, 1fr);
+  gap: 18px;
+}
+
+.ahs-page .ahs-advantages__comparisons b {
+  white-space: nowrap;
+}
+
+.ahs-page .ahs-application-card > div:nth-child(2) p,
+.ahs-page .ahs-application-card > div:nth-child(3) p {
+  margin-top: 0;
+}

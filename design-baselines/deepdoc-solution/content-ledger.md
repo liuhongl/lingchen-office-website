@@ -1,0 +1,154 @@
+# DeepDoc 智眸智能解决方案页逐字文案台账
+
+> 历史 MasterGo 内容台账。2026-07-22 起当前有效内容台账为 `prototype-sync-ledger.md`，完整内容真源为 `prototype-content-snapshot.md`；本文件继续作为视觉画板历史证据保留。
+
+| 文本 ID | 区块 | 类型 | MasterGo 逐字原文 | 用户覆盖 | 代码位置 | 状态 |
+|---|---|---|---|---|---|---|
+| DDS-T0101 | Hero | H1 | DeepDoc·智眸 智能解决方案 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0102 | Hero | 副标题 | 新一代跨境单证智能审核产品解决方案 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0103 | Hero | 正文 1 | DeepDoc 智眸是专门针对国际单证、跨境单证及票据等而设计的新一代跨境单证智能审核大脑。系统深度融合了 UCP 600、ISBP 821 国际惯例及 10 年以上资深银行审单专家的实战经验。基于 OCR 与大语言模型双引擎驱动，开创了从「文本识别」到「智能认知」的大模型审单时代。它彻底摆脱了传统 OCR 对模板的依赖，能思考、会进化，真正理解复杂的业务语境，帮助企业与银行精准、智能地完成跨境单证的全自动审核，成为能深度赋能业务的「智能业务伙伴」。具备深层的上下文语义解析和多步逻辑推理能力、记忆能力，能随业务运行实现审核能力的敏捷更新、自适应进化。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0104 | Hero | 引用 | 通过引入“智能+智审+智选”的 AI 审单新范式，打通完整性审核、单文档审核、多文档审核及 AI 辅助决策，实现从工具到大脑的范式革命。每一笔业务的审核都更准确、专业与一致，将人工难以穷尽的条文漏洞转变为强韧校验网。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0105 | Hero | CTA | 预约产品演示 | 无 | `app/solutions/products/deepdoc/page.tsx`；`BookingTrigger` | PASS |
+
+- Hero 可见文本节点 5；`无阻塞项`。
+- 长正文 5 句；引用 2 句；首句、末句与全部标点已按 100% 基线核录。
+- G4 内容验收：页面实际渲染字符串逐项核对通过；CTA 统一打开公共 `BookingModal`。
+
+| DDS-T0201 | 一图读懂 | H2 | 一、一图读懂（结构复杂、版式多变：跨境单证智能化的三座大山） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0202 | 一图读懂 | 卡片标题 | 挑战一：单证类型极其多样 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0203 | 一图读懂 | 卡片正文 | 涵盖基础商业单证（合同、PO单、商业发票、装箱单）、货物流转单证（海运/空运提单、船证明、仓单）、官方监管单证（报关单、原产地证、检验证书）、金融信用单证（信用证MT700/710、汇票、保函等10+类型）。每种单证都有独特结构和关键字段，需系统具备广谱识别能力。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0204 | 一图读懂 | 卡片标题 | 挑战二：版式无标准，千差万别 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0205 | 一图读懂 | 卡片正文 | 不同国家、不同银行、不同公司都有自己的单证模板，同一类型单证存在数十种版式变体。传统 OCR 模式极度依赖固定模板标注，泛化能力差，遇到新版式即失效。传统标注训练方式成本高、效果差，无法适应真实业务场景。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0206 | 一图读懂 | 卡片标题 | 挑战三：抽取需求高度复杂 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0207 | 一图读懂 | 卡片正文 | 涉及表格信息抽取（货物描述、明细、单价、总价）、条款内容理解（信用证特殊条款、合同权利义务）、逻辑关系判断（单证间关联性、数据一致性）、专业术语解析（贸易术语、行业特定表达）。需要系统具备语义理解和逻辑推理能力，而不仅是文字识别。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+
+- 一图读懂可见文本节点 7；逐字内容按 100% 分区基线核录，`无阻塞项`。
+- 一图读懂 G4 内容验收：实际渲染 `innerText` 已逐项核对；无增字、漏句或额外可见文案。
+
+| DDS-T0301 | 审单困局 | H2 | 二、审单困局：规则严苛、版式多变、人才稀缺 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0302 | 审单困局 | 导语 | 国际结算的单证审核是一项高专业度、高风险、强规则的工作。信用证、发票、提单、保单、装箱单、原产地证、报关单等文件来自不同国家、银行和企业，版式千差万别，字段关系复杂，人工审核既慢又难以保证一致性。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0303 | 审单困局 | 左列标签 | 传统行业挑战与痛点 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0304 | 审单困局 | 痛点 1 标题 | 人工审核耗力耗且系统录入繁琐 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0305 | 审单困局 | 痛点 1 正文 | 熟练业务人员工审核每份仅 7 笔/天，系统录入需 30 分钟/笔，全球年均 40 亿页影像件，数据提取沉淀。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0306 | 审单困局 | 痛点 2 标题 | 审核标准不一，人工由于疲劳易产生漏判风险 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0307 | 审单困局 | 痛点 2 正文 | 议付行与受益人对“相符”标准理解冲突，细微形式瑕疵（如空格拼写错误）易导致退单或海外拒付。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0308 | 审单困局 | 痛点 3 标题 | 合格审单人员培养极其漫长 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0309 | 审单困局 | 痛点 3 正文 | 通常需 3 年以上高强度投入，且国际结算规则更新（UCP 约 10 年、ISBP 约 5 年一次）导致团队培训成本居高不下。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0310 | 审单困局 | 右列标签 | 灵宸 AI 解决方案 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0311 | 审单困局 | 方案 1 标题 | 基于 OCR+NLP 深度融合，一键上传单据自动完成文档智能分类与核心要素抽取（300+要素） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0312 | 审单困局 | 方案 1 正文 | 单票处理时间从 60 分钟缩短至 10 分钟，效率飞跃 6 倍。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0313 | 审单困局 | 方案 2 标题 | 以 UCP600 及 ISBP 821 为铁律，建立完整性、单文档、多文档交叉校验四大规则体系 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0314 | 审单困局 | 方案 2 正文 | 360° 封堵风险，让不一致漏洞转为强制校验网，安全兑现。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0315 | 审单困局 | 方案 3 标题 | 无需标注训练成本与周期，开箱即用。支持以自然语言描述配置审核推理规则（0 门槛上手） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0316 | 审单困局 | 方案 3 正文 | 人才培训上岗期从 36 个月缩至 1 个月，大幅降低运营成本。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0317 | 审单困局 | 总结 | 灵宸智能审单方案的关键突破，是让 AI 不只识别文字，而是真正理解单证关系、规则语义和风险逻辑。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+
+- 审单困局可见文本节点 17；首条标题中的“耗力耗且”为 MasterGo 当前逐字原文，不按既有产品页擅自纠正。
+- DDS-T0302～DDS-T0316 均实现于 `app/solutions/products/deepdoc/page.tsx`；实际渲染文案已按分区基线逐项复核。
+
+| DDS-T0401 | 核心流程 | H2 | 三、灵宸重构：核心数字化处理流（从“看见文字”到“理解业务”） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0402 | 核心流程 | 导语 | 方案采用 OCR 与大语言模型双引擎，通过知识工程注入 UCP、ISBP、银行审单经验和风险案例，让系统具备文本理解、信息抽取、逻辑推理和审核意见生成能力。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0403 | 核心流程 | 01 标题 | 完整性审核（2种判断逻辑） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0404 | 核心流程 | 01 正文 | 系统自动解析信用证46A等字段（要求单据），与受益人提交的单据类型进行比对；或配置单证清单。如果提交的单据种类或份数少于规定，判定为“单证缺失”并亮灯预警；如果提交了未要求的单据，则提示“多余单证”，拦截基础拒付风险。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0405 | 核心流程 | 02 标题 | 单文档审核（12类常见问题，200+条规则校验） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0406 | 核心流程 | 02 正文 | 系统以 UCP600 等国际惯例为铁律，对单据自身细项瑕疵（如签署不规范、信息缺失）进行自动化、精准化审核。如海运单签署身份不明（仅显示为“As Agent”），未指明代表哪位承运人或船长），提前拦截致命形式瑕疵，避免贸易中断。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0407 | 核心流程 | 03 标题 | 多文档审核（以信用证为中心，200+条校验规则） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0408 | 核心流程 | 03 正文 | 信用证条款为“标尺”，对所有附属单证进行全维度校验。比对信用证与商业发票、提单、装箱单等多类单证，秒级识别不符点（如：发票受益人名称、地址及汇票的受益人名称、地址与信用证描述冲突，币种及金额差异等），确保结算安全兑现。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0409 | 核心流程 | 04 标题 | 多文档审核（以商业发票为中心，200+条交叉校验规则） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0410 | 核心流程 | 04 正文 | 将商业发票作为“信息锚点”，与提单、保单、报关单等进行交叉校验。进行多步逻辑推理与强关系核查，如判断提单上发货人与发票上受益人是否一致，核对计价币种、大小写金额、计量单位和货物品名、唛头提单等单证一致性瑕疵。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0411 | 核心流程 | 总结 | 引入「智能+智审+智选」AI 审单新范式 —— 从“看见文字”到“理解业务”的范式革命，融合知识图谱与大模型，越用越聪明、越用越简单。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+
+- 核心流程可见文本节点 11；长文案均按 100% 基线核录，`无阻塞项`。
+- DDS-T0402～DDS-T0410 均实现于 `app/solutions/products/deepdoc/page.tsx`；页面实际字符串与分区基线逐项复核通过。
+
+| DDS-T0501 | 四维审核 | H2 | 四、四维审核体系：360°封堵单证风险 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0502 | 四维审核 | 01 标题 | 维度一：单证完整性规则审核（根据信用证及业务需求匹配） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0503 | 四维审核 | 01 正文 | 系统自动解析信用证 46A 等条款，深度提取应交单据类型和份数。智能拦截单证缺失与多余，从源头杜绝基础拒付风险。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0504 | 四维审核 | 02 标题 | 维度二：单篇自身内容审核（12类常见问题，200+条规则校验） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0505 | 四维审核 | 02 正文 | 严格诊断单据签署、发票受益人地址、汇票受益人名称、溢短装误解、金额及币种差异等 200 多项单证自身细节瑕疵。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0506 | 四维审核 | 03 标题 | 维度三：单证审核（以信用证为中心，200+条交叉校验规则） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0507 | 四维审核 | 03 正文 | 以信用证条款为核心标尺，联动校验提单、发票、保单和装箱单的时间轴。确保发票日期早于提单、保险单早于装船日等强制校验项。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0508 | 四维审核 | 04 标题 | 维度四：单内审核（以商业发票为中心，200+条交叉勾稽规则） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0509 | 四维审核 | 04 正文 | 将商业发票作为黄金锚点，穿透勾稽提单、保单及报关单的计价币种、计量单位、大小写、唛头提单和装运提单签署人代理身份瑕疵。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+
+- 四维审核可见文本节点 9；逐字内容按 100% 分区基线核录，`无阻塞项`。
+- DDS-T0502～DDS-T0508 均实现于 `app/solutions/products/deepdoc/page.tsx`；页面实际字符串与基线逐项复核通过。
+
+| DDS-T0601 | 核心能力 | H2 | 五、核心能力：智能审单/法律机器人从工具升级为业务伙伴 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0602 | 核心能力 | 引擎标签 | 后台审核引擎： | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0603 | 核心能力 | 模式标签 | 传统模式 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0604 | 核心能力 | 分隔 | VS | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0605 | 核心能力 | 模式标签 | 智能配置 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0606 | 核心能力 | 卡片 1 | 业务口径理解｜用“自然语言规则配置”（如“装运日必须晚于信用证规定的最迟装运日”）替代硬编码。AI 辅助自动生成并验证可执行的审核逻辑。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0607 | 核心能力 | 卡片 2 | 融合知识推理｜不依赖硬编码，结合大语言模型与 UCP600/ISBP821 等知识库。能深度理解语义、语境与业务意图，如同高水准“专家脑”。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0608 | 核心能力 | 卡片 3 | 持续学习迭代｜传统系统是一次性建成的静态资产，随时间推移而贬值；智能是持续学习的活体组织，在使用中不断自我迭代和增值。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0609 | 核心能力 | 卡片 4 | 识别隐含风险｜不仅像“机械眼”只能发现表面简单错误，更如同“专家脑”能深度识别隐含的、需要复杂逻辑推理的深层业务风险。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0610 | 核心能力 | 卡片 5 | 零样本/少样本抽取｜摆脱传统 AI 对大量标注数据的依赖。无需进行繁琐的数据标注和模型微调，部署即用，业务人员零技术门槛操作。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0611 | 核心能力 | 卡片 6 | 自适应复杂场景｜支持多语言、多版式、复杂表格的混合处理；自适应不同图像质量（如扫描件、照片、褶皱、盖章或低清传真件）。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+
+- 核心能力可见文本节点 17（H2 1、引擎条 4、卡片标题/正文 12）；`无阻塞项`。
+- DDS-T0602～DDS-T0610 均实现于 `app/solutions/products/deepdoc/page.tsx`；页面实际字符串与基线逐项复核通过。
+
+| DDS-T0701 | 交付结果 | H2 | 六、交付结果与落地价值 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0702 | 交付结果 | 导语 | 通过在多家股份制银行与头部报关公司的全场景落地验证，灵宸智能单证审核平台全面实现业务线上化、智能化，大幅削减成本，保障合规质效。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0703 | 交付结果 | 指标 1 | 6倍｜审单效能提升，单套处理从 60 分钟 →10 分钟 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0704 | 交付结果 | 指标 2 | 99%+｜关键信息抽取准确率，多格式非标单据高精识别 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0705 | 交付结果 | 指标 3 | 70%｜减少人工投入，处理容量提升，运营成本大幅降低 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0706 | 交付结果 | 指标 4 | 1个月｜人才培养周期，从 36 个月压缩至 1 个月上线 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0707 | 交付结果 | 价值 1 | 实现业务线上化与智能化｜将传统的纸面结算从线下审核转为线上化、智能化，大幅度提升业务办理水平，推动国际结算与单证合规管理的跨越式升级。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0708 | 交付结果 | 价值 2 | 沉淀专家经验并降低成本｜将资深专家经验和业务规则沉淀到系统中，计算机按照行业规范智能审核，仅需人工辅助对不符点等结果进行确认，快速完成复核任务。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0709 | 交付结果 | 价值 3 | 数据资产增值与高效力结构化｜将分散、异构的国际票据、合同、发票等信息进行高精抽取与结构化存储，转化为企业与银行的核心数字资产，持续为其他领域业务增效赋能。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0710 | 交付结果 | 价值 4 | 提升票据审核质量与合规管理｜统一审单与核验标准，杜绝因审单员业务水平及精神状态差异导致的疏漏，全面加强合规性控制，显著降低信用证拒付与资金风险。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0711 | 交付结果 | 价值 5 | 提升业务办理效率并减轻审单压力｜机器自动给出单证不符点并预警业务人员，针对不符点备注说明。不用再手工录入各类相关方和条款，系统自动识别填写并实现快速通关。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0712 | 交付结果 | 价值 6 | 双引擎驱动的高精度文字识别｜基于 OCR＋大语言模型双引擎，在扭曲、褶皱、盖章或极低质量图像下实现超凡的识别精度与多维度智能语义感知。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+
+- 交付结果可见文本节点 24（H2 1、导语 1、指标 8、价值标题/正文 12、编号 6 通过标题节点呈现）；`无阻塞项`。
+
+| DDS-T0801 | 应用场景 | H2 | 七、部分应用场景示例 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0802 | 应用场景 | 表头 1 | 业务模块 / 场景类型 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0803 | 应用场景 | 表头 2 | 核心痛点 / 服务群体 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0804 | 应用场景 | 行 1 | 信用证开立（出口端）｜开证申请书、贸易合同、进口批文、进口付汇备案表、营业执照 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0805 | 应用场景 | 行 2 | 信用证议付（出口端）｜商业发票、装箱单、重量单、海运提单、产地证、保险单等多证配套 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0806 | 应用场景 | 行 3 | 信用证保兑（出口端/出口单据）｜营业执照、开户许可证、国际合同、海关出口报关单、装箱单、商业发票 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0807 | 应用场景 | 行 4 | 进口信用证 & 进口代收｜信用证电文、装箱单、货运提单、普惠制产地证、合同、托收单据 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0808 | 应用场景 | 行 5 | 出口托收（跟单/光票）｜营业执照、商业发票、装箱单、原产地证、托收委托书、法人代表授权书 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0809 | 应用场景 | 行 6 | 汇入汇款＆汇出汇款｜境内外汇款申请书、电汇凭证、汇票、指示函、开户许可证、国际收支申报表 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0810 | 应用场景 | 标签 | #跨境贸易｜#国际结算｜#智能审单｜#银行外汇风控｜#零样本抽取 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0811 | 应用场景 | 案例标题 | 支持的国际单证与金融级交付标准/客户案例 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0812 | 应用场景 | 案例 1 标题 | 某股份制银行 - 进口开证与智能审单审核平台 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0813 | 应用场景 | 案例 1 正文 | 构建“识别-抽取-审核”一体化智能审单平台，实现 40+ 关键要素智能抽取与动态校验纠错。单套单证处理时长从 60 分钟缩短至 10 分钟，效率提升 6 倍。新手培训周期从 36 个月缩短至 1 个月。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0814 | 应用场景 | 案例 2 标题 | 某头部报关公司 - 国际业务智能审单/票据识别 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0815 | 应用场景 | 案例 2 正文 | 实现接口及外部海关、船司等多渠道数据自动接入。覆盖 10+ 种单证类型共 300+ 核心要素，自适应解析 400 多种格式各异的国际发票、箱单、提单。全流程自动识别与录入，升级人机协同作业，实时进行审单与风险预警。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+
+- 应用场景可见文本节点 27（H2 1、表头 2、表格 12、标签 5、案例标题 1、案例卡标题/正文 4、案例圆点 2 为装饰）；逐字原文来自 `08-applications-mastergo-100.png` 100% 分区基线，`无阻塞项`。
+- 应用场景 G4 内容验收：本地实际渲染 `innerText` 已逐项核对，无增字、漏句、错字、标点或大小写差异。
+- DeepDoc 已实现区块执行扩大文本审计：共核对 87 条台账记录；修正核心流程两处旧实现偏差（`As Agent` 后括号位置、`汇票的受益人名称`）。指标 `99%+` 因设计要求拆成多个可见文本节点，拼接值与台账一致。
+
+| DDS-T0901 | 合作模式 | H2 | 八、合作模式 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0902 | 合作模式 | 导语 | 提供标准产品开箱即用、本地化部署安全可控、轻量级定制快速适配以及综合场景定制深度专属服务。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0903 | 合作模式 | 模式 1 | 1｜标准产品开箱即用 / 订阅服务｜付费方案｜产品订阅年费 + 审核调用流量套餐 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0904 | 合作模式 | 模式 2 | 2｜本地私有化部署 / 深度专属定制｜付费方案｜产品部署与定制开发费 + 年度维护与规则微调/升级服务费 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0905 | 合作模式 | 交付标准标题 | 灵宸智能落地体系（合作客户金融级交付标准） | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0906 | 合作模式 | 交付标准 01 | 本地化部署实施｜落地私有化部署，由 10 年以上从业经验的资深银行专家业务知识注入与 UCP/ISBP 规范，系统性消除人工疏漏。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0907 | 合作模式 | 交付标准 02 | 全栈 AI 服务适配｜多格式图像/非高清 OCR 识别，结合大语言模型语义解析、自动分类、信息抽取，实现进口开证全流程自动化。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0908 | 合作模式 | 交付标准 03 | 金融级安全隔离｜支持本地化部署、多级角色权限隔离、单证数据零污染、数据不进入公域大模型，保障数据主权完整。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0909 | 合作模式 | 交付标准 04 | 人机协同审核质检｜一键提取并智能交叉核对，提供人机协作确认机制。针对不符点备注说明并自动录入，行为 100% 留痕可追溯。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0910 | 合作模式 | 价值 1 | 1. 极其显著的审单效率提升： 单证处理从 60 分钟/套 → 10 分钟/套，效能飞跃 6 倍，无并发上限秒级审单。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0911 | 合作模式 | 价值 2 | 2. 极致精确的不符点筛查： 准确率提升至 99%+，全生命周期交叉校验，全面消除由于人工疲劳而导致的信用证退单拒付漏洞。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T0912 | 合作模式 | 价值 3 | 3. 大幅节省运营与培训成本： 新人上岗培训周期从 36 个月 → 1 个月，支持以自然语言描述配置审核推理规则，降低企业 70% 的人工投入。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+
+- 合作模式可见文案按 `09-cooperation-mastergo-100.png` 100% 基线逐字核录；运行态 `innerText` 已逐项核对，内容 `无阻塞项`。
+
+| DDS-T1001 | Closing CTA | 标题 | 让国际单证审核从 "人工经验" 走向 "智能业务常态" | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T1002 | Closing CTA | 正文 | 用灵宸 Deepdoc 构建跨境单证专属审单大脑，让单证处理更快、更准、更可追溯，降低企业损失。 | 无 | `app/solutions/products/deepdoc/page.tsx` | PASS |
+| DDS-T1003 | Closing CTA | 按钮 | 预约产品演示 | 无 | `BookingTrigger` | PASS |
+
+- Closing CTA 可见文案按 `10-closing-mastergo-100.png` 100% 基线逐字核录；运行态 `innerText` 与台账一致，内容与交互验收通过。
+
+## 2026-07-22 用户确认覆盖
+
+| 覆盖项 | 页面实际文字 | 状态 |
+|---|---|---|
+| 四维编号 | `01`、`02`、`03`、`04`，去掉句点 | PASS |
+| 结果指标 | `99%+` 同行；`1个月` 保持同行 | PASS |
+| 合作价值卡 | 删除与正文编号重复的顶部数字 | PASS |

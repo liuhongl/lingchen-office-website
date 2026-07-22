@@ -1,0 +1,100 @@
+.sgs-page .sgs-hero {
+  height: 562px;
+}
+
+.sgs-page .sgs-hero__eyebrow {
+  width: fit-content;
+  margin: 0 0 18px;
+  padding: 7px 14px;
+  color: #1769f2;
+  border: 1px solid #dbeafe;
+  border-radius: 999px;
+  background: #eff6ff;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+  letter-spacing: .02em;
+}
+
+/* 用户审查覆盖：稳定四张改变卡的图标锚点，避免长文案挤动图标。 */
+.sgs-page .sgs-change__card {
+  position: relative;
+}
+
+.sgs-page .sgs-change__card > img {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+/* 用户审查覆盖：内容驱动区块高度，避免卡片下方出现固定高度空白。 */
+.sgs-page .sgs-change {
+  height: auto;
+  padding: 34px 0 64px;
+}
+
+/* 用户审查覆盖：区块标题与上一模块之间保留清晰的桌面端呼吸空间。 */
+.sgs-page .sgs-problems {
+  height: auto;
+  padding: 72px 0 80px;
+}
+
+.sgs-page .sgs-flow {
+  height: auto;
+  padding: 72px 0 80px;
+}
+
+/* 两行共用 40px 图标列，保证“挑战”与“解决方案”文字左边界一致。 */
+.sgs-page .sgs-problems__row {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  column-gap: 16px;
+}
+
+.sgs-page .sgs-problems__row--solution {
+  margin: 20px 0 0;
+}
+
+.sgs-page .sgs-problems__row--solution > img {
+  margin: 4px;
+}
+
+/* 用户审查覆盖：流程步骤改为单列纵向时间线。 */
+.sgs-page .sgs-flow__grid {
+  width: min(1040px, 100%);
+  margin: 48px auto 0;
+  grid-template-columns: 1fr;
+  row-gap: 0;
+}
+
+.sgs-page .sgs-flow__item {
+  position: relative;
+  height: auto;
+  min-height: 0;
+  padding-bottom: 38px;
+}
+
+.sgs-page .sgs-flow__item:last-child {
+  padding-bottom: 0;
+}
+
+.sgs-page .sgs-flow__number::after {
+  display: none;
+}
+
+.sgs-page .sgs-flow__item:not(:last-child)::before {
+  position: absolute;
+  top: 41px;
+  bottom: 10px;
+  left: 24px;
+  width: 1px;
+  background: linear-gradient(to bottom, #94a3b8, rgba(148, 163, 184, .22));
+  content: "";
+}
+
+.sgs-page .sgs-flow__note {
+  width: min(1040px, 100%);
+  height: auto;
+  min-height: 89px;
+  margin: 32px auto 0;
+}

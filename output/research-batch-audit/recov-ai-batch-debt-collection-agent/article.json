@@ -1,0 +1,633 @@
+{
+  "slug": "recov-ai-batch-debt-collection-agent",
+  "category": "产品动态",
+  "displayTitle": null,
+  "sourceTitle": "Recov AI 批量催收智能体：批量、小额、标准化逾期债权的可审计催收方案",
+  "summary": "摘要：Recov AI 是灵宸智能面向批量、小额、标准化信用类逾期债权推出的批量催收智能体，它的重点不是“多打电话”，而是把数据解析、逾期画像、策略生成、多身份触达、文书升级和回款确认串成一台可审计的状态机，每个账户在任何时点处于什么状态、经历过哪些动作、由谁批准，全部有据可查。本文会讲清楚它适合哪类资产、内部机制如何运转、与传统人海式催收的差别在哪里，以及 30 天内跑通最小闭环的具体路径。",
+  "publishedAt": null,
+  "sourceDocx": "Recov_AI批量催收智能体_批量小额标准化逾期债权的可审计催收方案.docx",
+  "sourceDocxSha256": "78e0e22104bae571b2526f162d806b8ab96686f248f2837a7e21ea7a6494dce6",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "Recov AI 批量催收智能体：批量、小额、标准化逾期债权的可审计催收方案",
+      "segments": [
+        {
+          "text": "Recov AI 批量催收智能体：批量、小额、标准化逾期债权的可审计催收方案",
+          "bold": true,
+          "fontSizePt": 17.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "alignment": "center",
+        "fontSizePt": 17.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "abstract",
+      "text": "摘要：Recov AI 是灵宸智能面向批量、小额、标准化信用类逾期债权推出的批量催收智能体，它的重点不是“多打电话”，而是把数据解析、逾期画像、策略生成、多身份触达、文书升级和回款确认串成一台可审计的状态机，每个账户在任何时点处于什么状态、经历过哪些动作、由谁批准，全部有据可查。本文会讲清楚它适合哪类资产、内部机制如何运转、与传统人海式催收的差别在哪里，以及 30 天内跑通最小闭环的具体路径。",
+      "segments": [
+        {
+          "text": "摘要：Recov AI 是灵宸智能面向批量、小额、标准化信用类逾期债权推出的批量催收智能体，它的重点不是“多打电话”，而是把数据解析、逾期画像、策略生成、多身份触达、文书升级和回款确认串成一台可审计的状态机，每个账户在任何时点处于什么状态、经历过哪些动作、由谁批准，全部有据可查。本文会讲清楚它适合哪类资产、内部机制如何运转、与传统人海式催收的差别在哪里，以及 30 天内跑通最小闭环的具体路径。",
+          "color": "#404040",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 240,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "01｜先给结论：哪些方法有效，哪些不该用",
+      "segments": [
+        {
+          "text": "01｜先给结论：哪些方法有效，哪些不该用",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "先把结论放在最前面：有合同、账单、历史沟通记录的小额、批量、信用类的资产池，是这套产品最典型的适用对象，正确的顺序是先做分层、再谈触达；真正有效的方法是“数据画像 + 频次规则 + 人工复核 + 回款回写”这套组合，单纯增加外呼量的做法，效果既不稳定也不可持续；至于证据链缺失、事实争议很重，或者指望靠高压话术短期催回款的项目，从一开始就不该用这套系统，完整的判断标准会在第 06 节展开。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "举一个典型场景——一批 3 万户的物业欠费账户里，有人只是忘了缴，有人对服务不满而拒缴，有人号码早已失效，还有人已经进入法务阶段，账户之间的差异远比金额差异更重要。人工团队如果只按金额排序处理，容易把高价值、低风险的账户拖慢，也会反复打扰本该先解决服务争议的客户，投诉由此而生。Recov AI 的判断口径与此相反：先确认事实，再决定节奏；先完成留痕，再升级法律动作，任何一步都不允许跳过前置状态直接加压。整个过程构成一条可审计的业务链路，下图展示了从数据解析、策略生成、多身份触达到回款回写的完整流转，每一步都有明确的输入、执行、留痕和结果回写。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/recov-ai-batch-debt-collection-agent/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "682a603dfd2b6c09890e63a89a04a2cc4fac3448af5828d09e931a6a482a5810",
+      "width": 1800,
+      "height": 820,
+      "caption": "图 1｜Recov AI 的业务链路：从数据解析、策略生成、多身份触达到回款回写，每一步都有输入、执行、留痕和结果回写",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜Recov AI 的业务链路：从数据解析、策略生成、多身份触达到回款回写，每一步都有输入、执行、留痕和结果回写",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "heading",
+      "text": "02｜三类角色怎么用：业务、法务与财务互相校验",
+      "segments": [
+        {
+          "text": "02｜三类角色怎么用：业务、法务与财务互相校验",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "同一套系统，在不同角色手里承担的职责并不相同。催收运营负责人管的是节奏与结果，配置账龄分层、触达节奏和队列优先级，每天盯触达失败、投诉和回款异常，验收的指标是回款率、触达成功率和人工接管率；法务与合规负责人守的是边界，审核话术边界、文书模板、升级阈值和录音留痕，一旦发现高风险话术有权随时暂停，交付物是合规抽检记录和文书复核意见；财务与项目负责人对的是真账，核对部分还款、承诺违约和拒缴原因，确认现金流的改善是真实回款而不是口头承诺，交付物是回款确认表和对账时效。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "从落地经验看，能够长期运行下去的项目，几乎都是这三类视角在同一张工作台里互相校验，运营追效率、法务卡边界、财务验真伪，任何一方缺位都会埋下隐患。只有运营在推，话术和频次容易越界，投诉迟早爆发；法务把关过严却不看业务数据，项目会僵在审批环节动弹不得；财务若不参与确认，回款数字就可能掺水，复盘失去意义。下图展示了三类角色的协同关系，每个角色都对应可验收的交付物，项目才不会只停留在演示效果上。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/recov-ai-batch-debt-collection-agent/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "6fd5c4a3152dce74e3bfa1fea6c363cf7e2a96bc777b4a89903680d45c290b5d",
+      "width": 1375,
+      "height": 580,
+      "caption": "图 2｜三类角色的协同关系：每个角色都对应可验收的交付物，避免项目只看演示效果",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜三类角色的协同关系：每个角色都对应可验收的交付物，避免项目只看演示效果",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "heading",
+      "text": "03｜工作机制：输入、判断、执行、回写",
+      "segments": [
+        {
+          "text": "03｜工作机制：输入、判断、执行、回写",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "判断一款业务智能体能不能进入生产环境，不要只问功能是否存在，更关键的是三个动作：输入能不能结构化，执行过程能不能被控制，结果能不能回到下一轮策略里去。输入结构化，意味着债权数据、账单、历史沟通记录以标准字段进入系统，字段完整率、重复账户和号码有效性都先过检；执行可控，意味着每一次触达的身份、频次、时段和升级动作都有规则、审批和留痕，越界的动作发不出去；结果回写，意味着回款、拒缴原因和投诉会流回策略库，下一轮分层与节奏据此调整。Recov AI 的五个能力点都是按这个标准拆解的，每个能力点解决一类明确的问题，下表同时给出了 POC 阶段应当验证的要点和不适用的情形，可以直接拿去做内部评估。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜五个能力点解决的问题、POC 验证点与不适用情形",
+      "rows": [
+        [
+          "能力点",
+          "解决的问题",
+          "POC 应验证的要点",
+          "不适用 / 暂缓的情形"
+        ],
+        [
+          "数据解析",
+          "债权数据、账单、历史沟通分散",
+          "字段完整率、重复账户、号码有效性",
+          "低于阈值先补数据，不直接大规模触达"
+        ],
+        [
+          "逾期画像",
+          "同一批账户无法分层",
+          "账龄、行为、争议、风险标签是否可解释",
+          "只按金额排序会误伤服务型客户"
+        ],
+        [
+          "多身份触达",
+          "服务温度与法律强度难以平衡",
+          "身份切换是否有规则、审批和留痕",
+          "不得冒充不存在的律师或机构"
+        ],
+        [
+          "文书与立案链路",
+          "法律材料批量整理成本高",
+          "文书底稿、证据目录、审批轨迹",
+          "正式法律动作必须人工确认"
+        ],
+        [
+          "回款复盘",
+          "结果分散在财务和客服系统",
+          "回款、拒缴、投诉是否回写策略库",
+          "只看拨打量不能证明项目成功"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 1｜五个能力点解决的问题、POC 验证点与不适用情形",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "五个能力点串起来，就是“数据—画像—执行—回款—复盘”五个卡点，每个卡点各有一条判断标准：数据是否完整可用，画像标签是否可解释而非黑箱打分，执行动作是否全部在规则和审批之内，回款是否经财务确认为真，复盘结论是否真的改变了下一轮策略。任何一格答不清楚，都应该先补基础条件，再谈规模化，这个顺序不能颠倒——数据没洗干净就大规模外呼，等于把错误号码和争议账户的骚扰风险放大了几十倍，之后处理投诉的成本会远高于前期补数据的投入。实践中最容易被忽视的恰恰是起点：很多团队急于看到回款数字，却从没认真核过字段完整率和号码有效性。判断一个项目该不该推进，不要从电话开始，要从账户状态开始，下面这个决策框架可以直接用在内部评估会上。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/recov-ai-batch-debt-collection-agent/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "ab648a1a173e9b04ff02bfcd8eee92a06c17c6b2cb102c8e21db1da2506d3d8a",
+      "width": 1800,
+      "height": 820,
+      "caption": "图 3｜债权回款决策框架：数据、画像、执行、回款、复盘五个卡点全部通过，才建议进入规模化",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜债权回款决策框架：数据、画像、执行、回款、复盘五个卡点全部通过，才建议进入规模化",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "heading",
+      "text": "04｜与传统方式的差别：从人海战术到状态机",
+      "segments": [
+        {
+          "text": "04｜与传统方式的差别：从人海战术到状态机",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "与人工方式逐项对照，差别集中在五个环节。账户分层上，传统做法按金额或账龄粗排，现在按账龄、行为、争议原因和风险标签综合画像，高价值、低争议的账户被优先处理，服务型争议客户则先走沟通而非施压；触达方式上，过去以坐席电话为主，短信、邮件各自为政、状态割裂，现在语音、短信、邮件与法律 EMS 协同调度，漏触达减少，所有动作汇入同一份状态记录；身份表达上，人工坐席凭经验在服务语气与正式催告之间切换，难以留痕，现在管家、客服、法务、律师等身份按预设规则流转，每一次切换都有审批与记录，既保住了服务温度，也守住了身份披露的合规底线。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "文书处理和结果复盘的变化同样明显——法务过去逐笔整理催收材料，大量时间耗在低价值的重复劳动上，现在系统批量生成文书底稿并统一进入人工复核，法务的精力集中在真正需要专业判断的环节；结果复盘上，回款与拒缴原因过去分散在财务和客服多个系统里，凭感觉下结论，现在统一回写策略库，下一轮策略更贴近账户的真实状况。需要提醒一句：凡是涉及回款率、触达成功率这类具体数值的表述，都应保留“公司口径 / 客户项目实测 / POC 示例”之类的限定语，并用客户自己的样本复核，直接照搬到内部汇报或采购论证里是不严谨的，效果验收建议按下图的四类指标分别看，每一项数值都带着口径说话。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/recov-ai-batch-debt-collection-agent/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "f30a3b8b4350420c6517ae596aa1d249b8cfeea90ccd58c71c6dd10e2c196694",
+      "width": 1375,
+      "height": 626,
+      "caption": "图 4｜POC 指标看板示例：效率、质量、经营、风险四类指标，每项数值都保留“公司口径 / 客户项目实测”等限定语",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜POC 指标看板示例：效率、质量、经营、风险四类指标，每项数值都保留“公司口径 / 客户项目实测”等限定语",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "heading",
+      "text": "05｜30 天跑通最小闭环：可复制的执行清单",
+      "segments": [
+        {
+          "text": "05｜30 天跑通最小闭环：可复制的执行清单",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "POC 不宜一开始就追求全量上线，更稳的做法是选一个边界清楚、责任人明确、结果可验收的流程，用真实但脱敏的样本运行，观察三件事：系统输出的质量到底如何，人工修改和接管的比例有多大，回款、投诉这些业务结果是否真的改善。样本建议抽取 500 至 3000 笔真实脱敏账户，且必须覆盖正常、失联、争议和高风险四类样本——只挑“好催”的账户跑试点，结论看着漂亮，扩量之后立刻失真。30 天的节奏可以拆成四个阶段，每个阶段都有明确的目标、交付物和通过标准，缺一项就说明该阶段没有真正完成，下表给出了完整的执行清单。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜30 天最小闭环的四个阶段、交付物与通过标准",
+      "rows": [
+        [
+          "阶段",
+          "目标",
+          "交付物",
+          "通过标准"
+        ],
+        [
+          "样本准备",
+          "抽取 500–3000 笔真实脱敏账户，覆盖正常、失联、争议和高风险样本",
+          "字段说明、证据清单、历史沟通记录",
+          "字段完整率达标，争议账户可识别"
+        ],
+        [
+          "流程配置",
+          "设置身份、频次、时段、渠道、升级阈值和人工审批点",
+          "策略表、话术库、审批规则、日志口径",
+          "每个关键动作可追踪"
+        ],
+        [
+          "小范围运行",
+          "运行 7–14 天，按账龄和渠道拆分复盘",
+          "触达记录、录音质检、回款确认、Badcase 清单",
+          "指标达阈值且投诉可控"
+        ],
+        [
+          "扩展复盘",
+          "决定是否扩展资产池或区域",
+          "复盘报告、停用话术清单、扩展计划",
+          "运营、法务、财务三方同意"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 2｜30 天最小闭环的四个阶段、交付物与通过标准",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "heading",
+      "text": "06｜适用与暂不适用：边界说清楚，项目才容易成功",
+      "segments": [
+        {
+          "text": "06｜适用与暂不适用：边界说清楚，项目才容易成功",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "边界诚实比过度承诺更有价值。适用的一侧包括三类情形：批量、小额、标准化的信用类逾期债权，物业费、消费分期、信用卡账单、汽车金融分期都是典型资产；已经有合同、账单、还款记录和历史沟通资料，能够支撑数据接入与法务复核的机构；以及希望先用 POC 验证回款、触达、投诉和合规留痕，再决定扩大规模的团队。暂不适用的一侧同样清楚——单户事实复杂、证据链缺失、债务真实性争议很重的资产，应当先由人工法务逐户梳理，批量系统帮不上忙；希望靠骚扰、高压、越界话术短期催回款的，这套产品从设计上就不支持，也不该支持；没有建立人工审批、投诉处理和数据安全机制的机构，不建议直接上线。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "如果不确定自己属于哪一类，可以按下面的决策树逐一自查四个问题：数据是否完整可用，话术与频次边界是否已经定义，回款和拒缴原因能否回写，人工能否随时接管。四个问题全部确认，再启动 POC；遇到任何一个红色分支，先补齐条件，不建议直接规模化。这组清单可以原样放进售前评估、采购问答和试点启动会，把边界写在合同之前，比事后解释要省力得多。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/recov-ai-batch-debt-collection-agent/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "f40ffc624bbb70bafee2dcee4317f7518569a640eb7312808cc80a97bfb8e575",
+      "width": 1800,
+      "height": 850,
+      "caption": "图 5｜适用 / 暂缓决策树：数据、边界、回写、人工接管四个问题逐一确认，遇红色分支先补条件",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜适用 / 暂缓决策树：数据、边界、回写、人工接管四个问题逐一确认，遇红色分支先补条件",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-032",
+      "type": "heading",
+      "text": "07｜安全与合规：默认把高风险动作交给人",
+      "segments": [
+        {
+          "text": "07｜安全与合规：默认把高风险动作交给人",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "人机分工的原则并不复杂：高频、重复、可规则化的动作交给系统先处理，比如批量数据解析、账户分层、常规提醒类触达和状态统计，这些工作靠人力做既慢又难以保证口径一致；而事实高度争议、责任重大、需要专业签字或客户授权的动作，一律保留人工兜底——催收函、律师函、诉状等正式法律文书的签发，争议账户的处置方案，投诉与舆情的应对，默认由人来确认，系统只提供底稿和证据目录，不替人承担法律责任。这条边界画得越清楚，系统的产出团队越敢用，法务的精力也越能集中在真正需要专业判断的环节上；反过来，如果边界模糊，要么每个动作都要人工重审导致批量能力形同虚设，要么高风险文书未经把关直接发出，两种结局都会把机构拖进合规泥潭。下图给出了系统职责与人工职责的具体划分。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/recov-ai-batch-debt-collection-agent/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "a2c57d41e124dd70cb20793dd95a1f23eca77934e1b5654be8e425587f380575",
+      "width": 1415,
+      "height": 605,
+      "caption": "图 6｜人机分工边界：系统负责高频、可规则化环节，责任重大的动作默认保留人工确认",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 200,
+        "spaceAfterTwips": 80,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜人机分工边界：系统负责高频、可规则化环节，责任重大的动作默认保留人工确认",
+          "color": "#595959",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "在这一分工之下，落地时至少要守住四个治理维度。个人信息与债权数据是第一条线，最小必要访问、脱敏样本、权限分级，以及合作终止后的删除证明缺一不可，债权数据一旦外泄，损失的不只是一个项目；触达合规约束的是频次、时段、身份披露、退订与停止触达请求的响应，以及投诉处理流程，这些直接决定骚扰与误导风险能否压住；文书审批要求催收函、律师函、诉状和证据目录必须经人工复核，法律责任不能外包给系统，这一条没有商量余地；过程留痕则要求生成、修改、发送、回款确认和人工接管全程可追溯，审计和争议处理都以此为据。可以参照的合规框架包括美国 FDCPA 与 CFPB Regulation F、FCC 的 TCPA 规则，以及中国《个人信息保护法》《数据安全法》和客户所在法域的催收监管要求——这些只是参照而非法律意见，项目落地时应由客户方的法务、合规和信息安全团队结合所在法域复核。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "heading",
+      "text": "08｜如何开始：先跑通一个最小闭环",
+      "segments": [
+        {
+          "text": "08｜如何开始：先跑通一个最小闭环",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 360,
+        "spaceAfterTwips": 160,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "演示只能说明能力边界，POC 才能说明业务价值。比较务实的起步方式：已经在做催收运营的机构，建议从一个账龄清晰、证据链完整、投诉风险可控的资产池开始，先跑通一个最小闭环，看清回款、触达、投诉和留痕四类指标的真实表现，再决定是否向更多资产池、区域或渠道扩展；尚在评估阶段的新客户，可以用 500 至 3000 笔脱敏样本做一轮方案评估，字段完整率和分层可解释性这两关过了，后面的路才走得稳。如果想进一步了解 Recov AI 是否匹配自身的资产结构，可以访问灵宸智能官网 www.lingchen-ai.com 查看产品详情，或直接致电 18621786899 联系团队，预约产品演示与 POC 方案评估，把逾期债权的处置真正做成一门可复盘的运营体系。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

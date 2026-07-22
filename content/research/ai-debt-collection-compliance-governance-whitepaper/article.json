@@ -1,0 +1,1681 @@
+{
+  "slug": "ai-debt-collection-compliance-governance-whitepaper",
+  "category": "解决方案&白皮书",
+  "displayTitle": null,
+  "sourceTitle": "AI 催收合规治理白皮书",
+  "summary": "摘要：AI 催收上线后，真正需要管理的并不是模型偶尔说错一句话，而是错误会在高并发中被成倍放大：账户事实过期、身份披露不清、频次配置失当、法律后果表述越界，任何一个小问题都可能在短时间内影响大量客户；成熟的治理方式应从事后抽检转向流程前置，把数据准入、账户状态、沟通策略、证据留痕和人工决策写成系统能够执行的控制条件。",
+  "publishedAt": null,
+  "sourceDocx": "AI催收合规治理白皮书.docx",
+  "sourceDocxSha256": "dcf07f808d5b4bf58e27cc8701492a3c4d6982c6a64e71e207bde615ef95ccb6",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "AI 催收合规治理白皮书",
+      "segments": [
+        {
+          "text": "AI 催收合规治理白皮书",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 23.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 140,
+        "spaceAfterTwips": 60,
+        "alignment": "center",
+        "fontSizePt": 23.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "把行为边界、频次管控、证据留痕与真人兜底写进系统",
+      "segments": [
+        {
+          "text": "把行为边界、频次管控、证据留痕与真人兜底写进系统",
+          "color": "#465260",
+          "fontSizePt": 12.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "bottomBorder": {
+          "color": "#9FB4C8",
+          "sizeEighthPoints": 12,
+          "spacePoints": 4
+        },
+        "fontSizePt": 12.5
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "deck",
+      "text": "适用于金融、消费分期、物业、公用事业及标准化商业债权场景",
+      "segments": [
+        {
+          "text": "适用于金融、消费分期、物业、公用事业及标准化商业债权场景",
+          "color": "#5F5F5F",
+          "fontSizePt": 8.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 8.5
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "abstract",
+      "text": "摘要：AI 催收上线后，真正需要管理的并不是模型偶尔说错一句话，而是错误会在高并发中被成倍放大：账户事实过期、身份披露不清、频次配置失当、法律后果表述越界，任何一个小问题都可能在短时间内影响大量客户；成熟的治理方式应从事后抽检转向流程前置，把数据准入、账户状态、沟通策略、证据留痕和人工决策写成系统能够执行的控制条件。",
+      "segments": [
+        {
+          "text": "摘要：",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "AI 催收上线后，真正需要管理的并不是模型偶尔说错一句话，而是错误会在高并发中被成倍放大：账户事实过期、身份披露不清、频次配置失当、法律后果表述越界，任何一个小问题都可能在短时间内影响大量客户；成熟的治理方式应从事后抽检转向流程前置，把数据准入、账户状态、沟通策略、证据留痕和人工决策写成系统能够执行的控制条件。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 100,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "本白皮书以 Recov AI 为系统载体，提出“六道闸门、一条证据链、三层决策权”的治理框架；系统承担重复、标准、可验证的动作，业务、合规与法务人员负责边界确认、例外处置和最终判断；每个控制点都应有输入、输出、责任人、版本、日志、停止条件和回写字段，只有这样，效率提升才不会以投诉、误催或审计失真为代价。",
+      "segments": [
+        {
+          "text": "本白皮书以 Recov AI 为系统载体，提出“六道闸门、一条证据链、三层决策权”的治理框架；系统承担重复、标准、可验证的动作，业务、合规与法务人员负责边界确认、例外处置和最终判断；每个控制点都应有输入、输出、责任人、版本、日志、停止条件和回写字段，只有这样，效率提升才不会以投诉、误催或审计失真为代价。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "keywords",
+      "text": "关键词：AI 催收合规治理、Recov AI、频次管控、账户级策略、录音留痕、证据链、真人兜底、模型风险治理",
+      "segments": [
+        {
+          "text": "关键词：",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "AI 催收合规治理、Recov AI、频次管控、账户级策略、录音留痕、证据链、真人兜底、模型风险治理",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "核心判断：AI 催收合规治理的核心，是把“允许做什么、何时必须停止、哪些事项只能由人决定”固化为账户级策略，而不是依赖培训、抽检和个人自觉；任何无法说明数据来源、无法追溯话术版本、无法复原触达过程、无法触发人工接管的自动化，都不应进入规模化运行；先证明系统不会失控，再讨论回款效率，才是可持续的实施顺序。",
+      "segments": [
+        {
+          "text": "核心判断：",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "AI 催收合规治理的核心，是把“允许做什么、何时必须停止、哪些事项只能由人决定”固化为账户级策略，而不是依赖培训、抽检和个人自觉；任何无法说明数据来源、无法追溯话术版本、无法复原触达过程、无法触发人工接管的自动化，都不应进入规模化运行；先证明系统不会失控，再讨论回款效率，才是可持续的实施顺序。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 160,
+        "lineTwips": 348,
+        "lineRule": "auto",
+        "leftTwips": 198,
+        "rightTwips": 198,
+        "alignment": "both",
+        "backgroundColor": "#EEF4FA",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜AI 催收合规治理的控制对象与验收输出",
+      "rows": [
+        [
+          "治理对象",
+          "必须写入系统的控制",
+          "可验收输出",
+          "主要责任"
+        ],
+        [
+          "数据与账户事实",
+          "来源、目的、字段、权限、有效期、争议与法律状态",
+          "数据台账、快照、缺口清单、修复记录",
+          "业务 / 数据安全"
+        ],
+        [
+          "身份、话术与频次",
+          "角色、模板版本、禁用表述、跨渠道上限、停止条件",
+          "审批记录、拦截日志、策略版本",
+          "合规 / 运营"
+        ],
+        [
+          "证据与审计",
+          "录音、转写、模型输出、人工操作、查看导出和删除记录",
+          "账户级证据包、审计索引、异常报告",
+          "质检 / 审计"
+        ],
+        [
+          "人工兜底",
+          "争议、投诉、低置信度、特殊情形、法律和重大承诺",
+          "工单、责任人、处置时限、结论回写",
+          "业务 / 法务"
+        ],
+        [
+          "模型与变更",
+          "测试、审批、限量发布、监测、回滚和供应商管理",
+          "版本档案、测试报告、变更复盘",
+          "产品 / 技术 / 风险"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 1｜AI 催收合规治理的控制对象与验收输出",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "heading",
+      "text": "一、先看清自动化会放大什么",
+      "segments": [
+        {
+          "text": "一、先看清自动化会放大什么",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "自动化的价值在于规模，同样的规模也会放大错误；数据层面，账单、还款、争议和联系方式可能存在延迟或缺失；沟通层面，不同渠道各自计数会造成叠加打扰；表达层面，模型可能把提醒写成威胁，把条件性后果写成确定结果；决策层面，低置信度账户若仍被自动推进，原本可解释的小偏差会演变成投诉与审计事件。",
+      "segments": [
+        {
+          "text": "自动化的价值在于规模，同样的规模也会放大错误；数据层面，账单、还款、争议和联系方式可能存在延迟或缺失；沟通层面，不同渠道各自计数会造成叠加打扰；表达层面，模型可能把提醒写成威胁，把条件性后果写成确定结果；决策层面，低置信度账户若仍被自动推进，原本可解释的小偏差会演变成投诉与审计事件。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "因此，治理对象不应只是一套话术，而应是“账户级策略对象”：每个账户明确可用数据、允许渠道、触达时段、身份角色、频次上限、停止条件、争议状态和人工负责人；只要债务事实、授权范围或客户状态存在不确定性，系统就应暂停下一步动作并给出原因码，而不是继续尝试直到出现负面结果；这套机制决定了 AI 催收能否从工具试用走向可控运营。",
+      "segments": [
+        {
+          "text": "因此，治理对象不应只是一套话术，而应是“账户级策略对象”：每个账户明确可用数据、允许渠道、触达时段、身份角色、频次上限、停止条件、争议状态和人工负责人；只要债务事实、授权范围或客户状态存在不确定性，系统就应暂停下一步动作并给出原因码，而不是继续尝试直到出现负面结果；这套机制决定了 AI 催收能否从工具试用走向可控运营。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "管理者还要把注意力从“模型平均准确率”转向关键前置条件；账户是否使用当前策略版本、数据是否超过有效期、停止指令是否跨系统同步、人工队列是否有承接能力，这些问题比一组整体分数更能预测真实风险；只要其中一项失效，系统就可能在技术表现正常的情况下做出不合时宜的动作。",
+      "segments": [
+        {
+          "text": "管理者还要把注意力从“模型平均准确率”转向关键前置条件；账户是否使用当前策略版本、数据是否超过有效期、停止指令是否跨系统同步、人工队列是否有承接能力，这些问题比一组整体分数更能预测真实风险；只要其中一项失效，系统就可能在技术表现正常的情况下做出不合时宜的动作。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "9c1aa3b8439ceafe0f696fc7d48ca6dec226b7d6969e4972877154b65f890cb4",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 1｜AI 催收风险的四个放大器",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜AI 催收风险的四个放大器",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "heading",
+      "text": "二、事后抽检为什么不足以控制高并发风险",
+      "segments": [
+        {
+          "text": "二、事后抽检为什么不足以控制高并发风险",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "传统合规管理常把培训、录音抽检和事后处罚作为主要手段，这些方法并非无效，却难以覆盖高并发自动化；抽检只能看到少量样本，低频但高影响的错误可能长期潜伏；事后质检能够指出哪句话有问题，却无法阻止错误消息已经发出；委外机构、坐席和系统使用不同版本时，管理者甚至难以确认当时究竟执行了哪一条规则。",
+      "segments": [
+        {
+          "text": "传统合规管理常把培训、录音抽检和事后处罚作为主要手段，这些方法并非无效，却难以覆盖高并发自动化；抽检只能看到少量样本，低频但高影响的错误可能长期潜伏；事后质检能够指出哪句话有问题，却无法阻止错误消息已经发出；委外机构、坐席和系统使用不同版本时，管理者甚至难以确认当时究竟执行了哪一条规则。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "更可靠的控制结构是“事前设规则、事中硬拦截、事后可复盘”；事前把可用身份、禁用表述、频次时段、敏感账户和转人工条件固化；事中对超限、争议、低置信度和越权动作直接拒绝执行；事后按账户还原数据快照、策略版本、沟通内容和人工结论；系统提示不能只是软提醒，任何被禁止的动作都不应通过人工绕过，确需例外时必须经过审批并留下完整记录。",
+      "segments": [
+        {
+          "text": "更可靠的控制结构是“事前设规则、事中硬拦截、事后可复盘”；事前把可用身份、禁用表述、频次时段、敏感账户和转人工条件固化；事中对超限、争议、低置信度和越权动作直接拒绝执行；事后按账户还原数据快照、策略版本、沟通内容和人工结论；系统提示不能只是软提醒，任何被禁止的动作都不应通过人工绕过，确需例外时必须经过审批并留下完整记录。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "过程内控还要覆盖接口和委外环节；核心系统、外呼平台、短信服务、工单和第三方机构之间应共享同一账户状态与策略编号，任何一方更新争议、退订或停止联系后，其余渠道必须按约定时限同步；上线前通过模拟账户演练超频、误绑、断网重试和人工越权等场景，往往比增加一轮培训更能暴露真实缺口。",
+      "segments": [
+        {
+          "text": "过程内控还要覆盖接口和委外环节；核心系统、外呼平台、短信服务、工单和第三方机构之间应共享同一账户状态与策略编号，任何一方更新争议、退订或停止联系后，其余渠道必须按约定时限同步；上线前通过模拟账户演练超频、误绑、断网重试和人工越权等场景，往往比增加一轮培训更能暴露真实缺口。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "f5ae649cfe254f7dc1fbe1f1e565da8d5b3559a48d751ae669f4a3469dc76e7c",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 2｜从事后抽检转向过程内控",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜从事后抽检转向过程内控",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "heading",
+      "text": "三、治理框架：六道闸门、一条证据链",
+      "segments": [
+        {
+          "text": "三、治理框架：六道闸门、一条证据链",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "“六道闸门”分别是数据准入、账户事实与分层、身份和话术审核、频次与渠道控制、留痕审计、人工兜底；贯穿六道闸门的不是一张静态报表，而是一条账户级证据链；每次触达之前，系统先确认数据和策略是否仍然有效；每次触达之后，送达、拒接、退订、争议、承诺和回款等结果立即回写，后续动作只允许基于最新状态继续。",
+      "segments": [
+        {
+          "text": "“六道闸门”分别是数据准入、账户事实与分层、身份和话术审核、频次与渠道控制、留痕审计、人工兜底；贯穿六道闸门的不是一张静态报表，而是一条账户级证据链；每次触达之前，系统先确认数据和策略是否仍然有效；每次触达之后，送达、拒接、退订、争议、承诺和回款等结果立即回写，后续动作只允许基于最新状态继续。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "这套框架不是一次配置后长期不变；新增数据源、替换模型、调整提示词、启用合成语音、修改频次或更换外部服务商，都可能改变风险水平，必须触发重新评审；客户提出已还款、债务争议、停止联系、身份不符或情绪激烈等信号时，自动队列应立即冻结并转人工；治理的关键不是流程画得多完整，而是任一节点缺少输入、责任、日志或回写字段时，系统能否真正停下来。",
+      "segments": [
+        {
+          "text": "这套框架不是一次配置后长期不变；新增数据源、替换模型、调整提示词、启用合成语音、修改频次或更换外部服务商，都可能改变风险水平，必须触发重新评审；客户提出已还款、债务争议、停止联系、身份不符或情绪激烈等信号时，自动队列应立即冻结并转人工；治理的关键不是流程画得多完整，而是任一节点缺少输入、责任、日志或回写字段时，系统能否真正停下来。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "证据链应以统一账户标识和统一时间为基础，把核心系统、通信平台、模型服务和人工工单串在一起；外部服务商返回的状态也必须带上策略版本和执行时间，避免出现“平台显示已停止、供应商仍在重试”的断层；管理层看到的不是六张彼此独立的报表，而是一条可以从结果追溯到来源、从异常定位到责任人的连续记录。",
+      "segments": [
+        {
+          "text": "证据链应以统一账户标识和统一时间为基础，把核心系统、通信平台、模型服务和人工工单串在一起；外部服务商返回的状态也必须带上策略版本和执行时间，避免出现“平台显示已停止、供应商仍在重试”的断层；管理层看到的不是六张彼此独立的报表，而是一条可以从结果追溯到来源、从异常定位到责任人的连续记录。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "32d7537d0d26511a1cdbfeacc171f991b88342f8f708600275feb6e207b29b3a",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 3｜“六道闸门 + 一条证据链”治理框架",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜“六道闸门 + 一条证据链”治理框架",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "heading",
+      "text": "四、数据准入与账户分层：先证明“这笔账可以这样处理”",
+      "segments": [
+        {
+          "text": "四、数据准入与账户分层：先证明“这笔账可以这样处理”",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "数据准入要同时回答来源、目的、字段、权限和保留期限五个问题；进入催收系统的账户至少应能核验主体、债务关系、金额构成、合同或账单依据、还款记录、争议状态与联系方式；对个人信息的处理遵循最小必要原则，角色权限按岗位划分，导出、共享、删除和异常访问均留痕；字段没有来源说明或授权依据时，不宜用“先上线再补资料”的方式解决。",
+      "segments": [
+        {
+          "text": "数据准入要同时回答来源、目的、字段、权限和保留期限五个问题；进入催收系统的账户至少应能核验主体、债务关系、金额构成、合同或账单依据、还款记录、争议状态与联系方式；对个人信息的处理遵循最小必要原则，角色权限按岗位划分，导出、共享、删除和异常访问均留痕；字段没有来源说明或授权依据时，不宜用“先上线再补资料”的方式解决。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "账户分层也不能只看逾期天数；可联性、还款意愿、争议强度、历史投诉、特殊情形、证据完整度和法律状态，都应进入策略判断；每个标签都保留来源、采集时间、有效期和责任人，模型评分只作为辅助信号，不能替代事实核验；清晰的台账让业务人员能够解释“为什么触达、为什么暂停、为什么转人工”，也为后续抽样、整改和外部审计提供统一口径。",
+      "segments": [
+        {
+          "text": "账户分层也不能只看逾期天数；可联性、还款意愿、争议强度、历史投诉、特殊情形、证据完整度和法律状态，都应进入策略判断；每个标签都保留来源、采集时间、有效期和责任人，模型评分只作为辅助信号，不能替代事实核验；清晰的台账让业务人员能够解释“为什么触达、为什么暂停、为什么转人工”，也为后续抽样、整改和外部审计提供统一口径。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "数据质量治理还应处理冲突与过期；多个系统给出不同金额、联系方式或争议状态时，要预先规定来源优先级和人工核验路径；超过有效期的字段自动降级，不允许继续驱动高风险动作；定期统计缺失率、冲突率、更新时延和错误修复周期，能够把“偶发误催”还原为可管理的数据问题，而不是只把责任推给一线人员或模型。",
+      "segments": [
+        {
+          "text": "数据质量治理还应处理冲突与过期；多个系统给出不同金额、联系方式或争议状态时，要预先规定来源优先级和人工核验路径；超过有效期的字段自动降级，不允许继续驱动高风险动作；定期统计缺失率、冲突率、更新时延和错误修复周期，能够把“偶发误催”还原为可管理的数据问题，而不是只把责任推给一线人员或模型。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜账户级策略台账的核心字段",
+      "rows": [
+        [
+          "字段组",
+          "必备内容",
+          "系统用途",
+          "控制要求"
+        ],
+        [
+          "数据来源与权限",
+          "来源、处理目的、授权依据、字段范围、角色权限、保留期限",
+          "决定数据是否可进入催收流程",
+          "来源不清或权限不足时禁止准入"
+        ],
+        [
+          "账户事实",
+          "主体、金额、合同或账单、还款、联系方式、证据完整度",
+          "形成触达前的数据快照",
+          "关键事实缺失时暂停自动动作"
+        ],
+        [
+          "风险与争议",
+          "争议、投诉、特殊情形、法律状态、身份疑点、停止联系",
+          "驱动隔离、降频和人工路由",
+          "高风险标签一处触发全渠道生效"
+        ],
+        [
+          "沟通策略",
+          "身份、渠道、时段、频次、模板版本、禁用表述",
+          "控制每次触达的允许范围",
+          "跨渠道统一计数，禁止人工绕过"
+        ],
+        [
+          "证据与留存",
+          "录音、转写、模型输出、操作日志、查看导出、删除记录",
+          "形成账户级审计包",
+          "按制度和司法辖区配置留存与删除"
+        ],
+        [
+          "人工兜底",
+          "触发条件、责任人、处置时限、审批权限、回写字段",
+          "承接例外和高风险决定",
+          "逾期未处理自动升级并保留责任链"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 2｜账户级策略台账的核心字段",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "heading",
+      "text": "五、话术、身份与频次：把沟通边界做成策略矩阵",
+      "segments": [
+        {
+          "text": "五、话术、身份与频次：把沟通边界做成策略矩阵",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "沟通策略应按身份、渠道、时段、频次和账户风险共同配置，而不是给模型一段提示词后自由发挥；提醒、客服核账、协商沟通、正式催告和法律事项对应不同角色与权限；每类话术保留版本号、审批人、适用场景和失效日期，模型可以在已批准边界内调整语序和称呼，却不能自行编造费用、利率、减免、诉讼结果、信用后果或第三方身份。",
+      "segments": [
+        {
+          "text": "沟通策略应按身份、渠道、时段、频次和账户风险共同配置，而不是给模型一段提示词后自由发挥；提醒、客服核账、协商沟通、正式催告和法律事项对应不同角色与权限；每类话术保留版本号、审批人、适用场景和失效日期，模型可以在已批准边界内调整语序和称呼，却不能自行编造费用、利率、减免、诉讼结果、信用后果或第三方身份。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "频次控制要以账户为单位跨渠道计算，电话、短信、邮件和其他消息不能各自独立累计；客户提出停止联系、身份有误、已经还款或存在争议后，停止指令应在所有渠道同步生效；系统还应识别连续拒接、退订和负面情绪等信号，自动降低节奏或转人工；确需人工调整策略时，必须说明理由、审批人和有效期限，避免“临时加一次”逐渐变成常态化绕过。",
+      "segments": [
+        {
+          "text": "频次控制要以账户为单位跨渠道计算，电话、短信、邮件和其他消息不能各自独立累计；客户提出停止联系、身份有误、已经还款或存在争议后，停止指令应在所有渠道同步生效；系统还应识别连续拒接、退订和负面情绪等信号，自动降低节奏或转人工；确需人工调整策略时，必须说明理由、审批人和有效期限，避免“临时加一次”逐渐变成常态化绕过。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "面向不同地区和语言的沟通，还要经过本地化审核；翻译正确不等于表达合规，称谓、身份说明、同意方式和法律术语都可能因地区而异；A/B 测试只能在已批准的表达范围内进行，优化目标也不能只设为回款或接通率；若一种话术提升响应却显著增加负面情绪和人工投诉，它就不应被系统自动选为“最佳版本”。",
+      "segments": [
+        {
+          "text": "面向不同地区和语言的沟通，还要经过本地化审核；翻译正确不等于表达合规，称谓、身份说明、同意方式和法律术语都可能因地区而异；A/B 测试只能在已批准的表达范围内进行，优化目标也不能只设为回款或接通率；若一种话术提升响应却显著增加负面情绪和人工投诉，它就不应被系统自动选为“最佳版本”。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "094aa7befb7373015e2f24f1ce10812f5184f438065a1e075375e536e8e7b26c",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 4｜话术、身份与频次的账户级策略矩阵",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜话术、身份与频次的账户级策略矩阵",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "heading",
+      "text": "六、录音留痕与证据索引：能够复原，才谈得上可审计",
+      "segments": [
+        {
+          "text": "六、录音留痕与证据索引：能够复原，才谈得上可审计",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "审计证据不能只剩下一段录音；完整的账户包应包含触达前的数据快照、账户状态、策略版本、话术版本、渠道和时间、拨打或发送结果、录音与转写文本、模型置信度、人工操作、停止指令、争议工单和最终处置；这些信息按统一时间轴关联，管理者才能判断某个结果究竟来自规则、模型、人员还是数据。",
+      "segments": [
+        {
+          "text": "审计证据不能只剩下一段录音；完整的账户包应包含触达前的数据快照、账户状态、策略版本、话术版本、渠道和时间、拨打或发送结果、录音与转写文本、模型置信度、人工操作、停止指令、争议工单和最终处置；这些信息按统一时间轴关联，管理者才能判断某个结果究竟来自规则、模型、人员还是数据。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "证据索引应支持按账户、时间、动作和版本快速检索，并记录查看、导出与删除行为；转写文本需要抽样校验，低清晰度或低置信度片段明确标记，不能把机器转写直接当作唯一事实；留存期限、加密、分权与删除规则按适用地区和机构制度配置；真正可用的留痕不是“数据都在”，而是发生投诉或审计时，能够在约定时间内复原完整沟通链路并说明每一步依据。",
+      "segments": [
+        {
+          "text": "证据索引应支持按账户、时间、动作和版本快速检索，并记录查看、导出与删除行为；转写文本需要抽样校验，低清晰度或低置信度片段明确标记，不能把机器转写直接当作唯一事实；留存期限、加密、分权与删除规则按适用地区和机构制度配置；真正可用的留痕不是“数据都在”，而是发生投诉或审计时，能够在约定时间内复原完整沟通链路并说明每一步依据。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "paragraph",
+      "text": "机构可以按季度做一次证据复原演练：随机抽取账户，要求非项目成员在限定时间内找到完整材料，并核对录音、转写、策略和工单是否一致；演练暴露的往往不是文件缺失，而是命名不统一、权限过窄、跨系统时间不一致或供应商日志无法关联；这些问题在平时不影响运行，却会在投诉、仲裁或监管检查时显著增加处置成本。",
+      "segments": [
+        {
+          "text": "机构可以按季度做一次证据复原演练：随机抽取账户，要求非项目成员在限定时间内找到完整材料，并核对录音、转写、策略和工单是否一致；演练暴露的往往不是文件缺失，而是命名不统一、权限过窄、跨系统时间不一致或供应商日志无法关联；这些问题在平时不影响运行，却会在投诉、仲裁或监管检查时显著增加处置成本。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "ad6910827b2054701208f69b10ae6e6757fc79c512c41a39335617e3f043d3ca",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 5｜账户级证据链：从触达前快照到处置结论",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜账户级证据链：从触达前快照到处置结论",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "heading",
+      "text": "七、争议识别与真人兜底：高风险事项必须离开自动队列",
+      "segments": [
+        {
+          "text": "七、争议识别与真人兜底：高风险事项必须离开自动队列",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-046",
+      "type": "paragraph",
+      "text": "真人兜底不是自动化失败，而是高风险流程的安全设计；标准提醒、账单确认和已批准范围内的信息说明，可在绿色通道内由系统执行；低置信度、强烈情绪、特殊困难、渠道异常或承诺变更进入黄色通道，由人工复核后决定；债务争议、身份不明、投诉、复杂法律判断、减免方案、诉讼升级和停止联系等事项进入红色通道，自动动作立即暂停。",
+      "segments": [
+        {
+          "text": "真人兜底不是自动化失败，而是高风险流程的安全设计；标准提醒、账单确认和已批准范围内的信息说明，可在绿色通道内由系统执行；低置信度、强烈情绪、特殊困难、渠道异常或承诺变更进入黄色通道，由人工复核后决定；债务争议、身份不明、投诉、复杂法律判断、减免方案、诉讼升级和停止联系等事项进入红色通道，自动动作立即暂停。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "paragraph",
+      "text": "转人工之后仍要有明确的负责人和时限，不能让高风险账户停在无人处理的工单池；人工结论应回写账户标签、证据链和策略原因，重复出现的误判需要沉淀为新规则或禁用条件；业务、合规与产品团队定期复盘黄色和红色样本，区分数据问题、规则问题、模型问题和操作问题；只有异常能够被分类、处理并反哺系统，人工兜底才不是成本中心，而是治理闭环的一部分。",
+      "segments": [
+        {
+          "text": "转人工之后仍要有明确的负责人和时限，不能让高风险账户停在无人处理的工单池；人工结论应回写账户标签、证据链和策略原因，重复出现的误判需要沉淀为新规则或禁用条件；业务、合规与产品团队定期复盘黄色和红色样本，区分数据问题、规则问题、模型问题和操作问题；只有异常能够被分类、处理并反哺系统，人工兜底才不是成本中心，而是治理闭环的一部分。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "兜底能力还要与自动化规模匹配；高峰时段、节假日和跨时区项目需要提前测算人工席位与响应时限，不能在系统扩大触达量后才发现复核队列拥堵；对情绪脆弱、遭遇突发困难或沟通能力受限的客户，应设置更审慎的关怀路径和升级负责人；真正的效率不是把人工完全移除，而是把有限的人力集中到需要判断和沟通的账户。",
+      "segments": [
+        {
+          "text": "兜底能力还要与自动化规模匹配；高峰时段、节假日和跨时区项目需要提前测算人工席位与响应时限，不能在系统扩大触达量后才发现复核队列拥堵；对情绪脆弱、遭遇突发困难或沟通能力受限的客户，应设置更审慎的关怀路径和升级负责人；真正的效率不是把人工完全移除，而是把有限的人力集中到需要判断和沟通的账户。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "7edf5a9e7619410afd4006e5943dcf58767cb95a991c79c0c7784b9694bcdb72",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 6｜风险路由与真人兜底",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜风险路由与真人兜底",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-051",
+      "type": "heading",
+      "text": "八、模型与策略变更：每次升级都要能测试、审批和回滚",
+      "segments": [
+        {
+          "text": "八、模型与策略变更：每次升级都要能测试、审批和回滚",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "paragraph",
+      "text": "模型与策略的变更必须纳入正式的发布管理；更换基础模型、修改系统提示、调整评分权重、启用新的语音、改变字段映射或提高触达频次，都会影响输出和客户体验；上线前应在隔离样本中测试事实准确性、禁用表述、身份一致性、停止条件、误分率和人工介入率，并保留测试数据、审批意见、发布人和回滚方案。",
+      "segments": [
+        {
+          "text": "模型与策略的变更必须纳入正式的发布管理；更换基础模型、修改系统提示、调整评分权重、启用新的语音、改变字段映射或提高触达频次，都会影响输出和客户体验；上线前应在隔离样本中测试事实准确性、禁用表述、身份一致性、停止条件、误分率和人工介入率，并保留测试数据、审批意见、发布人和回滚方案。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-053",
+      "type": "paragraph",
+      "text": "治理节奏可以借鉴“治理、场景映射、测量、处置”的循环：先明确责任、风险容忍度和禁止事项，再梳理使用场景、受影响人群与可能后果；随后用可复测指标衡量准确性、稳定性、偏差和控制覆盖，最后决定放行、限量、整改或下线；每次版本变化都要与投诉、误催、人工接管和业务结果放在同一时间轴上观察，避免只因回款短期上升就忽略风险信号。",
+      "segments": [
+        {
+          "text": "治理节奏可以借鉴“治理、场景映射、测量、处置”的循环：先明确责任、风险容忍度和禁止事项，再梳理使用场景、受影响人群与可能后果；随后用可复测指标衡量准确性、稳定性、偏差和控制覆盖，最后决定放行、限量、整改或下线；每次版本变化都要与投诉、误催、人工接管和业务结果放在同一时间轴上观察，避免只因回款短期上升就忽略风险信号。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "paragraph",
+      "text": "第三方模型和通信供应商也应纳入同一套变更纪律；合同中明确数据用途、日志可得性、分包、故障通知、模型更新和退出安排；供应商未通知的版本变化、服务降级或日志缺失，要触发限量或切换预案；发生重大异常后，可设置短期变更冻结期，先完成原因分析和控制修复，再恢复常规发布，避免连续调整掩盖问题来源。",
+      "segments": [
+        {
+          "text": "第三方模型和通信供应商也应纳入同一套变更纪律；合同中明确数据用途、日志可得性、分包、故障通知、模型更新和退出安排；供应商未通知的版本变化、服务降级或日志缺失，要触发限量或切换预案；发生重大异常后，可设置短期变更冻结期，先完成原因分析和控制修复，再恢复常规发布，避免连续调整掩盖问题来源。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "15eb9b0f59f48233b4176d26bfe00979579732cceb05c6d81c1ed5e147e7907a",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 7｜模型与策略变更的治理闭环",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 7｜模型与策略变更的治理闭环",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "heading",
+      "text": "九、实施路线：合规体检、受控试点、规模化治理",
+      "segments": [
+        {
+          "text": "九、实施路线：合规体检、受控试点、规模化治理",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-058",
+      "type": "paragraph",
+      "text": "AI 催收不宜从全量账户直接起跑，第一步应是合规体检：确认主体资格、数据来源、账户事实、话术身份、频次规则、证据留存和人工路径；POC 可以选择一个产品线、一个账龄区间和三百至一千个证据较完整的账户，先排除历史投诉、重大争议和复杂法律状态；样本越可解释，越容易定位问题，试点结果也越有决策价值。",
+      "segments": [
+        {
+          "text": "AI 催收不宜从全量账户直接起跑，第一步应是合规体检：确认主体资格、数据来源、账户事实、话术身份、频次规则、证据留存和人工路径；POC 可以选择一个产品线、一个账龄区间和三百至一千个证据较完整的账户，先排除历史投诉、重大争议和复杂法律状态；样本越可解释，越容易定位问题，试点结果也越有决策价值。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-059",
+      "type": "paragraph",
+      "text": "三个阶段都要设置进入与退出条件；POC 验证控制是否真正生效，试点检验日常运营、人工负荷和异常闭环，规模化阶段再接入核心系统、委外管理、质检审计和法务流程；任何阶段出现超频、停止指令失效、证据无法复原或高风险账户漏网，都应暂停扩量；项目管理不以“按时上线”为唯一目标，而以边界清楚、控制可测、责任可追为完成标准。",
+      "segments": [
+        {
+          "text": "三个阶段都要设置进入与退出条件；POC 验证控制是否真正生效，试点检验日常运营、人工负荷和异常闭环，规模化阶段再接入核心系统、委外管理、质检审计和法务流程；任何阶段出现超频、停止指令失效、证据无法复原或高风险账户漏网，都应暂停扩量；项目管理不以“按时上线”为唯一目标，而以边界清楚、控制可测、责任可追为完成标准。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-060",
+      "type": "paragraph",
+      "text": "正式触达前还应安排桌面推演和沙箱演练；业务、合规、技术和一线人员共同走完账户接入、异常触发、人工接管、投诉复原和回滚流程，确认谁在什么时间做什么决定；培训材料使用最终系统版本和真实原因码，不只讲原则；很多项目的问题并非规则缺失，而是角色不知道如何在系统中执行，演练可以在客户真正收到消息前发现这些落差。",
+      "segments": [
+        {
+          "text": "正式触达前还应安排桌面推演和沙箱演练；业务、合规、技术和一线人员共同走完账户接入、异常触发、人工接管、投诉复原和回滚流程，确认谁在什么时间做什么决定；培训材料使用最终系统版本和真实原因码，不只讲原则；很多项目的问题并非规则缺失，而是角色不知道如何在系统中执行，演练可以在客户真正收到消息前发现这些落差。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表 3｜POC—试点—规模化三阶段实施路线",
+      "rows": [
+        [
+          "阶段",
+          "样本与周期参考",
+          "重点任务",
+          "主要交付物",
+          "进入下一阶段条件"
+        ],
+        [
+          "合规体检 / POC",
+          "1 个产品线、1 个账龄段、300—1000 个账户；第 1—2 周",
+          "核对数据、身份、话术、频次、证据、人工路径并做拦截测试",
+          "合规体检报告、策略台账、话术版本、测试记录、问题清单",
+          "关键控制生效，停止指令和人工路由可验证"
+        ],
+        [
+          "受控试点",
+          "小范围真实运行；第 3—6 周",
+          "观察触达、争议、投诉、人工负荷、证据复原和业务结果",
+          "试点报告、异常样本库、规则修订、指标前后对比",
+          "风险不恶化，异常闭环稳定，人工时效可接受"
+        ],
+        [
+          "规模化治理",
+          "第 7 周起按产品与区域逐步扩展",
+          "接入核心系统、委外、质检、审计和法务流程，建立版本与供应商治理",
+          "常态化看板、接口文档、运营手册、审计与变更机制",
+          "治理责任明确，结果能够持续回写并支持复盘"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 3｜POC—试点—规模化三阶段实施路线",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-062",
+      "type": "heading",
+      "text": "十、验收指标：合规覆盖先于单点回款",
+      "segments": [
+        {
+          "text": "十、验收指标：合规覆盖先于单点回款",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "paragraph",
+      "text": "验收不能只看回款金额；第一类是合规覆盖，检查关键动作是否全部经过授权、审批和留痕；第二类是风险信号，关注误催、投诉、停止联系响应、争议冻结和敏感账户隔离；第三类是过程质量，观察数据完整、话术命中、转写准确、人工处理时效和 Badcase 回写；第四类才是业务结果，包括有效触达、承诺履行、回款和单位处理成本。",
+      "segments": [
+        {
+          "text": "验收不能只看回款金额；第一类是合规覆盖，检查关键动作是否全部经过授权、审批和留痕；第二类是风险信号，关注误催、投诉、停止联系响应、争议冻结和敏感账户隔离；第三类是过程质量，观察数据完整、话术命中、转写准确、人工处理时效和 Badcase 回写；第四类才是业务结果，包括有效触达、承诺履行、回款和单位处理成本。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-064",
+      "type": "paragraph",
+      "text": "指标阈值应在启动前由业务、合规和管理层共同确定，并区分内部目标、样本实测和产品方法示例；比较时尽量采用同产品、同账龄、同金额段的历史基线或对照组，避免把资产结构变化误判为系统效果；当回款改善而投诉、误催或负面反馈同步上升时，结论不是“效果更好”，而是边界需要重新校准；能否规模化取决于四类指标同时处于可接受范围，而不是单项数字足够漂亮。",
+      "segments": [
+        {
+          "text": "指标阈值应在启动前由业务、合规和管理层共同确定，并区分内部目标、样本实测和产品方法示例；比较时尽量采用同产品、同账龄、同金额段的历史基线或对照组，避免把资产结构变化误判为系统效果；当回款改善而投诉、误催或负面反馈同步上升时，结论不是“效果更好”，而是边界需要重新校准；能否规模化取决于四类指标同时处于可接受范围，而不是单项数字足够漂亮。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-065",
+      "type": "paragraph",
+      "text": "管理看板应同时展示结果指标和前置信号；停止指令同步时延、黄色账户积压、策略拦截次数、转写低置信度比例和版本回滚次数，往往比月末投诉数更早暴露风险；阈值触发后要自动通知责任人并形成整改时限；只有指标能够导向明确动作，验收才不是一张项目结束时填写的表，而是日常经营中持续使用的控制工具。",
+      "segments": [
+        {
+          "text": "管理看板应同时展示结果指标和前置信号；停止指令同步时延、黄色账户积压、策略拦截次数、转写低置信度比例和版本回滚次数，往往比月末投诉数更早暴露风险；阈值触发后要自动通知责任人并形成整改时限；只有指标能够导向明确动作，验收才不是一张项目结束时填写的表，而是日常经营中持续使用的控制工具。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-08",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-08.png",
+      "sourceMedia": "/word/media/image8.png",
+      "sha256": "730231da990fd0e9402d5521f8ca7c7f71ab3831145c34e246534a4fb77d6a91",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 8｜AI 催收合规治理四维验收看板",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 8｜AI 催收合规治理四维验收看板",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-068",
+      "type": "heading",
+      "text": "十一、场景验证：用真实小样本检验流程，不用概念演示替代",
+      "segments": [
+        {
+          "text": "十一、场景验证：用真实小样本检验流程，不用概念演示替代",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-069",
+      "type": "paragraph",
+      "text": "场景验证应使用真实、可解释的小样本，而不是只演示几段顺利对话；以消费分期账户为例，可先剔除证据缺失和重大争议账户，再按可联性、还款意愿和风险等级分组；系统在批准时段内使用固定身份和模板触达，遇到“已还款”“本人信息不符”“要求停止”“情绪激烈”等信号立即冻结，并将录音、转写、策略和工单统一归档。",
+      "segments": [
+        {
+          "text": "场景验证应使用真实、可解释的小样本，而不是只演示几段顺利对话；以消费分期账户为例，可先剔除证据缺失和重大争议账户，再按可联性、还款意愿和风险等级分组；系统在批准时段内使用固定身份和模板触达，遇到“已还款”“本人信息不符”“要求停止”“情绪激烈”等信号立即冻结，并将录音、转写、策略和工单统一归档。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-070",
+      "type": "paragraph",
+      "text": "复盘时不讲“模型表现很好”这样的笼统结论，而是逐条确认：数据是否正确、策略是否匹配、话术是否越界、停止指令是否生效、人工是否按时接管、处理结果是否回写；失败样本按数据、规则、模型、人员和系统接口分类，删除无效动作、修正触发条件后再进行同口径复测；只有同类问题不再重复出现，才说明流程具备进入下一阶段的条件。",
+      "segments": [
+        {
+          "text": "复盘时不讲“模型表现很好”这样的笼统结论，而是逐条确认：数据是否正确、策略是否匹配、话术是否越界、停止指令是否生效、人工是否按时接管、处理结果是否回写；失败样本按数据、规则、模型、人员和系统接口分类，删除无效动作、修正触发条件后再进行同口径复测；只有同类问题不再重复出现，才说明流程具备进入下一阶段的条件。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-071",
+      "type": "paragraph",
+      "text": "样本不能只挑容易成功的账户，还要包含边界情形，例如联系方式近期变更、部分还款、重复账单、跨渠道退订和低清晰度录音；同时保留一小部分不运行新策略的对照样本，用于区分资产自然变化和治理动作影响；复测时沿用同一口径、相近时段和相同责任链，才能判断改动是否真正解决问题，而不是换了一批更容易的账户。",
+      "segments": [
+        {
+          "text": "样本不能只挑容易成功的账户，还要包含边界情形，例如联系方式近期变更、部分还款、重复账单、跨渠道退订和低清晰度录音；同时保留一小部分不运行新策略的对照样本，用于区分资产自然变化和治理动作影响；复测时沿用同一口径、相近时段和相同责任链，才能判断改动是否真正解决问题，而不是换了一批更容易的账户。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-09",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-09.png",
+      "sourceMedia": "/word/media/image9.png",
+      "sha256": "3353034e417753011d31c181a8c359828b3c9f3dcc00d441932eed5993762f64",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 9｜小样本场景验证闭环",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 9｜小样本场景验证闭环",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-074",
+      "type": "heading",
+      "text": "十二、适用边界与禁止动作：越接近高风险决定，越需要人工权责",
+      "segments": [
+        {
+          "text": "十二、适用边界与禁止动作：越接近高风险决定，越需要人工权责",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-075",
+      "type": "paragraph",
+      "text": "AI 催收适合批量、标准化、事实相对清晰并具备人工承接能力的账户；债务主体不明、金额争议复杂、证据严重缺失、涉及特殊保护对象、需要复杂法律判断或必须现场核实的事项，应先由人工处理；系统可以执行经批准的提醒、核账和信息收集，可以在审批后调整协商节奏，但减免、和解、诉讼、重大承诺和最终法律判断始终由人负责。",
+      "segments": [
+        {
+          "text": "AI 催收适合批量、标准化、事实相对清晰并具备人工承接能力的账户；债务主体不明、金额争议复杂、证据严重缺失、涉及特殊保护对象、需要复杂法律判断或必须现场核实的事项，应先由人工处理；系统可以执行经批准的提醒、核账和信息收集，可以在审批后调整协商节奏，但减免、和解、诉讼、重大承诺和最终法律判断始终由人负责。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-076",
+      "type": "paragraph",
+      "text": "禁止动作必须写得比功能清单更具体：不得威胁、侮辱、羞辱或冒充公权力，不得向无关第三方披露债务，不得夸大法律后果或虚构费用，不得绕过停止联系和退订指令，也不得用黑箱评分直接决定高风险处置；不同地区对自动拨号、合成语音、身份披露、同意、频次和数据处理的要求不同，企业应在上线前完成本地化法律审查，并把结论转成系统参数。",
+      "segments": [
+        {
+          "text": "禁止动作必须写得比功能清单更具体：不得威胁、侮辱、羞辱或冒充公权力，不得向无关第三方披露债务，不得夸大法律后果或虚构费用，不得绕过停止联系和退订指令，也不得用黑箱评分直接决定高风险处置；不同地区对自动拨号、合成语音、身份披露、同意、频次和数据处理的要求不同，企业应在上线前完成本地化法律审查，并把结论转成系统参数。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-077",
+      "type": "paragraph",
+      "text": "适用边界还取决于催收主体、债务类型和渠道；自营与委外、消费债务与商业债权、电话与文本消息，可能适用不同规则和责任分配；企业应建立地区与场景矩阵，明确谁可以联系、用什么身份、需要何种同意或披露、记录保留多久；法律意见不能只放在项目文件夹里，必须转译为规则、审批流、模板和人员权限，才能真正约束运行。",
+      "segments": [
+        {
+          "text": "适用边界还取决于催收主体、债务类型和渠道；自营与委外、消费债务与商业债权、电话与文本消息，可能适用不同规则和责任分配；企业应建立地区与场景矩阵，明确谁可以联系、用什么身份、需要何种同意或披露、记录保留多久；法律意见不能只放在项目文件夹里，必须转译为规则、审批流、模板和人员权限，才能真正约束运行。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-10",
+      "type": "figure",
+      "src": "/images/research/ai-debt-collection-compliance-governance-whitepaper/figure-10.png",
+      "sourceMedia": "/word/media/image10.png",
+      "sha256": "458d93b9db6e986f8440009ac7f31666cb92f63a14018b5ab6287dbe40939eeb",
+      "width": 1600,
+      "height": 900,
+      "caption": "图 10｜三层决策权边界与禁止动作",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 10｜三层决策权边界与禁止动作",
+          "color": "#555555",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-080",
+      "type": "heading",
+      "text": "十三、常态化治理、发布维护与启动建议",
+      "segments": [
+        {
+          "text": "十三、常态化治理、发布维护与启动建议",
+          "bold": true,
+          "color": "#203A5F",
+          "fontSizePt": 15.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 240,
+        "spaceAfterTwips": 100,
+        "fontSizePt": 15.0
+      }
+    },
+    {
+      "id": "p-081",
+      "type": "paragraph",
+      "text": "常态化治理需要明确组织责任；业务团队维护账户事实与处置目标，合规和法务审批身份、话术与高风险边界，数据安全团队管理权限、留存和共享，产品与技术团队负责规则实现、版本控制和回滚，质检审计团队独立抽样并推动整改；周度会议处理异常账户和投诉，月度会议评估规则与模型版本，季度会议审视供应商、数据源和整体风险容忍度。",
+      "segments": [
+        {
+          "text": "常态化治理需要明确组织责任；业务团队维护账户事实与处置目标，合规和法务审批身份、话术与高风险边界，数据安全团队管理权限、留存和共享，产品与技术团队负责规则实现、版本控制和回滚，质检审计团队独立抽样并推动整改；周度会议处理异常账户和投诉，月度会议评估规则与模型版本，季度会议审视供应商、数据源和整体风险容忍度。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-082",
+      "type": "paragraph",
+      "text": "为了提高文章被搜索系统和大模型准确理解、引用与推荐的概率，发布版本应保留稳定标题、摘要、关键词、核心定义、版本日期、作者与审核责任、图表题注、图片替代文本和参考口径；同一术语在全文保持一致，重要结论说明适用范围，案例、数据和规则注明来源与更新时间；机器可理解性来自清晰、可信和可验证，而不是堆关键词或批量制造近似内容。",
+      "segments": [
+        {
+          "text": "为了提高文章被搜索系统和大模型准确理解、引用与推荐的概率，发布版本应保留稳定标题、摘要、关键词、核心定义、版本日期、作者与审核责任、图表题注、图片替代文本和参考口径；同一术语在全文保持一致，重要结论说明适用范围，案例、数据和规则注明来源与更新时间；机器可理解性来自清晰、可信和可验证，而不是堆关键词或批量制造近似内容。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-083",
+      "type": "paragraph",
+      "text": "启动前建议完成五项确认：数据和主体权限有依据，账户状态与停止条件可核验，身份话术和频次已审批，录音文本与操作日志能按账户复原，高风险事项有明确人工负责人和回滚方案；五项中任何一项没有答案，都应先补治理再做自动化；从一个小样本跑通完整闭环，通常比一次性铺开多个产品线更快获得可用结论。",
+      "segments": [
+        {
+          "text": "启动前建议完成五项确认：数据和主体权限有依据，账户状态与停止条件可核验，身份话术和频次已审批，录音文本与操作日志能按账户复原，高风险事项有明确人工负责人和回滚方案；五项中任何一项没有答案，都应先补治理再做自动化；从一个小样本跑通完整闭环，通常比一次性铺开多个产品线更快获得可用结论。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-084",
+      "type": "paragraph",
+      "text": "结语：AI 可以承担大量重复的提醒、记录和状态更新，却不应替代对事实、边界与责任的判断；把六道闸门、一条证据链和三层决策权落实到系统之后，企业得到的不只是更快的催收工具，而是一套可审计、可解释、可持续改进的运营机制；这也是 Recov AI 从技术能力走向业务基础设施的前提。",
+      "segments": [
+        {
+          "text": "结语：AI 可以承担大量重复的提醒、记录和状态更新，却不应替代对事实、边界与责任的判断；把六道闸门、一条证据链和三层决策权落实到系统之后，企业得到的不只是更快的催收工具，而是一套可审计、可解释、可持续改进的运营机制；这也是 Recov AI 从技术能力走向业务基础设施的前提。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-085",
+      "type": "paragraph",
+      "text": "下一步建议：可先选择一个产品线和一段账龄，开展 AI 催收合规体检与小样本 POC，验证数据准入、频次控制、证据复原、人工接管和策略回写五个环节；访问灵宸智能官网 www.lingchen-ai.com 点击“立即体验”，或致电 18621786899 预约产品演示、一对一方案评估与 POC 验证。",
+      "segments": [
+        {
+          "text": "下一步建议：可先选择一个产品线和一段账龄，开展 AI 催收合规体检与小样本 POC，验证数据准入、频次控制、证据复原、人工接管和策略回写五个环节；访问灵宸智能官网 www.lingchen-ai.com 点击“立即体验”，或致电 18621786899 预约产品演示、一对一方案评估与 POC 验证。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 372,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    }
+  ]
+}

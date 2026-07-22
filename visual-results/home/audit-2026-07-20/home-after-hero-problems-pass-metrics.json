@@ -1,0 +1,73 @@
+{
+  "innerWidth": 1440,
+  "innerHeight": 900,
+  "clientWidth": 1440,
+  "scrollWidth": 1440,
+  "bodyScrollWidth": 1440,
+  "fullHeight": 3844,
+  "sections": [
+    {
+      "cls": "site-header",
+      "id": "",
+      "x": 0,
+      "y": 0,
+      "width": 1440,
+      "height": 66,
+      "bg": "rgba(255, 255, 255, 0.92)"
+    },
+    {
+      "cls": "hero",
+      "id": "top",
+      "x": 0,
+      "y": 66,
+      "width": 1440,
+      "height": 620,
+      "bg": "rgba(0, 0, 0, 0)"
+    },
+    {
+      "cls": "section problems",
+      "id": "problems",
+      "x": 0,
+      "y": 686,
+      "width": 1440,
+      "height": 709,
+      "bg": "rgb(234, 245, 255)"
+    },
+    {
+      "cls": "section value",
+      "id": "value",
+      "x": 0,
+      "y": 1395,
+      "width": 1440,
+      "height": 616,
+      "bg": "rgb(244, 250, 255)"
+    },
+    {
+      "cls": "section agent-os",
+      "id": "agent-os",
+      "x": 0,
+      "y": 2010,
+      "width": 1440,
+      "height": 1221,
+      "bg": "rgb(234, 245, 255)"
+    },
+    {
+      "cls": "closing-cta",
+      "id": "",
+      "x": 0,
+      "y": 3231,
+      "width": 1440,
+      "height": 312,
+      "bg": "rgb(16, 26, 51)"
+    },
+    {
+      "cls": "site-footer",
+      "id": "contact",
+      "x": 0,
+      "y": 3543,
+      "width": 1440,
+      "height": 301,
+      "bg": "rgb(5, 15, 35)"
+    }
+  ]
+}

@@ -1,0 +1,1326 @@
+{
+  "slug": "ai-acquisition-harness-smart-outreach",
+  "category": "解决方案&白皮书",
+  "displayTitle": null,
+  "sourceTitle": "AI 获客 Harness 智慧触达方案",
+  "summary": "摘要｜AI 获客 Harness 是一套以客户状态为中心的多渠道触达与销售承接系统，面向线索首触、活动邀约、老客唤醒、跨时区咨询和销售跟进等场景，把大模型外呼与呼入、个性化邮件、场景化短信、意图识别和 CRM 回流编排为同一条作业链路；它不追求把所有沟通交给机器，而是让系统承担重复、标准、可记录的动作，让销售在高意向、异议、报价与合同等关键节点及时接管。",
+  "publishedAt": null,
+  "sourceDocx": "AI获客Harness智慧触达方案.docx",
+  "sourceDocxSha256": "4436bd69ac8d922c013b4498acadbc32bfe02c2348a3f1c212435451e946bc18",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "AI 获客 Harness 智慧触达方案",
+      "segments": [
+        {
+          "text": "AI 获客 Harness 智慧触达方案",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 23.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 23.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "subtitle",
+      "text": "大模型外呼、个性化邮件与场景化短信的协同增长方法",
+      "segments": [
+        {
+          "text": "大模型外呼、个性化邮件与场景化短信的协同增长方法",
+          "color": "#4E5D6C",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "bottomBorder": {
+          "color": "#244A73",
+          "sizeEighthPoints": 12,
+          "spacePoints": 5
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "abstract",
+      "text": "摘要｜AI 获客 Harness 是一套以客户状态为中心的多渠道触达与销售承接系统，面向线索首触、活动邀约、老客唤醒、跨时区咨询和销售跟进等场景，把大模型外呼与呼入、个性化邮件、场景化短信、意图识别和 CRM 回流编排为同一条作业链路；它不追求把所有沟通交给机器，而是让系统承担重复、标准、可记录的动作，让销售在高意向、异议、报价与合同等关键节点及时接管。",
+      "segments": [
+        {
+          "text": "摘要｜",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "AI 获客 Harness 是一套以客户状态为中心的多渠道触达与销售承接系统，面向线索首触、活动邀约、老客唤醒、跨时区咨询和销售跟进等场景，把大模型外呼与呼入、个性化邮件、场景化短信、意图识别和 CRM 回流编排为同一条作业链路；它不追求把所有沟通交给机器，而是让系统承担重复、标准、可记录的动作，让销售在高意向、异议、报价与合同等关键节点及时接管。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 120,
+        "lineTwips": 336,
+        "lineRule": "auto",
+        "leftTwips": 142,
+        "rightTwips": 142,
+        "alignment": "both",
+        "backgroundColor": "#EEF5FA",
+        "leftBorder": {
+          "color": "#B9CAD8",
+          "sizeEighthPoints": 8,
+          "spacePoints": 4
+        },
+        "bottomBorder": {
+          "color": "#B9CAD8",
+          "sizeEighthPoints": 8,
+          "spacePoints": 4
+        },
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "核心判断｜本方案的核心判断是：企业通常并不缺电话、邮箱或短信能力，真正缺少的是统一的客户状态、清晰的渠道职责和可复盘的数据回路；当一次未接来电、一次资料点击、一封邮件回复能够触发下一步动作，并且每个动作都有来源、责任人、时间戳和结果字段，多渠道触达才从“工具叠加”升级为可管理的增长流程。",
+      "segments": [
+        {
+          "text": "核心判断｜",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 10.5
+        },
+        {
+          "text": "本方案的核心判断是：企业通常并不缺电话、邮箱或短信能力，真正缺少的是统一的客户状态、清晰的渠道职责和可复盘的数据回路；当一次未接来电、一次资料点击、一封邮件回复能够触发下一步动作，并且每个动作都有来源、责任人、时间戳和结果字段，多渠道触达才从“工具叠加”升级为可管理的增长流程。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 0,
+        "leftTwips": 142,
+        "rightTwips": 142,
+        "alignment": "both",
+        "backgroundColor": "#F1F8F2",
+        "leftBorder": {
+          "color": "#B9D0BE",
+          "sizeEighthPoints": 8,
+          "spacePoints": 4
+        },
+        "bottomBorder": {
+          "color": "#B9D0BE",
+          "sizeEighthPoints": 8,
+          "spacePoints": 4
+        },
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "keywords",
+      "text": "关键词｜AI 获客 Harness、智慧触达、大模型外呼、个性化邮件、场景化短信、多渠道触达、线索培育、CRM 回流、销售运营、人工接管",
+      "segments": [
+        {
+          "text": "关键词｜",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 9.5
+        },
+        {
+          "text": "AI 获客 Harness、智慧触达、大模型外呼、个性化邮件、场景化短信、多渠道触达、线索培育、CRM 回流、销售运营、人工接管",
+          "color": "#4E5D6C",
+          "fontSizePt": 9.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 0,
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "heading",
+      "text": "一、先统一判断：问题不是缺渠道，而是缺连续的客户上下文",
+      "segments": [
+        {
+          "text": "一、先统一判断：问题不是缺渠道，而是缺连续的客户上下文",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "很多团队已经拥有外呼系统、企业邮箱、短信平台和 CRM，却仍然经常出现首触不及时、邮件与电话内容重复、客户回复后无人跟进等问题；原因不在于单个渠道能力不足，而在于渠道之间没有共享“客户现在处于什么状态、上一轮说了什么、下一步由谁负责”这组关键信息；市场活动带来的线索在白天排队，跨时区咨询在夜间无人接，销售第二天只能从零开始判断，首轮响应的窗口因此被消耗。",
+      "segments": [
+        {
+          "text": "很多团队已经拥有外呼系统、企业邮箱、短信平台和 CRM，却仍然经常出现首触不及时、邮件与电话内容重复、客户回复后无人跟进等问题；原因不在于单个渠道能力不足，而在于渠道之间没有共享“客户现在处于什么状态、上一轮说了什么、下一步由谁负责”这组关键信息；市场活动带来的线索在白天排队，跨时区咨询在夜间无人接，销售第二天只能从零开始判断，首轮响应的窗口因此被消耗。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "更稳妥的做法，是先把客户状态和动作规则写清楚：新线索需要快速确认身份与需求，未接通线索应转入低打扰的邮件或短信，提出资料需求的客户应收到与场景相符的证据材料，出现明确采购计划或复杂异议时则由人工接管；渠道因此不再各自追求拨打量、打开率和发送量，而是共同服务于同一个目标——让每一次互动都推动客户进入更合适的下一步。",
+      "segments": [
+        {
+          "text": "更稳妥的做法，是先把客户状态和动作规则写清楚：新线索需要快速确认身份与需求，未接通线索应转入低打扰的邮件或短信，提出资料需求的客户应收到与场景相符的证据材料，出现明确采购计划或复杂异议时则由人工接管；渠道因此不再各自追求拨打量、打开率和发送量，而是共同服务于同一个目标——让每一次互动都推动客户进入更合适的下一步。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-smart-outreach/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "ecc12b244316f88f0c0401284c4934b37c6f63a5cf4c9fe02897abdd72fbf6bb",
+      "width": 1500,
+      "height": 820,
+      "caption": "图 1｜多渠道智慧触达的四类断点",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1｜多渠道智慧触达的四类断点",
+          "color": "#5E6872",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-011",
+      "type": "heading",
+      "text": "二、从“渠道堆叠”转向“状态驱动作业”",
+      "segments": [
+        {
+          "text": "二、从“渠道堆叠”转向“状态驱动作业”",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "传统触达往往按渠道分工：呼叫中心看接通率，邮件团队看打开率，短信平台看送达率，销售只在 CRM 中记录最终结果；这些指标都可能上升，却无法解释商机为什么没有增加；状态驱动作业的差别在于，系统先识别客户所处阶段，再决定使用哪个渠道、间隔多久、发送什么内容，以及何时停止自动动作，管理者看到的是一条完整路径，而不是四张互不相干的报表。",
+      "segments": [
+        {
+          "text": "传统触达往往按渠道分工：呼叫中心看接通率，邮件团队看打开率，短信平台看送达率，销售只在 CRM 中记录最终结果；这些指标都可能上升，却无法解释商机为什么没有增加；状态驱动作业的差别在于，系统先识别客户所处阶段，再决定使用哪个渠道、间隔多久、发送什么内容，以及何时停止自动动作，管理者看到的是一条完整路径，而不是四张互不相干的报表。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "例如，电话接通但客户表示“先看资料”，下一步不是继续追问，也不是进入固定的三封开发信序列，而是由邮件发送对应行业的案例、产品说明和预约入口；若邮件被点击但没有回复，可在约定时段发送一次场景化短信，提醒资料已送达并提供退出选项；若客户明确拒绝、退订或投诉，所有自动触达立即停止；这样的逻辑看似克制，却能减少无效打扰，并把真正值得人工投入的客户更快送到销售手中。",
+      "segments": [
+        {
+          "text": "例如，电话接通但客户表示“先看资料”，下一步不是继续追问，也不是进入固定的三封开发信序列，而是由邮件发送对应行业的案例、产品说明和预约入口；若邮件被点击但没有回复，可在约定时段发送一次场景化短信，提醒资料已送达并提供退出选项；若客户明确拒绝、退订或投诉，所有自动触达立即停止；这样的逻辑看似克制，却能减少无效打扰，并把真正值得人工投入的客户更快送到销售手中。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-smart-outreach/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "626af8c60804ba91bb250e9b1c7f6c61c4bc52aca07bc08a28dc87cda56008f4",
+      "width": 1500,
+      "height": 820,
+      "caption": "图 2｜渠道堆叠与状态驱动作业方式对比",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2｜渠道堆叠与状态驱动作业方式对比",
+          "color": "#5E6872",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "heading",
+      "text": "三、总体架构：一层策略、三类触点、两条反馈回路",
+      "segments": [
+        {
+          "text": "三、总体架构：一层策略、三类触点、两条反馈回路",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "AI 获客 Harness 的架构可以概括为“一层策略、三类触点、两条反馈回路”；策略层接收客户画像、来源、区域、产品兴趣、历史互动和排除名单，形成渠道顺序、时间间隔、内容版本与停止条件；语音、邮件、短信承担不同的沟通任务，不互相替代；NLP 意图分析把客户表达转为可执行标签，CRM 回流则把标签、证据和下一步待办写入统一线索时间轴。",
+      "segments": [
+        {
+          "text": "AI 获客 Harness 的架构可以概括为“一层策略、三类触点、两条反馈回路”；策略层接收客户画像、来源、区域、产品兴趣、历史互动和排除名单，形成渠道顺序、时间间隔、内容版本与停止条件；语音、邮件、短信承担不同的沟通任务，不互相替代；NLP 意图分析把客户表达转为可执行标签，CRM 回流则把标签、证据和下一步待办写入统一线索时间轴。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "这套架构的重点不是生成更多内容，而是保持上下文连续；系统必须知道一封邮件为什么发送、引用了哪次通话中的哪项需求，也要知道短信提醒对应哪份资料或哪场会议；销售接管时，应能在一张线索卡片里看到触达来源、关键语句、客户异议、已发送材料和下一步建议；只有当上下游字段能对齐，自动化才不会变成黑箱，团队也才能判断问题出在线索质量、渠道选择、内容表达还是人工跟进。",
+      "segments": [
+        {
+          "text": "这套架构的重点不是生成更多内容，而是保持上下文连续；系统必须知道一封邮件为什么发送、引用了哪次通话中的哪项需求，也要知道短信提醒对应哪份资料或哪场会议；销售接管时，应能在一张线索卡片里看到触达来源、关键语句、客户异议、已发送材料和下一步建议；只有当上下游字段能对齐，自动化才不会变成黑箱，团队也才能判断问题出在线索质量、渠道选择、内容表达还是人工跟进。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-smart-outreach/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "28c6104bc85e09b10e469664e3cf39e9a36c343dc9533380a7e78e03d60d9494",
+      "width": 1500,
+      "height": 820,
+      "caption": "图 3｜AI 获客 Harness 总体架构",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3｜AI 获客 Harness 总体架构",
+          "color": "#5E6872",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "heading",
+      "text": "四、渠道职责要分开：语音确认、邮件解释、短信提醒",
+      "segments": [
+        {
+          "text": "四、渠道职责要分开：语音确认、邮件解释、短信提醒",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "三级触达不是把同一段话复制到三个渠道，而是让每个渠道承担最擅长的任务；语音适合快速确认身份、需求和时点，也适合承接跨时区呼入；邮件适合传递需要阅读和留存的证据，如案例、方案说明、活动议程、产品资料和预约链接；短信适合在已知场景下提供短提醒，例如未接来电、资料送达、会议临近或活动报名确认。",
+      "segments": [
+        {
+          "text": "三级触达不是把同一段话复制到三个渠道，而是让每个渠道承担最擅长的任务；语音适合快速确认身份、需求和时点，也适合承接跨时区呼入；邮件适合传递需要阅读和留存的证据，如案例、方案说明、活动议程、产品资料和预约链接；短信适合在已知场景下提供短提醒，例如未接来电、资料送达、会议临近或活动报名确认。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "渠道编排必须同时定义触发条件与退出条件；客户没有表达资料需求时，不应连续发送长邮件；未取得适当许可或没有明确业务关系时，不应把短信当作低成本群发工具；客户已回复邮件、完成预约或要求停止联系时，其他渠道要同步更新状态；管理者在评审方案时，应逐项追问“为什么此刻用这个渠道、客户能否理解这次联系、什么情况会停止”，而不是只问系统一天能发多少；同时保留人工发送登记，避免绕开策略形成隐性重复触达。",
+      "segments": [
+        {
+          "text": "渠道编排必须同时定义触发条件与退出条件；客户没有表达资料需求时，不应连续发送长邮件；未取得适当许可或没有明确业务关系时，不应把短信当作低成本群发工具；客户已回复邮件、完成预约或要求停止联系时，其他渠道要同步更新状态；管理者在评审方案时，应逐项追问“为什么此刻用这个渠道、客户能否理解这次联系、什么情况会停止”，而不是只问系统一天能发多少；同时保留人工发送登记，避免绕开策略形成隐性重复触达。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1｜三渠道职责、触发条件与退出规则",
+      "rows": [
+        [
+          "渠道",
+          "主要职责",
+          "常见触发",
+          "退出 / 接管规则"
+        ],
+        [
+          "VOICE 语音",
+          "身份确认、需求识别、时点判断与跨时区呼入分流",
+          "新线索、活动报名、客户来电、历史线索唤醒",
+          "资料需求转邮件；高意向、复杂异议转人工；拒绝即停止"
+        ],
+        [
+          "EMAIL 邮件",
+          "传递案例、方案说明、议程、资料与预约入口",
+          "语音反馈、资料下载、会议后跟进、客户明确许可",
+          "回复或预约后停止自动序列；退订同步全渠道"
+        ],
+        [
+          "SMS 短信",
+          "在时间敏感节点提供短提醒和明确动作入口",
+          "未接来电、资料送达、会议临近、活动确认",
+          "完成动作即停止；未许可或复杂内容不使用"
+        ],
+        [
+          "人工销售",
+          "判断、谈判、承诺、争议处理与最终责任",
+          "高意向、价格、合同、投诉、低置信度或敏感事项",
+          "处理结果与丢单原因回写策略，推动下一轮校准"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 ",
+          "color": "#4E5D6C",
+          "fontSizePt": 9.5
+        },
+        {
+          "text": "1",
+          "color": "#4E5D6C",
+          "fontSizePt": 9.5
+        },
+        {
+          "text": "｜三渠道职责、触发条件与退出规则",
+          "color": "#4E5D6C",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "heading",
+      "text": "五、客户状态机：让每一次反馈都能改变下一步动作",
+      "segments": [
+        {
+          "text": "五、客户状态机：让每一次反馈都能改变下一步动作",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "多渠道编排能否稳定运行，取决于客户状态是否足够清晰；建议至少区分新进入、待确认、已接通、需资料、待考虑、高意向、无效或不匹配、退订与投诉等状态，并为每个状态指定允许动作、最大频次、责任人和退出路径；状态不是销售人员随手写的备注，而是驱动系统路由的业务字段，任何变更都应有依据。",
+      "segments": [
+        {
+          "text": "多渠道编排能否稳定运行，取决于客户状态是否足够清晰；建议至少区分新进入、待确认、已接通、需资料、待考虑、高意向、无效或不匹配、退订与投诉等状态，并为每个状态指定允许动作、最大频次、责任人和退出路径；状态不是销售人员随手写的备注，而是驱动系统路由的业务字段，任何变更都应有依据。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "状态机还需要处理“看似矛盾”的信号：客户没有接电话，不代表没有兴趣；客户点击资料，也不等于已经形成商机；客户说“下季度再联系”，应进入带日期的培育状态，而不是继续按固定节奏触达；系统可以依据公开互动和客户明确表达提出下一步建议，但高意向判断、复杂异议、报价范围和合作承诺仍由销售确认；这条边界既保护客户体验，也防止模型把不确定信息包装成确定结论；状态变更还应保留触发证据和操作人，方便事后复盘与审计。",
+      "segments": [
+        {
+          "text": "状态机还需要处理“看似矛盾”的信号：客户没有接电话，不代表没有兴趣；客户点击资料，也不等于已经形成商机；客户说“下季度再联系”，应进入带日期的培育状态，而不是继续按固定节奏触达；系统可以依据公开互动和客户明确表达提出下一步建议，但高意向判断、复杂异议、报价范围和合作承诺仍由销售确认；这条边界既保护客户体验，也防止模型把不确定信息包装成确定结论；状态变更还应保留触发证据和操作人，方便事后复盘与审计。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-smart-outreach/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "98bbd63de825e38d516cc5d1d74cdf5c0a053dbe206592aa4829e1e6c4408b6f",
+      "width": 1500,
+      "height": 820,
+      "caption": "图 4｜客户状态机与下一步动作",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4｜客户状态机与下一步动作",
+          "color": "#5E6872",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "heading",
+      "text": "六、大模型语音：目标是完成一次有效确认，而不是延长通话",
+      "segments": [
+        {
+          "text": "六、大模型语音：目标是完成一次有效确认，而不是延长通话",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "大模型外呼与呼入的价值，在于用稳定口径完成首轮确认、需求收集和基础分流；一次合格的语音任务应有明确目标，例如确认联系人是否负责相关业务、了解是否正在评估某类方案、识别资料需求或预约意向；话术不宜追求“像真人一样聊得久”，而应在身份披露、目的说明和退出机制清楚的前提下，用尽量少的轮次获取足以决定下一步的信息。",
+      "segments": [
+        {
+          "text": "大模型外呼与呼入的价值，在于用稳定口径完成首轮确认、需求收集和基础分流；一次合格的语音任务应有明确目标，例如确认联系人是否负责相关业务、了解是否正在评估某类方案、识别资料需求或预约意向；话术不宜追求“像真人一样聊得久”，而应在身份披露、目的说明和退出机制清楚的前提下，用尽量少的轮次获取足以决定下一步的信息。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "语音流程需要预设三类结束条件：第一类是完成目标，如已确认需求并获得发送资料的许可；第二类是转人工，如客户提出价格谈判、合同条款、投诉或复杂技术问题；第三类是立即停止，如对方拒绝、退订、身份不匹配或出现明显风险信号；录音、转写、意图标签和关键语句应按同一线索 ID 归档，销售接管时看到的是可核查证据，而不是模型给出的笼统“高意向”结论。",
+      "segments": [
+        {
+          "text": "语音流程需要预设三类结束条件：第一类是完成目标，如已确认需求并获得发送资料的许可；第二类是转人工，如客户提出价格谈判、合同条款、投诉或复杂技术问题；第三类是立即停止，如对方拒绝、退订、身份不匹配或出现明显风险信号；录音、转写、意图标签和关键语句应按同一线索 ID 归档，销售接管时看到的是可核查证据，而不是模型给出的笼统“高意向”结论。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "heading",
+      "text": "七、邮件与短信：一个承载证据，一个承接时点",
+      "segments": [
+        {
+          "text": "七、邮件与短信：一个承载证据，一个承接时点",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "个性化邮件的“个性化”不应只体现在称呼和公司名，而应来自客户可核查的业务背景、刚刚表达的需求以及企业自身的真实资料；邮件最好围绕一个明确任务展开，例如发送某行业案例、解释某项能力边界、补充活动议程或邀请选择会议时间，正文不必过长，但应让客户看得出这封邮件为什么此刻到来，并能清楚判断下一步。",
+      "segments": [
+        {
+          "text": "个性化邮件的“个性化”不应只体现在称呼和公司名，而应来自客户可核查的业务背景、刚刚表达的需求以及企业自身的真实资料；邮件最好围绕一个明确任务展开，例如发送某行业案例、解释某项能力边界、补充活动议程或邀请选择会议时间，正文不必过长，但应让客户看得出这封邮件为什么此刻到来，并能清楚判断下一步。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "场景化短信则要更克制，它适合承接时间敏感、信息量小、动作明确的节点，不适合代替邮件讲复杂方案；短信中的链接、预约或退订入口应能够被记录，客户完成动作后系统同步停止其他提醒；若短信未送达，应根据客户许可和既定策略决定是否转备用渠道，而不是自动增加频次；两类渠道都必须使用经审核的变量和素材，避免模型补写不存在的案例、价格或交付承诺。",
+      "segments": [
+        {
+          "text": "场景化短信则要更克制，它适合承接时间敏感、信息量小、动作明确的节点，不适合代替邮件讲复杂方案；短信中的链接、预约或退订入口应能够被记录，客户完成动作后系统同步停止其他提醒；若短信未送达，应根据客户许可和既定策略决定是否转备用渠道，而不是自动增加频次；两类渠道都必须使用经审核的变量和素材，避免模型补写不存在的案例、价格或交付承诺。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-smart-outreach/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "159610183fe5fe716f8b036ac11626aa7aa2dd1d7350eaecc1336e8fca806afc",
+      "width": 1500,
+      "height": 820,
+      "caption": "图 5｜语音、邮件与短信协同执行图",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5｜语音、邮件与短信协同执行图",
+          "color": "#5E6872",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "heading",
+      "text": "八、NLP 反馈与 CRM 回流：把“客户说了什么”变成可运营数据",
+      "segments": [
+        {
+          "text": "八、NLP 反馈与 CRM 回流：把“客户说了什么”变成可运营数据",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "语音、邮件和短信产生的大量反馈，只有被结构化后才有管理价值；建议把客户表达拆成五类字段：意向阶段回答“现在是否值得跟进”，需求主题回答“客户关心什么”，异议原因回答“为什么暂不推进”，下一步动作回答“谁在什么时间做什么”，风险标记回答“是否需要停止或转人工”；每个标签都应保留对应原文或互动证据，便于销售复核。",
+      "segments": [
+        {
+          "text": "语音、邮件和短信产生的大量反馈，只有被结构化后才有管理价值；建议把客户表达拆成五类字段：意向阶段回答“现在是否值得跟进”，需求主题回答“客户关心什么”，异议原因回答“为什么暂不推进”，下一步动作回答“谁在什么时间做什么”，风险标记回答“是否需要停止或转人工”；每个标签都应保留对应原文或互动证据，便于销售复核。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "CRM 回流不要只写一个综合分数；更实用的线索卡片应包含来源、最近一次有效互动、关键语句、已发送资料、客户明确同意的下一步、负责人、截止时间和停止条件；丢单或暂缓也要使用统一原因码，避免全部归为“无需求”；当这些字段持续积累，团队才能比较不同来源、行业和话术的真实效果，并把有效经验写回策略，而不是每月重新讨论同一批主观判断。",
+      "segments": [
+        {
+          "text": "CRM 回流不要只写一个综合分数；更实用的线索卡片应包含来源、最近一次有效互动、关键语句、已发送资料、客户明确同意的下一步、负责人、截止时间和停止条件；丢单或暂缓也要使用统一原因码，避免全部归为“无需求”；当这些字段持续积累，团队才能比较不同来源、行业和话术的真实效果，并把有效经验写回策略，而不是每月重新讨论同一批主观判断。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "heading",
+      "text": "九、人工接管与合规闸门：自动化越快，边界越要前置",
+      "segments": [
+        {
+          "text": "九、人工接管与合规闸门：自动化越快，边界越要前置",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "智慧触达不是无人值守；高意向确认、价格与折扣、合同与法律表述、重大技术承诺、投诉争议、敏感个人信息以及低置信度判断，都应进入人工接管队列；系统可以准备上下文、摘要和建议，但不能替代负责人作最终决定；接管规则必须写进流程，而不是依赖销售“有空时再看”，否则自动化越快，漏接和误判也会越快。",
+      "segments": [
+        {
+          "text": "智慧触达不是无人值守；高意向确认、价格与折扣、合同与法律表述、重大技术承诺、投诉争议、敏感个人信息以及低置信度判断，都应进入人工接管队列；系统可以准备上下文、摘要和建议，但不能替代负责人作最终决定；接管规则必须写进流程，而不是依赖销售“有空时再看”，否则自动化越快，漏接和误判也会越快。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "paragraph",
+      "text": "合规控制应覆盖数据来源、联系依据、身份披露、时段与频次、内容审核、退出与删除、记录留存和权限分级；不同国家、地区和平台的规则并不相同，企业应由法务或合规人员结合目标市场复核；任何无法说明来源的联系人、无法执行的退订、未经审核的承诺，以及客户明确拒绝后的继续触达，都不应进入自动流程；把这些条件做成系统闸门，比在投诉发生后补写说明更可靠。",
+      "segments": [
+        {
+          "text": "合规控制应覆盖数据来源、联系依据、身份披露、时段与频次、内容审核、退出与删除、记录留存和权限分级；不同国家、地区和平台的规则并不相同，企业应由法务或合规人员结合目标市场复核；任何无法说明来源的联系人、无法执行的退订、未经审核的承诺，以及客户明确拒绝后的继续触达，都不应进入自动流程；把这些条件做成系统闸门，比在投诉发生后补写说明更可靠。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-smart-outreach/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "cafd5b6551b9dfb730a8dd63fc919f2efad152842c4ea2adc737e33d03fcd642",
+      "width": 1500,
+      "height": 820,
+      "caption": "图 6｜反馈回流与六道合规闸门",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6｜反馈回流与六道合规闸门",
+          "color": "#5E6872",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "heading",
+      "text": "十、实施路径：先跑通一个场景，再扩展渠道与市场",
+      "segments": [
+        {
+          "text": "十、实施路径：先跑通一个场景，再扩展渠道与市场",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "POC 不宜同时覆盖多个国家、产品线和客户群；更有效的起点，是选择一个边界清楚、样本可解释、人工能够承接的场景，例如活动报名后的首轮确认、历史线索唤醒、资料下载后的跟进或夜间呼入分流；先明确样本来源、目标状态、三渠道节奏、人工接管条件和验收指标，再配置话术、邮件素材、短信模板与 CRM 字段。",
+      "segments": [
+        {
+          "text": "POC 不宜同时覆盖多个国家、产品线和客户群；更有效的起点，是选择一个边界清楚、样本可解释、人工能够承接的场景，例如活动报名后的首轮确认、历史线索唤醒、资料下载后的跟进或夜间呼入分流；先明确样本来源、目标状态、三渠道节奏、人工接管条件和验收指标，再配置话术、邮件素材、短信模板与 CRM 字段。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "试点阶段要观察的不只是触达结果，还包括状态识别是否准确、销售是否按时接管、客户是否出现负面反馈、数据是否完整回写；只有规则稳定、内容可复核、投诉与退订处理有效，才进入规模化；扩展时也应按市场或产品线逐批复制，并保留版本号与对照组，避免因为同时改了线索、话术和渠道节奏，最终无法判断究竟是哪项动作带来变化；每一阶段都应设置继续、暂停和扩展门槛，由实施负责人按周确认，形成可追溯的阶段决策记录。",
+      "segments": [
+        {
+          "text": "试点阶段要观察的不只是触达结果，还包括状态识别是否准确、销售是否按时接管、客户是否出现负面反馈、数据是否完整回写；只有规则稳定、内容可复核、投诉与退订处理有效，才进入规模化；扩展时也应按市场或产品线逐批复制，并保留版本号与对照组，避免因为同时改了线索、话术和渠道节奏，最终无法判断究竟是哪项动作带来变化；每一阶段都应设置继续、暂停和扩展门槛，由实施负责人按周确认，形成可追溯的阶段决策记录。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-smart-outreach/figure-07.png",
+      "sourceMedia": "/word/media/image7.png",
+      "sha256": "4cff9d45a50a20978600c7826aaa080be5102a14af92696247be4a505b128b0f",
+      "width": 1500,
+      "height": 820,
+      "caption": "图 7｜POC、试点与规模化实施路线",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 0,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 7｜POC、试点与规模化实施路线",
+          "color": "#5E6872",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 0,
+        "spaceAfterTwips": 160,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "heading",
+      "text": "十一、验收方式：业务结果、过程质量与风险信号同屏查看",
+      "segments": [
+        {
+          "text": "十一、验收方式：业务结果、过程质量与风险信号同屏查看",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-053",
+      "type": "paragraph",
+      "text": "AI 获客 Harness 的验收不能只看通联量；触达效率要与正向回复、会议预约和商机创建一起看，成本变化要与销售接管时间、人工工时和数据完整率一起看，业务指标提升时还要同时检查退订、投诉、误判和重复触达；若回复率上升但负面反馈同步上升，说明增长来自过度打扰，不具备放大条件。",
+      "segments": [
+        {
+          "text": "AI 获客 Harness 的验收不能只看通联量；触达效率要与正向回复、会议预约和商机创建一起看，成本变化要与销售接管时间、人工工时和数据完整率一起看，业务指标提升时还要同时检查退订、投诉、误判和重复触达；若回复率上升但负面反馈同步上升，说明增长来自过度打扰，不具备放大条件。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "paragraph",
+      "text": "指标口径应在启动前写入验收表，并区分公司口径、项目实测、示意值和客户内部目标；建议至少保留一个人工对照组，按来源、行业、客户阶段和渠道拆分数据；对于意向识别、关键字段和接管规则，可随机抽样复核录音、邮件与 CRM 记录，确认系统判断与人工判断的一致性；可规模化的标准不是某个数字好看，而是结果可解释、风险不恶化、人工负担可接受且数据能反哺下一轮。",
+      "segments": [
+        {
+          "text": "指标口径应在启动前写入验收表，并区分公司口径、项目实测、示意值和客户内部目标；建议至少保留一个人工对照组，按来源、行业、客户阶段和渠道拆分数据；对于意向识别、关键字段和接管规则，可随机抽样复核录音、邮件与 CRM 记录，确认系统判断与人工判断的一致性；可规模化的标准不是某个数字好看，而是结果可解释、风险不恶化、人工负担可接受且数据能反哺下一轮。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-055",
+      "type": "heading",
+      "text": "十二、场景验证：用真实样本检验链路，而不是展示概念",
+      "segments": [
+        {
+          "text": "十二、场景验证：用真实样本检验链路，而不是展示概念",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-056",
+      "type": "paragraph",
+      "text": "以一家跨境服务企业的历史线索唤醒为例，可以先从已经获得适当联系依据、但六个月内未形成商机的线索中抽取一批样本；系统按来源、行业和最近互动分组，语音先确认联系人与当前需求，客户提出“先发资料”时进入邮件分支，电话未接且符合规则时触发一次短信提醒，资料被点击或邮件出现明确回复后，再将线索推送给人工销售。",
+      "segments": [
+        {
+          "text": "以一家跨境服务企业的历史线索唤醒为例，可以先从已经获得适当联系依据、但六个月内未形成商机的线索中抽取一批样本；系统按来源、行业和最近互动分组，语音先确认联系人与当前需求，客户提出“先发资料”时进入邮件分支，电话未接且符合规则时触发一次短信提醒，资料被点击或邮件出现明确回复后，再将线索推送给人工销售。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-057",
+      "type": "paragraph",
+      "text": "验证重点不是讲一个漂亮案例，而是找出哪些动作真正推动了状态变化；团队应比较不同分组的接通、资料请求、正向回复、预约、退订和投诉，并检查销售接管是否及时；无效的渠道组合要删除，出现误判的标签要修正规则，客户经常提出但素材库缺失的问题要补充内容；样本量、脱敏范围和数据口径需要在报告中说明，示意数据不得包装成普遍承诺。",
+      "segments": [
+        {
+          "text": "验证重点不是讲一个漂亮案例，而是找出哪些动作真正推动了状态变化；团队应比较不同分组的接通、资料请求、正向回复、预约、退订和投诉，并检查销售接管是否及时；无效的渠道组合要删除，出现误判的标签要修正规则，客户经常提出但素材库缺失的问题要补充内容；样本量、脱敏范围和数据口径需要在报告中说明，示意数据不得包装成普遍承诺。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2｜验收指标与真实样本验证口径",
+      "rows": [
+        [
+          "维度",
+          "重点指标",
+          "采集与复核方式",
+          "规模化条件"
+        ],
+        [
+          "业务结果",
+          "正向回复、会议预约、商机创建、有效线索单价",
+          "按来源、行业、客户阶段与渠道分组，并保留人工对照组",
+          "结果稳定优于基线，且能解释由哪些动作带来"
+        ],
+        [
+          "过程质量",
+          "状态识别一致率、CRM 字段完整率、销售接管时长",
+          "抽检录音、邮件、短信事件和线索卡片，核对证据与标签",
+          "关键字段完整，接管时限达标，误判可被及时纠正"
+        ],
+        [
+          "客户体验",
+          "退订、投诉、重复触达、负面回复与停止生效时延",
+          "全渠道事件进入统一台账，严重问题逐条复盘",
+          "风险不高于基线，无明确拒绝后继续触达"
+        ],
+        [
+          "运营效率",
+          "首触时长、日处理量、人工工时和跨时区覆盖",
+          "系统日志与人工工时共同统计，不只看发送数量",
+          "效率提升不以内容失真或客户体验恶化为代价"
+        ],
+        [
+          "复盘能力",
+          "原因码覆盖、策略版本、素材版本、对照组与变更记录",
+          "周报记录继续、暂停、删除与扩展的依据",
+          "结果可复现、可复制，并能反哺下一轮策略"
+        ]
+      ],
+      "captionPosition": "before",
+      "captionSegments": [
+        {
+          "text": "表 ",
+          "color": "#4E5D6C",
+          "fontSizePt": 9.5
+        },
+        {
+          "text": "2",
+          "color": "#4E5D6C",
+          "fontSizePt": 9.5
+        },
+        {
+          "text": "｜验收指标与真实样本验证口径",
+          "color": "#4E5D6C",
+          "fontSizePt": 9.5
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 9.5
+      }
+    },
+    {
+      "id": "p-060",
+      "type": "heading",
+      "text": "十三、管理清单：上线前把五件事写成可执行规则",
+      "segments": [
+        {
+          "text": "十三、管理清单：上线前把五件事写成可执行规则",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-061",
+      "type": "paragraph",
+      "text": "第一，确认线索来源、联系依据、排除名单和退出机制，任何来源不清的联系人先隔离；第二，明确各状态允许使用的渠道、频次、时段和内容版本，避免同一客户被不同团队重复触达；第三，建立人工接管队列和响应时限，高意向、投诉、价格、合同与低置信度事项必须有人负责；第四，统一 CRM 字段和原因码，让语音、邮件、短信与销售结果能够按线索 ID 对齐；第五，确定验收周期、对照样本和复盘节奏，指标异常时先校准规则，不以加大发送量掩盖问题。",
+      "segments": [
+        {
+          "text": "第一，确认线索来源、联系依据、排除名单和退出机制，任何来源不清的联系人先隔离；第二，明确各状态允许使用的渠道、频次、时段和内容版本，避免同一客户被不同团队重复触达；第三，建立人工接管队列和响应时限，高意向、投诉、价格、合同与低置信度事项必须有人负责；第四，统一 CRM 字段和原因码，让语音、邮件、短信与销售结果能够按线索 ID 对齐；第五，确定验收周期、对照样本和复盘节奏，指标异常时先校准规则，不以加大发送量掩盖问题。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-062",
+      "type": "paragraph",
+      "text": "对于管理层而言，最值得关注的不是系统替代了多少人，而是首触是否更及时、客户上下文是否连续、销售是否把时间投入到更值得跟进的账户，以及每一次触达能否被还原和解释；AI 获客 Harness 适合规则相对清楚、线索规模较大、需要跨渠道协同且有人工承接能力的团队；若产品定位仍在频繁变化、数据来源不明、销售无法接管或组织只追求海量群发，应先补齐业务基础，再考虑自动化。",
+      "segments": [
+        {
+          "text": "对于管理层而言，最值得关注的不是系统替代了多少人，而是首触是否更及时、客户上下文是否连续、销售是否把时间投入到更值得跟进的账户，以及每一次触达能否被还原和解释；AI 获客 Harness 适合规则相对清楚、线索规模较大、需要跨渠道协同且有人工承接能力的团队；若产品定位仍在频繁变化、数据来源不明、销售无法接管或组织只追求海量群发，应先补齐业务基础，再考虑自动化。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-063",
+      "type": "heading",
+      "text": "结语：把触达做成一条可验证、可复盘的增长链路",
+      "segments": [
+        {
+          "text": "结语：把触达做成一条可验证、可复盘的增长链路",
+          "bold": true,
+          "color": "#1F3F63",
+          "fontSizePt": 15.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 260,
+        "spaceAfterTwips": 120,
+        "fontSizePt": 15.5
+      }
+    },
+    {
+      "id": "p-064",
+      "type": "paragraph",
+      "text": "大模型外呼、个性化邮件和场景化短信并不会自动带来商机，它们只有在统一状态、明确职责、持续回写和人工边界之下，才能形成稳定的客户体验与销售效率；企业可以从一个真实场景开始，把“为什么联系、用什么渠道、客户反馈了什么、下一步由谁处理”四个问题跑通，再逐步扩展到更多市场和产品线；每次扩展都保留对照、版本与停止条件，才能让自动化成为组织能力，而不是一次性项目。",
+      "segments": [
+        {
+          "text": "大模型外呼、个性化邮件和场景化短信并不会自动带来商机，它们只有在统一状态、明确职责、持续回写和人工边界之下，才能形成稳定的客户体验与销售效率；企业可以从一个真实场景开始，把“为什么联系、用什么渠道、客户反馈了什么、下一步由谁处理”四个问题跑通，再逐步扩展到更多市场和产品线；每次扩展都保留对照、版本与停止条件，才能让自动化成为组织能力，而不是一次性项目。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    },
+    {
+      "id": "p-065",
+      "type": "paragraph",
+      "text": "若企业希望验证多渠道编排是否适合现有业务，可先选择一个线索首触、活动邀约或老客唤醒场景，由销售运营、市场与合规共同确认样本、目标和人工边界，再用 2—4 周完成首轮 POC；了解 AI 获客 Harness 的产品能力与实施方式，可访问灵宸智能官网 www.lingchen-ai.com，或联系 18621786899 预约产品演示、方案评估与 POC 沟通。",
+      "segments": [
+        {
+          "text": "若企业希望验证多渠道编排是否适合现有业务，可先选择一个线索首触、活动邀约或老客唤醒场景，由销售运营、市场与合规共同确认样本、目标和人工边界，再用 2—4 周完成首轮 POC；了解 AI 获客 Harness 的产品能力与实施方式，可访问灵宸智能官网 www.lingchen-ai.com，或联系 18621786899 预约产品演示、方案评估与 POC 沟通。",
+          "color": "#000000",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 20,
+        "spaceAfterTwips": 100,
+        "lineTwips": 341,
+        "lineRule": "auto",
+        "firstLineTwips": 420,
+        "alignment": "both",
+        "fontSizePt": 10.5
+      }
+    }
+  ]
+}

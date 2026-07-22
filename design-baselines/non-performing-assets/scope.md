@@ -1,0 +1,60 @@
+# MasterGo 页面范围与证据清单
+
+## 页面
+
+- 名称：解决方案-综合-AI不良资产处理解决方案
+- 内容真源：用户指定 Google AI Studio 原型 `https://ai.studio/apps/31940409-b4c4-420a-8018-a504586355a9`，2026-07-22 读取的该页面 `<main>` 完整文本。
+- 视觉真源：当前已实现页面与本目录 MasterGo `page_id=6:89588` 既有基线；对应大模块保留现有视觉，只同步原型内容。
+- MasterGo：https://mastergo.com/file/198643424708731?fileOpenFrom=team&page_id=6%3A89588&devMode=true
+- `page_id`：`6:89588`
+- 路由：`/solutions/non-performing-assets/`
+- 目标桌面视口：1440×10073px；浏览器 CSS 视口宽 1440px
+- 范围：整页；增加用户确认的共享解决方案导航
+- 公共资产：Header、Footer、Logo、字体、BookingModal、BookingTrigger 冻结
+- 移动端：未纳入当前官网范围，不做实现或验收结论
+
+## 基线与分区
+
+| ID | 区块 | 基线 |
+|---|---|---|
+| 01 | Hero | `01-hero-mastergo-100.png` |
+| 02 | 方案概述 | `02-overview-mastergo-100.png` |
+| 03 | 行业问题 | `03-problems-mastergo-100.png` |
+| 04 | Recov Agent 解决方案 | `04-solution-mastergo-100.png` |
+| 05 | 独特优势与核心能力 | `05-advantages-mastergo-100.png` |
+| 06 | 价值与成效 | `06-results-mastergo-100.png` |
+| 07 | 应用场景 | `07-scenes-mastergo-100.png` |
+| 08 | 交付成果与实施 | `08-delivery-mastergo-100.png` |
+| 09 | 为什么选择 Recov Agent | `09-why-mastergo-100.png` |
+| 10 | Closing CTA 与冻结 Footer | `10-cta-footer-mastergo-100.png` |
+
+## 用户确认覆盖
+
+- 所有解决方案页位于产品矩阵下的两层共享 Tab；综合页高亮 `综合解决方案`。
+- 预约类 CTA 使用公共 `BookingTrigger`。
+- Closing CTA 中“获取解决方案白皮书”按钮与“或致电 400-XXX-XXXX，与催收专家直接沟通”整行暂时隐藏。
+- 用户于 2026-07-21 明确回复“接受”，同意使用 `../solution-batch/public-assets-freeze.md` 登记的当前公共资产作为 8 页统一冻结基线。
+- 用户于 2026-07-22 明确要求价值指标中的上升/下降箭头放在数字左侧；保留指标原文，覆盖 MasterGo 原纵向排列为单行 `↑ 380%`、`↓ 50%`。
+
+## 公共资产哈希
+
+参见 `../solution-batch/public-assets-freeze.md`；交付时逐项复核。
+
+## 转化按钮行为
+
+| CTA 文案 | 区块 | 实现组件 | 状态 |
+|---|---|---|---|
+| 预约产品演示 | Hero | `BookingTrigger` → `BookingModal` | PASS |
+
+## 阻塞项
+
+- 2026-07-21 复核确认 MasterGo 根画板仍为 `AI快搭-9627824`、`1440×10073`，当前整页导出 SHA-256 仍为 `936526bcd9196a6c64fbef79be545464ea22f5d850f1e6bdbc3df8910a95cb9a`。
+- 原型迁移正文、指标、交付结构与合作模式已按 1A / 2A / 3A 复核；无正文阻塞。
+- 区块 04、06、07 的 13 枚图标已由 MasterGo 当前原始图层 3× 导出并替换；页面主体不再使用 `lucide-react` 近似图标。
+
+## 2026-07-22 用户审查覆盖
+
+- 桌面视口：1671×1258；移动端不在范围。
+- 范围：身份序号、解决方案区留白、7.1 至 7.4 纵向关系、合作模式配色、统一基石面板、Closing 高度与模块背景层次。
+- 用户确认将现有“统一基石”内容作为 `7.3` 独立强调区，`7.4` 合作模式排在其后。
+- 本轮全页截图：`user-review-full-local-1671.png`。

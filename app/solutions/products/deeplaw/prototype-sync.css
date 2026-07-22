@@ -1,0 +1,306 @@
+.dls-page .dls-hero__copy {
+  position: relative;
+}
+
+.dls-page .dls-hero__eyebrow {
+  position: absolute;
+  top: -34px;
+  left: 0;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.dls-page .dls-value-metrics {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 48px;
+}
+
+.dls-page .dls-value-metrics article {
+  height: 220px;
+}
+
+.dls-page .dls-value-metrics strong {
+  display: block;
+  margin-top: 24px;
+}
+
+.dls-page .dls-value-metrics p {
+  height: auto;
+}
+
+.dls-page .dls-value-groups {
+  margin-top: 24px;
+}
+
+.dls-page .dls-value-groups article {
+  height: 250px;
+}
+
+.dls-page .dls-value-groups p {
+  height: auto;
+}
+
+.dls-page .dls-values {
+  height: auto;
+  min-height: 960px;
+  padding-bottom: 90px;
+}
+
+.dls-page .dls-values__note {
+  margin: 30px auto 0;
+  color: #64748b;
+  font-size: 12px;
+  text-align: center;
+}
+
+.dls-page .dls-cooperation {
+  height: auto;
+  min-height: 900px;
+  padding-bottom: 90px;
+}
+
+.dls-page .dls-plans {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+}
+
+.dls-page .dls-plans article,
+.dls-page .dls-plans article.is-pro {
+  height: 230px;
+}
+
+.dls-page .dls-plans > article > p {
+  height: auto;
+}
+
+.dls-page .dls-trust-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 34px;
+}
+
+.dls-page .dls-trust-grid article {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  min-height: 84px;
+  padding: 18px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.dls-page .dls-trust-grid img {
+  flex: none;
+}
+
+.dls-page .dls-trust-grid p {
+  margin: 0;
+  color: #475569;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.dls-page .dls-cta h2 {
+  margin-top: 0;
+}
+
+.dls-page .dls-cta > button span {
+  margin-left: 8px;
+}
+
+.dls-page .dls-flywheel__center small {
+  display: block;
+  margin-top: 2px;
+  color: #6080ad;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+/* 2026-07-22 desktop review: restore MasterGo icon treatment and section rhythm. */
+.dls-page .dls-hero__features span img {
+  width: 12px;
+  height: 12px;
+  padding: 3px;
+  border-radius: 50%;
+  background: #eff6ff;
+}
+
+.dls-page .dls-orbit__node img {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  border-radius: 10px;
+  background: #eff6ff;
+}
+
+.dls-page .dls-orbit__node img {
+  width: 36px;
+  height: 36px;
+}
+
+.dls-page .dls-orbit__node.node-2 img { background: #ecfeff; }
+.dls-page .dls-orbit__node.node-3 img { background: #f5f3ff; }
+.dls-page .dls-orbit__node.node-4 img { background: #fff7ed; }
+.dls-page .dls-orbit__node.node-5 img { background: #fff1f2; }
+.dls-page .dls-orbit__node.node-6 img { background: #ecfdf5; }
+
+.dls-page .dls-orbit__node {
+  width: 88px;
+  height: 96px;
+  gap: 6px;
+}
+
+.dls-page .dls-pains .dls-heading,
+.dls-page .dls-agents .dls-heading {
+  text-align: center;
+}
+
+.dls-page .dls-pains .dls-heading > span::after,
+.dls-page .dls-agents .dls-heading > span::after {
+  display: inline-block;
+}
+
+.dls-page .dls-pains .dls-heading h2 {
+  font-size: 38px;
+}
+
+.dls-page .dls-pains .dls-heading p {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dls-page .dls-pains__grid article > img {
+  box-sizing: content-box;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #fff1f2;
+  filter: none;
+}
+
+.dls-page .dls-pains__grid article:nth-child(2) > img { background: #fff7ed; }
+.dls-page .dls-pains__grid article:nth-child(3) > img { background: #eff6ff; }
+.dls-page .dls-pains__grid article:nth-child(4) > img { background: #ecfeff; }
+.dls-page .dls-pains__grid article:nth-child(5) > img { background: #faf5ff; }
+
+.dls-page .dls-agents {
+  height: auto;
+  padding-bottom: 98px;
+}
+
+.dls-page .dls-main-agent section > img {
+  box-sizing: content-box;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 9px;
+  background: #eff6ff;
+  filter: none;
+}
+
+.dls-page .dls-main-agent section:nth-child(2) > img { background: #fff7ed; }
+.dls-page .dls-main-agent section:nth-child(3) > img { background: #ecfeff; }
+.dls-page .dls-main-agent section:nth-child(4) > img { background: #ecfdf5; }
+.dls-page .dls-main-agent section:nth-child(5) > img { background: #faf5ff; }
+
+.dls-page .dls-agent-grid {
+  align-items: start;
+}
+
+.dls-page .dls-agent-card {
+  height: auto;
+  min-height: 390px;
+}
+
+.dls-page .dls-agent-card header {
+  grid-template-columns: 44px 1fr;
+}
+
+.dls-page .dls-agent-card header > img {
+  box-sizing: content-box;
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 11px;
+  background: color-mix(in srgb, var(--tone) 10%, #ffffff);
+  filter: none;
+}
+
+.dls-page .dls-flywheel__center > img,
+.dls-page .dls-flywheel__node > img {
+  box-sizing: content-box;
+  border-radius: 9px;
+  background: #2563eb;
+  filter: brightness(0) invert(1);
+}
+
+.dls-page .dls-flywheel__center > img {
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  background: #eff6ff;
+  filter: none;
+}
+
+.dls-page .dls-flywheel__node > img {
+  width: 16px;
+  height: 16px;
+  padding: 7px;
+  display: block;
+  flex: 0 0 auto;
+  filter: none;
+}
+
+.dls-page .dls-flywheel__node.f-1 > img { background: #ecfeff; }
+.dls-page .dls-flywheel__node.f-2 > img { background: #faf5ff; }
+.dls-page .dls-flywheel__node.f-3 > img { background: #fff7ed; }
+.dls-page .dls-flywheel__node.f-4 > img { background: #fff1f2; }
+
+.dls-page .dls-flywheel__node b { margin-top: 2px; }
+
+.dls-page .dls-flywheel__center {
+  gap: 6px;
+}
+
+.dls-page .dls-synergy__steps article > b {
+  flex: 0 0 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #bfdbfe;
+  border-radius: 9px;
+  background: #eff6ff;
+  color: #2563eb;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.dls-page .dls-value-metrics article > img,
+.dls-page .dls-value-groups article > img {
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  padding: 8px;
+  border-radius: 10px;
+  background: color-mix(in srgb, var(--tone) 10%, #ffffff);
+  filter: none;
+}
+
+.dls-page .dls-value-metrics article > img,
+.dls-page .dls-value-groups article > img {
+  width: 40px;
+  height: 40px;
+}
+
+.dls-page .dls-plans article,
+.dls-page .dls-plans article.is-pro {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}

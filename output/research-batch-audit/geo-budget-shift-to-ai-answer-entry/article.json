@@ -1,0 +1,814 @@
+{
+  "slug": "geo-budget-shift-to-ai-answer-entry",
+  "category": "行业洞察",
+  "displayTitle": null,
+  "sourceTitle": "GEO 预算怎么花：从 SEO/SEM 向 AI 答案入口迁移的增长逻辑",
+  "summary": "摘要｜AI 答案入口正在成为客户发现、比较和筛选品牌的重要起点，企业应尽快为 GEO 建立独立预算，并按“诊断启动—事实治理—增长放大”三阶段推进：先测清可见度、推荐率与引用源，再建设可被 AI 理解和验证的事实资产，最后把 AI 推荐接入官网、销售与 CRM，让每一笔 GEO 投入都能被监测、复盘并持续加码。",
+  "publishedAt": null,
+  "sourceDocx": "GEO预算怎么花_营销费用向AI答案入口迁移.docx",
+  "sourceDocxSha256": "4bc0011a93acf0f86e37030f45af21dec28503d6d3feaa9a48a1bd9aa37df2a6",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "GEO 预算怎么花：从 SEO/SEM 向 AI 答案入口迁移的增长逻辑",
+      "segments": [
+        {
+          "text": "GEO 预算怎么花：从 SEO/SEM 向 AI 答案入口迁移的增长逻辑",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 240,
+        "alignment": "center",
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "abstract",
+      "text": "摘要｜AI 答案入口正在成为客户发现、比较和筛选品牌的重要起点，企业应尽快为 GEO 建立独立预算，并按“诊断启动—事实治理—增长放大”三阶段推进：先测清可见度、推荐率与引用源，再建设可被 AI 理解和验证的事实资产，最后把 AI 推荐接入官网、销售与 CRM，让每一笔 GEO 投入都能被监测、复盘并持续加码。",
+      "segments": [
+        {
+          "text": "摘要｜AI 答案入口正在成为客户发现、比较和筛选品牌的重要起点，企业应尽快为 GEO 建立独立预算，并按“诊断启动—事实治理—增长放大”三阶段推进：先测清可见度、推荐率与引用源，再建设可被 AI 理解和验证的事实资产，最后把 AI 推荐接入官网、销售与 CRM，让每一笔 GEO 投入都能被监测、复盘并持续加码。",
+          "bold": true,
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 320,
+        "lineTwips": 320,
+        "alignment": "both",
+        "backgroundColor": "#F4F7FC",
+        "leftBorder": {
+          "color": "#1F3864",
+          "sizeEighthPoints": 6,
+          "spacePoints": 8
+        },
+        "bottomBorder": {
+          "color": "#1F3864",
+          "sizeEighthPoints": 6,
+          "spacePoints": 8
+        },
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "GEO 不是 SEO/SEM 的附属项，而是面向 AI 答案入口的新增长基础设施。企业越早建立问题集、事实库、权威信源和线索归因，越有机会在用户形成候选名单之前进入推荐范围；成熟的 SEO/SEM 仍应承担稳定转化，但新增预算、内容资源和跨部门协作应优先向 GEO 倾斜，以小步快跑的方式尽快形成可见度基线和治理闭环。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "heading",
+      "text": "搜索预算的入口正在变宽",
+      "segments": [
+        {
+          "text": "搜索预算的入口正在变宽",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "SEO 和 SEM 过去围绕同一个动作展开：用户输入关键词，搜索页展示链接或广告，用户点击进入网站，预算的每一分钱都能落到这条路径的某个环节上。AI Overviews、AI Mode、ChatGPT、Gemini、Perplexity 等答案入口改变了客户发现品牌的方式——用户可以直接询问“哪家中国供应商适合北美中小买家”，AI 随即给出候选名单、推荐理由和引用来源，品牌由此获得了一个可以主动经营的新入口；谁能更早把真实事实、适用场景和可信证据组织成可引用内容，谁就更容易进入客户的初始候选名单。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "Google 在 2024 年推出 AI Overviews，强调在搜索中提供快速答案与更强的规划、研究能力，2025 年又推出 AI Mode，支持多步推理、连续追问和 query fan-out 并行检索。对企业而言，搜索正在从“链接排序”扩展为“答案生成”，预算对象也应从关键词和点击，主动延伸到问题集、品牌事实、权威信源、推荐位置与线索归因，表 1 对照了两代预算逻辑的差异。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表1｜SEO/SEM 与 GEO 的预算对象差异：目标、资产、监测与转化路径对照",
+      "rows": [
+        [
+          "预算对象",
+          "SEO/SEM",
+          "GEO"
+        ],
+        [
+          "核心目标",
+          "排名、点击、转化",
+          "进入 AI 答案、获得推荐、形成可信引用与线索"
+        ],
+        [
+          "内容资产",
+          "关键词页面、落地页、广告素材",
+          "标准事实库、问题集、对比内容、案例与权威信源"
+        ],
+        [
+          "监测方式",
+          "搜索排名、CPC、CTR、CVR",
+          "多平台问题集、可见度、推荐率、排名、引用源与答案一致性"
+        ],
+        [
+          "转化路径",
+          "点击进入网站或表单",
+          "AI 推荐后进入官网、品牌搜索、销售触达与 CRM"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表1｜SEO/SEM 与 GEO 的预算对象差异：目标、资产、监测与转化路径对照",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "预算迁移应立即启动，但不必一次性切换。灵宸智能的 Mine GEO 把治理链路拆成诊断审计、知识治理、内容创作、权威分发、监控迭代五步，这个顺序同样适用于预算管理——先弄清品牌在 AI 入口里是否被看见、被如何描述、被谁引用，再把资源投向最有确定性的事实缺口与信源缺口；对应到执行层，可以归并为诊断、治理、放大三个阶段，既保留成熟渠道的稳定转化，也让新增预算更快进入 GEO 增长闭环，图 1 给出了整体框架。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/geo-budget-shift-to-ai-answer-entry/figure-01.png",
+      "sourceMedia": "/word/media/f8d835ca93aac85eb204d335e7fdf77da4347f8e.png",
+      "sha256": "63dab0d6e290d4bc83f823147a8ae2898f976416d92adb24704ae006bbe4f2b7",
+      "width": 2220,
+      "height": 1610,
+      "caption": "图1｜GEO 三阶段预算加速模型（示意）：成熟渠道保底，增量预算持续向 AI 答案入口倾斜",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图1｜GEO 三阶段预算加速模型（示意）：成熟渠道保底，增量预算持续向 AI 答案入口倾斜",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "heading",
+      "text": "第一阶段：把第一笔 GEO 预算用在可见度审计",
+      "segments": [
+        {
+          "text": "第一阶段：把第一笔 GEO 预算用在可见度审计",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "启动 GEO 时，第一笔预算应优先投入可见度审计，这是最快找到增长缺口的动作。企业需要先建立一组真实问题：客户会怎样问 AI？例如“适合欧洲客户的小批量定制制造商有哪些”“中国 SaaS 出海怎么选供应商”“哪家法律科技公司适合合同审查”，随后在 ChatGPT、Gemini、Claude、DeepSeek、豆包等平台持续测试，记录品牌是否被提及、排在第几、引用了谁、推荐理由是什么，以及是否存在过时或错误表述。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "这一阶段建议占 GEO 专项预算的 15%–20%，输出物不是一份停留在汇报层的报告，而是可复用的问题集、平台清单、品牌事实偏差表、竞品可见度对比和信源地图。基线越早建立，后续预算越容易投准：品牌完全不可见，就优先补事实与权威信源；可见但表述有误，就优先纠偏和更新；已经被稳定推荐，就立即把预算转向内容放大和线索承接。生成式引擎会综合多源信息形成答案，因此没有基线就难以衡量治理效果，图 2 展示了启动阶段应建立的审计看板。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/geo-budget-shift-to-ai-answer-entry/figure-02.png",
+      "sourceMedia": "/word/media/f06a6a586dbd0cd1ecb6f34b22908aae4bfc8b0b.png",
+      "sha256": "3dd8e1e4591db48f13008fe41f1f75ff5ec2d4cb732eef08e889a319e9bc2135",
+      "width": 2530,
+      "height": 1420,
+      "caption": "图2｜GEO 启动审计看板：用五个维度快速找到可见度、推荐与信源缺口",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图2｜GEO 启动审计看板：用五个维度快速找到可见度、推荐与信源缺口",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "heading",
+      "text": "GEO 预算的第一项资产：高意向问题集",
+      "segments": [
+        {
+          "text": "GEO 预算的第一项资产：高意向问题集",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "企业做 GEO 时，不应先追求内容篇数，而应先建立高意向问题集。AI 答案入口不是围绕单个关键词工作，而是围绕用户的完整问题工作；客户会问“适合某行业的供应商有哪些”“A 与 B 怎么选”“某类产品有哪些风险”“哪家公司更适合中小企业”，正是这些真实问法决定了 AI 如何理解、比较并推荐品牌，也决定了内容与信源应该从哪里开始建设。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "问题集要完整覆盖购买前、购买中、购买后三段旅程：购买前关注品类、趋势、预算和风险，购买中关注对比、适配、案例和集成，购买后关注实施、合规、售后和替代方案。只监测品牌词会得到“假可见度”，真正影响增长的是无品牌问题——此时客户还没有确定候选名单，GEO 最有机会提前进入决策；问题集建好之后，预算就能清楚指向不可见问题、误读问题、竞品占位和已有优势，图 3 给出了结构。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/geo-budget-shift-to-ai-answer-entry/figure-03.png",
+      "sourceMedia": "/word/media/4a73fdb9c27e275f06fd5d3ac47f670507d49fb9.png",
+      "sha256": "9cd11a185454dc4c8f105d639ad8261a51455bf1ef9d7cfe34d0ae7073d3a46e",
+      "width": 2530,
+      "height": 1420,
+      "caption": "图3｜GEO 高意向问题集：按客户旅程组织问题，优先覆盖无品牌决策场景",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图3｜GEO 高意向问题集：按客户旅程组织问题，优先覆盖无品牌决策场景",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "heading",
+      "text": "第二阶段：治理事实，让品牌成为可引用答案",
+      "segments": [
+        {
+          "text": "第二阶段：治理事实，让品牌成为可引用答案",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "传统 SEO 常把预算投向关键词密度、外链和页面数量，GEO 的第二阶段则要把品牌事实建设成可持续复用的增长资产。企业需要把产品、案例、资质、问答、价格边界、行业术语、适用场景和对比口径，沉淀为可引用、可追溯、可更新的知识资产；这一阶段建议占 GEO 专项预算的 30%–40%，内容形式不局限于博客，而应包括官网权威页、结构化问答、白皮书、案例页、媒体稿、行业报告、第三方目录和专业社区资料，每一份内容都要清楚回答“你是谁、适合谁、证据是什么、与其他方案有什么差异”，从而提高 AI 理解、引用和推荐的稳定性。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "heading",
+      "text": "用可信信源网络放大 GEO 的引用与推荐",
+      "segments": [
+        {
+          "text": "用可信信源网络放大 GEO 的引用与推荐",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "SEO 时代企业常把预算集中在官网页面和搜索广告上，GEO 时代官网仍是核心事实源，但已经不是全部。AI 还会引用媒体报道、行业报告、第三方目录、开发者文档、论坛讨论、视频文字稿、新闻稿和权威机构页面；因此企业应主动把“站内优化”升级为“可信信源网络”，让同一组关键事实在多个高质量场景中被一致表达、相互印证，进而提高进入答案和推荐列表的概率。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "可信信源网络包括三类资产：自有权威资产，如官网、白皮书、问题库和案例库；外部权威资产，如媒体报道、行业数据库、协会目录和第三方评测；互动与专家资产，如客户评价、公开演讲、专业社区和视频内容。三类资产共同工作，AI 才更容易形成稳定答案；落到预算上，内容生产费、公关费、SEO 技术费和销售素材费可以重新组合，销售、产品、法务与客户成功也应持续提供真实证据，GEO 不是单纯的写稿项目，而是事实工程、信任工程与增长工程。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/geo-budget-shift-to-ai-answer-entry/figure-04.png",
+      "sourceMedia": "/word/media/efd4a58453c93f8720c1852857f737dd1e963307.png",
+      "sha256": "c828913bb49cfb8611a7c68a96557ce908581763506e4b46f5be46b646bdd3ca",
+      "width": 2530,
+      "height": 1180,
+      "caption": "图4｜GEO 可信信源网络：三层资产相互印证，共同放大引用与推荐",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图4｜GEO 可信信源网络：三层资产相互印证，共同放大引用与推荐",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "heading",
+      "text": "第三阶段：把 AI 推荐接入销售链路，放大增长",
+      "segments": [
+        {
+          "text": "第三阶段：把 AI 推荐接入销售链路，放大增长",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "GEO 的价值不应停在“品牌被 AI 提到”，更重要的是把推荐转化为可追踪的客户行动。第三阶段可以把 Mine GEO 与 Sales in、Social Grow、AI 获客 Harness 等工具联动：AI 答案入口建立品牌预认知，内容矩阵持续提供证据，主动开发锁定目标客户，邮件、LinkedIn、外呼和短信完成跟进，最终把互动、咨询和商机结果回写 CRM，形成从被推荐到被选择的完整增长链路。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "预算放大时，衡量指标要从曝光延伸到线索：AI 平台提及后的品牌词搜索增长、官网咨询来源、AI 引用页面访问、销售对话中的被动询盘，以及目标客户对品牌的熟悉度，都应进入同一张增长看板。更有效的预算路径不是简单砍掉 SEO/SEM，而是保留高转化渠道、优化基础 SEO，并把新增预算和释放出的低效预算优先投向 GEO；一旦推荐率、权威引用和线索质量出现同向改善，就应提高投入强度，三个阶段的预算配比可参考表 2。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表2｜GEO 专项预算三阶段建议：先建立基线，再按有效信号持续加码",
+      "rows": [
+        [
+          "阶段",
+          "GEO 专项预算占比建议",
+          "关键加码指标"
+        ],
+        [
+          "启动审计",
+          "15%–20%",
+          "AI 可见度、竞品提及率、错误事实清单、引用源分布"
+        ],
+        [
+          "事实治理",
+          "30%–40%",
+          "标准事实覆盖率、权威页面上线率、引用源质量、纠偏周期"
+        ],
+        [
+          "增长放大",
+          "40%–55%",
+          "推荐率、推荐排名、AI 来源线索、品牌搜索增长、商机转化"
+        ],
+        [
+          "基础协同",
+          "保留高转化 SEO/SEM，并持续向 GEO 释放增量",
+          "传统搜索 CVR、品牌词、付费投放 ROI 与 GEO 增量贡献"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表2｜GEO 专项预算三阶段建议：先建立基线，再按有效信号持续加码",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "heading",
+      "text": "预算迁移要设“校准线”和“加码线”",
+      "segments": [
+        {
+          "text": "预算迁移要设“校准线”和“加码线”",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "GEO 处在窗口期，企业应在尽快启动的同时，为每个阶段预设校准线和加码线，确保每一次增加预算都有清晰依据。诊断期的校准信号，是问题集覆盖不足或平台样本波动较大，加码信号则是发现明确的事实缺口、竞品占位和可修复误读；治理期的校准信号，是内容未被抓取、内部口径仍不一致，加码信号则是错误事实下降、权威引用占比提升、多个平台开始稳定提及。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "放大期的校准信号，是可见度提升但线索质量尚未同步，加码信号则是品牌搜索、官网咨询、销售反馈和 AI 来源线索共同改善。这套机制不是为了拖慢 GEO，而是为了更快识别有效动作，避免长期观望或无依据地一次性切换；更适合管理层的节奏是“先启动、快复测、有效即加码”，图 5 将三个阶段的信号整理为一张决策图。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/geo-budget-shift-to-ai-answer-entry/figure-05.png",
+      "sourceMedia": "/word/media/7ef564118f163cbf2d3e19272ac6eb191deae0ff.png",
+      "sha256": "aa7bafa8fe88b258403e8fe71498b9fe1fc970d26975b901fab355c8e934d5fc",
+      "width": 2760,
+      "height": 1240,
+      "caption": "图5｜GEO 预算的校准线与加码线：先启动、快复测、有效即加码",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图5｜GEO 预算的校准线与加码线：先启动、快复测、有效即加码",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "heading",
+      "text": "把 GEO 升级为跨部门增长项目",
+      "segments": [
+        {
+          "text": "把 GEO 升级为跨部门增长项目",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "GEO 看起来像搜索优化，但更适合作为组织级增长项目来运行。SEO 团队擅长页面、关键词、技术抓取和排名监测，GEO 还需要产品事实、销售异议、客户案例、公关信源、合规口径和内容版本治理；它横跨市场、产品、销售、公关、法务与管理层，任何一个环节长期缺位，都可能让 AI 答案出现旧信息、弱证据或不稳定推荐。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "具体分工上，市场团队负责目标问题集、内容策略和信源分发，产品团队负责标准事实、适用边界和版本更新，销售团队提供客户的真实问法、竞品异议与线索反馈，公关团队建设外部权威信源，法务把关比较口径与风险边界，管理层则设定阶段目标和预算加码节奏；图 6 展示了这套跨部门增长协同模型。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/geo-budget-shift-to-ai-answer-entry/figure-06.png",
+      "sourceMedia": "/word/media/2340bbddbe1199b46f39cf2c393db4c193a085ae.png",
+      "sha256": "848b28495f63310590e0b2069d5014fb14184098c0487434537f7243e7c11f30",
+      "width": 2530,
+      "height": 1560,
+      "caption": "图6｜GEO 跨部门增长协同模型：共同建设事实资产，并把 AI 推荐接入增长漏斗",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 160,
+        "spaceAfterTwips": 40,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图6｜GEO 跨部门增长协同模型：共同建设事实资产，并把 AI 推荐接入增长漏斗",
+          "bold": true,
+          "color": "#595959",
+          "fontSizePt": 10.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 60,
+        "spaceAfterTwips": 280,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-043",
+      "type": "paragraph",
+      "text": "预算也要按组织协同来分配，不能把全部 GEO 预算都用于写稿，还应预留审计工具、知识治理、专家内容、外部信源、销售联动和监控复盘的费用；否则企业会生产大量内容，却不知道内容是否被 AI 采纳，也无法判断是否带来了更高质量的客户对话。SEO 更像流量工程，GEO 则是事实工程、信任工程与增长工程的结合，越早形成跨部门机制，品牌在 AI 入口中的资产积累越有复利。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-044",
+      "type": "heading",
+      "text": "管理层落地重点：把 GEO 纳入增长漏斗",
+      "segments": [
+        {
+          "text": "管理层落地重点：把 GEO 纳入增长漏斗",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "paragraph",
+      "text": "GEO 不应只停留在品牌报表，可见度、推荐率、引用源和情感倾向固然重要，但预算能否持续，取决于这些指标是否与线索、商机和销售反馈建立连接。连接方式不必一开始就复杂：销售可以记录客户是否提到 AI 推荐，官网表单增加来源选项，CRM 增加“AI 答案入口认知”字段，市场团队追踪 AI 引用页面的访问变化；早期数据即使不够精细，也足以判断 GEO 是否正在影响真实购买路径。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-046",
+      "type": "paragraph",
+      "text": "预算复盘时，不要只问“AI 有没有提到我们”，还要问“被提到之后，是否带来了更好的客户对话”。如果 GEO 提高了品牌预认知，销售首轮解释成本会下降；如果答案存在误读，纠偏成本会及时暴露并推动知识治理。只要品牌搜索、咨询质量、销售反馈和 AI 来源线索出现同向改善，就应把 GEO 从试点项目升级为常态化增长预算。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "heading",
+      "text": "一张给 CMO 的预算表：从 60/25/15 启动 GEO",
+      "segments": [
+        {
+          "text": "一张给 CMO 的预算表：从 60/25/15 启动 GEO",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "如果把年度数字营销预算记为 100，建议第一年从 60/25/15 起步：60 保留给成熟的 SEO/SEM 与内容渠道，25 用于 GEO 审计、事实治理和权威信源，15 用于 AI 入口的线索承接实验；若 3–6 个月后可见度、推荐率、权威引用和线索质量出现明确改善，可调整为 50/30/20，进一步成熟后再向 40/35/25 迁移。这个结构的重点是立即为 GEO 建立独立预算，并按季度验证后持续加码，而不是等待传统流量明显下滑才行动；GEO 有语料沉淀、抓取、引用和用户习惯形成的周期，更适合用目标问题可见度、推荐排名、权威来源占比、错误事实下降和 AI 来源线索进行季度复盘。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "heading",
+      "text": "行动建议：本季度启动 GEO",
+      "segments": [
+        {
+          "text": "行动建议：本季度启动 GEO",
+          "bold": true,
+          "color": "#1F3864",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 320,
+        "spaceAfterTwips": 200,
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-050",
+      "type": "paragraph",
+      "text": "建议企业从一个品牌或产品线、30–80 个高意向问题和 3–5 个主流 AI 平台开始，用 Mine GEO 完成可见度审计、竞品基线、事实缺口和信源路线图；在 4–8 周内形成第一轮治理与复测结果，再把有效动作接入内容、销售和 CRM。GEO 的价值来自持续积累，越早启动，越早拥有可被 AI 理解、引用和推荐的品牌资产。",
+      "layout": {
+        "spaceAfterTwips": 200,
+        "lineTwips": 320,
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,634 @@
+/* Desktop-only product matrix normalization approved on 2026-07-22. */
+@media (min-width: 801px) {
+  .mine-geo-core-loop,
+  .mine-geo-workflow,
+  .mine-geo-products,
+  .mine-geo-platform,
+  .mine-geo-value,
+  .mine-geo-traditional-section,
+  .mine-geo-business,
+  .mine-geo-scenarios,
+  .mine-geo-cooperation,
+  .acq-intro,
+  .acq-contrast,
+  .acq-reasons-module,
+  .acq-core-module,
+  .acq-diff-module,
+  .acq-tech-module,
+  .acq-value,
+  .acq-business,
+  .acq-cases,
+  .recov-positioning,
+  .recov-pressure,
+  .recov-flow,
+  .recov-stages,
+  .recov-collaboration,
+  .recov-agent,
+  .recov-value,
+  .recov-results,
+  .recov-scenes,
+  .recov-cooperation,
+  .dds-challenges,
+  .dds-flow,
+  .dds-dimensions,
+  .dds-capabilities,
+  .dds-results,
+  .dds-cases,
+  .dds-cooperation,
+  .deepdoc-challenges,
+  .deepdoc-flow,
+  .deepdoc-evidence,
+  .deepdoc-engine,
+  .deepdoc-value,
+  .deepdoc-business,
+  .deepdoc-scenes,
+  .deepdoc-cooperation,
+  .dls-pains,
+  .dls-agents,
+  .dls-synergy,
+  .dls-values,
+  .dls-cooperation {
+    height: auto;
+    min-height: 0;
+  }
+
+  .mine-geo-section-heading,
+  .mine-geo-core-loop header h2,
+  .mine-geo-workflow header h2,
+  .acq-reasons-module > .acq-shell > h2,
+  .acq-core-module > .acq-shell > h2,
+  .acq-value > .acq-shell > h2,
+  .acq-business > .acq-shell > h2,
+  .acq-cases > .acq-shell > h2,
+  .recov-heading h2,
+  .dds-cooperation > h2 {
+    color: #2563eb;
+    font-weight: 800;
+    letter-spacing: -.02em;
+  }
+
+  .sales-title,
+  .sales-heading,
+  .sales-centered-kicker,
+  .social-grow-section-label {
+    color: #2563eb;
+    font-weight: 800;
+    letter-spacing: -.02em;
+  }
+
+  .deepdoc-title-line h2,
+  .deepdoc-value h2,
+  .deepdoc-business h2,
+  .deepdoc-scenes h2,
+  .deepdoc-cooperation h2,
+  .deeplaw-section-heading h2 {
+    color: #2563eb;
+    font-weight: 800;
+    letter-spacing: -.02em;
+  }
+
+  .mine-geo-core-loop,
+  .mine-geo-workflow,
+  .mine-geo-products,
+  .mine-geo-platform,
+  .mine-geo-value,
+  .mine-geo-traditional-section,
+  .mine-geo-business,
+  .mine-geo-scenarios,
+  .mine-geo-cooperation {
+    padding: 92px 0;
+  }
+
+  .mine-geo-core-loop {
+    padding-bottom: 72px;
+    background: #f7f9fc;
+  }
+
+  .mine-geo-workflow-title {
+    margin-top: 0;
+  }
+
+  .mine-geo-workflow {
+    padding-top: 88px;
+    background: #fff;
+  }
+
+  .mine-geo-products {
+    padding-bottom: 72px;
+    background: #f7f9fc;
+  }
+
+  .mine-geo-product-grid article {
+    height: auto;
+    min-height: 230px;
+    display: block;
+  }
+
+  .mine-geo-product-grid h3 {
+    margin: 0;
+  }
+
+  .mine-geo-product-grid p {
+    margin-top: 20px;
+  }
+
+  .mine-geo-platform-heading img {
+    width: 40px !important;
+    height: 40px !important;
+    object-fit: contain;
+  }
+
+  .mine-geo-platform {
+    padding-top: 88px;
+    background: #fff;
+  }
+
+  .mine-geo-platform-heading {
+    margin-top: 0;
+  }
+
+  .mine-geo-value-title {
+    margin: 18px 0 0 44px;
+    color: #2563eb;
+    font-size: 24px;
+    line-height: 1.4;
+  }
+
+  .mine-geo-value {
+    padding-bottom: 72px;
+    background: #f7f9fc;
+  }
+
+  .mine-geo-traditional-section {
+    padding-top: 88px;
+    background: #fff;
+  }
+
+  .mine-geo-value-intro {
+    margin-top: 14px;
+  }
+
+  .mine-geo-metric-grid strong {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .mine-geo-metric-grid strong img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+
+  .mine-geo-traditional {
+    height: auto;
+    margin-top: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .mine-geo-traditional > h3 {
+    margin: 0 0 24px;
+    font-size: 20px;
+  }
+
+  .mine-geo-traditional > div {
+    background: #fff;
+    border-right: 1px solid #e0e6ee;
+    border-left: 1px solid #e0e6ee;
+  }
+
+  .mine-geo-traditional > .mine-geo-traditional-head {
+    border-top: 1px solid #e0e6ee;
+    border-radius: 14px 14px 0 0;
+  }
+
+  .mine-geo-traditional > div:last-child {
+    border-bottom: 1px solid #e0e6ee;
+    border-radius: 0 0 14px 14px;
+  }
+
+  .mine-geo-business {
+    padding-bottom: 72px;
+    background: #f7f9fc;
+  }
+
+  .mine-geo-business-compare article {
+    height: auto;
+    min-height: 430px;
+    padding-bottom: 36px;
+  }
+
+  .mine-geo-rollout {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .mine-geo-scenarios {
+    padding-top: 88px;
+    background: #fff;
+  }
+
+  .mine-geo-scenario-heading {
+    margin-top: 0;
+  }
+
+  .mine-geo-cooperation article {
+    height: auto;
+    min-height: 270px;
+  }
+
+  .acq-intro {
+    padding: 80px 0;
+  }
+
+  .acq-contrast {
+    padding: 44px 0 88px;
+  }
+
+  .acq-reasons-module,
+  .acq-core-module,
+  .acq-diff-module,
+  .acq-tech-module,
+  .acq-value,
+  .acq-business,
+  .acq-cases {
+    padding: 92px 0;
+  }
+
+  .acq-reasons-module > .acq-shell > h2,
+  .acq-core-module > .acq-shell > h2 {
+    margin: 0 0 42px;
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .acq-reasons {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 22px;
+  }
+
+  .acq-reasons article {
+    height: auto;
+    min-height: 245px;
+    justify-content: flex-start;
+  }
+
+  .acq-reasons i {
+    width: 48px;
+    height: 48px;
+    flex: none;
+  }
+
+  .acq-flow-module {
+    background: #fff;
+  }
+
+  .acq-flow-module > .acq-shell > h2 {
+    margin-bottom: 40px;
+  }
+
+  .acq-flow-module .acq-reasons {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .acq-flow-module .acq-reasons article {
+    min-height: 176px;
+    padding: 28px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .acq-flow-module .acq-reasons article > img {
+    width: 40px;
+    height: 40px;
+    flex: none;
+    object-fit: contain;
+  }
+
+  .acq-flow-module .acq-reasons h2 {
+    margin: 2px 0 10px;
+    font-size: 17px;
+  }
+
+  .acq-core-grid article,
+  .acq-value-grid article,
+  .acq-business-compare article,
+  .acq-feature-grid article,
+  .acq-case-cards article,
+  .acq-modes article {
+    height: auto;
+  }
+
+  .acq-core-grid article {
+    min-height: 360px;
+  }
+
+  .acq-value {
+    background: #f7f9fc;
+  }
+
+  .acq-value > .acq-shell > h2:first-child,
+  .acq-cases > .acq-shell > h2:first-of-type,
+  .acq-modes > h2:first-of-type {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .08em;
+  }
+
+  .acq-value > .acq-shell > h2:nth-of-type(2),
+  .acq-cases > .acq-shell > h2:nth-of-type(2),
+  .acq-modes > h2:nth-of-type(2) {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+
+  .acq-value .acq-closing {
+    padding-top: 32px;
+  }
+
+  .acq-value-grid {
+    margin-top: 48px;
+  }
+
+  .acq-value-table {
+    margin-top: 88px;
+  }
+
+  .acq-business {
+    background: #fff;
+  }
+
+  .acq-business-compare article {
+    min-height: 360px;
+  }
+
+  .acq-growth {
+    height: auto;
+    min-height: 150px;
+  }
+
+  .acq-cases {
+    min-height: 0;
+    background: #f7f9fc;
+  }
+
+  .acq-case-cards,
+  .acq-modes {
+    margin-top: 72px;
+  }
+
+  .acq-modes aside {
+    height: auto;
+    min-height: 160px;
+  }
+
+  .acq-contrast p img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+
+  .sales-section,
+  .sales-capabilities,
+  .sales-workflow,
+  .sales-integration,
+  .sales-value,
+  .sales-business,
+  .sales-cases,
+  .sales-cooperation,
+  .social-grow-process,
+  .social-grow-capabilities,
+  .social-grow-results,
+  .social-grow-scenarios,
+  .social-grow-cooperation,
+  .recov-positioning,
+  .recov-pressure,
+  .recov-flow,
+  .recov-stages,
+  .recov-collaboration,
+  .recov-agent,
+  .recov-value,
+  .recov-results,
+  .recov-scenes,
+  .recov-cooperation,
+  .dds-challenges,
+  .dds-flow,
+  .dds-dimensions,
+  .dds-capabilities,
+  .dds-results,
+  .dds-cases,
+  .dds-cooperation,
+  .deepdoc-challenges,
+  .deepdoc-flow,
+  .deepdoc-evidence,
+  .deepdoc-engine,
+  .deepdoc-value,
+  .deepdoc-business,
+  .deepdoc-scenes,
+  .deepdoc-cooperation,
+  .dls-pains,
+  .dls-agents,
+  .dls-synergy,
+  .dls-values,
+  .dls-cooperation {
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+
+  .social-grow-process,
+  .social-grow-capabilities,
+  .social-grow-results,
+  .social-grow-scenarios,
+  .social-grow-cooperation {
+    height: auto;
+    min-height: 0;
+  }
+
+  .social-grow-section-label,
+  .social-grow-results > .social-grow-shell > h3,
+  .social-grow-scenarios > .social-grow-shell > h3,
+  .social-grow-cooperation > .social-grow-shell > h3 {
+    color: #2563eb;
+    font-weight: 800;
+  }
+
+  .social-grow-final {
+    height: auto;
+    min-height: 255px;
+  }
+
+  .social-grow-section-label {
+    width: max-content;
+    white-space: nowrap;
+  }
+
+  .social-grow-business-compare {
+    height: auto;
+    display: block;
+  }
+
+  .social-grow-business-head,
+  .social-grow-business-row {
+    display: grid;
+    grid-template-columns: 150px 1fr 1.25fr;
+  }
+
+  .social-grow-business-head {
+    background: #f8fafc;
+  }
+
+  .social-grow-business-head > *,
+  .social-grow-business-row > * {
+    box-sizing: border-box;
+    min-width: 0;
+    padding: 18px 22px;
+    border-left: 1px solid #e6ebf2;
+  }
+
+  .social-grow-business-head > :first-child,
+  .social-grow-business-row > :first-child {
+    border-left: 0;
+  }
+
+  .social-grow-business-head h4 {
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  .social-grow-business-head h4:last-child {
+    color: #145fe1;
+    background: #f7faff;
+  }
+
+  .social-grow-business-row {
+    min-height: 78px;
+    align-items: stretch;
+    border-top: 1px solid #e6ebf2;
+  }
+
+  .social-grow-business-row strong,
+  .social-grow-business-row p,
+  .social-grow-business-row div {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #607089;
+    font-size: 13px;
+    line-height: 1.55;
+  }
+
+  .social-grow-business-row strong {
+    color: #334155;
+    white-space: nowrap;
+  }
+
+  .social-grow-business-row div {
+    color: #1760df;
+    background: #f7faff;
+  }
+
+  .social-grow-business-row div b,
+  .social-grow-business-row div span {
+    display: block;
+    font-weight: 600;
+  }
+
+  .social-grow-scenario-row {
+    grid-template-columns: 260px 220px 1fr;
+  }
+
+  .social-grow-scenario-row strong {
+    white-space: nowrap;
+  }
+
+  .social-grow-scenario-cards h4 img {
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #eff6ff;
+    object-fit: contain;
+  }
+
+  .social-grow-scenario-cards article + article h4 img {
+    background: #f5f3ff;
+  }
+
+  .social-grow-cooperation {
+    padding-top: 74px;
+  }
+
+  .recov-heading h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .recov-positioning,
+  .recov-flow,
+  .recov-collaboration,
+  .recov-value,
+  .recov-results,
+  .recov-scenes {
+    background: #f7f9fc;
+  }
+
+  .recov-pressure,
+  .recov-stages,
+  .recov-agent,
+  .recov-cooperation {
+    background: #fff;
+  }
+
+  .dds-cooperation > h2 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .dds-cooperation__modes article,
+  .dds-cooperation__standards,
+  .dds-cooperation__values article {
+    height: auto;
+    min-height: 0;
+  }
+
+  .deepdoc-flow-grid article,
+  .deepdoc-engine-grid article,
+  .deepdoc-value-grid article,
+  .deepdoc-business-grid article,
+  .deepdoc-cooperation-grid article {
+    height: auto;
+  }
+
+  .deepdoc-flow-grid article,
+  .deepdoc-value-grid article {
+    min-height: 190px;
+  }
+
+  .deepdoc-engine-grid article,
+  .deepdoc-business-grid article {
+    min-height: 288px;
+  }
+
+  .deepdoc-cooperation-grid article {
+    min-height: 231px;
+  }
+
+  .deeplaw-section {
+    padding-top: 92px;
+    padding-bottom: 92px;
+  }
+
+  .dls-heading h2 {
+    color: #2563eb;
+    font-weight: 800;
+  }
+}

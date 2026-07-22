@@ -1,0 +1,138 @@
+@media (min-width: 901px) {
+  .npa-page .npa-overview {
+    background: #eef6ff;
+  }
+
+  .npa-page .npa-problems,
+  .npa-page .npa-advantages,
+  .npa-page .npa-scenes,
+  .npa-page .npa-why {
+    background: #fff;
+  }
+
+  .npa-page .npa-solution {
+    height: auto;
+    padding: 72px 0 96px;
+    background: #f4f8ff;
+  }
+
+  .npa-page .npa-results,
+  .npa-page .npa-delivery {
+    background: #f6f8fc;
+  }
+
+  .npa-page .npa-delivery {
+    height: auto;
+    padding: 80px 0 96px;
+  }
+
+  .npa-page .npa-delivery-grid {
+    margin-top: 56px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 56px;
+  }
+
+  .npa-page .npa-deliverables {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px 20px;
+  }
+
+  .npa-page .npa-deliverables article {
+    height: auto;
+    min-height: 94px;
+  }
+
+  .npa-page .npa-timeline {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  .npa-page .npa-timeline::before {
+    top: 8px;
+    right: 12.5%;
+    bottom: auto;
+    left: 12.5%;
+    width: auto;
+    height: 2px;
+  }
+
+  .npa-page .npa-timeline li {
+    min-height: 112px;
+    padding: 30px 20px 20px;
+    border: 1px solid #e1e9f5;
+    border-radius: 14px;
+    background: #fff;
+  }
+
+  .npa-page .npa-timeline li::before {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -1px);
+  }
+
+  .npa-page .npa-foundation {
+    margin-top: 56px;
+    padding: 28px 32px;
+    border: 1px solid #c9dcff;
+    border-radius: 16px;
+    background: linear-gradient(100deg, #edf4ff 0%, #f4f9ff 62%, #eefaf6 100%);
+  }
+
+  .npa-page .npa-foundation h3 {
+    margin: 0;
+    color: #155bd7;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .npa-page .npa-foundation p {
+    margin: 10px 0 0;
+    color: #52657d;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .npa-page .npa-cooperation {
+    height: auto;
+    margin-top: 32px;
+    padding: 34px 32px 38px;
+  }
+
+  .npa-page .npa-cooperation > div {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .npa-page .npa-cooperation article {
+    height: auto;
+    min-height: 126px;
+    padding: 28px 30px;
+    text-align: left;
+  }
+
+  .npa-page .npa-cooperation article:first-child {
+    color: #155bd7;
+    border-color: #bed4ff;
+    background: #edf4ff;
+  }
+
+  .npa-page .npa-cooperation article:nth-child(2) {
+    color: #0b8b69;
+    border-color: #b9eadc;
+    background: #edf9f5;
+  }
+
+  .npa-page .npa-cooperation article:first-child p {
+    color: #356bc6;
+  }
+
+  .npa-page .npa-cooperation article:nth-child(2) p {
+    color: #337e6b;
+  }
+
+  .npa-page .npa-closing {
+    height: 260px;
+    padding: 74px 0;
+  }
+}

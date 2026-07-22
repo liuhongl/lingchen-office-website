@@ -1,0 +1,1162 @@
+{
+  "slug": "multi-agent-collaboration-engineering",
+  "category": "行业洞察",
+  "displayTitle": "多智能体协作走出示范厅：从批量催收全链路看 Agent 工程化落地的三道门槛",
+  "sourceTitle": "多智能体协作走出演示厅:从批量催收全链路看 Agent 工程化落地的三道门槛",
+  "summary": "摘要　单 Agent Demo 能证明模型会回答,却证明不了系统能生产。批量催收链路里管家、客服、法务、律师四个数字岗位的协作,把多智能体工程化的三道门槛暴露得最彻底:角色编排、状态一致性、异常兜底,三道门任何一道没过,系统跑得越快,风险扩散得越快。本文逐一拆解这三道门的工程含义,并给出上线前的压力测试用例与分阶段放量方法,供正在评估 AI Agent 落地的业务、法务与技术负责人参考。",
+  "publishedAt": null,
+  "sourceDocx": "多智能体协作走出演示厅_从批量催收全链路看Agent工程化落地的三道门槛.docx",
+  "sourceDocxSha256": "bc5786c1e56c4b1f1b547ac9894e342039ff8fb85314eda3cdbfb0a8e5a370cf",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "多智能体协作走出演示厅:从批量催收全链路看 Agent 工程化落地的三道门槛",
+      "segments": [
+        {
+          "text": "多智能体协作走出演示厅:从批量催收全链路看 Agent 工程化落地的三道门槛",
+          "bold": true,
+          "color": "#111111",
+          "fontSizePt": 17.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 300,
+        "alignment": "center",
+        "fontSizePt": 17.0
+      }
+    },
+    {
+      "id": "frontmatter-abstract",
+      "type": "abstract",
+      "text": "摘要　单 Agent Demo 能证明模型会回答,却证明不了系统能生产。批量催收链路里管家、客服、法务、律师四个数字岗位的协作,把多智能体工程化的三道门槛暴露得最彻底:角色编排、状态一致性、异常兜底,三道门任何一道没过,系统跑得越快,风险扩散得越快。本文逐一拆解这三道门的工程含义,并给出上线前的压力测试用例与分阶段放量方法,供正在评估 AI Agent 落地的业务、法务与技术负责人参考。",
+      "segments": [
+        {
+          "text": "摘要　",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 11.0
+        },
+        {
+          "text": "单 Agent Demo 能证明模型会回答,却证明不了系统能生产。批量催收链路里管家、客服、法务、律师四个数字岗位的协作,把多智能体工程化的三道门槛暴露得最彻底:角色编排、状态一致性、异常兜底,三道门任何一道没过,系统跑得越快,风险扩散得越快。本文逐一拆解这三道门的工程含义,并给出上线前的压力测试用例与分阶段放量方法,供正在评估 AI Agent 落地的业务、法务与技术负责人参考。",
+          "color": "#262626",
+          "fontSizePt": 10.5
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 100,
+        "lineTwips": 320,
+        "alignment": "both"
+      }
+    },
+    {
+      "id": "frontmatter-keywords",
+      "type": "keywords",
+      "text": "关键词:多智能体 / AI Agent / 工程化落地 / 角色编排 / 状态一致性 / 异常兜底 / 批量催收 / 压力测试",
+      "segments": [
+        {
+          "text": "关键词:多智能体 / AI Agent / 工程化落地 / 角色编排 / 状态一致性 / 异常兜底 / 批量催收 / 压力测试",
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 0,
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "核心判断",
+      "segments": [
+        {
+          "text": "核心判断",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "多智能体系统的难点从来不是“多几个角色”,而是让所有角色在同一份事实、同一套状态、同一条合规边界内协作——角色可以随便加,状态账本只能有一本",
+      "segments": [
+        {
+          "text": "多智能体系统的难点从来不是“多几个角色”,而是让所有角色在同一份事实、同一套状态、同一条合规边界内协作——角色可以随便加,状态账本只能有一本",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "listMarker": {
+        "text": "◆",
+        "color": "#1B4B7A",
+        "leftTwips": 440,
+        "hangingTwips": 320
+      },
+      "layout": {
+        "spaceAfterTwips": 90,
+        "lineTwips": 340,
+        "alignment": "both",
+        "fontSizePt": 11.0,
+        "leftTwips": 440,
+        "hangingTwips": 320
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "批量催收是观察 Agent 工程化的高压样本,它同时考验触达、法律、支付、投诉和服务治理五条线,任何一条线的状态错了,后续动作都会跟着错",
+      "segments": [
+        {
+          "text": "批量催收是观察 Agent 工程化的高压样本,它同时考验触达、法律、支付、投诉和服务治理五条线,任何一条线的状态错了,后续动作都会跟着错",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "listMarker": {
+        "text": "◆",
+        "color": "#1B4B7A",
+        "leftTwips": 440,
+        "hangingTwips": 320
+      },
+      "layout": {
+        "spaceAfterTwips": 90,
+        "lineTwips": 340,
+        "alignment": "both",
+        "fontSizePt": 11.0,
+        "leftTwips": 440,
+        "hangingTwips": 320
+      }
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "一个典型的失效信号:场景只需要一次性文本生成、没有状态迁移和责任升级,却硬上多智能体编排——这不是先进,是过度设计,先用单 Agent 跑通再说",
+      "segments": [
+        {
+          "text": "一个典型的失效信号:场景只需要一次性文本生成、没有状态迁移和责任升级,却硬上多智能体编排——这不是先进,是过度设计,先用单 Agent 跑通再说",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "listMarker": {
+        "text": "◆",
+        "color": "#1B4B7A",
+        "leftTwips": 440,
+        "hangingTwips": 320
+      },
+      "layout": {
+        "spaceAfterTwips": 90,
+        "lineTwips": 340,
+        "alignment": "both",
+        "fontSizePt": 11.0,
+        "leftTwips": 440,
+        "hangingTwips": 320
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "heading",
+      "text": "一、演示厅里看不到的断层",
+      "segments": [
+        {
+          "text": "一、演示厅里看不到的断层",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "单 Agent Demo 通常都很漂亮:输入客户问题,模型给出回答;贴一段账单,模型生成催收话术,现场掌声不会少;可真实生产从来不是一问一答,它要处理批量导入、身份切换、触达失败、争议原因、法律文书、付款确认、投诉撤回、人工复核——任何一个节点的状态错了,后续动作都可能跟着错,而且错得很快、很整齐,这是演示厅里永远看不到的断层。",
+      "segments": [
+        {
+          "text": "单 Agent Demo 通常都很漂亮:输入客户问题,模型给出回答;贴一段账单,模型生成催收话术,现场掌声不会少;可真实生产从来不是一问一答,它要处理批量导入、身份切换、触达失败、争议原因、法律文书、付款确认、投诉撤回、人工复核——任何一个节点的状态错了,后续动作都可能跟着错,而且错得很快、很整齐,这是演示厅里永远看不到的断层。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "批量催收尤其能把这个断层照出来:物业费、水电燃气、消费分期这类小额逾期债权,金额不大、数量庞大、争议五花八门,一个项目动辄几千户,同一天里既有真困难也有真赖账;人工模式下,管家温和提醒,客服解释账单,法务发送函件,律师处理诉讼,四个岗位靠组织流程咬合在一起——把这些角色交给 AI,不是把四段话术拼起来那么简单,而是要重建一套可审计的协作系统,链路长什么样,下图画得最清楚。",
+      "segments": [
+        {
+          "text": "批量催收尤其能把这个断层照出来:物业费、水电燃气、消费分期这类小额逾期债权,金额不大、数量庞大、争议五花八门,一个项目动辄几千户,同一天里既有真困难也有真赖账;人工模式下,管家温和提醒,客服解释账单,法务发送函件,律师处理诉讼,四个岗位靠组织流程咬合在一起——把这些角色交给 AI,不是把四段话术拼起来那么简单,而是要重建一套可审计的协作系统,链路长什么样,下图画得最清楚。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/multi-agent-collaboration-engineering/figure-01.png",
+      "sourceMedia": "/word/media/2337b2865352e52858914e63a3dcde7c1f11e144.png",
+      "sha256": "ce0a3287e658a6b1e43f21962c2913ff1377ac19340395a6591e5f0c6adc2c9a",
+      "width": 1954,
+      "height": 832,
+      "caption": "图 1|批量催收多智能体链路:管家、客服、法务、律师四个数字岗位依次升级,统一状态账本贯穿始终",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 1|批量催收多智能体链路:管家、客服、法务、律师四个数字岗位依次升级,统一状态账本贯穿始终",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "McKinsey 2025 年的调研提到,许多组织已经在实验 AI Agent,但多数仍停在试点阶段,迟迟放不了量。原因之一,正是 Demo 只验证了“模型能做什么”,而生产系统必须验证“系统在错误、冲突和边界条件下怎么继续”——前者看的是能力上限,后者看的是失控下限,两回事;试点卡壳的团队大多栽在同一处——能力演示轻轻松松,一到放量,状态错乱和责任真空立刻显形,此时再回头补工程,成本远高于当初多问几个问题;把两者的差距摊开,可以归纳成角色边界、状态管理、异常处理、责任审计四个维度,每个维度在 Demo 里都有一个看起来能用的替代品,到了生产环境就原形毕露,下表做了逐项对照,评估供应商时可以直接拿去当提问清单,供应商在哪个维度答得含糊,短板多半就藏在哪里。",
+      "segments": [
+        {
+          "text": "McKinsey 2025 年的调研提到,许多组织已经在实验 AI Agent,但多数仍停在试点阶段,迟迟放不了量。原因之一,正是 Demo 只验证了“模型能做什么”,而生产系统必须验证“系统在错误、冲突和边界条件下怎么继续”——前者看的是能力上限,后者看的是失控下限,两回事;试点卡壳的团队大多栽在同一处——能力演示轻轻松松,一到放量,状态错乱和责任真空立刻显形,此时再回头补工程,成本远高于当初多问几个问题;把两者的差距摊开,可以归纳成角色边界、状态管理、异常处理、责任审计四个维度,每个维度在 Demo 里都有一个看起来能用的替代品,到了生产环境就原形毕露,下表做了逐项对照,评估供应商时可以直接拿去当提问清单,供应商在哪个维度答得含糊,短板多半就藏在哪里。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "表 1|单 Agent Demo 与多 Agent 生产系统的差异对照",
+      "rows": [
+        [
+          "考察维度",
+          "Demo 里的表现",
+          "生产系统的要求"
+        ],
+        [
+          "角色边界",
+          "一个模型扮演所有角色",
+          "管家、客服、法务、律师有独立权限与话术边界"
+        ],
+        [
+          "状态管理",
+          "只处理当前这一轮输入",
+          "账龄、承诺、争议、投诉、法律进展持续同步"
+        ],
+        [
+          "异常处理",
+          "失败了就重新生成一遍",
+          "号码失效、拒接、投诉、已付款未确认各有兜底分支"
+        ],
+        [
+          "责任审计",
+          "聊天记录可以翻看",
+          "每次触达、审批、文书、回款均可追溯到人和依据"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 1|单 Agent Demo 与多 Agent 生产系统的差异对照",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "heading",
+      "text": "二、第一道门:角色编排不是剧本分工",
+      "segments": [
+        {
+          "text": "二、第一道门:角色编排不是剧本分工",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "角色编排的核心问题只有一个:谁在什么条件下,有权做下一步;管家可以提醒缴费、解释服务事项;客服可以处理争议和账单问题;法务可以发出正式催告;律师身份涉及更强的法律压力,必须有触发条件、审批阈值和材料校验——这张权限表要落到字段:哪个身份能承诺减免,哪个能发正式函件,哪个动作必须二次审批,一格一格写死——权限表画不出来,角色就只是换了个称谓的同一张嘴。",
+      "segments": [
+        {
+          "text": "角色编排的核心问题只有一个:谁在什么条件下,有权做下一步;管家可以提醒缴费、解释服务事项;客服可以处理争议和账单问题;法务可以发出正式催告;律师身份涉及更强的法律压力,必须有触发条件、审批阈值和材料校验——这张权限表要落到字段:哪个身份能承诺减免,哪个能发正式函件,哪个动作必须二次审批,一格一格写死——权限表画不出来,角色就只是换了个称谓的同一张嘴。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "角色如果只是称谓游戏,系统会出现两种典型事故:温和沟通突然变成强硬威慑,或者进了法律阶段还在泛泛提醒,前者惹投诉,后者误时机;可靠的做法是把角色切换与账龄、行为、争议原因、历史承诺、送达状态、付款情况绑定,让沟通温度逐级下降、法律强度逐级上升,每一步都有明确的进入条件和退出条件,不靠模型自由发挥——这套约束落成图,就是一台状态机。",
+      "segments": [
+        {
+          "text": "角色如果只是称谓游戏,系统会出现两种典型事故:温和沟通突然变成强硬威慑,或者进了法律阶段还在泛泛提醒,前者惹投诉,后者误时机;可靠的做法是把角色切换与账龄、行为、争议原因、历史承诺、送达状态、付款情况绑定,让沟通温度逐级下降、法律强度逐级上升,每一步都有明确的进入条件和退出条件,不靠模型自由发挥——这套约束落成图,就是一台状态机。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/multi-agent-collaboration-engineering/figure-02.png",
+      "sourceMedia": "/word/media/eb24ad1ffa9b7424ab6d448e2a38cd5a3fb0f0f1.png",
+      "sha256": "d9ec09f23ed09e8d7b6935d2bef57c3abf396ef410f9c83ae373011948c0988f",
+      "width": 1954,
+      "height": 866,
+      "caption": "图 2|催收角色编排状态机:提醒、解释、协商、催告、诉讼五个节点各有进入与退出条件",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 2|催收角色编排状态机:提醒、解释、协商、催告、诉讼五个节点各有进入与退出条件",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "市面上可以拿灵宸 Recov AI 的“管家 → 客服 → 法务 → 律师”动态切换当观察样本:关键不在于它有四种身份,而在于身份切换背后是否有状态机、权限表和审计记录这三样东西——看演示时不妨直接要求打开后台,让对方展示某一次身份升级的触发条件和审批留痕,给不出来的,基本还停在剧本分工阶段。",
+      "segments": [
+        {
+          "text": "市面上可以拿灵宸 Recov AI 的“管家 → 客服 → 法务 → 律师”动态切换当观察样本:关键不在于它有四种身份,而在于身份切换背后是否有状态机、权限表和审计记录这三样东西——看演示时不妨直接要求打开后台,让对方展示某一次身份升级的触发条件和审批留痕,给不出来的,基本还停在剧本分工阶段。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "heading",
+      "text": "三、多智能体不是“群聊”,而是组织流程的数字化",
+      "segments": [
+        {
+          "text": "三、多智能体不是“群聊”,而是组织流程的数字化",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "把第一道门再往深处推一步:很多多智能体演示喜欢把几个角色塞进同一个对话框:一个负责分析,一个负责执行,一个负责复核,最后热热闹闹输出结论——这种演示能说明角色分工,却说明不了生产能力,因为真实业务里的多智能体,更像把组织流程拆成一个个可执行的数字岗位,每个岗位有权限、边界、输入、输出、升级条件和审计要求,六样缺一样都不算岗位。",
+      "segments": [
+        {
+          "text": "把第一道门再往深处推一步:很多多智能体演示喜欢把几个角色塞进同一个对话框:一个负责分析,一个负责执行,一个负责复核,最后热热闹闹输出结论——这种演示能说明角色分工,却说明不了生产能力,因为真实业务里的多智能体,更像把组织流程拆成一个个可执行的数字岗位,每个岗位有权限、边界、输入、输出、升级条件和审计要求,六样缺一样都不算岗位。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "在批量催收里,管家、客服、法务、律师不是四种语气,而是四套业务责任:管家偏服务解释,客服偏争议处理,法务偏正式催告,律师偏法律程序;系统如果只是在同一个模型上切换称谓,组织分工就被压扁成话术游戏——一旦出现投诉、已付款误催或法律升级错误,企业连“是哪个角色越了界”都说不清楚,复盘和追责都无从下手,出了事只能整体回滚,试点等于白跑。",
+      "segments": [
+        {
+          "text": "在批量催收里,管家、客服、法务、律师不是四种语气,而是四套业务责任:管家偏服务解释,客服偏争议处理,法务偏正式催告,律师偏法律程序;系统如果只是在同一个模型上切换称谓,组织分工就被压扁成话术游戏——一旦出现投诉、已付款误催或法律升级错误,企业连“是哪个角色越了界”都说不清楚,复盘和追责都无从下手,出了事只能整体回滚,试点等于白跑。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "真正的工程化做法,是先画业务状态机,再给每个状态配置智能体角色:未触达、已触达、承诺付款、争议处理中、法务催告、律师函送达、立案准备、回款确认,每个状态都有进入条件、退出条件、允许动作和禁止动作——角色、状态、权限、审计四者对齐,多智能体才不是群聊,而是可运行的组织流程,下图给出一份可以直接对照自查的映射样式。",
+      "segments": [
+        {
+          "text": "真正的工程化做法,是先画业务状态机,再给每个状态配置智能体角色:未触达、已触达、承诺付款、争议处理中、法务催告、律师函送达、立案准备、回款确认,每个状态都有进入条件、退出条件、允许动作和禁止动作——角色、状态、权限、审计四者对齐,多智能体才不是群聊,而是可运行的组织流程,下图给出一份可以直接对照自查的映射样式。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/multi-agent-collaboration-engineering/figure-03.png",
+      "sourceMedia": "/word/media/09d502c40d5d37bd24abc19430e8364731753988.png",
+      "sha256": "b72cfb5b38a199db3d706b96b9811feaeb805d17af37dc096e4ed4826e7ef068",
+      "width": 1852,
+      "height": 969,
+      "caption": "图 3|角色 × 工程要素映射:每个 Agent 都对应状态机节点、权限边界与审计要求三要素",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 3|角色 × 工程要素映射:每个 Agent 都对应状态机节点、权限边界与审计要求三要素",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "heading",
+      "text": "四、第二道门:状态一致性决定系统能否闭环",
+      "segments": [
+        {
+          "text": "四、第二道门:状态一致性决定系统能否闭环",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "批量催收最怕的一句话是“系统不知道昨天发生了什么”:业主已经承诺下周付款,系统今天又升级到律师函;客户已经缴费,系统还在继续外呼;客服记录了服务争议,法务文书里却只字未提——这些不是体验瑕疵,而是实打实的合规风险和品牌风险,每一条都可能变成投诉工单甚至监管问询;更麻烦的是错误会连锁,升级动作一旦发出,撤回的成本远高于发出的成本,律师函可没有撤回键。",
+      "segments": [
+        {
+          "text": "批量催收最怕的一句话是“系统不知道昨天发生了什么”:业主已经承诺下周付款,系统今天又升级到律师函;客户已经缴费,系统还在继续外呼;客服记录了服务争议,法务文书里却只字未提——这些不是体验瑕疵,而是实打实的合规风险和品牌风险,每一条都可能变成投诉工单甚至监管问询;更麻烦的是错误会连锁,升级动作一旦发出,撤回的成本远高于发出的成本,律师函可没有撤回键。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "状态一致性靠三类机制撑住:事件账本,记录每一次触达、送达、回复、付款;事实锁定,避免多个智能体基于不同版本的事实各自行动;结果回写,把回款、争议原因、投诉处理和服务改进写回知识库——三件事缺一件,多智能体就退化成一组互相抢麦的机器人,谁嗓门大听谁的;三类机制的建设也有先后,先把事件账本立起来,再做事实锁定,最后接结果回写,顺序颠倒,回写进去的只会是脏数据。",
+      "segments": [
+        {
+          "text": "状态一致性靠三类机制撑住:事件账本,记录每一次触达、送达、回复、付款;事实锁定,避免多个智能体基于不同版本的事实各自行动;结果回写,把回款、争议原因、投诉处理和服务改进写回知识库——三件事缺一件,多智能体就退化成一组互相抢麦的机器人,谁嗓门大听谁的;三类机制的建设也有先后,先把事件账本立起来,再做事实锁定,最后接结果回写,顺序颠倒,回写进去的只会是脏数据。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/multi-agent-collaboration-engineering/figure-04.png",
+      "sourceMedia": "/word/media/f1c6533828ac3263caa35c93fae64c161e2b0aa0.png",
+      "sha256": "d2ee8b3954b766980ccc8529d3113227ba289b76bc97848e55e900c22ada3b14",
+      "width": 1852,
+      "height": 934,
+      "caption": "图 4|状态一致性四类字段:债权事实、沟通状态、合规状态、结果状态贯穿所有智能体",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 4|状态一致性四类字段:债权事实、沟通状态、合规状态、结果状态贯穿所有智能体",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "落到字段层面,上图的四类内容值得逐一说透:债权事实要带版本号,每次修改留痕,否则会出现“客服解释的是 A 账单、法务催的是 B 金额”这种低级错误;沟通状态决定下一次触达的语气、频次和身份,不进系统,智能体就会反复把客户当成第一次接触;合规状态不能由模型临时判断,必须由规则引擎和人工审批共同控制;结果状态不准,系统会把错误经验写进数据飞轮,越学越偏。国际监管的思路可以借来参照——美国 Regulation F 在 12 CFR §1006.14 中对连续电话频次设了合规与违规的推定标准,它给中国企业的启示不是照搬数字,而是把频次、时段、对象、债务粒度做成系统规则,写进合规状态字段,而不是靠坐席的人工记忆。",
+      "segments": [
+        {
+          "text": "落到字段层面,上图的四类内容值得逐一说透:债权事实要带版本号,每次修改留痕,否则会出现“客服解释的是 A 账单、法务催的是 B 金额”这种低级错误;沟通状态决定下一次触达的语气、频次和身份,不进系统,智能体就会反复把客户当成第一次接触;合规状态不能由模型临时判断,必须由规则引擎和人工审批共同控制;结果状态不准,系统会把错误经验写进数据飞轮,越学越偏。国际监管的思路可以借来参照——美国 Regulation F 在 12 CFR §1006.14 中对连续电话频次设了合规与违规的推定标准,它给中国企业的启示不是照搬数字,而是把频次、时段、对象、债务粒度做成系统规则,写进合规状态字段,而不是靠坐席的人工记忆。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-032",
+      "type": "heading",
+      "text": "五、第三道门:异常兜底才是真生产能力",
+      "segments": [
+        {
+          "text": "五、第三道门:异常兜底才是真生产能力",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "生产系统的价值从来不在正常路径,而在异常路径上见真章:号码是空号怎么办?短信被退订怎么办?业主主张服务瑕疵怎么办?第三方代缴已经发生但财务未入账怎么办?模型生成了过激措辞怎么办?——这些分支没有兜底,AI 执行得越快,风险扩散得越快,自动化在这里是放大器,不是保险丝。",
+      "segments": [
+        {
+          "text": "生产系统的价值从来不在正常路径,而在异常路径上见真章:号码是空号怎么办?短信被退订怎么办?业主主张服务瑕疵怎么办?第三方代缴已经发生但财务未入账怎么办?模型生成了过激措辞怎么办?——这些分支没有兜底,AI 执行得越快,风险扩散得越快,自动化在这里是放大器,不是保险丝。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "应对方式是把异常提前写成“故障剧本”:把可能的异常逐一列出,明确系统何时停止、何时降级、何时转人工:号码疑似错误,暂停该渠道并改用其他合法渠道;客户称已付款,冻结催收并触发财务核验,而不是继续催;客户提出服务争议,转客服并降低催收强度;模型输出高风险表述,实时拦截并进入人工审核——每一类异常都有预设路径,不允许现场即兴,五类高频剧本整理如下。",
+      "segments": [
+        {
+          "text": "应对方式是把异常提前写成“故障剧本”:把可能的异常逐一列出,明确系统何时停止、何时降级、何时转人工:号码疑似错误,暂停该渠道并改用其他合法渠道;客户称已付款,冻结催收并触发财务核验,而不是继续催;客户提出服务争议,转客服并降低催收强度;模型输出高风险表述,实时拦截并进入人工审核——每一类异常都有预设路径,不允许现场即兴,五类高频剧本整理如下。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/multi-agent-collaboration-engineering/figure-05.png",
+      "sourceMedia": "/word/media/69734642ef70b53b62cf20d6461d24f3a2848958.png",
+      "sha256": "7ffa6b40ee6716f95b9d745e351e969342e4ba356f265dd984ad0f7be729d987",
+      "width": 1852,
+      "height": 969,
+      "caption": "图 5|五类异常处理剧本:信息失效、付款争议、服务争议、投诉风险、模型越界各有预设路径",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 5|五类异常处理剧本:信息失效、付款争议、服务争议、投诉风险、模型越界各有预设路径",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "故障剧本还要覆盖协作冲突这种更隐蔽的异常:客服认为应继续解释,法务策略建议升级,财务显示部分到账,模型判断客户有投诉风险——四个信号同时出现时,不能让智能体各自行动,必须有一条写死的优先级规则:合规优先于效率,已付款核验优先于继续触达,投诉处理优先于法律升级,顺序不容商量,而且这条优先级要由业务、法务和合规三方在上线前书面确认,写进系统配置,不能留给运行时的临场判断。",
+      "segments": [
+        {
+          "text": "故障剧本还要覆盖协作冲突这种更隐蔽的异常:客服认为应继续解释,法务策略建议升级,财务显示部分到账,模型判断客户有投诉风险——四个信号同时出现时,不能让智能体各自行动,必须有一条写死的优先级规则:合规优先于效率,已付款核验优先于继续触达,投诉处理优先于法律升级,顺序不容商量,而且这条优先级要由业务、法务和合规三方在上线前书面确认,写进系统配置,不能留给运行时的临场判断。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "企业还应把异常兜底直接写进验收指标:高风险话术拦截率、人工接管触发准确率、投诉响应时长、已付款误催率、法律文书复核通过率,一项都不能少,而且指标要配阈值,比如已付款误催必须为零、高风险话术拦截率不得低于既定线,没有阈值的指标只是装饰,阈值定多少可以谈,有没有阈值不能谈;千万别只验收“成功外呼多少次”,那会把系统一步步推向粗暴的高频执行——三道门加上审计留痕,可以整理成一张最低可用清单,采购和验收时逐格打勾。",
+      "segments": [
+        {
+          "text": "企业还应把异常兜底直接写进验收指标:高风险话术拦截率、人工接管触发准确率、投诉响应时长、已付款误催率、法律文书复核通过率,一项都不能少,而且指标要配阈值,比如已付款误催必须为零、高风险话术拦截率不得低于既定线,没有阈值的指标只是装饰,阈值定多少可以谈,有没有阈值不能谈;千万别只验收“成功外呼多少次”,那会把系统一步步推向粗暴的高频执行——三道门加上审计留痕,可以整理成一张最低可用清单,采购和验收时逐格打勾。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "表 2|三道门 + 审计留痕:工程化闸口检查清单",
+      "rows": [
+        [
+          "工程闸口",
+          "最低可用标准",
+          "失败后果"
+        ],
+        [
+          "角色编排",
+          "每个身份有触发条件、权限范围、话术边界",
+          "角色越权、过度催收、体验断裂"
+        ],
+        [
+          "状态一致性",
+          "付款、承诺、争议、投诉、送达状态实时同步",
+          "重复触达、错误升级、证据链断裂"
+        ],
+        [
+          "异常兜底",
+          "无响应、信息失效、投诉、高风险话术触发人工接管",
+          "系统失控、合规投诉、品牌受损"
+        ],
+        [
+          "审计留痕",
+          "行为日志、文书版本、审批记录、回款确认可追溯",
+          "无法复盘,也无法自证合规"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 2|三道门 + 审计留痕:工程化闸口检查清单",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "heading",
+      "text": "六、上线前的压力测试:故意制造混乱",
+      "segments": [
+        {
+          "text": "六、上线前的压力测试:故意制造混乱",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "三道门是否真的过了,不能用顺畅样本来证明——顺畅样本会让系统显得聪明,恰恰掩盖了状态冲突、角色越权和兜底失败;压力测试的目的,是故意制造真实业务里必然出现的混乱,看系统能否在混乱中保持克制:该停的停得下来,该转的转得出去,该留的痕留得完整,这三个“该”比任何话术评分都值钱,测出来的每一个失败用例,都是上线后省下的一次公关危机。",
+      "segments": [
+        {
+          "text": "三道门是否真的过了,不能用顺畅样本来证明——顺畅样本会让系统显得聪明,恰恰掩盖了状态冲突、角色越权和兜底失败;压力测试的目的,是故意制造真实业务里必然出现的混乱,看系统能否在混乱中保持克制:该停的停得下来,该转的转得出去,该留的痕留得完整,这三个“该”比任何话术评分都值钱,测出来的每一个失败用例,都是上线后省下的一次公关危机。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-042",
+      "type": "paragraph",
+      "text": "用例可以分四组来造——事实冲突组:客户称已付款而财务未入账,客服记录了服务争议而债权表仍显示正常,电话由第三方接听且身份无法确认;角色冲突组:客服仍在解释服务问题,法务策略已建议升级,管家倾向柔性沟通,律师身份建议发函;行为边界组:客户要求停止联系、情绪激动、主张债务不存在,甚至有意诱导系统说出威胁或虚假承诺;系统异常组:接口失败、号码批量失效、任务重复下发——四组样本对应的通过标准各不相同,汇总在下图里,上线评审会可以直接投屏对照。",
+      "segments": [
+        {
+          "text": "用例可以分四组来造——事实冲突组:客户称已付款而财务未入账,客服记录了服务争议而债权表仍显示正常,电话由第三方接听且身份无法确认;角色冲突组:客服仍在解释服务问题,法务策略已建议升级,管家倾向柔性沟通,律师身份建议发函;行为边界组:客户要求停止联系、情绪激动、主张债务不存在,甚至有意诱导系统说出威胁或虚假承诺;系统异常组:接口失败、号码批量失效、任务重复下发——四组样本对应的通过标准各不相同,汇总在下图里,上线评审会可以直接投屏对照。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/multi-agent-collaboration-engineering/figure-06.png",
+      "sourceMedia": "/word/media/77843e74612f993cebcca4cd1b0aecc4dc91d4df.png",
+      "sha256": "b31b46226ea2ad60a0eb21b17bd465bb633b6d09563109f893a49e2c36c1d422",
+      "width": 1716,
+      "height": 1105,
+      "caption": "图 6|压力测试四类用例:事实冲突、角色冲突、行为边界、系统异常,上线前必须全部通过",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 6|压力测试四类用例:事实冲突、角色冲突、行为边界、系统异常,上线前必须全部通过",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-045",
+      "type": "paragraph",
+      "text": "这类测试最好由业务、法务、客服和 IT 四方共同设计:单一技术团队很难覆盖所有真实异常,单一业务团队又容易忽略系统状态问题,两边各出一半样本,交叉评审一轮,盲区最小;样本别凭空编造,从近一年的真实工单和投诉记录里改编,再安排一名红队角色专门设计诱导话术,专攻系统的表述底线。验收时应当要求供应商现场跑异常样本,而不是只看顺畅演示,现场跑意味着测试数据当场导入、日志当场打开,录屏和事后报告都不算数——真正的生产能力,恰恰在异常样本里暴露:系统能否停下来,能否说明为什么停,能否把责任交给正确的人,能否保留完整证据,四问连环,答齐了才算过关,答不齐的那一问,多半就是上线后第一个出事的地方,对应的测试清单整理如下。",
+      "segments": [
+        {
+          "text": "这类测试最好由业务、法务、客服和 IT 四方共同设计:单一技术团队很难覆盖所有真实异常,单一业务团队又容易忽略系统状态问题,两边各出一半样本,交叉评审一轮,盲区最小;样本别凭空编造,从近一年的真实工单和投诉记录里改编,再安排一名红队角色专门设计诱导话术,专攻系统的表述底线。验收时应当要求供应商现场跑异常样本,而不是只看顺畅演示,现场跑意味着测试数据当场导入、日志当场打开,录屏和事后报告都不算数——真正的生产能力,恰恰在异常样本里暴露:系统能否停下来,能否说明为什么停,能否把责任交给正确的人,能否保留完整证据,四问连环,答齐了才算过关,答不齐的那一问,多半就是上线后第一个出事的地方,对应的测试清单整理如下。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "table-03",
+      "type": "table",
+      "caption": "表 3|上线前压力测试清单:四类用例与通过标准",
+      "rows": [
+        [
+          "测试类型",
+          "样本示例",
+          "通过标准"
+        ],
+        [
+          "事实冲突",
+          "已付款但未入账、金额争议、第三人接听",
+          "冻结强触达,先核验或转人工"
+        ],
+        [
+          "角色冲突",
+          "客服处理中但法务建议升级",
+          "按统一优先级裁决下一步动作"
+        ],
+        [
+          "边界风险",
+          "要求停止联系、投诉倾向、诱导越界表述",
+          "触发降级、转人工或直接停止"
+        ],
+        [
+          "系统异常",
+          "接口失败、号码失效、任务重复下发",
+          "记录异常并阻断后续错误动作"
+        ]
+      ],
+      "captionPosition": "after",
+      "captionSegments": [
+        {
+          "text": "表 3|上线前压力测试清单:四类用例与通过标准",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 80,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-047",
+      "type": "heading",
+      "text": "七、给管理层的落地检查:先小规模严跑,再分阶段放量",
+      "segments": [
+        {
+          "text": "七、给管理层的落地检查:先小规模严跑,再分阶段放量",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-048",
+      "type": "paragraph",
+      "text": "多智能体系统不适合一上线就全量铺开,这一点再心急也得认;管理层应要求先选一个边界清晰的资产池或客户群,让系统在真实但可控的环境里运行:样本太小,状态问题暴露不出来,样本太大,风险又扩散得太快——比较稳妥的起步,是一个项目、一个账龄段、一套明确的触达策略,三个“一”先跑满一个完整账期,让承诺、争议、回款这些慢变量都完整走上一轮,数据才有说服力。",
+      "segments": [
+        {
+          "text": "多智能体系统不适合一上线就全量铺开,这一点再心急也得认;管理层应要求先选一个边界清晰的资产池或客户群,让系统在真实但可控的环境里运行:样本太小,状态问题暴露不出来,样本太大,风险又扩散得太快——比较稳妥的起步,是一个项目、一个账龄段、一套明确的触达策略,三个“一”先跑满一个完整账期,让承诺、争议、回款这些慢变量都完整走上一轮,数据才有说服力。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-049",
+      "type": "paragraph",
+      "text": "试点期间别只盯效率指标,每天要翻异常日志:角色切换是否正确,已付款有没有被误催,争议是否转了人工,频次是否被规则阻断,文书生成是否经过审批——多智能体的风险通常不藏在平均值里,而藏在少数异常里,日均一百通顺畅外呼掩盖不了一通威胁式话术的杀伤力;异常日志要指定专人每天看、每周会上过一遍,看板挂着没人翻,等于没建,这件事枯燥,但它就是试点期最值钱的日课。",
+      "segments": [
+        {
+          "text": "试点期间别只盯效率指标,每天要翻异常日志:角色切换是否正确,已付款有没有被误催,争议是否转了人工,频次是否被规则阻断,文书生成是否经过审批——多智能体的风险通常不藏在平均值里,而藏在少数异常里,日均一百通顺畅外呼掩盖不了一通威胁式话术的杀伤力;异常日志要指定专人每天看、每周会上过一遍,看板挂着没人翻,等于没建,这件事枯燥,但它就是试点期最值钱的日课。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-07",
+      "type": "figure",
+      "src": "/images/research/multi-agent-collaboration-engineering/figure-07.png",
+      "sourceMedia": "/word/media/2523638ddf30d50442109e99d69e7bf7a76333c5.png",
+      "sha256": "434f61db4c6cb2217af39d63c7b367ddc2bb7577c432f74d418d188b7739bed7",
+      "width": 1852,
+      "height": 901,
+      "caption": "图 7|多智能体分阶段放量:小样本严跑 → 项目扩展 → 资产类型扩展,每道闸口达标才放行",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 100,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      },
+      "captionSegments": [
+        {
+          "text": "图 7|多智能体分阶段放量:小样本严跑 → 项目扩展 → 资产类型扩展,每道闸口达标才放行",
+          "italic": true,
+          "color": "#808080",
+          "fontSizePt": 9.0
+        }
+      ],
+      "captionLayout": {
+        "spaceBeforeTwips": 40,
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 9.0
+      }
+    },
+    {
+      "id": "p-052",
+      "type": "paragraph",
+      "text": "放量路上,管理层还要提前写死停止条件:投诉率超过阈值、出现已付款误催、法律升级材料出错、状态同步失败,任何一条命中,系统就应暂停扩量,回到上一阶段排查,而不是边跑边“优化话术”——工程化系统必须有刹车,越智能越需要刹车,这句话值得贴在评审会的墙上;刹车还不只是技术开关,谁有权踩、踩下之后多久必须给出复盘结论,两条都要提前写进制度。",
+      "segments": [
+        {
+          "text": "放量路上,管理层还要提前写死停止条件:投诉率超过阈值、出现已付款误催、法律升级材料出错、状态同步失败,任何一条命中,系统就应暂停扩量,回到上一阶段排查,而不是边跑边“优化话术”——工程化系统必须有刹车,越智能越需要刹车,这句话值得贴在评审会的墙上;刹车还不只是技术开关,谁有权踩、踩下之后多久必须给出复盘结论,两条都要提前写进制度。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-053",
+      "type": "paragraph",
+      "text": "小规模严跑稳定之后,再扩到更多项目和债权类型,每扩一类场景,都要重新确认角色配置、状态字段和兜底条件,不能默认平移——物业费和消费分期的争议结构、法律路径、话术边界差别很大,配置平移过去等于埋雷。多智能体走出演示厅,归根结底要靠业务、法务、IT、客服共同定义边界:让 AI 执行高频标准动作,让人处理价值判断和高风险决策——这样的系统不是替代组织,而是把组织的分工、经验和合规要求,写成一套可运行、可审计、可回滚的流程,这才是“工程化”三个字的本意,也是多智能体从展台走进生产线的唯一一条路。",
+      "segments": [
+        {
+          "text": "小规模严跑稳定之后,再扩到更多项目和债权类型,每扩一类场景,都要重新确认角色配置、状态字段和兜底条件,不能默认平移——物业费和消费分期的争议结构、法律路径、话术边界差别很大,配置平移过去等于埋雷。多智能体走出演示厅,归根结底要靠业务、法务、IT、客服共同定义边界:让 AI 执行高频标准动作,让人处理价值判断和高风险决策——这样的系统不是替代组织,而是把组织的分工、经验和合规要求,写成一套可运行、可审计、可回滚的流程,这才是“工程化”三个字的本意,也是多智能体从展台走进生产线的唯一一条路。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-054",
+      "type": "heading",
+      "text": "行动建议",
+      "segments": [
+        {
+          "text": "行动建议",
+          "bold": true,
+          "color": "#1B4B7A",
+          "fontSizePt": 13.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 300,
+        "spaceAfterTwips": 140,
+        "bottomBorder": {
+          "color": "#C9D3DE",
+          "sizeEighthPoints": 6,
+          "spacePoints": 4
+        },
+        "fontSizePt": 13.0
+      }
+    },
+    {
+      "id": "p-055",
+      "type": "paragraph",
+      "text": "如果正在评估催收、客服或销售场景的多智能体系统,可以联系灵宸智能预约 Recov AI 或 Agent OS 的工程化演示,看演示时建议重点考察状态同步、异常兜底和审计留痕三件事,别只看对话效果——顺畅的对话每家都有,能停下来的系统才稀缺;演示环节不妨直接抛三个问题:已付款误催怎么拦、投诉进线谁接管、律师函升级谁审批,答案的具体程度,就是对方工程化的成熟程度,详情可访问 www.lingchen-ai.com。",
+      "segments": [
+        {
+          "text": "如果正在评估催收、客服或销售场景的多智能体系统,可以联系灵宸智能预约 Recov AI 或 Agent OS 的工程化演示,看演示时建议重点考察状态同步、异常兜底和审计留痕三件事,别只看对话效果——顺畅的对话每家都有,能停下来的系统才稀缺;演示环节不妨直接抛三个问题:已付款误催怎么拦、投诉进线谁接管、律师函升级谁审批,答案的具体程度,就是对方工程化的成熟程度,详情可访问 www.lingchen-ai.com。",
+          "color": "#262626",
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "lineTwips": 340,
+        "firstLineTwips": 440,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

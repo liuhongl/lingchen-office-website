@@ -1,0 +1,708 @@
+{
+  "slug": "ai-acquisition-harness-scale-outreach",
+  "category": "产品动态",
+  "displayTitle": null,
+  "sourceTitle": "AI 获客 Harness 规模触达系统：语音、邮件、短信三级编排的落地方法",
+  "summary": "摘要：AI 获客 Harness 是灵宸智能面向出海与规模化获客团队推出的规模触达系统，它把大模型外呼、智能呼入、自适应个性化邮件和场景化短信放进同一条客户状态链；这套系统要解决的不是工具数量，而是触达编排、意向识别和人工接管——让电话、邮件、短信共享同一份客户状态，一线销售只接最需要人的节点。本文说明它适合谁、如何工作、与传统群发的差别，以及 30 天跑通首轮 POC 的具体路径，供销售运营、市场和增长团队在评估前对照使用。",
+  "publishedAt": null,
+  "sourceDocx": "AI获客_Harness规模触达系统.docx",
+  "sourceDocxSha256": "3c1a41eb492bde80554b755aa256b3ebdf52a172b8cafcd915d9f2ca54201388",
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "title",
+      "text": "AI 获客 Harness 规模触达系统：语音、邮件、短信三级编排的落地方法",
+      "segments": [
+        {
+          "text": "AI 获客 Harness 规模触达系统：语音、邮件、短信三级编排的落地方法",
+          "bold": true,
+          "fontSizePt": 16.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 120,
+        "alignment": "center",
+        "fontSizePt": 16.0
+      }
+    },
+    {
+      "id": "p-002",
+      "type": "abstract",
+      "text": "摘要：AI 获客 Harness 是灵宸智能面向出海与规模化获客团队推出的规模触达系统，它把大模型外呼、智能呼入、自适应个性化邮件和场景化短信放进同一条客户状态链；这套系统要解决的不是工具数量，而是触达编排、意向识别和人工接管——让电话、邮件、短信共享同一份客户状态，一线销售只接最需要人的节点。本文说明它适合谁、如何工作、与传统群发的差别，以及 30 天跑通首轮 POC 的具体路径，供销售运营、市场和增长团队在评估前对照使用。",
+      "segments": [
+        {
+          "text": "摘要：AI 获客 Harness 是灵宸智能面向出海与规模化获客团队推出的规模触达系统，它把大模型外呼、智能呼入、自适应个性化邮件和场景化短信放进同一条客户状态链；这套系统要解决的不是工具数量，而是触达编排、意向识别和人工接管——让电话、邮件、短信共享同一份客户状态，一线销售只接最需要人的节点。本文说明它适合谁、如何工作、与传统群发的差别，以及 30 天跑通首轮 POC 的具体路径，供销售运营、市场和增长团队在评估前对照使用。",
+          "bold": true,
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-003",
+      "type": "heading",
+      "text": "一、先说结论：AI 获客 Harness 适合谁，不适合谁",
+      "segments": [
+        {
+          "text": "一、先说结论：AI 获客 Harness 适合谁，不适合谁",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "判断是否适合，先看三句话：需要大批量首触、活动邀约、老客唤醒、呼入分流和资料跟进的团队，值得认真评估；有效的方法是“客户分群 + 渠道级联 + 频次上限 + 高意向转人工”，而不是把多个工具简单堆在一起；没有合法触达基础、退订机制和人工承接的群发场景则不适合，完整判断标准见第五节。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "看一个典型场景：活动前 10 天，市场团队手里有 2 万条线索、3 套资料、2 个销售区域和一批历史沉睡客户，如果电话、邮件、短信各自独立运行，客户会收到重复消息，销售也不知道谁最值得跟进；AI 获客 Harness 的作用，是把未接来电、邮件点击、短信链接、通话异议统一回写 CRM，让一线销售只在最需要人介入的节点出手。从线索导入到人工接管的完整链路如图1所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-01",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-scale-outreach/figure-01.png",
+      "sourceMedia": "/word/media/image1.png",
+      "sha256": "51d74a324a1dfaafc8523bb53608980ee2496dbdd8f4d98120c45283828937ca",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "图1　业务链路：从线索分群到高意向转人工，三类触达共享同一份客户状态，每一步都留痕回写",
+      "segments": [
+        {
+          "text": "图1　业务链路：从线索分群到高意向转人工，三类触达共享同一份客户状态，每一步都留痕回写",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-008",
+      "type": "heading",
+      "text": "二、三类角色怎么用：同一张工作台里互相校验",
+      "segments": [
+        {
+          "text": "二、三类角色怎么用：同一张工作台里互相校验",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "同一套系统，在不同角色手里价值并不相同：销售运营负责配置触达画布、客户分群、渠道优先级、频次上限和转人工条件，要盯住的交付物是触达策略与频控记录；一线销售接收高意向线索、客户摘要和下一步建议，处理报价、合同、投诉等复杂节点，交付跟进记录以及成交或无效的原因；管理层通过通联成本、触达效率、意向分布和转化卡点评估增长效率，看的是漏斗报告和成本复盘。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "能够长期运行的项目，通常是这三类视角在同一张工作台里互相校验，而不是某一方单独推动——运营调策略、销售给反馈、管理层看结果，任何一环缺位，系统都会退化成又一个群发工具。三类角色的协同关系与各自交付物如图2所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-02",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-scale-outreach/figure-02.png",
+      "sourceMedia": "/word/media/image2.png",
+      "sha256": "4558bce4d2fcccdc2a851aec4bd9a2088f71658d0745b041e2dcd89aadf058d5",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "图2　三类角色的协同关系：每个角色都对应可验收的交付物，项目不停留在演示效果",
+      "segments": [
+        {
+          "text": "图2　三类角色的协同关系：每个角色都对应可验收的交付物，项目不停留在演示效果",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-013",
+      "type": "heading",
+      "text": "三、工作机制：输入、判断、执行、回写",
+      "segments": [
+        {
+          "text": "三、工作机制：输入、判断、执行、回写",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "判断一款业务系统能否进入生产环境，不能只问“功能有没有”，更关键的是三个动作：输入能不能结构化，执行过程能不能被控制，结果能不能回到下一轮策略。AI 获客 Harness 的五个能力模块正是围绕这三个动作设计——大模型外呼与呼入解决坐席成本高、夜间商机漏接和话术不统一的问题，POC 阶段要看首触完成率、意向识别与录音质检，但它不能替代复杂的商务谈判；自适应个性化邮件基于画像和素材库生成千人千面内容，验证点在打开、点击与回复能否回写，前提是发件域名和退订机制健康。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "场景化短信承担未接补触和关键提醒，链接回流与频次限制必须同时验证，不能沦为高频骚扰；NLP 反馈分析把预算、竞品、资料需求、时机等异议归类，语义结果需要抽样复核；真人兜底负责把高意向、投诉、议价、合同及时转给销售，没有承接团队，再多线索也会被浪费。把五个模块串起来，就是“分群、级联、质检、转人工、回写”的三级触达链，电话、邮件、短信按客户状态触发，异常当天处理，人只处理关键节点，编排框架如图3所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-03",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-scale-outreach/figure-03.png",
+      "sourceMedia": "/word/media/image3.png",
+      "sha256": "2dbf349e93f10648be707d98e6bfb437fc0714786c41ec56a5af73d8f9ef14a0",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "图3　语音—邮件—短信三级触达编排框架：五个卡点全部通过，才建议进入规模化",
+      "segments": [
+        {
+          "text": "图3　语音—邮件—短信三级触达编排框架：五个卡点全部通过，才建议进入规模化",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-018",
+      "type": "heading",
+      "text": "四、与传统群发的对比：量化数字要看限定语",
+      "segments": [
+        {
+          "text": "四、与传统群发的对比：量化数字要看限定语",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "与传统群发相比，差别不在单点功能，而在链路是否闭合：人工坐席逐个拨打、夜间无人响应，销售复制模板群发邮件，短信统一模板发送且退订与点击割裂，质检靠抽查录音，各系统彼此孤立——这套老做法的共同问题，是每个动作都发生了，却没有一份完整的客户状态可供复盘。需要提醒的是，凡涉及具体数值，都应保留“公司口径、客户项目实测或 POC 示意”等限定语，并用自己的样本复核，而不是直接照搬进内部汇报；两种方式的逐项对照见表1。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "表1　传统群发方式与 AI 获客 Harness 的逐项对照（数值以自身样本复核）",
+      "segments": [
+        {
+          "text": "表1　传统群发方式与 AI 获客 Harness 的逐项对照（数值以自身样本复核）",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "table-01",
+      "type": "table",
+      "caption": "",
+      "rows": [
+        [
+          "环节",
+          "人工 / 传统方式",
+          "AI 获客 Harness 能力",
+          "客户价值"
+        ],
+        [
+          "电话",
+          "人工坐席逐个拨打，夜间无人响应",
+          "大模型外呼 + 7×24 呼入分流",
+          "减少人力瓶颈和商机漏接"
+        ],
+        [
+          "邮件",
+          "销售复制模板群发",
+          "基于画像和素材生成千人千面内容",
+          "提升相关性和复盘能力"
+        ],
+        [
+          "短信",
+          "统一模板群发，退订和点击割裂",
+          "上下文模板 + 时机算法 + 链接回流",
+          "降低打扰感"
+        ],
+        [
+          "质检",
+          "抽查录音、人工总结",
+          "大模型录音质检、摘要和意向识别",
+          "看清转化卡点"
+        ],
+        [
+          "协同",
+          "多系统孤岛",
+          "电话、邮件、短信、CRM 统一回流",
+          "形成销售链路闭环"
+        ]
+      ]
+    },
+    {
+      "id": "p-022",
+      "type": "heading",
+      "text": "五、适用与暂不适用：边界说清楚，项目才容易成功",
+      "segments": [
+        {
+          "text": "五、适用与暂不适用：边界说清楚，项目才容易成功",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "边界诚实比过度承诺更有价值。适合引入的场景包括：大批量线索首触、活动邀约、客户唤醒、呼入分流或资料跟进，已有客户画像、素材库、CRM 或销售线索池，并且希望把电话、邮件、短信和人工跟进统一成可复盘链路的团队；暂不适用或需先补齐的情形同样明确——没有合法触达基础、没有退订机制、没有频次限制的名单不能用，高度复杂的商务谈判、价格让步、合同条款和投诉处理不应由系统独立完成，希望靠高频骚扰式群发追求短期转化的诉求，更应直接拒绝。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "如果不确定自己属于哪一类，可以按四道关口自查：合法触达基础、渠道状态共享、高意向与投诉接管、退订与频控当天处理，四道全部为“是”再扩大触达规模，命中任何一个“否”，先补齐条件再谈规模化，决策路径如图4所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-04",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-scale-outreach/figure-04.png",
+      "sourceMedia": "/word/media/image4.png",
+      "sha256": "97ae27758dc0c03210ac48892591eb4024129caf7f235df8abb26b106675090e",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "图4　适用 / 暂缓决策：四道关口依次自查，任一为“否”先补齐条件",
+      "segments": [
+        {
+          "text": "图4　适用 / 暂缓决策：四道关口依次自查，任一为“否”先补齐条件",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-027",
+      "type": "heading",
+      "text": "六、30 天跑通最小流程：可复制的执行清单",
+      "segments": [
+        {
+          "text": "六、30 天跑通最小流程：可复制的执行清单",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "确认适用之后，POC 也不宜一开始就追求全量上线，更稳的做法是选一个边界清楚、责任人明确、结果可验收的流程，用真实但脱敏的样本运行，观察系统输出、人工修改量和业务结果。四个阶段的节奏是：样本准备阶段选择 1000 至 5000 条合法触达线索，完成画像和分群，名单来源与退订机制必须清楚；流程配置阶段设计语音、邮件、短信级联和频次上限，每个触发条件都要可追踪；小范围运行 7 至 14 天，观察触达、回复、投诉与转人工，高意向必须能被及时接管；复盘扩展阶段按渠道、客群、话术拆解结果，销售和合规都同意后再扩展。各阶段的交付物与通过标准见表2。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "表2　30 天 POC 的四个阶段、交付物与通过标准",
+      "segments": [
+        {
+          "text": "表2　30 天 POC 的四个阶段、交付物与通过标准",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 80,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "table-02",
+      "type": "table",
+      "caption": "",
+      "rows": [
+        [
+          "阶段",
+          "目标",
+          "交付物",
+          "通过标准"
+        ],
+        [
+          "样本准备",
+          "选择 1000—5000 条合法触达线索，完成画像和分群",
+          "线索池、分群规则、素材库",
+          "名单来源和退订机制清楚"
+        ],
+        [
+          "流程配置",
+          "设计语音、邮件、短信级联和频次上限",
+          "触达画布、话术、邮件与短信模板",
+          "每个触发条件可追踪"
+        ],
+        [
+          "小范围运行",
+          "运行 7—14 天，观察触达、回复、投诉、转人工",
+          "通话录音、NLP 标签、CRM 状态",
+          "高意向能及时接管"
+        ],
+        [
+          "复盘扩展",
+          "按渠道、客群、话术复盘",
+          "优化清单、停用规则、扩展计划",
+          "销售和合规同意扩展"
+        ]
+      ]
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "复盘建议围绕触达效率、通联成本、外呼人力成本和商机漏接四项核心指标验收，所有指标必须在试点前定义，不要等试点结束后倒推成功标准；每项指标都要按名单质量和渠道拆分，并把质检与人工接管成本一并纳入，否则很容易高估系统贡献。条件允许时，还应保留上线前的基线并设置对照组，记录名单结构变化，避免把渠道或季节差异误判为系统效果——只看拨通量容易忽略质量，只看成交又难以定位卡点，过程指标与结果指标结合，才能支撑下一轮策略调整。四项指标各自对应的验收问题如图5所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-05",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-scale-outreach/figure-05.png",
+      "sourceMedia": "/word/media/image5.png",
+      "sha256": "a9bf2206e3451bf6f72750899fb2c60333105b6627ccb512d776581aca4e3603",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "图5　POC 指标看板：四项指标须在试点前定义，按名单质量与渠道拆分统计",
+      "segments": [
+        {
+          "text": "图5　POC 指标看板：四项指标须在试点前定义，按名单质量与渠道拆分统计",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-034",
+      "type": "heading",
+      "text": "七、安全与合规：默认把高风险动作交给人",
+      "segments": [
+        {
+          "text": "七、安全与合规：默认把高风险动作交给人",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "人机分工的原则很简单：高频、重复、可规则化的动作交给系统先处理，事实高度争议、责任重大、需要专业签字或客户授权的动作保留人工兜底——系统负责外呼、邮件、短信首触，意向识别与客户分层，频次控制与渠道级联；报价、合同与投诉处理、深度沟通、策略与频控调整，默认由人确认。在这一分工之下，落地时至少守住四个治理维度：同意与身份披露，语音、短信、邮件要有明确的合法基础、身份披露和退订或停止触达机制；频次控制，按客户、项目、渠道设置触达上限和冷却期；AI 语音与内容避免冒充真人，生成内容可识别、可复核；过程留痕，呼叫、录音、邮件、短信、退订、转人工全程留痕，便于质检和投诉处理。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "可参考的合规框架包括美国 TCPA 与 CAN-SPAM、欧盟 GDPR、中国《个人信息保护法》与《数据安全法》，以及目标市场各自的营销触达规则；项目落地时，应由客户方法务、合规和信息安全团队结合所在法域逐一复核，本节内容用于项目治理讨论，不构成法律意见。人机边界与治理要点如图6所示。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "figure-06",
+      "type": "figure",
+      "src": "/images/research/ai-acquisition-harness-scale-outreach/figure-06.png",
+      "sourceMedia": "/word/media/image6.png",
+      "sha256": "424bb7362422e4ecfa8d57bf747212ad68ba8f9a6bb1eae91e43d7efc129e0db",
+      "width": 1500,
+      "height": 850,
+      "caption": "",
+      "sourceKind": "paragraph",
+      "sourceLayout": {
+        "spaceBeforeTwips": 120,
+        "spaceAfterTwips": 60,
+        "alignment": "center"
+      }
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "图6　人机分工边界与四个治理维度：高风险动作默认由人确认，全程留痕",
+      "segments": [
+        {
+          "text": "图6　人机分工边界与四个治理维度：高风险动作默认由人确认，全程留痕",
+          "bold": true,
+          "fontSizePt": 10.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 200,
+        "alignment": "center",
+        "fontSizePt": 10.0
+      }
+    },
+    {
+      "id": "p-039",
+      "type": "heading",
+      "text": "八、如何开始：体验方式与开通建议",
+      "segments": [
+        {
+          "text": "八、如何开始：体验方式与开通建议",
+          "bold": true,
+          "color": "#000000",
+          "fontSizePt": 14.0
+        }
+      ],
+      "layout": {
+        "spaceBeforeTwips": 280,
+        "spaceAfterTwips": 180,
+        "fontSizePt": 14.0
+      }
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "建议从“线索首触”或“老客唤醒”两个边界清楚的场景开始，不要一上来就覆盖全部渠道和全部客户；演示只能说明能力边界，POC 才能说明业务价值，先跑通一个最小流程，拿到触达、意向、转人工和成本四组真实数据，再决定是否扩展团队、区域、渠道或产品线。",
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    },
+    {
+      "id": "p-041",
+      "type": "paragraph",
+      "text": "如需评估自身获客场景是否适配，可以先向灵宸智能团队索取试点方案与合规触达清单，用 1000 至 5000 条脱敏线索完成一轮小规模验证；访问灵宸智能官网 www.lingchen-ai.com 即可预约产品演示，或致电 18621786899 获取一对一方案评估，把第一个 30 天 POC 的边界和验收口径先确定下来。",
+      "segments": [
+        {
+          "text": "如需评估自身获客场景是否适配，可以先向灵宸智能团队索取试点方案与合规触达清单，用 1000 至 5000 条脱敏线索完成一轮小规模验证；访问灵宸智能官网 www.lingchen-ai.com 即可预约产品演示，或致电 18621786899 获取一对一方案评估，把第一个 30 天 POC 的边界和验收口径先确定下来。",
+          "bold": true,
+          "fontSizePt": 11.0
+        }
+      ],
+      "layout": {
+        "spaceAfterTwips": 160,
+        "lineTwips": 340,
+        "lineRule": "auto",
+        "firstLineTwips": 480,
+        "alignment": "both",
+        "fontSizePt": 11.0
+      }
+    }
+  ]
+}

@@ -26,6 +26,7 @@
 - 列表、全页、标题、摘要、落地原则：`03-list-card-local-1440.png` 至 `07-closing-local-1440.png`
 - 并排对照：`08-mastergo-local-comparison.png`
 
+- [x] 内容完整迁移通过
 - [x] 内容还原通过
 - [x] 已视觉校准
 - [x] SEO/GEO 已实现，待线上验证

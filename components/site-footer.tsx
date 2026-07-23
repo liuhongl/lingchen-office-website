@@ -24,9 +24,9 @@ export function SiteFooter() {
           </nav>
           <nav aria-label="联系我们">
             <strong>联系我们</strong>
-            <span>shenhuabo@lingchenai.cn</span>
+            <span>shenhuaibo@lingchenai.cn</span>
             <span>18621786899</span>
-            <span>上海市普陀区金沙江路185号3幢一层</span>
+            <span>上海市普陀区金昌路1858号3幢一层</span>
           </nav>
         </div>
       </div>

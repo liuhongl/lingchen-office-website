@@ -2,7 +2,7 @@
 
 - 目标视口：1440×900
 - 内容原型：AI Studio `31940409-b4c4-420a-8018-a504586355a9`
-- 视觉参考：DeepDoc / Sales in / Social Grow / Mine GEO MasterGo 100% 基线
+- 视觉真源：DeepLaw 独立 MasterGo 画板 `page_id=33:002647`
 
 ## 分区
 
@@ -50,3 +50,15 @@
 - [x] 四类区块小标题样式已统一；产品价值卡原有边框经计算样式确认存在。
 - [x] 三项交付标题已增加 MasterGo 正式对号；业务流与环节箭头已替换为 DeepLaw MasterGo 正式导出 SVG。
 - [x] 已在 1440×900 桌面视口复核：`visual-results/deeplaw/2026-07-23-stages-formal-icons.png`、`visual-results/deeplaw/2026-07-23-core-left-aligned.png`、`visual-results/deeplaw/2026-07-23-labels-deliverables.png`；无横向溢出。
+
+## 2026-07-23 独立画板图标替换
+
+- [x] 已纠正页面五大模块、四个专项 Agent、数据飞轮及“约 90%”指标的图标编号映射。
+- [x] 正式素材均来自 `page_id=33:002647` 当前选中图层资源面板，并在 `visual-ledger.md` 记录 layer_id、尺寸和 SHA-256。
+- [x] Hero 六枚轨道节点与 `icon-15.svg` 按用户明确授权生成独立语义 SVG；未使用截图裁切、Emoji 或近似图标库。
+- [x] 1671×1258 同视口截图：`2026-07-23-icons-hero-local-1671x1258.png`、`2026-07-23-icons-agents-local-1671x1258.png`、`2026-07-23-icons-flywheel-local-1671x1258.png`、`2026-07-23-icons-values-local-1671x1258.png`；全页截图：`2026-07-23-icons-full-local-1671.png`。
+- [x] MasterGo 全页基线：`2026-07-23-mastergo-deeplaw-full.png`。
+- [x] 44 张页面图片均加载成功；`scrollWidth=1656`、`clientWidth=1656`，无横向溢出；唯一 H1 保持不变。
+- [x] 公共 Header、Footer、Logo、BookingModal、BookingTrigger 交付哈希与本轮开工基线一致。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 全部通过。
+- [x] `pnpm mastergo:check deeplaw`：`MasterGo 证据门禁通过: deeplaw`。

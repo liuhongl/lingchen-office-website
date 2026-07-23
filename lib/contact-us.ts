@@ -6,14 +6,35 @@ export type ContactUsPayload = {
 };
 
 export const contactProducts = [
-  ["Sales In", "AI出海获客"],
-  ["Social Grow", "内容营销增长"],
-  ["Kine CEO", "大模型流量入口"],
-  ["AI获客Harness", "海外获客智能触达"],
-  ["Recov AI", "不良资产处置"],
-  ["DeepDoc", "跨境单证智能审核"],
-  ["DeepLan", "案件拓展与法律工作流"],
+  ["Sales in", "AI出海获客-客户线索数据挖掘与筛选"],
+  ["Social Grow", "AI出海获客-内容营销与流量孵化"],
+  ["Mine GEO", "AI出海获客-大模型流量入口"],
+  ["AI获客Harness", "AI出海获客-高并发智慧触达与筛选、转化"],
+  ["Recov AI", "AI不良资产处置-批量不良资产业务处置"],
+  ["DeepDoc", "AI出海风控-跨境单证智能审核"],
+  ["DeepLaw", "AI 法律 Agent-案件拓展与法律工作流"],
 ] as const;
+
+export const contactFormCopy = {
+  fields: {
+    name: { label: "您的姓名 *", placeholder: "例如：沈经理" },
+    company: {
+      label: "您的公司 *",
+      placeholder: "例如：某外贸制造进出口大厂",
+    },
+    role: {
+      label: "您的职位 / 部门 *",
+      placeholder: "例如：法务总监 / 市场开发负责人",
+    },
+    phone: { label: "您的手机 *", placeholder: "例如：138-xxxx-xxxx" },
+    email: { label: "您的邮箱", placeholder: "例如：example@company.com" },
+  },
+  productsLegend: "您感兴趣的灵宸 AI 产品 (可多选)",
+  messageLabel: "具体合作需求描述",
+  messagePlaceholder:
+    "描述您的拖欠款规模、出海目标重点国家对标等，以便我们顾问更好地为您定制测试...",
+  submit: "提交产品合作需求/预约解决方案",
+} as const;
 
 export function buildContactDemand({
   role,

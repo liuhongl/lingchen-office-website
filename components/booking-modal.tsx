@@ -5,6 +5,7 @@ import { Check, Target, X } from "lucide-react";
 import { createPortal } from "react-dom";
 import {
   buildContactDemand,
+  contactFormCopy,
   contactProducts,
   submitContactUs,
 } from "@/lib/contact-us";
@@ -140,23 +141,23 @@ export function BookingModal({
         <form onSubmit={submit}>
           <div className="form-grid">
             <label>
-              您的姓名 *
-              <input name="name" placeholder="沈经理" required />
+              {contactFormCopy.fields.name.label}
+              <input name="name" placeholder={contactFormCopy.fields.name.placeholder} required />
             </label>
             <label>
-              您的公司 *
+              {contactFormCopy.fields.company.label}
               <input
                 name="company"
-                placeholder="如某某科技有限公司"
+                placeholder={contactFormCopy.fields.company.placeholder}
                 required
               />
             </label>
             <label>
-              职位 / 部门
-              <input name="role" placeholder="职位 / 部门" />
+              {contactFormCopy.fields.role.label}
+              <input name="role" placeholder={contactFormCopy.fields.role.placeholder} required />
             </label>
             <label>
-              您的手机 *
+              {contactFormCopy.fields.phone.label}
               <input
                 autoComplete="tel"
                 inputMode="numeric"
@@ -164,22 +165,21 @@ export function BookingModal({
                 name="phone"
                 pattern="1[3-9][0-9]{9}"
                 type="tel"
-                placeholder="188xxxxxxxx"
+                placeholder={contactFormCopy.fields.phone.placeholder}
                 required
               />
             </label>
             <label className="form-grid__full">
-              您的邮箱 *
+              {contactFormCopy.fields.email.label}
               <input
                 name="email"
                 type="email"
-                placeholder="example@company.com"
-                required
+                placeholder={contactFormCopy.fields.email.placeholder}
               />
             </label>
           </div>
           <fieldset>
-            <legend>您感兴趣的灵宸 AI 产品（可多选）</legend>
+            <legend>{contactFormCopy.productsLegend}</legend>
             <div className="product-options">
               {contactProducts.map(([product]) => (
                 <button
@@ -202,15 +202,14 @@ export function BookingModal({
             </div>
           </fieldset>
           <label className="form-message">
-            业务场景需求描述/其他合作需求 *
+            {contactFormCopy.messageLabel}
             <textarea
               name="message"
-              placeholder="请描述您的产品方案或者业务合作需求..."
-              required
+              placeholder={contactFormCopy.messagePlaceholder}
             />
           </label>
           <button className="form-submit" type="submit" disabled={submitting}>
-            {submitting ? "提交中..." : "提交产品合作需求/预约解决方案"}
+            {submitting ? "提交中..." : contactFormCopy.submit}
           </button>
           {notice && (
             <p className="form-notice" role="status">

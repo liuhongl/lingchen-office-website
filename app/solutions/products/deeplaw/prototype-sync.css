@@ -257,8 +257,8 @@
   filter: none;
 }
 
-.dls-page .dls-flywheel__node.f-1 > img { background: #ecfeff; }
-.dls-page .dls-flywheel__node.f-2 > img { background: #faf5ff; }
+.dls-page .dls-flywheel__node.f-1 > img { background: #2563eb; }
+.dls-page .dls-flywheel__node.f-2 > img { background: #8b5cf6; }
 .dls-page .dls-flywheel__node.f-3 > img { background: #fff7ed; }
 .dls-page .dls-flywheel__node.f-4 > img { background: #fff1f2; }
 

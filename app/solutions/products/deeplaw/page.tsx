@@ -4,30 +4,30 @@ import { BookingTrigger } from "@/components/booking-trigger";
 const icon = (name: number) => `/images/solutions/deeplaw/icon-${name}.svg`;
 
 const pains = [
-  ["SECTION 01", "案源之压", "双向找不到对的人", "专业能力难以被客观识别，优质案源仍高度依赖人情链路与运气；当事人也难以判断律师的真实专业性与战力，往往凭熟人推荐盲选。", 13],
-  ["SECTION 02", "转化之压", "获客越来越贵", "缺乏体系化的获客方式与渠道，公域线索分散、内容生产高消耗、初筛慢、跟进断，获客成本持续上升，接案靠运气。", 14],
-  ["SECTION 03", "承办之压", "交付依赖人海", "复杂卷宗、冗长合同、地方裁判尺度与各类文书，要求大量重复性的文字工作、检索与复核，挤压了真正用于策略判断与案源拓展的时间。", 15],
-  ["SECTION 04", "知识之压", "经验难沉淀与曝光", "真正宝贵的案例、思考与实务笔记常常分散、不可检索、不可收录，难以转化为可被潜在客户看见的专业度、经验值与曝光率。", 16],
-  ["SECTION 05", "AI可见之压", "偶然被推荐", "越来越多当事人直接向 AI 提问「哪位律师更合适」，而律师 / 律所品牌在 AI 答案中往往只能偶然被引用、偶然被推荐，缺乏可诊断、可治理、可优化的机制。", 17],
+  ["SECTION 01", "案源之压", "双向找不到对的人", "专业能力难以被客观识别，优质案源仍高度依赖人情链路与运气；当事人也难以判断律师的真实专业性与战力，往往凭熟人推荐盲选。", 14],
+  ["SECTION 02", "转化之压", "获客越来越贵", "缺乏体系化的获客方式与渠道，公域线索分散、内容生产高消耗、初筛慢、跟进断，获客成本持续上升，接案靠运气。", 15],
+  ["SECTION 03", "承办之压", "交付依赖人海", "复杂卷宗、冗长合同、地方裁判尺度与各类文书，要求大量重复性的文字工作、检索与复核，挤压了真正用于策略判断与案源拓展的时间。", 16],
+  ["SECTION 04", "知识之压", "经验难沉淀与曝光", "真正宝贵的案例、思考与实务笔记常常分散、不可检索、不可收录，难以转化为可被潜在客户看见的专业度、经验值与曝光率。", 17],
+  ["SECTION 05", "AI可见之压", "偶然被推荐", "越来越多当事人直接向 AI 提问「哪位律师更合适」，而律师 / 律所品牌在 AI 答案中往往只能偶然被引用、偶然被推荐，缺乏可诊断、可治理、可优化的机制。", 18],
 ] as const;
 
 const modules = [
-  ["智能律师广场", "把熟人推荐/广告承诺升级为可解释的人工智能算法专业匹配与三维战力画像", 18],
-  ["律师智能获客云", "把分散流量收拢成从发现到面谈的闭环增长体系，抢单、回访反馈线索质量", 19],
-  ["法律智能工作流", "材料接入 → 结构化建模 → 风险研判 → 文书初稿 → 复核校验一体化", 20],
-  ["法律人知识库", "法规、案例、文书与团队经验统一治理，一次沉淀，既服务承办也反哺获客", 21],
-  ["深律法学院", "调用案例与办案心得，把专业内容沉淀为个人品牌与高价值案源之间的信任路径", 22],
+  ["智能律师广场", "把熟人推荐/广告承诺升级为可解释的人工智能算法专业匹配与三维战力画像", 20],
+  ["律师智能获客云", "把分散流量收拢成从发现到面谈的闭环增长体系，抢单、回访反馈线索质量", 21],
+  ["法律智能工作流", "材料接入 → 结构化建模 → 风险研判 → 文书初稿 → 复核校验一体化", 22],
+  ["法律人知识库", "法规、案例、文书与团队经验统一治理，一次沉淀，既服务承办也反哺获客", 23],
+  ["深律法学院", "调用案例与办案心得，把专业内容沉淀为个人品牌与高价值案源之间的信任路径", 24],
 ] as const;
 
 const agents = [
   {
-    label: "内容 IP 获客引擎", title: "3.2 Social Grow", icon: 23,
+    label: "内容 IP 获客引擎", title: "3.2 Social Grow", icon: 25,
     position: "产品定位：专业知识内容 AI 生产与全域分发 Agent。把本地专业知识（法条、案例、白皮书、录音等）一键转化为可发布的图文与数字人短视频，并分发到抖音、小红书、视频号、微博、头条等全网平台。",
     items: ["热点雷达：多平台热点实时聚合，一键转为创作草稿", "知识库管理（专业级 RAG）：从物理上压住大模型幻觉，保障法律准确与合规", "创作与视频工坊：爆款文案精排与数字人+声音克隆，出镜成本趋近于零", "发布矩阵与数据面板：1 名运营维护数十账号，曝光/阅读受众喜好精准追踪"],
     metrics: ["专业护城河 | 极致人力杠杆", "生产周期 -70%~-90%"], tone: "cyan",
   },
   {
-    label: "AI 答案入口治理", title: "3.3 Mine GEO", icon: 24,
+    label: "AI 答案入口治理", title: "3.3 Mine GEO", icon: 26,
     position: "产品定位：品牌生成式引擎优化与获客 AI Agent。帮助律师 / 律所持续管理品牌在 AI 搜索、AI 聊天与生成式答案中的可见度、推荐率与情感倾向。",
     items: ["诊断：全天候持续监测 AI 可见度、推荐率、推荐排名与引用来源", "治理：将案例、FAQ与事实沉淀为结构化知识库，统一品牌事实口径", "创作：围绕提问意图与引用逻辑，生成最契合 RAG 偏好的评测与白皮书", "分发与监控：精准推送到维基、媒体与问答页；拦截并抢单防御"],
     metrics: ["抢占大模型决策入口", "统一事实口径 / 降低错漏"], tone: "purple",
@@ -54,16 +54,16 @@ const synergy = [
 ] as const;
 
 const valueMetrics = [
-  ["-70%~-90%", "内容生产周期缩短", 29, "blue"],
+  ["-70%~-90%", "内容生产周期缩短", 8, "blue"],
   ["40%~60%", "综合通联成本降至传统方式", 31, "orange"],
-  ["约 90%", "合同审核效率提升，10页缩至分钟级", 32, "purple"],
-  ["7×24", "商机无缝不漏接，不舍昼夜", 33, "red"],
+  ["约 90%", "合同审核效率提升，10页缩至分钟级", 37, "purple"],
+  ["7×24", "商机无缝不漏接，不舍昼夜", 11, "red"],
 ] as const;
 
 const valueGroups = [
-  ["效率价值 / 成本价值", "成稿 / 成片 / 合同审阅 / 文书初稿从「天 / 小时」压缩到「分钟级」。AI 替代重复性人工坐席与跨部门流转，综合成本暴降，出镜成本趋于 0。", 35, "green"],
-  ["业务价值 / 管理价值", "专业内容 + AI 推荐 + 主动触达，持续获取公私域高意向案源。流程标准化、知识资产沉淀、任务看板全程可视，人员流动不带走客户资产。", 12, "blue"],
-  ["风险价值 / 技术价值", "RAG 知识边界 + 人工复核 + 律师合规兜底 + 全程留痕，显著降低事实硬伤。模块化嵌入 CRM / OA / ERP，能力随底层大模型迭代持续增强。", 28, "purple"],
+  ["效率价值 / 成本价值", "成稿 / 成片 / 合同审阅 / 文书初稿从「天 / 小时」压缩到「分钟级」。AI 替代重复性人工坐席与跨部门流转，综合成本暴降，出镜成本趋于 0。", 31, "green"],
+  ["业务价值 / 管理价值", "专业内容 + AI 推荐 + 主动触达，持续获取公私域高意向案源。流程标准化、知识资产沉淀、任务看板全程可视，人员流动不带走客户资产。", 33, "blue"],
+  ["风险价值 / 技术价值", "RAG 知识边界 + 人工复核 + 律师合规兜底 + 全程留痕，显著降低事实硬伤。模块化嵌入 CRM / OA / ERP，能力随底层大模型迭代持续增强。", 32, "purple"],
 ] as const;
 
 const plans = [
@@ -114,7 +114,7 @@ export default function DeepLawSolutionPage() {
     </section>
     <section className="dls-synergy" aria-labelledby="dls-synergy-title">
       <Heading eyebrow="三、协同效应" title="1 + 1 > 2：五体协同如何实现乘数效应" intro="五大智能体围绕同一个「法律人知识库」底座、共享同一套数据飞轮，形成「内容 — 流量 — 线索 — 承办 — 沉淀」的闭环增长网络。" />
-      <div className="dls-synergy__content"><div className="dls-flywheel"><div className="dls-flywheel__ring"/><div className="dls-flywheel__center"><Image src={icon(63)} alt="" width={20} height={20}/><span>数据飞轮</span><small>越用越懂你</small></div>{[["内容出库","Social Grow",23],["被 AI 看见","Mine GEO",24],["承接转化","AI Harness",27],["高效承办","合同审查",28]].map(([a,b,n],i)=><div className={`dls-flywheel__node f-${i+1}`} key={String(a)}><Image src={icon(Number(n))} alt="" width={16} height={16}/><b>{a}</b><small>{b}</small></div>)}</div><div className="dls-synergy__steps"><h3>数据飞轮<br/>越用越懂你</h3>{synergy.map(([title,body],index)=><article key={title}><b>{String(index + 1).padStart(2, "0")}</b><div><h4>{title}</h4><p>{body}</p></div></article>)}<footer><p>单个智能体解决 “点” 的效率，五者协同解决 “面” 的增长。</p></footer></div></div>
+      <div className="dls-synergy__content"><div className="dls-flywheel"><div className="dls-flywheel__ring"/><div className="dls-flywheel__center"><Image src={icon(33)} alt="" width={20} height={20}/><span>数据飞轮</span><small>越用越懂你</small></div>{[["内容出库","Social Grow",34],["被 AI 看见","Mine GEO",35],["承接转化","AI Harness",31],["高效承办","合同审查",32]].map(([a,b,n],i)=><div className={`dls-flywheel__node f-${i+1}`} key={String(a)}><Image src={icon(Number(n))} alt="" width={16} height={16}/><b>{a}</b><small>{b}</small></div>)}</div><div className="dls-synergy__steps"><h3>数据飞轮<br/>越用越懂你</h3>{synergy.map(([title,body],index)=><article key={title}><b>{String(index + 1).padStart(2, "0")}</b><div><h4>{title}</h4><p>{body}</p></div></article>)}<footer><p>单个智能体解决 “点” 的效率，五者协同解决 “面” 的增长。</p></footer></div></div>
     </section>
     <section className="dls-values" aria-labelledby="dls-values-title"><Heading eyebrow="四、价值兑现" title="可衡量的六维客户价值" intro="问题被解决得如何，最终要落到可衡量的商业结果上。我们从六个维度提供可考核的价值。"/><div className="dls-values__grid dls-value-metrics">{valueMetrics.map(([metric,body,n,tone])=><article className={`is-${tone}`} key={metric}><Image src={icon(n)} alt="" width={20} height={20}/><strong>{metric}</strong><p>{body}</p></article>)}</div><div className="dls-values__grid dls-value-groups">{valueGroups.map(([title,body,n,tone])=><article className={`is-${tone}`} key={title}><Image src={icon(n)} alt="" width={20} height={20}/><h3>{title}</h3><p>{body}</p></article>)}</div><p className="dls-values__note">（注：以上百分比 / 倍数为可衡量指标示例，实际收益随行业、素材质量与落地 / 投放策略而定。）</p></section>
     <section className="dls-cooperation" aria-labelledby="dls-cooperation-title"><Heading eyebrow="五、合作与可信底座" title="关联产品与灵活合作模式" intro="五大智能体可单独采用、按需组合，也可作为一体化方案落地，与企业级可信底座深度整合。"/><div className="dls-plans">{plans.map(([title,body,tone])=><article className={`is-${tone}`} key={title}><h3>{title}</h3><p>{body}</p></article>)}</div><div className="dls-trust-grid">{trustItems.map((item,index)=><article key={item}><Image src={icon([42,45,49,50,42,45][index])} alt="" width={18} height={18}/><p>{item}</p></article>)}</div></section>

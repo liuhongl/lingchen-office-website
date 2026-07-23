@@ -24,18 +24,18 @@ export const metadata: Metadata = {
 const contactItems = [
   {
     icon: "/images/contact/contact-address@3x.png",
-    title: "公司地址",
-    value: "上海市普陀区金通路185号3幢一层",
+    title: "地址",
+    value: "上海市普陀区金昌路1858号3幢一层",
   },
   {
     icon: "/images/contact/contact-phone@3x.png",
-    title: "联系电话",
+    title: "电话",
     value: "18621786899",
   },
   {
     icon: "/images/contact/contact-email@3x.png",
-    title: "电子邮箱",
-    value: "shenhuabo@lingchenai.cn",
+    title: "邮箱",
+    value: "shenhuaibo@lingchenai.cn",
   },
 ] as const;
 
@@ -46,18 +46,19 @@ export default function ContactPage() {
       <main className={styles.page}>
         <section className={styles.hero}>
           <i aria-hidden />
-          <h1>联系我们</h1>
-          <p>期待与您携手，共创AI驱动的商业价值。我们的专业团队将在24小时内与您取得联系，为您量身定制智能化解决方案。</p>
+          <h1>灵宸AI Agent OS，为您的商业结果服务</h1>
+          <p>欢迎咨询产品合作，我们的客户成功经理将尽快与您联系</p>
         </section>
 
         <section className={styles.content}>
           <ContactForm />
 
+          <h2 className={styles.officeTitle}>灵宸智能公司总部：</h2>
           <div className={styles.contactGrid}>
             {contactItems.map((item) => (
               <article className={styles.contactCard} key={item.title}>
                 <Image alt="" aria-hidden src={item.icon} width={48} height={48} />
-                <h2>{item.title}</h2>
+                <h3>{item.title}</h3>
                 <p>{item.value}</p>
               </article>
             ))}

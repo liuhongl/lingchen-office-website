@@ -4,6 +4,7 @@ import Image from "next/image";
 import { FormEvent, useRef, useState } from "react";
 import {
   buildContactDemand,
+  contactFormCopy,
   contactProducts,
   submitContactUs,
 } from "@/lib/contact-us";
@@ -11,7 +12,7 @@ import {
 import styles from "./page.module.css";
 
 export function ContactForm() {
-  const [selectedProducts, setSelectedProducts] = useState<string[]>(["Sales In"]);
+  const [selectedProducts, setSelectedProducts] = useState<string[]>(["Sales in"]);
   const [validated, setValidated] = useState(false);
   const [notice, setNotice] = useState("");
   const [submitting, setSubmitting] = useState(false);
@@ -66,29 +67,40 @@ export function ContactForm() {
 
   return (
     <form className={styles.formCard} onSubmit={handleSubmit} data-validated={validated}>
-      <h2>提交合作意向</h2>
-      <p className={styles.formIntro}>请填写以下信息，我们将尽快与您联系</p>
-
       <div className={styles.fieldGrid}>
-        <input aria-label="您的姓名" name="name" placeholder="您的姓名 *" required />
-        <input aria-label="您的公司" name="company" placeholder="您的公司 *" required />
-        <input aria-label="职位 / 部门" name="role" placeholder="职位 / 部门" />
-        <input
-          aria-label="您的手机"
-          autoComplete="tel"
-          inputMode="numeric"
-          maxLength={11}
-          name="phone"
-          pattern="1[3-9][0-9]{9}"
-          placeholder="您的手机 *"
-          required
-          type="tel"
-        />
-        <input className={styles.fullField} aria-label="您的邮箱" name="email" placeholder="您的邮箱 *" required type="email" />
+        <label className={styles.field}>
+          <span>{contactFormCopy.fields.name.label}</span>
+          <input name="name" placeholder={contactFormCopy.fields.name.placeholder} required />
+        </label>
+        <label className={styles.field}>
+          <span>{contactFormCopy.fields.company.label}</span>
+          <input name="company" placeholder={contactFormCopy.fields.company.placeholder} required />
+        </label>
+        <label className={styles.field}>
+          <span>{contactFormCopy.fields.role.label}</span>
+          <input name="role" placeholder={contactFormCopy.fields.role.placeholder} required />
+        </label>
+        <label className={styles.field}>
+          <span>{contactFormCopy.fields.phone.label}</span>
+          <input
+            autoComplete="tel"
+            inputMode="numeric"
+            maxLength={11}
+            name="phone"
+            pattern="1[3-9][0-9]{9}"
+            placeholder={contactFormCopy.fields.phone.placeholder}
+            required
+            type="tel"
+          />
+        </label>
+        <label className={`${styles.field} ${styles.fullField}`}>
+          <span>{contactFormCopy.fields.email.label}</span>
+          <input name="email" placeholder={contactFormCopy.fields.email.placeholder} type="email" />
+        </label>
       </div>
 
       <fieldset className={styles.products}>
-        <legend>您感兴趣的灵宸 AI 产品（可多选）</legend>
+        <legend>{contactFormCopy.productsLegend}</legend>
         <div className={styles.productList}>
           {contactProducts.map(([name, description]) => {
             const selected = selectedProducts.includes(name);
@@ -111,10 +123,13 @@ export function ContactForm() {
         </div>
       </fieldset>
 
-      <textarea aria-label="具体合作需求描述" name="message" placeholder="具体合作需求描述 *" required />
+      <label className={styles.messageField}>
+        <span>{contactFormCopy.messageLabel}</span>
+        <textarea name="message" placeholder={contactFormCopy.messagePlaceholder} />
+      </label>
 
       <button className={styles.submitButton} type="submit" disabled={submitting}>
-        <span>{submitting ? "提交中..." : "提交产品合作需求/预约解决方案"}</span>
+        <span>{submitting ? "提交中..." : contactFormCopy.submit}</span>
         <Image alt="" aria-hidden src="/images/contact/submit-arrow.svg" width={7} height={12} />
       </button>
       {notice ? <p className={styles.formNotice} role="status">{notice}</p> : null}

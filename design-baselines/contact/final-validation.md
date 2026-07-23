@@ -3,71 +3,58 @@
 ## 基本信息
 
 - 页面：联系我们
-- MasterGo `page_id` / `layer_id`：`M` / `6:05`
+- 内容真源：用户指定的 Google AI Studio 原型（浏览器实际渲染，2026-07-23）
+- 视觉真源：既有 MasterGo 联系页样式与冻结公共组件
 - 本地地址：`http://127.0.0.1:3000/contact/`
 - 验收视口：1440 × 900
-- 验收日期：2026-07-22
+- 移动端：未纳入当前官网范围
 
-## 分区验收
+## 本轮内容差异与处理
 
-| 区块 | 内容台账 | MasterGo 基线 | 本地截图 | 对比图 | 内容结论 | 视觉结论 |
-|---|---|---|---|---|---|---|
-| 01 Hero | T-001–T-002 | `01-top-mastergo-100.png` | `01-top-local.png` | `01-top-comparison.png` | PASS | PASS；强调线按用户确认移至 H1 下方并改为两端淡出的蓝青渐变 |
-| 02 表单 | T-003–T-026 | `02-form-mastergo-100.png` | `02-form-local.png` | `02-form-comparison.png` | PASS | PASS；边界、输入、产品项、文本域、按钮已逐项核对 |
-| 03 联系卡片 | T-027–T-032 | `03-contact-footer-mastergo-100.png` | `03-contact-footer-local.png` | `03-contact-footer-comparison.png` | PASS | PASS；卡片 160px 高、Footer 前 37px 间距已校准 |
-| 04 公共头尾 | 冻结公共文案 | 同上 | 同上 | 同上 | PASS | 用户要求冻结复用；设计差异按授权例外保留 |
+- Hero 改为原型 H1“灵宸AI Agent OS，为您的商业结果服务”和原型说明。
+- 删除原型不存在的“提交合作意向”“请填写以下信息，我们将尽快与您联系”。
+- 两套表单共用 `contactFormCopy` 与 `contactProducts`，同步标签、示例占位符、产品名、产品说明、需求描述和提交按钮。
+- 产品名纠正为 `Sales in`、`Mine GEO`、`DeepLaw`，并逐项替换为原型完整说明。
+- 必填可见语义同步为姓名、公司、职位/部门、手机必填；邮箱和需求描述可选。
+- 联系我们页补齐“灵宸智能公司总部：”，并按原型改为地址、电话、邮箱及对应值。
+- BookingModal 自身标题与说明属于弹窗容器语境，按范围保留；公共 Header/Footer 文案未纳入本轮同步且保持冻结。
 
-## 全页回归
+## 浏览器内容审计
 
-- [x] 32 个设计文本节点及 3 个用户授权接口状态文本均有证据和代码位置。
-- [x] 没有概括、缩写、润色、补写、漏句或误录；`Kine CEO`、`DeepLan` 按设计原文保留。
-- [x] 用户确认的内联表单例外已记录。
-- [x] 公共 Header/Footer 未被页面级样式覆盖。
-- [x] 三个区块均有 1440 × 900 本地截图和并排对比图。
-- [x] `scrollWidth === clientWidth`：1440 === 1440。
-- [x] 页面使用 CSS Module，未污染共享样式。
-- [x] SiteFooter、BookingTrigger 哈希与开工值一致；SiteHeader、BookingModal 的授权变化和交付哈希已记录在 `scope.md`。
-- [x] 3 个联系方式图标来自 MasterGo 原始图层 3× PNG；勾选与箭头来自原始 SVG。
-- [x] 位图已按 144 × 144 原尺寸单独检查，并固定以 48 × 48 渲染。
-- [x] 页面仅使用项目已加载字体与明确字重。
-- [x] 浅色背景、输入背景、边框、按钮色与阴影已在局部对比中核对。
-- [x] 内联表单为用户授权例外；两套表单均通过共享请求封装提交后台。
-- [x] 两套表单字段实测一致：姓名、公司、职位 / 部门、手机、邮箱、产品、需求描述；职位 / 部门可留空，其余 5 个文本字段必填。
-- [x] 两套表单手机号均仅接受 `1[3-9]` 开头的 11 位号码，邮箱均使用浏览器 `email` 格式校验。
-- [x] 两套表单产品值共用 `contactProducts`；公共弹窗切换产品前后全部按钮宽度、横纵坐标与换行位置保持一致。
-- [x] 两套表单统一调用 `lib/contact-us.ts`，以 `POST /system/contact-us` 发送 `name`、`company`、`phone`、`demand`；职位、邮箱、产品和需求描述使用同一 `buildContactDemand` 规则写入 `demand`。
-- [x] 两套表单均有同步请求锁与提交按钮禁用态，请求完成前的重复提交会被忽略。
-- [x] 未用测试数据真实提交后台，避免产生留言脏数据；重复请求拦截以代码路径、类型检查和浏览器禁用态回归验证。
-- [x] `https://lingchen-ai.com/system/contact-us` 已用无数据的 HEAD 请求验证，返回 `HTTP 200`；真实 POST 留待用户数据提交时验证。
+- 原型：在 AI Studio iframe 中点击“联系我们”后读取实际渲染文本。
+- 联系我们页：37 项原型可见文本与占位符逐项检查，结果 `missing=[]`。
+- 旧实现额外/错误文本检查：`提交合作意向`、旧说明、`Sales In`、`Kine CEO`、`DeepLan`、旧地址、旧邮箱均未在主内容渲染，结果 `oldExtra=[]`。
+- 公共弹窗：五组字段、七个产品名、产品标签、需求标签/占位符和提交按钮均与共享原型文案一致。
+- DOM 必填属性：姓名、公司、职位/部门、手机为 `required=true`；邮箱、需求描述为 `required=false`，两套表单一致。
+- 页面横向溢出：`scrollWidth === clientWidth`（1265 === 1265 的内置浏览器实测）。
+- 未提交测试数据，未向 `/system/contact-us` 发送 POST。
+
+## 视觉与交互验收
+
+| 对象 | 证据 | 结论 |
+|---|---|---|
+| 联系页首屏 | `output/playwright/release-2026-07-23/contact-top-1440x900.png` | PASS；1440 × 900，字段标签、双列输入和长产品文案无重叠 |
+| 联系页下半区 | `output/playwright/release-2026-07-23/contact-bottom-1440x900.png` | PASS；表单按钮、总部标题、三张联系方式卡片与 Footer 衔接正常 |
+| 公共 BookingModal | `output/playwright/release-2026-07-23/booking-modal-1440x900.png` | PASS；1440 × 900，字段与七个产品项完整显示，无裁切或溢出 |
+
+- 公共弹窗 DeepLaw 选项切换后 `aria-pressed=true`，按钮宽高切换前后保持一致。
+- Escape 和关闭按钮可关闭弹窗；遮罩关闭未作为本轮文案变更的完成依据。
+- 本轮视觉验收针对内容变化后的桌面布局，不宣称原型视觉 1:1；视觉继续沿用 MasterGo/现有官网语言。
 
 ## 工程验证
 
-| 命令 | 结果 | 备注 |
-|---|---|---|
-| `pnpm lint` | PASS | ESLint 零错误 |
-| `pnpm exec tsc --noEmit` | PASS | 零类型错误 |
-| `pnpm build` | PASS | `/contact` 静态预渲染成功 |
-| `git diff --check` | PASS | 无空白错误 |
-| `pnpm mastergo:check contact` | PASS | MasterGo 证据门禁通过 |
-
-## SEO / GEO 验收
-
-- [x] 独立 title、description、自指 canonical、唯一 h1 和标题层级已核对。
-- [x] sitemap、robots 与服务端 HTML 已核对。
-- [x] 可见实体与联系方式均来自 MasterGo 或冻结公共资产。
-- [x] 本地实现与线上抓取、索引、生成式答案抽样状态已分开记录。
-
-## 保留差异与线上项
-
-- 公共 Header/Footer 与本画板存在差异，但依用户“公共头尾冻结”要求不改动，且哈希保持一致。
-- 公共 Header 的“联系我们”已按用户授权改为 `/contact/`，并支持当前页高亮。
-- 移动端无 MasterGo 基线，本次只做安全响应式适配，不宣称移动端视觉校准。
-- 线上抓取、索引和 GEO 抽样需发布后执行。
+| 命令 | 结果 |
+|---|---|
+| `pnpm lint` | PASS |
+| `pnpm exec tsc --noEmit` | PASS |
+| `pnpm build` | PASS；`/contact` 静态预渲染成功 |
+| `git diff --check` | PASS |
+| `pnpm mastergo:check contact` | PASS；完成等级按“内容完整迁移 + 已登记用户覆盖的视觉校准”通过 |
 
 ## 完成等级
 
-- [x] 已实现
+- [x] 内容完整迁移通过
 - [x] 已视觉校准
 - [ ] 1:1 验证通过
 
-结论：主体区块内容与视觉已校准；公共头尾按用户确认的冻结例外复用，因此不使用“整页 1:1”表述。
+说明：文案审计与桌面内容变化视觉复验均为 PASS；原型是内容真源而不是视觉真源，因此不勾选原型视觉 1:1。视觉按 `scope.md` 中用户确认的内容/视觉真源覆盖执行。

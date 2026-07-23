@@ -32,10 +32,10 @@
 
 | 资产 | 组件路径 | 基线截图 | 视口 | 文件 SHA-256 | 允许变化 |
 |---|---|---|---|---|---|
-| SiteHeader | `components/site-header.tsx` | 既有首页基线 | 1440px | `a5edbe507ea4338ccf61f7c50018a2c6863e3fdfebf7b47ac9603c34cfd033ec` | 仅既有路由逻辑产生的导航高亮 |
-| SiteFooter | `components/site-footer.tsx` | 既有公共 Footer 基线 | 1440px | `5816ee5da601620216059640fcaace7f3f25c030d8280423f42e08759ddec20b` | 无 |
+| SiteHeader | `components/site-header.tsx` | 既有首页基线 | 1440px | `00a8a2bb1d30db5e77a6abf5825e95497d907d7c9356506f9feac9c5ec35ef76` | 仅既有路由逻辑产生的导航高亮；当前交付哈希复核 |
+| SiteFooter | `components/site-footer.tsx` | 既有公共 Footer 基线 | 1440px | `cb2b70d580ef03b0318c2b9ba77693e8ad87d1d54242c3e37ca19b9b2c7148eb` | 2026-07-23 用户授权全站联系方式以联系页为准 |
 | Logo | `components/logo.tsx` | 同公共头尾基线 | 1440px | `badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11` | 无 |
-| BookingModal | `components/booking-modal.tsx` | `design-baselines/sales-in/booking-modal-desktop.png` | 1440px | `1ef9eb10296ff62a52157d0afc0f92d63c321655a30f746d537a08abafa26842` | 无 |
+| BookingModal | `components/booking-modal.tsx` | `design-baselines/sales-in/booking-modal-desktop.png` | 1440px | `2f9bc6af8ddd00535ad511424100c3c8d605351ac97e1cd9e9569816f075e47f` | 当前交付哈希复核；字段文案沿用已确认公共表单 |
 | BookingTrigger | `components/booking-trigger.tsx` | 同上 | 1440px | `cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7` | 无 |
 
 ## 用户确认覆盖项
@@ -45,6 +45,8 @@
 | 批次 | DeepDoc 设计页 | 纳入 DeepDoc 相关页面批次 | 2026-07-20 当前对话 |
 | 公共资产 | 设计稿中的公共头尾 | 延续已冻结公共头尾 | 上一页既定规则与当前 AGENTS.md |
 | Hero 视觉优化 | MasterGo 灰蓝纯色背景、内容单列左对齐 | 保留全部现有文案，将首屏优化为浅蓝白渐变背景、左标题右正文卡片的双栏结构 | 2026-07-21 用户明确要求优化第一个大模块，并允许调整背景颜色 |
+| 2026-07-23 上线图标例外 | 页面专属图标需逐图层取得原始 SVG 或至少 2× 位图 | 本次上线不再校验 DeepDoc 图标；保留素材来源缺口记录，允许发布，但不得宣称图标验收通过或页面达到 1:1 | 2026-07-23 用户明确确认“DeepDoc界面先不用校验图标了” |
+| 公共 Footer 联系方式 | 历史冻结联系方式 | 全站统一采用联系页已确认地址和邮箱，属于用户授权的公共资产更正 | 2026-07-23 用户确认“以联系页的为准” |
 
 ## 转化按钮行为
 
@@ -69,7 +71,7 @@
 ## 当前门禁
 
 - G0–G5 已完成：根画板经 MasterGo 研发模式复核为 `AI快搭-9636635`、1440×8778、背景 `#F8FAFC`。
-- 页面主体没有引入图标库或近似图标；但历史实现中的页面专属图标多为 MasterGo 100% 截图单倍裁切。按 2026-07-21 新增素材门禁，必须逐图层替换为原始 SVG 或至少 2× 位图，完成前保持 `BLOCKED`。
+- 页面主体没有引入图标库或近似图标；历史实现中的页面专属图标多为 MasterGo 100% 截图单倍裁切。该素材来源缺口已记录，并由用户在 2026-07-23 明确批准作为本次上线例外，不再阻塞发布。
 - 设计稿底部公共 Footer 高度与冻结 Footer 不同，按用户冻结要求复用公共 Footer，并用设计存在的空白尾区保持根画板总高度 8778px。
 
 ## 2026-07-23 用户视觉覆盖
@@ -80,3 +82,8 @@
 - 删除 Hero 定位条中的“产品定位”文字，保留“新一代跨境单证智能审核产品解决方案”。
 - 共享面包屑预约按钮改为蓝色描边弱化样式；公共 Header/Footer 不变。
 - 当前官网仅验收桌面端，移动端未纳入本轮范围。
+
+## 2026-07-23 上线范围确认
+
+- DeepDoc 图标来源与高清度不纳入本次上线验收；后续如恢复严格 1:1，仍需重新完成原始图层导出与逐图核对。
+- 本次可报告“内容迁移通过、非图标视觉已校准、图标为用户批准的上线例外”，不得报告“图标验收通过”或“1:1 验证通过”。

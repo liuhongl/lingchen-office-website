@@ -16,8 +16,10 @@
   .acq-diff-module,
   .acq-tech-module,
   .acq-value,
+  .acq-value-transition,
   .acq-business,
   .acq-cases,
+  .acq-cooperation,
   .recov-positioning,
   .recov-pressure,
   .recov-flow,
@@ -102,6 +104,11 @@
   .mine-geo-core-loop {
     padding-bottom: 72px;
     background: #f7f9fc;
+  }
+
+  .mine-geo-five-grid article {
+    height: auto;
+    min-height: 319px;
   }
 
   .mine-geo-workflow-title {
@@ -255,8 +262,10 @@
   .acq-diff-module,
   .acq-tech-module,
   .acq-value,
+  .acq-value-transition,
   .acq-business,
-  .acq-cases {
+  .acq-cases,
+  .acq-cooperation {
     padding: 92px 0;
   }
 
@@ -379,7 +388,14 @@
     background: #f7f9fc;
   }
 
-  .acq-case-cards,
+  .acq-cases > .acq-shell > h3 {
+    margin: 48px 0 0;
+  }
+
+  .acq-case-cards {
+    margin-top: 28px;
+  }
+
   .acq-modes {
     margin-top: 72px;
   }

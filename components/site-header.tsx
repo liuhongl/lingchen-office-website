@@ -33,7 +33,6 @@ export function SiteHeader() {
               <Link className={(normalizedPathname === "/" && label === "首页") || (normalizedPathname.startsWith("/products") && label === "产品矩阵") || (normalizedPathname === "/about" && href === "/about") || (normalizedPathname.startsWith("/solutions/") && label === "解决方案") || (normalizedPathname.startsWith("/customer-cases") && label === "客户案例") || (normalizedPathname.startsWith("/research") && label === "灵宸研究院") || (normalizedPathname === "/contact" && label === "联系我们") ? "is-active" : ""} href={href} key={label} onClick={() => setMenuOpen(false)}>{label}</Link>
             ))}
           </nav>
-          <span className="header-motto">明道 · 优术 · 取势 · 合众</span>
           <button className="button button--small header-cta" onClick={() => setBookingOpen(true)}>立即体验</button>
           <button
             className="menu-toggle"

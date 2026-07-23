@@ -232,18 +232,6 @@
   opacity: 0.72;
 }
 
-.formNotice {
-  position: absolute;
-  right: 42px;
-  bottom: 9px;
-  left: 42px;
-  margin: 0;
-  color: #64748b;
-  font-size: 12px;
-  line-height: 16px;
-  text-align: center;
-}
-
 .formCard[data-validated="true"] .submitButton {
   box-shadow: 0 0 0 3px rgb(13 110 253 / 14%), 0 10px 20px rgb(13 110 253 / 20%);
 }

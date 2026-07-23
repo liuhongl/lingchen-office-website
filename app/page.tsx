@@ -5,6 +5,7 @@ import {
   Zap,
 } from "lucide-react";
 import { BookingTrigger } from "@/components/booking-trigger";
+import { HeroMotto } from "@/components/hero-motto";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
@@ -61,6 +62,7 @@ export default function Home() {
       <SiteHeader />
       <main>
         <section className="hero" id="top">
+          <HeroMotto page="home" />
           <div className="hero__orb hero__orb--one" />
           <div className="hero__orb hero__orb--two" />
           <div className="shell hero__content">
@@ -153,14 +155,19 @@ export default function Home() {
             </header>
             <div className="agent-ring">
               <svg className="agent-ring__orbits" viewBox="0 0 1120 680" aria-hidden="true">
+                <defs>
+                  <marker id="agent-ring-arrow" markerWidth="11" markerHeight="11" refX="9.5" refY="5.5" orient="auto" markerUnits="userSpaceOnUse">
+                    <path d="M0 0L11 5.5L0 11Z" />
+                  </marker>
+                </defs>
                 <ellipse className="orbit orbit--inner" cx="560" cy="340" rx="276" ry="184" />
                 <ellipse className="orbit orbit--middle" cx="560" cy="340" rx="326" ry="218" />
-                <path className="orbit-arc" d="M280 166C344 112 414 98 475 94" />
-                <path className="orbit-arc" d="M645 94C706 98 776 112 840 166" />
-                <path className="orbit-arc" d="M878 201C924 275 924 405 878 479" />
-                <path className="orbit-arc" d="M840 514C776 568 706 582 645 586" />
-                <path className="orbit-arc" d="M475 586C414 582 344 568 280 514" />
-                <path className="orbit-arc" d="M242 479C196 405 196 275 242 201" />
+                <path className="orbit-arc" d="M658.5 117.5C758 118 850 135 921.5 164.1" />
+                <path className="orbit-arc" d="M1020 281.6C1040 320 1040 360 1020 398.4" />
+                <path className="orbit-arc" d="M921.5 515.9C850 545 758 562 658.5 562.5" />
+                <path className="orbit-arc" d="M461.5 562.5C362 562 270 545 198.5 515.9" />
+                <path className="orbit-arc" d="M100 398.4C80 360 80 320 100 281.6" />
+                <path className="orbit-arc" d="M198.5 164.1C270 135 362 118 461.5 117.5" />
               </svg>
               <div className="agent-ring__center">
                 <small>LINGCHEN AI</small>

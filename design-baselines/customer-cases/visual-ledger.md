@@ -69,3 +69,14 @@
 | 返回链接 | `#7a808c`；13px；20px 行高；文案“← 返回上一级” | `.customer-cases-back a` | PASS |
 | Hover | 字色 `#1f4e79` | `.customer-cases-back a:hover` | PASS |
 | 焦点 | 3px 半透明蓝色轮廓；2px 偏移 | `.customer-cases-back a:focus-visible` | PASS |
+
+## 2026-07-23 短内容筛选状态 Footer 贴底覆盖
+
+该覆盖只调整全站根页面的纵向空间分配，不修改公共 Header/Footer 的组件结构、文案、尺寸、颜色、边框或内部间距。
+
+| 元素 | 精确属性 | 实现映射 | 状态 |
+|---|---|---|---|
+| 根页面 | `min-height: 100dvh`；纵向 flex | `app/globals.css` 的 `body` | PASS |
+| 主体 | 直属 `main` 使用 `flex: 1 0 auto`，短页吸收剩余高度，长页按内容增长 | `body > main` | PASS |
+| 公共 Footer | 保持普通文档流，`flex: 0 0 auto`；禁止 fixed/sticky 覆盖正文 | `body > .site-footer` | PASS |
+| 报告视口 | 1671 × 1258；DeepDoc 产品筛选状态 Footer 底边等于视口底边 | 浏览器实测：修改前下方留白 119px，修改后 0px | PASS |

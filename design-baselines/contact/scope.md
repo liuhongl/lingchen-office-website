@@ -10,16 +10,16 @@
 - 主画板 `layer_id`：`6:05`（组 3，1440 × 1682 主体）
 - 目标桌面视口：1440 × 900，MasterGo 100%
 - 移动端设计基线：无；本次只验桌面端，不猜测移动端设计
-- 允许修改：`/contact/` 页面文案、页面私有样式/交互、该页证据台账、共享表单文案数据，以及用户本轮明确授权同步修改的公共 BookingModal 表单文案
+- 允许修改：`/contact/` 页面文案、页面私有样式/交互、该页证据台账、共享表单文案与提交契约，以及用户本轮明确授权同步修改的公共 BookingModal 字段、校验、提交锁和 Toast 反馈
 - 禁止修改：公共 Footer、Logo、字体与其他既有页面
 
 ## 公共资产冻结证据
 
 | 资产 | 组件路径 | 基线截图 | 视口 | 文件 SHA-256 | 允许变化 |
 |---|---|---|---|---|---|
-| SiteHeader | `components/site-header.tsx` | `01-top-mastergo-100.jpg`（设计冲突仅记录） | 1440 × 900 | `2f0fbe8ad48667cb80e2c23026d27fc6f505b2cdfd7ce3496da22d9694a4a73d` | 无 |
-| SiteFooter | `components/site-footer.tsx` | `03-contact-footer-mastergo-100.jpg`（设计冲突仅记录） | 1440 × 900 | `7f609bb217fc41e8add53c6bbee79836e7b621f9ad813643d0b77de79f762fdb` | 无 |
-| BookingModal | `components/booking-modal.tsx` | 公共组件冻结 | 1440 × 900 | `d7e294bd0d6384412725da78ec27fb9035341cf42ec4715e5a5f66810e387b31` | 无 |
+| SiteHeader | `components/site-header.tsx` | `01-top-mastergo-100.jpg`（设计冲突仅记录） | 1440 × 900 | `00a8a2bb1d30db5e77a6abf5825e95497d907d7c9356506f9feac9c5ec35ef76` | 无 |
+| SiteFooter | `components/site-footer.tsx` | `03-contact-footer-mastergo-100.jpg`（设计冲突仅记录） | 1440 × 900 | `cb2b70d580ef03b0318c2b9ba77693e8ad87d1d54242c3e37ca19b9b2c7148eb` | 无 |
+| BookingModal | `components/booking-modal.tsx` | 公共组件冻结 | 1440 × 900 | `2f9bc6af8ddd00535ad511424100c3c8d605351ac97e1cd9e9569816f075e47f` | 本轮用户明确授权字段契约与反馈修改 |
 | BookingTrigger | `components/booking-trigger.tsx` | 公共组件冻结 | 1440 × 900 | `cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7` | 无 |
 
 ## 用户确认覆盖项
@@ -38,7 +38,11 @@
 | 重复提交 | 仅依赖提交按钮状态 | 两套表单增加同步请求锁，请求完成前忽略重复提交 | 用户要求添加提交防抖、防止重复提交 |
 | BookingModal 产品布局 | 选中时动态插入勾选图标，按钮宽度变化 | 勾选图标绝对定位，选中前后按钮宽度、坐标和换行保持一致 | 用户公共弹窗浏览器批注 1 |
 | 本轮内容真源 | MasterGo 联系页文案 | Google AI Studio 原型实际渲染文案；页面专属标题/总部信息只改联系我们页，共用字段、占位符、产品项、需求描述和提交文案同步到 BookingModal | 用户 2026-07-23 当前请求 |
-| 必填可见语义 | 旧版本为职位非必填、邮箱和需求必填 | 按原型可见星号同步：姓名、公司、职位/部门、手机为必填；邮箱和具体合作需求描述不标星且改为可选 | 用户 2026-07-23 要求以原型文字和内容为准 |
+| 必填与校验 | 旧版本规则发生过漂移 | 姓名、公司、手机、需求描述必填；职位/部门、邮箱可选；手机与邮箱格式校验在两套表单一致 | 用户对两套表单的逐项批注与统一要求 |
+| 产品默认状态 | 原型截图中 Sales in 为选中态 | 默认不选择任何产品；用户主动点击后才进入选中态 | 用户 2026-07-23 浏览器批注 2 |
+| 接口独立字段 | 邮箱、职位、意向产品被拼入 `demand` | 两套表单统一发送 `position`、`email`、`interestedProducts` 独立字段；`demand` 只承载需求描述 | 用户 2026-07-23 提供线上请求载荷并明确纠正 |
+| 提交成功反馈 | 按钮下方占据文档流的一行状态文字 | 两套表单统一改为右上角浮层 Toast，不改变表单布局；成功态使用已导出的 MasterGo 勾选 SVG | 用户 2026-07-23 要求按 MasterGo 风格改为 Toast |
+| 重复提交复核 | 已有 `submittingRef` 与按钮禁用 | 保留同步请求锁，并以网络拦截验证同一请求窗口只发送一次 POST | 用户 2026-07-23 询问是否做防抖 |
 
 ## 转化按钮行为
 
@@ -67,10 +71,11 @@
 | 资产 | 交付 SHA-256 | 授权变化 |
 |---|---|---|
 | SiteHeader | `00a8a2bb1d30db5e77a6abf5825e95497d907d7c9356506f9feac9c5ec35ef76` | “联系我们”链接与当前页高亮逻辑 |
-| BookingModal | `2f9bc6af8ddd00535ad511424100c3c8d605351ac97e1cd9e9569816f075e47f` | 统一字段、产品值、必填/格式校验、固定宽度选中态及同步提交锁；2026-07-23 按原型同步字段文案与必填可见语义 |
-| SiteFooter | `7f609bb217fc41e8add53c6bbee79836e7b621f9ad813643d0b77de79f762fdb` | 无变化 |
+| BookingModal | `3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206` | 独立字段载荷、统一必填规则和共享 Toast；同步请求锁继续保留 |
+| SiteFooter | `cb2b70d580ef03b0318c2b9ba77693e8ad87d1d54242c3e37ca19b9b2c7148eb` | 无变化 |
 | BookingTrigger | `cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7` | 无变化 |
 
 ## 阻塞项
 
-无。移动端没有设计基线，明确排除在本次视觉门禁外。
+- 生产后端与 `contact_us` 表的扩展字段源码不在当前官网仓库；前端独立字段完成后仍需后端同步扩展并在线验证实际入库。
+- 移动端没有设计基线，明确排除在本次视觉门禁外。

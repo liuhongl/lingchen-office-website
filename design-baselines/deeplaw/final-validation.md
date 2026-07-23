@@ -43,6 +43,7 @@
 
 ## 2026-07-23 用户覆盖回归
 
+- [x] Hero 主标题已去掉独立宋体字体效果，计算样式为 `Outfit, "Noto Sans SC", sans-serif`；`56px / 700 / 60px / -1.2px` 保持不变，横向溢出为 `0`。桌面截图：`visual-results/deeplaw/2026-07-23-hero-inherited-font-1280x720.png`。
 - [x] Hero “产品定位”标签已删除。
 - [x] 顶部预约按钮已改为描边弱化样式，仍使用公共 BookingModal。
 - [x] 六大环节标题已删除重复数字，独立数字块保留。

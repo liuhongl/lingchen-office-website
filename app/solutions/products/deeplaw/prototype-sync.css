@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.dls-page .dls-hero h1 {
+  font-family: inherit;
+}
+
 .dls-page .dls-hero__eyebrow {
   position: absolute;
   top: -34px;
@@ -106,6 +110,12 @@
 
 .dls-page .dls-cta h2 {
   margin-top: 0;
+}
+
+.dls-page .dls-cta {
+  height: auto;
+  min-height: 0;
+  padding: 72px 0 80px;
 }
 
 .dls-page .dls-cta > button span {

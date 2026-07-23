@@ -79,3 +79,14 @@
 - 交互验收：PASS；按产品 → Recov AI 的 URL 为 `?view=product&filter=Recov+AI`，显示 3 个案例；详情“← 返回上一级”回到 `/customer-cases/`。
 - 工程验收：PASS；`lint`、`tsc --noEmit`、`build`、`git diff --check` 均通过，构建生成 16 个详情静态路径。
 - 移动端未纳入当前官网范围。
+
+## 2026-07-23 短内容筛选状态 Footer 贴底回归
+
+- 用户覆盖：当公共 Header、主体和公共 Footer 的自然高度不足桌面视口时，主体吸收剩余高度，Footer 保持在视口底部；长页继续按内容自然增长。
+- 修改前证据：1671 × 1258 的 `?view=product&filter=DeepDoc` 状态中，`body` 高 1139px，Footer 底边为 1139px，视口下方留白 119px。
+- 修改后证据：同视口同筛选状态中，`body` 与文档高度均为 1258px，主体高度由 772px 增长到 891px，Footer 底边为 1258px，底部留白为 0px。
+- 横向溢出：`scrollWidth - clientWidth = 0`。
+- 截图：`output/playwright/sticky-footer-2026-07-23/customer-cases-deepdoc-before-1671x1258.png`、`customer-cases-deepdoc-after-1671x1258.png`。
+- 长页回归：首页文档高度 3846px，Footer 仍为普通文档流 `position: static`；产品专项方案嵌套布局的 Header、SolutionTabs、main、Footer 顺序正常，文档高度 7142px；两页横向溢出均为 0。
+- 公共组件：未修改 `components/site-header.tsx`、`components/site-footer.tsx` 或其内部视觉；仅调整根页面空间分配。
+- 移动端未纳入当前官网范围。

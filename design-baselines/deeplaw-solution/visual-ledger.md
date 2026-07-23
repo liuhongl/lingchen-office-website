@@ -1,5 +1,11 @@
 # DeepLaw 专项解决方案页视觉台账
 
+## 2026-07-23 用户覆盖：末尾 CTA 留白
+
+| 视觉 ID | 区块 | 修改前 | 用户覆盖后目标 | 实现位置 | 证据 | 状态 |
+|---|---|---|---|---|---|---|
+| DLS-V0702 | 末尾 CTA | 固定高 `633px`；顶部 `103px`；按钮下方 `254px`，原四项信任信息移除后形成无效空白 | 实测高 `428px`；`height:auto`、`min-height:0`；顶部 `72px`、底部 `80px`；文案和按钮样式不变 | `app/solutions/products/deeplaw/prototype-sync.css` | `07-cta-user-feedback-before-1671.png`、`07-cta-user-feedback-after-1671.png`；1671px 同视口并排人工核对 | PASS |
+
 ## 2026-07-22 原型内容同步视觉口径
 
 - 视觉继续使用本文件记录的 MasterGo 既有实现与正式 SVG；内容改以原型为准。

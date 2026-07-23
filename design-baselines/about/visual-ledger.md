@@ -10,12 +10,14 @@
 | V-A-006 | 合作模式 | 浅蓝背景；四等宽白卡；圆形 check 图标 | `05-cooperation-mastergo.png` | PASS |
 | V-A-007 | 安全承诺 | 浅蓝背景；3×2 白卡；蓝色编号与盾牌图标 | `06-security-mastergo.png` | PASS |
 | V-A-008 | CTA / Footer | 白底居中 CTA；双蓝按钮；深蓝公共 Footer | `07-cta-footer-mastergo.png` | PASS |
+| V-A-009 | Hero 右上口号 | `top=32px / right=48px`；19.2px / 900 / 28.8px；青 `#06b6d4` → 紫 `#7c3aed` 逐字渐变；逐字旋转与上移形成浅弧 | 2026-07-23 Google AI Studio 原型实测；`output/playwright/header-motto-2026-07-23/about-after-1671x1258.png` | PASS |
 
 ## 回归
 
 - 当前 1440 页面主体与 MasterGo 100% 分区基线的顺序、背景衔接和累计高度一致；公共头尾按冻结基线独立验收。
-- 390 本地截图无根节点横向溢出；因无移动端画板，不纳入桌面 1:1 结论。
-- 本次任务未编辑公共资产；但交付复核发现 SiteHeader、SiteFooter、BookingModal 当前哈希与本文件既有冻结值不一致，详见 `scope.md`，因此不据此重新声明全页 1:1。
+- 移动端未纳入当前官网范围；历史响应式结果不作为本轮结论。
+- 2026-07-22 原型迁移任务未编辑公共资产；当时发现 SiteHeader、SiteFooter、BookingModal 当前哈希与旧冻结值不一致，详见 `scope.md`。
+- 2026-07-23 用户已明确授权修改公共 Header：仅删除口号节点；Header 高度仍为 66px，其他结构不变。About Hero 口号为 `232.9375 × 28.796875`，页面 `scrollWidth=clientWidth=1656`。
 
 ## 门禁结论
 

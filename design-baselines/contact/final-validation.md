@@ -15,9 +15,10 @@
 - 删除原型不存在的“提交合作意向”“请填写以下信息，我们将尽快与您联系”。
 - 两套表单共用 `contactFormCopy` 与 `contactProducts`，同步标签、示例占位符、产品名、产品说明、需求描述和提交按钮。
 - 产品名纠正为 `Sales in`、`Mine GEO`、`DeepLaw`，并逐项替换为原型完整说明。
-- 必填可见语义同步为姓名、公司、职位/部门、手机必填；邮箱和需求描述可选。
+- 两套表单规则统一为姓名、公司、手机、需求描述必填；职位/部门、邮箱可选；手机号与邮箱格式校验一致。
 - 联系我们页补齐“灵宸智能公司总部：”，并按原型改为地址、电话、邮箱及对应值。
 - BookingModal 自身标题与说明属于弹窗容器语境，按范围保留；公共 Header/Footer 文案未纳入本轮同步且保持冻结。
+- 联系我们页产品项默认状态按用户覆盖改为全部未选中；不影响产品文案、按钮尺寸和用户点击后的多选行为。
 
 ## 浏览器内容审计
 
@@ -25,7 +26,7 @@
 - 联系我们页：37 项原型可见文本与占位符逐项检查，结果 `missing=[]`。
 - 旧实现额外/错误文本检查：`提交合作意向`、旧说明、`Sales In`、`Kine CEO`、`DeepLan`、旧地址、旧邮箱均未在主内容渲染，结果 `oldExtra=[]`。
 - 公共弹窗：五组字段、七个产品名、产品标签、需求标签/占位符和提交按钮均与共享原型文案一致。
-- DOM 必填属性：姓名、公司、职位/部门、手机为 `required=true`；邮箱、需求描述为 `required=false`，两套表单一致。
+- DOM 必填属性：姓名、公司、手机、需求描述为 `required=true`；职位/部门、邮箱为 `required=false`，两套表单一致。
 - 页面横向溢出：`scrollWidth === clientWidth`（1265 === 1265 的内置浏览器实测）。
 - 未提交测试数据，未向 `/system/contact-us` 发送 POST。
 
@@ -58,3 +59,23 @@
 - [ ] 1:1 验证通过
 
 说明：文案审计与桌面内容变化视觉复验均为 PASS；原型是内容真源而不是视觉真源，因此不勾选原型视觉 1:1。视觉按 `scope.md` 中用户确认的内容/视觉真源覆盖执行。
+
+## 2026-07-23 产品默认状态复验
+
+- 视口：1671 × 1258。
+- 页面首次进入时，产品按钮选中数为 0；Sales in 的 `aria-pressed=false`，使用未选中样式。
+- 点击 Sales in 后 `aria-pressed=true`，再次点击恢复 `false`，未提交表单、未发送接口请求。
+- 页面文档高度 1819px，大于 1258px 视口；全站短页 Footer 贴底规则没有压缩或覆盖联系页长内容。
+- 横向溢出为 0。
+- 截图：`output/playwright/sticky-footer-2026-07-23/contact-default-none-1671x1258.png`。
+- 移动端未纳入当前官网范围。
+
+## 2026-07-23 表单独立字段与 Toast 复验
+
+- 两套表单统一发送 `name`、`company`、`position`、`phone`、`email`、`interestedProducts`、`demand`；`demand` 只承载需求描述，不再拼接其他字段。
+- 浏览器拦截得到的两套表单 JSON 完全一致；示例中 `interestedProducts` 为 `Sales in、Social Grow、AI获客Harness`，`demand` 为 `挨打的`。
+- 两套表单分别执行双击提交，在 700ms 延迟响应窗口内均只捕获 1 次 POST；同步 `submittingRef` 请求锁与按钮禁用状态通过。
+- 成功反馈改为共享 Toast；1440 × 900 证据为 `02-toast-local.png`，右上固定、不占文档流、不被公共弹窗裁切。
+- 页面横向溢出复验：`scrollWidth === clientWidth`（1425 === 1425）。
+- `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check contact` 全部 PASS。
+- 未向生产接口写入测试数据。生产后端与数据库尚需同步增加 `position`、`email`、`interested_products` 存储及管理端展示；完成前只能确认前端已发送独立字段，不能确认线上已独立入库。

@@ -4,7 +4,7 @@
 
 | ID | 区块 | 视觉来源 | 布局与字体 | 背景/边框/图形 | 状态 |
 |---|---|---|---|---|---|
-| V-0101 | 01 | DeepDoc Hero + 用户截图反馈 | 1152px 容器；H1 50/800/1.08；产品名深色、第二行蓝紫渐变；正文 15/27.75 | 浅蓝 Hero、定位 pill、首段半透明信息面板、双卡对比 | PASS |
+| V-0101 | 01 | DeepDoc Hero + 用户截图反馈 | 1152px 容器；H1 56/700/60px，继承 `.dls-page` 的 `Outfit / Noto Sans SC / sans-serif`；标题深色、局部蓝青渐变；正文 15/27.75 | 浅蓝 Hero、定位 pill、首段半透明信息面板、双卡对比 | PASS |
 | V-0102 | 01 | Sales in 面包屑 | 74px 高；14/20；14px 间距；CTA 190×41 | 白底、斜杠分隔、蓝色 CTA 与投影 | PASS |
 | V-0201 | 02 | Sales in 流程 + DeepLaw 原型 | 3×2 编号卡；18/700 标题；卡间 20×20 右箭头 | 白卡、浅蓝编号、1px 浅边框；箭头为原型 `ArrowRight` 精确 SVG path | PASS |
 | V-0202 | 02 | Mine GEO 业务流 + DeepLaw 原型 | 4 列业务卡；标题前 34×34 图标底座，SVG 17×17 | 精确使用原型 `Users` / `Compass` / `FileCheck` / `Database` SVG path，不使用近似图标库 | PASS |

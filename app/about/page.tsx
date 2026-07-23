@@ -13,6 +13,7 @@ import {
   Zap,
 } from "lucide-react";
 import { AboutStoryTabs } from "@/components/about-story-tabs";
+import { HeroMotto } from "@/components/hero-motto";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 
@@ -143,6 +144,7 @@ export default function AboutPage() {
       <SiteHeader />
       <main className="about-page">
         <section className="about-hero">
+          <HeroMotto page="about" />
           <div className="about-shell about-hero__inner">
             <div className="about-hero__copy">
               <h1>

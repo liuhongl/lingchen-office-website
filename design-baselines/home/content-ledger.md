@@ -7,10 +7,11 @@
 | H-001–H-009 | Header / Hero | 导航、眉题、主标题、双产品说明、双使命、双 CTA | 首页 100% Hero 基线 | `components/site-header.tsx`、`app/page.tsx` | PASS |
 | H-010–H-024 | Problems | 标题、导语、四类问题、两张业务方向卡及要点 | `target-problems` | `app/page.tsx` | PASS |
 | H-025–H-040 | Value | 理念标题/说明、四组指标标题/正文、三项 ribbon | `target-value-title`、`target-ribbon` | `app/page.tsx` | PASS |
-| H-041–H-060 | Agent OS | 标题/说明、中心节点、01–06 编号/标题/标签、三张定位卡 | `target-agent-node`、MasterGo 全画板 | `app/page.tsx` | PASS |
+| H-041–H-060 | Agent OS | 标题/说明、中心核、01–06 编号/标题/标签、三张定位卡；中心核按最新用户覆盖恢复 | `target-agent-node`、MasterGo 全画板、2026-07-23 用户最新覆盖 | `app/page.tsx` | PASS |
 | H-084–H-089 | Agent OS 节点说明 | 01–06 节点说明文字 | Google AI Studio 交互原型，2026-07-23 从预览 iframe `<main>` 提取 | `app/page.tsx` | PASS |
 | H-061–H-064 | CTA | 标题、说明、按钮 | MasterGo 全画板 | `app/page.tsx` | PASS |
 | H-065–H-083 | Footer | 三列标题、全部链接/联系信息、版权与备案 | Header/Footer 公共基线 | `components/site-footer.tsx` | PASS |
+| H-090 | Hero 右上口号 | 明道 · 优术 · 取势 · 合众 | 2026-07-23 用户覆盖 + Google AI Studio 首页原型 | `components/hero-motto.tsx`、`app/page.tsx` | PASS |
 
 ## 长文案核对
 
@@ -35,3 +36,6 @@
 - 覆盖：原 MasterGo 全页可见文本节点；本轮新增 H-084–H-089 已与浏览器实际渲染逐字复核
 - 增字 / 漏句 / 误录：0
 - 结论：PASS
+- 2026-07-23 Agent OS 视觉重设计仅调整 DOM 分组与布局；浏览器再次读取 01–06 的编号、标签、标题和说明共 24 个字段，与本台账逐项一致，未修改任何可见文案。
+- 2026-07-23 用户确认删除与区块标题重复的蓝紫控制中枢，删除其中 `LINGCHEN AI`、`自进化 Agent OS`、`智能体内核` 三个文本节点；该删除属于用户最高优先级内容覆盖，六步闭环及下方三张品牌卡文案不变。
+- 2026-07-23 用户随后明确要求恢复“上个圆环的版本”，该最新覆盖同时恢复蓝紫中心核及 `LINGCHEN AI`、`自进化 Agent OS`、`智能体内核` 三个历史文本节点；六个节点说明与下方三张品牌卡文案不变。

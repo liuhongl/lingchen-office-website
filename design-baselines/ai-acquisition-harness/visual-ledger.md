@@ -43,3 +43,15 @@
 ## 2026-07-23 浏览器批注覆盖
 
 - “落地建议与指引”保留原有面板、字体、颜色与行高，仅将第 1、2、3 点拆成三个 `display:block` 文本节点，确保每点从新行开始。
+
+## 2026-07-23 模块拆分视觉覆盖
+
+| 元素 ID | 区块 | 用户覆盖 | 实现要求 | 状态 |
+|---|---|---|---|---|
+| AHS-V0901 | 产品价值 / 价值跃迁 | “价值跃迁模型”作为独立大模块 | 两个独立 `section`；产品价值 `#f7f9fc`，价值跃迁 `#eef5ff`；保留 92px 桌面区块节奏 | PASS |
+| AHS-V1101 | 落地场景 | 独立大模块 | 独立 `section`，背景 `#f7f9fc`，保留现有标题、表格与案例卡片 | PASS |
+| AHS-V1201 | 落地场景标题图标 | 去掉浅色/白色背景 | 保留正式 `cases-title@3x.png`，不换用近似图标；以 `contrast(300%) + mix-blend-mode:multiply` 消除浅色底，40×40 CSS px 显示 | PASS |
+| AHS-V1301 | 合作模式 | 独立大模块 | 独立 `section`，背景 `#fff`，与落地场景形成清晰色带区分 | PASS |
+| AHS-V1102 | 经典落地案例 | 标题垂直间距 | 1413×1258 运行时基线实测：上间距 0px、下间距 72px；调整后上 48px、下 28px，标题仍为 16px/700/`rgb(17, 26, 45)`，文案保持不变；无横向溢出 | `output/playwright/ai-harness-case-spacing-2026-07-23/` | PASS |
+
+- 同视口证据：`output/playwright/ai-harness-module-split-2026-07-23/after/` 下的 `value.png`、`value-transition.png`、`cases.png`、`cases-icon.png`、`cooperation.png`。

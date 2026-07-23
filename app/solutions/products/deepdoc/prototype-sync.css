@@ -1,12 +1,12 @@
 .dds-page .dds-hero__copy {
   position: relative;
   width: 100%;
-  max-width: 1180px;
+  max-width: var(--container-default);
 }
 
 .dds-page .dds-hero {
-  padding-right: max(32px, calc((100% - 1180px) / 2));
-  padding-left: max(32px, calc((100% - 1180px) / 2));
+  padding-right: max(var(--page-gutter), calc((100% - var(--container-default)) / 2));
+  padding-left: max(var(--page-gutter), calc((100% - var(--container-default)) / 2));
 }
 
 .dds-page .dds-hero__body,

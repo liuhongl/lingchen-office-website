@@ -1,7 +1,10 @@
 export type ContactUsPayload = {
   name: string;
   company: string;
+  position: string;
   phone: string;
+  email: string;
+  interestedProducts: string;
   demand: string;
 };
 
@@ -23,7 +26,7 @@ export const contactFormCopy = {
       placeholder: "例如：某外贸制造进出口大厂",
     },
     role: {
-      label: "您的职位 / 部门 *",
+      label: "您的职位 / 部门",
       placeholder: "例如：法务总监 / 市场开发负责人",
     },
     phone: { label: "您的手机 *", placeholder: "例如：138-xxxx-xxxx" },
@@ -36,25 +39,32 @@ export const contactFormCopy = {
   submit: "提交产品合作需求/预约解决方案",
 } as const;
 
-export function buildContactDemand({
-  role,
+export function buildContactUsPayload({
+  name,
+  company,
+  position,
+  phone,
   email,
   products,
-  message,
+  demand,
 }: {
-  role: string;
+  name: string;
+  company: string;
+  position: string;
+  phone: string;
   email: string;
   products: string[];
-  message: string;
-}) {
-  return [
-    role && `职位 / 部门：${role}`,
-    email && `联系邮箱：${email}`,
-    products.length > 0 && `意向产品：${products.join("、")}`,
-    message && `需求描述：${message}`,
-  ]
-    .filter(Boolean)
-    .join("\n");
+  demand: string;
+}): ContactUsPayload {
+  return {
+    name,
+    company,
+    position,
+    phone,
+    email,
+    interestedProducts: products.join("、"),
+    demand,
+  };
 }
 
 export async function submitContactUs(payload: ContactUsPayload) {

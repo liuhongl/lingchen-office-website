@@ -4,7 +4,11 @@ import { FormEvent, useEffect, useRef, useState } from "react";
 import { Check, Target, X } from "lucide-react";
 import { createPortal } from "react-dom";
 import {
-  buildContactDemand,
+  ContactSubmitToast,
+  ContactSubmitToastState,
+} from "@/components/contact-submit-toast";
+import {
+  buildContactUsPayload,
   contactFormCopy,
   contactProducts,
   submitContactUs,
@@ -18,7 +22,7 @@ export function BookingModal({
   onClose: () => void;
 }) {
   const [selected, setSelected] = useState<string[]>([]);
-  const [notice, setNotice] = useState("");
+  const [toast, setToast] = useState<ContactSubmitToastState>(null);
   const [submitting, setSubmitting] = useState(false);
   const submittingRef = useRef(false);
   const panelRef = useRef<HTMLDivElement>(null);
@@ -78,30 +82,28 @@ export function BookingModal({
     const form = event.currentTarget;
     const formData = new FormData(form);
     const value = (name: string) => String(formData.get(name) ?? "").trim();
-    const demand = buildContactDemand({
-      role: value("role"),
+    const payload = buildContactUsPayload({
+      name: value("name"),
+      company: value("company"),
+      position: value("position"),
+      phone: value("phone"),
       email: value("email"),
       products: selected,
-      message: value("message"),
+      demand: value("message"),
     });
 
     setSubmitting(true);
-    setNotice("");
+    setToast(null);
 
     try {
-      await submitContactUs({
-        name: value("name"),
-        company: value("company"),
-        phone: value("phone"),
-        demand: demand || "预约演示与体验",
-      });
+      await submitContactUs(payload);
 
       form.reset();
       setSelected([]);
-      setNotice("提交成功，我们会尽快与您联系");
+      setToast({ type: "success", message: "提交成功，我们会尽快与您联系" });
     } catch (error) {
       console.error("预约表单提交失败:", error);
-      setNotice("提交失败，请稍后重试或直接联系我们");
+      setToast({ type: "error", message: "提交失败，请稍后重试或直接联系我们" });
     } finally {
       submittingRef.current = false;
       setSubmitting(false);
@@ -154,7 +156,7 @@ export function BookingModal({
             </label>
             <label>
               {contactFormCopy.fields.role.label}
-              <input name="role" placeholder={contactFormCopy.fields.role.placeholder} required />
+              <input name="position" placeholder={contactFormCopy.fields.role.placeholder} />
             </label>
             <label>
               {contactFormCopy.fields.phone.label}
@@ -206,16 +208,13 @@ export function BookingModal({
             <textarea
               name="message"
               placeholder={contactFormCopy.messagePlaceholder}
+              required
             />
           </label>
           <button className="form-submit" type="submit" disabled={submitting}>
             {submitting ? "提交中..." : contactFormCopy.submit}
           </button>
-          {notice && (
-            <p className="form-notice" role="status">
-              {notice}
-            </p>
-          )}
+          <ContactSubmitToast toast={toast} onDismiss={() => setToast(null)} />
         </form>
       </div>
     </div>,

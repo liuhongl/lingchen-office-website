@@ -3,7 +3,11 @@
 import Image from "next/image";
 import { FormEvent, useRef, useState } from "react";
 import {
-  buildContactDemand,
+  ContactSubmitToast,
+  ContactSubmitToastState,
+} from "@/components/contact-submit-toast";
+import {
+  buildContactUsPayload,
   contactFormCopy,
   contactProducts,
   submitContactUs,
@@ -12,9 +16,9 @@ import {
 import styles from "./page.module.css";
 
 export function ContactForm() {
-  const [selectedProducts, setSelectedProducts] = useState<string[]>(["Sales in"]);
+  const [selectedProducts, setSelectedProducts] = useState<string[]>([]);
   const [validated, setValidated] = useState(false);
-  const [notice, setNotice] = useState("");
+  const [toast, setToast] = useState<ContactSubmitToastState>(null);
   const [submitting, setSubmitting] = useState(false);
   const submittingRef = useRef(false);
 
@@ -34,31 +38,29 @@ export function ContactForm() {
     const form = event.currentTarget;
     const formData = new FormData(form);
     const value = (name: string) => String(formData.get(name) ?? "").trim();
-    const demand = buildContactDemand({
-      role: value("role"),
+    const payload = buildContactUsPayload({
+      name: value("name"),
+      company: value("company"),
+      position: value("position"),
+      phone: value("phone"),
       email: value("email"),
       products: selectedProducts,
-      message: value("message"),
+      demand: value("message"),
     });
 
     setSubmitting(true);
-    setNotice("");
+    setToast(null);
 
     try {
-      await submitContactUs({
-        name: value("name"),
-        company: value("company"),
-        phone: value("phone"),
-        demand: demand || "产品合作需求/预约解决方案",
-      });
+      await submitContactUs(payload);
       form.reset();
       setSelectedProducts([]);
       setValidated(true);
-      setNotice("提交成功，我们会尽快与您联系");
+      setToast({ type: "success", message: "提交成功，我们会尽快与您联系" });
     } catch (error) {
       console.error("联系我们表单提交失败:", error);
       setValidated(false);
-      setNotice("提交失败，请稍后重试或直接联系我们");
+      setToast({ type: "error", message: "提交失败，请稍后重试或直接联系我们" });
     } finally {
       submittingRef.current = false;
       setSubmitting(false);
@@ -78,7 +80,7 @@ export function ContactForm() {
         </label>
         <label className={styles.field}>
           <span>{contactFormCopy.fields.role.label}</span>
-          <input name="role" placeholder={contactFormCopy.fields.role.placeholder} required />
+          <input name="position" placeholder={contactFormCopy.fields.role.placeholder} />
         </label>
         <label className={styles.field}>
           <span>{contactFormCopy.fields.phone.label}</span>
@@ -125,14 +127,14 @@ export function ContactForm() {
 
       <label className={styles.messageField}>
         <span>{contactFormCopy.messageLabel}</span>
-        <textarea name="message" placeholder={contactFormCopy.messagePlaceholder} />
+        <textarea name="message" placeholder={contactFormCopy.messagePlaceholder} required />
       </label>
 
       <button className={styles.submitButton} type="submit" disabled={submitting}>
         <span>{submitting ? "提交中..." : contactFormCopy.submit}</span>
         <Image alt="" aria-hidden src="/images/contact/submit-arrow.svg" width={7} height={12} />
       </button>
-      {notice ? <p className={styles.formNotice} role="status">{notice}</p> : null}
+      <ContactSubmitToast toast={toast} onDismiss={() => setToast(null)} />
     </form>
   );
 }

@@ -1,8 +1,8 @@
 .page{min-height:720px;color:#1e293b;background:linear-gradient(180deg,#fff 0%,#f8fbff 100%)}
-.shell{width:min(1216px,calc(100% - 80px));margin-inline:auto}
+.shell{width:min(var(--container-default),calc(100% - var(--page-gutter) - var(--page-gutter)));margin-inline:auto}
 .srOnly{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
 .filters{height:124px;border-bottom:1px solid #edf0f4;background:#fff}
-.filterInner{width:min(1216px,calc(100% - 80px));height:100%;margin-inline:auto;padding-top:11px}
+.filterInner{width:min(var(--container-default),calc(100% - var(--page-gutter) - var(--page-gutter)));height:100%;margin-inline:auto;padding-top:11px}
 .primaryTabs,.secondaryTabs{display:flex}.primaryTabs{gap:12px}.secondaryTabs{height:59px;margin-top:6px;align-items:flex-end;gap:8px;flex-wrap:wrap}
 .primaryTabs a,.secondaryTabs a{display:inline-flex;align-items:center;justify-content:center;border:0;font:inherit;cursor:pointer;text-decoration:none;transition:all 160ms ease}
 .primaryTabs a{min-width:110px;height:36px;padding:0 18px;border:1px solid #dce4ec;border-radius:12px;background:#f6f8fa;color:#67768b;font-size:14px;font-weight:600}

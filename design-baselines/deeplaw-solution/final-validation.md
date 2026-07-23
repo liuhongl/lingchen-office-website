@@ -1,5 +1,20 @@
 # DeepLaw MasterGo 页面最终验收记录
 
+## 2026-07-23 末尾 CTA 间距修正
+
+- 用户覆盖：压缩末尾蓝色 CTA 模块过大的上下间距。
+- 修改边界：仅路由独占 `.dls-page .dls-cta` 高度与 padding；可见文案、预约交互和公共 Footer 未修改。
+- 修改前：区块 `633px`，标题顶部 `103px`，按钮下方 `254px`。
+- 修改后目标：内容驱动高度，上下 padding `72px / 80px`。
+- 修改前证据：`07-cta-user-feedback-before-1671.png`。
+- 修改后实测：区块 `428px`，标题顶部 `72px`，按钮下方 `80px`；证据为 `07-cta-user-feedback-after-1671.png`。
+- 1671×1258 同视口人工对比：标题、正文、按钮尺寸及内部间距未改变，仅删除无效蓝色空白；视觉结论 `PASS`。
+- Footer 边界：`mainBottom === footerTop === 957.25px`；不存在覆盖或缝隙。
+- 横向溢出：`scrollWidth === clientWidth === 1671`。
+- 预约交互：CTA 打开公共 `BookingModal`；Portal 父节点为 `body`，滚动锁定、Escape 关闭均 `PASS`。
+- 移动端仍未纳入当前官网范围。
+- 本轮工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check deeplaw-solution` 均 `PASS`。
+
 ## 2026-07-22 原型内容同步验收（当前结论）
 
 - 内容：`prototype-content-snapshot.md` → `prototype-sync-ledger.md` → 页面实际字符串，逐区 PASS。

@@ -105,3 +105,12 @@
 - 痛点编号与七个章节编号运行时逐项读取：PASS。
 - 横向溢出：0；3 个预约类 CTA：PASS；控制台 error：0。
 - lint、TypeScript、build、diff check 与 `mastergo:check ai-overseas`：PASS。
+
+## 2026-07-23 章节序号回归
+
+- [x] 七个章节序号运行时依次为“一、二、三、四、五、六、七”，均不包含“、”。
+- [x] 标题正文与既有标题布局未变化。
+- [x] 1671×1258 同视口截图和横向溢出检查完成。
+
+- 运行时 `scrollWidth === clientWidth === 1671`；控制台 error 为 0。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check ai-overseas` 全部 PASS。

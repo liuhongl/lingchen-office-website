@@ -91,3 +91,26 @@
 - [x] compact 面包屑保持无顶部预约按钮。
 - [x] “落地建议与指引”第 1、2、3 点已拆为三个独立折行节点。
 - [x] 已在 1440×900 桌面视口复核：`visual-results/ai-acquisition-harness/2026-07-23-advice-line-breaks.png`；三点逐条折行，无横向溢出。
+
+## 2026-07-23 模块拆分回归
+
+- [x] 产品价值与价值跃迁为两个独立 section，背景区分清晰。
+- [x] 落地场景与合作模式为两个独立 section，背景区分清晰。
+- [x] 落地场景标题图标无浅色底，蓝色定位图形保持清晰。
+- [x] 1671×1258 同视口截图与运行时 section 边界完成复核。
+- [x] 可见文案节点无新增、删除或改写。
+- [x] 无横向溢出；公共资产哈希与本轮开工基线一致。
+
+- 运行时 section 高度：产品价值 `936.31px`、价值跃迁 `669px`、落地场景 `1251.56px`、合作模式 `867.78px`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check ai-acquisition-harness` 全部 PASS。
+- 当前结论：已视觉校准；本次为用户视觉覆盖，不宣称与旧 MasterGo 原画板严格 1:1。
+
+## 2026-07-23 经典案例标题间距复验
+
+- [x] 1413×1258 同视口实测标题上间距由 0px 调整为 48px。
+- [x] 标题至案例卡片下间距由 72px 调整为 28px。
+- [x] 标题文案、字体、字重、颜色与案例卡片内容未变化。
+- [x] 页面无横向溢出，公共资产 SHA-256 与本轮开工基线一致。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check ai-acquisition-harness` 全部通过。
+- 同视口证据：`output/playwright/ai-harness-case-spacing-2026-07-23/before/viewport-1413x1258.png` 与 `output/playwright/ai-harness-case-spacing-2026-07-23/after/viewport-1413x1258.png`。
+- 当前结论：已视觉校准；本次为用户间距覆盖，不宣称与旧 MasterGo 原画板严格 1:1。

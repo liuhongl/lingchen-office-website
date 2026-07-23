@@ -45,7 +45,7 @@
 - [x] 已视觉校准
 - [ ] 1:1 验证通过（原型内容迁移与用户覆盖已改变原 MasterGo 可见内容，不再作严格 1:1 声明）
 
-说明：1:1 结论限定于 MasterGo 桌面正文画板与冻结公共头尾；移动端没有独立设计画板，仅完成响应式回归。SEO/GEO 是独立门禁，当前失败不反向否定视觉结论。
+说明：1:1 结论限定于 MasterGo 桌面正文画板与当时的冻结公共头尾；移动端未纳入当前官网范围。SEO/GEO 是独立门禁，当前失败不反向否定视觉结论。
 
 ## 2026-07-22 用户覆盖增量验收
 
@@ -65,3 +65,12 @@
 - About 主体按 `prototype-content-snapshot.md` 同步；安全承诺 01 / 02 / 03 / 05 保留用户逐条确认覆盖。
 - 品牌故事第二、第三项实际点击切换通过；桌面 `scrollWidth === clientWidth`。
 - `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check about` 全部 PASS。
+
+## 2026-07-23 公共 Header 口号迁移
+
+- [x] 用户明确授权的公共变更已实施：Header 删除口号，其他 Header 元素与 66px 高度保持不变。
+- [x] About Hero 在 `top=32px / right=48px` 渲染同一口号组件，文案与原型逐字一致。
+- [x] `1671 × 1258` 同视口证据：`output/playwright/header-motto-2026-07-23/about-after-1671x1258.png`。
+- [x] 页面 `scrollWidth === clientWidth`；Header“立即体验”打开公共 `BookingModal`，关闭按钮回归通过。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 全部 PASS。
+- [x] `pnpm mastergo:check about` PASS。

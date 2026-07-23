@@ -5,6 +5,7 @@
 | 文本 ID | 区块 | 节点范围 | MasterGo 原文证据 | 实现位置 | 核对 |
 |---|---|---|---|---|---|
 | A-001–A-012 | Hero | 眉题、三行主标题、长说明、三标签；用户覆盖后无 CTA | `01-hero-mastergo.png` + 2026-07-22 用户覆盖 | `app/about/page.tsx` | PASS |
+| A-090 | Hero 右上口号 | 明道 · 优术 · 取势 · 合众 | 2026-07-23 用户覆盖 + Google AI Studio 关于页原型 | `components/hero-motto.tsx`、`app/about/page.tsx` | PASS |
 | A-013–A-026 | 产品布局 | 英文标签、标题、说明、双使命、左右翼卡片全部文字 | `02-layout-mastergo.png` | `app/about/page.tsx` | PASS |
 | A-027–A-044 | 团队 DNA | 标签、标题、说明、01–05 标题与正文 | `03-dna-mastergo.png` | `app/about/page.tsx` | PASS |
 | A-045–A-057 | 品牌故事 | 标签、标题、说明、三标签、三组切换正文；首组含结论和署名 | `04-story-mastergo.png` + 2026-07-22 用户截图 1/2 | `components/about-story-tabs.tsx` | PASS |

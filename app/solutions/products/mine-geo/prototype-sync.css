@@ -3,7 +3,7 @@
 }
 
 .mgs-page .mgs-hero__copy {
-  left: max(40px, calc((100% - 1180px) / 2));
+  left: max(var(--page-gutter), calc((100% - var(--container-default)) / 2));
   width: min(920px, calc(100vw - 80px));
 }
 

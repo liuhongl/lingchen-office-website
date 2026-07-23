@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   description:
     "灵宸智能以企业级 AI Agent 架构与产品，为企业出海获客、批量债权处置与专业服务提供可量化、可验收的商业结果。",
   alternates: { canonical: "/" },
+  icons: {
+    icon: [{ url: "/favicon.ico?v=20260723-2", type: "image/x-icon", sizes: "64x64" }],
+    shortcut: "/favicon.ico?v=20260723-2",
+  },
   openGraph: {
     type: "website",
     locale: "zh_CN",

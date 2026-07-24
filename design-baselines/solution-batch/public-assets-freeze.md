@@ -40,3 +40,13 @@
 | Logo | `4bdd8b355f0ce60b25fa4ce128a2f9bb2b13a636dd1c4a7f3a54a2003f0b0c85` | 与冻结基线一致 |
 
 - 解决方案页面只通过路由状态驱动公共导航和专项 Tab 高亮，没有页面级 CSS 覆盖公共 Header/Footer。
+
+## 2026-07-24 公共 Footer 用户授权更新
+
+- 用户明确授权范围：产品方案七个产品的名称、顺序和对应链接；资源中心新增“解决方案”入口；联系邮箱更新为 `jason@alshinelaw.com`。
+- 修改前 Footer SHA-256：`cb2b70d580ef03b0318c2b9ba77693e8ad87d1d54242c3e37ca19b9b2c7148eb`。
+- 修改后 Footer SHA-256：`8732972918addddddbbcbec095ff0b2b7c34797ea74522bf019427956ceae2ae`。
+- 运行态证据：`output/playwright/home-feedback-2026-07-24/04-footer-after.png`、`06-contact-email-after.png`。
+- 七个产品、解决方案、客户案例、研究院和联系页目标路由均在本地返回 HTTP 200。
+- 本轮未修改公共 Footer 的 DOM 列结构、CSS、Logo、版权或备案信息。
+- 同次冻结复核：Header `2c033c...`、Logo 组件 `badc568...`、Logo 图片 `4bdd8b...`、BookingModal `3e143b...` 均与开工哈希一致。

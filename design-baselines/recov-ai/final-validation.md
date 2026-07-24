@@ -85,3 +85,10 @@
 - [x] 1440×900 浏览器计算样式与局部截图复核；`scrollWidth === clientWidth === 1425`，无横向溢出。
 - [x] 本轮截图：`visual-results/recov-ai/2026-07-23-breadcrumb-hero.png`、`2026-07-23-contrast-spacing.png`、`2026-07-23-step-numbers.png`、`2026-07-23-metric-weight.png`。
 - [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check recov-ai` 全部通过。
+
+## 2026-07-24 用户批注发布复验
+
+- [x] Hero、商业实效、落地场景与合作模式按用户批注收敛间距、卡片和表格布局；可见文案覆盖已写入内容台账。
+- [x] 1616×1258 局部截图覆盖 Hero、商业实效、场景、Agent 基座和合作模式，归档于 `output/playwright/product-feedback-2026-07-24-v3/`。
+- [x] 唯一 H1、无横向溢出、无破损图片，公共面包屑和 Footer 入口正常。
+- [x] 工程四项及 `pnpm mastergo:check recov-ai` 全部通过；当前结论仍为已视觉校准，不宣称严格 1:1。

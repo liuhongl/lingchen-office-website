@@ -95,3 +95,29 @@
 - 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 均 PASS；台账更新后重新执行 `pnpm mastergo:check home`，结果 PASS。
 - 当前完成等级：已实现、已视觉校准。
 - 箭头与文字复验：`1413 × 1258` 下 6 个箭头全部指到目标圆边界；六个节点仍为 `200 × 200` 且无内容溢出；页面无横向溢出。局部证据为 `output/playwright/home-agent-os-redesign-2026-07-23/agent-os-arrows-on-circles-clear-text-1413x1258.png`。
+
+## 2026-07-24 首页与公共 Footer 浏览器批注复验
+
+- 内容：H-091–H-107 全部按用户逐字覆盖；浏览器实际文本复核增字、漏句、误录为 0。
+- Hero：眉题 15.6px（原 12px 的 130%）；说明正文为纯黑；指定短语为 15.6px / 800；主标题保持两行且没有裁切。
+- Problems：总结条为 18px（原 15px 的 120%），仍保持单行；导语与 AI Agent 文案已更新。
+- Value：理念标题改为连续一句；ribbon 为 14.4px（原 12px 的 120%），三项仍保持一行。
+- 交互：“查看产品矩阵”唯一链接为 `/products/`，实际点击进入 `http://127.0.0.1:3000/products/`。
+- Footer：七个产品顺序、文案和链接逐项核对；新增“解决方案”；邮箱更新为 `jason@alshinelaw.com`。
+- 路由：产品矩阵、七个产品、解决方案、客户案例、研究院和联系页共 12 个目标路由本地 HTTP 200。
+- 布局：`1736 × 1258` 下 `scrollWidth === clientWidth`（1721 === 1721，15px 为纵向滚动条）；无横向溢出。
+- 截图：`output/playwright/home-feedback-2026-07-24/01-home-after.png`、`05-value-after.png`、`04-footer-after.png`、`06-contact-email-after.png`。
+- 公共资产：Header、Logo、BookingModal 哈希与开工一致；Footer 仅发生用户授权内容变化，交付哈希为 `8732972918addddddbbcbec095ff0b2b7c34797ea74522bf019427956ceae2ae`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build` 均 PASS；静态生成 71 个页面。
+- 构建后运行态：重新加载首页并实际点击“查看产品矩阵”，成功进入 `/products/`；浏览器控制台错误数为 0。
+- 当前完成等级：已实现、已视觉校准；本轮是用户浏览器批注覆盖，不更新历史 MasterGo 1:1 结论。
+
+## 2026-07-24 Hero 与 Problems 最新批注复验
+
+- 内容：H-108–H-111 逐字核对 PASS；Hero 使命顺序为“助力中企走向世界”在前、“助力信用中国建设”在后；旧风控文案已移除。
+- Hero Agent 徽章：第一行 `15px/700`；第二行 `16px/800`，金黄渐变，`white-space: nowrap`，`scrollWidth=clientWidth=144px`；徽章宽度调整为 `190px` 后，右侧说明仍为两行且无裁切。
+- Hero 使命：两句均为 `Outfit / 13px / 900`，使用原型实测对应的蓝→靛→青水平渐变。
+- 固定视口：`1616 × 1258`，首页 `scrollWidth=clientWidth=1616`；视觉证据为 `output/playwright/home-feedback-2026-07-24-v2/03-home-1616x1258.png`。
+- 公共资产：SiteHeader、SiteFooter、Logo、BookingModal、BookingTrigger 的 SHA-256 与本轮开工值一致。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check home` 全部 PASS；构建后首页 HTTP 200，浏览器控制台错误数为 0。
+- 当前完成等级：已实现、已视觉校准；金黄色渐变是用户授权的视觉覆盖，不更新历史 MasterGo 1:1 结论。

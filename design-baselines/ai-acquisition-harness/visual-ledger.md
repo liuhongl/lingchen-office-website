@@ -55,3 +55,10 @@
 | AHS-V1102 | 经典落地案例 | 标题垂直间距 | 1413×1258 运行时基线实测：上间距 0px、下间距 72px；调整后上 48px、下 28px，标题仍为 16px/700/`rgb(17, 26, 45)`，文案保持不变；无横向溢出 | `output/playwright/ai-harness-case-spacing-2026-07-23/` | PASS |
 
 - 同视口证据：`output/playwright/ai-harness-module-split-2026-07-23/after/` 下的 `value.png`、`value-transition.png`、`cases.png`、`cases-icon.png`、`cooperation.png`。
+
+## 2026-07-24 用户视觉覆盖
+
+- Hero 与介绍模块由固定高度/大 padding 改为更紧凑的内容节奏。
+- `.acq-tech` 去掉深蓝填充，使用透明背景与现有边框体系；文字切回深色以保持可读性。
+- `.acq-tech p` 为 14px。
+| 2026-07-24-TABLE | 价值跃迁三列、场景四列 | 普通浅色表格；各列独立；列间距 20px；桌面 1616×1258 验收 | 用户浏览器批注 1-4 | PASS；`output/playwright/product-feedback-2026-07-24-v3/harness-value-cua2-1616x1258.png`、`harness-cases-cua-1616x1258.png` |

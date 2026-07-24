@@ -54,3 +54,11 @@
 - [x] 场景卡底部至合作模式标签间距为 166px；浏览器实测 `scrollWidth === clientWidth === 1425`。
 - [x] 1440×900 局部截图：`visual-results/social-grow/2026-07-23-business-table.png`、`2026-07-23-scenario-labels.png`、`2026-07-23-scenario-icons.png`、`2026-07-23-cooperation-spacing.png`。
 - [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check social-grow` 全部通过。
+
+## 2026-07-24 用户批注发布复验
+
+- [x] Hero 与对比卡间距按内容驱动收敛，价值强调文本保持同一行。
+- [x] 商业实效改为普通三列表格；应用场景改为“落地场景 / 适用角色 / 痛点 / 可衡量指标”四列，原文按台账拆列，无增删事实。
+- [x] 1616px 桌面视口唯一 H1、无横向溢出、无破损图片。
+- [x] 局部截图归档于 `output/playwright/product-feedback-2026-07-24-v2/`。
+- [x] 工程四项及 `pnpm mastergo:check social-grow` 全部通过；本轮不更新历史 MasterGo 1:1 结论。

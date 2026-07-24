@@ -54,3 +54,11 @@
 - [x] 1671×1258 同视口局部截图已复核：`02-loop-workflow-local-feedback-20260723.png`、`03-products-platform-local-feedback-20260723.png`、`04-value-traditional-local-feedback-20260723.png`、`05-business-scenarios-local-feedback-20260723.png`。
 - [x] 运行态无模块重叠；`scrollWidth === clientWidth === 1656`。
 - [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check mine-geo` 全部通过。
+
+## 2026-07-24 用户批注发布复验
+
+- [x] 应用场景表从三列拆为“落地场景 / 适用角色 / 痛点 / 可衡量指标与解决的问题”四列。
+- [x] 三行内容按用户确认的原文边界拆列，没有新增指标、事实或图标。
+- [x] 1616px 桌面视口唯一 H1、无横向溢出、无破损图片。
+- [x] 局部截图归档于 `output/playwright/product-feedback-2026-07-24-v2/`。
+- [x] 工程四项及 `pnpm mastergo:check mine-geo` 全部通过；本轮不更新历史 MasterGo 1:1 结论。

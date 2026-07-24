@@ -110,7 +110,7 @@ export default function SocialGrowPage() {
             <h3 className="social-grow-business-title">专业知识内容 AI 生产与全域分发 Agent</h3>
             <p className="social-grow-results__intro">从「人海重复」到「智能复用」的逐环节传统与 AI 做法对照。</p>
             <div className="social-grow-business-compare">
-              <div className="social-grow-business-head"><span aria-hidden="true"/><h4><Image src="/images/social-grow/business-past.png" alt="" width={40} height={40}/>过去如何做 · 传统人工</h4><h4><Image src="/images/social-grow/business-current.png" alt="" width={40} height={40}/>现在如何 · 用 Social Grow</h4></div>
+              <div className="social-grow-business-head"><b>环节</b><h4>过去如何做 · 传统人工</h4><h4>现在如何 · 用 Social Grow</h4></div>
               {businessComparison.map((row) => <div className="social-grow-business-row" key={row[0]}><strong>{row[0]}</strong><p>{row[1]}</p><div><b>{row[2]}</b><span>{row[3]}</span></div></div>)}
             </div>
           </div>
@@ -122,11 +122,11 @@ export default function SocialGrowPage() {
             <h3>典型应用场景示例</h3>
             <p className="social-grow-scenarios__intro">让自媒体从业者、爱好者与专业人士将专业知识规模化、IP 化，持续获取公域流量与高意向客户。</p>
             <div className="social-grow-scenario-table">
-              <div className="social-grow-scenario-row social-grow-scenario-head"><b>落地场景</b><b>适用角色</b><b>可衡量指标 / 解决的问题</b></div>
-              <div className="social-grow-scenario-row"><strong>律师 / 律所专业 IP 矩阵</strong><span>适用对象：执业律师、律所市场负责人</span><p>【痛点】律师专业但没时间或没意愿出镜，内容难传播，案源高度依赖人脉与转介绍。 【落地业务收益】低成本、可持续地获取公域案源，沉淀律所与律师个人专业话语权与品牌资产。工作流：律所知识库为 RAG 源 ➔ 创作工坊合规文案 ➔ 数字人「张三律师」出镜 ➔ 发布矩阵全网分发。指标：周更短视频 × N 条，案源线索量提升、单条获客成本下降。</p></div>
-              <div className="social-grow-scenario-row"><strong>自媒体、专家型人士内容前置</strong><span>适用对象：咨询顾问、知识与内容运营</span><p>【痛点】自媒体人士、资深专家产能稀缺，咨询前置的专业科普内容少，获客高度依赖公域流量与口碑传播。 【落地业务收益】把自媒体人士、专家经验「IP 化、规模化」，以专业内容前置获取流量、筛选高意向客户、缩短咨询转化路径。工作流：知识库/素材入库 ➔ 一键衍生多平台解读 ➔ 数字人讲解短视频 ➔ 矩阵分发并复盘。指标：内容产出量、流量显著提升、咨询线索前置率与到访量提升。</p></div>
-              <div className="social-grow-scenario-row"><strong>企业专业 IP 高频获客</strong><span>适用对象：企业市场 / 品牌团队、高客单专业服务商</span><p>【痛点】高客单、决策链长的行业（财税、医美、教育等）需持续专业种草，且合规要求高、内容产能不足。 【落地业务收益】建立稳定的公域获客内容流，降低对单一渠道与投放预算的依赖，强化专业品牌信任。工作流：产品 / 服务知识库 RAG ➔ 多调性合规文案 ➔ 数字人短视频 ➔ 群控分发 + 数据复盘反哺。指标：触达量提升、内容合规差错下降、综合获客成本下降。</p></div>
-              <div className="social-grow-scenario-row"><strong>MCN / 代运营服务商规模化交付</strong><span>适用对象：MCN 机构、代运营团队</span><p>【痛点】人均产能有限，交付质量不稳定，顶尖专家的内容经验难以复制到整个团队。 【落地业务收益】实现规模化、质量稳定的交付，把一份深度内容循环复用为成百上千条，显著放大毛利。工作流：一名运营借助创作工坊与视频工坊，同时产出并维护数十位各垂直行业专家的短视频矩阵。指标：人均可维护账号数 × N、人天交付条数提升、项目毛利率提升。</p></div>
+              <div className="social-grow-scenario-row social-grow-scenario-head"><b>落地场景</b><b>适用角色</b><b>痛点</b><b>可衡量指标 / 解决的问题</b></div>
+              <div className="social-grow-scenario-row"><strong>律师 / 律所专业 IP 矩阵</strong><span>适用对象：执业律师、律所市场负责人</span><p>律师专业但没时间或没意愿出镜，内容难传播，案源高度依赖人脉与转介绍。</p><p>低成本、可持续地获取公域案源，沉淀律所与律师个人专业话语权与品牌资产。工作流：律所知识库为 RAG 源 ➔ 创作工坊合规文案 ➔ 数字人「张三律师」出镜 ➔ 发布矩阵全网分发。指标：周更短视频 × N 条，案源线索量提升、单条获客成本下降。</p></div>
+              <div className="social-grow-scenario-row"><strong>自媒体、专家型人士内容前置</strong><span>适用对象：咨询顾问、知识与内容运营</span><p>自媒体人士、资深专家产能稀缺，咨询前置的专业科普内容少，获客高度依赖公域流量与口碑传播。</p><p>把自媒体人士、专家经验「IP 化、规模化」，以专业内容前置获取流量、筛选高意向客户、缩短咨询转化路径。工作流：知识库/素材入库 ➔ 一键衍生多平台解读 ➔ 数字人讲解短视频 ➔ 矩阵分发并复盘。指标：内容产出量、流量显著提升、咨询线索前置率与到访量提升。</p></div>
+              <div className="social-grow-scenario-row"><strong>企业专业 IP 高频获客</strong><span>适用对象：企业市场 / 品牌团队、高客单专业服务商</span><p>高客单、决策链长的行业（财税、医美、教育等）需持续专业种草，且合规要求高、内容产能不足。</p><p>建立稳定的公域获客内容流，降低对单一渠道与投放预算的依赖，强化专业品牌信任。工作流：产品 / 服务知识库 RAG ➔ 多调性合规文案 ➔ 数字人短视频 ➔ 群控分发 + 数据复盘反哺。指标：触达量提升、内容合规差错下降、综合获客成本下降。</p></div>
+              <div className="social-grow-scenario-row"><strong>MCN / 代运营服务商规模化交付</strong><span>适用对象：MCN 机构、代运营团队</span><p>人均产能有限，交付质量不稳定，顶尖专家的内容经验难以复制到整个团队。</p><p>实现规模化、质量稳定的交付，把一份深度内容循环复用为成百上千条，显著放大毛利。工作流：一名运营借助创作工坊与视频工坊，同时产出并维护数十位各垂直行业专家的短视频矩阵。指标：人均可维护账号数 × N、人天交付条数提升、项目毛利率提升。</p></div>
             </div>
             <h3>典型落地场景详解</h3>
             <div className="social-grow-scenario-cards">

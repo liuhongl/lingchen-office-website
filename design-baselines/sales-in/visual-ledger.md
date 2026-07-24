@@ -64,3 +64,9 @@
 - 标题图标：MasterGo `图标 11`（内部图层标识 `master_svg0_33_133452`，20×20，`#D97706`）导出为 `public/images/sales-in/difference-star.svg`，SHA-256 `d4f28fcb37f04bda9ce32fe115f889e4ab6e4cc09c9d198beec7f72cbc169de9`；`图标 12`（`master_svg0_33_133456`，20×20，`#7C3AED`）导出为 `ai-compare-pen.svg`，SHA-256 `3e91993f0c1e28c0f26ad2bd6dde3fdefc1149b01c774b081d1ac1fac3bcdf7d`。两枚均为当前 Sales in 画板 100% 缩放下选中原图层后使用资源面板 SVG 导出，不是截图裁切。
 - 产品价值、价值验证、商业实效与落地场景复用本页已归档的 10 枚 MasterGo 正式 SVG：`position-result`、`capability-search/workflow/data/globe/chat/email`、`problem-warning`、`case-shopping`、`case-laptop`；CSS 显示尺寸 16–20px，标题/表格图标容器 30–40px。
 - 1440×900 截图归档于 `visual-results/sales-in/2026-07-23-*.png`；当前只验收桌面端，移动端未纳入范围。
+
+## 2026-07-24 用户视觉覆盖
+
+- Hero 固定高度和内部大段空白收敛，以内容自然高度承载；标题、导语与对比卡之间保留清晰但更紧凑的节奏。
+- “一图读懂产品定位”上下 padding 从当前过大的固定节奏收敛。
+- `.sales-flow-grid p` 四项统一 14px。

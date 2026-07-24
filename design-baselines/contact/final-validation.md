@@ -79,3 +79,22 @@
 - 页面横向溢出复验：`scrollWidth === clientWidth`（1425 === 1425）。
 - `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check contact` 全部 PASS。
 - 未向生产接口写入测试数据。生产后端与数据库尚需同步增加 `position`、`email`、`interested_products` 存储及管理端展示；完成前只能确认前端已发送独立字段，不能确认线上已独立入库。
+
+## 2026-07-24 联系邮箱同步复验
+
+- 用户覆盖：当前有效邮箱更新为 `jason@alshinelaw.com`。
+- 联系我们页联系方式卡片与公共 Footer 各渲染一次新邮箱，旧邮箱只保留在历史原型快照及覆盖说明中。
+- `1736 × 1258` 运行态无横向溢出；联系页下半区和 Footer 没有重叠或裁切。
+- 视觉证据：`output/playwright/home-feedback-2026-07-24/06-contact-email-after.png`。
+- 公共 Footer 同步变化已记录在 `design-baselines/solution-batch/public-assets-freeze.md`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build` 均 PASS；`/contact/` 本地 HTTP 200。
+
+## 2026-07-24 共享需求描述占位符复验
+
+- 共享实现：只修改 `lib/contact-us.ts` 的 `contactFormCopy.messagePlaceholder`；`/contact/` 与公共 `BookingModal` 均继续读取同一文案源。
+- 内容：两套表单实际 DOM 的 textarea 占位符均为“描述您的具体业务需求，以便我们匹配合适的解决方案工程师更针对性的为您专业服务...”。
+- 固定视口：`1616 × 1258`；联系页 `scrollWidth=clientWidth=1616`，公共弹窗和联系页 textarea 均无裁切或异常撑高。
+- 视觉证据：`output/playwright/home-feedback-2026-07-24-v2/04-modal-1616x1258.png`、`output/playwright/home-feedback-2026-07-24-v2/05-contact-1616x1258.png`。
+- 公共资产：BookingModal 与 BookingTrigger 的 SHA-256 与本轮开工值一致；本轮未复制或另建弹窗表单。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check contact` 全部 PASS；构建后 `/contact/` HTTP 200，浏览器控制台错误数为 0。
+- 当前完成等级：已实现、已视觉校准；移动端未纳入当前官网范围。

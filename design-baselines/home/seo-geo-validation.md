@@ -11,17 +11,17 @@
 - 目标受众：寻找企业级 AI Agent 产品和解决方案的企业决策者
 - 内容负责人：待用户指定
 - 事实审核人：待用户指定
-- 最后复核日期：2026-07-20
+- 最后复核日期：2026-07-24
 
 ## 元数据与语义
 
 | 项目 | 有效值 | 代码位置 | 验证结果 |
 |---|---|---|---|
-| title | 灵宸智能｜让 AI Agent 成为企业增长的新质生产力 | `app/layout.tsx` | PASS |
+| title | 灵宸智能｜让 AI Agent 成为企业商业结果增长新质生产力 | `app/layout.tsx` | PASS |
 | description | 灵宸智能以企业级 AI Agent 架构与产品… | `app/layout.tsx` | PASS |
 | canonical | `https://lingchen-ai.com/` | `app/layout.tsx` | PASS |
 | Open Graph | 首页独立 URL、标题与描述 | `app/layout.tsx` | PASS |
-| 唯一 h1 | 让 AI Agent 成为企业增长的新质生产力 | `app/page.tsx` | PASS |
+| 唯一 h1 | 让 AI Agent 成为企业商业结果增长 / 新质生产力 | `app/page.tsx` | PASS（用户 2026-07-24 逐字覆盖） |
 | 标题层级 | 1 个 h1，后续 h2/h3 | `app/page.tsx` | PASS |
 | lang | `zh-CN` | `app/layout.tsx` | PASS |
 

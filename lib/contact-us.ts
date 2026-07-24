@@ -35,7 +35,7 @@ export const contactFormCopy = {
   productsLegend: "您感兴趣的灵宸 AI 产品 (可多选)",
   messageLabel: "具体合作需求描述",
   messagePlaceholder:
-    "描述您的拖欠款规模、出海目标重点国家对标等，以便我们顾问更好地为您定制测试...",
+    "描述您的具体业务需求，以便我们匹配合适的解决方案工程师更针对性的为您专业服务...",
   submit: "提交产品合作需求/预约解决方案",
 } as const;
 

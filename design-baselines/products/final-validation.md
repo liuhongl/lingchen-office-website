@@ -70,3 +70,11 @@
 - [x] 浏览器构建后回归：`scrollWidth === clientWidth`，控制台错误为 0。
 - [x] 2026-07-22 `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` PASS。
 - [ ] 2026-07-22 `pnpm mastergo:check products` 仍因“缺少 MasterGo PNG 基线”失败；本页没有 MasterGo 页面，不伪造基线或声明 1:1。
+
+## 2026-07-24 发布前复验
+
+- [x] 第 4 张产品卡名称已按用户覆盖更新为“AI销售获客Harness”，浏览器渲染字符串与内容台账一致。
+- [x] 七张卡片 hover 计算样式为蓝色边框、轻蓝阴影和白色背景，视觉台账中的待复核项已关闭。
+- [x] 1616px 桌面视口无横向溢出，详情链接与 Footer 入口可达。
+- [x] `pnpm mastergo:check products` 当前通过；该命令仅证明现有证据完整，不改变“本页没有独立 MasterGo 画板、不得宣称 1:1”的边界。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 全部通过。

@@ -88,3 +88,8 @@
 - 1671×1258 运行态实测：`scrollWidth === clientWidth === 1656`；四组相邻模块均无重叠和横向溢出。
 - 局部同视口证据：`02-loop-workflow-local-feedback-20260723.png`、`03-products-platform-local-feedback-20260723.png`、`04-value-traditional-local-feedback-20260723.png`、`05-business-scenarios-local-feedback-20260723.png`。
 - 本轮没有新增、删改或补写可见文案，没有替换图标，也没有修改冻结公共 Header/Footer。
+
+## 2026-07-24 用户视觉覆盖
+
+- 场景表从三列改为四列：落地场景 / 适用角色 / 痛点 / 可衡量指标与解决的问题。
+- 保持普通表格边框、表头底色与现有字体体系，不新增图标或装饰。

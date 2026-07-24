@@ -36,3 +36,6 @@
 - Hero 在标准面包屑之后保留原 310px 深色区块，主体增加 48px 顶部内距，避免依赖已移出的 compact 面包屑占位。
 - 四项指标说明使用 `font-weight: 700`；“过去 / 现在”标签下间距为 32px，后续标题不再叠加顶部外边距。
 - 当前只验收 1440×900 桌面视口；移动端未纳入范围。
+| 2026-07-24-HERO | Hero | DeepLaw 同系浅色渐变，正文深色 | 用户浏览器批注 9 | PASS；`output/playwright/product-feedback-2026-07-24-v3/recov-hero-1616x1258.png` |
+| 2026-07-24-RESULTS | 商业实效 | 正文满宽、结果卡 2×2、流程框浅色左对齐 | 用户浏览器批注 13-15 | PASS；正文 1200px、卡片列 590px + 590px；`output/playwright/product-feedback-2026-07-24-v3/recov-results-1616x1258.png` |
+| 2026-07-24-SCENES | 场景表 | 沿用合作模式的边框、表头和行分隔 | 用户浏览器批注 17 | PASS；圆角 12px、无横向溢出 |

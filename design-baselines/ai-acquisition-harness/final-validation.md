@@ -114,3 +114,11 @@
 - [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check ai-acquisition-harness` 全部通过。
 - 同视口证据：`output/playwright/ai-harness-case-spacing-2026-07-23/before/viewport-1413x1258.png` 与 `output/playwright/ai-harness-case-spacing-2026-07-23/after/viewport-1413x1258.png`。
 - 当前结论：已视觉校准；本次为用户间距覆盖，不宣称与旧 MasterGo 原画板严格 1:1。
+
+## 2026-07-24 用户批注发布复验
+
+- [x] “一图读懂”标题按用户覆盖更新，浏览器实际字符串与内容台账一致。
+- [x] 价值跃迁与经典案例均改为普通浅色多列表格；Hero、价值区和案例区的内容边界与留白已按 1616×1258 证据复核。
+- [x] 唯一 H1、无横向溢出、无破损图片；页面预约入口继续打开公共 BookingModal。
+- [x] 截图归档于 `output/playwright/product-feedback-2026-07-24-v3/`。
+- [x] 工程四项及 `pnpm mastergo:check ai-acquisition-harness` 全部通过；本轮不宣称与旧 MasterGo 原画板严格 1:1。

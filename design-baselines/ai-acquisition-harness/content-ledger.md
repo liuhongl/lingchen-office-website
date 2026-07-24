@@ -56,3 +56,11 @@
 
 - 目标文本仍为“经典落地案例示例”，本轮只调整上下间距。
 - 可见文本新增 0、删除 0、改写 0；无需新增内容真源。
+
+## 2026-07-24 用户逐字覆盖
+
+| 文本 ID | 区块 | 用户确认覆盖 | 代码位置 | 状态 |
+|---|---|---|---|---|
+| AHS-T2401 | 一图读懂标题 | AI 赋能企业获客，沉淀为企业可持续、可进化的销售能力体系 | `app/products/ai-acquisition-harness/page.tsx` | PASS |
+| 2026-07-24-TABLE-01 | 价值跃迁表 | 验证维度 / 传统做法 / Harness价值跃迁 | 用户浏览器批注 1-2 | `app/products/ai-acquisition-harness/page.tsx` | PASS |
+| 2026-07-24-TABLE-02 | 落地场景表 | 落地场景 / 适用角色 / 痛点 / 可衡量指标 / 解决的问题 | 用户浏览器批注 3-4 | `app/products/ai-acquisition-harness/page.tsx` | PASS |

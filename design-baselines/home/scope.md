@@ -9,8 +9,8 @@
 - 目标桌面视口：`1440 × 720` CSS px（布局宽度与原 1440 桌面画板一致）
 - MasterGo 原型限制：100% 模式单次只显示 `1280 × 720`，每个分区分别保存左右视野并按已验证的 `160px` 水平位移拼接为完整 `1440 × 720` 基线
 - 移动端：未纳入当前官网范围，不做实现或验收结论
-- 允许修改：Agent OS 原型文案补齐；2026-07-23 用户新增授权将公共 Header 口号移入首页 Hero 右上角，并同步修改关于页 Hero；2026-07-23 用户最新确认撤销六步闭环卡片方案，恢复此前的六圆节点、环形轨道和蓝紫中心核版本
-- 禁止修改：除删除口号外的公共 Header 结构与视觉；Footer、Logo、BookingModal 及无关页面
+- 允许修改：Agent OS 原型文案补齐；2026-07-23 用户新增授权将公共 Header 口号移入首页 Hero 右上角，并同步修改关于页 Hero；2026-07-23 用户最新确认撤销六步闭环卡片方案，恢复此前的六圆节点、环形轨道和蓝紫中心核版本；2026-07-24 用户通过浏览器批注明确覆盖首页 Hero、Problems、Value、Agent OS 说明、Closing CTA 文案/字号，并授权更新公共 Footer 产品链接、解决方案入口和全站联系邮箱
+- 禁止修改：除已授权 Footer 内容与链接外的公共 Header、Footer 结构与视觉；Logo、BookingModal 及无关页面
 
 ## 公共资产冻结证据
 
@@ -20,6 +20,21 @@
 | SiteFooter | `components/site-footer.tsx` | `visual-results/home/audit-2026-07-20/06-contact.png` | `5816ee5da601620216059640fcaace7f3f25c030d8280423f42e08759ddec20b` | 无 |
 | Logo | `components/logo.tsx` | 同上 | `badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11` | 无 |
 | BookingModal | `components/booking-modal.tsx` | 公共弹窗 | `57409cdad8a53fca2140b64be1b72c7f86481eb213101396ca54d9435d0886aa` | 无 |
+
+## 2026-07-24 用户覆盖任务
+
+- 内容真源：本轮 15 条浏览器批注，优先级高于历史 MasterGo / 原型文案。
+- 视觉真源：现有首页与冻结公共组件；只按用户指定比例调整字号，不改变未点名的颜色、背景、间距、图标或结构。
+- 当前验证视口：`1736 × 1258`。
+- 修改前本地基线：`output/playwright/home-feedback-2026-07-24/00-home-before.png`。
+- 修改前公共资产 SHA-256：
+  - SiteHeader：`2c033c6ccdc416829083407865733942e344c2c3318ea61d5e885181f4a90c1f`
+  - SiteFooter：`cb2b70d580ef03b0318c2b9ba77693e8ad87d1d54242c3e37ca19b9b2c7148eb`
+  - Logo：`badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11`
+  - BookingModal：`3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`
+- 公共 Footer 授权范围：产品方案七个产品的名称、顺序和链接；资源中心新增“解决方案”入口；联系邮箱更新为 `jason@alshinelaw.com`。
+- Header、Logo、BookingModal：无修改授权，交付时哈希必须保持不变。
+- 移动端：仍未纳入当前官网范围。
 
 ## 分区清单
 
@@ -76,3 +91,12 @@
 - 字形证据：`19.2px / 900 / 28.8px`，青色 `#06b6d4` 到紫色 `#7c3aed` 逐字过渡，字符旋转 `-12deg → 12deg`，最大上移 `6px`，形成浅弧。
 - 本地落位：Hero 相对页面 `top=24 / right=24`；目标视口 `1671 × 1258` 下实际 `x=1399.0625 / y=90 / width=232.9375 / height=28.796875`。
 - 公共 Header 开工 SHA-256：`00a8a2bb1d30db5e77a6abf5825e95497d907d7c9356506f9feac9c5ec35ef76`；修改后：`2c033c6ccdc416829083407865733942e344c2c3318ea61d5e885181f4a90c1f`。授权变化仅为删除口号节点。
+
+## 2026-07-24 Hero 与 Problems 浏览器批注范围
+
+- 内容真源：用户当前浏览器批注；仅覆盖使命文案顺序和 Problems 紫色业务卡第二条文案。
+- 视觉真源：Google AI Studio 首页交互原型实际渲染样式；使命文字原型实测为蓝 `#2563eb` → 靛 `#4f46e5` → 青 `#06b6d4` 的水平文字渐变、`900` 字重。用户进一步明确字体使用 `Outfit`。
+- 用户授权视觉覆盖：Hero 蓝色 Agent 徽章第二行“为您的商业结果服务”改为金黄色渐变，字号大于第一行且不折行；金色沿用当前官网低饱和暖金语言，不改徽章背景与其他 Hero 元素。
+- 允许改动：`app/page.tsx` 中两句使命的 DOM 顺序和指定 Problems 文案；`app/globals.css` 中 Agent 徽章列宽、第二行文字与使命文字样式。
+- 禁止改动：公共 Header/Footer/Logo/BookingModal 结构与视觉、Hero 其余文案和其他区块。
+- 目标桌面视口：`1616 × 1258` CSS px；移动端不在本轮范围。

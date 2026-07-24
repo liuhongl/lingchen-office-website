@@ -61,3 +61,8 @@
 | `components/logo.tsx` | `badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11` | 无 |
 | `components/booking-modal.tsx` | `19c0a05920c86403b5f33ea5e5261abd6c464d2405cab54d1ef3d9faf42ebd7c` | 无 |
 | `components/booking-trigger.tsx` | `cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7` | 无 |
+## 2026-07-24 用户覆盖
+
+- Hero 标题合成一行，正文延伸到卡片右边界。
+- 标题改为「DeepLaw六大核心环节」。
+- 阶段卡和能力卡减高；指标首卡取消蓝色特殊背景。

@@ -7,7 +7,7 @@ const siteUrl = "https://lingchen-ai.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "灵宸智能｜让 AI Agent 成为企业增长的新质生产力",
+    default: "灵宸智能｜让 AI Agent 成为企业商业结果增长新质生产力",
     template: "%s｜灵宸智能",
   },
   description:
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     locale: "zh_CN",
     url: siteUrl,
     siteName: "灵宸智能",
-    title: "灵宸智能｜让 AI Agent 成为企业增长的新质生产力",
+    title: "灵宸智能｜让 AI Agent 成为企业商业结果增长新质生产力",
     description: "让最前沿 AI 技术转化为可交付商业结果的生产力。",
   },
   robots: { index: true, follow: true },

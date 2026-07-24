@@ -136,7 +136,7 @@ const scenes = [
   ],
   [
     "其他场景化",
-    "教育培训分期贷款、医疗美容消费违约分期、会员订阅拖缴等各类标准化场景。",
+    "教育培训分期贷款、医疗美容消费违约分期等各类分期场景......",
   ],
 ];
 
@@ -330,7 +330,7 @@ export default function RecovAiPage() {
         <section className="recov-agent recov-section">
           <div className="recov-shell">
             <Heading
-              label="完善的 AI Agent 能力基座支撑"
+              label="完善的AI Agent 能力基座支撑"
               icon="/images/recov-ai/heading-agent.svg"
             />
             <p>

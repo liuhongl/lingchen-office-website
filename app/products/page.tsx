@@ -38,7 +38,7 @@ const products = [
     category: "AI出海获客",
     capability: "-高并发智慧触达与筛选、转化",
     type: "Agent",
-    name: "AI获客Harness",
+    name: "AI销售获客Harness",
     result: "交付高意向客户线索",
     description: "语音、邮件、短信三引擎协同的全场景销售 AI 获客 Harness，把机械群发变成千人千面的智慧触达与线索筛选，让每一次客户连接更高效、更精准、更有温度。",
     scope: "出海·国内",

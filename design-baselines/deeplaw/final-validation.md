@@ -63,3 +63,11 @@
 - [x] 公共 Header、Footer、Logo、BookingModal、BookingTrigger 交付哈希与本轮开工基线一致。
 - [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 全部通过。
 - [x] `pnpm mastergo:check deeplaw`：`MasterGo 证据门禁通过: deeplaw`。
+
+## 2026-07-24 用户批注发布复验
+
+- [x] Hero 标题保持单行，两段正文宽度与下方卡片右边界一致。
+- [x] 六大环节、核心能力和指标卡高度收敛；首张指标卡与同组卡统一白底。
+- [x] 1616×1258 的 Hero、环节、能力、指标和全页证据归档于 `output/playwright/product-feedback-2026-07-24-v3/`。
+- [x] 唯一 H1、无横向溢出、无破损图片；工程四项及 `pnpm mastergo:check deeplaw` 全部通过。
+- [x] 本轮为用户视觉覆盖，不更新历史 MasterGo 1:1 结论。

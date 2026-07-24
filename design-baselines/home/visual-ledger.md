@@ -35,3 +35,31 @@
 - 旧 MasterGo 首页视觉基线：历史 PASS。
 - 当前 Agent OS 主图：已按最新用户覆盖恢复圆环版本，并完成轨道清晰化与六段方向箭头优化。
 - 当前结论：以 `V-H-005` / `V-H-008` 与用户最新轨道覆盖为当前圆环视觉标准；已完成同视口桌面校准，卡片方案只保留为历史证据。
+
+## 2026-07-24 浏览器批注视觉覆盖
+
+| 元素 ID | 区块 | 用户确认设计事实 | 修改前证据 | 本地证据 | 核对 |
+|---|---|---|---|---|---|
+| V-H-014 | Hero 眉题 | 保留现有字体、字重、字距、胶囊边框与背景；字号由 12px 调整为 15.6px（130%） | `output/playwright/home-feedback-2026-07-24/00-home-before.png` | `01-home-after.png` | PASS |
+| V-H-015 | Hero 说明正文 | 正文纯黑；仅“企业级智能体（AI Agent）架构与产品”使用 120% 字号并加粗 | 同上 | `01-home-after.png` | PASS |
+| V-H-016 | Problems 总结 | 整个总结条字号由 15px 调整为 18px（120%）；其他颜色、强调节点与容器视觉保持 | 同上 | `01-home-after.png` | PASS |
+| V-H-017 | Value 标题 | “可交付商业结果”与前一句连续排版，不再使用绝对定位错位分栏；渐变与加粗保持 | 同上 | `05-value-after.png` | PASS |
+| V-H-018 | Value ribbon | 字号由 12px 调整为 14.4px（120%）；三段颜色、圆点、边框与容器视觉保持 | 同上 | `05-value-after.png` | PASS |
+| V-H-019 | 公共 Footer | 只更新可见链接文案、顺序、目标地址和邮箱；Footer 容器、列布局、字号、颜色、Logo 与版权视觉保持 | 公共 Footer 冻结基线 | `04-footer-after.png`、`06-contact-email-after.png` | PASS |
+
+- 本轮没有新增或替换图标，不触发素材导出门禁。
+- V-H-014–V-H-019 均来自用户当前浏览器批注明确授权，不宣称为历史 MasterGo 原画板 1:1。
+- `1736 × 1258` 实测：眉题 15.6px；局部加粗 15.6px / 800；Problems 总结 18px；Value ribbon 14.4px；页面 `scrollWidth === clientWidth`。
+- 首页、Value、Footer 和联系页邮箱局部截图均已人工检查，无文字裁切、卡片重叠或横向溢出。
+
+## 2026-07-24 Hero 浏览器批注视觉覆盖
+
+| 元素 ID | 区块 | 用户确认设计事实 | 视觉证据 | 本地证据 | 核对 |
+|---|---|---|---|---|---|
+| V-H-020 | Hero Agent 徽章第二行 | 金黄色渐变；字号大于第一行；单行不折行；徽章原蓝色背景保持 | 用户浏览器批注 1；暖金沿用官网现有视觉语言 | `output/playwright/home-feedback-2026-07-24-v2/03-home-1616x1258.png` | PASS |
+| V-H-021 | Hero 两条使命文字 | 两项交换位置；`Outfit`；同一条蓝 `#2563eb` → 靛 `#4f46e5` → 青 `#06b6d4` 水平文字渐变；原型实测 `900` 字重 | Google AI Studio iframe 实际计算样式，2026-07-24 | `output/playwright/home-feedback-2026-07-24-v2/03-home-1616x1258.png` | PASS |
+
+- 本轮不新增图标或图片素材。
+- 公共组件开工哈希：SiteHeader `2c033c6ccdc416829083407865733942e344c2c3318ea61d5e885181f4a90c1f`；SiteFooter `8732972918addddddbbcbec095ff0b2b7c34797ea74522bf019427956ceae2ae`；Logo `badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11`；BookingModal `3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`；BookingTrigger `cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7`。
+- `1616 × 1258` 实测：徽章第一行 `15px/700`，第二行 `16px/800`、`white-space: nowrap`、`scrollWidth=clientWidth=144px`；徽章宽 `190px`，右侧说明仍为两行且无裁切。
+- 两条使命文字均为 `Outfit / 13px / 900`，计算渐变为 `rgb(37,99,235) → rgb(79,70,229) → rgb(6,182,212)`；页面 `scrollWidth=clientWidth=1616`。

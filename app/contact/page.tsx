@@ -35,7 +35,7 @@ const contactItems = [
   {
     icon: "/images/contact/contact-email@3x.png",
     title: "邮箱",
-    value: "shenhuaibo@lingchenai.cn",
+    value: "jason@alshinelaw.com",
   },
 ] as const;
 

@@ -10,8 +10,8 @@
 - 主画板 `layer_id`：`6:05`（组 3，1440 × 1682 主体）
 - 目标桌面视口：1440 × 900，MasterGo 100%
 - 移动端设计基线：无；本次只验桌面端，不猜测移动端设计
-- 允许修改：`/contact/` 页面文案、页面私有样式/交互、该页证据台账、共享表单文案与提交契约，以及用户本轮明确授权同步修改的公共 BookingModal 字段、校验、提交锁和 Toast 反馈
-- 禁止修改：公共 Footer、Logo、字体与其他既有页面
+- 允许修改：`/contact/` 页面文案、页面私有样式/交互、该页证据台账、共享表单文案与提交契约，以及用户本轮明确授权同步修改的公共 BookingModal 字段、校验、提交锁和 Toast 反馈；2026-07-24 用户新增授权将联系邮箱更新为 `jason@alshinelaw.com` 并同步全站 Footer
+- 禁止修改：除本轮授权邮箱与链接内容外的公共 Footer 视觉、Logo、字体与其他既有页面
 
 ## 公共资产冻结证据
 
@@ -43,6 +43,7 @@
 | 接口独立字段 | 邮箱、职位、意向产品被拼入 `demand` | 两套表单统一发送 `position`、`email`、`interestedProducts` 独立字段；`demand` 只承载需求描述 | 用户 2026-07-23 提供线上请求载荷并明确纠正 |
 | 提交成功反馈 | 按钮下方占据文档流的一行状态文字 | 两套表单统一改为右上角浮层 Toast，不改变表单布局；成功态使用已导出的 MasterGo 勾选 SVG | 用户 2026-07-23 要求按 MasterGo 风格改为 Toast |
 | 重复提交复核 | 已有 `submittingRef` 与按钮禁用 | 保留同步请求锁，并以网络拦截验证同一请求窗口只发送一次 POST | 用户 2026-07-23 询问是否做防抖 |
+| 联系邮箱 | `shenhuaibo@lingchenai.cn` | `jason@alshinelaw.com`，联系我们页与全站 Footer 同步 | 用户 2026-07-24 浏览器批注 15 |
 
 ## 转化按钮行为
 
@@ -54,10 +55,10 @@
 
 | 区块 ID | 区块名称 | MasterGo 100% 基线 | 文案台账 | 视觉台账 | 内容验收 | 视觉验收 |
 |---|---|---|---|---|---|---|
-| 01 | Hero | `01-top-mastergo-100.jpg` | 已录入 | 已录入 | 待实现后核对 | 待同视口对比 |
-| 02 | 合作意向表单 | `02-form-mastergo-100.jpg` | 已录入 | 已录入 | 待实现后核对 | 待同视口对比 |
-| 03 | 联系方式卡片 | `03-contact-footer-mastergo-100.jpg` | 已录入 | 已录入 | 待实现后核对 | 待同视口对比 |
-| 04 | 公共 Footer | `03-contact-footer-mastergo-100.jpg` | 冻结复用 | 冻结复用 | 待回归 | 待回归 |
+| 01 | Hero | `01-top-mastergo-100.jpg` | 已录入 | 已录入 | PASS | PASS |
+| 02 | 合作意向表单 | `02-form-mastergo-100.jpg` | 已录入 | 已录入 | PASS | PASS |
+| 03 | 联系方式卡片 | `03-contact-footer-mastergo-100.jpg` | 已录入 | 已录入 | PASS | PASS |
+| 04 | 公共 Footer | `03-contact-footer-mastergo-100.jpg` | 冻结复用 | 用户授权内容覆盖 | PASS | PASS |
 
 ## 已知设计冲突
 
@@ -79,3 +80,11 @@
 
 - 生产后端与 `contact_us` 表的扩展字段源码不在当前官网仓库；前端独立字段完成后仍需后端同步扩展并在线验证实际入库。
 - 移动端没有设计基线，明确排除在本次视觉门禁外。
+
+## 2026-07-24 共享需求描述占位符覆盖
+
+- 内容真源：用户当前浏览器批注，逐字原文为“描述您的具体业务需求，以便我们匹配合适的解决方案工程师更针对性的为您专业服务...”。
+- 同步范围：`/contact/` 内联表单与公共 `BookingModal`。
+- 实现约束：只修改 `lib/contact-us.ts` 的共享 `contactFormCopy.messagePlaceholder`，禁止两套表单分别维护。
+- 视觉范围：占位文字改变可能影响换行，但不修改输入框尺寸、字体、颜色、边框和弹窗/联系页布局。
+- 公共组件开工哈希：BookingModal `3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`；BookingTrigger `cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7`。

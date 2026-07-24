@@ -11,7 +11,7 @@
 | PM-V0101 | 01 | 页面背景 | 全宽；最小视口高减 Header/Footer | 上下 56px | 既有官网字体栈 | `#f4f9ff` 与轻量蓝色径向渐变 | 无 | `app/globals.css` `.product-matrix-page` | PASS |
 | PM-V0102 | 01 | 卡片网格 | 容器 1180px；桌面 3 列 | 24px gap | 无 | 透明 | 无 | `.product-matrix-grid` | PASS |
 | PM-V0103 | 01 | 七张卡片默认态 | 等宽；最小高 320px | padding 28px；纵向布局 | 深色标题、蓝色结果、蓝灰正文 | `rgba(255,255,255,.94)` | 1px `#d6e4f3`；14px；既有蓝灰阴影 | `.product-card`；2026-07-22 用户覆盖 | PASS |
-| PM-V0104 | 01 | 七张卡片 hover / focus-within | 同通用卡片 | 同上 | 所有文字与标签保持默认态 | 白底保持不变 | `#5e9ef2` 1px 边框；`0 18px 42px rgba(23,105,242,.14)` 轻蓝阴影 | `.product-card:hover` / `:focus-within`；2026-07-22 用户二次覆盖 | 已实现，待浏览器视觉复核 |
+| PM-V0104 | 01 | 七张卡片 hover / focus-within | 同通用卡片 | 同上 | 所有文字与标签保持默认态 | 白底保持不变 | `#5e9ef2` 1px 边框；`0 18px 42px rgba(23,105,242,.14)` 轻蓝阴影 | `.product-card:hover` / `:focus-within`；2026-07-22 用户二次覆盖 | PASS（2026-07-24 浏览器计算样式复核） |
 | PM-V0105 | 01 | 原固定色变体 | 已移除 `featured` / `warm` 数据与 class，七张卡片使用同一默认态 | 同通用卡片 | 同通用卡片 | 默认白底 | 同通用卡片 | 用户覆盖优先于原型 | PASS |
 | PM-V0106 | 01 | 分类/类型标签 | 内容自适应 | 6px 10px | 12px / 700 / 1.35 | 淡蓝或淡金 | 6px；无阴影 | `.product-card__tag` / `__type` | PASS |
 | PM-V0107 | 01 | 产品标题 | 内容自适应 | 上 22px | 22px / 800 / 1.2 | `#111b2f`；首卡白色 | 无 | `.product-card h2` | PASS |

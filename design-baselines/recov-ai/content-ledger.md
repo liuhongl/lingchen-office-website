@@ -36,3 +36,5 @@
 
 - 业务流编号实际渲染为 `STEP 1`、`STEP 2`、`STEP 3`、`STEP 4`；仅删除前导零，流程标题与说明文案不变。
 - 顶部面包屑的产品名与说明文案不变，仅由 compact 形态切换为全站标准形态。
+| 2026-07-24-AGENT | 能力基座 | 完善的AI Agent 能力基座支撑 | 用户浏览器批注 11 | `app/products/recov-ai/page.tsx` | PASS |
+| 2026-07-24-SCENE | 场景表 | 教育培训分期贷款、医疗美容消费违约分期等各类分期场景...... | 用户浏览器批注 16 | `app/products/recov-ai/page.tsx` | PASS |

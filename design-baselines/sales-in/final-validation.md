@@ -94,3 +94,11 @@
 - [x] 1440×900 局部截图已复核：`visual-results/sales-in/2026-07-23-list-title-icons.png`、`2026-07-23-value-card-icons.png`、`2026-07-23-commercial-icons.png`、`2026-07-23-scene-icons.png`。
 - [x] 浏览器实测 `scrollWidth === clientWidth === 1425`，无横向溢出。
 - [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check sales-in` 全部通过。
+
+## 2026-07-24 用户批注发布复验
+
+- [x] Hero 主标题、副标题、导语与“获客效率大幅跃迁”逐字覆盖均已渲染，内容台账状态更新为 PASS。
+- [x] Hero、定位区和对比卡改为内容驱动高度；流程说明统一为 14px。
+- [x] 1616px 桌面视口唯一 H1、无横向溢出、无破损图片；公共面包屑 CTA 与文字轨迹间距实测 24px。
+- [x] 本轮截图与局部证据已归档于 `output/playwright/product-feedback-2026-07-24-v2/`。
+- [x] 工程四项及 `pnpm mastergo:check sales-in` 全部通过；本轮是用户覆盖，不新增严格 1:1 声明。

@@ -52,11 +52,11 @@ export default function SalesInPage() {
         <section className="sales-in-hero">
           <div className="sales-in-shell">
             <h1>
-              <span>出海企业的 AI 销售 Harness</span>
-              <em>让获客到成交的每一步都可衡量、可复制</em>
+              <span>AI 出海获客 Agent</span>
+              <em>客户线索数据挖掘与筛选，交付高意向客户线索</em>
             </h1>
             <p className="sales-in-hero__lead">
-              客户得到的不只是工具，而是一套出海销售增长工作流。从获客到成交推进，让团队减少重复劳动，把精力投向高价值客户沟通与转化。通过高质量线索、客户洞察、个性化触达、销售转化，让出海销售全链闭环运作。
+              Sales in 以「ICP 建模 → 全网数据挖掘 → 线索筛选评分 → 客户洞察 → 个性化触达 → 跟进与回流」等构建出海获客能力体系，用 AI 按 ICP 自动发现高意向客户，从线索挖掘到线索筛选，让团队减少重复劳动，把精力投向高价值客户沟通与转化。
             </p>
 
             <div className="sales-in-contrast">
@@ -74,7 +74,7 @@ export default function SalesInPage() {
                   <span>现在</span>
                 </div>
                 <h2>Agent全网多维自动挖掘</h2>
-                <p>AI 按理想客户画像 (ICP) 自动全网挖掘信息、自动筛选、多维验证、多维评分、深度搜集采购情报并生成千人千面个性化触达，更清楚该优先跟进谁、怎么去谈，获客效率极度跃迁。</p>
+                <p>AI 按理想客户画像 (ICP) 自动全网挖掘信息、自动筛选、多维验证、多维评分、深度搜集采购情报并生成千人千面个性化触达，更清楚该优先跟进谁、怎么去谈，获客效率大幅跃迁。</p>
               </article>
             </div>
           </div>

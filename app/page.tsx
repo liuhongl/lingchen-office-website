@@ -4,6 +4,7 @@ import {
   ArrowRight,
   Zap,
 } from "lucide-react";
+import Link from "next/link";
 import { BookingTrigger } from "@/components/booking-trigger";
 import { HeroMotto } from "@/components/hero-motto";
 import { SiteFooter } from "@/components/site-footer";
@@ -14,7 +15,7 @@ const homeJsonLd = {
   "@type": "WebPage",
   "@id": "https://lingchen-ai.com/#webpage",
   url: "https://lingchen-ai.com/",
-  name: "灵宸智能｜让 AI Agent 成为企业增长的新质生产力",
+  name: "灵宸智能｜让 AI Agent 成为企业商业结果增长新质生产力",
   description: "灵宸智能以企业级 AI Agent 架构与产品，为企业出海获客、批量债权处置与专业服务提供可量化、可验收的商业结果。",
   isPartOf: { "@id": "https://lingchen-ai.com/#website" },
   about: { "@id": "https://lingchen-ai.com/#organization" },
@@ -67,20 +68,20 @@ export default function Home() {
           <div className="hero__orb hero__orb--two" />
           <div className="shell hero__content">
             <div className="eyebrow"><i aria-hidden="true" />携手灵宸 AI · 开启 AI AGENT 生产力新时代</div>
-            <h1>让 AI Agent 成为企业增长的<br /><span>新质生产力</span></h1>
+            <h1>让 AI Agent 成为企业商业结果增长<br /><span>新质生产力</span></h1>
             <div className="hero__statement-card">
               <div className="hero__agent-badge">
                 <strong>灵宸 AI-Agent</strong>
                 <span>为您的商业结果服务</span>
               </div>
               <div className="hero__harness-copy">
-                <strong>灵宸 AI Revenue Harness</strong>
-                <p>能自主执行复杂业务流程、按可量化指标交付商业结果、端到端的<strong>企业级智能体（AI Agent）</strong>架构与产品。</p>
+                <strong>灵宸 AI Agent</strong>
+                <p>能自主执行复杂业务流程、按可量化指标交付商业结果、端到端的<strong>企业级智能体（AI Agent）架构与产品</strong>。</p>
               </div>
             </div>
-            <div className="hero__mission"><span>助力信用中国建设</span><span>助力中企走向世界</span></div>
+            <div className="hero__mission"><span>助力中企走向世界</span><span>助力信用中国建设</span></div>
             <div className="hero__actions">
-              <a className="button" href="#value">查看产品矩阵 <ArrowRight size={16} /></a>
+              <Link className="button" href="/products/">查看产品矩阵 <ArrowRight size={16} /></Link>
               <BookingTrigger className="button button--ghost">预约产品演示与体验</BookingTrigger>
             </div>
           </div>
@@ -90,7 +91,7 @@ export default function Home() {
           <div className="shell problems-layout">
             <div className="section-intro problem-list">
               <h2>我们在解决什么问题？</h2>
-              <p>在企业出海获客、批量债权催缴、法律案件拓展等领域中的每一个业务流程里，都在大量消耗人力，效率低、成本高、影响增长与现金流.....</p>
+              <p>在企业出海获客、批量债权催缴、法律案件拓展等领域中的每一个业务流程里，都在大量消耗人力，效率低、成本高、影响业务增长与现金流.....</p>
               <div className="problem-rows">
                 {problems.map(({ title, text }, index) => (
                   <article key={title}>
@@ -110,23 +111,17 @@ export default function Home() {
               <article className="solution-card solution-card--purple">
                 <div className="solution-card__title"><span>02</span><h3>AI 批量债权催收智能体</h3></div>
                 <p>Recov AI 接管逾期资产全链路，从策略生成、债务人画像、信息修复、多身份全域触达、文书生成到自动立案。</p>
-                <ul><li>降本增效：高并发、全链路自动化执行</li><li>控风险：话术绝对合规、留痕无纠纷</li><li>交付标的：现金流回款结果 · 按回款结果等收取服务费</li></ul>
+                <ul><li>降本增效：高并发、全链路自动化执行</li><li>控风险：话术全程合规、数据留痕</li><li>交付标的：现金流回款结果 · 按回款结果等收取服务费</li></ul>
               </article>
             </div>
           </div>
-            <div className="problem-summary"><strong>把高频、重复的繁重工作交给 AI</strong> <span className="summary-blue">高并发</span>、<span className="summary-cyan">智慧化</span>、<span className="summary-purple">批量</span>、<span className="summary-pink">合规</span>地执行，让人专注关键判断与商业决策。</div>
+            <div className="problem-summary"><strong>把高频、重复的繁重工作交给 AI Agent</strong> <span className="summary-blue">高并发</span>、<span className="summary-cyan">智慧化</span>、<span className="summary-purple">批量</span>、<span className="summary-pink">合规</span>地执行，让人专注关键判断与商业决策。</div>
         </section>
 
         <section className="section value" id="value">
           <div className="shell">
             <header className="section-header section-header--wide">
-              <h2 className="value-title">
-                <span className="value-title__lead">我们的产品理念：把最先进的AI技术转化<br />为</span>
-                <span className="value-title__tail">
-                  <span className="value-title__result gradient-text">可交付商业结果</span>
-                  <span className="value-title__suffix">的生产力。</span>
-                </span>
-              </h2>
+              <h2 className="value-title">我们的产品理念：把最先进的AI技术转化为<span className="value-title__result gradient-text">可交付商业结果</span><span className="value-title__suffix">的生产力。</span></h2>
               <p>我们不是售卖AI软件工具，而是围绕业务增长、现金流、人效等维度为您提供可量化、可验收商业结果的AI Agent OS，为您的商业结果服务。</p>
             </header>
             <div className="value-grid">
@@ -151,7 +146,7 @@ export default function Home() {
           <div className="shell">
             <header className="section-header">
               <h2>自主进化的 <span className="agent-os-title">Agent OS</span>智能体内核</h2>
-              <p>数据飞轮与认知机制深度结合，自研金融级复杂任务决策架构与数据安全架构，持续交付商业结果、持续提升ROI。</p>
+              <p>数据飞轮、记忆科学与认知机制、持续学习深度结合，自我反思总结、递归式自我进化能力，自研金融级复杂任务决策架构与数据安全架构，持续交付商业结果、持续提升ROI。</p>
             </header>
             <div className="agent-ring">
               <svg className="agent-ring__orbits" viewBox="0 0 1120 680" aria-hidden="true">
@@ -195,7 +190,7 @@ export default function Home() {
         <section className="closing-cta">
           <div className="closing-cta__glow" />
           <div className="shell">
-            <h2>开启您的 <span>AI Agent</span>增长之旅</h2>
+            <h2>开启您的 <span>AI Agent</span>生产力之旅</h2>
             <p>立即预约产品演示，体验灵宸 AI-Agent 如何为您的企业带来可量化的商业结果。</p>
             <BookingTrigger className="button">立即体验</BookingTrigger>
           </div>

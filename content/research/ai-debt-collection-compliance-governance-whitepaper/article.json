@@ -1,8 +1,8 @@
 {
   "slug": "ai-debt-collection-compliance-governance-whitepaper",
   "category": "解决方案&白皮书",
-  "displayTitle": null,
-  "sourceTitle": "AI 催收合规治理白皮书",
+  "displayTitle": "AI 催收合规治理白皮书：把行为边界、频次管控、证据留痕与真人兜底写进系统",
+  "sourceTitle": "AI 催收合规治理白皮书：把行为边界、频次管控、证据留痕与真人兜底写进系统",
   "summary": "摘要：AI 催收上线后，真正需要管理的并不是模型偶尔说错一句话，而是错误会在高并发中被成倍放大：账户事实过期、身份披露不清、频次配置失当、法律后果表述越界，任何一个小问题都可能在短时间内影响大量客户；成熟的治理方式应从事后抽检转向流程前置，把数据准入、账户状态、沟通策略、证据留痕和人工决策写成系统能够执行的控制条件。",
   "publishedAt": null,
   "sourceDocx": "AI催收合规治理白皮书.docx",

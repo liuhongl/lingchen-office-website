@@ -5,8 +5,8 @@
 
 .hero {
   display: flex;
-  min-height: 316px;
-  padding: 128px 24px 36px;
+  min-height: 0;
+  padding: 60px 24px 36px;
   align-items: center;
   flex-direction: column;
   text-align: center;

@@ -22,3 +22,13 @@
   - `scrollWidth === clientWidth === 1601`
 
 | HEADER-V06 | 主导航字体 | 用户 2026-07-24 浏览器批注 | 桌面端 `15px`、`600` | 仅调整字号；导航位置、gap、激活态和 CTA 不变 | CONFIRMED |
+
+## 2026-07-27 用户全站覆盖
+
+| 视觉 ID | 元素 | 修改前实测（1486×1258） | 用户覆盖目标 | 实现约束 | 状态 |
+|---|---|---|---|---|---|
+| HEADER-V07 | 桌面主导航字号 | `15px` | `16px` | 仅桌面；公共 Header 全站生效 | READY |
+| HEADER-V08 | 桌面主导航间距 | `21px` | 适度增大 | 调为 `28px`，保持导航整体居中 | READY |
+| HEADER-V09 | Header 高度 | `66px`；导航实际高 `40.5px`，上下各约 `12.25px` | 字号放大后评估是否需增高 | `16px` 导航仍可容纳，保留冻结高度 `66px` | READY |
+
+公共组件基线：`components/site-header.tsx` SHA-256 `5aef1bd27e0a0a57ffdc65dbb80df4ab5cc30aa2c17b1283f3791a17da345bfa`；本轮只改公共 CSS，不改 Header 结构、Logo、CTA 或素材。

@@ -124,3 +124,14 @@
 - 1576×1258 全页截图：`output/playwright/browser-comments-round2-2026-07-26/contact-full-1576.png`；横向溢出为 0。
 - Header“立即体验”仍打开公共 `BookingModal`，Escape 关闭回归通过；未提交表单、未向本地或生产接口写入数据。
 - 当前仍存在既有外部阻塞：生产后端与数据库扩展字段不在本仓库，不能据本地前端结果宣称线上独立字段已入库。
+# 2026-07-27 浏览器批注回归
+
+- Hero 计算值：`min-height:0px`、`padding-top:60px`、`padding-bottom:36px`、实际高约 `214.98px`。
+- 证据：`2026-07-27-hero-after-1486x1258.png`；无横向溢出。
+
+## 共享工程验证
+
+- `pnpm lint`：PASS
+- `pnpm exec tsc --noEmit`：PASS
+- `pnpm build`：PASS（74/74 静态页面）
+- `git diff --check`：PASS

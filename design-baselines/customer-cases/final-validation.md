@@ -130,3 +130,14 @@
 - 长页回归：首页文档高度 3846px，Footer 仍为普通文档流 `position: static`；产品专项方案嵌套布局的 Header、SolutionTabs、main、Footer 顺序正常，文档高度 7142px；两页横向溢出均为 0。
 - 公共组件：未修改 `components/site-header.tsx`、`components/site-footer.tsx` 或其内部视觉；仅调整根页面空间分配。
 - 移动端未纳入当前官网范围。
+# 2026-07-27 浏览器批注回归
+
+- 关联产品逐字核对为“跨境单证智能审核平台Deepdoc”。
+- 返回链接计算值为 `16px` / `rgb(40, 104, 232)`。
+- 结果表重复 React key 警告已限定在当前表格修复；复测无新增控制台错误。
+- 证据：`2026-07-27-related-clip-after-1486.png`；无横向溢出。
+
+## 2026-07-27 返回链接加粗复验
+
+- 共享详情返回链接实测为 `16px / 700 / #2868E8`。
+- 同视口证据：`2026-07-27-round2-back-link-after-1486x1258.png`。

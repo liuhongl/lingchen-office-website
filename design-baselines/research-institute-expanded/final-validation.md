@@ -44,3 +44,15 @@
 - [x] “解决方案&白皮书”文件夹 10 篇 DOCX 与页面 10 张解决方案&白皮书卡片逐项对应。
 - [x] RaaS 卡片标签、详情页分类和源文件夹归属统一为“行业洞察”。
 - [x] 文章总数、标题、摘要、顺序、详情链接和视觉样式未修改。
+# 2026-07-27 浏览器批注回归
+
+- 7 个用户覆盖标题已从共享 `sourceTitle` 进入全部分类视图，逐字核对通过。
+- `.research-card__button` 数量 `0`；`.research-card__link` 数量 `28`；28 个 href 唯一且完整。
+- 实际点击首张卡片，成功跳转 `/research/agent-os-three-layer-architecture/`。
+- 证据：`2026-07-27-article-7-after-1486x1258.png`、`2026-07-27-article-12-after-1486x1258.png`、`2026-07-27-article-27-after-1486x1258.png`；无横向溢出。
+
+## 2026-07-27 卡片元信息间距复验
+
+- 摘要底边到时钟/分钟行顶边由 `0px` 调整为 `12px`。
+- 卡片仍由内容撑高，页面 `scrollWidth === clientWidth === 1471`。
+- 同视口证据：`2026-07-27-round2-card-meta-after-1486x1258.png`。

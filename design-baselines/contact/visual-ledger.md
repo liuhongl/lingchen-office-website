@@ -42,3 +42,8 @@
 | 联系卡片 | `height/min-height:auto`；上下 `20px`，左右 `18px` | PASS：三卡均实测 280×117.5px、上下 20px、无最小高度 |
 | 图标标题行 | 48×48 正式 3× PNG；标题在右侧，`gap:10px`，上下居中 | PASS：实测标题行高 48px、gap 10px、垂直居中 |
 | 联系正文 | `#111827`；原文与不换行策略保留 | PASS：实测 `rgb(17,24,39)`、上间距 10px |
+# 2026-07-27 浏览器批注覆盖
+
+| 视觉 ID | 元素 | 修改前实测（1486×1258） | 用户覆盖目标 | 实现值 | 状态 |
+|---|---|---|---|---|---|
+| CONTACT-V-20260727-01 | Hero | `min-height:316px; padding-top:128px; padding-bottom:36px` | 删除最小高度，上间距 60px | `min-height:0; padding-top:60px`；底部 36px 保留 | READY |

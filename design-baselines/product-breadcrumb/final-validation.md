@@ -24,3 +24,13 @@
 - [x] 1616×1258 下 Harness、DeepDoc、Recov AI、DeepLaw 横向溢出均为 0
 - [x] 用户确认的字号和位置覆盖已登记在 `scope.md` 与 `visual-ledger.md`
 - [x] 公共预约触发行为、Header、Footer、Logo、BookingModal、BookingTrigger 未因本轮改动变化
+# 2026-07-27 浏览器批注回归
+
+- DeepDoc 实测“← 返回产品矩阵”为 `rgb(40, 104, 232)`；公共规则同时覆盖七个产品详情页与紧凑变体。
+- 高度仍为 `74px`，字号仍为 `15px`，sticky 位置不变。
+- 证据：`2026-07-27-after-1486x1258.png`。
+
+## 2026-07-27 加粗复验
+
+- Recov AI 实测共享返回链接为 `15px / 700 / #2868E8`。
+- 同视口证据：`../recov-ai/2026-07-27-round2-hero-after-1486x1258.png`。

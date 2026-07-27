@@ -77,11 +77,8 @@ export function ResearchArticleList({ articles }: { articles: ResearchListArticl
                   {article.background ? <Image className="research-card__visual-bg" src={article.background} alt="" fill sizes="180px" /> : null}
                   {article.editorialCover ? <ResearchEditorialCover config={article.editorialCover} /> : <Image className="research-card__visual-main" src={article.image} alt={article.imageAlt ?? ""} fill sizes="180px" />}
                 </div>
-                <Link className="research-card__button" href={article.href}>
-                  立即阅读
-                  <Image src="/images/research-institute/arrow-right.svg" alt="" width={14} height={14} />
-                </Link>
               </div>
+              <Link aria-label={`阅读：${article.title}`} className="research-card__link" href={article.href} />
             </article>
           ))}
         </div>

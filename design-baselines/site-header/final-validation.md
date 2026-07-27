@@ -20,3 +20,9 @@
 - 浏览器 computed style：`.site-nav` 为 `15px`。
 - 抽查范围：七个产品详情页；均为 `15px`，且 `scrollWidth === clientWidth`。
 - 本次仅调整用户明确授权的公共导航字号，Header 结构、Logo、按钮与交互未改。
+# 2026-07-27 浏览器批注回归
+
+- 1486×1258 实测：导航 `16px`、gap `28px`、Header 高 `66px`。
+- 导航实际高 `42px`，上下各 `11.5px`，无需增加公共 Header 高度。
+- `scrollWidth === clientWidth === 1471`。
+- 证据：`../product-breadcrumb/2026-07-27-after-1486x1258.png`。

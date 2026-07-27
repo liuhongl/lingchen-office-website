@@ -68,7 +68,7 @@ export default function Home() {
           <div className="hero__orb hero__orb--two" />
           <div className="shell hero__content">
             <div className="eyebrow"><i aria-hidden="true" />携手灵宸 AI · 开启 AI AGENT 生产力新时代</div>
-            <h1>让 AI Agent 成为企业商业结果增长<br /><span>新质生产力</span></h1>
+            <h1>让 AI Agent 成为企业商业结果增长的<br /><span>新质生产力</span></h1>
             <div className="hero__statement-card">
               <div className="hero__agent-badge">
                 <strong>灵宸 AI-Agent</strong>

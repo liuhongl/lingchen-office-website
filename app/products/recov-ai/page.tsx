@@ -1,4 +1,3 @@
-import { BookingTrigger } from "@/components/booking-trigger";
 import { ProductBreadcrumb } from "@/components/product-breadcrumb";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
@@ -184,12 +183,8 @@ export default function RecovAiPage() {
             </h1>
             <div className="recov-hero-row">
               <span>
-                AI 不良资产处置 Agent—批量不良资产业务处置，提升企业服务水准，交付现金流回款结果。
+                全国首个全链路、自进化、多智能体协作的批量债权催收智能体，把逾期资产，高效、合规的变成企业现金流，助力信用中国建设
               </span>
-              <BookingTrigger>
-                <Image src="/images/recov-ai/hero-booking.svg" alt="" width={14} height={16} />
-                立即预约体验产品
-              </BookingTrigger>
             </div>
           </div>
         </section>

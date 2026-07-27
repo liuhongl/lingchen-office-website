@@ -102,3 +102,14 @@
 - `visual-results/customer-cases-feedback-2026-07-25/product-all-viewport-1576x1258.png`
 - `visual-results/customer-cases-feedback-2026-07-25/property-detail-viewport-1576x1258.png`
 - `visual-results/customer-cases-feedback-2026-07-25/property-detail-hero-margin0-1576x1258.png`
+# 2026-07-27 浏览器批注覆盖
+
+| 视觉 ID | 元素 | 修改前实测（1486×1258） | 用户覆盖目标 | 状态 |
+|---|---|---|---|---|
+| CASE-V-20260727-01 | 详情返回链接 | `13px` / `#000000` | `16px` / `#2868E8` | READY |
+
+## 2026-07-27 详情返回链接加粗覆盖
+
+| 视觉 ID | 元素 | 修改前实测（1486×1258） | 用户覆盖目标 | 实现要求 | 状态 |
+|---|---|---|---|---|---|
+| CASE-V-20260727-02 | “← 返回上一级” | `16px / 400 / #2868E8` | 所有客户案例详情统一加粗 | 共享链接 `font-weight:700`；颜色、字号、导航高度不变 | PASS；实测 `16px / 700 / #2868E8` |

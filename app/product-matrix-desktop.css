@@ -789,13 +789,13 @@
   }
 
   .recov-hero {
-    height: 280px;
+    height: auto;
     color: #142039;
     background: linear-gradient(110deg, #fff 0%, #f8fbff 55%, #eef5ff 100%);
   }
 
   .recov-hero > .recov-shell {
-    padding-top: 42px;
+    padding: 42px 0;
   }
 
   .recov-hero-tags span {
@@ -816,6 +816,11 @@
 
   .recov-hero-row {
     color: #52647d;
+  }
+
+  .recov-hero-row > span {
+    width: 100%;
+    max-width: none;
   }
 
   .recov-positioning {

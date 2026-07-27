@@ -105,3 +105,7 @@
 - 本轮自动浏览器已恢复可用，因此同时关闭上一节第二卡视觉与横向溢出待验项。
 - Header“立即体验”实点打开公共 BookingModal，Escape 与滚动锁定恢复 PASS。
 - lint、tsc、build、diff check 与 `mastergo:check about` PASS；公共资产哈希未变；移动端不在范围，不声明新的 1:1。
+# 2026-07-27 浏览器批注回归
+
+- `.hero-motto--about` 节点实测不存在；首页 HeroMotto 未受影响。
+- 证据：`2026-07-27-hero-after-1486x1258.png`；无横向溢出。

@@ -1,8 +1,8 @@
 {
   "slug": "agent-os-30-day-implementation-guide",
   "category": "产品动态",
-  "displayTitle": null,
-  "sourceTitle": "Agent OS 智能体底座落地指南",
+  "displayTitle": "Agent OS 智能体底座落地指南：底座统一、场景验收与结果回写，从单点 AI 工具走向企业级智能体运营",
+  "sourceTitle": "Agent OS 智能体底座落地指南：底座统一、场景验收与结果回写，从单点 AI 工具走向企业级智能体运营",
   "summary": "摘要：Agent OS 是灵宸智能面向企业多业务流程建设的智能体底座，它把模型接入、知识管理、任务编排、权限审计、人工复核与结果回写沉到统一架构中，再由 Recov AI、Sales in、Social Grow、Mine GEO、AI 获客 Harness、DeepLaw、DeepDoc 等应用按各自场景调用；本文不讨论“多装几个工具”，而是说明企业怎样用底座统一、场景验收和结果回写，完成一次可复制的 30 天概念验证（POC）。",
   "publishedAt": null,
   "sourceDocx": "Agent_OS_智能体底座_30天落地指南.docx",

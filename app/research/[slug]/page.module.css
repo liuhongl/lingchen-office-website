@@ -24,6 +24,12 @@
   line-height: 20px;
 }
 
+.breadcrumb > a {
+  color: #2868e8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .breadcrumb a:hover {
   color: #1f4e79;
 }

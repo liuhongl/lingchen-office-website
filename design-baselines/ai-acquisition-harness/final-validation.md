@@ -218,3 +218,8 @@
 - 同视口证据：`output/playwright/browser-comments-round9-2026-07-27/02-harness-title-row-after-1576x1258.jpg`。
 - 页面横向溢出、破图与浏览器 error 均为 `0`；`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check ai-acquisition-harness` 全部 PASS。
 - 移动端未纳入当前官网范围；本轮不新增 MasterGo 1:1 声明。
+# 2026-07-27 浏览器批注回归
+
+- 产品介绍两段正文均从 `900px` 扩为 Shell 全宽 `1200px`。
+- 三段差异化正文计算字号均为 `14px`。
+- 证据：`2026-07-27-intro-after-1486x1258.png`、`2026-07-27-core-diff-clip-after-1486.png`；无横向溢出。

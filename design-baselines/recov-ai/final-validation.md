@@ -111,3 +111,16 @@
 - 同视口局部证据：`output/playwright/browser-comments-round6-2026-07-27/13-recov-cases-after-1576x1258.png`；全页证据：`recov-ai-full-after-1576.png`。
 - 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
 - lint、tsc、build、diff check 与 `mastergo:check recov-ai` PASS；移动端不在范围，不新增 1:1 声明。
+# 2026-07-27 浏览器批注回归
+
+- Hero CTA 数量实测为 `0`。
+- 新描述逐字核对通过；实际宽 `1200px`、`max-width:none`，覆盖 Shell 全宽。
+- 公共产品面包屑返回链接为 `#2868E8`。
+- 证据：`2026-07-27-browser-comments-after-1486x1258.png`；无横向溢出。
+
+## 2026-07-27 Hero 对称留白复验
+
+- Hero 从 `280px` 改为内容撑高的 `227px`。
+- 标签顶边到 Hero 顶边、描述底边到 Hero 底边均为 `42px`。
+- 页面 `scrollWidth === clientWidth === 1471`。
+- 同视口证据：`2026-07-27-round2-hero-after-1486x1258.png`。

@@ -58,3 +58,8 @@
 | CC-DETAIL-BACK-02 | 返回链接 | ← 返回上一级 | 返回进入详情前的一级、二级 Tab | `app/customer-cases/[slug]/customer-case-back-link.tsx` | PASS：按产品 → Recov AI 回归实测 |
 
 双视图不共享同一份“出海获客”案例集合；领域视图与产品视图按当前原型分别取数。既有 AI 不良资产处置与 AI 法律获客案例在两种视图中复用。
+# 2026-07-27 浏览器批注覆盖
+
+| 文本 ID | 页面 | 修改前 | 用户确认覆盖 | 数据位置 | 状态 |
+|---|---|---|---|---|---|
+| CASE-20260727-01 | 海关报关发票识别案例关联产品 | 跨境单证智能审核平台 | 跨境单证智能审核平台Deepdoc | `data/customer-cases.prototype.json` | READY |

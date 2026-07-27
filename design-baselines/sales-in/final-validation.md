@@ -180,3 +180,8 @@
 - 同视口局部证据：`output/playwright/browser-comments-round7-2026-07-27/04-sales-capabilities-after-1576x1258.png`；全页证据：`sales-in-full-after-1576.png`。
 - 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
 - lint、tsc、build、diff check 与 `mastergo:check sales-in` PASS；移动端不在范围；本轮不新增 MasterGo 1:1 声明。
+# 2026-07-27 浏览器批注回归
+
+- 核心能力区块背景计算值为统一 `rgb(255, 255, 255)`，不再分段。
+- 差异化竞争力上间距实测 `53px`（原 `159px` 的三分之一）。
+- 证据：`2026-07-27-capabilities-clip-after-1486.png`；无横向溢出。

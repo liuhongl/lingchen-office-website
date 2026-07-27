@@ -148,3 +148,17 @@
 - R4-28–29 内容/视觉双验收 PASS：四张价值卡降至 `185.67px`、`padding:20px`；Agent OS 上下内边距均为 `60px`。
 - 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/home-full-1576.png`；横向溢出 0。
 - 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check home` PASS；移动端不在范围，不声明新的 MasterGo 1:1。
+# 2026-07-27 浏览器批注回归
+
+- H1 已逐字核对为“让 AI Agent 成为企业商业结果增长的 / 新质生产力”。
+- Badge 副文案计算字号 `19.2px`。
+- 使命文字容器与按钮组外边界均为 `x=551–920`；使命文字 `18px`。
+- 证据：`2026-07-27-browser-comments-after-1486x1258.png`；无横向溢出。
+
+## 2026-07-27 Hero 间距复验
+
+- Agent 徽章第二行宽 `172.81px`，徽章宽 `222px`，左右留白均为 `24.59px`。
+- “灵宸 AI Agent”计算字号为 `16px`。
+- 第一条使命圆点与首个按钮左边界均为 `551px`。
+- 页面 `scrollWidth === clientWidth === 1471`。
+- 同视口证据：`2026-07-27-round2-hero-after-1486x1258.png`。

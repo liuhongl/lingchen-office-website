@@ -8,7 +8,8 @@
     "start": "next start",
     "typecheck": "tsc --noEmit",
     "lint": "eslint .",
-    "mastergo:check": "node scripts/check-mastergo-evidence.mjs"
+    "mastergo:check": "node scripts/check-mastergo-evidence.mjs",
+    "release:package": "bash scripts/package-release.sh"
   },
   "dependencies": {
     "lucide-react": "latest",

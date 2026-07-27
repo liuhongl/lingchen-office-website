@@ -186,3 +186,13 @@
 - 吸附态“立即预约体验该产品”实点打开公共 BookingModal：单一 dialog、滚动锁定、焦点落在关闭按钮；Escape 关闭后恢复。
 - 同视口证据：`output/playwright/browser-comments-round8-2026-07-27/05-deepdoc-breadcrumb-sticky-after-1576x1258.jpg`。
 - lint、tsc、build、diff check 与 `mastergo:check deepdoc` 全部 PASS；移动端不在范围，本轮不新增 MasterGo 1:1 声明。
+
+## 2026-07-27 浏览器批注第十批
+
+- Footer 后的 `.deepdoc-tail` 页面专属占位已删除，文档总高从 `7757px` 降至 `7237px`，准确减少 `520px`。
+- 页面主体与公共 Footer 的 top、bottom 和高度均未改变；Footer bottom 现在与文档 bottom 一致。
+- `1576×1258` 下横向溢出 `0`、破图 `0`、唯一 H1、浏览器 error `0`。
+- 同视口证据：`output/playwright/browser-comments-round10-2026-07-27/01-deepdoc-tail-before-1576x1258.png`、`02-deepdoc-footer-after-1576x1258.png`。
+- 发布前复验 Header 与面包屑两个预约入口：均打开唯一公共 BookingModal，滚动锁定与焦点进入 PASS；Escape 关闭后焦点分别恢复到原触发按钮。
+- `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check deepdoc` 全部 PASS。
+- 当前完成等级：已视觉校准；不新增 MasterGo `1:1` 声明。移动端未纳入当前官网范围。

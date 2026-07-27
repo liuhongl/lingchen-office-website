@@ -130,3 +130,12 @@
 | 元素 | 开工运行态 | 用户覆盖 | 状态 |
 |---|---|---|---|
 | `main > .product-breadcrumb` | `position:static`；滚动至 `398px` 后 `top:-332px` | 实测 `position:sticky; top:66px; z-index:30`，与 `z-index:40` 的公共 Header 底边零缝贴合 | PASS |
+
+## 2026-07-27 浏览器批注第十批
+
+| ID | 区块 | 视觉真源 | 目标 | 状态 |
+|---|---|---|---|---|
+| DD-V2710-01 | Footer 后尾区 | 用户浏览器批注与 `1576×1258` 运行态 | 删除 `.deepdoc-tail` 的 `520px` 浅灰占位；公共 Footer 成为页面最后一个可见模块 | CONFIRMED |
+
+- 修改前 `.deepdoc-tail`：`520px`，背景 `rgb(248,250,252)`；Footer bottom 与 tail top 同为 `7236.97px`。
+- 本轮无图标、字体、颜色、边框或公共组件视觉变更，无阻塞项。

@@ -101,8 +101,20 @@
     padding: 92px 0;
   }
 
+  .mine-geo-hero {
+    height: auto;
+    min-height: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .mine-geo-hero h1 {
+    margin-top: 0;
+  }
+
   .mine-geo-core-loop {
-    padding-bottom: 72px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: #f7f9fc;
   }
 
@@ -380,7 +392,6 @@
 
   .acq-growth {
     height: auto;
-    min-height: 150px;
   }
 
   .acq-cases {
@@ -402,7 +413,6 @@
 
   .acq-modes aside {
     height: auto;
-    min-height: 160px;
   }
 
   .acq-contrast p img {
@@ -463,6 +473,28 @@
     padding-bottom: 56px;
   }
 
+  .sales-section {
+    height: auto;
+    min-height: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .sales-table.scenes strong {
+    display: block;
+  }
+
+  .sales-final-note {
+    color: #172033;
+    border: 1px solid #d9e7fb;
+    background: #f5f9ff;
+    box-shadow: 0 12px 30px rgb(37 99 235 / 7%);
+  }
+
+  .sales-final-note p {
+    color: #52647d;
+  }
+
   .social-grow-process,
   .social-grow-capabilities,
   .social-grow-results,
@@ -470,6 +502,8 @@
   .social-grow-cooperation {
     height: auto;
     min-height: 0;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .social-grow-section-label,
@@ -482,7 +516,6 @@
 
   .social-grow-final {
     height: auto;
-    min-height: 255px;
   }
 
   .social-grow-section-label {
@@ -501,6 +534,11 @@
     grid-template-columns: 150px 1fr 1.25fr;
   }
 
+  .social-grow-business-compare > .social-grow-business-head,
+  .social-grow-business-compare > .social-grow-business-row {
+    padding: 0;
+  }
+
   .social-grow-business-head {
     color: #334155;
     background: #f1f5f9;
@@ -510,12 +548,7 @@
   .social-grow-business-row > * {
     box-sizing: border-box;
     min-width: 0;
-    padding: 18px 22px;
-    border-left: 1px solid #e6ebf2;
-  }
-
-  .social-grow-business-head > :first-child,
-  .social-grow-business-row > :first-child {
+    padding: 12px 22px;
     border-left: 0;
   }
 
@@ -530,7 +563,7 @@
   }
 
   .social-grow-business-row {
-    min-height: 78px;
+    min-height: 0;
     align-items: stretch;
     border-top: 1px solid #e6ebf2;
   }
@@ -567,6 +600,10 @@
     grid-template-columns: 220px 180px 270px 1fr;
   }
 
+  .social-grow-scenario-head {
+    align-items: center;
+  }
+
   .social-grow-scenario-row strong {
     white-space: nowrap;
   }
@@ -585,8 +622,45 @@
     background: #f5f3ff;
   }
 
-  .social-grow-cooperation {
-    padding-top: 74px;
+  .social-grow-cooperation-table {
+    margin-top: 36px;
+    overflow: hidden;
+    border: 1px solid #e1e8f0;
+    border-radius: 14px;
+    background: #fff;
+  }
+
+  .social-grow-cooperation-table > div {
+    min-height: 58px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border-top: 1px solid #e6ebf2;
+  }
+
+  .social-grow-cooperation-table > div:first-child {
+    min-height: 52px;
+    border-top: 0;
+    background: #f1f5f9;
+  }
+
+  .social-grow-cooperation-table h4,
+  .social-grow-cooperation-table p {
+    margin: 0;
+    padding: 15px 22px;
+    color: #475569;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .social-grow-cooperation-table h4 {
+    color: #334155;
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+  .social-grow-final {
+    margin-top: 40px;
   }
 
   .recov-heading h2 {
@@ -749,6 +823,10 @@
     padding: 56px 0;
   }
 
+  .recov-positioning .recov-statement {
+    min-height: 0;
+  }
+
   .recov-agent {
     height: auto;
     padding: 58px 0;
@@ -889,5 +967,1284 @@
   .dls-heading h2 {
     color: #2563eb;
     font-weight: 800;
+  }
+
+  .product-matrix-page > .product-matrix-grid {
+    width: min(1440px, calc(100% - 64px));
+    max-width: none;
+  }
+
+  .mine-geo-traditional-head,
+  .mine-geo-traditional > div:not(.mine-geo-traditional-head) {
+    grid-template-columns: 235px minmax(0, .85fr) minmax(0, 1.15fr);
+    column-gap: 20px;
+  }
+
+  .mine-geo-traditional-head {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .mine-geo-traditional > div:not(.mine-geo-traditional-head) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .acq-hero {
+    height: auto;
+    min-height: 0;
+  }
+
+  .acq-hero > div,
+  .acq-hero > div > div {
+    height: auto;
+  }
+
+  .acq-hero > div > div {
+    padding-top: 42px;
+    padding-bottom: 42px;
+  }
+
+  .acq-intro {
+    padding-top: 36px;
+    padding-bottom: 18px;
+  }
+
+  .acq-tech h3 {
+    gap: 0;
+  }
+
+  .acq-cases-table > div {
+    align-items: center;
+  }
+
+  .acq-cases-table .head,
+  .acq-value-table .head {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .acq-cases-table > div:not(.head),
+  .acq-value-table > div:not(.head) {
+    font-size: 12px;
+  }
+
+  .acq-modes > .acq-modes-table {
+    margin-top: 42px;
+    display: block;
+    border: 1px solid #dfe6ee;
+    border-radius: 14px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 10px 28px rgba(32, 57, 95, .055);
+  }
+
+  .acq-modes-table > div {
+    min-height: 74px;
+    padding: 16px 20px;
+    display: grid;
+    grid-template-columns: minmax(0, .8fr) minmax(0, 1.15fr) minmax(0, 1.35fr);
+    column-gap: 20px;
+    align-items: center;
+    border-top: 1px solid #e4eaf1;
+    color: #53647c;
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .acq-modes-table > .head {
+    min-height: 52px;
+    border-top: 0;
+    background: #f1f5fb;
+    color: #1d2a3f;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .acq-modes-table strong {
+    color: #144fba;
+  }
+
+  .acq-modes-table span {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    font-size: inherit;
+  }
+
+  .acq-modes aside {
+    color: #1d2a3f;
+    border: 1px solid #d9e7fb;
+    background: #f5f9ff;
+  }
+
+  .acq-modes aside p {
+    color: #52647d;
+  }
+
+  .deepdoc-hero {
+    padding-top: 34px;
+    padding-bottom: 40px;
+  }
+
+  .deepdoc-hero .deepdoc-shell {
+    grid-template-rows: auto auto;
+    align-items: start;
+  }
+
+  .deepdoc-hero .deepdoc-positioning {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    align-self: start;
+  }
+
+  .deepdoc-hero h1 {
+    grid-column: 1;
+    grid-row: 2;
+    margin-top: 24px;
+  }
+
+  .deepdoc-hero-copy {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .deepdoc-challenges {
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .deepdoc-challenges .deepdoc-title-line {
+    margin-bottom: 36px;
+  }
+
+  .deepdoc-challenge-grid article {
+    height: auto;
+    min-height: 0;
+    padding: 24px 28px;
+  }
+
+  .deepdoc-challenge-grid h3 {
+    margin: 0 0 16px;
+  }
+
+  .deeplaw-flow-grid article,
+  .deeplaw-stage-grid article,
+  .deeplaw-capability-grid article {
+    height: auto;
+    min-height: 0;
+  }
+
+  .deeplaw-flow-grid article {
+    padding: 18px 20px;
+  }
+
+  .deeplaw-stage-grid article {
+    padding: 16px 20px;
+  }
+
+  .deeplaw-stage-grid h3 {
+    margin-top: 6px;
+  }
+
+  .deeplaw-capability-grid article {
+    padding: 18px 22px;
+  }
+
+  .deeplaw-capability-grid h3 {
+    margin-top: 12px;
+  }
+
+  .deeplaw-cycle {
+    color: #1e3150;
+    border: 1px solid #cfe0f8;
+    background: #f2f7fe;
+  }
+
+  .deeplaw-cycle p {
+    color: #5a6d87;
+  }
+
+  .social-grow-business-head,
+  .social-grow-scenario-head,
+  .mine-geo-scenario-table .head,
+  .acq-cases-table .head,
+  .acq-value-table .head,
+  .deepdoc-table > div:first-child,
+  .deepdoc-cooperation-grid .head,
+  .recov-scene-table > div:first-child,
+  .deeplaw-table > div:first-child {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .social-grow-business-row,
+  .social-grow-scenario-row:not(.social-grow-scenario-head),
+  .mine-geo-scenario-table > div:not(.head),
+  .acq-cases-table > div:not(.head),
+  .acq-value-table > div:not(.head),
+  .deepdoc-table > div:not(:first-child),
+  .deepdoc-cooperation-grid > div:not(.head),
+  .recov-scene-table > div:not(:first-child),
+  .deeplaw-table > div:not(:first-child) {
+    font-size: 12px;
+  }
+
+  /* 2026-07-26 产品矩阵详情页批注收敛：去掉不必要固定高度，统一卡片内边距/标题对齐 */
+  .product-matrix-page .product-card {
+    height: 290px;
+    min-height: 290px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .sales-in-page .sales-paths small {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social-grow-contrast article,
+  .social-grow-change-grid article,
+  .deepdoc-contrast-card {
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .social-grow-change-grid {
+    align-items: stretch;
+  }
+
+  .social-grow-change-grid article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .social-grow-capability-grid article,
+  .mine-geo-five-grid article,
+  .mine-geo-workflow-grid article,
+  .acq-reasons article,
+  .acq-core-grid article,
+  .deepdoc-safety-grid article,
+  .recov-pressure-grid article,
+  .recov-flow-grid article,
+  .deeplaw-stage-grid article,
+  .deeplaw-capability-grid article {
+    height: auto;
+    min-height: 0;
+  }
+
+  .social-grow-capability-grid article {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 12px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .social-grow-capability-grid article > img,
+  .social-grow-capability-grid article > svg {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .social-grow-capability-grid article > strong {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+  }
+
+  .social-grow-capability-grid article > p {
+    grid-column: 1 / -1;
+  }
+
+  .social-grow-loop__down {
+    height: 52px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .social-grow-scenario-row:not(.social-grow-scenario-head) {
+    min-height: 0;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    align-items: center;
+  }
+
+  .mine-geo-hero > .mine-geo-shell > p:nth-of-type(2) {
+    margin-bottom: 40px;
+  }
+
+  .mine-geo-contrast {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .mine-geo-five-grid article {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    column-gap: 12px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .mine-geo-five-grid article > i {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .mine-geo-five-grid article > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+  }
+
+  .mine-geo-five-grid article > p {
+    grid-column: 1 / -1;
+  }
+
+  .mine-geo-workflow-title,
+  .mine-geo-core-loop header,
+  .mine-geo-products .mine-geo-section-heading,
+  .mine-geo-platform-heading {
+    margin-bottom: 20px;
+  }
+
+  .mine-geo-five-grid,
+  .mine-geo-workflow-grid,
+  .mine-geo-product-grid,
+  .mine-geo-platform-panel,
+  .mine-geo-metric-grid {
+    margin-top: 20px;
+  }
+
+  .mine-geo-workflow-title {
+    margin-top: 120px;
+  }
+
+  .mine-geo-workflow-grid article {
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    column-gap: 12px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .mine-geo-workflow-grid article > img,
+  .mine-geo-workflow-grid article > i {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .mine-geo-workflow-grid article > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+  }
+
+  .mine-geo-workflow-grid article > p {
+    grid-column: 1 / -1;
+  }
+
+  .mine-geo-product-grid article,
+  .mine-geo-metric-grid article {
+    height: auto;
+    min-height: 0;
+  }
+
+  .mine-geo-metric-grid article {
+    padding: 20px;
+  }
+
+  .mine-geo-value-grid article:nth-child(5) {
+    grid-column: auto;
+  }
+
+  .mine-geo-cooperation article {
+    display: grid;
+    grid-template-columns: 48px 1fr;
+    column-gap: 12px;
+    align-items: center;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .mine-geo-cooperation article > img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .mine-geo-cooperation article h4 {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    align-self: center;
+  }
+
+  .mine-geo-cooperation article b,
+  .mine-geo-cooperation article p {
+    grid-column: 1 / -1;
+  }
+
+  .acq-flow-module {
+    background: #f3f8ff;
+  }
+
+  .acq-reasons article {
+    display: grid;
+    grid-template-columns: 36px 1fr;
+    column-gap: 12px;
+    row-gap: 10px;
+    align-content: start;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .acq-reasons article > i {
+    grid-column: 1;
+    grid-row: 1;
+    width: 36px;
+    height: 36px;
+    min-height: 36px;
+    line-height: 36px;
+    font-size: 15px;
+  }
+
+  .acq-reasons article > h2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    white-space: nowrap;
+    align-self: center;
+  }
+
+  .acq-reasons article > p,
+  .acq-reasons article > ul {
+    grid-column: 1 / -1;
+  }
+
+  .acq-flow-module .acq-reasons article {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    column-gap: 12px;
+    align-items: center;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .acq-flow-module .acq-reasons article > img {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .acq-flow-module .acq-reasons article > div {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+  }
+
+  .acq-flow-module .acq-reasons article h2 {
+    margin: 0 0 6px;
+  }
+
+  .acq-core-grid article {
+    display: grid;
+    grid-template-columns: 46px 1fr;
+    column-gap: 12px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .acq-core-grid article > img {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .acq-core-grid article > small {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 800;
+    align-self: center;
+  }
+
+  .acq-core-grid article > h3,
+  .acq-core-grid article > p {
+    grid-column: 1 / -1;
+  }
+
+  .acq-core-diff,
+  .acq-business-compare article {
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .acq-modes aside h3 img {
+    width: 34px;
+    height: 34px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #dbeafe;
+    box-sizing: border-box;
+  }
+
+  .acq-cases > .acq-shell > img:first-child,
+  .acq-modes > img:first-child {
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  .acq-cases > .acq-shell > img:first-child + h2,
+  .acq-modes > img:first-child + h2 {
+    display: inline-flex;
+    align-items: center;
+    margin: 0;
+    color: #2563eb;
+    font-size: 22px;
+    font-weight: 800;
+    vertical-align: middle;
+  }
+
+  .acq-cases > .acq-shell > h2:nth-of-type(2),
+  .acq-modes > h2:nth-of-type(2) {
+    margin-top: 14px;
+  }
+
+  .deepdoc-hero .deepdoc-shell {
+    grid-template-columns: minmax(560px, 0.9fr) minmax(0, 1fr);
+  }
+
+  .deepdoc-hero h1 {
+    font-size: 46px;
+    line-height: 1.08;
+    white-space: nowrap;
+  }
+
+  .deepdoc-hero h1 em {
+    display: block;
+  }
+
+  .deepdoc-contrast-card header img {
+    padding: 0;
+    background: transparent;
+  }
+
+  .deepdoc-evidence-grid article,
+  .deepdoc-engine-grid article,
+  .deepdoc-safety-grid article {
+    height: auto;
+    min-height: 0;
+  }
+
+  .deepdoc-safety-grid article {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    column-gap: 12px;
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+  }
+
+  .deepdoc-safety-grid article > b {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .deepdoc-safety-grid article > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+  }
+
+  .deepdoc-safety-grid article > p {
+    grid-column: 1 / -1;
+    text-align: left;
+  }
+
+  .recov-pressure-grid article {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 10px;
+    align-items: baseline;
+    padding: 20px;
+  }
+
+  .recov-pressure-grid small {
+    color: #0f172a;
+  }
+
+  .recov-pressure-grid strong {
+    margin: 0;
+  }
+
+  .recov-pressure-grid p {
+    grid-column: 1 / -1;
+  }
+
+  .recov-pressure-grid h3 {
+    grid-column: 1 / -1;
+  }
+
+  .recov-pressure,
+  .recov-flow,
+  .recov-results,
+  .recov-scenes {
+    height: auto;
+  }
+
+  .recov-flow-grid article {
+    display: grid;
+    grid-template-columns: 44px auto 1fr;
+    column-gap: 10px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .recov-flow-grid article > img,
+  .recov-flow-grid article > svg,
+  .recov-flow-grid .recov-flow-icon {
+    grid-column: 1;
+    grid-row: 1;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+  }
+
+  .recov-flow-grid .recov-flow-icon > img,
+  .recov-flow-grid .recov-flow-icon--compact > img {
+    position: static;
+    width: 44px;
+    height: 44px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: #2563eb;
+    box-shadow: 0 10px 20px rgba(37,99,235,.2);
+  }
+
+  .recov-flow-grid i {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: center;
+    margin: 0;
+  }
+
+  .recov-flow-grid h3,
+  .recov-flow-grid p {
+    grid-column: 1 / -1;
+  }
+
+  .recov-results-grid article,
+  .recov-result-assets article,
+  .recov-case-grid article {
+    height: auto;
+    min-height: 0;
+  }
+
+  .recov-results-grid article p:first-of-type {
+    margin-top: 14px;
+  }
+
+  .recov-contrast article + article h3 {
+    margin-top: 6px;
+  }
+
+  .deeplaw-flow .deeplaw-section-heading {
+    margin-bottom: 20px;
+  }
+
+  .deeplaw-stage-grid article,
+  .deeplaw-capability-grid article {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    column-gap: 12px;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .deeplaw-stage-grid article > b,
+  .deeplaw-stage-grid article > i,
+  .deeplaw-capability-grid article > small,
+  .deeplaw-capability-grid article > img,
+  .deeplaw-capability-grid article > svg {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .deeplaw-stage-grid article > h3,
+  .deeplaw-capability-grid article > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+  }
+
+  .deeplaw-stage-grid article > p,
+  .deeplaw-capability-grid article > p {
+    grid-column: 1 / -1;
+  }
+
+  .deeplaw-metrics article {
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .deeplaw-table > div:not(:first-child) {
+    align-items: center;
+  }
+
+  .sales-in-page article p,
+  .social-grow-page article p,
+  .mine-geo-page article p,
+  .acq-page article p,
+  .deepdoc-page article p,
+  .recov-page article p,
+  .deeplaw-page article p {
+    color: #111827;
+  }
+}
+
+@media (min-width: 901px) {
+  /* 2026-07-27 浏览器批注第五批：Mine GEO / Social Grow 桌面端局部校准 */
+  .mine-geo-page .mine-geo-hero {
+    background: #f8fafc;
+  }
+
+  .mine-geo-page .mine-geo-core-loop {
+    background: #f1f5f9;
+  }
+
+  .mine-geo-page .mine-geo-contrast {
+    gap: 20px;
+    overflow: visible;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .mine-geo-page .mine-geo-contrast article {
+    border: 1px solid #e0e6ee;
+    border-radius: 14px;
+  }
+
+  .mine-geo-page .mine-geo-contrast .mine-geo-past {
+    border-color: #f1dcdc;
+  }
+
+  .mine-geo-page .mine-geo-contrast .mine-geo-current {
+    border-color: #d9eee1;
+  }
+
+  .mine-geo-page .mine-geo-contrast h2 img {
+    mix-blend-mode: multiply;
+  }
+
+  .mine-geo-page .mine-geo-five-grid article {
+    grid-template-columns: 40px minmax(0, 1fr);
+    row-gap: 12px;
+  }
+
+  .mine-geo-page .mine-geo-five-grid article > i {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+  }
+
+  .mine-geo-page .mine-geo-five-grid article > p,
+  .mine-geo-page .mine-geo-workflow-grid article > p {
+    margin: 0;
+  }
+
+  .mine-geo-page .mine-geo-workflow-grid article {
+    row-gap: 12px;
+  }
+
+  .social-grow-page .social-grow-scenario-row:not(.social-grow-scenario-head) > span,
+  .social-grow-page .social-grow-scenario-row:not(.social-grow-scenario-head) > p {
+    font-size: 14px;
+    line-height: 1.55;
+  }
+}
+
+/* 2026-07-27 浏览器批注第四批：产品详情页局部密度、对齐与对比度覆盖。 */
+@media (min-width: 901px) {
+  .sales-value-cards article,
+  .social-grow-result-cards article,
+  .mine-geo-value-grid article,
+  .acq-value-grid article,
+  .deepdoc-value-grid article,
+  .recov-value-grid article,
+  .deeplaw-value-grid article {
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .deeplaw-contrast {
+    align-items: stretch;
+  }
+
+  .deeplaw-contrast article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 10px;
+    align-items: center;
+  }
+
+  .deeplaw-contrast article > small {
+    grid-column: 1;
+    grid-row: 1;
+    white-space: nowrap;
+  }
+
+  .deeplaw-contrast article > h2 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .deeplaw-contrast article > p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-top: 12px;
+  }
+
+  .deeplaw-capability-grid article {
+    display: block;
+    padding: 20px;
+  }
+
+  .deeplaw-capability-grid article > small {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    white-space: nowrap;
+  }
+
+  .deeplaw-capability-grid article > h3 {
+    margin: 12px 0 0;
+  }
+
+  .deeplaw-capability-grid article > p {
+    margin-top: 10px;
+  }
+
+  .deeplaw-advantages {
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .deeplaw-advantages > h3 {
+    margin-bottom: 16px;
+  }
+
+  body .deeplaw-page .deeplaw-growth p {
+    color: #fff;
+  }
+
+  .recov-pressure-grid article:nth-child(1) small,
+  .recov-pressure-grid article:nth-child(2) small {
+    color: #3378ef;
+  }
+
+  .recov-pressure-grid article:nth-child(3) small {
+    color: #f2485d;
+  }
+
+  .recov-flow-grid article {
+    grid-template-columns: 48px auto minmax(0, 1fr);
+  }
+
+  .recov-flow-grid .recov-flow-icon {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+
+  .recov-flow-grid .recov-flow-icon > img {
+    position: absolute;
+    left: -22.5px;
+    top: -12.5px;
+    width: 93px;
+    height: 93px;
+    max-width: none;
+    padding: 0;
+    display: block;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .recov-flow-grid .recov-flow-icon--compact {
+    background: #2563eb;
+    box-shadow: 0 10px 20px rgba(37, 99, 235, .2);
+  }
+
+  .recov-flow-grid .recov-flow-icon--compact > img {
+    position: static;
+    width: 18px;
+    height: 18px;
+    max-width: none;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    object-fit: contain;
+  }
+
+  .deepdoc-metrics {
+    align-items: stretch;
+  }
+
+  .deepdoc-metrics article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  body .deepdoc-page .deepdoc-advice,
+  body .deepdoc-page .deepdoc-advice h3,
+  body .deepdoc-page .deepdoc-advice p,
+  body .deepdoc-page .deepdoc-advice p span {
+    color: #fff;
+  }
+
+  .deepdoc-safety-grid article {
+    grid-template-columns: 44px minmax(0, 1fr);
+    column-gap: 12px;
+    padding: 20px;
+  }
+
+  .deepdoc-safety-grid article > b {
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .deepdoc-safety-grid article > h3 {
+    margin: 0;
+    align-self: center;
+    text-align: left;
+  }
+
+  .acq-contrast {
+    height: auto;
+    min-height: 0;
+  }
+
+  .acq-contrast article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 44px 20px 20px;
+  }
+
+  .acq-core-grid article > img {
+    width: 56px;
+    height: 56px;
+    max-width: none;
+    object-fit: contain;
+  }
+
+  .acq-core-diff {
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .acq-core-diff > p:last-child {
+    margin-bottom: 0;
+  }
+
+  .acq-modes aside h3 img {
+    mix-blend-mode: normal;
+  }
+
+  .mine-geo-hero > .mine-geo-shell > p:nth-of-type(2) {
+    margin-bottom: 0;
+  }
+
+  .mine-geo-contrast {
+    margin-top: 60px;
+    margin-bottom: 0;
+    gap: 0;
+    overflow: hidden;
+    border: 1px solid #e0e6ee;
+    border-radius: 14px;
+    background: #fff;
+  }
+
+  .mine-geo-contrast article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .mine-geo-contrast .mine-geo-past {
+    border: 0;
+    background: #fff5f5;
+  }
+
+  .mine-geo-contrast .mine-geo-current {
+    border: 0;
+    border-left: 1px solid #d9eee1;
+    background: #f0fdf4;
+    box-shadow: none;
+  }
+
+  .mine-geo-workflow-title {
+    margin-top: 0;
+  }
+
+  .mine-geo-cooperation article {
+    grid-template-rows: 48px auto auto;
+    row-gap: 12px;
+    align-items: start;
+  }
+
+  .mine-geo-cooperation article > img,
+  .mine-geo-cooperation article h4 {
+    grid-row: 1;
+  }
+
+  .mine-geo-cooperation article b {
+    grid-row: 2;
+    margin: 0;
+  }
+
+  .mine-geo-cooperation article p {
+    grid-row: 3;
+    margin: 0;
+  }
+
+  .social-grow-loop {
+    height: auto;
+    min-height: 0;
+  }
+
+  .social-grow-hero__copy p,
+  .social-grow-contrast p,
+  .social-grow-change-grid p,
+  .social-grow-flow-grid p,
+  .social-grow-capability-grid p,
+  .social-grow-value-list p,
+  .social-grow-value-list b,
+  .social-grow-loop > p,
+  .social-grow-results__intro,
+  .social-grow-metrics span,
+  .social-grow-result-cards p,
+  .social-grow-business-head,
+  .social-grow-business-head h4,
+  .social-grow-business-row p,
+  .social-grow-business-row div,
+  .social-grow-business-row div b,
+  .social-grow-business-row div span,
+  .social-grow-scenarios__intro,
+  .social-grow-scenario-row,
+  .social-grow-scenario-row span,
+  .social-grow-scenario-row p,
+  .social-grow-scenario-head b,
+  .social-grow-scenario-cards p,
+  .social-grow-cooperation__intro,
+  .social-grow-cooperation-table h4,
+  .social-grow-cooperation-table p {
+    color: #111827;
+  }
+
+  main.social-grow-page .social-grow-final strong,
+  main.social-grow-page .social-grow-final p {
+    color: #fff;
+  }
+
+  .sales-examples article,
+  .sales-paths article {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    column-gap: 10px;
+    align-items: start;
+  }
+
+  .sales-examples article > small,
+  .sales-paths article > small {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: center;
+  }
+
+  .sales-examples article > h3,
+  .sales-paths article > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+    align-self: center;
+    white-space: nowrap;
+  }
+
+  .sales-examples article > p,
+  .sales-paths article > p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-top: 12px;
+  }
+}
+
+/* 2026-07-27 浏览器批注第六批：获客核心能力图标与标签横向节奏。 */
+@media (min-width: 901px) {
+  .acq-page .acq-core-grid article {
+    grid-template-columns: 48px minmax(0, 1fr);
+    column-gap: 20px;
+  }
+
+  .acq-page .acq-core-grid article > img {
+    width: 48px;
+    height: 48px;
+  }
+}
+
+@media (min-width: 901px) {
+  /* 2026-07-27：产品详情案例卡与 DeepLaw 局部密度校准 */
+  .deeplaw-page .deeplaw-hero {
+    padding: 48px 0 56px;
+  }
+
+  .deeplaw-page .deeplaw-hero-copy {
+    margin-top: 24px;
+  }
+
+  .deeplaw-page .deeplaw-contrast {
+    margin-top: 32px;
+  }
+
+  .deeplaw-page .deeplaw-capability-grid article {
+    display: grid;
+    grid-template-columns: max-content minmax(0, 1fr);
+    column-gap: 12px;
+    row-gap: 12px;
+    align-items: center;
+  }
+
+  .deeplaw-page .deeplaw-capability-grid article > small {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .deeplaw-page .deeplaw-capability-grid article > h3 {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0;
+  }
+
+  .deeplaw-page .deeplaw-capability-grid article > p {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin: 0;
+  }
+
+  .sales-examples,
+  .social-grow-scenario-cards,
+  .acq-case-cards,
+  .deepdoc-case-grid,
+  .deeplaw-cases,
+  .recov-case-grid {
+    align-items: stretch;
+  }
+
+  .sales-examples > article,
+  .social-grow-scenario-cards > article,
+  .acq-case-cards > article,
+  .deepdoc-case-grid > article,
+  .deeplaw-cases > article,
+  .recov-case-grid > article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+}
+
+@media (min-width: 901px) {
+  /* 2026-07-27：Sales in、Harness 与 DeepDoc 卡片密度校准。 */
+  .sales-in-page .sales-capability-grid,
+  .deepdoc-page .deepdoc-contrast-grid,
+  .deepdoc-page .deepdoc-challenge-grid,
+  .deepdoc-page .deepdoc-flow-grid,
+  .deepdoc-page .deepdoc-evidence-grid,
+  .deepdoc-page .deepdoc-engine-grid,
+  .deepdoc-page .deepdoc-metrics,
+  .deepdoc-page .deepdoc-value-grid,
+  .deepdoc-page .deepdoc-business-grid,
+  .deepdoc-page .deepdoc-case-grid,
+  .deepdoc-page .deepdoc-safety-grid,
+  .deepdoc-page .deepdoc-assurance-grid {
+    align-items: stretch;
+  }
+
+  .sales-in-page .sales-capability-grid > article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .acq-page .acq-modes-table > .head {
+    box-sizing: border-box;
+    min-height: 52px;
+    padding: 10px 20px;
+  }
+
+  .acq-page .acq-modes-table > .head > * {
+    padding: 0;
+  }
+
+  .deepdoc-page .deepdoc-contrast-grid > article,
+  .deepdoc-page .deepdoc-challenge-grid > article,
+  .deepdoc-page .deepdoc-flow-grid > article,
+  .deepdoc-page .deepdoc-evidence-grid > article,
+  .deepdoc-page .deepdoc-engine-grid > article,
+  .deepdoc-page .deepdoc-metrics > article,
+  .deepdoc-page .deepdoc-value-grid > article,
+  .deepdoc-page .deepdoc-business-grid > article,
+  .deepdoc-page .deepdoc-case-grid > article,
+  .deepdoc-page .deepdoc-safety-grid > article,
+  .deepdoc-page .deepdoc-assurance-grid > article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding-top: 20px;
   }
 }

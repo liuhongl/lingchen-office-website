@@ -465,3 +465,267 @@
 .mgs-page .mgs-closing h2 {
   width: 1060px;
 }
+
+@media (min-width: 801px) {
+  .mgs-page .mgs-capabilities,
+  .mgs-page .mgs-pain-points,
+  .mgs-page .mgs-flow,
+  .mgs-page .mgs-advantages,
+  .mgs-page .mgs-outcomes,
+  .mgs-page .mgs-scenarios,
+  .mgs-page .mgs-cooperation {
+    padding-inline: max(var(--page-gutter), calc((100% - var(--container-default)) / 2));
+  }
+
+  .mgs-page .mgs-hero {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 60px 0;
+  }
+
+  .mgs-page .mgs-hero__copy {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: min(var(--container-default), calc(100% - var(--page-gutter) - var(--page-gutter)));
+    margin-inline: auto;
+  }
+
+  .mgs-page .mgs-hero h1 {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 24px;
+    white-space: nowrap;
+  }
+
+  .mgs-page .mgs-hero h1 strong {
+    margin-top: 0;
+  }
+
+  .mgs-page .mgs-hero__lead,
+  .mgs-page .mgs-hero__body {
+    width: 100%;
+    max-width: none;
+  }
+
+  .mgs-page .mgs-capabilities__grid {
+    grid-auto-rows: auto;
+    align-items: start;
+  }
+
+  .mgs-page .mgs-capability-card {
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .mgs-page .mgs-capability-card__heading,
+  .mgs-page .mgs-advantage-card__heading,
+  .mgs-page .mgs-outcome-card__heading {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .mgs-page .mgs-capability-card__heading img {
+    box-sizing: border-box;
+    width: 56px;
+    height: 56px;
+    padding: 8px;
+    flex: 0 0 56px;
+    object-fit: contain;
+  }
+
+  .mgs-page .mgs-capability-card>.mgs-capability-card__heading h3,
+  .mgs-page .mgs-advantage-card__heading h3,
+  .mgs-page .mgs-outcome-card__heading h3 {
+    margin: 0;
+  }
+
+  .mgs-page .mgs-capability-card>p {
+    margin-top: 14px;
+  }
+
+  .mgs-page .mgs-pain-card,
+  .mgs-page .mgs-advantages__grid article,
+  .mgs-page .mgs-outcomes__cards article,
+  .mgs-page .mgs-prototype-values article,
+  .mgs-page .mgs-prototype-scenarios article,
+  .mgs-page .mgs-prototype-paths article,
+  .mgs-page .mgs-cooperation-card {
+    height: auto;
+    min-height: 0;
+  }
+
+  .mgs-page .mgs-pain-points__grid,
+  .mgs-page .mgs-advantages__grid,
+  .mgs-page .mgs-outcomes__cards,
+  .mgs-page .mgs-prototype-values,
+  .mgs-page .mgs-prototype-paths,
+  .mgs-page .mgs-cooperation__grid {
+    align-items: start;
+  }
+
+  .mgs-page .mgs-advantage-card__heading img,
+  .mgs-page .mgs-outcome-card__heading img {
+    margin: 0;
+    flex: none;
+  }
+
+  .mgs-page .mgs-advantages__grid article>p {
+    margin-top: 14px;
+  }
+
+  .mgs-page .mgs-outcomes__heading>span {
+    width: 100%;
+    max-width: none;
+  }
+
+  .mgs-page .mgs-outcomes__cards article {
+    text-align: left;
+  }
+
+  .mgs-page .mgs-outcomes__cards article>p {
+    margin-top: 12px;
+  }
+
+  .mgs-page .mgs-outcome-card__heading {
+    gap: 12px;
+  }
+
+  .mgs-page .mgs-outcome-card__heading img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .mgs-page .mgs-outcome-card__heading h3 {
+    font-size: 22px;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+
+  .mgs-page .mgs-prototype-scenario-head,
+  .mgs-page .mgs-prototype-scenarios article {
+    min-height: 0;
+  }
+
+  .mgs-page .mgs-prototype-scenarios article > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mgs-page .mgs-cooperation__heading>span {
+    margin-top: 12px;
+  }
+
+  .mgs-page .mgs-cooperation__grid {
+    margin-top: 40px;
+  }
+
+  .mgs-page .mgs-cooperation-card>p {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .mgs-page .mgs-cooperation-card {
+    height: auto;
+    padding: 20px;
+    align-self: start;
+  }
+
+  .mgs-page .mgs-cooperation__grid {
+    align-items: start;
+  }
+
+  .mgs-page .mgs-cooperation-card__heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .mgs-page .mgs-cooperation-card__heading h3 {
+    margin: 0;
+  }
+
+  .mgs-page .mgs-prototype-payment {
+    margin-top: 16px;
+    padding-top: 14px;
+  }
+
+  .mgs-page .mgs-closing {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 60px max(var(--page-gutter), calc((100% - var(--container-default)) / 2));
+  }
+
+  .mgs-page .mgs-closing h2,
+  .mgs-page .mgs-closing>p {
+    width: 100%;
+  }
+
+  .mgs-page .mgs-closing h2 span {
+    display: block;
+  }
+}
+
+/* 2026-07-26 用户确认：解决方案页横向内容卡片统一内容驱动高度，卡片内边距 20px。 */
+@media (min-width: 901px) {
+  .mgs-page .mgs-capabilities__grid,
+  .mgs-page .mgs-pain-points__grid,
+  .mgs-page .mgs-advantages__grid,
+  .mgs-page .mgs-outcomes__cards,
+  .mgs-page .mgs-prototype-values,
+  .mgs-page .mgs-prototype-paths,
+  .mgs-page .mgs-cooperation__grid {
+    align-items: stretch;
+  }
+
+  .mgs-page .mgs-capability-card,
+  .mgs-page .mgs-pain-card,
+  .mgs-page .mgs-advantages__grid article,
+  .mgs-page .mgs-outcomes__cards article,
+  .mgs-page .mgs-prototype-values article,
+  .mgs-page .mgs-prototype-paths article,
+  .mgs-page .mgs-cooperation-card {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+}
+
+/* 2026-07-27 浏览器批注：优势标题单行、场景表收紧、合作卡等高。 */
+@media (min-width: 901px) {
+  .mgs-page .mgs-advantages__grid img {
+    width: 44px;
+    height: 44px;
+  }
+
+  .mgs-page .mgs-advantages__grid h3 {
+    font-size: 18px;
+    line-height: 26px;
+    white-space: nowrap;
+  }
+
+  .mgs-page .mgs-prototype-scenarios article > * {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .mgs-page .mgs-cooperation-card {
+    align-self: stretch;
+  }
+}
+
+/* 2026-07-27 浏览器批注第六批：四张核心功能卡统一固定高度。 */
+@media (min-width: 901px) {
+  .mgs-page .mgs-flow-card {
+    box-sizing: border-box;
+    height: 358px;
+    min-height: 358px;
+  }
+}

@@ -104,3 +104,52 @@
 - 交付区单列；合作模式双色；Closing 260px：PASS。
 - 横向溢出：0；2 个预约类 CTA：PASS；控制台 error：0。
 - lint、TypeScript、build、diff check 与 `mastergo:check non-performing-assets`：PASS。
+
+## 2026-07-24 浏览器批注回归
+
+- [x] Hero 顶部内边距 40px；主 CTA 至概述模块 50px（原运行值 148px，约为三分之一）。
+- [x] 概述模块使用独立 `#f5f7fa` 背景，与 Hero 浅蓝渐变明确分区。
+- [x] 三张压力卡的指标均位于图标同行最右侧并垂直居中。
+- [x] 2.2 账龄说明保留，`M1/M2/M3/M6/M12+` 整组指标轨道已从 DOM 删除。
+- [x] 3.1 至 3.5 标题重新连续编号；原 3.2/3.3/3.4/3.5/3.6 旧标题均未进入 DOM。
+- [x] 7.3 模块已删除；结论移至 7.4 底部、间距 24px、居中；“为什么选择”标题至卡片间距为 36px。
+- [x] 八个正文 section 上下内边距均为 60px，由内容高度撑开，无内容溢出。
+- [x] Hero“预约产品演示”实点打开公共 `BookingModal`；关闭按钮实点后弹窗不可见。
+- [x] `1644 × 1258` 运行时 `scrollWidth === clientWidth`。
+- 视觉证据：`visual-results/feedback-2026-07-24-browser-comments/non-performing-assets-top-1644x1258.png`；全页关键属性使用运行时 DOM 量测核对。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check non-performing-assets` 全部 PASS。
+- 完成等级：已视觉校准；本轮为用户覆盖后的实现，不宣称与旧 MasterGo 画板严格 1:1。
+- 移动端未纳入当前官网范围，不作为桌面端冻结阻塞项。
+
+## 2026-07-25 浏览器批注验证
+
+- 四张身份卡计算值：`min-height=0px`、上下 padding 均 `20px`；图标、身份名、强度标签为同一 grid header，强度标签距卡片右边界 `23px`。
+- 四张上线节奏卡 `min-height=0px`；蓝点伪元素为 `display:none`，前三张卡箭头内容为 `→` 且位于卡片纵向中心。
+- 横向溢出 `0`；顶部分区截图：`visual-results/feedback-2026-07-25-browser-comments/non-performing-assets-top-1576x1258.png`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check non-performing-assets` 全部 PASS。
+
+## 2026-07-26 浏览器批注验证
+
+- [x] Hero 副标题逐字为“全国首个全链路、自进化、多智能体协作的批量债权催收智能体”。
+- [x] 压力卡、语义分析、能力矩阵、应用场景和选择理由均取消固定高度；运行时 `min-height:0`。
+- [x] 司法闭环卡编号与标题同行且字号一致；应用场景图标与标题同行；选择理由编号与标题同行。
+- [x] 本轮同类浅背景卡片正文为 `rgb(17, 24, 39)`；深色背景、品牌标签和弱化元数据未被覆盖。
+- [x] 页面横向溢出为 `0`；公共 Header、Footer、Logo、BookingModal 未在本轮修改。
+- 同视口证据：`visual-results/feedback-2026-07-26/non-performing-assets-top-1576x1258.png`、`non-performing-assets-middle-1576x1258.png`、`non-performing-assets-lower-1576x1258.png`、`non-performing-assets-end-1576x1258.png`、`non-performing-assets-why-1576x1258.png`（均位于同一目录）。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check non-performing-assets` 全部 PASS。
+- 移动端未纳入当前官网范围。
+
+## 2026-07-26 浏览器批注第二批增量验收
+
+- ID 1–3 内容逐字未变；卡高、数值间距与字号计算样式均达到用户覆盖目标。
+- 1576×1258 横向溢出为 0；局部截图见 `output/playwright/browser-comments-round2-2026-07-26/non-performing-assets-*.png`。
+- 本节最终门禁：lint、tsc、build、diff check 与 `mastergo:check non-performing-assets` 全部 PASS；不复用上一次结果。
+
+## 2026-07-27 浏览器批注第三批增量验收
+
+- 能力矩阵导语与四张能力基座卡正文计算色均为 `rgb(17,24,39)`。
+- 四张成果卡实测均高 `174px`，内容溢出为 `0`。
+- 同视口截图：`output/playwright/browser-comments-round3-2026-07-27/10-npa-advantages-1576x1258.png`、`11-npa-results-1576x1258.png`。
+- 页面横向溢出为 `0`；视觉人工复核 PASS。
+- 工程门禁与 `pnpm mastergo:check non-performing-assets` 均 PASS。
+- 移动端未纳入当前官网范围；本批不更新旧 MasterGo 严格 1:1 结论。

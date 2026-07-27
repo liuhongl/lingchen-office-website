@@ -65,3 +65,24 @@
 - 痛点卡片编号去掉斜线；章节编号原为中文“一、”至“七、”。
 - 2026-07-23 用户覆盖：七个大章节序号统一去掉结尾顿号，显示为“一”至“七”；标题其余文字、结构和视觉保持不变。
 - 桌面视口 1671×1258；本轮全页截图：`user-review-full-local-1671.png`。
+
+## 2026-07-24 浏览器批注覆盖
+
+- 内容真源：用户在 `http://localhost:3000/solutions/ai-overseas/` 的浏览器逐元素批注，共 12 项。
+- 视觉真源：当前页面实现；本轮用户批注覆盖 Hero 换行与宽度、正文 section 纵向间距、指标字号和可信底座布局。
+- 目标桌面视口：`1644 × 1258` CSS px。
+- 页面内容区块统一为 `padding-block: 60px`、`height: auto`、`min-height: 0`；Hero 和 Closing CTA 不纳入该统一规则。
+- 公共 `SiteHeader`、`SiteFooter`、Logo、字体、`BookingModal` 继续冻结。
+
+## 2026-07-25 浏览器批注范围
+
+- 仅调整可信底座六项的左右列顺序，以及 Closing CTA 的桌面端垂直节奏。
+- Closing CTA 纳入本轮统一规则：`padding-block: 60px`、`height: auto`、`min-height: 0`。
+- 目标视口为 `1576×1258`；移动端不在本轮范围。
+
+## 2026-07-26 浏览器批注范围
+
+- 目标视口：`1576×1258`；仅调整痛点卡编号与标题同行、智能体图标与标签同行、价值指标说明字号。
+- 内容真源不变；不新增、不删改可见文案。
+- 公共 `SiteHeader`、`SiteFooter`、Logo、字体与 `BookingModal` 保持冻结。
+- 开工哈希：Header `5aef1bd27e0a0a57ffdc65dbb80df4ab5cc30aa2c17b1283f3791a17da345bfa`；Footer `8732972918addddddbbcbec095ff0b2b7c34797ea74522bf019427956ceae2ae`；BookingModal `3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`；Logo `4bdd8b355f0ce60b25fa4ce128a2f9bb2b13a636dd1c4a7f3a54a2003f0b0c85`；layout `729e233f1bc80bdd025ef9baf2cb5b8cf21cd0b8a141b99803fee32fa62f71c8`。

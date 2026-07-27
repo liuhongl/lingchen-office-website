@@ -102,3 +102,81 @@
 - [x] 1616px 桌面视口唯一 H1、无横向溢出、无破损图片；公共面包屑 CTA 与文字轨迹间距实测 24px。
 - [x] 本轮截图与局部证据已归档于 `output/playwright/product-feedback-2026-07-24-v2/`。
 - [x] 工程四项及 `pnpm mastergo:check sales-in` 全部通过；本轮是用户覆盖，不新增严格 1:1 声明。
+## 2026-07-24 间距批次回归
+
+- 定位、业务流、产品价值区块均由内容与 `60px` 上下 padding 撑高；表格和案例装饰小图标已删除。
+- `1616×1258`：`scrollWidth=clientWidth=1601`。
+- 截图：`visual-results/feedback-2026-07-24-spacing/sales-in-1616x1258.png`。
+- 移动端未纳入本轮验收。
+## 2026-07-24 区块节奏回归
+
+- 1644 × 1258 桌面视口下，8 个 `.sales-section` 最终计算值均为上下 `60px`。
+- 固定高度影响已解除，区块由内容与 padding 撑开。
+- 横向溢出：0。
+
+## 2026-07-25 浏览器批注验证
+
+- Hero / Closing 均为上下 `60px`、`min-height=0px`；实际高度分别 `458px` / `226px`。
+- 四张痛点卡 `min-height=0px`、上下 padding `30px`；五张优势卡与四张路径卡均移除最小高度。
+- 运行态文案：四处均为“传统痛点与挑战”；STEP 5 已出现“AI 获客 Agent 深度接入”；路径标签为第一步至第四步。
+- 图标与优势标题、路径步骤均为 flex 垂直居中；横向溢出 `0`。
+- 顶部分区截图：`visual-results/feedback-2026-07-25-browser-comments/sales-in-top-1576x1258.png`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check sales-in` 全部 PASS。
+
+## 2026-07-26 Hero 间距批注验证
+
+- [x] `1576×1258` 下 Hero 主标题顶部与对比卡底部留白均为 `42px`，差值 `0px`。
+- [x] 两张对比卡无固定高度、`min-height:0`，四侧内边距均为 `20px`；同一 Grid 行实测均高 `215px`，无内容溢出。
+- [x] 文案、公共组件与页面交互未改变；页面横向溢出为 `0px`。
+- [x] 同视口截图已归档并完成目视复核：`visual-results/feedback-2026-07-26/sales-in-hero-spacing-1576x1258.png`。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check sales-in` 全部通过。
+- [x] 公共 Header/Footer、BookingModal、Logo 与 `app/layout.tsx` SHA-256 均与开工基线一致。
+
+## 2026-07-26 20:27 纯文字批注验证
+
+- [x] BC-01 精确 selector 唯一匹配，Hero 副标题逐字渲染为“构建您的出海获客能力体系 · 让获客到成交的每一步都可衡量、可复制”。
+- [x] 当前路由 description 与 Open Graph description 已同步该用户确认表达。
+- [x] BC-02 精确 selector 唯一匹配；目标桌面视口下正文为 `1102 × 26px`，等于单个 `26px` 行高，`white-space:nowrap`，页面横向溢出为 `0px`。
+- [x] 局部同视口证据：`output/playwright/browser-comments-2026-07-26/01-sales-in-advantages-1576x1258.png`；人工检查未见裁切或越界。
+- [x] 浏览器控制台错误数为 0；唯一 H1 数量为 1。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check sales-in` 全部 PASS。
+- 当前完成等级：本批两项已实现并完成同视口局部视觉校准；不新增旧 MasterGo 严格 1:1 声明。移动端未纳入当前官网范围。
+
+## 2026-07-26 BC-05 浅色区块说明文字回归
+
+- `/products/sales-in/` 的 `.sales-in-hero__lead` 与 `/solutions/products/sales-in/` 的四个可见 `.sis-section-lead/.sis-section-subtitle` 节点计算色均为 `rgb(17,24,39)`。
+- 两路由均唯一 H1、横向溢出 0；普通卡片正文、状态字与深色表面未纳入覆盖。
+
+## 2026-07-26 浏览器批注第二批增量验收
+
+- ID 6–8 与旧 BC-01–BC-02 当前 DOM 均通过；六行均为 72px，六个标签背景透明，第三张成果卡 150px。
+- 1576×1258 横向溢出为 0；证据见 `output/playwright/browser-comments-round2-2026-07-26/sales-in-*.png`。
+- 本节最终门禁：lint、tsc、build、diff check 与 `mastergo:check sales-in` 全部 PASS。
+
+## 2026-07-27 浏览器批注第三批增量验收
+
+- 四张结果指标卡实测均高 `170px`，内容溢出为 `0`。
+- 同视口截图：`output/playwright/browser-comments-round3-2026-07-27/09-sales-results-1576x1258.png`。
+- 页面横向溢出为 `0`；视觉人工复核 PASS。
+- 工程门禁与 `pnpm mastergo:check sales-in` 均 PASS。
+- 移动端未纳入当前官网范围；本批不更新旧 MasterGo 严格 1:1 结论。
+
+## 2026-07-27 浏览器批注第四批
+
+- R4-11、R4-26–27 内容/视觉双验收 PASS：两张场景卡、四张路径卡均为标签后 `10px` 接单行标题；同类价值卡 `padding:20px`。
+- 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/sales-in-full-1576.png`；横向溢出 0。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check sales-in` PASS；移动端不在范围，不声明新的 MasterGo 1:1。
+
+## 2026-07-27 浏览器批注第六批
+
+- `.sales-examples > article` 两卡实测均 `155.28px`，四边内边距 `20px`，`min-height:0`，内容溢出 `0`，同排等高。
+- 同视口局部证据：`output/playwright/browser-comments-round6-2026-07-27/08-sales-cases-after-1576x1258.png`；全页证据：`sales-in-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check sales-in` PASS；移动端不在范围，不新增 1:1 声明。
+
+## 2026-07-27 浏览器批注第七批
+
+- 五张核心能力卡 padding 均为 `20px`、`min-height:0`；第一行三卡均 `248.56px`，第二行两卡均 `222.47px`，内容溢出 `0`。
+- 同视口局部证据：`output/playwright/browser-comments-round7-2026-07-27/04-sales-capabilities-after-1576x1258.png`；全页证据：`sales-in-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check sales-in` PASS；移动端不在范围；本轮不新增 MasterGo 1:1 声明。

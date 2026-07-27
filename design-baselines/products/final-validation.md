@@ -78,3 +78,32 @@
 - [x] 1616px 桌面视口无横向溢出，详情链接与 Footer 入口可达。
 - [x] `pnpm mastergo:check products` 当前通过；该命令仅证明现有证据完整，不改变“本页没有独立 MasterGo 画板、不得宣称 1:1”的边界。
 - [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 全部通过。
+
+## 2026-07-24 产品卡片色彩与 Hover 最新覆盖
+
+- [x] Sales in、Social Grow、Mine GEO、AI销售获客Harness、DeepDoc 使用原型出海类蓝色默认渐变与深蓝交互态。
+- [x] Recov AI 使用原型黄色默认渐变与琥珀色交互态。
+- [x] DeepLaw 使用原型绿色默认渐变与深绿色交互态。
+- [x] 三类卡片默认色、边框、2px 圆角、交互色和 6px 偏移阴影均与原型实际 CSS 一致。
+- [x] Hover / focus-within 后标题、结果、正文、底部信息均切换为白色，标签改为白底对应深色，文字对比清晰。
+- [x] 卡片文案、顺序、链接、网格结构和图标未修改。
+- [x] `1280 × 720` 桌面视口 `scrollWidth === clientWidth`。
+- 视觉证据：`output/playwright/header-hero-products-feedback-2026-07-24/02-products-default.png` 至 `05-products-deeplaw-focus.png`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check products` 全部 PASS；构建静态生成 71 个页面。
+- 本轮用户最新覆盖取代 2026-07-22 的“统一白底”历史覆盖；历史记录保留但不再代表当前页面。
+## 2026-07-24 宽版矩阵回归
+
+- `1616×1258`：矩阵宽 1440px，三列卡片各 464px，gap 24px；`scrollWidth=clientWidth=1601`。
+- 同视口截图：`visual-results/feedback-2026-07-24-batch2/products-1616x1258.png`。
+- 公共资产 SHA-256 与本轮冻结值一致；移动端未纳入本轮验收。
+
+## 2026-07-26 产品卡片密度复验
+
+- [x] 七张产品卡片统一改为 `5px` 圆角、上下 `20px` / 左右 `28px` 内边距。
+- [x] 七张卡片正文上间距与 Footer 上内边距统一缩小为 `16px`。
+- [x] `1576 × 1258` 下七张卡片均为 `464 × 320px`，三列布局与既有分类配色保持。
+- [x] 页面横向溢出为 `0px`，卡片内容无裁切。
+- 视觉证据：`visual-results/feedback-2026-07-26/products-card-density-1576x1258.png`。
+- 公共 Header、Footer、Logo、BookingModal 与 `app/layout.tsx` 的交付 SHA-256 均与本轮开工值一致。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check products` 全部 PASS；产品矩阵本地 HTTP 200。
+- 当前完成等级：已实现、已视觉校准；本页没有独立 MasterGo 画板，不声明 1:1。

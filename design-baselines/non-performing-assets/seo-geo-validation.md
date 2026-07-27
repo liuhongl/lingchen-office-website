@@ -57,3 +57,10 @@
 - 线上抓取与索引：待上线
 - GEO 抽样：待上线
 - 最终状态：SEO/GEO 已实现，待线上验证
+
+## 2026-07-24 用户文案覆盖复核
+
+- Hero 可见副标题与说明已同步用户确认文本。
+- 页面 metadata description 与 Open Graph description 已同步为“基于灵宸智能推出的Recov Agent催收智能体的全链路、自进化、多智能体催收协作方案。”。
+- 独立 title、自指 canonical、唯一 H1、sitemap 与 robots 策略未改变。
+- 本地状态：SEO/GEO 已实现，待线上验证；未宣称线上索引或 GEO 效果已验证。

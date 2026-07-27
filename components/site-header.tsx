@@ -27,7 +27,10 @@ export function SiteHeader() {
     <>
       <header className="site-header">
         <div className="shell site-header__inner">
-          <Link href="/#top"><Logo /></Link>
+          <Link className="site-header__brand-link" href="/#top">
+            <Logo />
+            <span className="site-header__company-name">灵宸智能</span>
+          </Link>
           <nav className={menuOpen ? "site-nav is-open" : "site-nav"} aria-label="主导航">
             {nav.map(([label, href]) => (
               <Link className={(normalizedPathname === "/" && label === "首页") || (normalizedPathname.startsWith("/products") && label === "产品矩阵") || (normalizedPathname === "/about" && href === "/about") || (normalizedPathname.startsWith("/solutions/") && label === "解决方案") || (normalizedPathname.startsWith("/customer-cases") && label === "客户案例") || (normalizedPathname.startsWith("/research") && label === "灵宸研究院") || (normalizedPathname === "/contact" && label === "联系我们") ? "is-active" : ""} href={href} key={label} onClick={() => setMenuOpen(false)}>{label}</Link>

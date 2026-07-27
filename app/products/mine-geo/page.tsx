@@ -8,7 +8,7 @@ export default function MineGeoPage() {
     <>
       <SiteHeader />
       <main className="mine-geo-page">
-        <ProductBreadcrumb compact name="Mine GEO" description="AI 出海获客 Agent—大模型流量入口，交付品牌在大模型中的曝光率、推荐率与高意向客户线索。" />
+        <ProductBreadcrumb name="Mine GEO" description="AI 出海获客 Agent—大模型流量入口，交付品牌在大模型中的曝光率、推荐率与高意向客户线索。" />
         <section className="mine-geo-hero">
           <div className="mine-geo-shell">
             <h1>品牌生成式引擎优化与获客 AI Agent</h1>
@@ -83,7 +83,7 @@ export default function MineGeoPage() {
         </section>
         <section className="mine-geo-traditional-section">
           <div className="mine-geo-shell">
-            <div className="mine-geo-traditional"><h3>相比传统方案：从人工试探式优化，升级为数据驱动闭环</h3><div className="mine-geo-traditional-head"><b>验证维度</b><b>建议考核指标</b></div><div><strong>观测阶段 (人工试问 vs 批量监测)</strong><p>【传统做法】范围小、不可复现，口径极其散落依赖个人经验； 【Mine GEO 闭环】批量监测，通过统一问题集和模型矩阵进行跨平台、多维度、多模型的持续观测。</p></div><div><strong>治理阶段 (资料散落 vs 知识治理)</strong><p>【传统做法】事实口径多版本并存、资料散落、极易出现口径偏差； 【Mine GEO 闭环】知识治理，标准事实与企业核心知识资产全部进入结构化资产库，实现事实、口径、引用与版本统一。</p></div><div><strong>优化阶段 (单次发稿 vs 持续迭代)</strong><p>【传统做法】依靠盲目发公关稿，发布后完全无法知晓是否被 AI 采纳或引用； 【Mine GEO 闭环】持续迭代，按提及率、推荐率和情感倾向指标进行定向优化与发布，让结果可被追踪、复盘和持续改进。</p></div></div>
+            <div className="mine-geo-traditional"><h3>相比传统方案：从人工试探式优化，升级为数据驱动闭环</h3><div className="mine-geo-traditional-head"><b>验证维度</b><b>传统做法</b><b>Mine GEO 闭环</b></div><div><strong>观测阶段 (人工试问 vs 批量监测)</strong><p>范围小、不可复现，口径极其散落依赖个人经验；</p><p>批量监测，通过统一问题集和模型矩阵进行跨平台、多维度、多模型的持续观测。</p></div><div><strong>治理阶段 (资料散落 vs 知识治理)</strong><p>事实口径多版本并存、资料散落、极易出现口径偏差；</p><p>知识治理，标准事实与企业核心知识资产全部进入结构化资产库，实现事实、口径、引用与版本统一。</p></div><div><strong>优化阶段 (单次发稿 vs 持续迭代)</strong><p>依靠盲目发公关稿，发布后完全无法知晓是否被 AI 采纳或引用；</p><p>持续迭代，按提及率、推荐率和情感倾向指标进行定向优化与发布，让结果可被追踪、复盘和持续改进。</p></div></div>
           </div>
         </section>
         <section className="mine-geo-business">

@@ -126,7 +126,7 @@
   display: block;
   margin-top: 2px;
   color: #6080ad;
-  font-size: 10px;
+  font-size:12px;
   font-weight: 500;
 }
 
@@ -313,4 +313,273 @@
 .dls-page .dls-plans article.is-pro {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+/* 2026-07-25 browser review: two-line hero and content-driven cards. */
+@media (min-width: 801px) {
+  .dls-page .dls-hero {
+    grid-template-columns: 568px 568px;
+    gap: 64px;
+    height: 620px;
+    padding-top: 82px;
+    align-items: start;
+  }
+
+  .dls-page .dls-hero__copy {
+    height: auto;
+  }
+
+  .dls-page .dls-hero h1 {
+    font-size: 48px;
+    line-height: 56px;
+    white-space: nowrap;
+  }
+
+  .dls-page .dls-orbit {
+    transform: translateX(20px) scale(.88);
+    transform-origin: 50% 0;
+  }
+
+  .dls-page .dls-pains__grid,
+  .dls-page .dls-main-agent > div,
+  .dls-page .dls-value-metrics,
+  .dls-page .dls-value-groups,
+  .dls-page .dls-plans,
+  .dls-page .dls-trust-grid {
+    align-items: start;
+  }
+
+  .dls-page .dls-pains__grid article {
+    height: auto;
+    min-height: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    column-gap: 12px;
+    align-items: center;
+  }
+
+  .dls-page .dls-pains__grid small,
+  .dls-page .dls-pains__grid h4,
+  .dls-page .dls-pains__grid p {
+    grid-column: 1 / -1;
+  }
+
+  .dls-page .dls-pains__grid article > img {
+    margin-top: 16px;
+  }
+
+  .dls-page .dls-pains__grid h3 {
+    margin: 16px 0 0;
+  }
+
+  .dls-page .dls-pains__flow {
+    height: auto;
+    min-height: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .dls-page .dls-main-agent {
+    height: auto;
+    min-height: 0;
+  }
+
+  .dls-page .dls-main-agent section {
+    height: auto;
+    min-height: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 36px minmax(0, 1fr);
+    column-gap: 10px;
+    align-items: center;
+  }
+
+  .dls-page .dls-main-agent section h4 {
+    margin: 0;
+  }
+
+  .dls-page .dls-main-agent section p {
+    grid-column: 1 / -1;
+  }
+
+  .dls-page .dls-agent-card,
+  .dls-page .dls-value-metrics article,
+  .dls-page .dls-value-groups article,
+  .dls-page .dls-plans article,
+  .dls-page .dls-plans article.is-pro,
+  .dls-page .dls-trust-grid article {
+    height: auto;
+    min-height: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .dls-page .dls-synergy .dls-heading p {
+    max-width: none;
+    white-space: nowrap;
+  }
+
+  .dls-page .dls-synergy__steps h3 {
+    white-space: nowrap;
+  }
+
+  .dls-page .dls-value-metrics article,
+  .dls-page .dls-value-groups article {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    column-gap: 14px;
+    align-items: center;
+  }
+
+  .dls-page .dls-value-metrics strong,
+  .dls-page .dls-value-groups h3 {
+    margin: 0;
+  }
+
+  .dls-page .dls-value-metrics p,
+  .dls-page .dls-value-groups p {
+    grid-column: 1 / -1;
+  }
+
+  .dls-page .dls-values,
+  .dls-page .dls-cooperation {
+    min-height: 0;
+  }
+
+  .dls-page .dls-cta {
+    height: auto;
+    min-height: 0;
+    padding: 60px var(--page-gutter);
+  }
+
+  .dls-page .dls-cta > p {
+    width: min(var(--container-default), calc(100% - var(--page-gutter) - var(--page-gutter)));
+    max-width: none;
+    white-space: nowrap;
+  }
+}
+
+/* 2026-07-26 用户确认：解决方案页横向内容卡片统一内容驱动高度，卡片内边距 20px。 */
+@media (min-width: 901px) {
+  .dls-page .dls-pains__grid,
+  .dls-page .dls-agent-grid,
+  .dls-page .dls-value-metrics,
+  .dls-page .dls-value-groups,
+  .dls-page .dls-plans,
+  .dls-page .dls-trust-grid {
+    align-items: stretch;
+  }
+
+  .dls-page .dls-pains__grid article,
+  .dls-page .dls-agent-card,
+  .dls-page .dls-value-metrics article,
+  .dls-page .dls-value-groups article,
+  .dls-page .dls-plans article,
+  .dls-page .dls-plans article.is-pro,
+  .dls-page .dls-trust-grid article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+}
+
+/* 2026-07-27 浏览器批注：主 Agent 五卡等高，区块导语容器整体居中。 */
+@media (min-width: 901px) {
+  .dls-page .dls-main-agent > div {
+    align-items: stretch;
+  }
+
+  .dls-page .dls-agents .dls-heading p {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+/* 2026-07-27 浏览器批注第六批：12px 正文统一为 13px，痛点卡行高与起始线对齐。 */
+@media (min-width: 901px) {
+  .dls-page .dls-hero__eyebrow,
+  .dls-page .dls-hero__features span,
+  .dls-page .dls-orbit__node,
+  .dls-page .dls-orbit__node small,
+  .dls-page .dls-pains__grid small,
+  .dls-page .dls-pains__grid p,
+  .dls-page .dls-pains__flow,
+  .dls-page .dls-pains__flow strong,
+  .dls-page .dls-pains__flow b,
+  .dls-page .dls-main-agent section p,
+  .dls-page .dls-main-agent footer,
+  .dls-page .dls-agent-card header span,
+  .dls-page .dls-agent-card > p,
+  .dls-page .dls-agent-card li,
+  .dls-page .dls-agent-card footer,
+  .dls-page .dls-flywheel__center small,
+  .dls-page .dls-flywheel__node small,
+  .dls-page .dls-synergy__steps article > b,
+  .dls-page .dls-synergy__steps article p,
+  .dls-page .dls-synergy__steps footer p,
+  .dls-page .dls-values__grid p,
+  .dls-page .dls-values__grid small,
+  .dls-page .dls-values__note,
+  .dls-page .dls-trust-grid p,
+  .dls-page .dls-plans article > em,
+  .dls-page .dls-plans > article > p,
+  .dls-page .dls-plans li,
+  .dls-page .dls-cta > span,
+  .dls-page .dls-cta > div span {
+    font-size: 13px;
+  }
+
+  .dls-page .dls-pains__grid {
+    align-items: stretch;
+  }
+
+  .dls-page .dls-pains__grid article {
+    grid-template-rows: 18px 40px 21px minmax(0, 1fr);
+    row-gap: 12px;
+    align-items: start;
+  }
+
+  .dls-page .dls-pains__grid small {
+    grid-row: 1;
+    margin: 0;
+    line-height: 18px;
+  }
+
+  .dls-page .dls-pains__grid article > img {
+    grid-column: 1;
+    grid-row: 2;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    align-self: center;
+    box-sizing: border-box;
+  }
+
+  .dls-page .dls-pains__grid h3 {
+    grid-column: 2;
+    grid-row: 2;
+    min-height: 24px;
+    margin: 0;
+    align-self: center;
+    font-weight: 700;
+    line-height: 24px;
+  }
+
+  .dls-page .dls-pains__grid h4 {
+    grid-row: 3;
+    min-height: 21px;
+    margin: 0;
+    font-weight: 600;
+    line-height: 21px;
+  }
+
+  .dls-page .dls-pains__grid p {
+    grid-row: 4;
+    margin: 0;
+    line-height: 20px;
+  }
 }

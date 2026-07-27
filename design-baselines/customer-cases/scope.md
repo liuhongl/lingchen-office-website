@@ -95,3 +95,35 @@
 - 当前公共资产 SHA-256：`SiteHeader=00a8a2bb1d30db5e77a6abf5825e95497d907d7c9356506f9feac9c5ec35ef76`；`SiteFooter=7f609bb217fc41e8add53c6bbee79836e7b621f9ad813643d0b77de79f762fdb`；`Logo=badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11`；`globals.css=ba347b7261262d758f39bec97659ca7b5d2810a575522194a4be442e96c34aa0`；`layout.tsx=5f62b96be5fddb33551996f8a3f343e9c3f9876016111c6fee66d5dcfc388da0`。
 - 移动端继续不纳入当前官网验收范围。
 - 追加允许修改：16 个 `/customer-cases/[slug]/` 详情页顶部导航；用户要求全部由三段面包屑统一为“← 返回上一级”。视觉真源为 `app/research/[slug]/page.tsx` 与其 `page.module.css` 的返回链接。
+
+## 2026-07-25 当前原型同步与详情模板统一
+
+- 内容真源：用户当前打开的 AI Studio 原型
+  `https://aistudio.google.com/apps/31940409-b4c4-420a-8018-a504586355a9?showPreview=true&appParams=agents&showAssistant=true`，
+  访问时间 `2026-07-25`。
+- 当前原型使用两套一级 Tab 口径：
+  - `按领域`：9 个案例，分别为 `AI出海获客=3`、`AI不良资产处置=3`、`AI法律获客与工作流=3`；
+  - `按产品`：16 个案例，保留历史按单产品拆分口径。
+- 原型中的 6 个不良资产/法律案例被两套视图共同复用；3 个四产品协同出海案例仅用于“按领域”，10 个单产品出海案例仅用于“按产品”。页面不得用一套数组覆盖另一套口径。
+- 视觉真源：既有 MasterGo 客户案例详情画板 `page_id=6:33938`、现有客户案例视觉系统，以及用户当前 12 条明确覆盖。
+- 目标桌面视口：`1576 × 1258`；移动端不在当前官网验收范围。
+- 允许修改：
+  - 客户案例当前原型数据及筛选映射；
+  - 列表到详情的来源筛选参数；
+  - 全部 `/customer-cases/[slug]/` 共用详情模板；
+  - 客户案例命名空间样式与本页证据台账。
+- 用户覆盖：
+  - 详情 Hero 上下内边距统一 60px，不设固定高度；
+  - “客户案例”移入 Hero 领域标签之后，并删除其图标及独立标题行；
+  - 摘要与正文同一行；
+  - “样本口径”与口径正文同一行；
+  - 成效表格压缩行高，变化列只保留蓝色文字；
+  - 关联产品名称紧跟“关联 AI 产品”，删除产品外框；
+  - 返回链接改纯黑，并回到来源一级/二级 Tab；
+  - 上述详情改动适用于全部案例详情页。
+- 公共资产继续冻结。开工前 SHA-256：
+  - `SiteHeader=5aef1bd27e0a0a57ffdc65dbb80df4ab5cc30aa2c17b1283f3791a17da345bfa`
+  - `SiteFooter=8732972918addddddbbcbec095ff0b2b7c34797ea74522bf019427956ceae2ae`
+  - `Logo=badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11`
+  - `BookingModal=3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`
+  - `layout=729e233f1bc80bdd025ef9baf2cb5b8cf21cd0b8a141b99803fee32fa62f71c8`

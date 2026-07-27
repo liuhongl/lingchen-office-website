@@ -122,3 +122,99 @@
 - [x] 唯一 H1、无横向溢出、无破损图片；页面预约入口继续打开公共 BookingModal。
 - [x] 截图归档于 `output/playwright/product-feedback-2026-07-24-v3/`。
 - [x] 工程四项及 `pnpm mastergo:check ai-acquisition-harness` 全部通过；本轮不宣称与旧 MasterGo 原画板严格 1:1。
+## 2026-07-24 紧凑布局与合作表格回归
+
+- Hero 高 140px；介绍区上下 padding 为 36px / 18px；技术底座标题图标数量为 0。
+- 场景表表头 14px、正文 12px、行垂直居中；场景名称已去数字前缀。
+- 合作模式为三列三行表格，落地建议背景为 `rgb(245,249,255)`。
+- `1616×1258`：`scrollWidth=clientWidth=1601`；截图位于 `visual-results/feedback-2026-07-24-batch2/harness-*.png`。
+- 移动端未纳入本轮验收。
+## 2026-07-24 区块节奏回归
+
+- 1644 × 1258 桌面视口下，Hero 与紧凑 Intro 之外 11 个常规内容 section 最终计算值均为上下 `60px`。
+- 固定高度影响已解除，横向溢出为 0。
+
+## 2026-07-25 浏览器批注回归
+
+- [x] 产品导航与唯一 H1 更新为“AI销售获客Harness”；H1 两段在桌面截图中同一行显示。
+- [x] Hero 高度由内容撑开，计算值 `height=522px`、`padding-top=60px`、`padding-bottom=60px`；两段正文宽度均为内容容器全宽。
+- [x] 一级认知标题按用户逐字覆盖；图标与卡片标题同一行并垂直居中。
+- [x] 优势卡、技术底座、指标卡、价值卡、场景卡、案例卡删除固定/最小高度；场景卡计算上下内边距均为 `20px`。
+- [x] 黄金矩阵标题与正文同一行；场景表四行标题删除序号，前两列垂直居中。
+- [x] 价值跃迁表头与正文前缀按用户覆盖更新。
+- [x] 服务保障面板内容驱动高度，计算上下内边距均为 `30px`。
+- [x] Closing 删除固定/最小高度，计算值 `height=247.2px`、上下内边距均为 `60px`。
+- [x] 唯一 H1、无横向溢出；预约 CTA 打开公共 `BookingModal`，关闭后 dialog 数量恢复为 0。
+- [x] 截图：`visual-results/feedback-2026-07-25-browser-comments/harness-hero-1280x720.png`、`harness-closing-1280x720.png`。用户批注证据为 1576×1258；受当前浏览器控制层 CSS 视口限制，本地截图为 1280×720，因此本轮结论为“已视觉校准”，不宣称旧 MasterGo 严格 1:1。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check ai-acquisition-harness` 全部 PASS。
+- [x] Header、Footer、BookingModal、BookingTrigger、Logo 哈希与开工基线一致；`SolutionTabs` 的变更仅为本轮用户授权的产品名称。
+
+## 2026-07-26 20:27 纯文字批注回归
+
+- [x] BC-13：第一张应用卡从 `160.98px` 最小降至 `152.98px`，上下 padding `16px`，内容溢出 0。
+- [x] BC-14：模式 1 徽标与标题同排且中心差 0；新 selector 已记录于批次台账。
+- [x] BC-05：Hero、优势、成果、应用、合作五个区块级 lead 计算色均为 `rgb(17,24,39)`。
+- [x] 页面唯一 H1、横向溢出 0；局部截图为 `output/playwright/browser-comments-2026-07-26/08-09-*.png`。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check ai-acquisition-harness` 全部 PASS。
+- 当前完成等级：已视觉校准；本轮为用户覆盖，不新增旧 MasterGo 严格 1:1 声明。
+
+## 2026-07-26 浏览器批注第二批增量验收
+
+- ID 20–25 内容与视觉双验收 PASS；旧 BC-13–BC-14 继续作为叠加门禁。
+- 痛点卡降至 283px；优势区背景统一；应用场景为连续表格；两张合作卡标签与标题同排、内容驱动。
+- 1576×1258 横向溢出为 0；证据见 `output/playwright/browser-comments-round2-2026-07-26/ai-harness-*.png`。
+- 本节最终门禁：lint、tsc、build、diff check 与 `mastergo:check ai-acquisition-harness` 全部 PASS。
+
+## 2026-07-27 浏览器批注第三批增量验收
+
+- 应用场景表三列 `border-right` 均为 `0px`，仅保留横向分行。
+- 两张合作模式卡实测均高 `224.59px`，内容溢出为 `0`。
+- 同视口截图：`output/playwright/browser-comments-round3-2026-07-27/04-harness-applications-1576x1258.png`、`05-harness-deployment-1576x1258.png`。
+- 页面横向溢出为 `0`；视觉人工复核 PASS。
+- 工程门禁与 `pnpm mastergo:check ai-acquisition-harness` 均 PASS。
+- 移动端未纳入当前官网范围；本批不更新旧 MasterGo 严格 1:1 结论。
+
+## 2026-07-27 浏览器批注第四批
+
+- R4-11、R4-15–18 内容/视觉双验收 PASS：对比卡 `142.5px`，核心图标 `56×56px` 等比，差异面板上下留白均 `21px`，指引图标无深色底。
+- 指引图标使用已有 MasterGo 导出记录的透明 SVG，不新绘、不使用近似图标库；证据见本页视觉台账。
+- 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/ai-acquisition-harness-full-1576.png`；横向溢出 0。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check ai-acquisition-harness` PASS；移动端不在范围，不声明新的 MasterGo 1:1。
+
+## 2026-07-27 浏览器批注第六批
+
+- R6-01–02 内容/视觉双验收 PASS：三卡图标均 48×48px，Grid 图标列 48px、gap 20px，标签位置一致且无裁切。
+- 1576×1258 分区与全页证据：`output/playwright/browser-comments-round6-2026-07-27/01-acq-core-after.png`、`full-product-acq.png`；横向溢出 0。
+- Header“立即体验”实点打开公共 BookingModal，Escape 与滚动锁定恢复 PASS。
+- lint、tsc、build、diff check 与 `mastergo:check ai-acquisition-harness` PASS；公共资产哈希未变；移动端不在范围，不声明新的 1:1。
+
+## 2026-07-27 浏览器批注第六批
+
+- `.acq-case-cards > article` 两卡实测均 `144.06px`，四边内边距 `20px`，`min-height:0`，内容溢出 `0`，同排等高。
+- 同视口局部证据：`output/playwright/browser-comments-round6-2026-07-27/10-harness-cases-after-1576x1258.png`；全页证据：`ai-acquisition-harness-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 预约入口打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check ai-acquisition-harness` PASS；移动端不在范围，不新增 1:1 声明。
+
+## 2026-07-27 浏览器批注第七批
+
+- 合作模式表头由 `82px` 收紧为 `52px`；padding 为 `10px 20px`，三列文字完整，内容溢出 `0`；两条数据行保持原高度。
+- 同视口局部证据：`output/playwright/browser-comments-round7-2026-07-27/05-harness-modes-after-1576x1258.png`；全页证据：`ai-acquisition-harness-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 预约入口打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check ai-acquisition-harness` PASS；移动端不在范围；本轮不新增 MasterGo 1:1 声明。
+
+## 2026-07-27 浏览器批注第八批
+
+- 首组五卡正文与标题行的间距全部为 `10px`；五个序号全部为 `36×36px`、字号 `15px`，内容溢出均为 `0`。
+- 业务流四卡从 `176px` 收紧到 `135.89px`，四卡同排等高、padding `20px`、`min-height:0`、内容溢出 `0`。
+- 同视口证据：`output/playwright/browser-comments-round8-2026-07-27/03-harness-reasons-after-1576x1258.jpg`、`04-harness-flow-after-1576x1258.jpg`。
+- 页面横向溢出与破图均为 `0`、唯一 H1；lint、tsc、build、diff check 与 `mastergo:check ai-acquisition-harness` 全部 PASS。
+- 移动端未纳入当前官网范围；本轮不新增 MasterGo 1:1 声明。
+
+## 2026-07-27 浏览器批注第九批
+
+- 五张原因卡标题行全部距卡顶 `21px`，绝对 top 一致；正文间距保持 `10px`，卡高保持 `191.98px`，内容溢出均为 `0`。
+- 面包屑取消 compact 特例，统一为 `74px` 完整模式；返回符号、预约 CTA 与其他六页一致，滚动吸附 top `66px`。
+- 新显示的面包屑预约 CTA 实点打开唯一公共 BookingModal，焦点、滚动锁定和 Escape 关闭 PASS。
+- 同视口证据：`output/playwright/browser-comments-round9-2026-07-27/02-harness-title-row-after-1576x1258.jpg`。
+- 页面横向溢出、破图与浏览器 error 均为 `0`；`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check ai-acquisition-harness` 全部 PASS。
+- 移动端未纳入当前官网范围；本轮不新增 MasterGo 1:1 声明。

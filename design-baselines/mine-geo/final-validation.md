@@ -62,3 +62,74 @@
 - [x] 1616px 桌面视口唯一 H1、无横向溢出、无破损图片。
 - [x] 局部截图归档于 `output/playwright/product-feedback-2026-07-24-v2/`。
 - [x] 工程四项及 `pnpm mastergo:check mine-geo` 全部通过；本轮不更新历史 MasterGo 1:1 结论。
+## 2026-07-24 三列表格与间距回归
+
+- 传统方案表头为「验证维度 / 传统做法 / Mine GEO 闭环」，每行三个真实文本节点；表头 14px，正文 12px。
+- Hero 与闭环区块取消固定高度并使用 60px 上下 padding。
+- `1616×1258`：`scrollWidth=clientWidth=1601`；全页截图 `visual-results/feedback-2026-07-24-batch2/mine-geo-full-1616.png`。
+- 移动端未纳入本轮验收。
+## 2026-07-24 区块节奏回归
+
+- 1644 × 1258 桌面视口下，Hero 之外 9 个内容 section 最终计算值均为上下 `60px`。
+- 原先 72/88/92px 的离散间距已统一，横向溢出为 0。
+
+## 2026-07-25 浏览器批注验证
+
+- Hero H1 计算为横向 flex，两段文字同排；两段正文右边界与 Hero 容器相差 `0px`。
+- 五张能力卡均为上下 padding `20px`、`min-height=0px`，图标与标题中心差 `0px`；监控卡不再跨列。
+- 痛点卡、场景行、路径卡、价值卡、合作卡均为 `min-height=0px`；三张合作卡实际高度 `263 / 287 / 287px`。
+- Closing 为上下 `60px`、`min-height=0px`，标题运行态按两行输出且无横线；正文宽度 `1200px`。
+- 横向溢出 `0`；顶部分区截图：`visual-results/feedback-2026-07-25-browser-comments/mine-geo-top-1576x1258.png`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check mine-geo` 全部 PASS。
+
+## 2026-07-26 20:27 纯文字批注验证
+
+- [x] BC-07：`#mgs-capabilities-title` 逐字为 `一、 五大能力 · 一个闭环`。
+- [x] BC-08：七个主体 section 的左右内容边界均与公共 Header `1200px` shell 一致。
+- [x] BC-09 / BC-10：核心功能三、四均为 `height:auto`，实测 `358px`，`scrollHeight=clientHeight=356px`。
+- [x] BC-11：模式 1 卡从 `271px` 降至 `263px`，内容溢出 0。
+- [x] BC-12：模式 2 徽标与标题同排且中心差 0；新 selector 已记录于批次台账。
+- [x] BC-05：当前可见区块级导语计算色均为 `rgb(17,24,39)`；不存在的三个空 selector 记为 `N/A`，未补写文案。
+- [x] 页面唯一 H1、横向溢出 0；局部截图为 `output/playwright/browser-comments-2026-07-26/05-07-*.png`。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check mine-geo` 全部 PASS。
+- 当前完成等级：已视觉校准；本轮为用户覆盖，不新增旧 MasterGo 严格 1:1 声明。
+
+## 2026-07-26 浏览器批注第二批增量验收
+
+- ID 17–19、26–28 内容与视觉双验收 PASS；旧 BC-07–BC-12 在新结构下继续满足。
+- 四个成果标题无换行，九个表格单元格垂直居中，三张合作卡内容驱动且 padding 一致。
+- 1576×1258 横向溢出为 0；证据见 `output/playwright/browser-comments-round2-2026-07-26/mine-geo-*.png`。
+- 本节最终门禁：lint、tsc、build、diff check 与 `mastergo:check mine-geo` 全部 PASS。
+
+## 2026-07-27 浏览器批注第三批增量验收
+
+- 优势卡标题为 `18/26px` 单行显示，图标为 `44×44px`，无裁切或横向溢出。
+- 场景表三行实测 `121/97/97px`，单元格上下 padding 为 `12px`。
+- 三张合作模式卡实测均高 `245px`，内容溢出为 `0`。
+- 同视口截图：`output/playwright/browser-comments-round3-2026-07-27/06-mine-advantages-1576x1258.png`、`07-mine-scenarios-1576x1258.png`、`08-mine-cooperation-1576x1258.png`。
+- 页面横向溢出为 `0`；视觉人工复核 PASS。
+- 工程门禁与 `pnpm mastergo:check mine-geo` 均 PASS。
+- 移动端未纳入当前官网范围；本批不更新旧 MasterGo 严格 1:1 结论。
+
+## 2026-07-27 浏览器批注第四批
+
+- R4-11、R4-19–21 内容/视觉双验收 PASS：双色对比模块上下均 `60px`、卡高 `169.28px`；工作流标题 `margin-top:0`；三张合作卡付费行距卡顶均 `81px`。
+- 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/mine-geo-full-1576.png`；横向溢出 0。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check mine-geo` PASS；移动端不在范围，不声明新的 MasterGo 1:1。
+
+## 2026-07-27 浏览器批注第五批
+
+- R5-MG-01–07 内容门禁 PASS：没有修改 Mine GEO 可见字符串或图标文件。
+- Hero 为完整 `#f8fafc` 背景，下一模块为 `#f1f5f9`；两张对比卡间距 `20px`、等高 `171.28px`，图标白色角区不可见。
+- 五张能力编号均为 `40×40px / 16px`；能力正文实际上距均 `18.5px`，四张工作流正文实际上距均 `19.25px`；九张卡内容溢出均为 0。
+- `1576×1258` 下唯一 H1、横向溢出 0；懒加载图片滚动触发后无破损图片；浏览器 error 日志为 0。
+- Header “立即体验”打开唯一 `BookingModal`，滚动锁定、焦点进入弹窗、Escape 关闭均 PASS。
+- 截图：`output/playwright/browser-comments-round5-2026-07-27/03-mine-top-after-1576x1258.png`、`04-mine-workflow-after-1576x1258.png`、`07-mine-geo-full-after-1576.png`。
+- `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check mine-geo` 全部 PASS。
+- 当前完成等级：已视觉校准；本批次没有相同视口 MasterGo 原画板，不新增 1:1 声明。移动端未纳入范围。
+
+## 2026-07-27 浏览器批注第九批
+
+- 面包屑取消 compact 特例，统一为 `74px` 完整模式；返回符号、预约 CTA 与其余六个产品详情页一致，滚动后吸附 top `66px`。
+- 七页共享回归均为横向溢出 `0`、破图 `0`、唯一 H1。
+- `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check mine-geo` 全部 PASS；移动端不在范围，本轮不新增 MasterGo 1:1 声明。

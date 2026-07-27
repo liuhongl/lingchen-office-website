@@ -31,7 +31,7 @@ function RichText({ block }: { block: TextBlock }) {
     if (segment.underline) content = <u>{content}</u>;
     const segmentStyle: CSSProperties = {};
     if (segment.color) segmentStyle.color = segment.color;
-    if (segment.fontSizePt) segmentStyle.fontSize = `${segment.fontSizePt}pt`;
+    if (segment.fontSizePt) segmentStyle.fontSize = `${Math.max(segment.fontSizePt, 9)}pt`;
     return <span key={`${block.id}-${index}`} style={Object.keys(segmentStyle).length ? segmentStyle : undefined}>{content}</span>;
   });
 }
@@ -100,7 +100,7 @@ function docxParagraphStyle(block: TextBlock): CSSProperties | undefined {
   if (layout.hangingTwips !== undefined) style.textIndent = twipsToPixels(-layout.hangingTwips);
   if (layout.lineTwips !== undefined && layout.lineRule === "auto") style.lineHeight = layout.lineTwips / 240;
   if (layout.lineTwips !== undefined && layout.lineRule === "exact") style.lineHeight = twipsToPixels(layout.lineTwips);
-  if (layout.fontSizePt !== undefined) style.fontSize = `${layout.fontSizePt}pt`;
+  if (layout.fontSizePt !== undefined) style.fontSize = `${Math.max(layout.fontSizePt, 9)}pt`;
   if (layout.alignment === "both") style.textAlign = "justify";
   if (layout.alignment === "center") style.textAlign = "center";
   if (layout.backgroundColor) style.backgroundColor = layout.backgroundColor;

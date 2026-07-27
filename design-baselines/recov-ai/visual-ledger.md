@@ -39,3 +39,19 @@
 | 2026-07-24-HERO | Hero | DeepLaw 同系浅色渐变，正文深色 | 用户浏览器批注 9 | PASS；`output/playwright/product-feedback-2026-07-24-v3/recov-hero-1616x1258.png` |
 | 2026-07-24-RESULTS | 商业实效 | 正文满宽、结果卡 2×2、流程框浅色左对齐 | 用户浏览器批注 13-15 | PASS；正文 1200px、卡片列 590px + 590px；`output/playwright/product-feedback-2026-07-24-v3/recov-results-1616x1258.png` |
 | 2026-07-24-SCENES | 场景表 | 沿用合作模式的边框、表头和行分隔 | 用户浏览器批注 17 | PASS；圆角 12px、无横向溢出 |
+| R-V11 | 全部正文大模块 | 用户 2026-07-24 浏览器批注 | `height:auto; min-height:0; padding-block:60px`；Hero 除外 | CONFIRMED |
+| R-V12 | 商业实效背景 | 用户 2026-07-24 浏览器批注 | 独立浅蓝 `#eef5ff`，与相邻模块背景可辨识 | CONFIRMED |
+
+## 2026-07-27 浏览器批注第四批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| R-R4-01 | 压力卡序号 | 三项均为深黑 | 跟随指标蓝/蓝/红 | PASS |
+| R-R4-02 | 四张流程图标 | 93px 正式 SVG 被二次缩小；文书图标为 16×13.6 白色正式图层 | 原图层裁切到 48px 容器，图形清晰可见 | PASS |
+| R-R4-03 | 同类价值卡 | `padding:22px` | `padding:20px` | PASS |
+
+## 2026-07-27 浏览器批注第六批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| `.recov-case-grid > article` 两卡 | `258.5px`；padding `27px` | 四边 `20px`、内容撑高；实测两卡均 `244.5px`、内容溢出 `0` | PASS |

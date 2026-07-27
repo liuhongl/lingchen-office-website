@@ -62,3 +62,59 @@
 - [x] 1616px 桌面视口唯一 H1、无横向溢出、无破损图片。
 - [x] 局部截图归档于 `output/playwright/product-feedback-2026-07-24-v2/`。
 - [x] 工程四项及 `pnpm mastergo:check social-grow` 全部通过；本轮不更新历史 MasterGo 1:1 结论。
+## 2026-07-24 间距与表格批次回归
+
+- 各主体区块上下 padding 统一为 60px；对比表行高约 65px、无列间竖线；合作模式改为逐行对应表格。
+- `1616×1258`：`scrollWidth=clientWidth=1601`。
+- 截图：`visual-results/feedback-2026-07-24-spacing/social-grow-1616x1258.png`。
+- 移动端未纳入本轮验收。
+## 2026-07-24 区块节奏回归
+
+- 1644 × 1258 桌面视口下，Hero 之外 5 个内容 section 最终计算值均为上下 `60px`。
+- 固定高度影响已解除，横向溢出为 0。
+
+## 2026-07-25 浏览器批注验证
+
+- Hero / Closing 均为上下 `60px`、`min-height=0px`；两段 Hero 正文右边界与 `.sgs-shell` 相差 `0px`。
+- 标题运行态为“一、 产品带来的直接改变”；六处痛点标签均为“传统痛点与挑战”。
+- 绿色结果指标字号为 `38px`；Closing 正文高度等于单行行高 `30px`。
+- 横向溢出 `0`；顶部分区截图：`visual-results/feedback-2026-07-25-browser-comments/social-grow-top-1576x1258.png`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check social-grow` 全部 PASS。
+
+## 2026-07-26 20:27 纯文字批注验证
+
+- [x] BC-03：第一张蓝卡图标位于左侧，文字位于右侧；两者中心差 `0px`，说明文字无横向裁切。
+- [x] BC-04：四行场景表共 12 个单元格均为纵向 flex、`justify-content:center`。
+- [x] BC-05：四个区块级副标题计算色均为 `rgb(17,24,39)`；全站同类项盘点与回归见 `solution-batch/light-text-inventory-2026-07-26.md`。
+- [x] BC-06：仅第二张合作卡标题下距从 `23px` 收紧至 `16px`。
+- [x] 页面唯一 H1、横向溢出 0；局部截图为 `output/playwright/browser-comments-2026-07-26/02-04-*.png`。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check` 与 `pnpm mastergo:check social-grow` 全部 PASS。
+- 当前完成等级：已视觉校准；本轮为用户覆盖，不新增旧 MasterGo 严格 1:1 声明。
+
+## 2026-07-26 浏览器批注第二批增量验收
+
+- ID 9–16 内容与视觉双验收 PASS；四张改变卡图标在前、标题在后且垂直居中，场景与成果调整均有计算样式和同视口截图。
+- 1576×1258 横向溢出为 0；证据见 `output/playwright/browser-comments-round2-2026-07-26/social-grow-*.png`。
+- 本节最终门禁：lint、tsc、build、diff check 与 `mastergo:check social-grow` 全部 PASS。
+
+## 2026-07-27 浏览器批注第四批
+
+- R4-11、R4-22–25 内容/视觉双验收 PASS：生产线 `height:auto`，浅色模块正文黑色，深蓝最终卡正文白色，同类结果价值卡 `padding:20px`。
+- 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/social-grow-full-1576.png`；横向溢出 0。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check social-grow` PASS；移动端不在范围，不声明新的 MasterGo 1:1。
+
+## 2026-07-27 浏览器批注第五批
+
+- R5-SG-01 内容门禁 PASS：场景表结构与全部可见字符串保持不变。
+- 四行非标题正文统一为 `14px / 21.7px`，四行均高 `115.75px`，所有单元格内容溢出为 0。
+- `1576×1258` 下唯一 H1、无横向溢出、无破损图片；“立即预约体验该产品”打开唯一 `BookingModal`，滚动锁定、焦点与 Escape 关闭均 PASS。
+- 前后截图：`output/playwright/browser-comments-round5-2026-07-27/02-social-scenarios-before-1576x1258.png`、`05-social-scenarios-after-1576x1258.png`；全页截图：`06-social-grow-full-after-1576.png`。
+- `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check social-grow` 全部 PASS。
+- 当前完成等级：已视觉校准；本批次没有相同视口 MasterGo 原画板，不新增 1:1 声明。移动端未纳入范围。
+
+## 2026-07-27 浏览器批注第六批
+
+- `.social-grow-scenario-cards > article` 两卡实测均 `166.17px`，四边内边距 `20px`，`min-height:0`，内容溢出 `0`，同排等高。
+- 同视口局部证据：`output/playwright/browser-comments-round6-2026-07-27/09-social-cases-after-1576x1258.png`；全页证据：`social-grow-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check social-grow` PASS；移动端不在范围，不新增 1:1 声明。

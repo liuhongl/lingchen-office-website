@@ -76,3 +76,10 @@
 - 范围：用户标注的 16 处布局、间距、序号、图标、指标与分区背景。
 - 公共 Header、Footer、Logo、BookingModal、BookingTrigger 保持冻结。
 - 本轮全页截图：`user-review-full-local-1671.png`。
+
+## 2026-07-25 内容源统一覆盖
+
+- 用户确认 `/solutions/products/recov-ai/` 的页面内容与 `/solutions/non-performing-assets/` 相同。
+- 两条路由继续保留各自入口与 metadata；可见主体统一复用 `NonPerformingAssetsContent`，不再维护两套重复 JSX。
+- 产品专项路由的 Header、产品 Tab 与 Footer 继续由 `app/solutions/products/layout.tsx` 提供；综合解决方案路由继续使用自身页面壳，避免重复渲染公共组件。
+- 视觉与可见内容以当前 `/solutions/non-performing-assets/` 页面为唯一运行真源；移动端未纳入本轮范围。

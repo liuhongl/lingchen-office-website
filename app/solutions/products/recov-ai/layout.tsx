@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import "./prototype-sync.css";
+import "../../non-performing-assets/user-review.css";
 
 export const metadata: Metadata = {
   title: { absolute: "批量债权催收解决方案｜Recov AI｜灵宸智能" },

@@ -43,3 +43,18 @@
 | CC-DETAIL-BACK-01 | 16 个案例详情页顶部导航 | 首页 › 客户案例 › 当前案例标题 | 全部替换为“← 返回上一级”，目标 `/customer-cases/` | `app/customer-cases/[slug]/page.tsx` | PASS：共享详情模板与返回跳转核对 |
 
 本次不修改 16 个案例标题、摘要、领域或关联产品文案。
+
+## 2026-07-25 当前原型双视图与详情模板覆盖
+
+| 文本 ID | 区块 | 当前内容真源 | 用户确认覆盖 | 代码位置 | 核对状态 |
+|---|---|---|---|---|---|
+| CC-VIEW-01 | 按领域 → 全部 | 当前交互原型共 9 条：出海获客 3 条、AI 不良资产处置 3 条、AI 法律获客与工作流 3 条 | 按当前原型逐字同步 | `data/customer-cases.overseas-current.json`、`lib/customer-cases.ts` | PASS：DOM 实测 9/9 |
+| CC-VIEW-02 | 按领域 → AI出海获客 | 深圳储能热管理、杭州机器视觉、苏州半导体真空设备 3 个四产品协同案例 | 按当前原型逐字同步 | 同上 | PASS：DOM 实测 3/3 |
+| CC-VIEW-03 | 按产品 → 全部 | 原型按产品视图保留既有 16 个产品专项案例 | 不被按领域新案例覆盖 | `data/customer-cases.prototype.json`、`lib/customer-cases.ts` | PASS：DOM 实测 16/16 |
+| CC-DETAIL-01 | Hero 元信息 | 当前领域标签；客户案例 | “客户案例”移到领域标签之后 | `app/customer-cases/[slug]/page.tsx` | PASS |
+| CC-DETAIL-02 | 摘要 | 摘要；案例摘要原文 | 标题与正文同一行 | 同上 | PASS |
+| CC-DETAIL-03 | 样本口径 | 样本口径；样本说明原文 | 标签与正文同一行 | 同上 | PASS |
+| CC-DETAIL-04 | 关联产品 | 关联 AI 产品；产品名称 | 产品名称紧跟标题，删除外框 | 同上 | PASS |
+| CC-DETAIL-BACK-02 | 返回链接 | ← 返回上一级 | 返回进入详情前的一级、二级 Tab | `app/customer-cases/[slug]/customer-case-back-link.tsx` | PASS：按产品 → Recov AI 回归实测 |
+
+双视图不共享同一份“出海获客”案例集合；领域视图与产品视图按当前原型分别取数。既有 AI 不良资产处置与 AI 法律获客案例在两种视图中复用。

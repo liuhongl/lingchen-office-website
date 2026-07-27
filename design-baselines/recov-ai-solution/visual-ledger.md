@@ -170,3 +170,9 @@
 | 解决方案流程 | 图标尺寸与标签不折行，内容居中 | 同上 | PASS |
 | 结果指标与价值流 | 指标去除重复文字箭头，正式图标着色并居中 | 同上 | PASS |
 | 交付与合作 | 单列纵向结构、圆角编号与强调面板 | 同上 | PASS |
+
+## 2026-07-25 页面复用视觉覆盖
+
+- `/solutions/products/recov-ai/` 的主体 DOM 与样式统一复用 `/solutions/non-performing-assets/` 当前页面。
+- 产品专项路由加载 `app/solutions/non-performing-assets/user-review.css`，不再加载旧 `.ras-*` 专属覆盖。
+- 验收标准：两条路由 `.npa-page` 的区块数量、类名序列、可见文字与计算宽高一致；公共 Header/Footer 各自仅渲染一次。

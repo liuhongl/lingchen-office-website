@@ -18,11 +18,26 @@
 | PM-V0108 | 01 | 交付结果与描述 | 卡片内容宽 | 间距 6px/24px | 13px / 700 与 14px / 400 / 1.75 | 官网蓝与 `#526078` | 无 | `.product-card__result` / `__description` | PASS |
 | PM-V0109 | 01 | 卡片底部 | 卡片底边 | margin-top auto | 13px / 600 | 蓝灰；链接为深蓝 | 顶部细分隔线 | `.product-card__footer` | PASS |
 | PM-V0110 | 01 | 箭头图标 | 16×16 | 与链接 7px gap | 无 | currentColor | 无 | `lucide-react` `ArrowRight` | PASS |
+| PM-V0111 | 01 | 前五张出海类卡片默认 / Hover | 同通用卡片 | padding 与网格不变 | 默认深色文字；Hover 白色文字 | 默认 `linear-gradient(135deg, rgba(191,219,254,.96), rgba(147,197,253,.88))`；Hover `#1d4ed8` | 默认 `rgba(96,165,250,.95)`；Hover 同色；2px 圆角；Hover `6px 6px rgba(29,78,216,.15)` | 原型 `.geo-card-outbound` / `:hover` 实际 CSS；`02-products-default.png`、`03-products-outbound-focus.png` | PASS |
+| PM-V0112 | 01 | Recov AI 默认 / Hover | 同通用卡片 | 同上 | 默认深色文字；Hover 白色文字 | 默认 `linear-gradient(135deg, rgba(254,243,199,.95), rgba(253,230,138,.82))`；Hover `#ca8a04` | 默认 `#fcd34d`；Hover 同色；2px 圆角；Hover `6px 6px rgba(202,138,4,.15)` | 原型 `.geo-card-legal` / `:hover` 实际 CSS；`02-products-default.png`、`04-products-recov-focus.png` | PASS |
+| PM-V0113 | 01 | DeepLaw 默认 / Hover | 同通用卡片 | 同上 | 默认深色文字；Hover 白色文字 | 默认 `linear-gradient(135deg, rgba(209,250,229,.95), rgba(167,243,208,.82))`；Hover `#047857` | 默认 `#6ee7b7`；Hover 同色；2px 圆角；Hover `6px 6px rgba(4,120,87,.15)` | 原型 `.geo-card-debt` / `:hover` 实际 CSS；`02-products-default.png`、`05-products-deeplaw-focus.png` | PASS |
+| PM-V0114 | 01 | 七张卡片最新密度 | 等宽；最小高 320px | 上下 20px、左右 28px；正文与底部区上间距 16px | 沿用现有字体 | 沿用三类配色 | 1px 现有分类边框；5px 圆角；阴影不变 | 2026-07-26 用户浏览器批注；`visual-results/feedback-2026-07-26/products-card-density-1576x1258.png` | PASS |
 
 ## 区块门禁结论
 
 - 元素总数：10
-- `PASS`：10
+- `PASS`：14
 - 阻塞：0
-- 未通过：0
-- 结论：允许进入实现；页面无 MasterGo 1:1 资格
+- 待本轮复核：0
+- 结论：原型默认态与三类交互态均已复验；页面无 MasterGo 1:1 资格
+
+## 2026-07-24 三类卡片浏览器实测
+
+- 前五张卡片计算样式：默认蓝色渐变和 `rgba(96,165,250,.95)` 边框；键盘焦点态为 `#1d4ed8`，文字白色，阴影 `rgba(29,78,216,.15) 6px 6px`。
+- Recov AI：默认黄色渐变和 `#fcd34d` 边框；焦点态为 `#ca8a04`，文字白色，阴影 `rgba(202,138,4,.15) 6px 6px`。
+- DeepLaw：默认绿色渐变和 `#6ee7b7` 边框；焦点态为 `#047857`，文字白色，阴影 `rgba(4,120,87,.15) 6px 6px`。
+- 七张卡片圆角均为 2px；产品矩阵在 `1280 × 720` 桌面视口 `scrollWidth=clientWidth=1265`，无横向溢出。
+- 本轮没有新增或替换图标、图片素材。
+- 2026-07-26 在 `1576 × 1258` 桌面视口实测：七张卡片均为 `464 × 320px`；计算圆角均为 `5px`；内边距均为 `20px 28px`；正文上间距与 Footer 上内边距均为 `16px`；页面横向溢出 `0px`。
+
+| PM-V2403 | 产品矩阵容器 | 用户浏览器批注 1 | 桌面最大宽度 1440px，左右保留至少 32px；三列及 24px gap 不变 | CONFIRMED |

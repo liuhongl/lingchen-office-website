@@ -136,3 +136,46 @@
 | 统一基石 | 蓝绿渐变独立面板 | 同上 | PASS |
 | 合作模式 | RaaS 蓝色、数字员工绿色；增加正文内边距 | 同上 | PASS |
 | Closing | 高度 260px，上下留白平衡 | 同上 | PASS |
+
+## 2026-07-24 浏览器批注视觉覆盖
+
+| 元素 ID | 区块 | 用户覆盖 | 精确实现要求 | 门禁状态 |
+|---|---|---|---|---|
+| V-2401 | Hero | Eyebrow 上间距减半 | 桌面运行时 `padding-top:40px` | PASS |
+| V-2402 | Hero | 主 CTA 到概述间距约为原三分之一 | Hero 内容撑高，运行时 CTA 至概述为 50px；原值 148px | PASS |
+| V-2403 | 概述 | 与其他模块区分背景 | 独立 `#f5f7fa` 背景，与 Hero 浅蓝渐变明确分区 | PASS |
+| V-2404 | 压力卡 | 指标移到图标同行右端 | 三张卡运行时均为左右对齐、垂直居中的指标行 | PASS |
+| V-2405 | 正文 section | 上下间距统一且内容撑高 | 桌面端运行时 `padding-block:60px; height:auto; min-height:0` | PASS |
+| V-2406 | 7.4 | 统一基石结论迁入底部居中 | 结论与两张合作卡之间 24px；居中 | PASS |
+| V-2407 | 为什么选择 | 标题到卡片间距缩小 | 运行时 `.npa-why-grid` 上间距 36px | PASS |
+| NPA-V2501 | 身份卡 | 用户 2026-07-25 浏览器批注 | `height:auto; min-height:0`；头部三元素水平、垂直居中，强度靠右 | CONFIRMED |
+| NPA-V2502 | 上线节奏 | 用户 2026-07-25 浏览器批注 | 删除蓝点；相邻卡片间使用位于卡片中线的箭头 | CONFIRMED |
+# 2026-07-26 浏览器批注视觉台账
+
+| 元素 | 精确规则 | 视觉保留 | 状态 |
+|---|---|---|---|
+| 压力卡 | `height:auto; min-height:0; padding:24px` | 指标色、正式图标、边框与圆角不变 | PASS |
+| 司法闭环卡 | 编号与标题同行，编号字号继承标题；内容撑高 | 现有卡片外观不变 | PASS |
+| 语义分析 / 能力矩阵 | 删除固定高度，正文黑色 `#111827` | 背景与边框不变 | PASS |
+| 应用场景卡 | 图标与标题同行，正文黑色，内容撑高 | MasterGo 正式图标不变 | PASS |
+| 选择理由卡 | 编号与标题同行，正文黑色，内容撑高 | 编号色块不变 | PASS |
+
+- 同视口证据：`visual-results/feedback-2026-07-26/non-performing-assets-top-1576x1258.png`、`non-performing-assets-middle-1576x1258.png`、`non-performing-assets-lower-1576x1258.png`、`non-performing-assets-end-1576x1258.png`、`non-performing-assets-why-1576x1258.png`（均位于同一目录）。
+
+## 2026-07-26 浏览器批注第二批
+
+| 元素 | 采样前 | 用户覆盖后 | 状态 |
+|---|---|---|---|
+| 第四张成果卡 | 206px 固定高 | 174px 内容驱动、`align-self:start` | PASS |
+| `7×24` 数值容器 | 88px 固定高、下距 0 | 46px 内容高、下距 16px | PASS |
+| `零容忍` | 40/48px | 34/42px | PASS |
+
+证据：`output/playwright/browser-comments-round2-2026-07-26/non-performing-assets-*.png`。
+
+## 2026-07-27 浏览器批注第三批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| NPA-R3-01 | 能力矩阵导语 | `rgb(132,147,166)` | `rgb(17,24,39)` | PASS |
+| NPA-R3-02 | 能力基座四卡正文 | `rgb(138,153,173)` | 四卡均 `rgb(17,24,39)` | PASS |
+| NPA-R3-03 | 四张成果卡 | `206/206/206/174px` | 实测 `174/174/174/174px`，内容溢出 `0` | PASS |

@@ -62,3 +62,93 @@
 - `.acq-tech` 去掉深蓝填充，使用透明背景与现有边框体系；文字切回深色以保持可读性。
 - `.acq-tech p` 为 14px。
 | 2026-07-24-TABLE | 价值跃迁三列、场景四列 | 普通浅色表格；各列独立；列间距 20px；桌面 1616×1258 验收 | 用户浏览器批注 1-4 | PASS；`output/playwright/product-feedback-2026-07-24-v3/harness-value-cua2-1616x1258.png`、`harness-cases-cua-1616x1258.png` |
+| AHS-V2404 | Hero / 介绍 | 用户浏览器批注 6-7 | 取消固定高度，使用紧凑内容 padding；介绍区下间距接近段落间距 | CONFIRMED |
+| AHS-V2405 | 场景与合作表格 | 用户浏览器批注 9-14 | 表头 14px/700，正文 12px；行垂直居中；合作卡改表格；提示框浅色 | CONFIRMED |
+| AHS-V2406 | 全部正文大模块 | 用户 2026-07-24 浏览器批注 | `height:auto; min-height:0; padding-block:60px`；Hero、介绍区除外 | CONFIRMED |
+
+## 2026-07-25 浏览器视觉覆盖
+
+| 元素 ID | 区块 | 用户覆盖 | 实现要求 | 状态 |
+|---|---|---|---|---|
+| AHS-V2501 | Hero | 上下内容间距统一 60px，合适高度 | `height:auto; min-height:0; padding-block:60px`，内容自然撑高 | CONFIRMED |
+| AHS-V2502 | Hero 标题 | 两段同一行 | 标题组横向排列、基线对齐、禁止桌面端换行 | CONFIRMED |
+| AHS-V2503 | Hero 正文 | 撑满右侧宽度 | 两段正文宽度 `100%`，不再保留旧 1080/1120px 固定宽度 | CONFIRMED |
+| AHS-V2504 | 一级认知卡 | 标题位于图标右侧 | 图标与标题同一行、垂直居中、间距 12px；卡片内容驱动高度 | CONFIRMED |
+| AHS-V2505 | 黄金矩阵 | 标题与正文同一行 | 左侧图标、标题、正文整体垂直居中 | CONFIRMED |
+| AHS-V2506 | 优势与技术底座 | 删除固定高度 | `height:auto; min-height:0`；优势卡上下 20px，技术底座自然撑高 | CONFIRMED |
+| AHS-V2507 | 成果卡 | 收紧高度并删除固定高度 | 指标卡、价值卡上下 20px，内容自然撑高 | CONFIRMED |
+| AHS-V2508 | 场景卡 | 前两列垂直居中 | 卡片无固定/最小高度，上下 20px；前两列 `justify-content:center` | CONFIRMED |
+| AHS-V2509 | 案例卡 | 卡片上下 20px | 删除固定/最小高度，由内容与内边距撑开 | CONFIRMED |
+| AHS-V2510 | 服务保障面板 | 高度调小 | 删除固定/最小高度，上下内边距 30px | CONFIRMED |
+
+- 同视口验收目标：`1576 × 1258`；需要复核唯一 H1、无横向溢出、指定卡片计算高度为 `auto` 结果且上下内边距符合覆盖值。
+
+## 2026-07-26 20:27 浏览器批注视觉覆盖
+
+| 元素 ID | 元素 | 当前计算证据 | 用户覆盖与实现值 | 状态 |
+|---|---|---|---|---|
+| AHS-V2601 | 第一张应用卡 | 首卡 `160.98px`，其余三卡 `137.19px`；当前上下 padding `20px` | 仅首卡上下 padding 最小收紧至 `16px`，保持 `height:auto` | CONFIRMED |
+| AHS-V2602 | 模式 1 标题行 | 徽标与标题中心纵向差 `54.5px` | 使用独立 `header` 包装，水平排列、`align-items:center`、间距 `12px` | CONFIRMED |
+| AHS-V2603 | 五个区块级 lead | BC-05 全站语义盘点 | Hero、优势、成果、应用、合作 lead 改为 `#111827` | PASS：可见节点计算色均为 `rgb(17,24,39)` |
+
+## 2026-07-26 浏览器批注第二批
+
+| 元素 | 采样前 | 用户覆盖后 | 状态 |
+|---|---|---|---|
+| 痛点卡 | 323px，外层 20px + 内层 24px | 283px，外层 0、内层 24px | PASS |
+| 优势区 | 上白下灰渐变；卡片浅灰/白不一 | section `#EEF5FF`；内容卡统一白底 | PASS |
+| 应用场景 | 四个独立圆角卡、gap 32px | 单一表头/表体边框、连续行分隔、行无圆角 | PASS |
+| 合作模式 | 仅模式 1 同排；两卡约 298px stretch | 两个标题均同排；200.8/224.6px 内容驱动；padding 20px | PASS |
+
+证据：`output/playwright/browser-comments-round2-2026-07-26/ai-harness-*.png`。
+
+## 2026-07-27 浏览器批注第三批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| AHS-R3-01 | 应用场景表列 | 前两列 `border-right:1px` | 三列均 `border-right:0px` | PASS |
+| AHS-R3-02 | 合作模式两卡 | `200.8/224.6px` | 实测 `224.59/224.59px`，内容溢出 `0` | PASS |
+
+## 2026-07-27 浏览器批注第四批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| ACQ-R4-01 | 对比卡 | `229px`、`padding:78px 40px 30px` | 内容撑开并降低高度 | PASS |
+| ACQ-R4-02 | 核心能力图标 | 源 168×168，实际 `46×56px` | 56×56 等比显示 | PASS |
+| ACQ-R4-03 | 差异优势 | 内部上下留白 `21/39px` | 上下留白一致 | PASS |
+| ACQ-R4-04 | 指引图标 | PNG 深色底可见 | 使用已有 MasterGo 导出透明信息图标 `public/images/customer-cases/summary-info.svg`；34×34 容器、18×18 图形；原始 SVG SHA 见客户案例视觉台账 | PASS |
+| ACQ-R4-05 | 同类价值卡 | `padding:24px` | `padding:20px` | PASS |
+
+## 2026-07-27 浏览器批注第六批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| ACQ-R6-01 | 三张核心能力标签 | 首列 46px、gap 12px，56px 图标侵入间距 | 三卡均为 48px 图标列、20px gap，标签距卡左 89px | PASS |
+| ACQ-R6-02 | 三张核心能力图标 | 56×56px | 三枚均为 48×48px，1:1 比例与正式位图来源不变 | PASS |
+
+## 2026-07-27 浏览器批注第六批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| `.acq-case-cards > article` 两卡 | `168.06px`；padding `32px` | 四边 `20px`、内容撑高；实测两卡均 `144.06px`、内容溢出 `0` | PASS |
+
+## 2026-07-27 浏览器批注第七批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| `.acq-modes-table > .head` | 实际高 `82px`；`min-height:52px`；padding `16px 20px`；content-box | `52px`；border-box；padding `10px 20px`；三个单元格 padding `0`，内容溢出 `0` | PASS |
+
+## 2026-07-27 浏览器批注第八批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| 首组 `.acq-reasons > article` 五卡 | 正文距首行约 `20.80/10.41/0/0/10.41px` | 显式 `row-gap:10px`；实测五卡全部精确为 `10px` | PASS |
+| 首组五个序号 | 实际 `48×36px`、字号 `18px` | 五个均为 `36×36px`、字号 `15px` | PASS |
+| `.acq-flow-module .acq-reasons > article` 四卡 | `176px`、`min-height:176px`、padding `28px` | 实测四卡均高 `135.89px`、`min-height:0`、padding `20px`、内容溢出 `0` | PASS |
+
+## 2026-07-27 浏览器批注第九批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| 首组五张原因卡标题行 | 距卡顶约 `41.80/31.39/21/21/31.39px` | `align-content:start`；实测五张均距卡顶 `21px` | PASS |
+| 页面面包屑 | compact 高 `46px`、无预约 CTA | 实测完整模式高 `74px`、显示预约 CTA、吸附 top `66px` | PASS |

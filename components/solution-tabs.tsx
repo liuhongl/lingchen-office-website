@@ -7,7 +7,7 @@ const products = [
   ["Sales in", "/solutions/products/sales-in/"],
   ["Social Grow", "/solutions/products/social-grow/"],
   ["Mine GEO", "/solutions/products/mine-geo/"],
-  ["AI获客Harness", "/solutions/products/ai-acquisition-harness/"],
+  ["AI销售获客Harness", "/solutions/products/ai-acquisition-harness/"],
   ["Recov AI", "/solutions/products/recov-ai/"],
   ["DeepDoc", "/solutions/products/deepdoc/"],
   ["DeepLaw", "/solutions/products/deeplaw/"],
@@ -27,7 +27,7 @@ export function SolutionTabs() {
     <nav className="solution-tabs" aria-label="解决方案导航">
       <div className="solution-tabs__inner">
         <div className="solution-tabs__groups">
-          <Link className={!productMode ? "is-active" : ""} href="/solutions/non-performing-assets/">综合解决方案</Link>
+          <Link className={!productMode ? "is-active" : ""} href="/solutions/ai-overseas/">综合解决方案</Link>
           <Link className={productMode ? "is-active" : ""} href="/solutions/products/sales-in/">产品专项解决方案</Link>
         </div>
         <div className="solution-tabs__products" aria-label={productMode ? "产品专项解决方案" : "综合解决方案"}>

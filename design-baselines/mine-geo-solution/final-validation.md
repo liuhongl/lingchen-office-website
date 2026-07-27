@@ -123,3 +123,10 @@
 - [x] 移动端仍未纳入当前官网范围。
 
 本轮继续按用户批注完成桌面视觉校准，不修改能力卡文字和公共组件。
+
+## 2026-07-27 浏览器批注第六批
+
+- R6-03 内容/视觉双验收 PASS：四张核心功能卡固定为 358px，最长内容底部安全距 33px，全部无裁切。
+- 1576×1258 分区与全页证据：`output/playwright/browser-comments-round6-2026-07-27/02-mine-flow-after.png`、`full-mine-geo-solution.png`；横向溢出 0。
+- “立即体验”和“预约产品演示”均实点打开公共 BookingModal，Escape 与滚动锁定恢复 PASS。
+- lint、tsc、build、diff check 与 `mastergo:check mine-geo-solution` PASS；公共资产哈希未变；移动端不在范围，不声明新的 1:1。

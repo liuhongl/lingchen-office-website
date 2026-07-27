@@ -4,18 +4,15 @@ import { SiteHeader } from "@/components/site-header";
 import { SolutionTabs } from "@/components/solution-tabs";
 import Image from "next/image";
 
-export default function NonPerformingAssetsPage() {
+export function NonPerformingAssetsContent() {
   return (
-    <>
-      <SiteHeader />
-      <SolutionTabs />
-      <main className="npa-page">
+    <main className="npa-page">
         <section className="npa-hero">
           <div className="npa-shell">
             <p className="npa-hero__eyebrow"><i />不良资产处置 · 行业解决方案</p>
             <h1>批量债权催收解决方案</h1>
-            <h2>基于 AI 催收智能体的全链路、自进化、多智能体协作方案</h2>
-            <p className="npa-hero__lead">把逾期资产，高效、合规地转化为企业现金流，助力信用中国建设。</p>
+            <h2>全国首个全链路、自进化、多智能体协作的批量债权催收智能体</h2>
+            <p className="npa-hero__lead">基于灵宸智能推出的Recov Agent催收智能体的全链路、自进化、多智能体催收协作方案，把逾期资产，高效、合规地转化为企业现金流，助力信用中国建设。</p>
             <BookingTrigger className="npa-primary-cta">预约产品演示 <span aria-hidden="true">→</span></BookingTrigger>
           </div>
         </section>
@@ -46,27 +43,24 @@ export default function NonPerformingAssetsPage() {
             <h3 className="npa-subsection-title">2.1 催收业务的三重压力</h3>
             <div className="npa-pressure-grid">
               <article className="npa-pressure-card npa-pressure-card--cost">
-                <span className="npa-pressure-icon"><Image src="/images/non-performing-assets/pressure-cost@3x.png" alt="" width={23} height={14} /></span>
-                <strong>60%+</strong><h4>成本之痛</h4>
+                <div className="npa-pressure-card__metric-row"><span className="npa-pressure-icon"><Image src="/images/non-performing-assets/pressure-cost@3x.png" alt="" width={23} height={14} /></span><strong>60%+</strong></div>
+                <h4>成本之痛</h4>
                 <p>人力投入占比高，员工压力与人员流动性叠加，单笔催收成本居高不下。</p>
               </article>
               <article className="npa-pressure-card npa-pressure-card--efficiency">
-                <span className="npa-pressure-icon"><Image src="/images/non-performing-assets/pressure-efficiency@3x.png" alt="" width={23} height={23} /></span>
-                <strong>数月<span>↓</span></strong><h4>效率之痛</h4>
+                <div className="npa-pressure-card__metric-row"><span className="npa-pressure-icon"><Image src="/images/non-performing-assets/pressure-efficiency@3x.png" alt="" width={23} height={23} /></span><strong>数月<span>↓</span></strong></div>
+                <h4>效率之痛</h4>
                 <p>账龄越长越难收，沉淀坏账持续侵蚀利润；当年逾期未催完，次年新增又至。</p>
               </article>
               <article className="npa-pressure-card npa-pressure-card--risk">
-                <span className="npa-pressure-icon"><Image src="/images/non-performing-assets/pressure-risk@3x.png" alt="" width={23} height={21} /></span>
-                <strong>零容忍</strong><h4>风险之殇</h4>
+                <div className="npa-pressure-card__metric-row"><span className="npa-pressure-icon"><Image src="/images/non-performing-assets/pressure-risk@3x.png" alt="" width={23} height={21} /></span><strong>零容忍</strong></div>
+                <h4>风险之殇</h4>
                 <p>暴力催收、骚扰投诉与品牌声誉风险并存，监管趋严，合规红线不容触碰。</p>
               </article>
             </div>
             <h3 className="npa-subsection-title npa-subsection-title--aging">2.2 回款率随账龄断崖式下降</h3>
             <div className="npa-aging-card">
               <p>逾期账龄每延长一个阶段，回款难度显著上升。小额、批量、分散的债权一旦被拖成历史坏账，回收率将降至个位数——<strong>“早期、高频、高效触达”</strong>因此成为决定回款的关键变量。</p>
-              <div className="npa-aging-track">
-                {[['M1','85%'],['M2','62%'],['M3','38%'],['M6','18%'],['M12+','5%']].map(([month, rate]) => <span key={month}>{month}<b>{rate}</b></span>)}
-              </div>
             </div>
             <h3 className="npa-subsection-title npa-subsection-title--contradiction">2.3 传统人力密集模式的结构性矛盾</h3>
             <div className="npa-contradiction">
@@ -82,7 +76,7 @@ export default function NonPerformingAssetsPage() {
         <section className="npa-solution npa-section">
           <div className="npa-shell">
             <h2 className="npa-section-title">三、解决方案：Recov Agent 如何解决这些问题</h2>
-            <h3 className="npa-subsection-title">3.1 产品定位 &amp; 3.2 覆盖逾期资产全生命周期的六大处理环节</h3>
+            <h3 className="npa-subsection-title">3.1 产品定位 &amp; 覆盖逾期资产全生命周期的六大处理环节</h3>
             <p className="npa-solution-lead">Recov Agent 不是“辅助人催收”，而是全链路主动执行催收作业的 AI 工作伙伴：主动执行、自主决策、声音交互、有记忆反思、自主进化。每个环节都直接化解一类传统痛点：</p>
             <div className="npa-step-grid">
               {[
@@ -94,26 +88,26 @@ export default function NonPerformingAssetsPage() {
                 ['06','诉讼与立案','催收函、律师函、诉状与证据 AI 批量生成、自动申请立案、跟进案件进展。','【化解】：法律催收难批量、周期长'],
               ].map(([no,title,copy,pain]) => <article key={no}><header><b>{no}</b><h4>{title}</h4></header><p>{copy}</p><strong>{pain}</strong></article>)}
             </div>
-            <h3 className="npa-subsection-title npa-subsection-title--identity">3.3 AI多重身份自动流转：从温馨提醒到法律威慑</h3>
+            <h3 className="npa-subsection-title npa-subsection-title--identity">3.2 AI多重身份自动流转：从温馨提醒到法律威慑</h3>
             <p className="npa-solution-lead">智能体按催收进展自动升级身份，沟通温度由高到低、法律强度由低到高，逐级递进——既保留人情味，也形成法律压力，避免一上来就对立：</p>
             <div className="npa-identity-grid">
-              <article><span className="npa-identity-icon"><Image src="/images/non-performing-assets/identity-project-manager@3x.png" alt="" width={12} height={15}/></span><h4>项目管家</h4><strong>沟通温度: 高</strong><b>温馨提醒、关系维护</b><p>用于早期催缴或日常温和提醒，降低抵触情绪。</p></article>
-              <article><span className="npa-identity-icon"><Image src="/images/non-performing-assets/identity-customer-service@3x.png" alt="" width={17} height={13}/></span><h4>企业客服主管</h4><strong>双重转化</strong><b>账单核对、答疑沟通</b><p>对账单有异议者提供专业对账服务，捕获真实拒收抗辩理由。</p></article>
-              <article><span className="npa-identity-icon"><Image src="/images/non-performing-assets/identity-legal-manager@3x.webp" alt="" width={15} height={15}/></span><h4>法务经理</h4><strong>启动法理</strong><b>正式催告、责任告知</b><p>对无理由抗交者，以公司法务名义发出合规告知，申明信用违约责任。</p></article>
-              <article><span className="npa-identity-icon"><Image src="/images/non-performing-assets/identity-lawyer@3x.png" alt="" width={15} height={10}/></span><h4>执业律师</h4><strong>法律强度: 高</strong><b>律师函、起诉立案</b><p>对恶意欠费者流转至律师身份，批量生成律师正函并推送司法立案程序。</p></article>
+              <article><header className="npa-identity-card__header"><span className="npa-identity-icon"><Image src="/images/non-performing-assets/identity-project-manager@3x.png" alt="" width={12} height={15}/></span><h4>项目管家</h4><strong>沟通温度: 高</strong></header><b>温馨提醒、关系维护</b><p>用于早期催缴或日常温和提醒，降低抵触情绪。</p></article>
+              <article><header className="npa-identity-card__header"><span className="npa-identity-icon"><Image src="/images/non-performing-assets/identity-customer-service@3x.png" alt="" width={17} height={13}/></span><h4>企业客服主管</h4><strong>双重转化</strong></header><b>账单核对、答疑沟通</b><p>对账单有异议者提供专业对账服务，捕获真实拒收抗辩理由。</p></article>
+              <article><header className="npa-identity-card__header"><span className="npa-identity-icon"><Image src="/images/non-performing-assets/identity-legal-manager@3x.webp" alt="" width={15} height={15}/></span><h4>法务经理</h4><strong>启动法理</strong></header><b>正式催告、责任告知</b><p>对无理由抗交者，以公司法务名义发出合规告知，申明信用违约责任。</p></article>
+              <article><header className="npa-identity-card__header"><span className="npa-identity-icon"><Image src="/images/non-performing-assets/identity-lawyer@3x.png" alt="" width={15} height={10}/></span><h4>执业律师</h4><strong>法律强度: 高</strong></header><b>律师函、起诉立案</b><p>对恶意欠费者流转至律师身份，批量生成律师正函并推送司法立案程序。</p></article>
             </div>
-            <h3 className="npa-subsection-title npa-subsection-title--legal">3.4 司法闭环：标准化、可批量的法律处置</h3>
+            <h3 className="npa-subsection-title npa-subsection-title--legal">3.3 司法闭环：标准化、可批量的法律处置</h3>
             <p className="npa-solution-lead">智能体把证据、文书、签章、送达、立案与案件跟进串成闭环，依据回款进展自动决定下一步法律动作，动作标准化、全程留痕、按进展自动升级：</p>
             <div className="npa-legal-grid">
               {[
                 ['01','温馨提醒','项目管家式提醒，降低抵触情绪。'],['02','正式催告','明确账单、期限与后果。'],['03','律师话术 / EMS','法律威慑与送达留痕。'],
                 ['04','证据链补齐','合同、账单、沟通记录自动归档。'],['05','诉讼材料','起诉状、证据目录自动生成。'],['06','立案跟进','自动提交法院立案系统并跟踪，支持异地代开庭。'],
-              ].map(([no,title,copy]) => <article key={no}><b>{no}</b><h4>{title}</h4><p>{copy}</p></article>)}
+              ].map(([no,title,copy]) => <article key={no}><div className="npa-legal-card__heading"><b>{no}</b><h4>{title}</h4></div><p>{copy}</p></article>)}
             </div>
             <p className="npa-legal-note">独特核心优势：律师级材料生成 + 在线签章 + 自动立案跟进，让批量小额债权首次具备规模化司法处置能力。</p>
             <div className="npa-solution-bottom">
-              <article><h3>3.5 语义分析与自动对账：减少误催，变“被动收费”为“主动治理”</h3><p>每一次外呼不只是催缴，更是发现服务缺口。当客户反馈“已缴费”或“要求核对”时，系统自动触发后台对账，减少误催与重复催；典型拒缴原因（如物业设施损坏、绿化无人修剪、车位纠纷等）被自动提炼并回写知识库，推动企业从“被动收费”转向“主动治理”。</p></article>
-              <article><h3>3.6 自进化引擎：越用越准的数据飞轮</h3><p>声音克隆保持统一品牌语气，关键节点支持实时人机协作接管，全程质检复盘话术与转化，拒缴原因回写知识库，智能体自主反思、进化。</p><div className="npa-evolution-tags"><span>催缴数据持续注入</span><span>催收反馈实时回收</span><span>策略与话术复盘进化</span><span>审查与催收能力升级</span></div></article>
+              <article><h3>3.4 语义分析与自动对账：减少误催，变“被动收费”为“主动治理”</h3><p>每一次外呼不只是催缴，更是发现服务缺口。当客户反馈“已缴费”或“要求核对”时，系统自动触发后台对账，减少误催与重复催；典型拒缴原因（如物业设施损坏、绿化无人修剪、车位纠纷等）被自动提炼并回写知识库，推动企业从“被动收费”转向“主动治理”。</p></article>
+              <article><h3>3.5 自进化引擎：越用越准的数据飞轮</h3><p>声音克隆保持统一品牌语气，关键节点支持实时人机协作接管，全程质检复盘话术与转化，拒缴原因回写知识库，智能体自主反思、进化。</p><div className="npa-evolution-tags"><span>催缴数据持续注入</span><span>催收反馈实时回收</span><span>策略与话术复盘进化</span><span>审查与催收能力升级</span></div></article>
             </div>
           </div>
         </section>
@@ -163,12 +157,12 @@ export default function NonPerformingAssetsPage() {
             <h2 className="npa-section-title">六、应用场景</h2>
             <p className="npa-scenes-lead">以批量、小额、标准化为特征的逾期债权，是 Recov Agent 并发优势最明显的主战场。方案可全维度覆盖以下场景：</p>
             <div className="npa-scene-grid">
-              <article><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-consumer-finance@3x.png" alt="" width={18} height={14}/></span><h3>消费金融类</h3><p>逾期信用卡账单 · 消费分期（花呗 / 白条）· 现金贷 / 小额借款</p></article>
-              <article><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-personal-credit@3x.png" alt="" width={14} height={18}/></span><h3>个人信贷类</h3><p>银行无抵押个人信用贷 · 汽车金融分期 · 批量小额个贷</p></article>
-              <article><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-life-services@3x.png" alt="" width={18} height={18}/></span><h3>生活服务类</h3><p>逾期物业费 · 水电燃气通讯欠费 · 长租公寓 / 商铺租约</p></article>
-              <article><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-commercial-debt@3x.png" alt="" width={18} height={18}/></span><h3>商业小额债权</h3><p>供应链下游应收 · 电商平台违约扣罚 · 标准化批量贸易债权</p></article>
-              <article><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-intellectual-property@3x.png" alt="" width={18} height={18}/></span><h3>知识产权类</h3><p>图片 / 字体 / 音乐维权 · 专利 / 商标侵权 · 标准化小额索赔</p></article>
-              <article><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-other@3x.png" alt="" width={16} height={2}/></span><h3>其他场景化</h3><p>教育培训分期 · 医疗美容分期 · 更多场景违约债权……</p></article>
+              <article><div className="npa-scene-card__heading"><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-consumer-finance@3x.png" alt="" width={18} height={14}/></span><h3>消费金融类</h3></div><p>逾期信用卡账单 · 消费分期（花呗 / 白条）· 现金贷 / 小额借款</p></article>
+              <article><div className="npa-scene-card__heading"><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-personal-credit@3x.png" alt="" width={14} height={18}/></span><h3>个人信贷类</h3></div><p>银行无抵押个人信用贷 · 汽车金融分期 · 批量小额个贷</p></article>
+              <article><div className="npa-scene-card__heading"><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-life-services@3x.png" alt="" width={18} height={18}/></span><h3>生活服务类</h3></div><p>逾期物业费 · 水电燃气通讯欠费 · 长租公寓 / 商铺租约</p></article>
+              <article><div className="npa-scene-card__heading"><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-commercial-debt@3x.png" alt="" width={18} height={18}/></span><h3>商业小额债权</h3></div><p>供应链下游应收 · 电商平台违约扣罚 · 标准化批量贸易债权</p></article>
+              <article><div className="npa-scene-card__heading"><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-intellectual-property@3x.png" alt="" width={18} height={18}/></span><h3>知识产权类</h3></div><p>图片 / 字体 / 音乐维权 · 专利 / 商标侵权 · 标准化小额索赔</p></article>
+              <article><div className="npa-scene-card__heading"><span className="npa-scene-icon"><Image src="/images/non-performing-assets/scene-other@3x.png" alt="" width={16} height={2}/></span><h3>其他场景化</h3></div><p>教育培训分期 · 医疗美容分期 · 更多场景违约债权……</p></article>
             </div>
           </div>
         </section>
@@ -189,11 +183,10 @@ export default function NonPerformingAssetsPage() {
                 <li><b>04 正式上线</b><p>配置线路，7×24 批量运行 · 5 天</p></li>
               </ol></div>
             </div>
-            <div className="npa-foundation"><h3>7.3 统一基石</h3><p>以结果为导向，与客户利益深度对齐 —— 效率更高、收费更低，收得回才付费。</p></div>
             <div className="npa-cooperation"><h3>7.4 灵活的合作（商业）模式</h3><div>
               <article><h4>RaaS (按回款收费)</h4><p>Result as a Service：按实际回款金额收费，将坏账直接转化为确定性现金流。</p></article>
               <article><h4>数字员工 (按结果收费)</h4><p>Digital Employee：催收 AI Agent 作为“数字员工”入职企业，按实际产出付费。</p></article>
-            </div></div>
+            </div><p className="npa-cooperation__foundation">以结果为导向，与客户利益深度对齐 —— 效率更高、收费更低，收得回才付费。</p></div>
           </div>
         </section>
         <section className="npa-why npa-section">
@@ -202,7 +195,7 @@ export default function NonPerformingAssetsPage() {
               ['01','结果导向','按实际回款收费，利益深度对齐——交付的是现金流增量，而非一套催收软件。'],
               ['02','合规安全','全程算法控制话术、行为可追溯，将语言暴力与合规纠纷降至为零，保护品牌声誉。'],
               ['03','全链路闭环','策略·画像·身份·外呼·送达·法律·并发一体，律师级材料生成 + 自动立案，规模化电话催收 + 司法处置。'],
-            ].map(([no,title,copy]) => <article key={no}><b>{no}</b><h3>{title}</h3><p>{copy}</p></article>)}
+            ].map(([no,title,copy]) => <article key={no}><div className="npa-why-card__heading"><b>{no}</b><h3>{title}</h3></div><p>{copy}</p></article>)}
           </div></div>
         </section>
         <section className="npa-closing">
@@ -211,7 +204,16 @@ export default function NonPerformingAssetsPage() {
             <p>让逾期资产高效、合规地变为企业现金流。让人们从重复劳动中解放出来。</p>
           </div>
         </section>
-      </main>
+    </main>
+  );
+}
+
+export default function NonPerformingAssetsPage() {
+  return (
+    <>
+      <SiteHeader />
+      <SolutionTabs />
+      <NonPerformingAssetsContent />
       <SiteFooter />
     </>
   );

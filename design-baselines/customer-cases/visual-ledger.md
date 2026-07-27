@@ -80,3 +80,25 @@
 | 主体 | 直属 `main` 使用 `flex: 1 0 auto`，短页吸收剩余高度，长页按内容增长 | `body > main` | PASS |
 | 公共 Footer | 保持普通文档流，`flex: 0 0 auto`；禁止 fixed/sticky 覆盖正文 | `body > .site-footer` | PASS |
 | 报告视口 | 1671 × 1258；DeepDoc 产品筛选状态 Footer 底边等于视口底边 | 浏览器实测：修改前下方留白 119px，修改后 0px | PASS |
+
+## 2026-07-25 详情模板视觉覆盖
+
+用户当前明确覆盖优先于历史详情基线；无图标新增需求，且明确删除两处图标/外框，因此不存在素材阻塞。
+
+| 元素 | 精确实现目标 | 状态 |
+|---|---|---|
+| Hero | 内容驱动高度；桌面 `margin-top:0`、`padding-block:30px`；保留现有 18px 圆角与淡蓝渐变 | 待同视口复核 |
+| Hero 元信息 | 领域标签后同一行显示“客户案例” | PASS |
+| 独立标题行 | 删除原 112px 固定高标题行及其 `case-title.svg` 图标 | PASS：DOM 中无 `.customer-cases-detail__title` |
+| 摘要 | 标题和正文同一行；内容驱动高度；保留浅蓝背景 | PASS：桌面为两列 Grid，32px + 剩余宽度 |
+| 样本口径 | 标签和正文同一行，正文占剩余宽度 | PASS：桌面为两列 Grid，56px + 剩余宽度 |
+| 成效表 | 表头和数据行压缩；数据行不设固定高度；变化列仅蓝色字，无背景/圆角 | PASS：数据行实测 58px；变化列透明背景、0 圆角、蓝色字 |
+| 关联产品 | 标题和产品名称同一行；删除卡片边框、背景、阴影和固定高度 | PASS：Flex 同行；链接 `border:0`、`box-shadow:none`、`padding:0` |
+| 返回链接 | `#000`；链接返回来源 view/filter，直接访问则回到当前案例所属领域 | PASS：纯黑；实测按产品 → Recov AI → 详情 → 返回后两级 Tab 均恢复 |
+
+同视口截图：
+
+- `visual-results/customer-cases-feedback-2026-07-25/domain-all-viewport-1576x1258.png`
+- `visual-results/customer-cases-feedback-2026-07-25/product-all-viewport-1576x1258.png`
+- `visual-results/customer-cases-feedback-2026-07-25/property-detail-viewport-1576x1258.png`
+- `visual-results/customer-cases-feedback-2026-07-25/property-detail-hero-margin0-1576x1258.png`

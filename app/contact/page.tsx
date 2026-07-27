@@ -57,8 +57,10 @@ export default function ContactPage() {
           <div className={styles.contactGrid}>
             {contactItems.map((item) => (
               <article className={styles.contactCard} key={item.title}>
-                <Image alt="" aria-hidden src={item.icon} width={48} height={48} />
-                <h3>{item.title}</h3>
+                <div className={styles.contactCardHeading}>
+                  <Image alt="" aria-hidden src={item.icon} width={48} height={48} />
+                  <h3>{item.title}</h3>
+                </div>
                 <p>{item.value}</p>
               </article>
             ))}

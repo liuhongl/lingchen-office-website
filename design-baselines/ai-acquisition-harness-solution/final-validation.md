@@ -104,3 +104,10 @@
 - Hero 两段正文均为两行；CTA 与 Hero 底边间距验证：PASS。
 - 横向溢出：0；预约类 CTA：PASS；控制台 error：0。
 - lint、TypeScript、build、diff check 与 `mastergo:check ai-acquisition-harness-solution`：PASS。
+
+## 2026-07-27 浏览器批注第六批
+
+- R6-04 内容/视觉双验收 PASS：应用场景第一行由 158px 降至 150px，上下 padding 均 12px，三列内容完整。
+- 1576×1258 分区与全页证据：`output/playwright/browser-comments-round6-2026-07-27/03-ahs-applications-after.png`、`full-ahs-solution.png`；横向溢出 0。
+- “立即体验”和“预约产品演示”均实点打开公共 BookingModal，Escape 与滚动锁定恢复 PASS。
+- lint、tsc、build、diff check 与 `mastergo:check ai-acquisition-harness-solution` PASS；公共资产哈希未变；移动端不在范围，不声明新的 1:1。

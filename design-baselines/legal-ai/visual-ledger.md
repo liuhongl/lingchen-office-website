@@ -14,3 +14,32 @@
 
 - 图标均来自项目已安装的 `lucide-react`，仅作装饰并设置 `aria-hidden`；这是用户对本页的明确允许项。
 - 公共组件不使用页面级选择器覆盖。
+
+## 2026-07-24 浏览器批注视觉覆盖
+
+| ID | 区块 | 用户覆盖 | 精确实现 | 状态 |
+|---|---|---|---|---|
+| V-2401 | Hero H1 | 标题改为一行 | 移除 JSX 强制 `<br />`；目标桌面视口以 52px/800 自然保持单行 | PASS |
+| V-2402 | Hero 正文 | 右边界与公共头“立即体验”对齐 | `width:100%; max-width:none`，沿用 `.legal-shell` 公共容器右边界 | PASS |
+
+- 同视口证据：`visual-results/feedback-2026-07-24-browser-comments/legal-ai-top-1644x1258.png`。
+| LA-V2501 | 传导关系 | 用户 2026-07-25 浏览器批注 | 标签独占首行，正文从下一行开始 | CONFIRMED |
+| LA-V2502 | 价值指标卡 | 用户 2026-07-25 浏览器批注 | 删除最小高度，缩小且保持一致的上下内边距 | CONFIRMED |
+# 2026-07-26 浏览器批注视觉台账
+
+| 元素 | 精确规则 | 视觉保留 | 状态 |
+|---|---|---|---|
+| 章节标签 | `font-size:16px; line-height:1.4` | 现有蓝色与字重不变 | PASS |
+| 痛点卡标题行 | 图标与标题横向排列，`gap:12px`，正文黑色 | 正式图标、卡片边框与背景不变 | PASS |
+| Closing CTA | `height:auto; min-height:0; padding:60px 0` | 渐变背景、按钮与文案不变 | PASS |
+
+- 同视口证据：`visual-results/feedback-2026-07-26/legal-ai-top-1576x1258.png`、`legal-ai-problems-1576x1258.png`、`legal-ai-bottom-1576x1258.png`（均位于同一目录）。
+
+## 2026-07-26 浏览器批注第二批
+
+| 元素 | 采样前 | 用户覆盖后 | 状态 |
+|---|---|---|---|
+| 独特价值条 | `#263A5B` / 白字 | `#EEF5FF` / `#285D9D` / 1px `#CFE2F6` | PASS |
+| 第三张合作卡 | 同排 155px、padding 20px | 同排 147px、上下 16px | PASS |
+
+证据：`output/playwright/browser-comments-round2-2026-07-26/legal-ai-*.png`。

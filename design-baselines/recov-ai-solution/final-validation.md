@@ -118,3 +118,14 @@
 - `pnpm build`：PASS（71 个静态页面生成完成）
 - `git diff --check`：PASS
 - `pnpm mastergo:check recov-ai-solution`：PASS
+
+## 2026-07-25 页面内容源统一回归
+
+- [x] `/solutions/products/recov-ai/` 已复用 `/solutions/non-performing-assets/` 的 `NonPerformingAssetsContent`，不再维护重复正文。
+- [x] 浏览器实际 `.npa-page.innerText` 完全一致。
+- [x] 两条路由均为 10 个主体 section；类名序列与每个 section 的计算高度完全一致。
+- [x] 两条路由均只有 1 个 Header、1 个 SolutionTabs、1 个 Footer、1 个 H1，无公共组件重复渲染。
+- [x] 两条路由横向溢出均为 0；`/solutions/products/recov-ai/` 保留自身页面 title 与 canonical。
+- [x] 截图：`visual-results/feedback-2026-07-25-browser-comments/recov-ai-shared-content-1280x720.png`。
+- [x] `pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check recov-ai-solution` 全部 PASS。
+- [x] 三条本地验收 URL（Harness、Recov AI、不良资产处置）均返回 HTTP 200。

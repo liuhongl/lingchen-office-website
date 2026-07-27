@@ -121,3 +121,68 @@
 - [x] 1616×1258 的 Hero、标签、合作模式与全页证据归档于 `output/playwright/product-feedback-2026-07-24-v3/`。
 - [x] 唯一 H1、无横向溢出、无破损图片；工程四项及 `pnpm mastergo:check deepdoc` 全部通过。
 - [x] 继续执行既有上线例外：本轮不校验 DeepDoc 历史图标来源/DPR，也不宣称图标验收或 1:1。
+## 2026-07-24 Hero 与挑战卡回归
+
+- Hero 高约 386px；定位标签与说明卡顶边均为 174px。
+- 三张挑战卡无数字索引，等量上下 padding 24px，高约 238px。
+- `1616×1258`：`scrollWidth=clientWidth=1601`；截图 `visual-results/feedback-2026-07-24-batch2/deepdoc-1616x1258.png`。
+- 移动端未纳入本轮验收。
+## 2026-07-24 区块节奏回归
+
+- 1644 × 1258 桌面视口下，Hero 之外 9 个常规内容 section 最终计算值均为上下 `60px`。
+- 固定高度影响已解除，横向溢出为 0。
+
+## 2026-07-25 `/solutions/products/deepdoc/` 浏览器批注回归
+
+- 验证视口：1576×1258；浏览器实际内容宽 1561px（15px 垂直滚动条）。
+- Hero 两段正文计算宽度均为 1200px；正文 section 左右内边距均为 180.5px，与公共 1200px 内容轴一致。
+- 挑战卡为图标＋标题同行，卡片 `height:auto; min-height:0; padding-block:20px`，首卡实测高 240.5px。
+- 痛点卡、能力卡、结果卡、合作价值卡均取消固定/最小高度；实测上下内边距均为 20px。
+- 两张合作模式卡实测均为 194px、`1px solid rgb(226, 232, 240)`、白底，视觉一致。
+- Closing 实测 `height:auto; min-height:0; padding-block:60px`，内容撑高 208px。
+- 唯一 H1；`scrollWidth=clientWidth=1561`；公共预约按钮打开同一 `BookingModal`，关闭后滚动锁恢复。
+- 截图：`visual-results/feedback-2026-07-25-browser-comments/deepdoc-top-1576x1258.png`、`deepdoc-cooperation-1576x1258.png`、`deepdoc-full-1576x1258.png`。
+- 本轮为用户浏览器批注覆盖；DeepDoc 历史图标上线例外继续有效，不宣称严格 1:1。
+
+## 2026-07-26 BC-05 浅色区块说明文字回归
+
+- `.dds-problems__intro`、`.dds-core-flow__intro`、`.dds-results__intro`、`.dds-cooperation__intro` 四个可见节点计算色均为 `rgb(17,24,39)`。
+- 页面唯一 H1、横向溢出 0；DeepDoc 历史图标上线例外不变，本轮仍不宣称严格 1:1。
+
+## 2026-07-27 浏览器批注第三批增量验收
+
+- Hero 高度由 `598px` 收紧到 `527px`，上下 padding 为 `72/64px`。
+- 三张挑战卡标题距卡左均 `73px`；六张结果价值卡标题中文序号已删除，装饰编号 `1–6` 保留。
+- 同视口截图：`output/playwright/browser-comments-round3-2026-07-27/02-deepdoc-hero-1576x1258.png`、`03-deepdoc-results-1576x1258.png`。
+- 页面横向溢出为 `0`；内容与视觉人工复核 PASS。
+- 工程门禁与 `pnpm mastergo:check deepdoc` 均 PASS。
+- 移动端未纳入当前官网范围；DeepDoc 历史图标上线例外继续有效。
+
+## 2026-07-27 浏览器批注第四批
+
+- R4-10–14 内容/视觉双验收 PASS：指标卡 `143px`，同类价值卡 `padding:20px`，建议区全文白色，安全卡编号 `44px/20px` 且标题间距 `12px`。
+- 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/deepdoc-full-1576.png`；横向溢出 0。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check deepdoc` PASS；移动端不在范围，不声明新的 MasterGo 1:1。
+
+## 2026-07-27 浏览器批注第六批
+
+- `.deepdoc-case-grid > article` 两卡实测均 `166.28px`，四边内边距 `20px`，`min-height:0`，内容溢出 `0`，同排等高。
+- 同视口局部证据：`output/playwright/browser-comments-round6-2026-07-27/11-deepdoc-cases-after-1576x1258.png`；全页证据：`deepdoc-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check deepdoc` PASS；移动端不在范围，不新增 1:1 声明。
+
+## 2026-07-27 浏览器批注第七批
+
+- 页面 11 组独立 `article` 卡片网格全部为 `padding-top:20px`、`min-height:0`；各 Grid 行内卡片高度一致，内容溢出均为 `0`。
+- 代表性实测：审核体系四卡两行均 `193.25px`；审核引擎两卡均 `272.28px`；价值卡两行均 `166.28px`；商业实效两卡均 `265.34px`。
+- 同视口局部证据：`output/playwright/browser-comments-round7-2026-07-27/06-deepdoc-evidence-after-1576x1258.png`；全页证据：`deepdoc-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check deepdoc` PASS；移动端不在范围；本轮不新增 MasterGo 1:1 声明。
+
+## 2026-07-27 浏览器批注第八批
+
+- 面包屑滚动后实测 `position:sticky; top:66px; z-index:30`，与公共 Header 的 `bottom:66px` 零缝贴合；白色背景完整遮挡下层内容。
+- 同一共享规则已回归 Sales in、Social Grow、Mine GEO、AI 获客 Harness、Recov AI、DeepDoc、DeepLaw 七个产品详情页：全部吸附位置正确、横向溢出 `0`、破图 `0`、唯一 H1。
+- 吸附态“立即预约体验该产品”实点打开公共 BookingModal：单一 dialog、滚动锁定、焦点落在关闭按钮；Escape 关闭后恢复。
+- 同视口证据：`output/playwright/browser-comments-round8-2026-07-27/05-deepdoc-breadcrumb-sticky-after-1576x1258.jpg`。
+- lint、tsc、build、diff check 与 `mastergo:check deepdoc` 全部 PASS；移动端不在范围，本轮不新增 MasterGo 1:1 声明。

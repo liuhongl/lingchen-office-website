@@ -92,3 +92,22 @@
 - [x] 1616×1258 局部截图覆盖 Hero、商业实效、场景、Agent 基座和合作模式，归档于 `output/playwright/product-feedback-2026-07-24-v3/`。
 - [x] 唯一 H1、无横向溢出、无破损图片，公共面包屑和 Footer 入口正常。
 - [x] 工程四项及 `pnpm mastergo:check recov-ai` 全部通过；当前结论仍为已视觉校准，不宣称严格 1:1。
+## 2026-07-24 区块节奏与背景回归
+
+- 1644 × 1258 桌面视口下，10 个 `.recov-section` 最终计算值均为上下 `60px`。
+- `.recov-results` 最终背景为 `rgb(238, 245, 255)`（`#eef5ff`），与相邻模块区分明确。
+- 同视口截图：`visual-results/feedback-2026-07-24-spacing60/recov-results-1644x1258.png`。
+- 横向溢出：0。
+
+## 2026-07-27 浏览器批注第四批
+
+- R4-08–09、R4-11 内容/视觉双验收 PASS：序号按蓝/蓝/红跟随指标色；四枚正式流程图形均清晰可见；价值卡 `padding:20px`。
+- 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/recov-ai-full-1576.png`；横向溢出 0。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check recov-ai` PASS；移动端不在范围，不声明新的 MasterGo 1:1。
+
+## 2026-07-27 浏览器批注第六批
+
+- `.recov-case-grid > article` 两卡实测均 `244.5px`，四边内边距 `20px`，`min-height:0`，内容溢出 `0`，同排等高。
+- 同视口局部证据：`output/playwright/browser-comments-round6-2026-07-27/13-recov-cases-after-1576x1258.png`；全页证据：`recov-ai-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check recov-ai` PASS；移动端不在范围，不新增 1:1 声明。

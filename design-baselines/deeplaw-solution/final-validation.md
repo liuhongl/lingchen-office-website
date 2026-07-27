@@ -127,3 +127,10 @@
 - `pnpm build`：PASS（71 个静态页面生成完成）
 - `git diff --check`：PASS
 - `pnpm mastergo:check deeplaw-solution`：PASS
+
+## 2026-07-27 浏览器批注第六批
+
+- R6-06–07 内容/视觉双验收 PASS：全页可见 12px 节点为 0；五张痛点卡图标均 40×40px，标题 700/24px，标题、副标题、正文起点分别一致。
+- 1576×1258 分区与全页证据：`output/playwright/browser-comments-round6-2026-07-27/05-deeplaw-pains-after.png`、`full-deeplaw-solution.png`；横向溢出 0。
+- 3 个预约类 CTA 均实点打开公共 BookingModal，Escape 与滚动锁定恢复 PASS。
+- lint、tsc、build、diff check 与 `mastergo:check deeplaw-solution` PASS；公共资产哈希未变；移动端不在范围，不声明新的 1:1。

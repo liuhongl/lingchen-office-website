@@ -76,3 +76,57 @@
 | 2026-07-24-HERO | 首屏 | 缩减上下留白；右侧说明卡扩宽 | 用户浏览器批注 5-6 | PASS；首屏 476.17px、说明卡 760px；`output/playwright/product-feedback-2026-07-24-v3/deepdoc-hero-1616x1258.png` |
 | 2026-07-24-PILL | 区块标签 | 全部标签字号增大 | 用户浏览器批注 7 | PASS；计算字号 16px |
 | 2026-07-24-COOP | 合作模式 | 三列表格逐行对应，不再使用两张独立卡片 | 用户浏览器批注 8 | PASS；`output/playwright/product-feedback-2026-07-24-v3/deepdoc-coop-1616x1258.png` |
+| DD-V2405 | Hero 与挑战卡 | 用户浏览器批注 15-16 | Hero 标签与说明卡顶边对齐；挑战卡无固定高度、等量上下 padding、删除数字索引线 | CONFIRMED |
+| DD-V2406 | 全部正文大模块 | 用户 2026-07-24 浏览器批注 | `height:auto; min-height:0; padding-block:60px`；Hero 除外 | CONFIRMED |
+
+## 2026-07-25 `/solutions/products/deepdoc/` 用户视觉覆盖
+
+| 元素 ID | 元素 | 用户确认属性 | 证据 | 状态 |
+|---|---|---|---|---|
+| DDS-V0725-01 | Hero 两段正文 | 宽度延伸到 1200px 内容轴右边界 | 浏览器批注 1–2 | CONFIRMED |
+| DDS-V0725-02 | 全页正文内容轴 | 1200px，与公共 Header 内容宽度一致；背景仍由 section 铺满 | 浏览器批注 6 | CONFIRMED |
+| DDS-V0725-03 | 挑战卡 | 图标与标题同行、垂直居中；`padding-block:20px`；`height:auto; min-height:0` | 浏览器批注 4–5 | CONFIRMED |
+| DDS-V0725-04 | 痛点、结果、合作价值卡 | 删除固定/最小高度，以内容撑高 | 浏览器批注 8、10、13 | CONFIRMED |
+| DDS-V0725-05 | 能力卡 | 图标与标题同行、垂直居中；卡片由内容和 20px 上下内边距撑高 | 浏览器批注 9 | CONFIRMED |
+| DDS-V0725-06 | 合作模式与交付标准 | 左右模式卡视觉一致；交付标题紧随序号块并垂直居中 | 浏览器批注 11–12 | CONFIRMED |
+| DDS-V0725-07 | Closing | `height:auto; min-height:0; padding-block:60px` | 浏览器批注 14 | CONFIRMED |
+
+## 2026-07-26 BC-05 浅色区块说明文字
+
+| 元素 ID | 元素 | 用户覆盖 | 运行态证据 | 状态 |
+|---|---|---|---|---|
+| DDS-V0726-01 | 四个 section intro | 同类浅色字体改为正文黑 `#111827` | 四个可见节点计算色均为 `rgb(17,24,39)` | PASS |
+
+## 2026-07-27 浏览器批注第三批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| DDS-R3-V01 | Hero | `598px`；顶部 `94px`、内容后留白 `113px` | 高 `527px`；上下 padding `72/64px` | PASS |
+| DDS-R3-V02 | 挑战卡标题 | 标题距卡左 `73px`；图标与标题间距 `12px` | 三卡标题距卡左均 `73px`，内容溢出 `0` | PASS |
+
+## 2026-07-27 浏览器批注第四批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| DD-R4-01 | 四张指标卡 | `164px`、`padding:32px 20px` | 内容撑开并收紧高度 | PASS |
+| DD-R4-02 | 六张价值卡 | `190px`、`padding:31px 32px` | `padding:20px`，无裁切 | PASS |
+| DD-R4-03 | 落地建议 | 标题白、正文黑 | 全部文字白色 | PASS |
+| DD-R4-04 | 四张安全卡 | 编号 56px/24px；标题紧贴编号块 | 编号缩小，标题左对齐并增加间距 | PASS |
+
+## 2026-07-27 浏览器批注第六批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| `.deepdoc-case-grid > article` 两卡 | `190px`；padding `31px 32px` | 四边 `20px`、内容撑高；实测两卡均 `166.28px`、内容溢出 `0` | PASS |
+
+## 2026-07-27 浏览器批注第七批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| DeepDoc 11 组独立 `article` 卡片网格 | 顶部 padding `20–32px`；Flow/Value/Business 仍有 `190/190/288px` 最小高度 | 全部 padding-top `20px`、`min-height:0`；同一模块同排等高；内容溢出 `0` | PASS |
+
+## 2026-07-27 浏览器批注第八批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| `main > .product-breadcrumb` | `position:static`；滚动至 `398px` 后 `top:-332px` | 实测 `position:sticky; top:66px; z-index:30`，与 `z-index:40` 的公共 Header 底边零缝贴合 | PASS |

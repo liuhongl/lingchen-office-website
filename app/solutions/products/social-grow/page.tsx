@@ -144,15 +144,15 @@ export default function SocialGrowSolutionPage() {
       </section>
       <section className="sgs-change" aria-labelledby="sgs-change-title">
         <div className="sgs-shell">
-          <h2 id="sgs-change-title" className="sgs-section-title">一、一图读懂 (产品带来的直接改变)</h2>
+          <h2 id="sgs-change-title" className="sgs-section-title">一、 产品带来的直接改变</h2>
           <div className="sgs-change__grid">
             {directChanges.map((item) => (
               <article className={`sgs-change__card sgs-change__card--${item.tone}`} key={item.value}>
-                <div>
+                <div className="sgs-change__heading">
+                  <Image src={item.icon} alt="" width={48} height={48} />
                   <strong>{item.value}</strong>
-                  <p>{item.description}</p>
                 </div>
-                <Image src={item.icon} alt="" width={48} height={48} />
+                <p>{item.description}</p>
               </article>
             ))}
           </div>
@@ -166,7 +166,7 @@ export default function SocialGrowSolutionPage() {
               <article className="sgs-problems__card" key={item.problem}>
                 <div className="sgs-problems__row sgs-problems__row--problem">
                   <Image src="/images/social-grow-solution/problem-alert.svg" alt="" width={40} height={40} />
-                  <div><strong>传统行业挑战与痛点：</strong><p>{item.problem}</p></div>
+                  <div><strong>传统痛点与挑战</strong><p>{item.problem}</p></div>
                 </div>
                 <div className="sgs-problems__row sgs-problems__row--solution">
                   <Image src="/images/social-grow-solution/problem-check.svg" alt="" width={32} height={32} />

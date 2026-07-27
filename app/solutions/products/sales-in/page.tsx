@@ -40,7 +40,7 @@ const digitalFlow = [
   },
   {
     title: "STEP 5 转化与集成：销售能力沉淀与全链路闭环",
-    description: "将 AI 获客 Harness 深度接入企业知识、业务系统（CRM、邮箱、LinkedIn）以及提供数据可见性分析，实现过程留痕、ROI评估与销售流程的可管理、可复制、可复用。",
+    description: "将 AI 获客 Agent 深度接入企业知识、业务系统（CRM、邮箱、LinkedIn）以及提供数据可见性分析，实现过程留痕、ROI评估与销售流程的可管理、可复制、可复用。",
   },
 ] as const;
 
@@ -119,25 +119,25 @@ const cooperationModes = [
 
 const deliveryPath = [
   {
-    label: "路径一 · 第一步",
+    label: "第一步",
     title: "业务场景梳理",
     description: "用 2-4 周 POC 快速证明价值，通过真实样本定义验收指标，梳理现有获客难点。",
     icon: "/images/sales-in-solution/path-discovery.svg",
   },
   {
-    label: "路径一 · 第二步",
+    label: "第二步",
     title: "构建 ICP 模型并试点",
     description: "基于现有成功客群数据，提炼并配置结构化 ICP 建模与过滤规则，进行小范围高敏开发。",
     icon: "/images/sales-in-solution/path-model.svg",
   },
   {
-    label: "路径二 · 第三步",
+    label: "第三步",
     title: "系统集成与配置",
     description: "通过验收后，将获客 Harness 接入 CRM 系统、企业邮箱及 LinkedIn，配置人工确认与安全审核边界。",
     icon: "/images/sales-in-solution/path-integration.svg",
   },
   {
-    label: "路径二 · 第四步",
+    label: "第四步",
     title: "规模化运营与进化",
     description: "正式上线测试并进入常态化运作，持续积累用户行为反馈并回写评分模型、开发话术。",
     icon: "/images/sales-in-solution/path-scale.svg",
@@ -157,7 +157,7 @@ export default function SalesInSolutionPage() {
         <div className="sis-shell">
           <p className="sis-hero__eyebrow">产品专项解决方案 · 出海获客 AI Agent-Sales in</p>
           <h1 id="sis-title">出海获客 AI Agent-Sales in 智能解决方案</h1>
-          <p className="sis-hero__lead">出海企业的 AI 销售 Harness · 让获客到成交的每一步都可衡量、可复制</p>
+          <p className="sis-hero__lead">构建您的出海获客能力体系 · 让获客到成交的每一步都可衡量、可复制</p>
           <p className="sis-hero__body">客户得到的不只是工具，而是一套出海销售增长工作流。从获客到成交推进，让团队减少重复劳动，把精力投向高价值客户沟通与转化。通过高质量线索、客户洞察、个性化触达、销售转化，让出海销售全链闭环运作。</p>
           <BookingTrigger className="sis-primary-cta">预约产品演示<span aria-hidden="true" /></BookingTrigger>
         </div>
@@ -171,7 +171,7 @@ export default function SalesInSolutionPage() {
               <article className="sis-problem-card" key={item.problem}>
                 <div className="sis-problem-row sis-problem-row--challenge">
                   <span aria-hidden="true">!</span>
-                  <div><strong>传统行业挑战与痛点：</strong><p>{item.problem}</p></div>
+                  <div><strong>传统痛点与挑战</strong><p>{item.problem}</p></div>
                 </div>
                 <div className="sis-problem-row sis-problem-row--solution">
                   <span aria-hidden="true">✓</span>
@@ -208,7 +208,7 @@ export default function SalesInSolutionPage() {
           <div className="sis-advantages-grid">
             {advantages.map((item) => (
               <article className="sis-advantage-card" key={item.title}>
-                <span aria-hidden="true"><Image src={item.icon} alt="" width={24} height={24} /></span><h4>{item.title}</h4><p>{item.description}</p>
+                <div className="sis-advantage-card__heading"><span aria-hidden="true"><Image src={item.icon} alt="" width={24} height={24} /></span><h4>{item.title}</h4></div><p>{item.description}</p>
               </article>
             ))}
           </div>
@@ -269,7 +269,7 @@ export default function SalesInSolutionPage() {
           <h3 className="sis-path-title">落地路径：先验证一个流程，再扩展成销售智能体能力</h3>
           <div className="sis-path-grid">
             {deliveryPath.map((item) => (
-              <article key={item.label}><span aria-hidden="true"><Image src={item.icon} alt="" width={24} height={24} /></span><small>{item.label}</small><h4>{item.title}</h4><p>{item.description}</p></article>
+              <article key={item.label}><div className="sis-path-card__heading"><span aria-hidden="true"><Image src={item.icon} alt="" width={24} height={24} /></span><small>{item.label}</small></div><h4>{item.title}</h4><p>{item.description}</p></article>
             ))}
           </div>
         </div>

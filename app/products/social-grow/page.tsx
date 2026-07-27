@@ -141,9 +141,10 @@ export default function SocialGrowPage() {
             <h2 className="social-grow-section-label">合作模式</h2>
             <h3>灵活的合作模式</h3>
             <p className="social-grow-cooperation__intro">可按照使用量或者结果付费，数据飞轮越用越懂业务 —— 既能直接服务专业人士与企业内容获客，也能帮 MCN 规模化交付。</p>
-            <div className="social-grow-cooperation-grid">
-              <article><h4><Image src="/images/social-grow/cooperation-mode@3x.png" alt="" width={32} height={32}/>合作服务模式</h4><p>RaaS模式</p><p>私有化部署或定制</p></article>
-              <article><h4><Image src="/images/social-grow/payment-mode@3x.png" alt="" width={32} height={32}/>付费结算方式</h4><p>席位制，按使用量付费。</p><p>模型微调/训练费 + 本地部署&定制费</p></article>
+            <div className="social-grow-cooperation-table">
+              <div className="social-grow-cooperation-head"><h4>合作服务模式</h4><h4>付费结算方式</h4></div>
+              <div><p>RaaS模式</p><p>席位制，按使用量付费。</p></div>
+              <div><p>私有化部署或定制</p><p>模型微调/训练费 + 本地部署&定制费</p></div>
             </div>
             <div className="social-grow-final">
               <h3>为什么选择 Social Grow？</h3>

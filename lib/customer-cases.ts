@@ -1,4 +1,5 @@
 import prototypeCases from "@/data/customer-cases.prototype.json";
+import currentOverseasCases from "@/data/customer-cases.overseas-current.json";
 
 export const customerCaseDomains = ["全部", "AI出海获客", "AI不良资产处置", "AI法律获客与工作流"] as const;
 export const customerCaseProducts = ["全部", "Sales in", "Social Grow", "Mine GEO", "AI获客Harness", "Recov AI", "DeepDoc", "DeepLaw"] as const;
@@ -18,6 +19,7 @@ export type CustomerCase = {
   results: string[][];
   resultSummary: string;
   relatedProducts: string[];
+  views: ReadonlyArray<"domain" | "product">;
 };
 
 const prototypeSlugs = [
@@ -39,13 +41,22 @@ const prototypeSlugs = [
   "shanghai-legal-consulting-workflow",
 ] as const;
 
-const parsedPrototypeCases = prototypeCases.map((item, index) => ({
+const productViewCases = prototypeCases.map((item, index) => ({
   ...item,
   slug: prototypeSlugs[index],
   products: [item.product],
+  views: item.domain === "AI出海获客" ? ["product"] as const : ["domain", "product"] as const,
 })) satisfies CustomerCase[];
 
-export const customerCases: CustomerCase[] = parsedPrototypeCases;
+const domainOverseasCases = currentOverseasCases.map((item) => ({
+  ...item,
+  views: ["domain"] as const,
+})) satisfies CustomerCase[];
+
+export const customerCases: CustomerCase[] = [
+  ...domainOverseasCases,
+  ...productViewCases,
+];
 
 export function getCustomerCase(slug: string) {
   return customerCases.find((item) => item.slug === slug);

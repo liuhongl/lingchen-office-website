@@ -9,8 +9,8 @@
 - 索引策略：index
 - 页面主主题：联系灵宸智能并提交产品合作需求
 - 目标受众：寻求 AI 产品合作与解决方案的企业用户
-- 事实来源：MasterGo 当前画板与冻结公共组件
-- 最后复核日期：2026-07-21
+- 事实来源：用户指定的 Google AI Studio 原型实际渲染文案、用户确认覆盖项、MasterGo 当前画板与冻结公共组件
+- 最后复核日期：2026-07-26
 
 ## 元数据与语义
 
@@ -20,7 +20,7 @@
 | description | 联系灵宸智能，提交产品合作需求或预约解决方案，获取面向企业业务场景的智能化解决方案支持。 | `app/contact/page.tsx` | PASS |
 | canonical | `/contact/` | `app/contact/page.tsx` | PASS |
 | Open Graph | website / zh_CN / `/contact/` | `app/contact/page.tsx` | PASS |
-| 唯一 h1 | 联系我们 | `app/contact/page.tsx` | PASS（浏览器实测 1 个） |
+| 唯一 h1 | 灵宸AI Agent OS，为您的商业结果服务 | `app/contact/page.tsx` | PASS（2026-07-26 浏览器实测 1 个） |
 | 标题层级 | h1 → h2 | `app/contact/page.tsx`、`contact-form.tsx` | PASS |
 | lang | zh-CN | `app/layout.tsx` | PASS |
 
@@ -30,7 +30,7 @@
 |---|---|---|---|---|---|
 | E-001 | 灵宸智能 | Organization | 公共品牌资产 | title / Header | PASS |
 | E-002 | 联系电话、邮箱、公司地址 | ContactPoint | MasterGo 联系我们画板 | 联系方式卡片 | PASS |
-| E-003 | 7 个产品选项 | Product | MasterGo 表单原文 | 产品多选区 | PASS |
+| E-003 | 7 个产品选项 | Product | 用户指定的 Google AI Studio 原型实际渲染文案 | 产品多选区 | PASS |
 
 ## 结构化数据
 
@@ -42,6 +42,7 @@
 - robots：沿用全站允许抓取策略。
 - 站内入口：公共 Header 的“联系我们”已按用户授权改为 `/contact/`，页面同时包含在 sitemap。
 - 状态码与服务端 HTML：本地 `/contact/` 返回并渲染正常，唯一 h1 与关键联系内容存在。
+- 2026-07-26 现场复核：1440 × 900 下 `h1Count=1`，页面唯一 H1 为“灵宸AI Agent OS，为您的商业结果服务”；`scrollWidth === clientWidth`（1425 === 1425），控制台错误数为 0。
 
 ## GEO 抽样计划
 

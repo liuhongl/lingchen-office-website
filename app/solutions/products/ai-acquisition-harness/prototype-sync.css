@@ -50,3 +50,310 @@
 .ahs-page .ahs-application-card > div:nth-child(3) p {
   margin-top: 0;
 }
+
+@media (min-width: 801px) {
+  .ahs-page .ahs-hero {
+    height: auto;
+    min-height: 0;
+    padding: 60px 0;
+  }
+
+  .ahs-page .ahs-hero__inner {
+    height: auto;
+  }
+
+  .ahs-page .ahs-hero__copy {
+    position: relative;
+    inset: auto;
+    width: 100%;
+  }
+
+  .ahs-page .ahs-eyebrow,
+  .ahs-page .ahs-hero h1,
+  .ahs-page .ahs-hero__subtitle,
+  .ahs-page .ahs-hero__lead,
+  .ahs-page .ahs-hero__detail,
+  .ahs-page .ahs-hero__cta {
+    position: static;
+  }
+
+  .ahs-page .ahs-eyebrow {
+    margin-bottom: 24px;
+  }
+
+  .ahs-page .ahs-hero h1 {
+    display: flex;
+    align-items: baseline;
+    gap: 18px;
+    white-space: nowrap;
+  }
+
+  .ahs-page .ahs-hero__subtitle {
+    margin-top: 18px;
+  }
+
+  .ahs-page .ahs-hero__lead,
+  .ahs-page .ahs-hero__detail {
+    width: 100%;
+  }
+
+  .ahs-page .ahs-hero__lead {
+    margin-top: 24px;
+  }
+
+  .ahs-page .ahs-hero__detail {
+    margin-top: 18px;
+  }
+
+  .ahs-page .ahs-hero__cta {
+    margin-top: 28px;
+  }
+
+  .ahs-page .ahs-overview__card {
+    height: auto;
+    min-height: 0;
+    padding: 20px 32px;
+  }
+
+  .ahs-page .ahs-overview__heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ahs-page .ahs-overview__card h3 {
+    margin: 0;
+  }
+
+  .ahs-page .ahs-overview__card p {
+    margin-top: 12px;
+  }
+
+  .ahs-page .ahs-flow__conclusion {
+    height: auto;
+    min-height: 0;
+    padding: 20px 24px;
+  }
+
+  .ahs-page .ahs-flow__conclusion div {
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .ahs-page .ahs-advantage-card {
+    height: auto;
+    min-height: 0;
+    padding: 20px 32px;
+  }
+
+  .ahs-page .ahs-advantages__foundation {
+    height: auto;
+    min-height: 0;
+    margin-top: 40px;
+    padding: 20px 32px;
+  }
+
+  .ahs-page .ahs-advantages {
+    background: #eef5ff;
+  }
+
+  .ahs-page .ahs-advantage-card,
+  .ahs-page .ahs-advantages__foundation {
+    background: #fff;
+  }
+
+  .ahs-page .ahs-advantages__note {
+    height: auto;
+    min-height: 0;
+  }
+
+  .ahs-page .ahs-outcomes__lead {
+    width: 100%;
+  }
+
+  .ahs-page .ahs-outcome-metric {
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .ahs-page .ahs-outcome-value {
+    height: auto;
+    min-height: 0;
+    padding: 20px 24px;
+  }
+
+  .ahs-page .ahs-application-card {
+    height: auto;
+    min-height: 0;
+    padding: 20px 32px;
+  }
+
+  .ahs-page .ahs-applications__head {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    margin-top: 40px;
+    padding: 14px 24px;
+    border: 1px solid #e2e8f0;
+    border-bottom: 0;
+    border-radius: 14px 14px 0 0;
+    background: #f8fafc;
+  }
+
+  .ahs-page .ahs-applications__list {
+    margin-top: 0;
+    display: block;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    border-radius: 0 0 14px 14px;
+    background: #fff;
+  }
+
+  .ahs-page .ahs-application-card,
+  .ahs-page .ahs-application-card:first-child {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: #fff;
+  }
+
+  .ahs-page .ahs-application-card + .ahs-application-card {
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .ahs-page .ahs-application-card > div {
+    padding: 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid #e2e8f0;
+  }
+
+  .ahs-page .ahs-application-card > div:last-child {
+    border-right: 0;
+  }
+
+  .ahs-page .ahs-application-card p {
+    line-height: 22px;
+  }
+
+  .ahs-page .ahs-application-card > div:nth-child(-n + 2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ahs-page .ahs-case-card {
+    height: auto;
+    min-height: 0;
+    padding: 20px 32px;
+  }
+
+  .ahs-page .ahs-case-card p {
+    margin-top: 16px;
+  }
+
+  .ahs-page .ahs-service-strip__panel {
+    height: auto;
+    min-height: 0;
+    padding: 30px 56px;
+  }
+
+  .ahs-page .ahs-closing {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 60px 0;
+  }
+}
+
+/* 2026-07-26 用户确认：解决方案页横向内容卡片统一内容驱动高度，卡片内边距 20px。 */
+@media (min-width: 901px) {
+  .ahs-page .ahs-pains__grid,
+  .ahs-page .ahs-overview__grid,
+  .ahs-page .ahs-advantages__cards,
+  .ahs-page .ahs-outcomes__values,
+  .ahs-page .ahs-applications__grid,
+  .ahs-page .ahs-cases__grid,
+  .ahs-page .ahs-deployment__grid {
+    align-items: stretch;
+  }
+
+  .ahs-page .ahs-pain-card,
+  .ahs-page .ahs-overview__card,
+  .ahs-page .ahs-advantage-card,
+  .ahs-page .ahs-outcome-value,
+  .ahs-page .ahs-application-card,
+  .ahs-page .ahs-case-card,
+  .ahs-page .ahs-deployment-card,
+  .ahs-page .ahs-deployment-card > div {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .ahs-page .ahs-pain-card,
+  .ahs-page .ahs-pain-card__half {
+    overflow: visible;
+  }
+
+  .ahs-page .ahs-application-card:first-child {
+    padding-block: 16px;
+  }
+
+  .ahs-page .ahs-deployment-card__heading {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ahs-page .ahs-deployment-card__heading h3 {
+    margin: 0;
+  }
+
+  .ahs-page .ahs-pain-card {
+    padding: 0;
+  }
+
+  .ahs-page .ahs-deployment__grid {
+    align-items: start;
+  }
+
+  .ahs-page .ahs-deployment-card {
+    height: auto;
+    padding: 20px;
+    align-self: start;
+  }
+
+  .ahs-page .ahs-deployment-card > div {
+    height: auto;
+    margin-top: 16px;
+    padding: 16px;
+  }
+}
+
+/* 2026-07-27 浏览器批注：场景表取消列间竖线，合作模式两卡等高。 */
+@media (min-width: 901px) {
+  .ahs-page .ahs-application-card > div {
+    border-right: 0;
+  }
+
+  .ahs-page .ahs-deployment__grid {
+    align-items: stretch;
+  }
+
+  .ahs-page .ahs-deployment-card {
+    align-self: stretch;
+  }
+}
+
+/* 2026-07-27 浏览器批注第六批：首行应用场景进一步收紧。 */
+@media (min-width: 901px) {
+  .ahs-page .ahs-application-card:first-child {
+    padding-block: 12px;
+  }
+}

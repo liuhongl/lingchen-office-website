@@ -21,6 +21,7 @@ export function CustomerCasesClient({ cases }: { cases: CustomerCase[] }) {
   const { view, filter } = selection;
   const options = view === "domain" ? customerCaseDomains : customerCaseProducts;
   const visibleCases = cases.filter((item) => {
+    if (!item.views.includes(view)) return false;
     if (filter === "全部") return true;
     return view === "domain" ? item.domain === filter : item.products.includes(filter);
   });
@@ -32,6 +33,11 @@ export function CustomerCasesClient({ cases }: { cases: CustomerCase[] }) {
     if (nextFilter !== "全部") params.set("filter", nextFilter);
     const query = params.toString();
     return query ? `${pathname}?${query}` : pathname;
+  };
+
+  const getCaseHref = (slug: string) => {
+    const params = new URLSearchParams({ fromView: view, fromFilter: filter });
+    return `/customer-cases/${slug}/?${params.toString()}`;
   };
 
   const selectFilter = (event: MouseEvent<HTMLAnchorElement>, nextView: View, nextFilter: string) => {
@@ -60,7 +66,7 @@ export function CustomerCasesClient({ cases }: { cases: CustomerCase[] }) {
       <section className={`${styles.shell} ${styles.list}`} aria-live="polite">
         {visibleCases.map((item) => (
           <article className={styles.card} key={item.slug}>
-            <Link className={showDomainTag ? undefined : styles.withoutDomain} href={`/customer-cases/${item.slug}/`} aria-label={`查看${getCustomerCaseDisplayTitle(item.title)}`}>
+            <Link className={showDomainTag ? undefined : styles.withoutDomain} href={getCaseHref(item.slug)} aria-label={`查看${getCustomerCaseDisplayTitle(item.title)}`}>
               {showDomainTag ? <span className={styles.domain}>{item.domain}</span> : null}
               <h2>{getCustomerCaseDisplayTitle(item.title)}</h2>
               <p className={styles.summary}>{item.summary}</p>

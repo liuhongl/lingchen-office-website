@@ -99,9 +99,9 @@ export default function MineGeoSolutionPage() {
       </section>
 
       <section className="mgs-capabilities" id="mine-geo-capabilities" aria-labelledby="mgs-capabilities-title">
-        <div className="mgs-capabilities__heading"><h2 id="mgs-capabilities-title">一、一图读懂 (五大能力 · 一个闭环)</h2></div>
+        <div className="mgs-capabilities__heading"><h2 id="mgs-capabilities-title">一、 五大能力 · 一个闭环</h2></div>
         <div className="mgs-capabilities__grid">
-          {capabilities.map(([icon, title, body], index) => <article className={`mgs-capability-card${index === 4 ? " mgs-capability-card--wide" : ""}`} key={title}><Image src={`/images/solutions/mine-geo/${icon}`} alt="" width={56} height={56} /><div><h3>{title}</h3><p>{body}</p></div></article>)}
+          {capabilities.map(([icon, title, body]) => <article className="mgs-capability-card" key={title}><div className="mgs-capability-card__heading"><Image src={`/images/solutions/mine-geo/${icon}`} alt="" width={56} height={56} /><h3>{title}</h3></div><p>{body}</p></article>)}
         </div>
       </section>
 
@@ -125,13 +125,13 @@ export default function MineGeoSolutionPage() {
 
       <section className="mgs-advantages" aria-labelledby="mgs-advantages-title">
         <div className="mgs-advantages__heading"><h2 id="mgs-advantages-title">四、关键竞争优势：多维能力协同，构筑企业专属资产</h2><span>国内外主流 AI 平台多模型矩阵统一接入</span></div>
-        <div className="mgs-advantages__grid">{advantages.map(([icon, title, body]) => <article key={title}><Image src={`/images/solutions/mine-geo/${icon}`} alt="" width={56} height={56} /><h3>{title}</h3><p>{body}</p></article>)}</div>
+        <div className="mgs-advantages__grid">{advantages.map(([icon, title, body]) => <article key={title}><div className="mgs-advantage-card__heading"><Image src={`/images/solutions/mine-geo/${icon}`} alt="" width={56} height={56} /><h3>{title}</h3></div><p>{body}</p></article>)}</div>
         <article className="mgs-architecture"><h3>Mine GEO 智能系统架构：</h3><ol><li><b>1</b><p>业务应用层：支持品牌审计、竞品对比、售前资料生成、口碑风险治理与经营问答辅助。</p></li><li><b>2</b><p>GEO 能力层：诊断、治理、创作、分发、监控五大能力协同，形成可复盘优化闭环。</p></li><li><b>3</b><p>数据知识层：包含标准事实、客户案例、FAQ、权威报告、专家 / IP 内容与发布记录。</p></li></ol></article>
       </section>
 
       <section className="mgs-outcomes" aria-labelledby="mgs-outcomes-title">
         <div className="mgs-outcomes__heading"><h2 id="mgs-outcomes-title">五、可交付商业成果与落地价值</h2><span>Mine GEO 的价值不止是“更快生成内容”，而是围绕 AI 答案入口形成可衡量、可复盘、可持续优化的业务结果。通过数据驱动闭环，实现效率、成本、业务、管理、风险、技术六维提升，让品牌在 AI 时代获得高壁垒的数字资产。</span></div>
-        <div className="mgs-outcomes__cards">{outcomeMetrics.map(([icon, title, body]) => <article key={title}><Image src={`/images/solutions/mine-geo/${icon}`} alt="" width={64} height={64} /><h3>{title}</h3><p>{body}</p></article>)}</div>
+        <div className="mgs-outcomes__cards">{outcomeMetrics.map(([icon, title, body]) => <article key={title}><div className="mgs-outcome-card__heading"><Image src={`/images/solutions/mine-geo/${icon}`} alt="" width={64} height={64} /><h3>{title}</h3></div><p>{body}</p></article>)}</div>
         <div className="mgs-prototype-values">{outcomeValues.map(([icon, title, body]) => <article key={title}><Image src={`/images/solutions/mine-geo/${icon}`} alt="" width={48} height={48} /><div><h3>{title}</h3><p>{body}</p></div></article>)}</div>
         <div className="mgs-prototype-comparison"><h3>相比传统方案：从人工试探式优化，升级为数据驱动闭环</h3>{comparisons.map(([title, traditional, mineGeo]) => <article key={title}><h4>{title}</h4><div className="mgs-prototype-comparison__sides"><p className="mgs-prototype-comparison__traditional"><strong>【传统做法】</strong><span>{traditional}</span></p><p className="mgs-prototype-comparison__mine"><strong>【Mine GEO 闭环】</strong><span>{mineGeo}</span></p></div></article>)}</div>
       </section>
@@ -139,7 +139,7 @@ export default function MineGeoSolutionPage() {
       <section className="mgs-scenarios" aria-labelledby="mgs-scenarios-title">
         <div className="mgs-scenarios__heading"><h2 id="mgs-scenarios-title">六、部分应用场景示例</h2><span>通过科学化与数据化的 GEO 治理，让市场、公关、售前与服务团队在生成式答案时代占领高转化的决策前置入口。</span></div>
         <div className="mgs-prototype-scenario-table">
-          <div className="mgs-prototype-scenario-head"><span>业务模块 / 场景类型</span><span>核心痛点 / 服务群体</span><span>灵宸智能适配解决方案</span></div>
+          <div className="mgs-prototype-scenario-head"><span>业务模块 / 场景类型</span><span>服务群体</span><span>灵宸智能适配解决方案</span></div>
           <div className="mgs-prototype-scenarios">{scenarios.map(([title, audience, body]) => <article key={title}><h3>{title}</h3><p>{audience}</p><p>{body}</p></article>)}</div>
         </div>
         <h3 className="mgs-prototype-path-title"><span aria-hidden="true"><Image src="/images/sales-in-solution/path-scale.svg" alt="" width={24} height={24} /></span>典型落地路径建议：先见效，再扩展</h3>
@@ -151,10 +151,21 @@ export default function MineGeoSolutionPage() {
 
       <section className="mgs-cooperation" aria-labelledby="mgs-cooperation-title">
         <div className="mgs-cooperation__heading"><h2 id="mgs-cooperation-title">七、合作模式</h2><span>提供安全、可控、可量化结果且可逐步推广的企业级 AI Agent 落地机制。</span></div>
-        <div className="mgs-cooperation__grid">{cooperationModes.map(([label, title, description, payment], index) => <article className={`mgs-cooperation-card mgs-cooperation-card--${["blue", "purple", "green"][index]}`} key={label}><b className="mgs-cooperation-card__badge">{label}</b><h3>{title}</h3><p>{description}</p><div className="mgs-prototype-payment"><strong>付费方案：</strong><p>{payment}</p></div></article>)}</div>
+        <div className="mgs-cooperation__grid">
+          {cooperationModes.map(([label, title, description, payment], index) => (
+            <article className={`mgs-cooperation-card mgs-cooperation-card--${["blue", "purple", "green"][index]}`} key={label}>
+              <div className="mgs-cooperation-card__heading">
+                <b className="mgs-cooperation-card__badge">{label}</b>
+                <h3>{title}</h3>
+              </div>
+              <p>{description}</p>
+              <div className="mgs-prototype-payment"><strong>付费方案：</strong><p>{payment}</p></div>
+            </article>
+          ))}
+        </div>
       </section>
 
-      <section className="mgs-closing" aria-labelledby="mgs-closing-title"><h2 id="mgs-closing-title">大模型时代·Mine GEO-品牌生成式引擎优化与获客AI Agent</h2><p>帮助企业持续管理品牌在 AI 搜索、AI 聊天和生成式答案中的可见度、推荐率与情感倾向；<br />把新的客户决策入口变成可诊断、可治理、可优化的获客增长体系。</p></section>
+      <section className="mgs-closing" aria-labelledby="mgs-closing-title"><h2 id="mgs-closing-title">大模型时代·Mine GEO<span>品牌生成式引擎优化与获客AI Agent</span></h2><p>帮助企业持续管理品牌在 AI 搜索、AI 聊天和生成式答案中的可见度、推荐率与情感倾向；把新的客户决策入口变成可诊断、可治理、可优化的获客增长体系。</p></section>
     </main>
   );
 }

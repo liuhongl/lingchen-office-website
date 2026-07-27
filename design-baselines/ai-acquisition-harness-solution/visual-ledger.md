@@ -87,3 +87,9 @@
 | Hero 正文 | lead 1080px；detail 1120px；两行 | `user-review-full-local-1671.png` | PASS |
 | Hero CTA | 上移并保留 74px 左右底部空间 | 同上 | PASS |
 | 重点文字 | `千人千面` 使用品牌蓝与 700 字重 | 同上 | PASS |
+
+## 2026-07-27 浏览器批注第六批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| AHS-R6-01 | 应用场景第一行 | 高 158px、上下 padding 16px、无裁切 | 高 150px、上下 padding 12px，三列内容完整且无裁切 | PASS |

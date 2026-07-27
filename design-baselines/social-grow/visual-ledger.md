@@ -58,6 +58,15 @@
 | SG-V0602 | 最终蓝色面板 | y≈5404–5659 | 深蓝底、三张半透明子卡 | 页面专属 | PASS |
 
 区块 05–06 视觉台账零阻塞，可进入实现与同视口验收。
+
+## 2026-07-26 20:27 浏览器批注视觉覆盖
+
+| 元素 ID | 元素 | 当前计算证据 | 用户覆盖与实现值 | 状态 |
+|---|---|---|---|---|
+| SG-V2601 | 第一张“分钟级”改变卡 | 卡片 `282×116px`；图标绝对定位在右，图标与标题中心差 `7px` | 仅第一张蓝卡改为 `48px + 1fr` 两列，图标在左、文字在右，`align-items:center` | CONFIRMED |
+| SG-V2602 | 场景表行 | 三列单元格当前 `display:block` | 三列单元格改为纵向 flex，并以 `justify-content:center` 上下居中 | CONFIRMED |
+| SG-V2603 | 场景副标题及全站同类区块说明文字 | 示例计算色 `rgb(107,114,128)` | 仅 `light-text-inventory-2026-07-26.md` 确认的 section subtitle / lead / intro 改为 `#111827` | CONFIRMED |
+| SG-V2604 | 第二张合作卡标题下距 | `margin-bottom:23px` | 最小收紧 `7px` 至 `16px`；不影响第一张标题 | CONFIRMED |
 ## 2026-07-22 原型内容同步批次视觉声明
 
 - 视觉继续以当前产品详情实现和本文件既有 MasterGo 台账为准；原型仅作为内容真源。
@@ -84,3 +93,56 @@
 - 价值标签 `b` 使用 `white-space: nowrap`，与后续正文保持同行。
 - 商业实效使用三列表格：环节 / 过去 / 现在，统一表头底色、1px 分隔线、无表头图标、无卡片式左右分栏。
 - 场景表改为四列，场景名称无前置圆点；“痛点”为独立列。
+
+## 2026-07-24 间距与表格覆盖
+
+| 元素 ID | 元素 | 用户证据 | 视觉属性 | 状态 |
+|---|---|---|---|---|
+| SG-V2405 | 主体 sections | 浏览器批注 7 | 内容自然撑高；桌面端上下 `padding:60px` | CONFIRMED |
+| SG-V2406 | 商业实效表 | 浏览器批注 8 | 行高收紧；仅保留横向分隔线，列间无竖线 | CONFIRMED |
+| SG-V2407 | 场景表表头 | 浏览器批注 9 | 表头单元格垂直居中 | CONFIRMED |
+| SG-V2408 | 最终理由面板 | 浏览器批注 10 | 与合作表间距由 80px 收紧为 40px | CONFIRMED |
+| SG-V2409 | 合作模式 | 浏览器批注 11 | 两列表格；表头浅灰蓝、数据行白底、横向分隔线 | CONFIRMED |
+
+- 合作表删除卡片内图标，不以其他图标替代；公共头尾与弹窗不在本批次范围。
+| SG-V2410 | 全部正文大模块 | 用户 2026-07-24 浏览器批注 | `height:auto; min-height:0; padding-block:60px`；Hero 除外 | CONFIRMED |
+| SG-V2501 | Hero / Closing | 用户 2026-07-25 浏览器批注 | `padding-block:60px; height:auto; min-height:0` | CONFIRMED |
+| SG-V2502 | Hero 文本 | 用户 2026-07-25 浏览器批注 | Lead 与 Body 扩展至容器右边界 | CONFIRMED |
+| SG-V2503 | 绿色结果指标 | 用户 2026-07-25 浏览器批注 | 缩小字号，恢复左右留白 | CONFIRMED |
+| SG-V2504 | Closing 正文 | 用户 2026-07-25 浏览器批注 | 目标桌面视口单行显示 | CONFIRMED |
+
+## 2026-07-26 浏览器批注第二批
+
+| 元素 | 用户覆盖后计算样式 / DOM | 状态 |
+|---|---|---|
+| 四张改变卡 | `.sgs-change__heading > img + strong`；`align-items:center`；四卡 122px | PASS |
+| 痛点标题下距 | 列表 `margin-top:32px` | PASS |
+| 四个成果指标 | 38/50px，全部无横向溢出 | PASS |
+| 成果正文 | 四张上距 12px | PASS |
+| 场景表 | 四个标题背景透明；第四行 118px，其余 134px | PASS |
+| 合作标题 2 | 上距 8px、下距 12px | PASS |
+
+证据：`output/playwright/browser-comments-round2-2026-07-26/social-grow-*.png`。
+
+## 2026-07-27 浏览器批注第四批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| SG-R4-01 | 内容生产线 | 固定 366px，末尾空白约 80px | `height:auto` | PASS |
+| SG-R4-02 | 浅色模块正文 | 指标说明 `rgb(147,160,180)`；多组正文 `rgb(96,112,137)` | 浅色背景正文统一黑色 | PASS |
+| SG-R4-03 | 深蓝最终卡正文 | 被覆盖为 `rgb(17,24,39)` | 恢复白色 | PASS |
+| SG-R4-04 | 同类结果价值卡 | `padding:23px 24px 27px` | `padding:20px` | PASS |
+
+## 2026-07-27 浏览器批注第五批
+
+| 元素 ID | 元素 | 开工运行态（1576×1258） | 用户覆盖与实现目标 | 状态 |
+|---|---|---|---|---|
+| SG-R5-01 | 场景表四行非标题正文 | `12px / 18.6px`；无内容溢出 | 同类单元格统一为 `14px / 21.7px`；四行均高 `115.75px`、内容溢出 `0` | PASS |
+
+- 前后证据：`output/playwright/browser-comments-round5-2026-07-27/02-social-scenarios-before-1576x1258.png`、`05-social-scenarios-after-1576x1258.png`、`06-social-grow-full-after-1576.png`。
+
+## 2026-07-27 浏览器批注第六批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| `.social-grow-scenario-cards > article` 两卡 | `184px`；padding `31px 32px` | 四边 `20px`、内容撑高；实测两卡均 `166.17px`、内容溢出 `0` | PASS |

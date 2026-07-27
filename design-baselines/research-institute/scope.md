@@ -44,3 +44,19 @@
 - 禁止修改：公共 Header、Footer、Logo、字体、文章文案、分类交互、文章链接、正式插图文件。
 - 公共资产开工 SHA-256：`SiteHeader=00a8a2bb1d30db5e77a6abf5825e95497d907d7c9356506f9feac9c5ec35ef76`；`SiteFooter=7f609bb217fc41e8add53c6bbee79836e7b621f9ad813643d0b77de79f762fdb`；`Logo=badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11`；`layout.tsx=5f62b96be5fddb33551996f8a3f343e9c3f9876016111c6fee66d5dcfc388da0`。
 - 本次继续只验收桌面端；移动端未纳入当前官网范围。
+
+## 2026-07-25 浏览器批注覆盖
+
+- 目标视口：`1576 × 1258`，仅验收桌面端。
+- Hero 改为参考首页视觉语言的浅蓝色系，删除固定高度，内容区上下 `padding: 60px`。
+- 分类 Tab 删除“全部”后的文章数量徽标；未选中项改为黑色、加粗。
+- 文章区顶部留白与列表卡片间距统一；文章卡片删除固定高度并缩小上下内边距。
+- 本轮不修改文章文案、分类交互、文章链接、正式插图或公共 Header / Footer。
+- 开工公共资产 SHA-256：`SiteHeader=5aef1bd27e0a0a57ffdc65dbb80df4ab5cc30aa2c17b1283f3791a17da345bfa`；`SiteFooter=8732972918addddddbbcbec095ff0b2b7c34797ea74522bf019427956ceae2ae`；`BookingModal=3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`；`BookingTrigger=cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7`；`Logo=badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11`。
+- 追加用户覆盖：分类栏背景改为纯白，文章列表区背景改为浅蓝灰 `#F4F7FB`，白色卡片保持内容层级。
+
+## 2026-07-25 第二轮浏览器批注覆盖
+
+- Hero 左侧不能接近白色，需要从左到右都保持可辨识的浅蓝色，与下方纯白分类栏形成明确分区。
+- 所有文章卡片右侧正式封面与“立即阅读”按钮之间增加稳定间距，不只修用户指出的单张卡片。
+- 本轮仍只允许修改 `.research-*` 页面命名空间样式与研究院证据台账；不改文案、文章数据、链接、正式图片和公共资产。

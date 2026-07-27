@@ -113,3 +113,10 @@
 - `pnpm build`：PASS（71 个静态页面生成完成）
 - `git diff --check`：PASS
 - `pnpm mastergo:check deepdoc-solution`：PASS
+
+## 2026-07-27 浏览器批注第六批
+
+- R6-05 内容/视觉双验收 PASS：三张挑战卡图标列均为 48px，图标到标题实际净距均 16px，垂直居中且无裁切。
+- 1576×1258 分区与全页证据：`output/playwright/browser-comments-round6-2026-07-27/04-deepdoc-challenges-after.png`、`full-deepdoc-solution.png`；横向溢出 0。
+- “立即体验”和“预约产品演示”均实点打开公共 BookingModal，Escape 与滚动锁定恢复 PASS。
+- lint、tsc、build、diff check 与 `mastergo:check deepdoc-solution` PASS；公共资产哈希未变；移动端不在范围，不声明新的 1:1。

@@ -114,3 +114,32 @@
 
 - 运行时 `scrollWidth === clientWidth === 1671`；控制台 error 为 0。
 - 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check ai-overseas` 全部 PASS。
+
+## 2026-07-24 浏览器批注回归
+
+- [x] Hero 标题运行时为单行，标题高度 48px；正文宽度为 `.shell` 的 100%（1200px）。
+- [x] Hero 取消固定最小高度，上下内边距运行时均为 42px。
+- [x] 七个正文 section 上下内边距均为 60px，由内容高度撑开，无内容溢出。
+- [x] `36个月→1个月` 以 24px 单行显示；可信底座为左三右三；其余用户确认文案逐字匹配，旧文案均未进入 DOM。
+- [x] Hero“预约产品演示”实点打开公共 `BookingModal`；标题为“立刻预约演示与体验”，关闭按钮实点后弹窗不可见。
+- [x] `1644 × 1258` 运行时 `scrollWidth === clientWidth`。
+- 视觉证据：`visual-results/feedback-2026-07-24-browser-comments/ai-overseas-top-1644x1258.png`；全页关键属性使用运行时 DOM 量测核对。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check ai-overseas` 全部 PASS。
+- 完成等级：已视觉校准；本轮为用户覆盖后的实现，不宣称与旧 MasterGo 画板严格 1:1。
+- 移动端未纳入当前官网范围，不作为桌面端冻结阻塞项。
+
+## 2026-07-25 浏览器批注验证
+
+- `1576×1258` 运行态：可信底座实际坐标为左列三项 `x=830`、右列三项 `x=1097`，列内顺序与用户覆盖一致。
+- Closing CTA 计算值：`padding-top/bottom=60px`、`min-height=0px`、`height=338.594px`；横向溢出 `0`。
+- 顶部分区截图：`visual-results/feedback-2026-07-25-browser-comments/ai-overseas-top-1576x1258.png`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check ai-overseas` 全部 PASS。
+
+## 2026-07-26 浏览器批注验证
+
+- [x] 四张痛点卡的编号与标题同行；三张智能体卡的正式图标与标签同行。
+- [x] 指标说明计算字号为 `14px`；页面横向溢出为 `0`。
+- [x] 公共 Header、Footer、Logo、BookingModal 未在本轮修改。
+- 同视口证据：`visual-results/feedback-2026-07-26/ai-overseas-top-1576x1258.png`、`visual-results/feedback-2026-07-26/ai-overseas-cards-1576x1258.png`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check ai-overseas` 全部 PASS。
+- 移动端未纳入当前官网范围。

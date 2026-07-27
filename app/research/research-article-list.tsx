@@ -47,7 +47,6 @@ export function ResearchArticleList({ articles }: { articles: ResearchListArticl
               type="button"
             >
               {category}
-              {category === "全部" ? <b>{articles.length}</b> : null}
             </button>
           ))}
         </div>

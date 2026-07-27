@@ -82,6 +82,7 @@ const cooperationModes = [
     icon: Building2,
     title: "B端企业本地化部署",
     text: "针对中大集团、银行及金融机构提供定制部署及产品智能升级。沙箱物理级安全架构，核心业务敏感数据不出企业内部。",
+    inlineTitle: true,
   },
   {
     icon: UsersRound,
@@ -148,9 +149,10 @@ export default function AboutPage() {
           <div className="about-shell about-hero__inner">
             <div className="about-hero__copy">
               <h1>
-                灵宸智能：开箱即用的
-                <span>AI 原生 Agent，</span>
-                为您的商业结果服务。
+                <span className="about-hero__title-line">
+                  灵宸智能：开箱即用的 <span className="about-hero__title-emphasis">AI 原生 Agent</span>
+                </span>
+                <span className="about-hero__title-accent">为您的商业结果服务</span>
               </h1>
               <p className="about-hero__description">
                 灵宸智能专注于 <strong>出海获客、不良资产处置及风控合规</strong>等细分场景，打造
@@ -182,16 +184,20 @@ export default function AboutPage() {
             </div>
             <div className="about-product-grid">
               <article>
-                <div className="about-card-icon"><Globe2 size={24} /></div>
+                <div className="about-product-title-row">
+                  <div className="about-card-icon"><Globe2 size={24} /></div>
+                  <h3>AI出海获客矩阵</h3>
+                </div>
                 <span className="about-wing">左翼</span>
-                <h3>AI出海获客矩阵</h3>
                 <p>Sales in × Social Grow × Mine GEO × AI 获客 Harness 协同，覆盖海外多渠道全网线索发现、内容种草、大模型流量入口与智慧触达，协同赋能企业出海获客场景。</p>
                 <div className="about-product-result"><span>交付商业结果：</span><strong>高意向销售线索 · ROI 绝对清晰</strong></div>
               </article>
               <article>
-                <div className="about-card-icon about-card-icon--gray"><Landmark size={23} /></div>
+                <div className="about-product-title-row">
+                  <div className="about-card-icon about-card-icon--gray"><Landmark size={23} /></div>
+                  <h3>AI不良资产处置</h3>
+                </div>
                 <span className="about-wing about-wing--right">右翼</span>
-                <h3>AI不良资产处置</h3>
                 <p>Recov AI 全自动接管逾期资产回款链路，涵盖数据处理、画像、大模型外呼、全域智能触达、法律文书自生成、自主批量立案等闭环。</p>
                 <div className="about-product-result"><span>交付商业结果：</span><strong>真金白银不良资产回款 · 按回款收服务费</strong></div>
               </article>
@@ -202,15 +208,16 @@ export default function AboutPage() {
         <section className="about-section about-dna">
           <div className="about-shell">
             <header className="about-section__head">
-              <SectionLabel>WHY LINGCHEN</SectionLabel>
               <h2>为什么选择灵宸：复合型核心团队 DNA</h2>
-              <p>大模型工程能力 × 产业级产品化设计 × 法律/金融/跨境专家团队与实务经验 × 全球领先的行业<br />标杆客户成功交付经验</p>
+              <p>大模型工程能力 × 产业级产品化设计 × 法律/金融/跨境专家团队与实务经验 × 全球领先的行业标杆客户成功交付经验</p>
             </header>
             <div className="about-dna-grid">
               {dnaItems.map((item) => (
                 <article key={item.number}>
-                  <strong>{item.number}</strong>
-                  <h3>{item.title}</h3>
+                  <div className="about-dna-grid__top">
+                    <strong>{item.number}</strong>
+                    <h3>{item.title}</h3>
+                  </div>
                   <p>{item.text}</p>
                 </article>
               ))}
@@ -227,16 +234,17 @@ export default function AboutPage() {
         <section className="about-section about-cooperation">
           <div className="about-shell">
             <header className="about-section__head">
-              <SectionLabel>PARTNERSHIP</SectionLabel>
               <h2>灵活多元的合作模式</h2>
               <p>按客户类型与业务诉求灵活组合，支持从单一场景小步试点到全面落地，深度对齐核心利益。</p>
             </header>
             <div className="about-mode-grid">
-              {cooperationModes.map(({ icon: Icon, title, text }) => (
-                <article key={title}>
-                  <div className="about-card-icon"><Icon size={23} /></div>
-                  <h3>{title}</h3>
-                  <p>{text}</p>
+              {cooperationModes.map((mode) => (
+                <article key={mode.title}>
+                  <div className="about-mode-card__heading">
+                    <div className="about-card-icon"><mode.icon size={23} /></div>
+                    <h3>{mode.title}</h3>
+                  </div>
+                  <p>{mode.text}</p>
                 </article>
               ))}
             </div>
@@ -252,8 +260,11 @@ export default function AboutPage() {
             <div className="about-security-grid">
               {securityItems.map(({ number, icon: Icon, title, text }) => (
                 <article key={number}>
-                  <div className="about-security-grid__top"><strong>{number}</strong><span><Icon size={16} /></span></div>
-                  <h3>{title}</h3>
+                  <div className="about-security-grid__top">
+                    <strong>{number}</strong>
+                    <h3>{title}</h3>
+                    <span><Icon size={16} /></span>
+                  </div>
                   <p>{text}</p>
                 </article>
               ))}

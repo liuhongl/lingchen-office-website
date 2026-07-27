@@ -98,3 +98,29 @@
 - 公共资产：BookingModal 与 BookingTrigger 的 SHA-256 与本轮开工值一致；本轮未复制或另建弹窗表单。
 - 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check contact` 全部 PASS；构建后 `/contact/` HTTP 200，浏览器控制台错误数为 0。
 - 当前完成等级：已实现、已视觉校准；移动端未纳入当前官网范围。
+
+## 2026-07-25 联系方式卡片增量验收
+
+- 视口：1576×1258；全页无横向溢出。
+- 三张卡片均为 280×117.5px，内容自然撑开，上下 20px、左右 18px，无固定或最小高度。
+- 48×48 正式图标与标题同行，间距 10px、垂直居中；正文为 `#111827`，上间距 10px。
+- 视觉证据：`05-browser-feedback-local-1576x1258.png`。
+- 公共 Header“立即体验”打开同一 BookingModal，关闭按钮回归通过；未提交表单、未写入外部数据。
+- 工程门禁：`lint`、`tsc --noEmit`、`build`、`git diff --check`、`mastergo:check contact` 均 PASS。
+
+## 2026-07-27 委派续跑现场复核
+
+- 按当前工作树重新读取 scope/content/visual/final 台账，无有效 `BLOCKED`、`待核对` 或 `未完成` 项。
+- `1576×1258` 实际渲染唯一 H1、横向溢出 0；全页证据：`output/playwright/browser-comments-round4-2026-07-27/contact-full-1576.png`。
+- 公共 Header、Footer、Logo、BookingModal、BookingTrigger 收工 SHA-256 与本轮开工基线一致。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check contact` PASS；移动端不在范围，不新增 1:1 声明。
+- 公共资产交付哈希与本轮开工值一致：SiteHeader `5aef1bd2…345bfa`、SiteFooter `87329729…eae2ae`、BookingModal `3e143bc7…32206`、BookingTrigger `cf6bfae2…c4fad7`、Logo `badc568e…fdf11`。
+- 当前完成等级：已视觉校准；移动端未纳入当前官网范围。
+
+## 2026-07-26 委托恢复后的现场复核
+
+- 以当前工作区和当前运行实例重新核查，未复用旧任务图片：唯一 H1 与 canonical 正确；三张联系方式卡均为 280×117.5px、`min-height:auto`、padding `20px 18px`。
+- 三个 48×48 正式图标与标题同行，gap 10px、垂直居中；正文均为 `rgb(17,24,39)`，地址、电话、邮箱逐字未变。
+- 1576×1258 全页截图：`output/playwright/browser-comments-round2-2026-07-26/contact-full-1576.png`；横向溢出为 0。
+- Header“立即体验”仍打开公共 `BookingModal`，Escape 关闭回归通过；未提交表单、未向本地或生产接口写入数据。
+- 当前仍存在既有外部阻塞：生产后端与数据库扩展字段不在本仓库，不能据本地前端结果宣称线上独立字段已入库。

@@ -11,6 +11,7 @@
 | V-H-006 | CTA | 深蓝背景、径向光、渐变标题、居中蓝色 CTA | MasterGo 全画板 | `05-closing-cta.png` | PASS |
 | V-H-007 | Footer | `#050F23` 背景；三列信息；顶部/底部分隔线 | 公共 Footer 基线 | `06-contact.png` | PASS |
 | V-H-009 | Hero 右上口号 | 19.2px / 900 / 28.8px；青 `#06b6d4` → 紫 `#7c3aed` 逐字渐变；逐字 `-12deg → 12deg` 浅弧；Hero `top=24px / right=24px` | 2026-07-23 Google AI Studio 原型实测 | `output/playwright/header-motto-2026-07-23/home-after-1671x1258.png` | PASS |
+| V-H-026 | Hero 右上口号水平位置 | `top=24px` 不变；右边缘与公共 Header `.shell` 及“立即体验”右边缘对齐 | 2026-07-26 用户浏览器批注 | `visual-results/feedback-2026-07-26/home-motto-aligned-1576x1258.png` | PASS |
 | V-H-010 | Agent OS 卡片方案（历史） | `1120px` 最大宽；不设置重复控制中枢；3×2 卡片按蛇形闭环排列 | 2026-07-23 历史用户覆盖 | `output/playwright/home-agent-os-redesign-2026-07-23/agent-os-no-core-1413x1258.png` | RETIRED |
 | V-H-011 | Agent OS 圆环恢复 | 恢复 V-H-005 / V-H-008：1120×680、六个 200×200 白色圆节点、双层虚线内圆、蓝紫中心核；保留六段节点说明；六段轨道去除模糊滤镜，改为 3px 清晰蓝线并增加顺时针方向箭头 | 2026-07-23 最新用户覆盖 + 历史已验证圆环基线 | `output/playwright/home-agent-os-redesign-2026-07-23/agent-os-restored-ring-arrows-1440x1258.png` | PASS |
 | V-H-012 | Agent OS 箭头与圆内文字清晰度 | 六个箭头尖端叠在目标圆边界；轨道层位于圆节点上层但不穿过正文；编号 30px/800，标题 14px/750，标签 10px/700，说明 11.5px/500/1.45，说明最大宽 168px | 2026-07-23 用户最新反馈 | `output/playwright/home-agent-os-redesign-2026-07-23/agent-os-arrows-on-circles-clear-text-1413x1258.png` | PASS |
@@ -29,6 +30,7 @@
 - 2026-07-23 圆环恢复并优化轨道后，在 `1413 × 1258` 实测：六个节点均为 `200 × 200`，各节点 `clientHeight=scrollHeight=200`，节点重叠 0；六段轨道 `filter=none` 且均应用方向箭头；蓝紫中心核 1 个；`scrollWidth=clientWidth=1398`（视口含 15px 竖向滚动条）。
 - 2026-07-23 在 `1440 × 1258` 桌面视口复验：六个节点均为 `200 × 200`，各节点 `clientHeight=scrollHeight=200`；蓝紫中心核 1 个；`scrollWidth=clientWidth=1425`（视口含 15px 竖向滚动条）。
 - 2026-07-23 箭头与文字清晰度优化后，在用户当前 `1413 × 1258` 桌面视口实测：6 个箭头均应用 `marker-end` 并叠至目标圆边界；轨道层级为 4；六个节点仍均为 `200 × 200` 且 `clientHeight=scrollHeight=200`；页面 `scrollWidth=clientWidth=1413`。计算样式为：编号 `30px/800`、标题 `14px/750`、标签 `10px/700`、说明 `11.5px/500/16.675px`。
+- 2026-07-26 在 `1576 × 1258` 桌面视口实测：Hero 口号右边缘 `1380.5px`，公共 Header `.site-header__inner` 与“立即体验”右边缘均为 `1380.5px`，偏差 `0px`；口号相对 Hero 顶部仍为 `24px`；页面横向溢出 `0px`。
 
 ## 门禁结论
 
@@ -58,8 +60,27 @@
 |---|---|---|---|---|---|
 | V-H-020 | Hero Agent 徽章第二行 | 金黄色渐变；字号大于第一行；单行不折行；徽章原蓝色背景保持 | 用户浏览器批注 1；暖金沿用官网现有视觉语言 | `output/playwright/home-feedback-2026-07-24-v2/03-home-1616x1258.png` | PASS |
 | V-H-021 | Hero 两条使命文字 | 两项交换位置；`Outfit`；同一条蓝 `#2563eb` → 靛 `#4f46e5` → 青 `#06b6d4` 水平文字渐变；原型实测 `900` 字重 | Google AI Studio iframe 实际计算样式，2026-07-24 | `output/playwright/home-feedback-2026-07-24-v2/03-home-1616x1258.png` | PASS |
+| V-H-022 | Header 品牌名称 | Logo 图片保持 72px 宽；右侧新增“灵宸智能”，18px / 800、深海军蓝、0.08em 字距，与 Logo 垂直居中并留 10px 间距 | 2026-07-24 用户浏览器批注；沿用当前 Header 字体与品牌深色 | `output/playwright/header-hero-products-feedback-2026-07-24/01-home-header-hero.png` | PASS |
+| V-H-023 | Header 导航 | 导航字号由 13px 调整为 14px，字重 600；导航文案、间距、高亮与 Header 66px 高度保持 | 2026-07-24 用户浏览器批注 | 同上 | PASS |
+| V-H-024 | Hero 主标题两行间距 | 保留 56px 上限字号、字重、渐变和明确两行结构；行高由 1.14 调整为 1.24，扩大两行视觉间距 | 2026-07-24 用户浏览器批注 | 同上 | PASS |
+| V-H-025 | Hero 使命文字 | 保留 `Outfit`、900 字重和蓝靛青渐变；字号由 13px 增加 2px 至 15px，圆点同步居中 | 2026-07-24 用户浏览器批注 | 同上 | PASS |
 
 - 本轮不新增图标或图片素材。
 - 公共组件开工哈希：SiteHeader `2c033c6ccdc416829083407865733942e344c2c3318ea61d5e885181f4a90c1f`；SiteFooter `8732972918addddddbbcbec095ff0b2b7c34797ea74522bf019427956ceae2ae`；Logo `badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11`；BookingModal `3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`；BookingTrigger `cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7`。
 - `1616 × 1258` 实测：徽章第一行 `15px/700`，第二行 `16px/800`、`white-space: nowrap`、`scrollWidth=clientWidth=144px`；徽章宽 `190px`，右侧说明仍为两行且无裁切。
 - 两条使命文字均为 `Outfit / 13px / 900`，计算渐变为 `rgb(37,99,235) → rgb(79,70,229) → rgb(6,182,212)`；页面 `scrollWidth=clientWidth=1616`。
+
+## 2026-07-24 Header 与 Hero 最新复验
+
+- 在更窄的 `1280 × 720` 桌面视口实测：Header 高度 66px；品牌组合宽 159.77px；导航宽 536px，`14px / 600`；品牌、导航和 CTA 无重叠。
+- 主标题计算行高为 `67.456px`（1.24）；两行总高 134.91px，渐变第二行完整显示。
+- 使命文字计算字号为 15px；两项仍居中单行显示。
+- 页面 `scrollWidth=clientWidth=1265`（视口含 15px 纵向滚动条），无横向溢出。
+- Logo 图片与 `components/logo.tsx` 未修改。
+
+## 2026-07-27 浏览器批注第四批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| V-H-R4-01 | 四张价值卡 | `214.06px`、`padding:24px` | 内容撑开、`padding:20px`、全组减高 | PASS |
+| V-H-R4-02 | Agent OS | `padding:105px 0 49px` | `padding:60px 0` | PASS |

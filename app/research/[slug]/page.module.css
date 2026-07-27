@@ -68,7 +68,7 @@
 .article {
   width: min(var(--container-default), calc(100% - var(--page-gutter) - var(--page-gutter)));
   margin: 0 auto;
-  padding: 40px 0 112px;
+  padding: 28px 0 112px;
   font-size: 17px;
   line-height: 1.9;
 }

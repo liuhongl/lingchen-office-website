@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { customerCases, getCustomerCase, getCustomerCaseDisplayTitle } from "@/lib/customer-cases";
+import { CustomerCaseBackLink } from "./customer-case-back-link";
 
 const productMeta: Record<string, { label: string; description: string; href: string; icon?: string; tone?: string }> = {
   "Sales in": { label: "Sales in", description: "智能线索发现与评分", href: "/products/sales-in/", icon: "sales-in.svg", tone: "blue" },
@@ -51,17 +52,19 @@ export default async function CustomerCaseDetailPage({ params }: { params: Promi
     <>
       <SiteHeader />
       <main className="customer-cases-page">
-        <nav className="customer-cases-back customer-cases-shell" aria-label="返回客户案例列表"><Link href="/customer-cases/">← 返回上一级</Link></nav>
-        <section className="customer-cases-hero customer-cases-shell"><span className="customer-cases-pill">{item.domain}</span><h1>{displayTitle}</h1></section>
+        <nav className="customer-cases-back customer-cases-shell" aria-label="返回客户案例列表"><CustomerCaseBackLink domain={item.domain} /></nav>
+        <section className="customer-cases-hero customer-cases-shell">
+          <div className="customer-cases-hero__meta"><span className="customer-cases-pill">{item.domain}</span><span>客户案例</span></div>
+          <h1>{displayTitle}</h1>
+        </section>
         <article className="customer-cases-detail customer-cases-shell">
-          <header className="customer-cases-detail__title"><IconBadge src="case-title.svg" tone="blue" /><h2>客户案例</h2></header>
-          <section className="customer-cases-summary"><IconBadge src="summary-info.svg" tone="white" size={32} /><div><h3>摘要</h3><p>{item.summary}</p></div></section>
+          <section className="customer-cases-summary"><h3>摘要</h3><p>{item.summary}</p></section>
           <section className="customer-cases-block"><div className="customer-cases-block__heading"><IconBadge src="customer-building.svg" size={32} /><h3>客户介绍</h3></div><p>{item.customerIntroduction}</p></section>
           <section className="customer-cases-block customer-cases-challenges"><div className="customer-cases-block__heading"><IconBadge src="challenge-alert.svg" tone="rose" size={32} /><h3>业务挑战</h3></div><ul>{item.challenges.map((challenge) => <li key={challenge}>{challenge}</li>)}</ul></section>
           <section className="customer-cases-block customer-cases-solution"><div className="customer-cases-block__heading"><IconBadge src="solution-bulb.svg" tone="cyan-soft" size={32} /><h3>我们如何解决的</h3></div><p className="customer-cases-solution__lead">{item.solutionLead}</p><ol>{item.solutions.map((solution, index) => <li key={solution}><span>{index + 1}</span><p>{solution}</p></li>)}</ol></section>
-          <section className="customer-cases-results"><div className="customer-cases-results__heading"><IconBadge src="value-chart.svg" tone="blue" /><h3>落地成效与价值</h3></div><strong className="customer-cases-results__scope-label">样本口径</strong><p>{item.sampleScope}</p><div className="customer-cases-table" role="table" aria-label="上线前后成效对比"><div className="customer-cases-table__head" role="row"><b>指标</b><b>上线前基线</b><b>上线后结果</b><b>变化</b></div>{item.results.map((row) => <div role="row" key={row[0]}>{row.map((cell, index) => index === 0 ? <strong key={cell}>{cell}</strong> : index === 3 ? <em key={cell}>{cell}</em> : <span key={cell}>{cell}</span>)}</div>)}</div><blockquote>{item.resultSummary}</blockquote></section>
+          <section className="customer-cases-results"><div className="customer-cases-results__heading"><IconBadge src="value-chart.svg" tone="blue" /><h3>落地成效与价值</h3></div><div className="customer-cases-results__scope"><strong className="customer-cases-results__scope-label">样本口径</strong><p>{item.sampleScope}</p></div><div className="customer-cases-table" role="table" aria-label="上线前后成效对比"><div className="customer-cases-table__head" role="row"><b>指标</b><b>上线前基线</b><b>上线后结果</b><b>变化</b></div>{item.results.map((row) => <div role="row" key={row[0]}>{row.map((cell, index) => index === 0 ? <strong key={cell}>{cell}</strong> : index === 3 ? <em key={cell}>{cell}</em> : <span key={cell}>{cell}</span>)}</div>)}</div><blockquote>{item.resultSummary}</blockquote></section>
         </article>
-        <section className="customer-cases-related customer-cases-shell"><div className="customer-cases-related__heading"><IconBadge src="related-products.svg" tone="blue" /><h2>关联 AI 产品</h2></div><div className="customer-cases-products">{related.map(({ name, meta }) => <Link href={meta.href} key={`${meta.href}-${name}`}>{meta.icon ? <IconBadge src={meta.icon} tone={meta.tone} /> : null}<strong>{name}</strong></Link>)}</div></section>
+        <section className="customer-cases-related customer-cases-shell"><h2>关联 AI 产品</h2><div className="customer-cases-products">{related.map(({ name, meta }) => <Link href={meta.href} key={`${meta.href}-${name}`}><strong>{name}</strong></Link>)}</div></section>
       </main>
       <SiteFooter />
     </>

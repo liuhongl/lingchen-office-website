@@ -112,3 +112,183 @@
   max-width: none;
   white-space: nowrap;
 }
+
+/* 2026-07-25 browser review: 1200px content axis and content-driven cards. */
+@media (min-width: 801px) {
+  .dds-page .dds-hero,
+  .dds-page > section:not(.dds-hero):not(.dds-closing) {
+    padding-right: max(var(--page-gutter), calc((100% - var(--container-default)) / 2));
+    padding-left: max(var(--page-gutter), calc((100% - var(--container-default)) / 2));
+  }
+
+  .dds-page .dds-hero__body,
+  .dds-page .dds-hero__quote,
+  .dds-page .dds-problems__intro {
+    width: 100%;
+    max-width: none;
+  }
+
+  .dds-page .dds-challenges__grid,
+  .dds-page .dds-capabilities__grid,
+  .dds-page .dds-results__metrics,
+  .dds-page .dds-results__values,
+  .dds-page .dds-cooperation__modes,
+  .dds-page .dds-cooperation__values {
+    align-items: start;
+  }
+
+  .dds-page .dds-challenge-card {
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    column-gap: 12px;
+    align-items: center;
+  }
+
+  .dds-page .dds-challenge-card h3 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -.02em;
+    white-space: nowrap;
+    word-break: keep-all;
+  }
+
+  .dds-page .dds-challenge-card p {
+    grid-column: 1 / -1;
+  }
+
+  .dds-page .dds-problems__cards article,
+  .dds-page .dds-core-flow__grid article,
+  .dds-page .dds-dimensions__grid article,
+  .dds-page .dds-capabilities__grid article,
+  .dds-page .dds-results__metrics article,
+  .dds-page .dds-results__values article,
+  .dds-page .dds-applications__cases article,
+  .dds-page .dds-cooperation__modes article,
+  .dds-page .dds-cooperation__values article {
+    height: auto;
+    min-height: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .dds-page .dds-problems__summary,
+  .dds-page .dds-core-flow__summary {
+    height: auto;
+    min-height: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .dds-page .dds-capabilities__grid article {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    column-gap: 14px;
+    align-items: center;
+  }
+
+  .dds-page .dds-capabilities__grid h3 {
+    margin: 0;
+  }
+
+  .dds-page .dds-capabilities__grid p {
+    grid-column: 1 / -1;
+  }
+
+  .dds-page .dds-results__values article {
+    align-items: flex-start;
+  }
+
+  .dds-page .dds-cooperation {
+    min-height: 0;
+    padding-bottom: 60px;
+  }
+
+  .dds-page .dds-cooperation__modes article.is-primary {
+    border-width: 1px;
+    border-color: #e2e8f0;
+  }
+
+  .dds-page .dds-cooperation__modes article.is-primary > b {
+    background: #dbeafe;
+    color: #2563eb;
+  }
+
+  .dds-page .dds-cooperation__standards {
+    height: auto;
+    min-height: 0;
+  }
+
+  .dds-page .dds-cooperation__standards article {
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr);
+    column-gap: 14px;
+    align-items: center;
+  }
+
+  .dds-page .dds-cooperation__standards h4 {
+    margin: 0;
+  }
+
+  .dds-page .dds-cooperation__standards p {
+    grid-column: 1 / -1;
+  }
+
+  .dds-page .dds-closing {
+    height: auto;
+    min-height: 0;
+    padding: 60px var(--page-gutter);
+  }
+}
+
+/* 2026-07-26 用户确认：解决方案页横向内容卡片统一内容驱动高度，卡片内边距 20px。 */
+@media (min-width: 901px) {
+  .dds-page .dds-challenges__grid,
+  .dds-page .dds-problems__cards,
+  .dds-page .dds-core-flow__grid,
+  .dds-page .dds-dimensions__grid,
+  .dds-page .dds-capabilities__grid,
+  .dds-page .dds-results__values,
+  .dds-page .dds-applications__cases > div,
+  .dds-page .dds-cooperation__modes,
+  .dds-page .dds-cooperation__values {
+    align-items: stretch;
+  }
+
+  .dds-page .dds-challenge-card,
+  .dds-page .dds-problems__cards article,
+  .dds-page .dds-core-flow__grid article,
+  .dds-page .dds-dimensions__grid article,
+  .dds-page .dds-capabilities__grid article,
+  .dds-page .dds-results__values article,
+  .dds-page .dds-applications__cases article,
+  .dds-page .dds-cooperation__modes article,
+  .dds-page .dds-cooperation__values article,
+  .dds-page .dds-cooperation__standards {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
+}
+
+/* 2026-07-27 浏览器批注：首屏改为内容驱动并收紧上下留白。 */
+@media (min-width: 901px) {
+  .dds-page .dds-hero {
+    height: auto;
+    min-height: 0;
+    padding-top: 72px;
+    padding-bottom: 64px;
+  }
+}
+
+/* 2026-07-27 浏览器批注第六批：挑战卡图标与标题增加横向留白。 */
+@media (min-width: 901px) {
+  .dds-page .dds-challenge-card {
+    grid-template-columns: 48px minmax(0, 1fr);
+    column-gap: 16px;
+  }
+}

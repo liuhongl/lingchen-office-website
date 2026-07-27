@@ -93,3 +93,77 @@
 
 - 场景表从三列改为四列：落地场景 / 适用角色 / 痛点 / 可衡量指标与解决的问题。
 - 保持普通表格边框、表头底色与现有字体体系，不新增图标或装饰。
+
+## 2026-07-24 Hero 与闭环间距覆盖
+
+| 元素 ID | 元素 | 用户证据 | 视觉属性 | 状态 |
+|---|---|---|---|---|
+| MG-V2402 | Hero | 浏览器批注 12 | `height:auto; min-height:0; padding-block:60px`，内容自然撑高 | CONFIRMED |
+| MG-V2403 | 五大能力闭环 | 浏览器批注 13 | `height:auto; min-height:0; padding-block:60px`，减少顶部空白 | CONFIRMED |
+
+- 保留五张能力卡与横向闭环线，不改变图标、文案和模块归属。
+
+| MG-V2404 | 传统方案表格 | 用户浏览器批注 2-5 | 三列普通浅色表格；表头 14px/700，正文 12px；行内容垂直居中 | CONFIRMED |
+| MG-V2405 | 全部正文大模块 | 用户 2026-07-24 浏览器批注 | `height:auto; min-height:0; padding-block:60px`；Hero 除外 | CONFIRMED |
+| MG-V2501 | Hero | 用户 2026-07-25 浏览器批注 | H1 两段同排；正文扩展至容器右边界 | CONFIRMED |
+| MG-V2502 | 能力 / 优势 / 结果卡 | 用户 2026-07-25 浏览器批注 | 图标与标题同排、垂直居中；能力卡上下 padding 20px | CONFIRMED |
+| MG-V2503 | 内容卡集合 | 用户 2026-07-25 浏览器批注 | 删除痛点、场景、路径、价值、合作卡固定/最小高度 | CONFIRMED |
+| MG-V2504 | Closing | 用户 2026-07-25 浏览器批注 | 无固定高度；上下 padding 60px；标题强制两行 | CONFIRMED |
+
+## 2026-07-26 20:27 浏览器批注视觉覆盖
+
+| 元素 ID | 元素 | 当前计算证据 | 用户覆盖与实现值 | 状态 |
+|---|---|---|---|---|
+| MG-V2601 | 主体内容边界 | Header shell `1200px`；Mine GEO 常规区块约 `1337px` | 桌面端 section 左右 padding 使用 `max(var(--page-gutter), (100% - 1200px)/2)` | CONFIRMED |
+| MG-V2602 | 核心功能三 / 四 | `height:auto`，实际 `358px`；两卡 `scrollHeight=clientHeight=356px` | 保留内容驱动高度；回归确认无裁切、无覆盖 | CONFIRMED |
+| MG-V2603 | 模式 1 RaaS 卡 | 三卡均因网格 stretch 为 `271px` | 仅蓝卡 `align-self:start`，上下 padding 从 `20px` 最小收紧到 `16px` | CONFIRMED |
+| MG-V2604 | 模式 2 标题行 | 徽标与标题中心纵向差 `50px` | 新增标题行 wrapper，徽标与 H3 水平排列并垂直居中 | CONFIRMED |
+| MG-V2605 | 区块级浅色导语 | BC-05 全站语义盘点 | 当前可见 `.mgs-hero__lead` 及四个 heading span 改为 `#111827` | PASS：可见节点计算色均为 `rgb(17,24,39)` |
+
+## 2026-07-26 浏览器批注第二批
+
+| 元素 | 采样前 | 用户覆盖后 | 状态 |
+|---|---|---|---|
+| 成果标题 / 图标 | 30/38px、部分折行；64px | 22/30px、nowrap 且无溢出；48px | PASS |
+| 场景表九单元格 | block 顶对齐 | flex 列布局、`justify-content:center` | PASS |
+| 三张合作卡 | 263/271/271px，同排 stretch，padding 不一致 | 223/245/223px，`align-self:start`，padding 20px | PASS |
+| 三个合作标题 | 仅模式 2 同排 | 三个均为 `badge + h3` 同排、垂直居中 | PASS |
+
+证据：`output/playwright/browser-comments-round2-2026-07-26/mine-geo-*.png`。
+
+## 2026-07-27 浏览器批注第三批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| MGS-R3-01 | 优势卡标题 / 图标 | 标题 `22/30px` 且首卡两行；图标 `56px` | 标题 `18/26px` 单行；图标 `44px` | PASS |
+| MGS-R3-02 | 场景表三行 | `137/113/113px`；单元格上下 `20px` | `121/97/97px`；单元格上下 `12px` 且垂直居中 | PASS |
+| MGS-R3-03 | 合作模式三卡 | `223/245/223px` | 实测 `245/245/245px`，内容溢出 `0` | PASS |
+
+## 2026-07-27 浏览器批注第四批
+
+| 元素 ID | 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|---|
+| MG-R4-01 | Hero 对比模块 | 两张白卡、gap 32px、卡高 196px、上距约 153px | 双色一体模块；上下 60px；内容撑开 | PASS |
+| MG-R4-02 | 工作流标题 | section 顶部 60px + 标题上距 120px | 标题 `margin-top:0` | PASS |
+| MG-R4-03 | 合作卡付费行 | 相对卡顶 `88.33/69/78.75px` | 三张起点一致 | PASS |
+| MG-R4-04 | 同类价值卡 | `padding:24px` | `padding:20px` | PASS |
+
+## 2026-07-27 浏览器批注第五批
+
+| 元素 ID | 元素 | 开工运行态（1576×1258） | 用户覆盖与实现目标 | 状态 |
+|---|---|---|---|---|
+| MG-R5-01 | Hero 整体背景 | `linear-gradient` 在 `445px` 处切换为白色 | Hero 全部 `#f8fafc`；下一模块 `#f1f5f9` | PASS |
+| MG-R5-02 | 两张对比卡 | `gap:0`，外层一体边框 | 两个独立模块 `gap:20px`；各自 `1px` 边框、`14px` 圆角 | PASS |
+| MG-R5-03 | 对比卡图标 | PNG 显示 `40×40px`，原图白色角区可见 | 保留原图资源，`mix-blend-mode:multiply` 消除白色角区观感 | PASS |
+| MG-R5-04 | 五张能力卡编号 | `49×49px`，字号 `18px` | 同组统一 `40×40px`，字号 `16px` | PASS |
+| MG-R5-05 | 五张能力卡正文 | 标题到正文视觉间距约 `11px` | Grid `row-gap:12px`；标题垂直居中后实际视觉间距均为 `18.5px` | PASS |
+| MG-R5-06 | 四张工作流卡正文 | 标题到正文视觉间距约 `7.25px` | Grid `row-gap:12px`；标题垂直居中后实际视觉间距均为 `19.25px` | PASS |
+
+- 修改前运行态证据沿用上一批全页截图：`output/playwright/browser-comments-round4-2026-07-27/mine-geo-full-1576.png`。
+- 修改后证据：`output/playwright/browser-comments-round5-2026-07-27/03-mine-top-after-1576x1258.png`、`04-mine-workflow-after-1576x1258.png`、`07-mine-geo-full-after-1576.png`。
+
+## 2026-07-27 浏览器批注第九批
+
+| 元素 | 开工运行态 | 用户覆盖 | 状态 |
+|---|---|---|---|
+| 页面面包屑 | compact 高 `46px`、返回符号 `‹`、无预约 CTA | 实测完整模式高 `74px`、返回符号 `←`、显示预约 CTA、吸附 top `66px` | PASS |

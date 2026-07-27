@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import { Zap } from "lucide-react";
 
 const stories = [
   {
@@ -11,7 +10,6 @@ const stories = [
       <>
         <p>在通用大模型爆发的初期，我们注意到一个极为割裂的怪象：一方面，企业对 AI 的促进业务增长、降本增效寄予厚望；另一方面，大家最终拿到手的，却往往只是一个‘只能一问一答、图文处理、幻觉丛生’的各种AI工具。AI 根本无法代替人去执行真实、精密、复杂的长链路工作，无法交付生产力与商业结果。</p>
         <p>正是基于这一现实痛点，灵宸智能成立，我们创始团队的目标非常纯粹：<strong>不做那些飘在空中的、只能做 PPT展示的‘AI工具’</strong>，我们只做能够深入企业经营最深处、独立解决痛点问题、按可量化商业结果对齐利益的<strong>“工业级 AI Agent OS 基座”</strong>。</p>
-        <footer><Zap size={22} /><div><strong>工业级 AI Agent OS</strong><small>为企业经营最深处设计</small></div></footer>
       </>
     ),
   },
@@ -43,7 +41,6 @@ export function AboutStoryTabs() {
   return (
     <>
       <div className="about-story__aside">
-        <p className="about-label">OUR STORY</p>
         <h2>灵宸品牌故事与思考</h2>
         <p>点击切换下方按钮，了解灵宸团队的创业思考和做事方法，</p>
         <div className="about-story__tabs" role="tablist" aria-label="品牌故事标签">

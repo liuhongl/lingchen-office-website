@@ -71,3 +71,50 @@
 - [x] 1616×1258 的 Hero、环节、能力、指标和全页证据归档于 `output/playwright/product-feedback-2026-07-24-v3/`。
 - [x] 唯一 H1、无横向溢出、无破损图片；工程四项及 `pnpm mastergo:check deeplaw` 全部通过。
 - [x] 本轮为用户视觉覆盖，不更新历史 MasterGo 1:1 结论。
+## 2026-07-24 卡片与浅色模块回归
+
+- 业务流卡约 126px、六大环节卡约 158px、核心能力卡约 220px，均取消固定最小高度并保持等量上下 padding。
+- 自迭代引擎背景为 `rgb(242,247,254)`，文字为深色。
+- `1616×1258`：`scrollWidth=clientWidth=1601`；截图 `visual-results/feedback-2026-07-24-batch2/deeplaw-cards-1616x1258.png`。
+- 移动端未纳入本轮验收。
+## 2026-07-24 区块节奏回归
+
+- 1644 × 1258 桌面视口下，7 个 `.deeplaw-section` 最终计算值均为上下 `60px`。
+- 用户指出的「核心产品能力」已由 92px 修正为 60px，固定高度影响已解除。
+- 同视口截图：`visual-results/feedback-2026-07-24-spacing60/deeplaw-capabilities-1644x1258.png`。
+- 横向溢出：0。
+
+## 2026-07-25 `/solutions/products/deeplaw/` 浏览器批注回归
+
+- 验证视口：1576×1258；浏览器实际内容宽 1561px（15px 垂直滚动条）。
+- Hero H1 固定两行，实测 48px / 56px、总高 112px；右侧轨道整体右移 20px，页面无横向溢出。
+- 功能标签已逐字改为“分钟级合同审查”。
+- 痛点卡、主 Agent 模块卡、指标卡、价值卡、合作卡均为 `height:auto; min-height:0`；指定卡上下内边距均为 20px。
+- 指标卡实测高 113px，图标与数值同行；价值卡实测高 151px，图标与标题同行；合作突出卡实测高 148px。
+- 协同说明和“数据飞轮 越用越懂你”均为单行；CTA 正文单行。
+- CTA 实测 `height:auto; min-height:0; padding-block:60px`，内容撑高 371px。
+- 唯一 H1；`scrollWidth=clientWidth=1561`；Hero 预约按钮打开同一 `BookingModal`，关闭后滚动锁恢复。
+- 截图：`visual-results/feedback-2026-07-25-browser-comments/deeplaw-top-1576x1258.png`、`deeplaw-values-1576x1258.png`、`deeplaw-cta-1576x1258.png`。
+- 本轮为用户浏览器批注覆盖，不更新历史 MasterGo 1:1 结论。
+
+## 2026-07-27 浏览器批注第三批增量验收
+
+- 主 Agent 五卡实测均高 `137px`，内容溢出为 `0`；Agents 导语容器与 section 中心差 `0px`。
+- `1576×1258` 同视口截图：`output/playwright/browser-comments-round3-2026-07-27/01-deeplaw-agents-1576x1258.png`。
+- 页面横向溢出为 `0`；视觉人工复核 PASS。
+- 工程门禁与 `pnpm mastergo:check deeplaw` 均 PASS。
+- 移动端未纳入当前官网范围；本批不更新旧 MasterGo 严格 1:1 结论。
+
+## 2026-07-27 浏览器批注第四批
+
+- R4-01–07、R4-11 内容/视觉双验收 PASS：对比卡 `155.42px`，能力标签横排且标题第二行，优势面板 `220.19px`，增长闭环正文白色，价值卡 `padding:20px`。
+- 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/deeplaw-full-1576.png`；横向溢出 0。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check deeplaw` PASS；移动端不在范围，不声明新的 MasterGo 1:1。
+
+## 2026-07-27 浏览器批注第六批
+
+- Hero 实测由 `607.45px` 收紧为 `525.45px`，内容完整；五张核心能力卡均为 `182.38px`，标签与标题同排，内容溢出 `0`。
+- `.deeplaw-cases > article` 两卡实测均 `154.39px`，四边内边距 `20px`，`min-height:0`，内容溢出 `0`。
+- 同视口证据：`output/playwright/browser-comments-round6-2026-07-27/04-deeplaw-hero-after-1576x1258.png`、`05-deeplaw-capabilities-after-1576x1258.png`、`12-deeplaw-cases-after-1576x1258.png`；全页证据：`deeplaw-full-after-1576.png`。
+- 横向溢出、破图与浏览器错误均为 `0`；Header 与页面预约入口均打开公共 BookingModal。
+- lint、tsc、build、diff check 与 `mastergo:check deeplaw` PASS；移动端不在范围，不新增 1:1 声明。

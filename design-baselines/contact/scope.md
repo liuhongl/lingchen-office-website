@@ -88,3 +88,12 @@
 - 实现约束：只修改 `lib/contact-us.ts` 的共享 `contactFormCopy.messagePlaceholder`，禁止两套表单分别维护。
 - 视觉范围：占位文字改变可能影响换行，但不修改输入框尺寸、字体、颜色、边框和弹窗/联系页布局。
 - 公共组件开工哈希：BookingModal `3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`；BookingTrigger `cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7`。
+
+## 2026-07-25 联系方式卡片覆盖
+
+- 目标视口：`1576 × 1258`，仅验收桌面端。
+- 三张联系方式卡片删除固定高度 / 最小高度，改为上下 `padding: 20px`、内容自然撑开。
+- 标题统一放在正式 3× PNG 图标右侧，间距 `10px`，上下居中。
+- 联系方式正文统一改为黑色；地址、电话和邮箱文案不变。
+- 本轮不修改联系表单、提交接口、公共 Header / Footer / BookingModal。
+- 开工公共资产 SHA-256：`SiteHeader=5aef1bd27e0a0a57ffdc65dbb80df4ab5cc30aa2c17b1283f3791a17da345bfa`；`SiteFooter=8732972918addddddbbcbec095ff0b2b7c34797ea74522bf019427956ceae2ae`；`BookingModal=3e143bc70f5cc270231d3961ff5eb1b92481be637c55bcbc36269cfedbb32206`；`BookingTrigger=cf6bfae2e7035ac9fe65819ab15dd5ab0eed4e2cd18aee2bd3d652d28bc4fad7`；`Logo=badc568e402a6faa849022806329283acd678e333cc0ce892296220abf8fdf11`。

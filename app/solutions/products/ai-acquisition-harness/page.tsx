@@ -104,37 +104,37 @@ const outcomeValues = [
 ];
 
 const valueTransitionRows = [
-  ["通联作业效率", "【传统做法】人工坐席 / 拨号系统逐个拨打，效率低下，跨时区与节假日无法连续响应。", "【Harness 闭环】数字员工 7×24 双向通话，并发无上限，效率提升至传统 500% 以上，通联成本降至传统坐席的 30%~60%。"],
-  ["话术交互质量", "【传统做法】话术照本宣科，遇反问即卡壳，体验差，打扰感强。", "【Harness 闭环】自适应心理模型话术，高情商拟真交互，支持智能静默打断与共情反馈。"],
-  ["开发跟进时效", "【传统做法】邮件 / 文本手工编写与群发，客户画像割裂、跟进不及时。", "【Harness 闭环】基于客户画像、产品卖点、业务知识库自动生成个性化邮件 / 文本并追踪互动，沟通质量可全面复盘。"],
-  ["短信场景通联", "【传统做法】短信千篇一律群发，打扰多、转化低。", "【Harness 闭环】上下文感知模板 + 时机算法 + 多渠道级联，响应转化提升，商机 24 小时不漏接。"],
-  ["反馈沉淀分析", "【传统做法】只记录“是否拨通”，痛点反馈与客户诉求一盘散沙，难以指导后续经营。", "【Harness 闭环】NLP 语义自动归类，实时解析意向等级与需求分析，看清转化卡点，变“被动跟进”为“主动增长”。"],
+  ["通联作业效率", "人工坐席 / 拨号系统逐个拨打，效率低下，跨时区与节假日无法连续响应。", "数字员工 7×24 双向通话，并发无上限，效率提升至传统 500% 以上，通联成本降至传统坐席的 30%~60%。"],
+  ["话术交互质量", "话术照本宣科，遇反问即卡壳，体验差，打扰感强。", "自适应心理模型话术，高情商拟真交互，支持智能静默打断与共情反馈。"],
+  ["开发跟进时效", "邮件 / 文本手工编写与群发，客户画像割裂、跟进不及时。", "基于客户画像、产品卖点、业务知识库自动生成个性化邮件 / 文本并追踪互动，沟通质量可全面复盘。"],
+  ["短信场景通联", "短信千篇一律群发，打扰多、转化低。", "上下文感知模板 + 时机算法 + 多渠道级联，响应转化提升，商机 24 小时不漏接。"],
+  ["反馈沉淀分析", "只记录“是否拨通”，痛点反馈与客户诉求一盘散沙，难以指导后续经营。", "NLP 语义自动归类，实时解析意向等级与需求分析，看清转化卡点，变“被动跟进”为“主动增长”。"],
 ];
 
 const applicationScenarios = [
   {
-    title: "1. 海外客户开发与线索筛选",
+    title: "海外客户开发与线索筛选",
     audience: "市场 / 销售 / 运营",
     pain: "人工开发效率低、时差响应慢、线索质量难判断。",
     solution: "AI 按国家、行业、画像分群外呼 / 邮件 / 短信级联触达，并通过大模型录音质检与语义分析沉淀意向线索。",
     benefit: "从冷启动获客到意向筛选形成闭环，帮助销售优先跟进高价值客户，线索触达率大幅提升，通联人力降低。",
   },
   {
-    title: "2. 客户培育与活动邀约",
+    title: "客户培育与活动邀约",
     audience: "市场 / 销售 / 客户成功",
     pain: "活动邀约和客户培育依赖人工触达，响应难追踪、跟进不及时。",
     solution: "AI 按客户阶段自动生成邀约、提醒与跟进内容，NLP 自动归纳兴趣点与异议原因。",
     benefit: "看清客户真实兴趣与转化阻力，从一次性打扰式触达转向持续培育，实现邀约覆盖率提升、互动反馈实时化。",
   },
   {
-    title: "3. 产品资料 / 报价前沟通分发",
+    title: "产品资料 / 报价前沟通分发",
     audience: "售前 / 解决方案 / 销售",
     pain: "资料发送靠人工复制粘贴，内容高度同质，发送后的点击与阅读状态完全黑盒。",
     solution: "直连客户画像与产品素材库，自动生成个性化资料说明 / 邮件 / 短信，并全链路追踪打开、点击与回复。",
     benefit: "资料分发更精准、后续跟进时机更清晰，让销售可围绕买家真实兴趣点进行高效推进。",
   },
   {
-    title: "4. 销售线索触达与跟进",
+    title: "销售线索触达与跟进",
     audience: "售前 / 解决方案 / 销售",
     pain: "重复外呼耗时极高，夜间和节假日极易漏接商机，且话术不统一导致满意度参差不齐。",
     solution: "多渠道按时差最佳时机主动触达并实施漏斗级联，复刻销冠级话术方案，提供 AI 售前在线答疑与初筛。",
@@ -188,7 +188,7 @@ export default function AiAcquisitionHarnessSolutionPage() {
         <div className="ahs-shell ahs-hero__inner">
           <div className="ahs-hero__copy">
             <p className="ahs-eyebrow"><span aria-hidden="true" />产品专项解决方案 · AI获客HARNESS</p>
-            <h1 id="ahs-title"><span>AI获客Harness</span><strong>智能解决方案</strong></h1>
+            <h1 id="ahs-title"><span>AI销售获客Harness</span><strong>智能解决方案</strong></h1>
             <p className="ahs-hero__subtitle">全场景销售 AI 获客 Harness</p>
             <p className="ahs-hero__lead">专为各行各业打造的智能化、数字化、个性化销售获客 AI Harness。以 AI 主动外呼 / 呼入、自适应邮件 / 文本、场景化动态短信三大子系统的“获客矩阵”，将过去重复、繁重、被动、单一的人工销售作业，升级为全自动、全天候、高并发、高情商的主动式获客。</p>
             <p className="ahs-hero__detail">从「机械群发」到「<strong className="ahs-hero__accent">千人千面</strong>」的个性化智慧触达客户 —— 大模型外呼（呼入）、个性化针对性邮件、场景化短信，全自动 · 全天候 · 高并发 · 高情商地获取主动线索。通过效率提升、降低成本、提升销售业绩三大维度，驱动企业销售能力建设与业绩稳定提升，让获客能力沉淀为企业可自进化的数字资产。</p>
@@ -200,14 +200,16 @@ export default function AiAcquisitionHarnessSolutionPage() {
 
       <section className="ahs-overview" aria-labelledby="ahs-overview-title">
         <div className="ahs-shell">
-          <h2 className="ahs-section-title" id="ahs-overview-title">一、一图读懂 (AI 赋能企业获客，沉淀为企业可持续、可进化的核心价值)</h2>
+          <h2 className="ahs-section-title" id="ahs-overview-title">AI 赋能企业获客，沉淀为企业可持续、可进化的销售获客能力体系</h2>
           <div className="ahs-overview__grid">
             {overviewCards.map((card) => (
               <article className="ahs-overview__card" key={card.title}>
-                <span className="ahs-overview__icon" aria-hidden="true">
-                  <Image src={`/images/solutions/ai-acquisition-harness/${card.icon}`} alt="" width={22} height={22} />
-                </span>
-                <h3>{card.title}</h3>
+                <div className="ahs-overview__heading">
+                  <span className="ahs-overview__icon" aria-hidden="true">
+                    <Image src={`/images/solutions/ai-acquisition-harness/${card.icon}`} alt="" width={22} height={22} />
+                  </span>
+                  <h3>{card.title}</h3>
+                </div>
                 <p>{card.body}</p>
               </article>
             ))}
@@ -313,7 +315,7 @@ export default function AiAcquisitionHarnessSolutionPage() {
                 <tr>
                   <th scope="col">维度</th>
                   <th scope="col">传统做法</th>
-                  <th scope="col">Harness 闭环</th>
+                  <th scope="col">灵宸AI销售获客Harness价值</th>
                 </tr>
               </thead>
               <tbody>
@@ -331,8 +333,8 @@ export default function AiAcquisitionHarnessSolutionPage() {
           <h2 className="ahs-section-title" id="ahs-applications-title">六、部分应用场景示例</h2>
           <p className="ahs-applications__lead">从解放销售获客业务中的「脏活、累活、卡点活」开始 —— 交付给您高意向客户线索。</p>
           <div className="ahs-applications__head">
-            <span>业务模块 / 场景类型</span>
-            <span>核心痛点 / 服务群体</span>
+            <span>场景类型</span>
+            <span>服务群体</span>
             <span>灵宸智能适配解决方案</span>
           </div>
           <div className="ahs-applications__list">
@@ -374,8 +376,10 @@ export default function AiAcquisitionHarnessSolutionPage() {
           <div className="ahs-deployment__grid">
             {deploymentModes.map((item) => (
               <article className="ahs-deployment-card" key={item.label}>
-                <span className="ahs-deployment-card__label"><i aria-hidden="true" />{item.label}</span>
-                <h3>{item.title}</h3>
+                <header className="ahs-deployment-card__heading">
+                  <span className="ahs-deployment-card__label"><i aria-hidden="true" />{item.label}</span>
+                  <h3>{item.title}</h3>
+                </header>
                 <p>{item.description}</p>
                 <div><strong>付费方案：</strong><p>{item.payment}</p></div>
               </article>

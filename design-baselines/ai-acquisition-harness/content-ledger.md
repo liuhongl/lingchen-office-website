@@ -64,3 +64,53 @@
 | AHS-T2401 | 一图读懂标题 | AI 赋能企业获客，沉淀为企业可持续、可进化的销售能力体系 | `app/products/ai-acquisition-harness/page.tsx` | PASS |
 | 2026-07-24-TABLE-01 | 价值跃迁表 | 验证维度 / 传统做法 / Harness价值跃迁 | 用户浏览器批注 1-2 | `app/products/ai-acquisition-harness/page.tsx` | PASS |
 | 2026-07-24-TABLE-02 | 落地场景表 | 落地场景 / 适用角色 / 痛点 / 可衡量指标 / 解决的问题 | 用户浏览器批注 3-4 | `app/products/ai-acquisition-harness/page.tsx` | PASS |
+| AHS-T2403 | 场景名称 | 删除四行 `1.`–`4.` 数字前缀，保留名称 | 用户浏览器批注 13 | `app/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+| AHS-T2404 | 合作模式 | 三列表头沿用合作服务模式 / 付费结算方式 / 最契合对应客户画像，原两组内容按行对应 | 用户浏览器批注 12 | `app/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+
+## 2026-07-25 用户逐字覆盖
+
+| 文本 ID | 区块 | 用户确认覆盖 | 代码位置 | 状态 |
+|---|---|---|---|---|
+| AHS-T2501 | 产品导航 | AI销售获客Harness | `components/solution-tabs.tsx` | CONFIRMED |
+| AHS-T2502 | Hero 主标题 | AI销售获客Harness / 智能解决方案，同一行显示 | `app/solutions/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+| AHS-T2503 | 一级认知标题 | AI 赋能企业获客，沉淀为企业可持续、可进化的销售获客能力体系 | `app/solutions/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+| AHS-T2504 | 场景标题 | 四个场景名称删除 `1.`–`4.` 数字前缀 | `app/solutions/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+| AHS-T2505 | 价值跃迁表头 | 灵宸AI销售获客Harness价值 | `app/solutions/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+| AHS-T2506 | 价值跃迁正文 | 删除五行传统列的 `【传统做法】` 和 Harness 列的 `【Harness 闭环】` 前缀，保留其余原文 | `app/solutions/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+| AHS-T2507 | 场景表头 1 | 场景类型 | `app/solutions/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+| AHS-T2508 | 场景表头 2 | 服务群体 | `app/solutions/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+
+- Hero 两段正文、黄金矩阵正文、成果说明、优势/技术底座正文、案例正文与服务保障正文不改字，只调整宽度、排列与间距。
+
+## 2026-07-26 用户覆盖
+
+| 文本 ID | 区块 | 用户确认覆盖 | 代码位置 | 状态 |
+|---|---|---|---|---|
+| AHS-T2601 | 应用卡 1 | 只调低“海外客户开发与线索筛选”卡片高度，不修改三列原文 | `app/solutions/products/ai-acquisition-harness/prototype-sync.css` | CONFIRMED |
+| AHS-T2602 | 合作模式 1 | “模式 1”与“RaaS 模式 / 托管运营”同排，不修改两段字符串 | `app/solutions/products/ai-acquisition-harness/page.tsx` | CONFIRMED |
+
+| AHS-R2-01 | 痛点卡 1 | 用户定位的两段挑战/方案原文不变 | 只删除重复外层留白 | `.ahs-pain-card:nth-child(1)` | PASS |
+| AHS-R2-02 | 优势区 | 标题、三卡、技术底座原文不变 | 只统一背景 | `.ahs-advantages` | PASS |
+| AHS-R2-03 | 应用场景 | 表头与四行三列原文不变 | 只改连续表格结构 | `.ahs-applications` | PASS |
+| AHS-R2-04 | 合作模式 | 两个标签、标题、说明和付费方案原文不变 | 两个标题统一同排 | `.ahs-deployment-card__heading` | PASS |
+
+## 2026-07-27 浏览器批注第四批内容门禁
+
+- R4-15–R4-18、R4-11 不改过去/现在、三项核心能力、差异优势、指引与价值卡任何可见文案。状态：CONFIRMED。
+
+## 2026-07-27 浏览器批注第六批内容门禁
+
+- R6-01–02 仅调整三张核心能力卡的图标尺寸和标签位置；现有三组标题、标签、正文逐字保持不变。状态：PASS。
+
+## 2026-07-27 浏览器批注第六批内容门禁
+
+- BC6-CASE 仅调整两张经典案例卡的内边距与高度策略；标题和正文保持逐字不变。状态：CONFIRMED。
+
+## 2026-07-27 浏览器批注第七批内容门禁
+
+- BC7-ACQ-01 仅收紧合作模式表头高度；三列表头文字保持逐字不变。状态：CONFIRMED。
+
+## 2026-07-27 浏览器批注第九批内容门禁
+
+- BC9-ACQ-01 五张原因卡仅调整标题行对齐，五组标题与正文逐字不变。
+- BC9-ACQ-02 面包屑取消 compact 特例；返回文字保持“返回产品矩阵”，符号统一为 `←`，新增显示既有公共 CTA“立即预约体验该产品”。状态：CONFIRMED。

@@ -121,3 +121,30 @@
 - 公共资产：SiteHeader、SiteFooter、Logo、BookingModal、BookingTrigger 的 SHA-256 与本轮开工值一致。
 - 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check home` 全部 PASS；构建后首页 HTTP 200，浏览器控制台错误数为 0。
 - 当前完成等级：已实现、已视觉校准；金黄色渐变是用户授权的视觉覆盖，不更新历史 MasterGo 1:1 结论。
+
+## 2026-07-24 公共 Header 与 Hero 最新批注复验
+
+- [x] Header Logo 图片后新增“灵宸智能”；Logo 图片、尺寸和组件文件未修改。
+- [x] 导航为 `14px / 600`，Header 高度仍为 66px；在 1280px 桌面宽度下品牌、导航与 CTA 无重叠。
+- [x] Hero 主标题行高调整为 1.24，两行间距增大且“新质生产力”渐变完整。
+- [x] 两条使命文字由 13px 增至 15px，原字体、字重、渐变和顺序保持。
+- [x] 首页 `scrollWidth === clientWidth`；浏览器 DOM 快照和截图均已复核。
+- 视觉证据：`output/playwright/header-hero-products-feedback-2026-07-24/01-home-header-hero.png`。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check home` 全部 PASS；构建静态生成 71 个页面。
+- 本轮是用户明确授权的公共 Header / Hero 覆盖，不改变历史 MasterGo 画板的原始视觉事实。
+
+## 2026-07-26 Hero 右上口号位置复验
+
+- [x] 仅调整首页 `.hero-motto--home` 水平定位，公共 Header、CTA 和口号文案未修改。
+- [x] `1576 × 1258` 下口号右边缘与 Header “立即体验”右边缘均为 `1380.5px`，偏差 `0px`。
+- [x] 口号相对 Hero 顶部仍为 `24px`，页面横向溢出为 `0px`。
+- 视觉证据：`visual-results/feedback-2026-07-26/home-motto-aligned-1576x1258.png`。
+- 公共 Header、Footer、Logo、BookingModal 与 `app/layout.tsx` 的交付 SHA-256 均与本轮开工值一致。
+- 工程门禁：`pnpm lint`、`pnpm exec tsc --noEmit`、`pnpm build`、`git diff --check`、`pnpm mastergo:check home` 全部 PASS；首页本地 HTTP 200。
+- 当前完成等级：已实现、已视觉校准；本轮为用户浏览器批注覆盖，不更新历史 MasterGo 1:1 结论。
+
+## 2026-07-27 浏览器批注第四批
+
+- R4-28–29 内容/视觉双验收 PASS：四张价值卡降至 `185.67px`、`padding:20px`；Agent OS 上下内边距均为 `60px`。
+- 同视口全页证据：`output/playwright/browser-comments-round4-2026-07-27/home-full-1576.png`；横向溢出 0。
+- 本轮统一门禁：lint、tsc、build、diff check、`mastergo:check home` PASS；移动端不在范围，不声明新的 MasterGo 1:1。

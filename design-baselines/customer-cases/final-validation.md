@@ -80,6 +80,46 @@
 - 工程验收：PASS；`lint`、`tsc --noEmit`、`build`、`git diff --check` 均通过，构建生成 16 个详情静态路径。
 - 移动端未纳入当前官网范围。
 
+## 2026-07-25 当前原型双视图与详情模板回归
+
+### 根因与修正
+
+- 根因：旧实现把同一份 16 条“按产品”案例快照同时用于“按领域”和“按产品”，筛选代码本身正常，但数据模型未表达原型的双视图差异。
+- 当前原型事实：按领域共 9 条，其中 AI 出海获客为 3 条四产品协同案例；按产品仍为 16 条产品专项案例。
+- 修正：新增当前按领域出海案例数据，并在数据层明确 `domain` / `product` 可见视图，不再用单一数组覆盖两类 Tab。
+
+### 验收
+
+| 项目 | 结果 | 证据 |
+|---|---|---|
+| 按领域 → 全部 | PASS | DOM 实测 9 条，标题逐项与当前原型一致 |
+| 按领域 → AI出海获客 | PASS | DOM 实测 3 条 |
+| 按产品 → 全部 | PASS | DOM 实测 16 条 |
+| 按产品 → Social Grow | PASS | DOM 实测 2 条 |
+| Tab 状态返回 | PASS | 按产品 → Recov AI → 详情 → 返回后恢复“按产品 / Recov AI” |
+| Hero | PASS | 内容驱动高度；`min-height:0`；上下内边距 60px |
+| 摘要 / 样本口径 | PASS | 桌面同一行两列布局 |
+| 成效表 | PASS | 数据行 58px；变化列仅蓝色字，无背景与圆角 |
+| 关联产品 | PASS | 标题与产品同行；产品链接无边框、背景和阴影 |
+| 返回链接 | PASS | 纯黑色；直接访问使用所属领域作为安全回退 |
+| 横向溢出 | PASS | 列表与详情 `scrollWidth - clientWidth = 0` |
+| 桌面截图 | PASS | `visual-results/customer-cases-feedback-2026-07-25/` 三张 1576×1258 截图 |
+| ESLint | PASS | `pnpm lint` |
+| TypeScript | PASS | `pnpm exec tsc --noEmit` |
+| 静态构建 | PASS | `pnpm build`；74 个静态页面，19 个案例详情路径 |
+| Diff 格式 | PASS | `git diff --check` |
+| MasterGo 证据门禁 | PASS | `pnpm mastergo:check customer-cases` |
+| 公共资产冻结 | PASS | Header、Footer、Logo、BookingModal、layout SHA-256 与本轮开工记录一致 |
+
+移动端继续不在当前官网验收范围。本轮视觉覆盖来自用户浏览器批注与当前交互原型，不把索引双视图报告为 MasterGo 1:1。
+
+### 2026-07-25 Hero 间距追加覆盖
+
+- 用户明确要求所有客户案例详情 Hero 的桌面 `margin-top` 改为 `0`。
+- 用户随后明确覆盖：所有客户案例详情 Hero 的桌面上下内边距统一改为 `30px`。
+- 仅修改共享详情样式，不调整返回导航、Hero 内容、左右 48px 内边距或公共 Header。
+- 同视口实测与截图待本轮复核。
+
 ## 2026-07-23 短内容筛选状态 Footer 贴底回归
 
 - 用户覆盖：当公共 Header、主体和公共 Footer 的自然高度不足桌面视口时，主体吸收剩余高度，Footer 保持在视口底部；长页继续按内容自然增长。

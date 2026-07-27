@@ -35,3 +35,25 @@
 | 七个 `.overseas-title > b` | 去掉中文序号后的“、” | 仅改 `no` 文本；保留字体、颜色、底座尺寸、标题间距和标题正文 | PASS |
 
 - 同视口证据：`output/playwright/ai-overseas-sequence-2026-07-23/after/first-section.png`。
+
+## 2026-07-24 浏览器批注视觉覆盖
+
+| 元素 ID | 区块 | 用户覆盖 | 精确实现要求 | 门禁状态 |
+|---|---|---|---|---|
+| V-2401 | Hero 标题 | 改为一行 | 移除强制换行；运行时 52px/800、标题高度 48px | PASS |
+| V-2402 | Hero 正文 | 宽度延伸到右侧 | 宽度为当前 `.shell` 的 100%（1200px），不设置额外 max-width | PASS |
+| V-2403 | Hero | 下间距与上间距一致 | 取消 520px 最小高度；运行时上下 padding 均为 42px | PASS |
+| V-2404 | 正文 section | 上下间距统一 | 桌面端运行时 `padding-block:60px; height:auto; min-height:0` | PASS |
+| V-2405 | 36 个月指标 | 缩小字号适配一行 | 运行时 `font-size:24px; white-space:nowrap`，未溢出卡片 | PASS |
+| V-2406 | 可信底座 | 左三右三 | 六项运行时为两列三行，左列前三项、右列后三项 | PASS |
+| AO-V2501 | 可信底座 | 用户 2026-07-25 浏览器批注 | 两列三行，按用户指定的列内顺序排列 | CONFIRMED |
+| AO-V2502 | Closing CTA | 用户 2026-07-25 浏览器批注 | 高度由内容与 `60px` 上下 padding 撑开，不设固定高度 | CONFIRMED |
+# 2026-07-26 浏览器批注视觉台账
+
+| 元素 | 布局 / 字体 | 背景 / 图形 | 图标来源 | 状态 |
+|---|---|---|---|---|
+| 痛点卡标题行 | 编号与标题横向排列，`gap:12px`，垂直居中 | 保留现有编号色块与卡片背景 | 无新增图标 | PASS |
+| 智能体标签行 | 图标与标签横向排列，`gap:12px` | 保留现有图标渐变与标签色 | 复用现有正式图标 | PASS |
+| 指标说明 | `font-size:14px` | 原背景不变 | 无 | PASS |
+
+- 同视口证据：`visual-results/feedback-2026-07-26/ai-overseas-top-1576x1258.png`、`visual-results/feedback-2026-07-26/ai-overseas-cards-1576x1258.png`。

@@ -183,3 +183,10 @@
 | 交付编号 | `7.1`、`7.2`、`7.3` 顺序呈现 | PASS |
 | 时间线 | `01` 至 `04` 竖向标题结构 | PASS |
 | 统一基石 | 原文独立置于强调面板 | PASS |
+
+## 2026-07-25 用户确认覆盖
+
+- `/solutions/products/recov-ai/` 不再维护独立正文台账；其可见主体逐字复用 `/solutions/non-performing-assets/` 当前实现。
+- 唯一内容源：`app/solutions/non-performing-assets/page.tsx` 导出的 `NonPerformingAssetsContent`。
+- 产品专项路由入口：`app/solutions/products/recov-ai/page.tsx`。
+- 本轮内容验收标准：两条路由 `.npa-page.innerText` 完全一致。

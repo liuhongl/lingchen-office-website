@@ -61,7 +61,7 @@ const featuredArticles: ResearchListArticle[] = [
   },
   {
     number: "4",
-    tag: "解决方案&白皮书",
+    tag: "行业洞察",
     title: "按结果付费（RaaS）：当 AI 供应商开始与你共担风险，采购逻辑变了什么",
     summary:
       '摘要：摘要：RaaS 把 AI 采购从"买功能"推向"买结果"。供应商愿意按意向线索、实际回款、节省成本收费,意味着它必须共同承担交付风险,采购方也要重新设计合同、验收口径和数据配合义务。',

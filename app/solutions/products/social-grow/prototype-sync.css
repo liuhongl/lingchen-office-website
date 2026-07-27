@@ -16,15 +16,67 @@
   letter-spacing: .02em;
 }
 
-/* 用户审查覆盖：稳定四张改变卡的图标锚点，避免长文案挤动图标。 */
+/* 2026-07-26 浏览器批注：四张改变卡统一为图标在前、标题在后。 */
 .sgs-page .sgs-change__card {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
 }
 
-.sgs-page .sgs-change__card > img {
-  position: absolute;
-  top: 24px;
-  right: 24px;
+.sgs-page .sgs-change__heading {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.sgs-page .sgs-change__heading img {
+  flex: 0 0 48px;
+}
+
+.sgs-page .sgs-change__card > p {
+  margin-top: 10px;
+  white-space: normal;
+}
+
+.sgs-page .sgs-problems__grid {
+  margin-top: 32px;
+}
+
+/* 2026-07-26 浏览器批注：场景表各单元格内容上下居中。 */
+.sgs-page .sgs-scenarios__row > div,
+.sgs-page .sgs-scenarios__row > p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 2026-07-26 浏览器批注：只收紧第二张合作卡标题下距。 */
+.sgs-page .sgs-cooperation__card:nth-child(2) h3 {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+
+.sgs-page .sgs-results__metric strong {
+  font-size: 38px;
+  line-height: 50px;
+}
+
+.sgs-page .sgs-results__value > p {
+  margin-top: 12px;
+}
+
+.sgs-page .sgs-scenarios__row strong {
+  background: transparent;
+}
+
+.sgs-page .sgs-scenarios__row:nth-child(4) {
+  min-height: 0;
+}
+
+.sgs-page .sgs-scenarios__row:nth-child(4) > * {
+  padding-block: 14px;
 }
 
 /* 用户审查覆盖：内容驱动区块高度，避免卡片下方出现固定高度空白。 */
@@ -97,4 +149,51 @@
   height: auto;
   min-height: 89px;
   margin: 32px auto 0;
+}
+
+@media (min-width: 801px) {
+  .sgs-page .sgs-hero,
+  .sgs-page .sgs-closing {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 60px 0;
+  }
+
+  .sgs-page .sgs-hero__lead,
+  .sgs-page .sgs-hero__body {
+    width: 100%;
+  }
+
+  .sgs-page .sgs-results__metric--green strong {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+  .sgs-page .sgs-closing p {
+    width: min(1200px, calc(100% - 80px));
+    white-space: nowrap;
+  }
+}
+
+/* 2026-07-26 用户确认：解决方案页横向内容卡片统一内容驱动高度，卡片内边距 20px。 */
+@media (min-width: 901px) {
+  .sgs-page .sgs-change__grid,
+  .sgs-page .sgs-problems__grid,
+  .sgs-page .sgs-results__values,
+  .sgs-page .sgs-scenarios__examples,
+  .sgs-page .sgs-cooperation__grid {
+    align-items: stretch;
+  }
+
+  .sgs-page .sgs-change__card,
+  .sgs-page .sgs-problems__card,
+  .sgs-page .sgs-results__value,
+  .sgs-page .sgs-scenarios__example,
+  .sgs-page .sgs-cooperation__card {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
+  }
 }

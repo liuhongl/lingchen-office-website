@@ -1,6 +1,12 @@
 @media (min-width: 901px) {
+  .npa-page .npa-hero {
+    height: auto;
+    min-height: 0;
+    padding: 40px 0 50px;
+  }
+
   .npa-page .npa-overview {
-    background: #eef6ff;
+    background: #f5f7fa;
   }
 
   .npa-page .npa-problems,
@@ -41,6 +47,50 @@
   .npa-page .npa-deliverables article {
     height: auto;
     min-height: 94px;
+  }
+
+  .npa-page .npa-pressure-card__metric-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .npa-page .npa-pressure-card__metric-row > strong {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: -.03em;
+  }
+
+  .npa-page .npa-pressure-card__metric-row > strong span {
+    margin-left: 7px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .npa-page .npa-pressure-card--cost .npa-pressure-card__metric-row > strong {
+    color: #f24447;
+  }
+
+  .npa-page .npa-pressure-card--efficiency .npa-pressure-card__metric-row > strong {
+    color: #ff9f00;
+  }
+
+  .npa-page .npa-pressure-card--risk .npa-pressure-card__metric-row > strong {
+    color: #ff4670;
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .npa-page .npa-pressure-card h4 {
+    margin-top: 20px;
+  }
+
+  .npa-page .npa-aging-card {
+    height: auto;
+    min-height: 0;
+    padding: 32px;
   }
 
   .npa-page .npa-timeline {
@@ -95,7 +145,7 @@
 
   .npa-page .npa-cooperation {
     height: auto;
-    margin-top: 32px;
+    margin-top: 56px;
     padding: 34px 32px 38px;
   }
 
@@ -131,8 +181,121 @@
     color: #337e6b;
   }
 
+  .npa-page .npa-cooperation__foundation {
+    margin: 24px 0 0;
+    color: #52657d;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  /* 2026-07-26 浏览器批注：第四张成果卡和数值不再使用固定高度。 */
+  .npa-page .npa-metrics article:nth-child(4) {
+    height: auto;
+    align-self: stretch;
+  }
+
+  .npa-page .npa-metrics article:nth-child(4) strong {
+    height: auto;
+    margin-bottom: 16px;
+  }
+
+  .npa-page .npa-why-grid {
+    margin-top: 36px;
+  }
+
   .npa-page .npa-closing {
     height: 260px;
     padding: 74px 0;
+  }
+}
+
+@media (min-width: 901px) {
+  .npa-page .npa-identity-grid article {
+    height: auto;
+    min-height: 0;
+    padding: 20px 22px;
+  }
+
+  .npa-page .npa-identity-grid,
+  .npa-page .npa-timeline {
+    align-items: start;
+  }
+
+  .npa-page .npa-identity-card__header {
+    display: grid;
+    grid-template-columns: 36px minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .npa-page .npa-identity-icon {
+    position: static;
+  }
+
+  .npa-page .npa-identity-grid strong {
+    margin: 0;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .npa-page .npa-identity-grid b {
+    margin-top: 14px;
+  }
+
+  .npa-page .npa-timeline::before,
+  .npa-page .npa-timeline li::before {
+    display: none;
+  }
+
+  .npa-page .npa-timeline li {
+    min-height: 0;
+    padding: 20px;
+  }
+
+  .npa-page .npa-timeline li:not(:last-child)::after {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    right: -18px;
+    width: 16px;
+    color: #2473ff;
+    background: #fff;
+    font-size: 22px;
+    line-height: 1;
+    text-align: center;
+    transform: translateY(-50%);
+    content: "→";
+  }
+}
+
+/* 2026-07-26 用户确认：解决方案页横向内容卡片统一内容驱动高度，卡片内边距 20px。 */
+@media (min-width: 901px) {
+  .npa-page .npa-pressure-grid,
+  .npa-page .npa-legal-grid,
+  .npa-page .npa-solution-bottom,
+  .npa-page .npa-matrix-grid,
+  .npa-page .npa-scene-grid,
+  .npa-page .npa-why-grid,
+  .npa-page .npa-cooperation,
+  .npa-page .npa-identity-grid,
+  .npa-page .npa-deliverables {
+    align-items: stretch;
+  }
+
+  .npa-page .npa-pressure-card,
+  .npa-page .npa-aging-card,
+  .npa-page .npa-legal-grid article,
+  .npa-page .npa-solution-bottom article,
+  .npa-page .npa-matrix-grid article,
+  .npa-page .npa-scene-grid article,
+  .npa-page .npa-why-grid article,
+  .npa-page .npa-cooperation article,
+  .npa-page .npa-identity-grid article,
+  .npa-page .npa-deliverables article {
+    box-sizing: border-box;
+    height: auto;
+    min-height: 0;
+    padding: 20px;
   }
 }
